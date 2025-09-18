@@ -43,6 +43,7 @@
 * some XAI tools already exist for this:
     * LIME (Local Interpretable Model-Agnostic Explanations)
     * SHAP (SHapley Additive exPlanations)
+* i asked [gemini](https://gemini.google.com/u/1/app/cf66a829e9a2d6fb) about XAI in rec sys
 * **investigate their limitations and provide potential solutions**
 * the problem with this thesis is that it may be seen as outdated
     * the Rec sys field is moving towards LLM's for recommendations
@@ -67,3 +68,4 @@
 
 # Questions/stuff to research
 * do LLM rec sys perform better than DL?
+    * according to [gemini](https://gemini.google.com/u/1/app/8ec1661cd03d7365), **yes.**
