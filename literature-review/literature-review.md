@@ -17,7 +17,8 @@
 * For now, just **skim** papers. Just read:
     1. Title
     2. Abstract
-    3. Conclusion
+    3. Introduction (Owen didn't mention it, but I think it's worth reading)
+    4. Conclusion
 
 # Papers
 
@@ -74,7 +75,27 @@ the context of a decision process*
 ### [Enhancing Explainability and Scrutability of Recommender Systems](https://universaar.uni-saarland.de/bitstream/20.500.11880/32590/1/azin_ghazimatin_phd_thesis.pdf)
 * 
 
+## RS/DL/AI applied to course counselling or similar
 
+### [The POWER of Ikigai: Optimizing Life Fulfillment with an Integrated User Simulator and Adaptive Hobby Recommender](/literature-review/papers/35159-Article%20Text-39226-1-2-20250410.pdf)
+* Predicts a user's ikigai level
+* Based on this, it recommends hobbies
+
+### [Teachable Agent for Improving Ikigai](https://dr.ntu.edu.sg/server/api/core/bitstreams/89430d25-a913-464d-a1bc-eb9dd1bc3c2f/content)
+* Predicts a user's ikigai level
+* provides conversational AI agent for the elderly to help with their ikigai
+
+### [RECOMMENDER SYSTEMS TO SUPPORT STUDENTS' EMPLOYABILITY: THE CASE STUDY OF CAREPROFSYS](https://library.iated.org/view/BIRZANEANU2024REC)
+* Hybrid RS for **careers**, not courses.
+
+### **[A comparative analysis of different recommender systems for university major and career domain guidance](https://link.springer.com/content/pdf/10.1007/s10639-022-11541-3.pdf)**
+* **IMPORTANT PAPER!**
+* According to their work, a **hybrid RS with CF and KB (supported by Case-Based Reasoning and Ontology) yielded the best results.**
+* This has a potentially useful reference for *"Choosing a university major or a career domain is a challenging task overflowing with concern that makes students distracted"* [here](https://www.sciencedirect.com/science/article/pii/S0360131521001421?via%3Dihub)
+
+### [PCRS: Personalized Career-Path Recommender System for Engineering Students](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9268112)
+* Similar to mine, but for engineering students, concept should be the same
+* **Interesting:** Their dataset is only from under/postgrad engineers who are **satisfied** with their degree
 
 # Areas to research in
 * Scrutability, or the idea of understanding how a rec sys arrived at that particular rec
@@ -89,3 +110,13 @@ the context of a decision process*
 * serendipity in rec sys
 * human's preferences change over time
     * investigate the evolution of this
+
+# TODO
+https://rjwave.org/ijedr/papers/IJEDR1903111.pdf
+
+https://www.preprints.org/frontend/manuscript/cf467753c75a6dcc24ac4aaf70ce013f/download_pub
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=career+counseling+ai&btnG=
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=career+counseling+machine+learning&btnG=
+https://link.springer.com/content/pdf/10.1007/s10639-022-11541-3.pdf#page=27&zoom=100,66,377
+https://www.sciencedirect.com/science/article/pii/S0360131521001421?via%3Dihub
