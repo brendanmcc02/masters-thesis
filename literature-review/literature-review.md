@@ -40,7 +40,40 @@ the context of a decision process*
 ## LLM's in Rec Sys
 
 ### [Towards Next-Generation LLM-based Recommender Systems: A Survey and Beyond](https://arxiv.org/pdf/2410.19744)
-* investigates LLM usage instead of traditional rec sys methods
+* investigates LLM-based RS
+* LLM's have the capacity for reasoning, which is an advantage over DL.
+* They are also endowed with common-sense knowledge and are trained on large corpora, it's not tunnel-visioned on the only task it was designed for.
+* They have a section on Challenges and Opportunities for LLM integration with RS. *Could be useful.*
+
+### [Recommender Systems in the Era of Large Language Models (LLMs)](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10506571)
+* Surveys LLM usage in RS
+* It is mentioned that RS's are specialised to work for an exact problem, and are not "one-size-fits-all" solutions
+    * that being said, LLM's such as ChatGPT are generalized, "one-size-fits-all" solutiions, **but** they learn in-context.
+
+### [Exploring the Impact of Large Language Models on Recommender Systems: An Extensive Review](https://arxiv.org/pdf/2402.18590)
+* Talks about specific LLM models are being used in RS
+* The main advantage of LLM's being used in RS is their ability to **utilise language**
+    * I see this pop around a lot
+
+### [Retrieval-augmented Recommender System: Enhancing Recommender Systems with Large Language Models](https://dl.acm.org/doi/pdf/10.1145/3604915.3608889)
+* Examines LLM's ability to do Recommendations
+
+### [Large Language Models are Zero-Shot Rankers for Recommender Systems](https://arxiv.org/pdf/2305.08845)
+* Examines LLM usage in RS
+* According to the paper: 
+    * LLM-based RS suffer from position and popularity bias
+        * But they provide a solution in the paper
+    * LLM's struggle to perceive the order of given sequential interaction history
+        * Can be alleviated through good prompt engineering
+        * probably not so relevant for me tbh, but who knows
+
+### [Leveraging Large Language Models in Conversational Recommender Systems](https://arxiv.org/pdf/2305.07961)
+* Uses Conversational RS (CRS), pretty interesting.
+    * They call it RecLLM
+* **A conversational element could be really useful to integrate with my course idea**
+    * Obviously, the recs are generated using known user profile (e.g. aptitudes, grades)
+    * But this can also be augmented with a conversational chat agent, where the user can query and push the recs/RS
+* They go into architecture too which would be relevant if I would go down the CRS path
 
 ## XAI
 
@@ -158,14 +191,4 @@ the context of a decision process*
         * race
 
 # TODO
-https://rjwave.org/ijedr/papers/IJEDR1903111.pdf
-
-https://www.preprints.org/frontend/manuscript/cf467753c75a6dcc24ac4aaf70ce013f/download_pub
-
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=career+counseling+ai&btnG=
-
-https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=career+counseling+machine+learning&btnG=
-
-https://link.springer.com/content/pdf/10.1007/s10639-022-11541-3.pdf#page=27&zoom=100,66,377
-
-https://www.sciencedirect.com/science/article/pii/S0360131521001421?via%3Dihub
+1. 
