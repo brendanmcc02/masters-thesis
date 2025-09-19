@@ -91,11 +91,52 @@ the context of a decision process*
 ### **[A comparative analysis of different recommender systems for university major and career domain guidance](https://link.springer.com/content/pdf/10.1007/s10639-022-11541-3.pdf)**
 * **IMPORTANT PAPER!**
 * According to their work, a **hybrid RS with CF and KB (supported by Case-Based Reasoning and Ontology) yielded the best results.**
+    * I find this interesting, because I would have thought CF is a poor idea in the case of course/career.
+    * I could be wrong about the CF assumption though
 * This has a potentially useful reference for *"Choosing a university major or a career domain is a challenging task overflowing with concern that makes students distracted"* [here](https://www.sciencedirect.com/science/article/pii/S0360131521001421?via%3Dihub)
 
 ### [PCRS: Personalized Career-Path Recommender System for Engineering Students](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9268112)
 * Similar to mine, but for engineering students, concept should be the same
 * **Interesting:** Their dataset is only from under/postgrad engineers who are **satisfied** with their degree
+
+### [Smart Career Guidance and Recommendation System](https://rjwave.org/ijedr/papers/IJEDR1903111.pdf)
+* Recommends careers to CS students
+* Uses & compares multiple ML methods to generate results
+* Kinda ass paper ngl
+
+### **[Career Counselling Recommendation System](https://www.preprints.org/frontend/manuscript/cf467753c75a6dcc24ac4aaf70ce013f/download_pub)**
+* **Great paper to reference if I am going with this idea**
+* Does a meta-analysis on RS/ML solutions to the area of career counselling
+* The abstract is well-written
+    * Talks about the concerns with RS being applied in this domain
+* Author talks about issue with real-time labour market
+    * is that an issue with courses? imo, not a big concern
+* possible ethical concerns:
+    * Academic scores
+        * very likely need to be used in RS
+        * e.g.: no point recommending 500-point courses to someone who can achieve 350 max
+    * Aptitudes profile
+        * I guess this is considered sensitive?
+    * Personal interests & extracurriculars
+        * Is that relevant? IMO, no.
+        * It would add unnecessary noise to the data
+        * More dimensions does not necessarily mean more accuracy, sometimes it's actually worse.
+* they make a good point about autonomy
+    * the RS should be a starting point/helping hand, it shouldn't make the decisions for the student
+
+### [Envisioning Tomorrow: AI Powered Career Counseling](https://ieeexplore.ieee.org/abstract/document/10426016)
+* Didn't read, saving for later
+
+### [Counselling Career with Artificial Intelligence: A Systematic Review](https://pdfs.semanticscholar.org/d292/5cd666cd4f1184eeecdc23e334061447dbd2.pdf)
+* Didn't read, saving for later
+
+### [A Novel Approach for Better Career Counselling Utilizing Machine Learning Techniques](/literature-review/papers/s11277-024-11612-3.pdf)
+* Didn't read, saving for later
+* **Done by someone in TCD in 2024!**
+
+### [A comparative analysis of different recommender systems for university major and career domain guidance](https://link.springer.com/content/pdf/10.1007/s10639-022-11541-3.pdf#page=27&zoom=100,66,377)
+* Didn't read, saving for later
+
 
 # Areas to research in
 * Scrutability, or the idea of understanding how a rec sys arrived at that particular rec
@@ -110,6 +151,11 @@ the context of a decision process*
 * serendipity in rec sys
 * human's preferences change over time
     * investigate the evolution of this
+* bias in RS
+    * course idea:
+        * gender
+        * social class
+        * race
 
 # TODO
 https://rjwave.org/ijedr/papers/IJEDR1903111.pdf
@@ -117,6 +163,9 @@ https://rjwave.org/ijedr/papers/IJEDR1903111.pdf
 https://www.preprints.org/frontend/manuscript/cf467753c75a6dcc24ac4aaf70ce013f/download_pub
 
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=career+counseling+ai&btnG=
+
 https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=career+counseling+machine+learning&btnG=
+
 https://link.springer.com/content/pdf/10.1007/s10639-022-11541-3.pdf#page=27&zoom=100,66,377
+
 https://www.sciencedirect.com/science/article/pii/S0360131521001421?via%3Dihub
