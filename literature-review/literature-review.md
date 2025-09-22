@@ -79,6 +79,19 @@ the context of a decision process*
 
 * **Fairness, Accountability & Transparency** pops up a lot.
 
+### **[European Union regulations on algorithmic decision-making and a “right to explanation”](https://arxiv.org/pdf/1606.08813)**
+* **Important:** EU legislation about explainability in AI/RS
+* Individuals *"have the right to not to be subject to a decision based solely on automated processing, including profiling"*
+    * this does not mean you **can't** do it of course
+    * if an individual consents to it, they can be profiled, which is essential in the case of RS.
+* GDPR has a list of what they consider "sensitivive data"
+    * Academic scores, personal interests/aptitudes would not fall into this list, thankfully
+* They discuss **uncertainty bias** - algorithms will choose under-represented samples less often because the sparsity of data
+    * algorithms are designed for success, and under-represented samples pose a risk that algorithms may want to avoid
+    * does this apply in my case?
+* *"Articles 13 and 14 state that, when profiling takes place, a data subject has the right to “meaningful information about the logic involved.”"*
+    * This is what the paper refers to as the **right to explain**
+
 ### [Recommender Systems: An Explainable AI Perspective](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9548125)
 
 * Provides overview/synthesis of XAI in rec sys and how it's being used in this field
@@ -101,22 +114,74 @@ the context of a decision process*
 
 * Analyis/overview of XAI
 
-## Scrutability
+## Explainability & Scrutability
 
-* [Difference between scrutability and explainability in the context of RS](https://gemini.google.com/u/1/app/376a1fa53f4a3bd0)
+* [Gemini's explanation](https://gemini.google.com/u/1/app/376a1fa53f4a3bd0)
+
+### Explainability
+* Providing compelling reasons and transparency as to how & why a RS arrived at a recommendation
+* Some papers will use the term **interpretability** interchangeably
+
+### Scrutability
+* The ability to modify or control a RS
+    * Correct false assumptions of the system
+        * e.g: it thinks you like action films, so you can explicitly request to not get action recs
+    * you might gain a new interest or change your preferences over time
+        * a good RS should accomodate this
+* a conversational LLM-based RS could really enhance scrutability
+    * for instance, let's say my RS recommends 10 courses
+    * you might like the idea of 3 of them, and say why you like them
+    * you might not like the idea of 4 of them, and say why
+    * with this in a prompt, you can push the conversational RS LLM more, and through this it can modify its profile of you based on what you said: scrutability
 
 ### [Enhancing Explainability and Scrutability of Recommender Systems](https://universaar.uni-saarland.de/bitstream/20.500.11880/32590/1/azin_ghazimatin_phd_thesis.pdf)
-* 
+* Provides practical frameworks & solutions for enhancing explainability and scrutability in RS
+* **Counter-factual explanations:** it explains that with the absence of a subset of data, the recommendation would have been different
+    * the paper acknowledges this would be very expensive and potentially inefficent, calling for more research in the area
+    * counter-factual explanations provide insight into scrutability - the user now knows if they didn't rate those subset of items, they would have gotten different recs
+* They have a section (2.2.2) on the importance of explanability, might be useful.
+* This paper really goes into depth on explainability, really useful if I plan to do something similar with my thesis.
+
+### [Trustworthy Recommender Systems](https://dl.acm.org/doi/pdf/10.1145/3627826)
+* Section 2.2 talks about aspects of a Trustworthy RS
+* Section 2.3 has a useful diagram
+* Section 3: the author talks about a paradigm shift from "accuracy-oriented RSs" to "trustworthy-oriented RSs"
+
+## Human-in-the-Loop (HITL)
+
+* There are 2 types of users with a course RS:
+    1. Student who is discovering courses
+    2. Guidance counsellor who uses this tool to aid his suggestions for the student
+* With HITL, the guidance counsellor would be the "human-in-the-loop" and strongly modify the RS to cater to what they perceive as important
+* However, I don't think that would be in scope for this thesis
+    * I want to focus on a student end-user experience
+* With regards to HITL for students, I think a conversational LLM could be useful, and this gives more power to the end user
+    * this would be more useful compared to recommending x courses, and providing simple thumbs up/down RL
+
+### [Is the Human-in-the-Loop Concept Applied in Educational Recommender Systems?](https://www.researchgate.net/profile/Paola-Palomino-2/publication/374908511_Virtual_Classroom_and_the_Impact_of_E-Skills_on_the_Performance_of_Peruvian_University_Students/links/6807d4d6d1054b0207dc27e0/Virtual-Classroom-and-the-Impact-of-E-Skills-on-the-Performance-of-Peruvian-University-Students.pdf#page=659)
+* The context of this paper is Educational RS
+* Mentions an example of teachers being able to modify an Educational RS for a student
+    * in this case, the teacher would be the HITL for this Educational RS
+
+### [A survey of human-in-the-loop for machine learning](https://tinyurl.com/yc7upec6)
+* Useful, comprehensive survey if needed
+
+## Conversational RS (CRS)
+
+* A traditional CRS learns the user profile through conversation, i.e. natural language
+* that isn't exactly what I had in mind for my course idea
+    * if this was my idea, then there is no good reason for a user to use the CRS over a tool like ChatGPT
+* That being said, I think some conversational agent would be useful post-hoc to the recs
+* in other words, a conversational LLM could tune the recs and learn more about user preferences
+
+### [A Survey on Conversational RS](https://dl.acm.org/doi/pdf/10.1145/3453154)
+* TODO read
 
 ## RS/DL/AI applied to course counselling or similar
 
 ### [The POWER of Ikigai: Optimizing Life Fulfillment with an Integrated User Simulator and Adaptive Hobby Recommender](/literature-review/papers/35159-Article%20Text-39226-1-2-20250410.pdf)
 * Predicts a user's ikigai level
 * Based on this, it recommends hobbies
-
-### [Teachable Agent for Improving Ikigai](https://dr.ntu.edu.sg/server/api/core/bitstreams/89430d25-a913-464d-a1bc-eb9dd1bc3c2f/content)
-* Predicts a user's ikigai level
-* provides conversational AI agent for the elderly to help with their ikigai
 
 ### [RECOMMENDER SYSTEMS TO SUPPORT STUDENTS' EMPLOYABILITY: THE CASE STUDY OF CAREPROFSYS](https://library.iated.org/view/BIRZANEANU2024REC)
 * Hybrid RS for **careers**, not courses.
@@ -165,30 +230,24 @@ the context of a decision process*
 
 ### [A Novel Approach for Better Career Counselling Utilizing Machine Learning Techniques](/literature-review/papers/s11277-024-11612-3.pdf)
 * Didn't read, saving for later
-* **Done by someone in TCD in 2024!**
+* ~~**Done by someone in TCD in 2024!**~~
+    * incorrect i think idk
 
 ### [A comparative analysis of different recommender systems for university major and career domain guidance](https://link.springer.com/content/pdf/10.1007/s10639-022-11541-3.pdf#page=27&zoom=100,66,377)
 * Didn't read, saving for later
 
-
 # Areas to research in
-* Scrutability, or the idea of understanding how a rec sys arrived at that particular rec
-    * with **LLM's**
-    * XAI might be relevant
-    * also called justifiability/reasoning/interpretability, etc.
-* **Guidance with a human**
-    * how can the tool be used in conjunction with a human
-        * this could be either a casual user (e.g. student)
-        * or a professional (e.g. guidance counsellor)
 * novelty in rec sys
 * serendipity in rec sys
-* human's preferences change over time
-    * investigate the evolution of this
 * bias in RS
     * course idea:
         * gender
         * social class
         * race
+* human's preferences change over time
+    * investigate the evolution of this
+* history of RS
+    * doesn't have to be in depth, mostly for intro/abstract tbh
 
 # TODO
 1. 
