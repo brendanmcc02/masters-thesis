@@ -1,3 +1,7 @@
+**Potential Title:** 
+
+***What course should I choose? Applying a Recommender Systems-Model to University Course Counselling***
+
 # Misc Notes
 
 ## First Meeting w Owen
@@ -20,22 +24,20 @@
     3. Introduction (Owen didn't mention it, but I think it's worth reading)
     4. Conclusion
 
-# Papers
+# RS Papers
 
-## Human Decision-Making
-
-### [Chapter 18 Human Decision Making and Recommender Systems](https://www.researchgate.net/profile/Martijn-Willemsen/publication/275152080_Human_Decision_Making_and_Recommender_Systems/links/566b36d208ae1a797e39d8de/Human-Decision-Making-and-Recommender-Systems.pdf)
-
-* there are many different models for how people approach decision-making
-* Socially Based Choice (18.2.4)
-    * in the context of picking a course, collaborative filtering could be problematic due to social expectations
-        * people are influenced by society and their decisions, and CF could reinforce this
-
-### [Human Decision Making and Recommender Systems](https://dl.acm.org/doi/pdf/10.1145/2533670.2533675)
-
-* **Preference Construction:** *[...] humans often do not have a clear picture of
-their preferences from the very beginning but rather develop their preferences within
-the context of a decision process*
+## TODO research these:
+* novelty in rec sys
+* serendipity in rec sys
+* bias in RS
+    * course idea:
+        * gender
+        * social class
+        * race
+* human's preferences change over time
+    * investigate the evolution of this
+* history of RS
+    * doesn't have to be in depth, mostly for intro/abstract tbh
 
 ## LLM's in Rec Sys
 
@@ -236,18 +238,118 @@ the context of a decision process*
 ### [A comparative analysis of different recommender systems for university major and career domain guidance](https://link.springer.com/content/pdf/10.1007/s10639-022-11541-3.pdf#page=27&zoom=100,66,377)
 * Didn't read, saving for later
 
-# Areas to research in
-* novelty in rec sys
-* serendipity in rec sys
-* bias in RS
-    * course idea:
-        * gender
-        * social class
-        * race
-* human's preferences change over time
-    * investigate the evolution of this
-* history of RS
-    * doesn't have to be in depth, mostly for intro/abstract tbh
+# Course/Career Papers
+* What do people **want** out of a career or course?
+    * **sometimes people might want different things with a career vs a course**
+        * for example, people might see a course as an opportunity to explore their interests
+        * and a career as something stable to make money
+        * e.g. study maths/physics at college, and then work in finance
+    * **should I even be considering career at all?**
+        * on one hand, yes - a course is intended to prepare you for your career.
+            * but most people end up working in a field different to their college major
+                * but that doesn't justify people studying whatever they want
+                * that happens because people either:
+                    1. make bad choices in the course they choose
+                    2. make a locally good decision, but their preferences/abilities change over time
+                        * which is completely natural, and shouldn't be considered as something bad
+            * **TODO get stats on this**
+        * but that could also be considered scope creep?
+            * rn, no. I'd say it's still relevant, and I don't want to throw it out too early.
+* How do you determine that a course or career is successful for someone?
+    * I would argue this is **subjective** and it depends on what the person answered to the questions: ***"What do people want out of a course?"***
+    * As I've already established, people want different things out of their course/career:
+    * Back to the original question, what then are the success metrics?
+        * For some people, the success metric is **money**
+            * they see work as a means for living
+        * for some people, the success metric is how **meaningful** their work is.
+            * they want to make a difference
+        * for some people, the success metric is how **passionate** they are about their work.
+            * they want to do something they love
+        * for some people, the success metric is a **challenging and engaging** job
+            * they want to do something that they can apply their skills and grow them
+    * Observe that the above four points are all present in **Ikigai**
+    * It would be important for the RS to gauge **how important** each of these 4 components are to their work
+* **Culture** is also a major factor in course/career selection
+    * for example, western attitudes will differ from eastern ones
+    * when looking at academic papers, consider this bias
+* Consider **survivorship bias:**
+    * Not everyone goes to college
+    * Not every career requires college, some might require apprenticeships
+    * When you interview college students, consider this bias.
 
-# TODO
-1. 
+## [Gemini's Report when asked similar questions](https://gemini.google.com/u/1/app/b86675ee95bf927b)
+* College major/career choice is a complex, multi-dimensional problem
+    * one factor is **socio-demographic**
+* if you are from a poor background, do you value finances more?
+* similarly, if you are from a rich background, do you value finance or passion more?
+* according to Gemini, your choice in college major is **vastly impacted by:**
+    1. your socio-economic background
+    2. your parents educational background
+* **Explanable and scrutable RS is crucial, because a user will want to know why the course was recommended.**
+* **TODO research these theories of career choice:**
+    1. Holland's Theory of Career Choice
+    2. Super's Life-Span, Life-Space Theory
+    3. Social Cognitive Career Theory
+
+## [Holland's Theory of Career Choice](https://www.ebsco.com/research-starters/economics/hollands-theory-career-choice)
+* Posits that an individual's vocational interests reflect their personality traits, suggesting that people achieve greater career fulfillment when their jobs align with their personal attributes.
+* He categorises personalities into 6 types:
+    1. Realistic (Doers)
+    2. Investigative (Thinkers)
+    3. Artistic (Creatives)
+    4. Social (Helpers)
+    5. Enterprising (Persuaders)
+    6. Conventional (Organizers)
+* The theory also emphasises that a person may be a mix of the 6 traits - they are not **mutually exclsuive**
+* The theory has immense success, being used by career counsellors and even the US government
+* Still used and cited today apparently
+* He has a test for determining your **Holland code**
+    * **TODO look into this**   
+* Over the years he has refined his work, and remarked that many other factors contribute to a person's vocational choice:
+    * educational level of the individual
+        * I would also include parents educational background
+    * health
+    * employment opportunities
+
+## [Job satisfaction](https://www.ebsco.com/research-starters/business-and-management/job-satisfaction)
+* **TODO**
+
+## Academic Papers
+
+### [Why Students Select their College Major: An Investigative Study](https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=1370&context=amj)
+* "Survey data was collected from 1,177 undergraduates at a southeastern U.S. university"
+    * results may be biased towards western attitudes
+    * most participants were white (78.5%) or African-american (14%)
+* Their findings: *"The highest ranked reason is interest and passion, followed by fit with personality type."*
+    * *"This was similar for students who changed majors. "*
+* Consider survivorship bias in this study: they asked college students about their college major choice, which doesn't include a sample of blue-collar workers or potentially unrepresentative those from working class backgrounds
+* Their intro has some good stats that I can maybe use
+* clear benefits:
+    1. less time spent in college
+    2. less money spent on tuition
+    3. higher job satisfaction/course fit
+    4. higher graduation rates
+* They analyse the case of why students change majors. 
+    * According to other papers, it's mostly due to internal factors:
+        1. interesting subject matter
+        2. course enjoyment
+    * interestingly, family influence was shown to play a smaller role when students changed their major.
+
+### [How do young people choose college majors?](https://www.sciencedirect.com/science/article/pii/S0272775701000541)
+
+# Human Pyschology Papers
+
+## Human Decision-Making
+
+### [Chapter 18 Human Decision Making and Recommender Systems](https://www.researchgate.net/profile/Martijn-Willemsen/publication/275152080_Human_Decision_Making_and_Recommender_Systems/links/566b36d208ae1a797e39d8de/Human-Decision-Making-and-Recommender-Systems.pdf)
+
+* there are many different models for how people approach decision-making
+* Socially Based Choice (18.2.4)
+    * in the context of picking a course, collaborative filtering could be problematic due to social expectations
+        * people are influenced by society and their decisions, and CF could reinforce this
+
+### [Human Decision Making and Recommender Systems](https://dl.acm.org/doi/pdf/10.1145/2533670.2533675)
+
+* **Preference Construction:** *[...] humans often do not have a clear picture of
+their preferences from the very beginning but rather develop their preferences within
+the context of a decision process*
