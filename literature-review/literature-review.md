@@ -12,7 +12,7 @@
     3. **solid draft of lit review chapter**
 * In a masters thesis, you don't have feasible time to do a proper lit review
     * he calls it "pseudo-systematic"
-    * be *'inspired' by PRIMSA, but don't follow it exactly
+    * be *'inspired'* by PRIMSA, but don't follow it exactly
 * Owen: *"often hardest part of a thesis to write is the lit review"*
 * In a Masters, novelty is not essential with theses
     * your work must still be justified of course
@@ -239,22 +239,24 @@
 * Didn't read, saving for later
 
 # Course/Career Papers
+* What people **want** out of a course is often not the same as what is **best** for them.
+    * In this context, a good RS should recommend courses that are the intersection of **wants** and **aptitudes**
+    * I would also argue that the RS should rec courses that they haven't said they wanted for **serendipity & novelty**
 * What do people **want** out of a career or course?
     * **sometimes people might want different things with a career vs a course**
         * for example, people might see a course as an opportunity to explore their interests
+            * more likely for someone with a higher social class/affluent background, who can afford to waste time/money
         * and a career as something stable to make money
+            * more likely (I guess)for someone with a lower social class, who can't waste money or resources
         * e.g. study maths/physics at college, and then work in finance
-    * **should I even be considering career at all?**
-        * on one hand, yes - a course is intended to prepare you for your career.
-            * but most people end up working in a field different to their college major
-                * but that doesn't justify people studying whatever they want
-                * that happens because people either:
-                    1. make bad choices in the course they choose
-                    2. make a locally good decision, but their preferences/abilities change over time
-                        * which is completely natural, and shouldn't be considered as something bad
-            * **TODO get stats on this**
-        * but that could also be considered scope creep?
-            * rn, no. I'd say it's still relevant, and I don't want to throw it out too early.
+    * I would say that is not a popular case. If that is something the person wants, then a good RS should be able to accomodate that through natural language (e.g. Conversational RS) or other means
+    * For an RS like this, you need to profile a person's interests (aptitudes), and also their **wants**
+        * However, we should not exclusively recommend courses that intersect with a person's aptitudes and their wants
+            * Firstly, this would be an uninteresting RS producing non-novel results
+            * But also, people often **construct their preferences** *(see preference construction)*
+                * so, a course would get recommended to them that might conflict with something they thought they wanted, but from this experience they may learn that isn't something they want
+            * So, recommending courses that don't align with their wants (but alings with their aptitudes) not only is beneficial because of **serendipity and novelty**, but it may also challenge and develop a person's preferences
+    
 * How do you determine that a course or career is successful for someone?
     * I would argue this is **subjective** and it depends on what the person answered to the questions: ***"What do people want out of a course?"***
     * As I've already established, people want different things out of their course/career:
@@ -269,13 +271,16 @@
             * they want to do something that they can apply their skills and grow them
     * Observe that the above four points are all present in **Ikigai**
     * It would be important for the RS to gauge **how important** each of these 4 components are to their work
+    * I think reducing it down to these 4 factors is **reductionisitic**
+        * **Prestige** and social perception is also a factor
+        * **Work/life balance** too
 * **Culture** is also a major factor in course/career selection
     * for example, western attitudes will differ from eastern ones
     * when looking at academic papers, consider this bias
 * Consider **survivorship bias:**
     * Not everyone goes to college
     * Not every career requires college, some might require apprenticeships
-    * When you interview college students, consider this bias.
+    * When you interview college students, or consider samples of college students only, remember this bias.
 
 ## [Gemini's Report when asked similar questions](https://gemini.google.com/u/1/app/b86675ee95bf927b)
 * College major/career choice is a complex, multi-dimensional problem
@@ -287,9 +292,10 @@
     2. your parents educational background
 * **Explanable and scrutable RS is crucial, because a user will want to know why the course was recommended.**
 * **TODO research these theories of career choice:**
-    1. Holland's Theory of Career Choice
-    2. Super's Life-Span, Life-Space Theory
-    3. Social Cognitive Career Theory
+    1. ~~Holland's Theory of Career Choice~~ DONE
+    2. Frank Parson's Theory
+    3. Super's Life-Span, Life-Space Theory
+    4. Social Cognitive Career Theory
 
 ## [Holland's Theory of Career Choice](https://www.ebsco.com/research-starters/economics/hollands-theory-career-choice)
 * Posits that an individual's vocational interests reflect their personality traits, suggesting that people achieve greater career fulfillment when their jobs align with their personal attributes.
@@ -310,9 +316,39 @@
         * I would also include parents educational background
     * health
     * employment opportunities
+* A potential limitation of this theory is that it does not take cultural factors into account
+
+## Frank Parson's Theory
+* Similar concept to Holland
+* Find out your personality traits
+* Find out the personality traits required for a job
+* See how they match up
+
+## [Life-Span, Life-Space Theory](https://d1wqtxts1xzle7.cloudfront.net/51286605/0001-8791_2880_2990056-120170110-8091-lvww3k-libre.pdf?1484070807=&response-content-disposition=inline%3B+filename%3DA_life_span_life_space_approach_to_caree.pdf&Expires=1758709042&Signature=bwtIUxZfD8AIaYZRtqH5JxYzXsiw80A41MSW1pFB72i9yPkjHzEAaDh-WCAj23~GzzcNMXfyM-rsRmYdK8jORh8VDJABhJI6D4wjo9Su0AuUWQuiu58dUs-BFuaMxYb9zSe4F3y36lakDGhr9DZLsgDHcwCRp47YTQTsN9bYZ-o2TdCPKeiC6F9kCdNSV05p~TrGlWPxSY8L6SJfQjggpog~Yy3GtSg1U17vK6g44O9vQTiMjaY9Rknesa86oGGrQLcGi-zb8MTrs2vxRRp8a5H-AyXFdQtVzPiUZ5tkGVvCFJjKgNetMgEFOYpDytLW4m~b9eNQZKW5FiOsMCfwlQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
+* career is a developmental process where a person evolves their self-concept over time
+* it is a developmental process spanning one's life, as opposed to one, specific decision
+* people evolve through different roles throughout their career: student, worker, spouse, parent, pensioner
+* Super's theory is more concerned with the **development** of an individual through their lifelong career, so my case, I don't think this is incredibly relevant.
+
+## [Social Cognitive Career Theory (SCCT)](https://www.ebsco.com/research-starters/business-and-management/social-cognitive-career-theory-scct)
+* Similar to Life-Span, Life-Space Theory, this theory is concerned with individual's career decisions throughout their life
+    * whereas my thesis specifically addresses the case of college students choosing the starting point of their career
+* Theorizes the decision-making process in career decisions and exploration.
+* three essential concepts to this theory:
+    1. Self-efficacy
+        * an individual's belief they can complete certain tasks or challenges
+    2. Personal goals
+        * self explanatory
+    3. Outcomes Expectations
+        * anticipated consequences of career decisions
+* However, they recognise these factors would be reductionistic, and there are also other influences at play: cultural factors, social supports and inhibitors.
 
 ## [Job satisfaction](https://www.ebsco.com/research-starters/business-and-management/job-satisfaction)
 * **TODO**
+
+## Cultural Differences
+* [Gemini Report](https://gemini.google.com/u/1/app/509512f9309b9786)
+* Culture is a big influence on course/career choices, particularly on high-school age where they have less autonomy, life experience and generally more susceptible to parental/societal influence.
 
 ## Academic Papers
 
@@ -336,6 +372,20 @@
     * interestingly, family influence was shown to play a smaller role when students changed their major.
 
 ### [How do young people choose college majors?](https://www.sciencedirect.com/science/article/pii/S0272775701000541)
+* My opinion is that this is quite a **reductionist** study
+* They use a mathematical formula for caluclating a student's perceived probability of success in that major
+    * In this formula, they factor in **financial earnings** of a college major, and the riskiness of the major.
+    * I think this is very reductionistic and doesn't take countless factors into account, e.g. aptitudess, cultural attitude towards college/career, wants, how much they value money, etc.
+* According to the paper, women are less influenced by expected earnings of a college major than men
+* And non-whites are less influenced by expected earnings of a college major than whites
+
+### [Rich Grad, Poor Grad](https://docs.iza.org/dp16099.pdf)
+* great title btw
+* They see a **strong correlation** between a student's college major choice and their family's educational background.
+* Interestingly, parental income has a weak influence on a student's college major choice.
+    * However, the parental income is a large influence on the institution their child attends, but not necessarily the major.
+* Students with more educated parents will often pick college majors with low early-career earnings, but deferred gratification, and much faster earnings growth.
+* Students with less educated parents will often pick college majors with higher early-career earnings and a more defined career path.
 
 # Human Pyschology Papers
 
