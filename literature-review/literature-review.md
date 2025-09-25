@@ -239,6 +239,11 @@
 * Didn't read, saving for later
 
 # Course/Career Papers
+
+## My Initial Thoughts
+
+*Some of these thoughts are not backed by data - just a blend of my intuition and experience.*
+
 * What people **want** out of a course is often not the same as what is **best** for them.
     * In this context, a good RS should recommend courses that are the intersection of **wants** and **aptitudes**
     * I would also argue that the RS should rec courses that they haven't said they wanted for **serendipity & novelty**
@@ -246,16 +251,19 @@
     * **sometimes people might want different things with a career vs a course**
         * for example, people might see a course as an opportunity to explore their interests
             * more likely for someone with a higher social class/affluent background, who can afford to waste time/money
+                * aka they have less financial risk tolerance
+                * people from these socioeconomic backgrounds (and parents with educational backgrounds) generally tend towards careers with lower early-career earnings, but higher long-term earnings (slower, but better ROI)
+            * e.g. study maths/physics at college, and then work in finance
         * and a career as something stable to make money
-            * more likely (I guess)for someone with a lower social class, who can't waste money or resources
-        * e.g. study maths/physics at college, and then work in finance
+            * more likely for someone with a lower social class, who can't waste money or resources
+                * people from these socioeconomic backgrounds generally tend towards courses with more **defined** careers, with higher early-career earnings (quicker ROI)
     * I would say that is not a popular case. If that is something the person wants, then a good RS should be able to accomodate that through natural language (e.g. Conversational RS) or other means
     * For an RS like this, you need to profile a person's interests (aptitudes), and also their **wants**
-        * However, we should not exclusively recommend courses that intersect with a person's aptitudes and their wants
+        * However, we should not only recommend courses that intersect with a person's aptitudes and their wants
             * Firstly, this would be an uninteresting RS producing non-novel results
             * But also, people often **construct their preferences** *(see preference construction)*
                 * so, a course would get recommended to them that might conflict with something they thought they wanted, but from this experience they may learn that isn't something they want
-            * So, recommending courses that don't align with their wants (but alings with their aptitudes) not only is beneficial because of **serendipity and novelty**, but it may also challenge and develop a person's preferences
+            * So, recommending courses that don't align with their wants (but aligns with their aptitudes) not only is beneficial because of **serendipity and novelty**, but it may also challenge and develop a person's preferences
 * How do you determine that a course or career is successful for someone?
     * I would argue this is **subjective** and it depends on what the person answered to the questions: ***"What do people want out of a course?"***
     * As I've already established, people want different things out of their course/career:
@@ -376,7 +384,7 @@
     * A correlation does exist, but it's not as strong as people thought it would be
     * **so, to integrate this into the RS, salary should be a factor in choosing a course, but more emphasis should be placed on other factors, such as personality fit**
 * Social factors are a strong factor in job satisfaction
-    * i.e. colleage relationships, how the worker feels valued by the manager
+    * i.e. colleauge relationships, how the worker feels valued by the manager
 * They mention that the choice of job has a huge impact on an individual's well-being in life, would be good to cite
     * [here](https://pmc.ncbi.nlm.nih.gov/articles/PMC9656398/)
 * vocational mismatch is said to be a frequent regret for many americans
