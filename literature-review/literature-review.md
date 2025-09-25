@@ -1,7 +1,3 @@
-**Potential Title:** 
-
-***What course should I choose? Applying a Recommender Systems-Model to University Course Counselling***
-
 # Misc Notes
 
 ## First Meeting w Owen
