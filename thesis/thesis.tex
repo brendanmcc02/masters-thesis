@@ -1,35 +1,174 @@
-\documentclass{article}  % good style
-\usepackage[a4paper]{geometry}  % wider margin
-\usepackage{graphicx}  % for images
-\usepackage[T1]{fontenc}
-\usepackage{float}  % used for image positioning, very handy.
-\usepackage{gensymb} % has the degree symbol
-\usepackage{amsmath} % math
-\usepackage{listings} % code
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%
+%% This file, and the corresponding tcdthesis.sty the accompanied it, have
+%% been modified for the M.Sc. styles used in Trinity College, Dublin
+%%
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper, 12pt, oneside]{report}         %% LaTeX2e document.
+\usepackage {tcdthesis}              %% Preamble.
 
-\begin{document}
-	
-	\begin{center}
-		\begin{Large}
-			Module | Assignment
-			
-			Brendan McCann | 20332615
-		\end{Large}
-	\end{center}
-	
-	% If you want to do inline verbatim, use \verb|print("Hello World!")|
-	
-	% \begin{figure}[H]
-		%     \begin{minipage}[c]{0.45\linewidth}
-			%         \centering
-			%         \includegraphics[scale=0.2]{16-alt}
-			%         \caption{hello}
-			%     \end{minipage}\hfill
-		%     \begin{minipage}[c]{0.45\linewidth}
-			%         \centering
-			%         \includegraphics[scale=0.2]{18-alt}
-			%         \caption{hello}
-			%     \end{minipage}
-		% \end{figure}
-	
-\end{document}
+\mastersthesis                       %% Uncomment one of these; if you don't
+
+\thesisdraft                         %% Uncomment this if you want a draft
+                                     %% version; this will print a timestamp
+                                     %% on each page of your thesis.
+
+\leftchapter                         %% Uncomment one of these if you want
+% \centerchapter                     %% left-justified, centered or
+% \rightchapter                      %% right-justified chapter headings.
+                                     %% Chapter headings includes the
+                                     %% Contents, Acknowledgments, Lists
+                                     %% of Tables and Figures and the Vita.
+                                     %% The default is \centerchapter.
+
+% \singlespace                       %% Uncomment one of these if you want
+\oneandhalfspace                     %% single-spacing, space-and-a-half
+% \doublespace                       %% or double-spacing; the default is
+                                     %% \oneandhalfspace, which is the
+                                     %% minimum spacing accepted by the
+                                     %% Graduate School.
+
+\renewcommand{\thesisauthor}{Brendan McCann}                %% Your official TCD name.
+\renewcommand{\thesismonth}{April}                   %% Your month of graduation.
+\renewcommand{\thesisyear}{2026}                      %% Your year of graduation.
+\renewcommand{\thesistitle}{What Course should I study?\\ Applying a Recommender System to assist in college course counselling}          %% The title of your thesis; use mixed-case.
+\renewcommand{\thesissupervisor}{Owen Conlan}            %% Your thesis supervisor; use mixed-case and don't use any titles or degrees.
+
+\renewcommand{\thesisdedication}{...}     %% Your dedication, if you have one; use "\\" for linebreaks.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%% The following commands are all optional, but useful if your requirements
+%%% are different from the default values in tcdthesis.sty.  To use them,
+%%% simply uncomment (remove the leading %) the line(s).
+
+\renewcommand{\thesisdegree}{Masters in Computer Science}
+                                     %% default is "DOCTOR OF PHILOSOPHY"
+                                     %% for \phdthesis or "MASTER OF ARTS"
+                                     %% for \mastersthesis.  Provide the
+                                     %% correct FULL OFFICIAL name of
+                                     %% the degree.
+
+\renewcommand{\thesisdegreeabbreviation}{M.Sc.}
+                                     %% Use this if you also use the above
+                                     %% command; provide the OFFICIAL
+                                     %% abbreviation of your thesis degree.
+\renewcommand{\thesistype}{Dissertation}    %% Use this ONLY if your thesis type
+                                     %% is NOT "Thesis" for \phdthesis
+                                     %% or \mastersthesis.
+                                     %% Provide the OFFICIAL type of the
+                                     %% thesis; use mixed-case.
+
+%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{graphicx,color}
+\usepackage{anysize}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{float}
+
+%%------------------------------------------------
+%% Listing macros
+%%------------------------------------------------
+%% Examples for the commands in the document below
+%%
+%% includecode:
+%% \includecode{caption for table of listings}{caption for reader}{filename}
+%% - includes a file with code and adds a caption that should describe the code in some detail and a shorter caption for the table of listings
+\newcommand{\includecode}[4]{\lstinputlisting[floatplacement=H, caption={[#1]#2}, captionpos=b, frame=single, label={#3}]{#4}}
+
+%%------------------------------------------------
+%% Image macros
+%%------------------------------------------------
+
+%% includescalefigure:
+%% \includescalefigure{label}{short caption}{long caption}{scale}{filename}
+%% - includes a figure with a given label, a short caption for the table of contents and a longer caption that describes the figure in some detail and a scale factor 'scale'
+\newcommand{\includescalefigure}[5]{
+\begin{figure}[htb]
+\centering
+\includegraphics[width=#4\linewidth]{#5}
+\captionsetup{width=.8\linewidth} 
+\caption[#2]{#3}
+\label{#1}
+\end{figure}
+}
+
+%% includefigure:
+%% \includefigure{label}{short caption}{long caption}{filename}
+%% - includes a figure with a given label, a short caption for the table of contents and a longer caption that describes the figure in some detail
+\newcommand{\includefigure}[4]{
+\begin{figure}[htb]
+\centering
+\includegraphics{#4}
+\captionsetup{width=.8\linewidth} 
+\caption[#2]{#3}
+\label{#1}
+\end{figure}
+}
+
+
+
+
+
+\begin{document}                                  %% BEGIN THE DOCUMENT
+
+\thesistitlepage                                  %% Generate the title page.
+
+\thesisdeclarationpage
+
+\begin{thesisabstract}                            %% the abstract for your thesis
+...ABSTRACT...
+\end{thesisabstract}
+
+%\hypersetup{pageanchor=false}
+%\thesisdeclarationpage                            %% Generate the declaration page.
+
+%\thesispermissionpage                             %% Generate the copyright permission page
+%\hypersetup{pageanchor=true}
+
+%\thesisdedicationpage                            %% Generate the dedication page.
+
+\begin{thesisacknowledgments}                     %% Use this to write your
+  Thank you Mum \& Dad.                           %% acknowledgments; it can be anything
+\end{thesisacknowledgments}                       %% allowed in LaTeX2e par-mode.
+  
+  
+\tableofcontents                                  %% Generate table of contents.
+\listoftables                                     %% Uncomment this to generate list of tables.
+\listoffigures                                    %% Uncomment this to generate list of figures.
+
+%%
+%% Include thesis chapters here...
+%%
+\include{Introduction}
+\include{StateOfTheArt}
+\include{Design}
+\include{Implementation}
+\include{Evaluation}
+\include{Conclusions}
+
+\begin{thebibliography}{refs}                   %% Start your bibliography here; you can
+\addcontentsline {toc}{chapter}{Bibliography}     %% Force Bibliography to appear in contents
+\bibliographystyle{apalike}
+\bibliography{refs}                               %% also use the \bibliography command
+\end{thebibliography}                            %% to generate your bibliography.
+
+
+%\addcontentsline {toc}{chapter}{Appendices}       %% Force Appendices to appear in contents
+%\begin{appendix}
+%\include{appendix1}
+% \include{appendix2}
+%\end{appendix}
+
+
+
+
+\end{document}                                    %% END THE DOCUMENT
