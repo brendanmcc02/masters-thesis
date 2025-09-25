@@ -256,7 +256,6 @@
             * But also, people often **construct their preferences** *(see preference construction)*
                 * so, a course would get recommended to them that might conflict with something they thought they wanted, but from this experience they may learn that isn't something they want
             * So, recommending courses that don't align with their wants (but alings with their aptitudes) not only is beneficial because of **serendipity and novelty**, but it may also challenge and develop a person's preferences
-    
 * How do you determine that a course or career is successful for someone?
     * I would argue this is **subjective** and it depends on what the person answered to the questions: ***"What do people want out of a course?"***
     * As I've already established, people want different things out of their course/career:
@@ -271,7 +270,7 @@
             * they want to do something that they can apply their skills and grow them
     * Observe that the above four points are all present in **Ikigai**
     * It would be important for the RS to gauge **how important** each of these 4 components are to their work
-    * I think reducing it down to these 4 factors is **reductionisitic**
+    * **On second thought,** I think reducing it down to these 4 factors is **reductionisitic**
         * **Prestige** and social perception is also a factor
         * **Work/life balance** too
 * **Culture** is also a major factor in course/career selection
@@ -295,6 +294,26 @@
     * this fits with the idea that career is not one, single decision, but a continually changing process.
     * while I think this is interesting, I'm not sure about the applicability of it. People's preferences change a lot over time, their personalities less so. Would you wipe the context completely, or partially (as Owen suggested)?
     * If I am focusing the tool just on second-level students, making a choice for college is a single thing. Obviously that doesn't mean you are stuck in that course/career for the rest of your life, but you do have to commit yourself to **one course.** That would be your starting point.
+* Gemini concludes that 'interest/passion' is the number 1 intrinsic driver in an individual, and number 2 is 'personality fit'. It's source for that is [this](https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=1370&context=amj),  a sample of 1177 undergrads in south US, not the most representative sample ever, and it's one study, so take Gemini's confident claim with a grain of salt.
+* It mentions three factors that influence a college major decision:
+    1. Intrinsic Drivers
+        * personality, preferences.
+    2. Extrinsic Factors
+        * e.g. salary, job security, defined career path, prestige.
+    3. Social influences
+        * socio-economic background, parental education.
+* Money is not a simple variable, you can't just put a single value like "average graduate salary".
+    * That does not tell the full story
+    * Some careers have longer ROI, others lead to quicker ROI.
+* Gemini claims that social influence (e.g. friends, teachers, etc.) is **not uniform across cultures**
+    * it's source is one study that found African-Americans are more influenced by high-school teachers than whites
+* In my prompt, I asked about a link between college majors and career
+    * for some people, they see college as a place to equip them with specified skills for a more defined career
+        * e.g. study CS to be a software engineer
+    * in rarer cases, they see college as a place to improve their critical thinking, communication and problem-solving skills
+        * e.g. study liberal arts, philosophy
+* **good suggestion:** ask the user if they want to explore career paths (arts & humanities), or if they want a more defined career path through their career.
+* they mention the RS should factor in the user's **financial risk tolerance**, and whether they prefer high early-career earnings (quick ROI), or longer term higher salaries.
 
 ## [Holland's Theory of Career Choice](https://www.ebsco.com/research-starters/economics/hollands-theory-career-choice)
 * Posits that an individual's vocational interests reflect their personality traits, suggesting that people achieve greater career fulfillment when their jobs align with their personal attributes.
@@ -342,29 +361,66 @@
         * anticipated consequences of career decisions
 * However, they recognise these factors would be reductionistic, and there are also other influences at play: cultural factors, social supports and inhibitors.
 * It is a dynamic loop: people are more likely to make career decisions that they believe will yield good outcomes and feel capable of succeeding (self-efficacy). When this results in success, it will increase their outcome expectations and self-eficacy as a result, reinforcing it. This would encourage them to set higher goals (Personal Goals).
-* Gemini concludes that 'interest/passion' is the number 1 intrinsic driver in an individual, and number 2 is 'personality fit'. It's source for that is [this](https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=1370&context=amj),  a sample of 1177 undergrads in south US, not the most representative sample ever, and it's one study, so take Gemini's confident claim with a grain of salt.
-* It mentions three factors that influence a college major decision:
-    1. Intrinsic Drivers
-        * personality, preferences.
-    2. Extrinsic Factors
-        * e.g. salary, job security, defined career path, prestige.
-    3. Social influences
-        * socio-economic background, parental education.
-* Money is not a simple variable, you can't just put a single value like "average graduate salary".
-    * That does not tell the full story
-    * Some careers have longer ROI, others lead to quicker ROI.
-* Gemini claims that social influence (e.g. friends, teachers, etc.) is **not uniform across cultures**
-    * it's source is one study that found African-Americans are more influenced by high-school teachers than whites
-* In my prompt, I asked about a link between college majors and career
-    * for some people, they see college as a place to equip them with specified skills for a more defined career
-        * e.g. study CS to be a software engineer
-    * in rarer cases, they see college as a place to improve their critical thinking, communication and problem-solving skills
-        * e.g. study liberal arts, philosophy
-* **good suggestion:** ask the user if they want to explore career paths (arts & humanities), or if they want a more defined career path through their career.
-* they mention the RS should factor in the user's **financial risk tolerance**, and whether they prefer high early-career earnings (quick ROI), or longer term higher salaries.
 
-## [Job satisfaction](https://www.ebsco.com/research-starters/business-and-management/job-satisfaction)
-* **TODO**
+## [Course/Job satisfaction](https://www.ebsco.com/research-starters/business-and-management/job-satisfaction)
+
+### [Gemini Report](https://gemini.google.com/u/1/app/f54fb4f4237cacb3)
+* Apparently, the strongest predictor of job satisfaction is the alignment between an individual and their job environment
+    * this gives credence to Locke's Theory
+* They claim a weak correlation between salary and job satisfaction
+    * Despite this, I would argue it is still important to gather how much an individual values money in their job
+        * or maybe I'm wrong in this assumption? Would it be right for a RS to consider how much the individual values money in their career? I would have thought yes, but this is making me think.
+    * [somewhere here](https://www.researchgate.net/publication/326281320_Meta-analysis_of_Vocational_Interests_and_Job_Satisfaction_Challenging_a_Common_Belief) 
+    * On further thought: their conclusion challenges the popular notion that money is the primary contributor of job satisfaction, which it isn't.
+    * That doesn't mean it's completely irrelevant though
+    * A correlation does exist, but it's not as strong as people thought it would be
+    * **so, to integrate this into the RS, salary should be a factor in choosing a course, but more emphasis should be placed on other factors, such as personality fit**
+* Social factors are a strong factor in job satisfaction
+    * i.e. colleage relationships, how the worker feels valued by the manager
+* They mention that the choice of job has a huge impact on an individual's well-being in life, would be good to cite
+    * [here](https://pmc.ncbi.nlm.nih.gov/articles/PMC9656398/)
+* vocational mismatch is said to be a frequent regret for many americans
+    * [referenced here,](https://www.researchgate.net/publication/236168595_Personality_and_College_Major_Choice_Which_Come_First) which actually references [this](https://journals.sagepub.com/doi/10.1177/0146167205274693)
+* college major mismatch is said to affect well-being, academic performance and likelihood of dropping out
+    * [this claims it's likely, but doesn't give a source, not so credible imo](https://www.researchgate.net/publication/236168595_Personality_and_College_Major_Choice_Which_Come_First)
+* literature indicates strong link between college course and subsequent job satisfaction
+    * [somewhere here](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1519475/full)
+* literature suggests that a strong fit between personality and the job is a strong correlation for job satisfaction
+    * [somewhere here](https://www.researchgate.net/publication/326281320_Meta-analysis_of_Vocational_Interests_and_Job_Satisfaction_Challenging_a_Common_Belief) and [here](https://www.researchgate.net/publication/222671194_The_effects_of_college_major_and_job_field_congruence_on_job_satisfaction)
+* they suggest that a good RS not only gives good recs, but suggests ways to improve self-efficacy and refine career interests
+    * for instance, recommending internships or work experience
+    * slightly out of scope imo, but interestng to note.
+* Children of higher socioeconomic status backgrounds are more likely to prioritise non-monetary rewards when it comes to career, such as time for family (work/life balance) and social impact (meaningful work)
+
+### [Taylorism](https://www.munich-business-school.de/en/l/business-studies-dictionary/taylorism)
+* A theory for industry that reduced work into small, simple tasks that were executed repetitively by workers
+* this was a big optimisation, increasing productivity and reducing labour
+* however there was a big impact on job satisfaction
+    * workers felt like a cog in the machine
+    * their creativity was stinted
+    * they felt alienated and less human
+* **Interesting** - Gemini recommends we should gather the individual's self-efficacy beliefs when determining the user's profile for the RS
+    * recall that is one of the key components of SCCT
+
+### [Hawthorne Studies](https://courses.lumenlearning.com/suny-hccc-introbusiness/chapter/the-hawthorne-studies/)
+* A series of experiments on working conditions and job satisfaction
+* They found that social factors, such as management treatment, colleague relationships, were much more influential for job satisfaction
+* They also learned that when workers feel "special", from either managers treating them like humans, or recognising them for their work, the workers productivity and job satisfaction increased.
+* As opposed to physical conditions, like financial incentives or lighting conditions.
+
+### [Edwin Locke's Range of Affect Theory](https://www.emexmag.com/range-of-affect-theory/)
+* Job satisfcation is the discrepancy between what a worker wants/values, and what they actually experience in the job itself
+* He remarks that people value different things differently - **subjectivity**
+    * for example, one person might really value autonomy, and that may deeply dissatisfy him in his factory job, whereas another person is indifferent to it
+* **This is quite important actually, because a RS should gauge what a person wants/values in a job to ensure future job satisfaction**
+    * however, it must be said that preferences/wants do change over time, sometimes radically, and sometiems they are also constructed on the spot
+        * see preference construction/discovery
+* It is worth noting that dispositional theory challenge's Edwin Locke's theory
+
+### [Dispositional Theory](https://www.researchgate.net/publication/227963615_The_dispositional_approach_to_job_satisfaction_More_than_a_mirage_but_not_yet_an_oasis)
+* addresses Nature vs Nurture in organisational setting
+* they theorize that an individual's innate personality traits are primary drivers of job satisfaction, which remain stable even across different jobs and environments
+* in other words, job satisfaction lies primarily with the individual's disposition, as opposed to lying primarily with external job circumstances 
 
 ## Cultural Differences
 * [Gemini Report](https://gemini.google.com/u/1/app/509512f9309b9786)
