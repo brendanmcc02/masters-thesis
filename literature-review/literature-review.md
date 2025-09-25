@@ -291,11 +291,10 @@
     1. your socio-economic background
     2. your parents educational background
 * **Explanable and scrutable RS is crucial, because a user will want to know why the course was recommended.**
-* **TODO research these theories of career choice:**
-    1. ~~Holland's Theory of Career Choice~~ DONE
-    2. Frank Parson's Theory
-    3. Super's Life-Span, Life-Space Theory
-    4. Social Cognitive Career Theory
+* **Didn't think about this** - Gemini reckons that the RS should be a tool that shouldn't be a single-use thing: i.e. sign up, get your profile, get recs, and then leave. It should be something that stays with them throughout their career journey
+    * this fits with the idea that career is not one, single decision, but a continually changing process.
+    * while I think this is interesting, I'm not sure about the applicability of it. People's preferences change a lot over time, their personalities less so. Would you wipe the context completely, or partially (as Owen suggested)?
+    * If I am focusing the tool just on second-level students, making a choice for college is a single thing. Obviously that doesn't mean you are stuck in that course/career for the rest of your life, but you do have to commit yourself to **one course.** That would be your starting point.
 
 ## [Holland's Theory of Career Choice](https://www.ebsco.com/research-starters/economics/hollands-theory-career-choice)
 * Posits that an individual's vocational interests reflect their personality traits, suggesting that people achieve greater career fulfillment when their jobs align with their personal attributes.
@@ -342,6 +341,27 @@
     3. Outcomes Expectations
         * anticipated consequences of career decisions
 * However, they recognise these factors would be reductionistic, and there are also other influences at play: cultural factors, social supports and inhibitors.
+* It is a dynamic loop: people are more likely to make career decisions that they believe will yield good outcomes and feel capable of succeeding (self-efficacy). When this results in success, it will increase their outcome expectations and self-eficacy as a result, reinforcing it. This would encourage them to set higher goals (Personal Goals).
+* Gemini concludes that 'interest/passion' is the number 1 intrinsic driver in an individual, and number 2 is 'personality fit'. It's source for that is [this](https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=1370&context=amj),  a sample of 1177 undergrads in south US, not the most representative sample ever, and it's one study, so take Gemini's confident claim with a grain of salt.
+* It mentions three factors that influence a college major decision:
+    1. Intrinsic Drivers
+        * personality, preferences.
+    2. Extrinsic Factors
+        * e.g. salary, job security, defined career path, prestige.
+    3. Social influences
+        * socio-economic background, parental education.
+* Money is not a simple variable, you can't just put a single value like "average graduate salary".
+    * That does not tell the full story
+    * Some careers have longer ROI, others lead to quicker ROI.
+* Gemini claims that social influence (e.g. friends, teachers, etc.) is **not uniform across cultures**
+    * it's source is one study that found African-Americans are more influenced by high-school teachers than whites
+* In my prompt, I asked about a link between college majors and career
+    * for some people, they see college as a place to equip them with specified skills for a more defined career
+        * e.g. study CS to be a software engineer
+    * in rarer cases, they see college as a place to improve their critical thinking, communication and problem-solving skills
+        * e.g. study liberal arts, philosophy
+* **good suggestion:** ask the user if they want to explore career paths (arts & humanities), or if they want a more defined career path through their career.
+* they mention the RS should factor in the user's **financial risk tolerance**, and whether they prefer high early-career earnings (quick ROI), or longer term higher salaries.
 
 ## [Job satisfaction](https://www.ebsco.com/research-starters/business-and-management/job-satisfaction)
 * **TODO**
@@ -385,7 +405,9 @@
 * Interestingly, parental income has a weak influence on a student's college major choice.
     * However, the parental income is a large influence on the institution their child attends, but not necessarily the major.
 * Students with more educated parents will often pick college majors with low early-career earnings, but deferred gratification, and much faster earnings growth.
+    * I belive this is also from greater financial risk tolerance.
 * Students with less educated parents will often pick college majors with higher early-career earnings and a more defined career path.
+    * I believe this is due to less financial risk tolerance, so they prioritise "safer" paths.
 
 # Human Pyschology Papers
 
