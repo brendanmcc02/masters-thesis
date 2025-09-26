@@ -234,6 +234,32 @@
 ### [A comparative analysis of different recommender systems for university major and career domain guidance](https://link.springer.com/content/pdf/10.1007/s10639-022-11541-3.pdf#page=27&zoom=100,66,377)
 * Didn't read, saving for later
 
+## Similar Real-world products
+
+1. [Advisor AI](https://joinadvisorai.com/)
+    * very specialised to the US system
+        * I can push mine to fit the Irish system, as an edge
+        * but then again, now I'm thinking of it like a product, instead of research
+    * they do have assistance with selecting a major
+        * but from initial research, I don't see if they are profiling the students based on personality tests, their wants, etc.
+        * seems like it's from their resume + academic scores
+    * the platform also helps guidance counsellors to manage students, and other features, so it's not just major recommendation, all-in-one platform
+    * helps students pick classes at college
+        * also very specific to US
+    * helps them get internships and resume & career guidance
+2. [KapAdvisor](https://www.kaptest.com/college-prep/ai-advisor?srsltid=AfmBOorz2_TZQVt8N68srekEPO81P3vT1cWx33Gjr3c74smOkAAwzY2W)
+    * Also very specialised to the US system, assistance with:
+        * admission letters
+        * matching a college
+        * trying to get into ivy league
+        * admission guidance
+    * doesn't seem so much about guidance for a specific major
+    * this is what the free version offers
+    * paid version asks for academic scores and report cards
+        * it gauges strengths and weaknesses based off that
+        * I think that's limiting, especially compared to a Holland code/personality test
+        * grades don't tell you everything
+
 # Course/Career Papers
 
 ## My Initial Thoughts
@@ -285,7 +311,10 @@
     * Not every career requires college, some might require apprenticeships
     * When you interview college students, or consider samples of college students only, remember this bias.
 
-## Course/Job satisfaction
+## Job satisfaction
+
+* [Gemini](https://gemini.google.com/u/1/app/2ea72a12c1e68c3c) makes a good point that **job satisfaction** is different to **career satisfaction.** Job satisfaction relates to the current place/job they are in, whereas career satisfaction looks at their vocation as a whole. I should be focusing more on career satisfaction as opposed to job satisfaction.
+* See [here](#career-satisfaction) for notes on career satisfaction
 
 ### [Gemini Report](https://gemini.google.com/u/1/app/f54fb4f4237cacb3)
 * Apparently, the strongest predictor of job satisfaction is the alignment between an individual and their job environment
@@ -344,6 +373,78 @@
 * addresses Nature vs Nurture in organisational setting
 * they theorize that an individual's innate personality traits are primary drivers of job satisfaction, which remain stable even across different jobs and environments
 * in other words, job satisfaction lies primarily with the individual's disposition, as opposed to lying primarily with external job circumstances 
+
+## Career Satisfaction
+
+### The paradoxical disconnect between what people want, and what's best for them
+* What people say they want, is often different to what is actually best for them
+    * in [this](/literature-review/papers/Bates_PurposefulWork_041119_DIGITAL_lg.pdf) study, people will often choose money over meaning in jobs
+    * despite the literature saying that people are more satisfied with careers with a sense of meaning, and money is a weak correlator in job/career satisfaction (it's also a hygiene factor)
+* Should the RS recommend what people say they want?
+    * i.e. take their profile & preferences as gospel truth
+* Or should the RS recommend what it thinks is best for them, even when some suggestions can contradict their preferences?
+    * I don't think this is the end of the world, people may also have their preferences constructed/discovered when presented with challenging/novel/serendipitous recs
+* We can employ a mix of both - recs that align with what the person wants, and recs that align with what we think is best for them.
+    * this ensures an overall well-reviewed RS - the user will be happy with recs that align with what they said they wanted, but are also given (hopefully) novel/serendipitous recommendations
+
+### [Gemini Report](https://gemini.google.com/u/1/app/090cdbcca0ff3582)
+* We should not measure career satisfaction by things like salary, job title, etc.
+    * these are reductionistic, and also misleading.
+    * we are also entering a job that encourages career-switching, and discourages the "job-for-life" paradigm
+* Monetary benefits are known as "hygiene factors", which can mask the negative effects of unfulfilling work
+    * it's called this because it may erase dissastisfaction, but that does not necessarily create happiness
+* they talk about a shift in power dynamics, from the organisation to the individual
+    * in the past, job security and loyalty was valued much more
+    * now, career fluidity is encouraged
+* people are starting to value things such as meaning and personal fulfilment in their work
+* According to Super, career satisfaction is the congruence between a person's evolving self-concept and their chosen work & life roles
+* a person's pyschological make-up (e.g. OCEAN) is a powerful predictor of their career satisfaction
+    * these cannot be changed easily
+    * can these be meaningfully integrated into an RS that recs careers/courses? i dont think so, it is what it is
+* Self-efficacy is one of the most influential psychological determinants of career satisfaction
+    * recall that is one of the 3 components in SCCT
+    * Other pyschological traits are relatively fixed, self-efficacy is flexible and can be changed/enhanced
+    * the most powerful way to build it is through "mastery experiences": successfuly completion of a task, creating a positive feedback/reinforcement loop as discussed elsewhere in this document.
+* Work-life balance is a key indicator of career satisfaction
+    * I am concerned about the integration of this into an RS though
+    * for example, it may avoid recommending jobs known for poor work/life balance, but ones that are necessary for society:
+        * nurse,
+        * neurosurgeon,
+        * etc.
+* It mentions that for effective counselling (right away I think that's a bit of scope for me, I just want to focus on recommending courses/careers), we should ask the individual deep, reflective questions to help them identify what they find meaningful in their life
+
+### [Herzberg's Two-Factor Theory](https://www.simplypsychology.org/herzbergs-two-factor-theory.html)
+* Posits that the factors that lead to **job dissatisfaction** are **different** to those that lead to **job satisfaction**
+* **Motivators/Satisfiers**
+    * Achievement
+    * Interest
+    * Responsibility
+    * Advancement
+* These tap into an individual's desire for meaning, challenge and achievement
+* **Hygiene factors/dissatisifers**
+    * Salary
+    * Conditions
+    * Policies
+    * Supervision
+    * Relationships
+* These do not create satisfaction, they merely prevent dissatisfaction, which is not the same.
+
+### [Another Gemini Report, different prompt & context but still relevant](https://gemini.google.com/u/1/app/2ea72a12c1e68c3c)
+* It mentions that we shouldn't be so narrow-minded on personality/trait match to jobs
+    * we should also consider holistic elements that contribute to the individuals well-being: 
+        * what does a person value
+        * overall life goals
+    * **this is an interesting angle, because we are not just blandly suggesting "good jobs", we are trying to set students up for fulfilling careers that span a lifetime**
+* *"A particularly significant and often overlooked dynamic in the literature is the bidirectional relationship between vocational contentment and an individual's overall life satisfaction. A major international study, published in the Journal of Organizational Behavior, presents compelling evidence that personal happiness is a primary driver of a fulfilling work life, rather than the other way around. The research, which analyzed data from over 160,000 individuals, found that people with higher life satisfaction were 32% more likely to experience increased job satisfaction over time. While the study acknowledged that job satisfaction does have a positive influence on future life satisfaction, it found this effect to be comparatively weaker and to diminish over time.*
+* **TODO**, there are multiple models for college choice:
+    1. a rational model, where the agent seeks utility, and
+    2. a sociological model, which emphasises the influences of family expectations, social background, etc.
+    3. researchers now have *combined* models for both rational and sociological models.
+    4. there is also the marketing approach, which views prospective students as consumers.
+    * [source](https://www.researchgate.net/publication/298334830_University_Choice_Process_A_Literature_Review_on_Models_and_Factors_Affecting_the_Process)
+
+
+## [Differing Generational views on career](https://gemini.google.com/u/1/app/9729d48340941e30)
 
 ## Course/Career choice
 
@@ -468,6 +569,26 @@
     * I belive this is also from greater financial risk tolerance.
 * Students with less educated parents will often pick college majors with higher early-career earnings and a more defined career path.
     * I believe this is due to less financial risk tolerance, so they prioritise "safer" paths.
+
+## Bias
+
+### **[Do Humans Prefer Debiased AI Algorithms? A Case Study in Career Recommendation](https://rashid-islam.github.io/homepage/files/papers/Do_Humans_Prefer_Debiased_AI_Algorithms_IUI-22-Paper.pdf)**
+* **Crazy paper**
+* They apply a case study in career recs, mad.
+* In offline evaluation, a debiased ML system was shown to have better results than the biased one
+* but in online evaluation, people preferred the biased system
+* it makes a good point that people address the bias in AI systems, but forget that humans themselves are biased in choosing recommendations, so that we can't effectively mitigate, or even eliminate the proble, because the human is and will be biased.
+* It mentions that it's approach to fairness is not "fairenss through unawareness"
+    * "fairenss through unawareness" is the approach I was considering :flushed:
+* people will shun the idea of a particular career if they know if it is dominated by the opposite gender, even if the career is a great fit
+    * e.g. a curious, investigative girl might turn down CS because it's known to be male-dominated.
+* they suggest one way to overcome this human bias is to "nudge" them towards a particular career they know challenges their biases
+    * not sure how i feel about this in regards to my case
+* a limit of their study is that 80% of the participants are not open to new career suggestions
+
+### [Debiasing the Human-Recommender System Feedback Loop in Collaborative Filtering](https://www.researchgate.net/publication/333076038_Debiasing_the_Human-Recommender_System_Feedback_Loop_in_Collaborative_Filtering)
+* Mentions that RS's often contribute to feedback loops: recommending popular items makes them more popular, and less popular items less popular
+* Proposes some novel methods for addressing this with CF
 
 # Human Pyschology
 
