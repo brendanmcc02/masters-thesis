@@ -285,88 +285,7 @@
     * Not every career requires college, some might require apprenticeships
     * When you interview college students, or consider samples of college students only, remember this bias.
 
-## [Gemini's Report when asked similar questions](https://gemini.google.com/u/1/app/b86675ee95bf927b)
-* College major/career choice is a complex, multi-dimensional problem
-    * one factor is **socio-demographic**
-* if you are from a poor background, do you value finances more?
-* similarly, if you are from a rich background, do you value finance or passion more?
-* according to Gemini, your choice in college major is **vastly impacted by:**
-    1. your socio-economic background
-    2. your parents educational background
-* **Explanable and scrutable RS is crucial, because a user will want to know why the course was recommended.**
-* **Didn't think about this** - Gemini reckons that the RS should be a tool that shouldn't be a single-use thing: i.e. sign up, get your profile, get recs, and then leave. It should be something that stays with them throughout their career journey
-    * this fits with the idea that career is not one, single decision, but a continually changing process.
-    * while I think this is interesting, I'm not sure about the applicability of it. People's preferences change a lot over time, their personalities less so. Would you wipe the context completely, or partially (as Owen suggested)?
-    * If I am focusing the tool just on second-level students, making a choice for college is a single thing. Obviously that doesn't mean you are stuck in that course/career for the rest of your life, but you do have to commit yourself to **one course.** That would be your starting point.
-* Gemini concludes that 'interest/passion' is the number 1 intrinsic driver in an individual, and number 2 is 'personality fit'. It's source for that is [this](https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=1370&context=amj),  a sample of 1177 undergrads in south US, not the most representative sample ever, and it's one study, so take Gemini's confident claim with a grain of salt.
-* It mentions three factors that influence a college major decision:
-    1. Intrinsic Drivers
-        * personality, preferences.
-    2. Extrinsic Factors
-        * e.g. salary, job security, defined career path, prestige.
-    3. Social influences
-        * socio-economic background, parental education.
-* Money is not a simple variable, you can't just put a single value like "average graduate salary".
-    * That does not tell the full story
-    * Some careers have longer ROI, others lead to quicker ROI.
-* Gemini claims that social influence (e.g. friends, teachers, etc.) is **not uniform across cultures**
-    * it's source is one study that found African-Americans are more influenced by high-school teachers than whites
-* In my prompt, I asked about a link between college majors and career
-    * for some people, they see college as a place to equip them with specified skills for a more defined career
-        * e.g. study CS to be a software engineer
-    * in rarer cases, they see college as a place to improve their critical thinking, communication and problem-solving skills
-        * e.g. study liberal arts, philosophy
-* **good suggestion:** ask the user if they want to explore career paths (arts & humanities), or if they want a more defined career path through their career.
-* they mention the RS should factor in the user's **financial risk tolerance**, and whether they prefer high early-career earnings (quick ROI), or longer term higher salaries.
-
-## [Holland's Theory of Career Choice](https://www.ebsco.com/research-starters/economics/hollands-theory-career-choice)
-* Posits that an individual's vocational interests reflect their personality traits, suggesting that people achieve greater career fulfillment when their jobs align with their personal attributes.
-* He categorises personalities into 6 types:
-    1. Realistic (Doers)
-    2. Investigative (Thinkers)
-    3. Artistic (Creatives)
-    4. Social (Helpers)
-    5. Enterprising (Persuaders)
-    6. Conventional (Organizers)
-* The theory also emphasises that a person may be a mix of the 6 traits - they are not **mutually exclsuive**
-* The theory has immense success, being used by career counsellors and even the US government
-* Still used and cited today apparently
-* He has a test for determining your **Holland code**
-    * **TODO look into this**   
-* Over the years he has refined his work, and remarked that many other factors contribute to a person's vocational choice:
-    * educational level of the individual
-        * I would also include parents educational background
-    * health
-    * employment opportunities
-* A potential limitation of this theory is that it does not take cultural factors into account
-
-## Frank Parson's Theory
-* Similar concept to Holland
-* Find out your personality traits
-* Find out the personality traits required for a job
-* See how they match up
-
-## [Life-Span, Life-Space Theory](https://d1wqtxts1xzle7.cloudfront.net/51286605/0001-8791_2880_2990056-120170110-8091-lvww3k-libre.pdf?1484070807=&response-content-disposition=inline%3B+filename%3DA_life_span_life_space_approach_to_caree.pdf&Expires=1758709042&Signature=bwtIUxZfD8AIaYZRtqH5JxYzXsiw80A41MSW1pFB72i9yPkjHzEAaDh-WCAj23~GzzcNMXfyM-rsRmYdK8jORh8VDJABhJI6D4wjo9Su0AuUWQuiu58dUs-BFuaMxYb9zSe4F3y36lakDGhr9DZLsgDHcwCRp47YTQTsN9bYZ-o2TdCPKeiC6F9kCdNSV05p~TrGlWPxSY8L6SJfQjggpog~Yy3GtSg1U17vK6g44O9vQTiMjaY9Rknesa86oGGrQLcGi-zb8MTrs2vxRRp8a5H-AyXFdQtVzPiUZ5tkGVvCFJjKgNetMgEFOYpDytLW4m~b9eNQZKW5FiOsMCfwlQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
-* career is a developmental process where a person evolves their self-concept over time
-* it is a developmental process spanning one's life, as opposed to one, specific decision
-* people evolve through different roles throughout their career: student, worker, spouse, parent, pensioner
-* Super's theory is more concerned with the **development** of an individual through their lifelong career, so my case, I don't think this is incredibly relevant.
-
-## [Social Cognitive Career Theory (SCCT)](https://www.ebsco.com/research-starters/business-and-management/social-cognitive-career-theory-scct)
-* Similar to Life-Span, Life-Space Theory, this theory is concerned with individual's career decisions throughout their life
-    * whereas my thesis specifically addresses the case of college students choosing the starting point of their career
-* Theorizes the decision-making process in career decisions and exploration.
-* three essential concepts to this theory:
-    1. Self-efficacy
-        * an individual's belief they can complete certain tasks or challenges
-    2. Personal goals
-        * self explanatory
-    3. Outcomes Expectations
-        * anticipated consequences of career decisions
-* However, they recognise these factors would be reductionistic, and there are also other influences at play: cultural factors, social supports and inhibitors.
-* It is a dynamic loop: people are more likely to make career decisions that they believe will yield good outcomes and feel capable of succeeding (self-efficacy). When this results in success, it will increase their outcome expectations and self-eficacy as a result, reinforcing it. This would encourage them to set higher goals (Personal Goals).
-
-## [Course/Job satisfaction](https://www.ebsco.com/research-starters/business-and-management/job-satisfaction)
+## Course/Job satisfaction
 
 ### [Gemini Report](https://gemini.google.com/u/1/app/f54fb4f4237cacb3)
 * Apparently, the strongest predictor of job satisfaction is the alignment between an individual and their job environment
@@ -413,7 +332,7 @@
 * As opposed to physical conditions, like financial incentives or lighting conditions.
 
 ### [Edwin Locke's Range of Affect Theory](https://www.emexmag.com/range-of-affect-theory/)
-* Job satisfcation is the discrepancy between what a worker wants/values, and what they actually experience in the job itself
+* Job satisfaction is the discrepancy between what a worker wants/values, and what they actually experience in the job itself
 * He remarks that people value different things differently - **subjectivity**
     * for example, one person might really value autonomy, and that may deeply dissatisfy him in his factory job, whereas another person is indifferent to it
 * **This is quite important actually, because a RS should gauge what a person wants/values in a job to ensure future job satisfaction**
@@ -426,11 +345,53 @@
 * they theorize that an individual's innate personality traits are primary drivers of job satisfaction, which remain stable even across different jobs and environments
 * in other words, job satisfaction lies primarily with the individual's disposition, as opposed to lying primarily with external job circumstances 
 
-## Cultural Differences
-* [Gemini Report](https://gemini.google.com/u/1/app/509512f9309b9786)
-* Culture is a big influence on course/career choices, particularly on high-school age where they have less autonomy, life experience and generally more susceptible to parental/societal influence.
+## Course/Career choice
 
-## Academic Papers
+### [Holland's Theory of Career Choice](https://www.ebsco.com/research-starters/economics/hollands-theory-career-choice)
+* Posits that an individual's vocational interests reflect their personality traits, suggesting that people achieve greater career fulfillment when their jobs align with their personal attributes.
+* He categorises personalities into 6 types:
+    1. Realistic (Doers)
+    2. Investigative (Thinkers)
+    3. Artistic (Creatives)
+    4. Social (Helpers)
+    5. Enterprising (Persuaders)
+    6. Conventional (Organizers)
+* The theory also emphasises that a person may be a mix of the 6 traits - they are not **mutually exclsuive**
+* The theory has immense success, being used by career counsellors and even the US government
+* Still used and cited today apparently
+* He has a test for determining your **Holland code**
+* Over the years he has refined his work, and remarked that many other factors contribute to a person's vocational choice:
+    * educational level of the individual
+        * I would also include parents educational background
+    * health
+    * employment opportunities
+* A potential limitation of this theory is that it does not take cultural factors into account
+
+### Frank Parson's Theory
+* Similar concept to Holland
+* Find out your personality traits
+* Find out the personality traits required for a job
+* See how they match up
+
+### [Life-Span, Life-Space Theory](https://d1wqtxts1xzle7.cloudfront.net/51286605/0001-8791_2880_2990056-120170110-8091-lvww3k-libre.pdf?1484070807=&response-content-disposition=inline%3B+filename%3DA_life_span_life_space_approach_to_caree.pdf&Expires=1758709042&Signature=bwtIUxZfD8AIaYZRtqH5JxYzXsiw80A41MSW1pFB72i9yPkjHzEAaDh-WCAj23~GzzcNMXfyM-rsRmYdK8jORh8VDJABhJI6D4wjo9Su0AuUWQuiu58dUs-BFuaMxYb9zSe4F3y36lakDGhr9DZLsgDHcwCRp47YTQTsN9bYZ-o2TdCPKeiC6F9kCdNSV05p~TrGlWPxSY8L6SJfQjggpog~Yy3GtSg1U17vK6g44O9vQTiMjaY9Rknesa86oGGrQLcGi-zb8MTrs2vxRRp8a5H-AyXFdQtVzPiUZ5tkGVvCFJjKgNetMgEFOYpDytLW4m~b9eNQZKW5FiOsMCfwlQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
+* career is a developmental process where a person evolves their self-concept over time
+* it is a developmental process spanning one's life, as opposed to one, specific decision
+* people evolve through different roles throughout their career: student, worker, spouse, parent, pensioner
+* Super's theory is more concerned with the **development** of an individual through their lifelong career, so my case, I don't think this is incredibly relevant.
+
+### [Social Cognitive Career Theory (SCCT)](https://www.ebsco.com/research-starters/business-and-management/social-cognitive-career-theory-scct)
+* Similar to Life-Span, Life-Space Theory, this theory is concerned with individual's career decisions throughout their life
+    * whereas my thesis specifically addresses the case of college students choosing the starting point of their career
+* Theorizes the decision-making process in career decisions and exploration.
+* three essential concepts to this theory:
+    1. Self-efficacy
+        * an individual's belief they can complete certain tasks or challenges
+    2. Personal goals
+        * self explanatory
+    3. Outcomes Expectations
+        * anticipated consequences of career decisions
+* However, they recognise these factors would be reductionistic, and there are also other influences at play: cultural factors, social supports and inhibitors.
+* It is a dynamic loop: people are more likely to make career decisions that they believe will yield good outcomes and feel capable of succeeding (self-efficacy). When this results in success, it will increase their outcome expectations and self-eficacy as a result, reinforcing it. This would encourage them to set higher goals (Personal Goals).
 
 ### [Why Students Select their College Major: An Investigative Study](https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=1370&context=amj)
 * "Survey data was collected from 1,177 undergraduates at a southeastern U.S. university"
@@ -459,6 +420,45 @@
 * According to the paper, women are less influenced by expected earnings of a college major than men
 * And non-whites are less influenced by expected earnings of a college major than whites
 
+## Cultural & Socioeconomic Influences
+
+### [Gemini's Report on socioeconomic & cultural influence in choosing College majors](https://gemini.google.com/u/1/app/b86675ee95bf927b)
+* College major/career choice is a complex, multi-dimensional problem
+    * one factor is **socio-demographic**
+* if you are from a poor background, do you value finances more?
+* similarly, if you are from a rich background, do you value finance or passion more?
+* according to Gemini, your choice in college major is **vastly impacted by:**
+    1. your socio-economic background
+    2. your parents educational background
+* **Explanable and scrutable RS is crucial, because a user will want to know why the course was recommended.**
+* **Didn't think about this** - Gemini reckons that the RS should be a tool that shouldn't be a single-use thing: i.e. sign up, get your profile, get recs, and then leave. It should be something that stays with them throughout their career journey
+    * this fits with the idea that career is not one, single decision, but a continually changing process.
+    * while I think this is interesting, I'm not sure about the applicability of it. People's preferences change a lot over time, their personalities less so. Would you wipe the context completely, or partially (as Owen suggested)?
+    * If I am focusing the tool just on second-level students, making a choice for college is a single thing. Obviously that doesn't mean you are stuck in that course/career for the rest of your life, but you do have to commit yourself to **one course.** That would be your starting point.
+* Gemini concludes that 'interest/passion' is the number 1 intrinsic driver in an individual, and number 2 is 'personality fit'. It's source for that is [this](https://digitalcommons.kennesaw.edu/cgi/viewcontent.cgi?article=1370&context=amj),  a sample of 1177 undergrads in south US, not the most representative sample ever, and it's one study, so take Gemini's confident claim with a grain of salt.
+* It mentions three factors that influence a college major decision:
+    1. Intrinsic Drivers
+        * personality, preferences.
+    2. Extrinsic Factors
+        * e.g. salary, job security, defined career path, prestige.
+    3. Social influences
+        * socio-economic background, parental education.
+* Money is not a simple variable, you can't just put a single value like "average graduate salary".
+    * That does not tell the full story
+    * Some careers have longer ROI, others lead to quicker ROI.
+* Gemini claims that social influence (e.g. friends, teachers, etc.) is **not uniform across cultures**
+    * it's source is one study that found African-Americans are more influenced by high-school teachers than whites
+* In my prompt, I asked about a link between college majors and career
+    * for some people, they see college as a place to equip them with specified skills for a more defined career
+        * e.g. study CS to be a software engineer
+    * in rarer cases, they see college as a place to improve their critical thinking, communication and problem-solving skills
+        * e.g. study liberal arts, philosophy
+* **good suggestion:** ask the user if they want to explore career paths (arts & humanities), or if they want a more defined career path through their career.
+* they mention the RS should factor in the user's **financial risk tolerance**, and whether they prefer high early-career earnings (quick ROI), or longer term higher salaries.
+
+### [Another Gemini Report on a similar topic](https://gemini.google.com/u/1/app/509512f9309b9786)
+* Culture is a big influence on course/career choices, particularly on high-school age where they have less autonomy, life experience and generally more susceptible to parental/societal influence.
+
 ### [Rich Grad, Poor Grad](https://docs.iza.org/dp16099.pdf)
 * great title btw
 * They see a **strong correlation** between a student's college major choice and their family's educational background.
@@ -469,7 +469,7 @@
 * Students with less educated parents will often pick college majors with higher early-career earnings and a more defined career path.
     * I believe this is due to less financial risk tolerance, so they prioritise "safer" paths.
 
-# Human Pyschology Papers
+# Human Pyschology
 
 ## Human Decision-Making
 
