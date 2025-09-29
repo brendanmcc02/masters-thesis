@@ -192,11 +192,74 @@
     3. gender
     4. ethnicity
 
+# College Choice
+
+* *Choosing a college is a related, but non-identical decision to choosing a course.*
+
+## [Gemini Report](https://gemini.google.com/u/1/app/c1c7b85a4e8acdb5)
+* another dimension to location is the proximity to other networking opportunities:
+    * e.g. TCD CS having an edge over UCD CS because TCD is closer to Silicon Docks
+    * proximity is leveraged as a networking opportunity
+    * TCD SCSS frequently uses this in their marketing campaigns
+
 ## [University Choice Process: A Literature Review on Models and Factors Affecting the Process](https://www.researchgate.net/publication/298334830_University_Choice_Process_A_Literature_Review_on_Models_and_Factors_Affecting_the_Process)
-1. a rational model, where the agent seeks utility, and
-2. a sociological model, which emphasises the influences of family expectations, social background, etc.
-3. researchers now have *combined* models for both rational and sociological models.
-4. there is also the marketing approach, which views prospective students as consumers.
+
+* *his paper is more concerned with the actual college the person chooses, as opposed to the course itself*
+* This is actually pretty important, because a student doesn't choose a college course that is completely independent to the institution, it is definitely a factor
+* This paper has a good citations regarding different influences of college choice
+    * worth checking if I want to do further research
+* There are multiple models for university choice:
+    1. the **rational** model, where the agent seeks max utility and minimises risk
+        * a limitation of this is that it disregards the emotional impact in decision-making; reductionistic/ignorant of human nature
+    2. the **sociological** model, which emphasises the influences of family expectations, social background, prestige/reputation, etc.
+        * a limitation of this is that it only conerns itself with these social factors
+        * they definitely influence an individual's choice of college, but it does not describe the full picture
+    3. the **combined** model for both rational and sociological models.
+    4. the **marketing** approach, which views prospective students as consumers.
+* They propose nine factors that influence a student's college choice, independent of these models:
+    1. reference groups
+    2. families
+    3. **reputation and attributes of universities**
+    4. **personal factors**
+    5. **location**
+    6. postgraduate job prospects
+    7. university fees
+    8. financial aid/scholarship
+    9. information sources
+    * I highlighted the influences which I believe are important to our RS
+* In [this](https://www.improvingthestudentexperience.com/wp-content/uploads/library/UG_documents/changing_fees_regimes_full_report.pdf) study, factors relating to job prospects are the most important criteria in university choice process
+    * ~~kind of surprising~~, on second thought not really lol
+* **I think location should be considered in the RS**
+* [this](https://d1wqtxts1xzle7.cloudfront.net/28275552/6-libre.pdf?1390873723=&response-content-disposition=inline%3B+filename%3DInstitutional_factors_influencing_studen.pdf&Expires=1759139758&Signature=NXO1oEefTPIBQeBYZwK7FBEB45jozxFnWmtJc-EPiFeuxHgnlKIXcwFly3HCFMKY3OQzrQf7ime8UZm8W4ZZV6gHthzZHdiTvQYR1SKyQgZFmuIrgi7youbLqeFuffSw38tmFi019u-KQrKZb3916fS0QE2AMFZALKy47UWBRoC17LZTcfD9y8CAmOsO-HN1QIAie8V6P4-dqUXVPRdxyimiy8irU4ZQrriH~n4aHzfOo0t1JzS5wsQKEm2n0GAhmLzmYXt1UiONuZ-i5RWygNdICBBlJqzRXia~sNn0P1amZWtr3MKg2pITZ78X37-sQMZB69yfiA3TW7kP6GTD5Q__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA) study claims that the reputation of the institution is the strongest criteria in university choice process
+    * this was done in Malaysia: cultural bias.
+* [this](/literature-review/papers/UniversityEvaluationSelectionATurkishCase.pdf) study claims personal preference is the most influential factor in college selection. 
+    * this was done in Turkey: cultural bias.
+* in the case of Ireland, tuition fees are irrelevant in college course chocie because the price is standardised across all colleges, and free education is available to those with financial difficulty
+    * it is worth mentioning that if an RS were to be created outside of the context of Ireland, then this would have to be taken into consideration.
+
+## [Studying Student's college choice: A three-phase model](https://www.researchgate.net/profile/Don-Hossler-2/publication/234741450_Studying_Student_College_Choice_A_Three-Phase_Model_and_the_Implications_for_Policymakers/links/0c960537f45f5d78f1000000/Studying-Student-College-Choice-A-Three-Phase-Model-and-the-Implications-for-Policymakers.pdf)
+* Rather than conceptualising college choice as one, singular decision, it is seen as a dynamic, evolving process
+* the authors draw inspiration from previous work, and devise a 3-phase model:
+    1. **Predisposition**
+        * the student decides whether or not they want to go to college
+        * they may be exploring alternatives
+        * I would argue the RS is still relevant to students on the fence about college, or have preferences for not attending, because it could broaden their mind or nudge them with certain course ideas (hoping for serendipity)
+        * this stage is heavily influenced by sociological background
+    2. **Search**
+        * the student actively seeks information about all the colleges
+            * e.g. online research, visiting campuses, etc.
+        * this is a very exploratory phase, where they may not consider practicality/feasibility
+            * they might let themselves dream a bit
+        * my RS has the most impact/influence on this stage
+        * serendipitous/novel recs would be crucial too because it can allow a student to explore a potential avenue that may not have considered
+    3. **Choice**
+        * they will often settle on a smaller set of colleges
+        * comparing colleges
+        * analysing financial aid/reality (e.g. accomodation)
+        * quality of programs
+        * my RS would be the least influential here, because the student will already have places in mind to go
+        * it might cause a little change-of-mind, but unlikely
+
 
 # [Differing Generational views on career](https://gemini.google.com/u/1/app/9729d48340941e30)
 
