@@ -148,6 +148,7 @@
         * neurosurgeon,
         * etc.
 * It mentions that for effective counselling (right away I think that's a bit of scope for me, I just want to focus on recommending courses/careers), we should ask the individual deep, reflective questions to help them identify what they find meaningful in their life
+    * on second thought, I don't think this should immediately be considered "out of scope", it may be relevant to help the model gain insights to recommend courses that could align with their values.
 
 ## [Herzberg's Two-Factor Theory](https://www.simplypsychology.org/herzbergs-two-factor-theory.html)
 * Posits that the factors that lead to **job dissatisfaction** are **different** to those that lead to **job satisfaction**
@@ -172,13 +173,30 @@
         * overall life goals
     * **this is an interesting angle, because we are not just blandly suggesting "good jobs", we are trying to set students up for fulfilling careers that span a lifetime**
 * *"A particularly significant and often overlooked dynamic in the literature is the bidirectional relationship between vocational contentment and an individual's overall life satisfaction. A major international study, published in the Journal of Organizational Behavior, presents compelling evidence that personal happiness is a primary driver of a fulfilling work life, rather than the other way around. The research, which analyzed data from over 160,000 individuals, found that people with higher life satisfaction were 32% more likely to experience increased job satisfaction over time. While the study acknowledged that job satisfaction does have a positive influence on future life satisfaction, it found this effect to be comparatively weaker and to diminish over time.*
-* **TODO**, there are multiple models for college choice:
-    1. a rational model, where the agent seeks utility, and
-    2. a sociological model, which emphasises the influences of family expectations, social background, etc.
-    3. researchers now have *combined* models for both rational and sociological models.
-    4. there is also the marketing approach, which views prospective students as consumers.
-    * [source](https://www.researchgate.net/publication/298334830_University_Choice_Process_A_Literature_Review_on_Models_and_Factors_Affecting_the_Process)
 
+## [Career satisfaction and professional accomplishments](https://asmepublications.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1365-2923.2010.03735.x?casa_token=2QozqRQzg2cAAAAA%3Atb4GlSFZyvF5o8sl35Fczu28ykh1QKBnM18dvqO9EMrxp9a9-AZl0S46zgUHWfRiPqLj4nF3JfOX1F-K)
+* **They look at doctors only**
+* They observed a statistically significant correlation between doctor's career satisfaction is associated with:
+    1. higher satisfaction with their undergraduate degree
+    2. greater academic/clinical competence
+    3. more involvement in teaching/research
+    4. higher orientation toward lifelong learning
+    5. increased professional accomplishments
+* They acknowledge a **correlation** between these factors, but I am skeptical about the idea that these factors cause greater career satisfaction.
+    * In the paper they acknowledege that these factors are associational, and they admit that they are not implying there is a causality between them.
+    * I feel like it's more a case that if you are satisfied with your career as a doctor, naturally you are more likely to get involved with teaching/research
+    * but I think that would also be a simplistic/reductionistic assumption 
+* They observed no significant association between career satisfaction and:
+    1. age
+    2. tenure
+    3. gender
+    4. ethnicity
+
+## [University Choice Process: A Literature Review on Models and Factors Affecting the Process](https://www.researchgate.net/publication/298334830_University_Choice_Process_A_Literature_Review_on_Models_and_Factors_Affecting_the_Process)
+1. a rational model, where the agent seeks utility, and
+2. a sociological model, which emphasises the influences of family expectations, social background, etc.
+3. researchers now have *combined* models for both rational and sociological models.
+4. there is also the marketing approach, which views prospective students as consumers.
 
 # [Differing Generational views on career](https://gemini.google.com/u/1/app/9729d48340941e30)
 
