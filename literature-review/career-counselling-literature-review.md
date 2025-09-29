@@ -192,6 +192,10 @@
     3. gender
     4. ethnicity
 
+## [Examining subjective career success of knowledge workers](https://pmc.ncbi.nlm.nih.gov/articles/PMC8767362/)
+* **TODO - very interesting findings**
+* they find that degrees without a lot of real-world application, or internship opportunities etc. may lead to dissatisfaction of fragmentation
+
 # College Choice
 
 * *Choosing a college is a related, but non-identical decision to choosing a course.*
@@ -360,6 +364,26 @@
     * I think this is very reductionistic and doesn't take countless factors into account, e.g. aptitudess, cultural attitude towards college/career, wants, how much they value money, etc.
 * According to the paper, women are less influenced by expected earnings of a college major than men
 * And non-whites are less influenced by expected earnings of a college major than whites
+
+# "Follow your Passion"
+
+* This is often associated with Steve Jobs
+    * Newport claims that it's mis-interpreted, he talks about it in *So good they can't ignore you*
+
+## Limitations
+* ***TODO** I'll need to back these up with research*
+* Passions change - they are not fixed
+* Similarly, new passions can be discovered
+    * the things you are passionate about now are not concrete
+* ignorant to people who have difficult financial backgrounds and want to make a living
+* skills are the most important thing in a job market, and this advice fails to take that into account
+* creates a false idea that when you are working on something you love, it is easy and frictionless
+
+## [Gemini Report](https://gemini.google.com/u/1/app/b6267c0fa0de9643)
+* 
+
+## [Implicit Theories of Interest: Finding Your Passion or Developing It?](https://gregorywalton-stanford.weebly.com/uploads/4/9/4/4/49448111/okeefedweckwalton_2018.pdf)
+* **TODO**
 
 # Cultural & Socioeconomic Influences
 
