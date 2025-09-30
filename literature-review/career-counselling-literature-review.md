@@ -378,9 +378,10 @@
 * ignorant to people who have difficult financial backgrounds and want to make a living
 * skills are the most important thing in a job market, and this advice fails to take that into account
 * creates a false idea that when you are working on something you love, it is easy and frictionless
+* financially risky - the types of jobs that are often targeted when people say "follow your passion" (e.g. artist, sports player, etc.) are incredibly high-risk
 
 ## [Gemini Report](https://gemini.google.com/u/1/app/b6267c0fa0de9643)
-* 
+* Nothing too novel tbh, doesn't give academic citations, so it's mostly argumentative as opposed to scientific, which isn't really something I'm looking for with my literature review
 
 ## [Implicit Theories of Interest: Finding Your Passion or Developing It?](https://gregorywalton-stanford.weebly.com/uploads/4/9/4/4/49448111/okeefedweckwalton_2018.pdf)
 * **TODO**
