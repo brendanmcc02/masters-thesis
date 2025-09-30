@@ -289,6 +289,9 @@
 * the labour market is volatile and people who are fluid often succeed
 * this results in an interesting shift, where skills are being valued more over degrees
 
+## One study found no correlation with generation and proclivity towards fit/develop theories in context with passion at work
+* see [here](#implicit-theories-of-interest-finding-your-passion-or-developing-it)
+
 # Course/Career choice
 
 ## [Holland's Theory of Career Choice](https://www.ebsco.com/research-starters/economics/hollands-theory-career-choice)
@@ -371,20 +374,62 @@
     * Newport claims that it's mis-interpreted, he talks about it in *So good they can't ignore you*
 
 ## Limitations
-* ***TODO** I'll need to back these up with research*
-* Passions change - they are not fixed
-* Similarly, new passions can be discovered
-    * the things you are passionate about now are not concrete
-* ignorant to people who have difficult financial backgrounds and want to make a living
-* skills are the most important thing in a job market, and this advice fails to take that into account
+* passion is not a factor to be ignored when considering career, but it shouldn't be the only focus - which is the main problem with this advice
+* assumes that passions pre-exist (fixed) and cannot be developed (anti-growth mindset)
+    * TODO could probably find a Dweck study on this
 * creates a false idea that when you are working on something you love, it is easy and frictionless
+    * see [here](#implicit-theories-of-interest-finding-your-passion-or-developing-it)
 * financially risky - the types of jobs that are often targeted when people say "follow your passion" (e.g. artist, sports player, etc.) are incredibly high-risk
+* ignorant to people who have difficult financial backgrounds and want to make a living
 
 ## [Gemini Report](https://gemini.google.com/u/1/app/b6267c0fa0de9643)
 * Nothing too novel tbh, doesn't give academic citations, so it's mostly argumentative as opposed to scientific, which isn't really something I'm looking for with my literature review
 
 ## [Implicit Theories of Interest: Finding Your Passion or Developing It?](https://gregorywalton-stanford.weebly.com/uploads/4/9/4/4/49448111/okeefedweckwalton_2018.pdf)
-* **TODO**
+* One of the authors is Carol Dweck!
+* Challenges the notion that passions are pre-formed/existing
+* can check [google trend for "find your passion"](https://trends.google.com/trends/explore?q=find%20your%20passion&hl=en-GB)
+    * might be useful in the section where this idea is critiqued
+* growth theory is a much better theory when facing challenges, as an implicit assumption of fixed theory is that work should come easy and effortless to people when you are working on your passion.
+* the more an individual endorsed a fixed theory, the less interested they were in things that do not align with their already-existing interests
+    * (p.11, same conclusion across studies 1-3)
+* endorsing a growth theory does not imply you are less interested in your current interest, compared to those endorsing a fixed theory.
+    * (p.11, same conclusion across studies 1-3)
+* *"the more students endorsed a fixed theory the less likely they were to report that pursuing a newly discovered passion would be difficult at times."*
+    * see page 23, study 4.
+* *"the more students endorsed a fixed theory the more likely they were to report that a newly discovered passion would unleash boundless motivation."*
+    * see page 23, study 4.
+* fixed theory individuals with an interested in a topic had their interest decreased more than growth theory individuals, after reading a challenging article on said topic.
+    * see page 30, study 5.
+
+## [Finding a Fit or Developing It: Implicit Theories About Achieving Passion for Work](https://journals.sagepub.com/doi/pdf/10.1177/0146167215596988)
+* *"passion has been shown to be associated with important work outcomes, including positive affect,  flow, entrepreneurial initiative, lower burnout, and vocational satisfaction (Cardon, Wincent, Singh, &  Drnovsek, 2009; Chen et al., 2015; Perttula & Cardon, 2011; Vallerand & Houlfort, 2003)"*
+* **Implicit theories:** an individual's subconscious beliefs about the fixedness/malleability of qualities, e.g. personality or intelligence
+* good intro regarding the increasing interest in "follow your passion"
+    * page 2
+* Fit theory:
+    * espouses that passion for work is attained through a fit with your current, pre-existing qualities and a job that is congruent with that
+    * there are similarities here to holland's theory of career choice, in that it talks about congruence
+        * BUT they are talking about different things
+        * this paper is concerned with **how passion is found/developed in work**
+        * whereas Holland is more concerned with **how are people best applied to work** - he wants people to have good careers where their skills are applied effectively to aid society, his theory of career choice is not incredibly concerend with passion AFAIK
+            * i should probably read his theory tbh
+* Develop theory:
+    * espouses that passion is cultivated through mastery at work
+    * this paper cites Newport, So good they can't ignore you
+* In their study, 78% leaned towards fit theory as opposed to develop theory, in the context of passion at work
+    * culture should be taken into account here: this is an American study
+    * American's are generally more individualised and are further down the line of "follow your passion" as opposed to other cultures
+        * this is based off intuition, don't have a source for this
+* they didn't find significant correlation between educational or generational differences with fit/develop theory choice
+    * this is good to note regarding generational background
+
+## [IN SEARCH OF THE SELF AT WORK: YOUNG ADULTS’ EXPERIENCES OF A DUAL IDENTITY ORGANIZATION](/literature-review/papers/ssrn-2367823.pdf)
+* context: referenced [here](#finding-a-fit-or-developing-it-implicit-theories-about-achieving-passion-for-work): *"“The only way to do great work is to love what you do.” This sentiment, famously expressed by Steven Jobs, Apple co-founder and CEO, reflects an increasing concern in American society with the meaning of work"*
+
+## [Implicit Theories of Intelligence Predict Achievement Across an Adolescent Transition: A Longitudinal Study and an Intervention](https://srcd.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-8624.2007.00995.x)
+* Study by Dweck
+* proposes that people's dispositions can change - giving credence to develop theory (aka growth mindset)
 
 # Cultural & Socioeconomic Influences
 
