@@ -38,3 +38,5 @@
     * The only limitation with this approach is that there isn't any collborative filtering, which could be leveraged by an external product
     * But if i'm being honest, if you have very good awareness/knowledge of career counselling/advice, then ChatGPT is a great solution
         * **but not everyone knows the great advice or is aware!**
+* [Ask for career advice, and then based on those results, ask for course recommendations]()
+    * **TODO**
