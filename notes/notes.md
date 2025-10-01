@@ -18,7 +18,7 @@
     * an LLM doesn't have access to a database that can be leveraged for collaborative filtering
     * however, an external, separate product to ChatGPT could have a database like this
 
-# Gemini Prompt Examples
+## Gemini Prompt Examples
 
 * [Just listing my passions in the prompt](https://gemini.google.com/u/1/app/2cc7dc441e5ecc44)
     * it recommends a bunch of film studies/arts courses
@@ -46,4 +46,19 @@
         1. research the courses it recommended
         2. try testing out the vocation, e.g. do some coding, etc.
         3. reach out to people working in the field and see what it's really like
-    * it's kind of only giving engineering, and CS options really, with little variation
+    * when I prompt it further for 10 courses, it's kind of only giving engineering, and CS options really, with little variation - lacking novelty and serendipity
+
+# What factors
+* Skills & Personality
+* Procilivity for social impact/meaning
+* Interesting/engaging work
+* money
+    * weak correlator between money and career success
+* Working with people
+    * some want more, some want less
+* autonomy
+    * entrepeneur types want more autonomy for example
+* work-life balance
+* physical work environment
+    * some prefer outdoors
+    * other office spaces

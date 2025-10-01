@@ -64,7 +64,7 @@
     * A correlation does exist, but it's not as strong as people thought it would be
     * **so, to integrate this into the RS, salary should be a factor in choosing a course, but more emphasis should be placed on other factors, such as personality fit**
 * Social factors are a strong factor in job satisfaction
-    * i.e. colleauge relationships, how the worker feels valued by the manager
+    * i.e. colleague relationships, how the worker feels valued by the manager
 * They mention that the choice of job has a huge impact on an individual's well-being in life, would be good to cite
     * [here](https://pmc.ncbi.nlm.nih.gov/articles/PMC9656398/)
 * vocational mismatch is said to be a frequent regret for many americans
@@ -126,6 +126,7 @@
 ## [The importance of work goals: An international perspective.](https://www.jstor.org/stable/pdf/155006.pdf)
 * According to a study, **Enjoyment** and **pay** are the top 2 dominant goals sought by people
     * representative sample across 7 countries, including the US
+* TODO
 
 ## [Gemini Report](https://gemini.google.com/u/1/app/090cdbcca0ff3582)
 * We should not measure career satisfaction by things like salary, job title, etc.
@@ -168,7 +169,8 @@
     * Policies
     * Supervision
     * Relationships
-* These do not create satisfaction, they merely prevent dissatisfaction, which is not the same.
+* He argues these do not create satisfaction, they merely prevent dissatisfaction, which is not the same.
+* There is some [controversy](https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1744-6570.1971.tb02470.x) surrounding this theory, so do deeper research if you want to cite him
 
 ## [Another Gemini Report, different prompt & context but still relevant](https://gemini.google.com/u/1/app/2ea72a12c1e68c3c)
 * It mentions that we shouldn't be so narrow-minded on personality/trait match to jobs
@@ -195,10 +197,6 @@
     2. tenure
     3. gender
     4. ethnicity
-
-## [Examining subjective career success of knowledge workers](https://pmc.ncbi.nlm.nih.gov/articles/PMC8767362/)
-* **TODO - very interesting findings**
-* they find that degrees without a lot of real-world application, or internship opportunities etc. may lead to dissatisfaction of fragmentation
 
 # College Choice
 
@@ -379,9 +377,9 @@
 
 ## Limitations
 * passion is not a factor to be ignored when considering career, but it shouldn't be the only focus - which is the main problem with this advice
-* assumes that passions pre-exist (fixed) and cannot be developed (anti-growth mindset)
-    * TODO could probably find a Dweck study on this
+* underlying assumption that new passions cannot be developed
     * dweck's mindset book could be worth mentioning, but that refers to qualities/traits of a person that can be changed, not necessarily passions, so that's worth checking.
+    * see [here](#finding-a-fit-or-developing-it-implicit-theories-about-achieving-passion-for-work)
 * creates a false idea that when you are working on something you love, it is easy and frictionless
     * see [here](#implicit-theories-of-interest-finding-your-passion-or-developing-it)
 * financially risky - the types of jobs that are often targeted when people say "follow your passion" (e.g. artist, sports player, etc.) are incredibly high-risk
