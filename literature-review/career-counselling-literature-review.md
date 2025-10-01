@@ -123,6 +123,10 @@
 * We can employ a mix of both - recs that align with what the person wants, and recs that align with what we think is best for them.
     * this ensures an overall well-reviewed RS - the user will be happy with recs that align with what they said they wanted, but are also given (hopefully) novel/serendipitous recommendations
 
+## [The importance of work goals: An international perspective.](https://www.jstor.org/stable/pdf/155006.pdf)
+* According to a study, **Enjoyment** and **pay** are the top 2 dominant goals sought by people
+    * representative sample across 7 countries, including the US
+
 ## [Gemini Report](https://gemini.google.com/u/1/app/090cdbcca0ff3582)
 * We should not measure career satisfaction by things like salary, job title, etc.
     * these are reductionistic, and also misleading.
@@ -423,6 +427,38 @@
         * this is based off intuition, don't have a source for this
 * they didn't find significant correlation between educational or generational differences with fit/develop theory choice
     * this is good to note regarding generational background
+* According to a study, **Enjoyment** and **pay** are the top 2 dominant goals sought by people
+    * representative sample across 7 countries, including the US
+    * [source](https://www.jstor.org/stable/pdf/155006.pdf)
+* Fit theorists were generally more likely to prioritise low-paying, high-enjoyment work
+* Develop theorists were generally more likely to prioritise initially low-enjoyment, but high-pay work
+    * Develop theorists anticipated equal passion towards both hypotheticals (low-paying, high-enjoyment or high-paying, initially low enjoyment), but clearly they would choose the high-paying option because it yielded more money
+    * Develop theorists, when asked about how passionate they think they would feel about their work in 4 years time, felt mostly equal between the two hypotheticals
+* *"These results suggest that fit theorists’ vocational trade-offs may be largely driven by short-term  considerations, whereas develop theorists’ trade-offs may be made with both short- and long-term consequences in mind."*
+* A limitation of this paper is that it is quite binary/reductionistic in it's trade-offs:
+    * choosing a line of work is not a simple, binary tradeoff between pay and enjoyment
+    * There are nurses who are not paid well, and have a very difficult experience working (not joyful), but still pursue it for the meaning and social impact
+* Fit theorists prioritised higher intial fit in their line of work
+    * whereas Develop theorists prioritised it less compared to fit theorists - 
+    * they were willing to compromise
+    * **interestingly, both groups reported similar current fit at their jobs**
+    * they hypothesize that develop theorists are more capable of adapting to their job compared to fit theorists
+    * page 10, important stuff
+* comparing develop and fit theorists: there were no/very weak correlation with:
+    * pay
+    * well-being
+    * **experienced passion!**
+        * this suggests that being a develop theorist, and compromising on initial fit of passion at work, does not mean compromising on your experienced passion at work
+    * **vocational satisfaction**
+        * this suggests that being a develop theorist, and compromising on initial fit of passion at work, does not mean compromising on your vocational satisfaction
+* develop theory was more strongly correlated with subjective career success
+* comparing develop and fit theorists: there were no/very weak correlation with:
+    * annual household income
+    * educational level
+    * in other words, these beliefs are independent of Socioeconomic status
+* *"Although most Americans believe that passion comes from finding the right fit, our results suggest  that this is not the only route to attain passion. Rather, people can achieve similar levels of  well-being at work by endorsing either the fit or develop theory. The key difference lies in how these outcomes are attained: fit theorists tend to self-select into lines of work that fit them from the  start, whereas develop theorists cultivate passion over time."*
+* a downside of develop theory: people may stay in their fields despite their mismatch for too long, resulting in decreased well-being
+    * [study here](https://journals.sagepub.com/doi/pdf/10.1177/0146167203256921)
 
 ## [IN SEARCH OF THE SELF AT WORK: YOUNG ADULTS’ EXPERIENCES OF A DUAL IDENTITY ORGANIZATION](/literature-review/papers/ssrn-2367823.pdf)
 * context: referenced [here](#finding-a-fit-or-developing-it-implicit-theories-about-achieving-passion-for-work): *"“The only way to do great work is to love what you do.” This sentiment, famously expressed by Steven Jobs, Apple co-founder and CEO, reflects an increasing concern in American society with the meaning of work"*

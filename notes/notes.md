@@ -38,5 +38,12 @@
     * The only limitation with this approach is that there isn't any collborative filtering, which could be leveraged by an external product
     * But if i'm being honest, if you have very good awareness/knowledge of career counselling/advice, then ChatGPT is a great solution
         * **but not everyone knows the great advice or is aware!**
-* [Ask for career advice, and then based on those results, ask for course recommendations]()
-    * **TODO**
+* [Ask for career advice, and then based on those results, ask for course recommendations](https://gemini.google.com/u/1/app/6d57137f5e1034b6)
+    * It's first recommendation was SWE lol
+    * **solid results**
+    * it recommends careers/courses in different categories, good for novelty and serendipity
+    * then gives actionable steps:
+        1. research the courses it recommended
+        2. try testing out the vocation, e.g. do some coding, etc.
+        3. reach out to people working in the field and see what it's really like
+    * it's kind of only giving engineering, and CS options really, with little variation
