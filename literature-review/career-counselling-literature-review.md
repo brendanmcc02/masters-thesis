@@ -381,17 +381,21 @@
 * passion is not a factor to be ignored when considering career, but it shouldn't be the only focus - which is the main problem with this advice
 * assumes that passions pre-exist (fixed) and cannot be developed (anti-growth mindset)
     * TODO could probably find a Dweck study on this
+    * dweck's mindset book could be worth mentioning, but that refers to qualities/traits of a person that can be changed, not necessarily passions, so that's worth checking.
 * creates a false idea that when you are working on something you love, it is easy and frictionless
     * see [here](#implicit-theories-of-interest-finding-your-passion-or-developing-it)
 * financially risky - the types of jobs that are often targeted when people say "follow your passion" (e.g. artist, sports player, etc.) are incredibly high-risk
-* ignorant to people who have difficult financial backgrounds and want to make a living
+    * this is ignorant and poor advice to people who do not have financial safety nets, and thus less financial risk tolerance
 
 ## [Gemini Report](https://gemini.google.com/u/1/app/b6267c0fa0de9643)
 * Nothing too novel tbh, doesn't give academic citations, so it's mostly argumentative as opposed to scientific, which isn't really something I'm looking for with my literature review
 
 ## [Implicit Theories of Interest: Finding Your Passion or Developing It?](https://gregorywalton-stanford.weebly.com/uploads/4/9/4/4/49448111/okeefedweckwalton_2018.pdf)
-* One of the authors is Carol Dweck!
-* Challenges the notion that passions are pre-formed/existing
+* ~~Challenges the notion that passions are pre-formed/existing~~
+    * she doesn't propose that growth or fixed theory is true and false respectively
+    * it just presents two different mindsets of the world, and how people with these mindsets perform in the real world
+    * very important to acknowledge! it may be the case that growth theory doesn't exist, but the mindset is more useful (useful fiction; heuristic)
+    * but in her mindset book, she claims that many traits are malleable, so I suppose there is truth to it beyond being "a useful, pragmatic fiction".
 * can check [google trend for "find your passion"](https://trends.google.com/trends/explore?q=find%20your%20passion&hl=en-GB)
     * might be useful in the section where this idea is critiqued
 * growth theory is a much better theory when facing challenges, as an implicit assumption of fixed theory is that work should come easy and effortless to people when you are working on your passion.
@@ -407,7 +411,6 @@
     * see page 30, study 5.
 
 ## [Finding a Fit or Developing It: Implicit Theories About Achieving Passion for Work](https://journals.sagepub.com/doi/pdf/10.1177/0146167215596988)
-* *"passion has been shown to be associated with important work outcomes, including positive affect,  flow, entrepreneurial initiative, lower burnout, and vocational satisfaction (Cardon, Wincent, Singh, &  Drnovsek, 2009; Chen et al., 2015; Perttula & Cardon, 2011; Vallerand & Houlfort, 2003)"*
 * **Implicit theories:** an individual's subconscious beliefs about the fixedness/malleability of qualities, e.g. personality or intelligence
 * good intro regarding the increasing interest in "follow your passion"
     * page 2
