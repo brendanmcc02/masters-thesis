@@ -1,52 +1,3 @@
-# My Initial Thoughts
-
-*Some of these thoughts are not backed by data - just a blend of my intuition and experience.*
-
-* What people **want** out of a course is often not the same as what is **best** for them.
-    * In this context, a good RS should recommend courses that are the intersection of **wants** and **aptitudes**
-    * I would also argue that the RS should rec courses that they haven't said they wanted for **serendipity & novelty**
-* What do people **want** out of a career or course?
-    * **sometimes people might want different things with a career vs a course**
-        * for example, people might see a course as an opportunity to explore their interests
-            * more likely for someone with a higher social class/affluent background, who can afford to waste time/money
-                * aka they have less financial risk tolerance
-                * people from these socioeconomic backgrounds (and parents with educational backgrounds) generally tend towards careers with lower early-career earnings, but higher long-term earnings (slower, but better ROI)
-            * e.g. study maths/physics at college, and then work in finance
-        * and a career as something stable to make money
-            * more likely for someone with a lower social class, who can't waste money or resources
-                * people from these socioeconomic backgrounds generally tend towards courses with more **defined** careers, with higher early-career earnings (quicker ROI)
-    * I would say that is not a popular case. If that is something the person wants, then a good RS should be able to accomodate that through natural language (e.g. Conversational RS) or other means
-    * For an RS like this, you need to profile a person's interests (aptitudes), and also their **wants**
-        * However, we should not only recommend courses that intersect with a person's aptitudes and their wants
-            * Firstly, this would be an uninteresting RS producing non-novel results
-            * But also, people often **construct their preferences** *(see preference construction)*
-                * so, a course would get recommended to them that might conflict with something they thought they wanted, but from this experience they may learn that isn't something they want
-            * So, recommending courses that don't align with their wants (but aligns with their aptitudes) not only is beneficial because of **serendipity and novelty**, but it may also challenge and develop a person's preferences
-* How do you determine that a course or career is successful for someone?
-    * I would argue this is **subjective** and it depends on what the person answered to the questions: ***"What do people want out of a course?"***
-    * As I've already established, people want different things out of their course/career:
-    * Back to the original question, what then are the success metrics?
-        * For some people, the success metric is **money**
-            * they see work as a means for living
-        * for some people, the success metric is how **meaningful** their work is.
-            * they want to make a difference
-        * for some people, the success metric is how **passionate** they are about their work.
-            * they want to do something they love
-        * for some people, the success metric is a **challenging and engaging** job
-            * they want to do something that they can apply their skills and grow them
-    * Observe that the above four points are all present in **Ikigai**
-    * It would be important for the RS to gauge **how important** each of these 4 components are to their work
-    * **On second thought,** I think reducing it down to these 4 factors is **reductionisitic**
-        * **Prestige** and social perception is also a factor
-        * **Work/life balance** too
-* **Culture** is also a major factor in course/career selection
-    * for example, western attitudes will differ from eastern ones
-    * when looking at academic papers, consider this bias
-* Consider **survivorship bias:**
-    * Not everyone goes to college
-    * Not every career requires college, some might require apprenticeships
-    * When you interview college students, or consider samples of college students only, remember this bias.
-
 # Job satisfaction
 
 * [Gemini](https://gemini.google.com/u/1/app/2ea72a12c1e68c3c) makes a good point that **job satisfaction** is different to **career satisfaction.** Job satisfaction relates to the current place/job they are in, whereas career satisfaction looks at their vocation as a whole. I should be focusing more on career satisfaction as opposed to job satisfaction.
@@ -124,9 +75,25 @@
     * this ensures an overall well-reviewed RS - the user will be happy with recs that align with what they said they wanted, but are also given (hopefully) novel/serendipitous recommendations
 
 ## [The importance of work goals: An international perspective.](https://www.jstor.org/stable/pdf/155006.pdf)
-* According to a study, **Enjoyment** and **pay** are the top 2 dominant goals sought by people
-    * representative sample across 7 countries, including the US
-* TODO
+* A huge study done across 7 countries (EU, USA, Japan, Israel)
+* **They found "interesting work" to be the most valued work goal**
+* **"good pay" was the second most valued work goal**
+    * more important for men than women
+* **70-85% of workers said they would continue to work, even if they had sufficient money to live comfortably for the rest of their lives without having to work**
+    * Strong indicator that work is a lot more than just being paid well.
+    * source: Meaning of Work (MOW) 1987
+* "good interpersonal relations"
+    * more important for women than men
+* next was "job security"
+    * valued more highly by older age groups as opposed to younger ones
+    * likely because they have experienced the harshness & reality of unemployment
+    * whereas young people haven't, so they might have a blind spot to it.
+* then "good match between you and your job"
+    * Holland code!
+* then "a lot of autonomy"
+    * this was valued more by managers
+    * more valued by men than women
+* they mentioned a lack of confidence in the sex differences, and said it could be down to a conflict between a woman's role as a homemaker vs in a career.
 
 ## [Gemini Report](https://gemini.google.com/u/1/app/090cdbcca0ff3582)
 * We should not measure career satisfaction by things like salary, job title, etc.
@@ -197,6 +164,28 @@
     2. tenure
     3. gender
     4. ethnicity
+
+# Purpose/meaning in work
+
+* not all jobs are created equal in terms of meaning/purpose
+    * I would guess that doctors/nurses have an easier pathway to meaning than accountants, for instance
+* purpose/meaning is not analaguous to social impact.
+* people find a strong purpose in jobs that may not have direct/apparent social impact
+    * e.g. physicists researching something
+
+## [Forging Pathways to Purposeful Work](/literature-review/papers/Bates_PurposefulWork_041119_DIGITAL_lg.pdf)
+* 80% of college graduates said it was very important to derive/find meaning in their work
+* 50% of these college graduates do not succeed in finding their sense of meaning from work
+    * these people were interviewed <5 years after graduating
+    * people's ideals are confronted by reality.
+    * people don't find the 'right' job immediately, it can take some time and moulding to make it work
+* Graduates who align their work with their **interests, values and strengths** are roughly three
+times more likely to experience high purpose in work
+    * they are certainly correlated, but does one cause the other?
+    * does having a high sense of purpose in work come from an intersection of interests, values, and strengths?
+        * my guess is no
+    * does having an intersection of interests, values, and strengths result in a sense of purpose in work?
+        * my guess is yes
 
 # College Choice
 
