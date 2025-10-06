@@ -255,38 +255,11 @@ times more likely to experience high purpose in work
         * my RS would be the least influential here, because the student will already have places in mind to go
         * it might cause a little change-of-mind, but unlikely
 
-
-# [Differing Generational views on career](https://gemini.google.com/u/1/app/9729d48340941e30)
-
-* **Silent generation (1928-45):**
-    * appreciation for job security
-    * respect for authority
-    * job loyalty.
-* **Baby Boomers (1946-64):** 
-    * strong work ethic
-    * goal-oriented 
-    * motivated by traditional metrics of success, such as promotions, titles, and rewards.
-* **Generation X (1965-1980):** 
-    * independence & self-reliance
-    * pushed the concept of work/life balance
-* **Millenials (1981-1996):** 
-    * often accused of job-hoppers, who went to jobs for better pay/compensation. 
-    * greater demands for flexibility
-    * they introduced the idea of meaning/fulfilment in their work
-* **Gen Z (1997-2012):**
-    * strongly value purpose/meaning in their work
-    * prioritise well-being
-    * Gen Z are said to be both pragmatic (recongising economic realities and hardships), but also idealistic (valuing meaning in their work)
-* the labour market is volatile and people who are fluid often succeed
-* this results in an interesting shift, where skills are being valued more over degrees
-
-## One study found no correlation with generation and proclivity towards fit/develop theories in context with passion at work
-* see [here](#implicit-theories-of-interest-finding-your-passion-or-developing-it)
-
 # Course/Career choice
 
 ## [Holland's Theory of Career Choice](https://www.ebsco.com/research-starters/economics/hollands-theory-career-choice)
 
+* 1997 I believe
 * Posits that an individual's vocational interests reflect their personality traits, suggesting that people achieve greater career fulfillment when their jobs align with their personal attributes.
 * He categorises personalities into 6 types:
     1. Realistic (Doers)
@@ -540,3 +513,30 @@ times more likely to experience high purpose in work
 * **Preference Construction:** *[...] humans often do not have a clear picture of
 their preferences from the very beginning but rather develop their preferences within
 the context of a decision process*
+
+# [Differing Generational views on career](https://gemini.google.com/u/1/app/9729d48340941e30)
+
+* **Silent generation (1928-45):**
+    * appreciation for job security
+    * respect for authority
+    * job loyalty.
+* **Baby Boomers (1946-64):** 
+    * strong work ethic
+    * goal-oriented 
+    * motivated by traditional metrics of success, such as promotions, titles, and rewards.
+* **Generation X (1965-1980):** 
+    * independence & self-reliance
+    * pushed the concept of work/life balance
+* **Millenials (1981-1996):** 
+    * often accused of job-hoppers, who went to jobs for better pay/compensation. 
+    * greater demands for flexibility
+    * they introduced the idea of meaning/fulfilment in their work
+* **Gen Z (1997-2012):**
+    * strongly value purpose/meaning in their work
+    * prioritise well-being
+    * Gen Z are said to be both pragmatic (recongising economic realities and hardships), but also idealistic (valuing meaning in their work)
+* the labour market is volatile and people who are fluid often succeed
+* this results in an interesting shift, where skills are being valued more over degrees
+
+## One study found no correlation with generation and proclivity towards fit/develop theories in context with passion at work
+* see [here](#implicit-theories-of-interest-finding-your-passion-or-developing-it)
