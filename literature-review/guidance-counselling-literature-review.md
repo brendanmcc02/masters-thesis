@@ -499,6 +499,60 @@ times more likely to experience high purpose in work
 * Mentions that RS's often contribute to feedback loops: recommending popular items makes them more popular, and less popular items less popular
 * Proposes some novel methods for addressing this with CF
 
+# Are Personality Tests (e.g. OCEAN & MBTI) relevant for guidance counselling?
+
+## [Gemini Report](https://gemini.google.com/u/1/app/d716520782efd487)
+* 
+
+# Guidance Counselling in Practice
+
+## [Gemini Answer](https://gemini.google.com/u/1/app/52f7a5c7537b50d5)
+* Some do Aptitude tests, to get an idea of natural abilities
+    * also called **pyschometric tests** I believe
+    * e.g. DATS
+    * I think this could be useful to ask, the only issue is that not everyone takes the DATS
+    * there are other aptitude tests, e.g. CAT3, but they have very similar categories/overlap, so it should be ok to make some uniform interface, or ask the user which aptitude test they took beforehand and pick an interface based off that
+* Personality inventory (e.g. RIASEC)
+    * essential imo
+* some ask about interests/hobbies
+    * not convinced about this, as it might skew/muddle results
+* values in work
+    * e.g. work-life balance, proclivity for social impact/meaning, high salary, autonomy
+    * quite important imo
+
+## [Guidance Counselling Core Professional Practice](https://igc.ie/wp-content/uploads/2020/04/Guidance-Counselling-Core-Competencies-Professional-Practice-1.pdf)
+* They mention that a skilled guidance counsellor knows when to challenge, but of course it must be done at the right time, which requires human-level of intuition, but this is an AI model.
+* As part of guidance counselling, one needs to understands their clients family background (e.g. education level, expectations), socioeconomic status, gender, race, etc.
+    * I think the model would perform better if it was blind to this imo, but I'm open to discussion
+* A guidance counsellor is so much more than someone who recommends courses - it's a human who can help a person realise their potential and guide them through this emotionally challenging process
+    * something that an RS would be incredibly limited in doing
+    * it would be worth mentioning that the RS can aid in just the "course recommendation" part of guidance counselling which is a big part, but not the entire guidance counselling process
+    * it would also help with the "assessment" part, but it would be lacking human emotion, whereas a guidance counsellor could pick up on it
+        * in my defense, a lot of this assessment data is objective anyways
+        * and in many cases (I believe), these assessments are done outside of the counselling session anyways, so there's not much difference
+* *"There is a paradigm shift in the conceptualisation of career. In the labour market a career is not chosen, it is constructed through a series of choices we make throughout our lives"*
+    * also ties in with Super's theory
+* A big part of guidance counselling is extensive knowledge of "next steps" - after recommending courses, what training/internships options there are, knowledge of the labour market, trends, etc.
+    * an LLM would have general knowledge of this, and you could fine-tune it to be more aware of it, but it still has it's limitations
+    * But I think this would be considered "out of scope" - I would be satisfied with an RS that is effective at:
+        1. assessment
+        2. course recs based off that
+    * like i said, there are many more steps in the process of guidance counselling, but I think we should lean in to the advantages of AI/RS, and recognise it's limitations
+
+## [Core Principles of Guidance Counselling](https://psychology.town/assessment-counselling-guidance/core-principles-guidance-counselling/)
+* They make an argument for holistic counselling - and in the case of human guidance counselling, I absolutely agree
+    * but in the case of RS, I actually think that the less information they gather, the more serendipitous/novel the recs would be
+    * but maybe I'm focusing too much on serendipity and novelty? these are generally very risky recs with high risk/high reward, and it may result in a very poor RS
+    * I think what would be best is to have a dedicated section for serendipitous/novel recs, as opposed to the whole system being blind (potentially detrimental)
+* this talks about goal-setting, and [here](#guidance-counselling-core-professional-practice) too, I'm wondering if that is relevant to my case, or if that fits in?
+    * honestly, I'm not sure how relevant this is, because we will very likely be gauging a user's **values** in work, which are implicit goals in my opinion.
+* they talk about the value of **flexibility** - in other words, the counsellor should be flexible to the changing wants/needs of their client
+    * this is topical, and Owen talked aout it
+    * I think a student should be given the ability to re-do their RIASEC, sometimes after some self-reflection they realise some differences and may want to change things
+
+## Meeting with TCD careers service
+* TODO
+
 # Human Pyschology
 
 ## [Chapter 18 Human Decision Making and Recommender Systems](https://www.researchgate.net/profile/Martijn-Willemsen/publication/275152080_Human_Decision_Making_and_Recommender_Systems/links/566b36d208ae1a797e39d8de/Human-Decision-Making-and-Recommender-Systems.pdf)

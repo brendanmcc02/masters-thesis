@@ -48,10 +48,6 @@
         3. reach out to people working in the field and see what it's really like
     * when I prompt it further for 10 courses, it's kind of only giving engineering, and CS options really, with little variation - lacking novelty and serendipity
 
-# Guidance Counselling in Practice
-
-## [Asking Gemini about methodology of Guidance Counselling](https://gemini.google.com/u/1/app/52f7a5c7537b50d5)
-
 # What factors
 * Skills & Personality
 * Procilivity for social impact/meaning
