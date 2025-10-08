@@ -278,6 +278,7 @@ times more likely to experience high purpose in work
     * health
     * employment opportunities
 * A potential limitation of this theory is that it does not take cultural factors into account
+* Talk about Person-Environment (P-E) fit
 
 ## Frank Parson's Theory
 * Similar concept to Holland
@@ -499,10 +500,33 @@ times more likely to experience high purpose in work
 * Mentions that RS's often contribute to feedback loops: recommending popular items makes them more popular, and less popular items less popular
 * Proposes some novel methods for addressing this with CF
 
-# Are Personality Tests (e.g. OCEAN & MBTI) relevant for guidance counselling?
+# Are Personality Tests (e.g. OCEAN) relevant for guidance counselling?
 
 ## [Gemini Report](https://gemini.google.com/u/1/app/d716520782efd487)
-* 
+* They argue that OCEAN should be used over MBTI, because of it's gradations/nuance in it's scoring, as opposed to MBTI simplifying certain traits, e.g. classifying someone as an 'extrovert' which no knowledge of their score
+* They argue that **yes**, it would be relevant to profile their personality traits.
+
+## [Personality and Person-Work Environment Fit: A Study Based on the RIASEC Model](https://pmc.ncbi.nlm.nih.gov/articles/PMC9819525/)
+* They investigate correlations between RIASEC & OCEAN
+    * they find some positive correlations
+* They reference many sources claiming a positive correlation between OCEAN and RIASEC types
+    * check this paper for sources! handy to use
+
+# Are Hobbies/Interests relevant for guidance counselling?
+
+## [Gemini Report](https://gemini.google.com/u/1/app/77de6b1f4c755c98)
+* They argue it can be helpful
+    * but they mention that it should not be given a lot of performance in prediction
+* They mentioned the flaw with hobbies is that it may just be a fleeting interest
+    * e.g. just getting into gaming a few months earlier, you don't know how sustainable it is
+* They mention that rather than just ticking a box "e.g. I like gaming", you should ask:
+    1. when did you start the hobby?
+    2. how many hours a week do you spend doing it?
+    3. how do you learn new skills
+    4. what challenges have you encountered?
+* I think this is way too over-engineered, and noisy imo.
+* I think this is definitely something worth **testing**
+    * my guess is that it would not influence recs significantly, but I could be open (hence the experiment)
 
 # Guidance Counselling in Practice
 
@@ -516,9 +540,12 @@ times more likely to experience high purpose in work
     * essential imo
 * some ask about interests/hobbies
     * not convinced about this, as it might skew/muddle results
+    * see [here](#are-hobbiesinterests-relevant-for-guidance-counselling)
 * values in work
     * e.g. work-life balance, proclivity for social impact/meaning, high salary, autonomy
     * quite important imo
+* personality tests (e.g. OCEAN)
+    * see [here](#are-personality-tests-eg-ocean-relevant-for-guidance-counselling)
 
 ## [Guidance Counselling Core Professional Practice](https://igc.ie/wp-content/uploads/2020/04/Guidance-Counselling-Core-Competencies-Professional-Practice-1.pdf)
 * They mention that a skilled guidance counsellor knows when to challenge, but of course it must be done at the right time, which requires human-level of intuition, but this is an AI model.
