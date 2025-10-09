@@ -62,18 +62,30 @@
 * Kinda ass paper ngl
 
 ## [Envisioning Tomorrow: AI Powered Career Counseling](https://ieeexplore.ieee.org/abstract/document/10426016)
-* Didn't read, saving for later
+* Can't get full access
+* They profile student's:
+    1. Grades
+    2. Extracurriculars
+    * and based off that, they recommend courses
+* very limited profiling imo
 
 ## [Counselling Career with Artificial Intelligence: A Systematic Review](https://pdfs.semanticscholar.org/d292/5cd666cd4f1184eeecdc23e334061447dbd2.pdf)
-* Didn't read, saving for later
+* Survey of AI in Career counselling
+* It is worth mentioning this paper is more concerned with guidance counselling in it's entirety
+    * guidance counselling is so much more than taking inventory of a person and recommending courses to them (which is what I'm trying to achieve with my thesis)
+    * it's a process where the human element is crucial
+    * this paper is more concerned with the human-emotional element of counselling, and the implications of AI being involved in that
+* kinda ass paper ngl
 
 ## [A Novel Approach for Better Career Counselling Utilizing Machine Learning Techniques](/literature-review/papers/s11277-024-11612-3.pdf)
-* Didn't read, saving for later
-* ~~**Done by someone in TCD in 2024!**~~
-    * incorrect i think idk
-
-## [A comparative analysis of different recommender systems for university major and career domain guidance](https://link.springer.com/content/pdf/10.1007/s10639-022-11541-3.pdf#page=27&zoom=100,66,377)
-* Didn't read, saving for later
+* They test various ML techniques:
+    * Random Forest, SVM, Naive Bayes, KNN, etc.
+* The profile student's:
+    1. hobbies
+    2. grades
+    3. interests (what exactly, idk)
+    4. achievements
+* So poorly written ngl
 
 # Real-world products
 
@@ -107,3 +119,9 @@
 4. [Univariety](https://www.univariety.com/home/)
     * Indian too I believe
     * all-in-one-platform for alumni management, etc.
+    * not just career recs
+
+# The edge of my Thesis
+* There is no course recommender system for the Irish college system
+* In almost all of the peripheral literature I could find, there is a lack of scientific grounding with guidance counselling
+* In almost all the papers I've seen, they are either using traditional/ML methods for recs, as opposed to LLM-based recs
