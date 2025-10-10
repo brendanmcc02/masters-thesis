@@ -1,3 +1,5 @@
 # TODO
-- [ ] get hands dirty with RIASEC and testing
-- [ ] Papers - LLM & Career/guidance/college course counselling
+
+- [ ] Kaggle dataset looks pretty good
+- [ ] O*NET has some public datasets
+- [ ] careers portal?
