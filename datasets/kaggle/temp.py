@@ -49,8 +49,8 @@ def process_csv_data(input_file, output_file):
 
     education_map = {
         2: 'High School',
-        3: 'Undergraduate Degree',
-        4: 'Postgraduate degree'
+        3: 'Undergrad',
+        4: 'Postgrad'
     }
     df_filtered['education'] = df_filtered['education'].astype(int).replace(education_map)
 
