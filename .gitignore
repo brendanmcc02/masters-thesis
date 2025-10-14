@@ -45,4 +45,4 @@
 .mtc
 build/
 
-datasets/kaggle/filtered.tsv
+datasets/open-psychometrics/filtered_data.tsv
