@@ -270,7 +270,7 @@ times more likely to experience high purpose in work
     6. Conventional (Organizers)
 * The theory also emphasises that a person may be a mix of the 6 traits - they are not **mutually exclsuive**
 * The theory has immense success, being used by career counsellors and even the US government
-* Still used and cited today apparently
+* Still used and cited today
 * He has a test for determining your **Holland code**
 * Over the years he has refined his work, and remarked that many other factors contribute to a person's vocational choice:
     * educational level of the individual
@@ -278,7 +278,34 @@ times more likely to experience high purpose in work
     * health
     * employment opportunities
 * A potential limitation of this theory is that it does not take cultural factors into account
+    * the circular/hexagonal part of the theory is what is challenged by cultural factors
+    * but as far as I understand, the taxonomoy of RIASEC performs very well cross-culturally
+        * but I could look into this in more detail, this is surface level knowledge
 * Talk about Person-Environment (P-E) fit
+
+### [Limitations of Holland's Theory and RIASEC model - Gemini report](https://gemini.google.com/u/1/app/416c753f35293981)
+* I had a (quick, not deep) scan of google scholar and couldn't find any articles critiquing Holland's RIASEC model
+* Apparently there is some data that challenges the hexagonal structure of RIASEC
+    * I don't think this is so destructive, because it's just the hexagonal part
+* a core part of holland's theory is that high congruence (P-E fit)
+    * gemini mentions some studies which say it results in low predictive power
+    * but there are also other([1](https://www.researchgate.net/publication/326281320_Meta-analysis_of_Vocational_Interests_and_Job_Satisfaction_Challenging_a_Common_Belief) and [2](https://www.researchgate.net/publication/222671194_The_effects_of_college_major_and_job_field_congruence_on_job_satisfaction)) studies claiming that it is a good predictor of job satisfaction, so I'm not too sure tbh.
+* they mention that individual's personalities can and do change over time, so there is apprehension to over-relying on a static holland code
+    * this argument has some validity
+    * but I'd argue that you shouldn't take the test once at 18 and let that define you for the rest of your life
+    * it provides a good, solid snapshot of your vocational interests currently, but it can definitely change
+* there are some cultural limitations to this theory outside of the US
+    * In [China](), there seemed to be a different hexagonal structure - RASECI instead of RIASEC
+        * not super destructive imo, as it relates to the hexagonal structure
+    * In [Nordic Countries](https://brill.com/display/book/edcoll/9789004428096/BP000021.xml?language=en), there is some challenge on the RIASEC model
+        * I skimmed this, but didn't read it in depth
+* doesn't account for self-efficacy, which is proposed by Super in SCCT
+* the modern career is much more fluid and less defined
+    * but I would argue that if you use RIASEC to pick a career, you are following in the trap
+    * but RIASEC is a general vocation interests test, it doesn't pigeon-hole you into a specific career
+    * if anything, you could follow the flow and trend of your vocational interests, and let that inform your career path
+    * so imo this argument doesn't have a lot of validity.
+* as a conclusion, they make a good point - this is a starting point, not a definition of your career
 
 ## Frank Parson's Theory
 * Similar concept to Holland

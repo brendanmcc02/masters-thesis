@@ -63,12 +63,3 @@
 * physical work environment
     * some prefer outdoors
     * other office spaces
-
-# Misc
-
-## Be cautious about over-ambition
-* 1796 CAO undegraduate courses at 3rd level (higher education)
-* 2041 PLC courses
-* 39 tertiary education programmes
-* 158 apprenticeship courses
-* 42 traineeship

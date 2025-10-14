@@ -11,23 +11,24 @@ def filterData(input_file, output_file):
         print(f"An error occurred while reading the CSV file: {e}")
         return
     
-    df_preprocessed_majors = preprocessMajors(df)
+    undergrad_or_postgrad_filter = (df['education'] == 3) | (df['education'] == 4)
+    df_preprocessed_majors = df[undergrad_or_postgrad_filter]
+
+    non_empty_major_filter = ~df_preprocessed_majors["major"].fillna("").str.strip().eq("")
+    df_filtered = df_preprocessed_majors[non_empty_major_filter].copy()
+
+    filtered_columns = ["major"]
 
     holland_code_prefixes = ["R", "I", "A", "S", "E", "C"]
     for prefix in holland_code_prefixes[::-1]:
-        score_cols = [col for col in df_preprocessed_majors.columns if col.startswith(prefix) and col[1:].isdigit()]
+        score_cols = [col for col in df_filtered.columns if col.startswith(prefix) and col[1:].isdigit()]
         
         if score_cols:
-            df_preprocessed_majors[prefix] = (df_preprocessed_majors[score_cols].mean(axis=1) - 1) / 4  # normalize mean between 0-1
+            df_filtered[prefix] = (df_filtered[score_cols].mean(axis=1) - 1) / 4  # normalize mean between 0-1
             filtered_columns.insert(0, prefix)
 
-    df_output = df_preprocessed_majors[filtered_columns].rename(columns={"major": "College Major", "R":"Realistic", "I":"Investigative", "A":"Artisitc", "S":"Social", "E":"Enterprising", "C":"Conventional"})
+    df_output = df_filtered[filtered_columns].rename(columns={"major": "College Major", "R":"Realistic", "I":"Investigative", "A":"Artisitc", "S":"Social", "E":"Enterprising", "C":"Conventional"})
     df_output.to_csv(output_file, index=False, sep="\t")
 
-def preprocessMajors(df):
-    non_empty_major_filter = ~df["major"].fillna("").str.strip().eq("")
-    df_filtered = df[non_empty_major_filter]#.copy()
-
-    filtered_columns = ["major"]
 
 filterData("raw_data.tsv", "filtered_data.tsv")
