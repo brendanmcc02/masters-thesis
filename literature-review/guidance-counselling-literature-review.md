@@ -295,8 +295,8 @@ times more likely to experience high purpose in work
     * but I'd argue that you shouldn't take the test once at 18 and let that define you for the rest of your life
     * it provides a good, solid snapshot of your vocational interests currently, but it can definitely change
 * there are some cultural limitations to this theory outside of the US
-    * In [China](), there seemed to be a different hexagonal structure - RASECI instead of RIASEC
-        * not super destructive imo, as it relates to the hexagonal structure
+    * In [China](https://repository.stcloudstate.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1009&context=psyc_etds), there seemed to be a different hexagonal structure - RASECI instead of RIASEC
+        * not super destructive imo, as it relates to the hexagonal structure, and not necessarily the taxonomy of RIASEC itself.
     * In [Nordic Countries](https://brill.com/display/book/edcoll/9789004428096/BP000021.xml?language=en), there is some challenge on the RIASEC model
         * I skimmed this, but didn't read it in depth
 * doesn't account for self-efficacy, which is proposed by Super in SCCT
