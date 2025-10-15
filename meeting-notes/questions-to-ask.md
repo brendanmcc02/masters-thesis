@@ -1,5 +1,7 @@
 # Questions to Ask
 * ethical approval? has to be done before december afaik
+    * I could go to CBS if under minors
+    * how much more complicated is testing for minors?
 * college courses only?
 * ask about o*net dataset, granularity with occupations
     * i think he mentioned something about translating them to college courses
