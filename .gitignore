@@ -46,3 +46,6 @@
 build/
 
 datasets/open-psychometrics/filtered_data.tsv
+datasets/careers-portal-web-scraper/node_modules/
+datasets/careers-portal-web-scraper/package-lock.json
+datasets/careers-portal-web-scraper/package.json
