@@ -1,477 +1,1002 @@
-{
-    "DL847": {
+[
+    {
         "id": "DL847",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "3D-Animation",
+        "college": "Institute of Art, Design and Technology Dun Laoghaire - IADT",
+        "duration": "4 Years",
+        "points": "605",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "CK202": {
+    {
         "id": "CK202",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting",
+        "college": "University College Cork - UCC",
+        "duration": "3 Years",
+        "points": "510",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "TU910": {
+    {
         "id": "TU910",
-        "type": "",
-        "title": ""
+        "type": "3-4 Years",
+        "title": "Accounting",
+        "college": "TU Dublin - Aungier Street",
+        "duration": "3-4 Years",
+        "points": "380",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "SE408": {
+    {
         "id": "SE408",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting",
+        "college": "SETU Waterford Campus",
+        "duration": "3 Years",
+        "points": "308",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "MT942": {
+    {
         "id": "MT942",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Accounting",
+        "college": "MTU Cork Campus",
+        "duration": "4 Years",
+        "points": "303",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "SE407": {
+    {
         "id": "SE407",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting",
+        "college": "SETU Carlow Campus",
+        "duration": "3 Years",
+        "points": "319",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU600": {
+    {
         "id": "AU600",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting (Dublin Road campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "3 Years",
+        "points": "325",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU902": {
+    {
         "id": "AU902",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting (Sligo Campus)",
+        "college": "ATU Sligo",
+        "duration": "3 Years",
+        "points": "320",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "DB521": {
+    {
         "id": "DB521",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting and Finance",
+        "college": "Dublin Business School - DBS",
+        "duration": "3 Years",
+        "points": "242",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "DC115": {
+    {
         "id": "DC115",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting and Finance",
+        "college": "Dublin City University - DCU",
+        "duration": "3 Years",
+        "points": "532",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "DK810": {
+    {
         "id": "DK810",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting and Finance",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "duration": "3 Years",
+        "points": "210",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "GC401": {
+    {
         "id": "GC401",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting and Finance",
+        "college": "Griffith College Dublin",
+        "duration": "3 Years",
+        "points": "254",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "US610": {
+    {
         "id": "US610",
-        "type": "",
-        "title": ""
+        "type": "2 Years",
+        "title": "Accounting and Finance",
+        "college": "TUS Midwest",
+        "duration": "2 Years",
+        "points": "229",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "MH403": {
+    {
         "id": "MH403",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting and Finance",
+        "college": "Maynooth University",
+        "duration": "3 Years",
+        "points": "412",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "US845": {
+    {
         "id": "US845",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Accounting and Finance",
+        "college": "TUS Midwest",
+        "duration": "4 Years",
+        "points": "357",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "ID001": {
+    {
         "id": "ID001",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting and Finance",
+        "college": "ICD Business School",
+        "duration": "3 Years",
+        "points": "",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "NC022": {
+    {
         "id": "NC022",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting and Finance",
+        "college": "National College of Ireland - NCI",
+        "duration": "3 Years",
+        "points": "336",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "GC201": {
+    {
         "id": "GC201",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting and Finance",
+        "college": "Griffith College Cork",
+        "duration": "3 Years",
+        "points": "",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "TU933 AFB": {
+    {
         "id": "TU933 AFB",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Accounting and Finance",
+        "college": "TU Dublin - Blanchardstown",
+        "duration": "4 Years",
+        "points": "261",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "TU933 AFT": {
+    {
         "id": "TU933 AFT",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Accounting and Finance",
+        "college": "TU Dublin - Tallaght",
+        "duration": "4 Years",
+        "points": "261",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "TU788 AFB": {
+    {
         "id": "TU788 AFB",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting and Finance",
+        "college": "TU Dublin - Blanchardstown",
+        "duration": "3 Years",
+        "points": "204",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "TU788 AFT": {
+    {
         "id": "TU788 AFT",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting and Finance",
+        "college": "TU Dublin - Tallaght",
+        "duration": "3 Years",
+        "points": "204",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "GC301": {
+    {
         "id": "GC301",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Accounting and Finance - CANCELLED for 2025 Entry",
+        "college": "Griffith College Limerick",
+        "duration": "3 Years",
+        "points": "",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "US846": {
+    {
         "id": "US846",
-        "type": "",
-        "title": ""
+        "type": "3 - 4 Years",
+        "title": "Accounting with Finance",
+        "college": "TUS Midlands",
+        "duration": "3 - 4 Years",
+        "points": "358",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "US847": {
+    {
         "id": "US847",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Accounting with Finance (and Placement)",
+        "college": "TUS Midlands",
+        "duration": "4 Years",
+        "points": "318",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "DN230": {
+    {
         "id": "DN230",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Actuarial & Financial Studies",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "points": "613",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "DC126": {
+    {
         "id": "DC126",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Actuarial Mathematics",
+        "college": "Dublin City University - DCU",
+        "duration": "4 Years",
+        "points": "589",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "RC006": {
+    {
         "id": "RC006",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Advanced Therapeutic Technologies",
+        "college": "RCSI University of Medicine and Health Sciences",
+        "duration": "4 Years",
+        "points": "476",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU837": {
+    {
         "id": "AU837",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Advanced Wood and Sustainable Building Technology (Sligo Campus)",
+        "college": "ATU Sligo",
+        "duration": "3 Years",
+        "points": "235",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "TU919": {
+    {
         "id": "TU919",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Advertising and Marketing Communications",
+        "college": "TU Dublin - Tallaght",
+        "duration": "4 Years",
+        "points": "218",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "LM077": {
+    {
         "id": "LM077",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Aeronautical Engineering",
+        "college": "University of Limerick - UL",
+        "duration": "4 Years",
+        "points": "556",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "SE714": {
+    {
         "id": "SE714",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Aerospace Engineering",
+        "college": "SETU Carlow Campus",
+        "duration": "4 Years",
+        "points": "462",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "MT879": {
+    {
         "id": "MT879",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Agri-Biosciences",
+        "college": "MTU Cork Campus",
+        "duration": "4 Years",
+        "points": "370",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU506": {
+    {
         "id": "AU506",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Agri-Business Management (Mountbellew Campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "3 Years",
+        "points": "",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU606": {
+    {
         "id": "AU606",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Agri-Business Management (Mountbellew Campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "4 Years",
+        "points": "300",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "DN250": {
+    {
         "id": "DN250",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Agri-Environmental Sciences - Agricultural Science",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "points": "431",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "MT748": {
+    {
         "id": "MT748",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Agricultural Engineering",
+        "college": "MTU Kerry Campus",
+        "duration": "3 Years",
+        "points": "280",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "MT848": {
+    {
         "id": "MT848",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Agricultural Engineering",
+        "college": "MTU Kerry Campus",
+        "duration": "4 Years",
+        "points": "305",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "US769": {
+    {
         "id": "US769",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Agricultural Engineering",
+        "college": "TUS Midwest",
+        "duration": "3 Years",
+        "points": "301",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU648": {
+    {
         "id": "AU648",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Agricultural Engineering (Dublin Road campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "4 Years",
+        "points": "326",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "US651": {
+    {
         "id": "US651",
-        "type": "",
-        "title": ""
+        "type": "2 Years",
+        "title": "Agricultural Mechanisation (Salesian Agricultural College Pallaskenry)",
+        "college": "TUS Midwest",
+        "duration": "2 Years",
+        "points": "257",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "MT777": {
+    {
         "id": "MT777",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Agricultural Science",
+        "college": "MTU Kerry Campus",
+        "duration": "3 Years",
+        "points": "259",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "SE502": {
+    {
         "id": "SE502",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Agricultural Science",
+        "college": "SETU Waterford Campus",
+        "duration": "4 Years",
+        "points": "381",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "MT877": {
+    {
         "id": "MT877",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Agricultural Science",
+        "college": "MTU Kerry Campus",
+        "duration": "4 Years",
+        "points": "331",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "CK412": {
+    {
         "id": "CK412",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Agricultural Science",
+        "college": "University College Cork - UCC",
+        "duration": "4 Years",
+        "points": "484",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "US870": {
+    {
+        "id": "DN250",
+        "type": "4 Years",
+        "title": "Agricultural Science - No Preference",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "points": "431",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
+    },
+    {
         "id": "US870",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Agricultural Science and Sustainability (Thurles Campus)",
+        "college": "TUS Midwest",
+        "duration": "4 Years",
+        "points": "300",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "US740": {
+    {
         "id": "US740",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Agricultural Science and Sustainability (Thurles Campus)",
+        "college": "TUS Midwest",
+        "duration": "3 Years",
+        "points": "225",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "SE732": {
+    {
         "id": "SE732",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Agricultural Systems Engineering",
+        "college": "SETU Carlow Campus",
+        "duration": "4 Years",
+        "points": "313",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "SE733": {
+    {
         "id": "SE733",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Agricultural Systems Engineering",
+        "college": "SETU Carlow Campus",
+        "duration": "3 Years",
+        "points": "263",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "MT750": {
+    {
+        "id": "DN250",
+        "type": "4 Years",
+        "title": "Agricultural Systems Technology - Agricultural Science",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "points": "431",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
+    },
+    {
         "id": "MT750",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Agriculture",
+        "college": "MTU Cork Campus",
+        "duration": "3 Years",
+        "points": "289",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "SE508": {
+    {
         "id": "SE508",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Agriculture",
+        "college": "SETU Waterford Campus",
+        "duration": "3 Years",
+        "points": "315",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "SE529": {
+    {
         "id": "SE529",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Agriculture",
+        "college": "SETU Waterford Campus",
+        "duration": "4 Years",
+        "points": "",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU371": {
+    {
         "id": "AU371",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Agriculture - Common Entry (Letterkenny campus)",
+        "college": "ATU Donegal",
+        "duration": "4 Years",
+        "points": "312",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU272": {
+    {
         "id": "AU272",
-        "type": "",
-        "title": ""
+        "type": "3 years",
+        "title": "Agriculture (Letterkenny campus)",
+        "college": "ATU Donegal",
+        "duration": "3 years",
+        "points": "251",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU557": {
+    {
         "id": "AU557",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Agriculture and Environmental Management (Mountbellew Campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "3 Years",
+        "points": "250",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU657": {
+    {
         "id": "AU657",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Agriculture and Environmental Management (Mountbellew Campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "4 Years",
+        "points": "310",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "SE729": {
+    {
         "id": "SE729",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Aircraft Systems",
+        "college": "SETU Carlow Campus",
+        "duration": "3 Years",
+        "points": "410",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "DN530": {
+    {
         "id": "DN530",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "An Ghaeilge & An Cultúr/The Irish Language and Culture - Humanities",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "points": "462",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "MT774": {
+    {
         "id": "MT774",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Analytical and Pharmaceutical Chemistry",
+        "college": "MTU Cork Campus",
+        "duration": "3 Years",
+        "points": "337",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "TU851": {
+    {
         "id": "TU851",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Analytical Chemistry (Environmental, Forensic & Pharmaceutical)",
+        "college": "TU Dublin - Grangegorman",
+        "duration": "4 Years",
+        "points": "311",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "MT874": {
+    {
         "id": "MT874",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Analytical Chemistry with Quality Assurance",
+        "college": "MTU Cork Campus",
+        "duration": "4 Years",
+        "points": "370",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "DC161": {
+    {
         "id": "DC161",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Analytical Science",
+        "college": "Dublin City University - DCU",
+        "duration": "4 Years",
+        "points": "410",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "SE513": {
+    {
         "id": "SE513",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Analytical Science",
+        "college": "SETU Carlow Campus",
+        "duration": "3 Years",
+        "points": "359",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "TR028": {
+    {
         "id": "TR028",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Ancient and Medieval History and Culture",
+        "college": "Trinity College Dublin - TCD",
+        "duration": "4 Years",
+        "points": "469",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "TR111": {
+    {
         "id": "TR111",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Ancient History and Archaeology/Geography",
+        "college": "Trinity College Dublin - TCD",
+        "duration": "4 Years",
+        "points": "",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "TR112": {
+    {
         "id": "TR112",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Ancient History and Archaeology/History",
+        "college": "Trinity College Dublin - TCD",
+        "duration": "4 Years",
+        "points": "",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "TR113": {
+    {
         "id": "TR113",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Ancient History and Archaeology/History of Art and Architecture",
+        "college": "Trinity College Dublin - TCD",
+        "duration": "4 Years",
+        "points": "",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "TR114": {
+    {
         "id": "TR114",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Ancient History and Archaeology/Modern Language",
+        "college": "Trinity College Dublin - TCD",
+        "duration": "4 Years",
+        "points": "",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "TR117": {
+    {
         "id": "TR117",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Ancient History and Archaeology/Religion",
+        "college": "Trinity College Dublin - TCD",
+        "duration": "4 Years",
+        "points": "",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "MT781": {
+    {
+        "id": "DN250",
+        "type": "4 Years",
+        "title": "Animal and Crop Production - Agricultural Science",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "points": "431",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
+    },
+    {
         "id": "MT781",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Animal Bioscience",
+        "college": "MTU Kerry Campus",
+        "duration": "3 Years",
+        "points": "271",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "DL832": {
+    {
+        "id": "DN250",
+        "type": "4 Years",
+        "title": "Animal Science - Agricultural Science",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "points": "431",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
+    },
+    {
+        "id": "DN250",
+        "type": "4 Years",
+        "title": "Animal Science - Equine - Agricultural Science",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "points": "431",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
+    },
+    {
         "id": "DL832",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Animation",
+        "college": "Institute of Art, Design and Technology Dun Laoghaire - IADT",
+        "duration": "4 Years",
+        "points": "945",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU331": {
+    {
         "id": "AU331",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Animation",
+        "college": "ATU Donegal",
+        "duration": "4 Years",
+        "points": "301",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU617": {
+    {
         "id": "AU617",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Animation and Game Design (Wellpark Road campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "3 Years",
+        "points": "400",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "US802": {
+    {
         "id": "US802",
-        "type": "",
-        "title": ""
+        "type": "4 years",
+        "title": "Animation and Illustration",
+        "college": "TUS Midlands",
+        "duration": "4 years",
+        "points": "733",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "US778": {
+    {
         "id": "US778",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Animation and Illustration",
+        "college": "TUS Midlands",
+        "duration": "3 Years",
+        "points": "623",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "MT811": {
+    {
         "id": "MT811",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Animation, Visual Effects and Motion Design",
+        "college": "MTU Kerry Campus",
+        "duration": "4 Years",
+        "points": "410",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "MT711": {
+    {
         "id": "MT711",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Animation, Visual Effects and Motion Design",
+        "college": "MTU Kerry Campus",
+        "duration": "3 Years",
+        "points": "335",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "CK123": {
+    {
         "id": "CK123",
-        "type": "",
-        "title": ""
+        "type": "3-4 Years",
+        "title": "Anthropology",
+        "college": "University College Cork - UCC",
+        "duration": "3-4 Years",
+        "points": "301",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "US730": {
+    {
         "id": "US730",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Applied Biology",
+        "college": "TUS Midwest",
+        "duration": "3 Years",
+        "points": "288",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "TU651": {
+    {
         "id": "TU651",
-        "type": "",
-        "title": ""
+        "type": "2 Years",
+        "title": "Applied Biology",
+        "college": "TU Dublin - Tallaght",
+        "duration": "2 Years",
+        "points": "255",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU569": {
+    {
         "id": "AU569",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Applied Biology and Biopharmaceutical Science (Dublin Road campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "3 Years",
+        "points": "295",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU670": {
+    {
         "id": "AU670",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Applied Biology and Biopharmaceutical Science (Dublin Road campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "4 Years",
+        "points": "402",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "MT775": {
+    {
         "id": "MT775",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Applied Biosciences",
+        "college": "MTU Cork Campus",
+        "duration": "3 Years",
+        "points": "440",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU360": {
+    {
         "id": "AU360",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Applied Computing (Letterkenny campus)",
+        "college": "ATU Donegal",
+        "duration": "4 Years",
+        "points": "353",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "CK212": {
+    {
         "id": "CK212",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Applied Economics (through Transformational Learning)",
+        "college": "University College Cork - UCC",
+        "duration": "4 Years",
+        "points": "498",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU555": {
+    {
         "id": "AU555",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Applied Freshwater and Marine Biology (Dublin Road campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "3 Years",
+        "points": "302",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "AU655": {
+    {
         "id": "AU655",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Applied Freshwater and Marine Biology (Dublin Road campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "4 Years",
+        "points": "400",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "SE928": {
+    {
         "id": "SE928",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Applied Health Care",
+        "college": "SETU Waterford Campus",
+        "duration": "3 Years",
+        "points": "226",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "DC155": {
+    {
         "id": "DC155",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Applied Language and Translation Studies",
+        "college": "Dublin City University - DCU",
+        "duration": "4 Years",
+        "points": "378",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "LM044": {
+    {
         "id": "LM044",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Applied Languages",
+        "college": "University of Limerick - UL",
+        "duration": "4 Years",
+        "points": "389",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "SE519": {
+    {
         "id": "SE519",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Applied Microbiology",
+        "college": "SETU Carlow Campus",
+        "duration": "4 Years",
+        "points": "312",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "SE520": {
+    {
         "id": "SE520",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Applied Microbiology",
+        "college": "SETU Carlow Campus",
+        "duration": "3 Years",
+        "points": "268",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "DC175 AP": {
+    {
         "id": "DC175 AP",
-        "type": "",
-        "title": ""
+        "type": "4 Years",
+        "title": "Applied Physics",
+        "college": "Dublin City University - DCU",
+        "duration": "4 Years",
+        "points": "413",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "MT782": {
+    {
         "id": "MT782",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Applied Physics and Instrumentation",
+        "college": "MTU Cork Campus",
+        "duration": "3 Years",
+        "points": "332",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     },
-    "CK120": {
+    {
         "id": "CK120",
-        "type": "",
-        "title": ""
+        "type": "3 Years",
+        "title": "Applied Psychology",
+        "college": "University College Cork - UCC",
+        "duration": "3 Years",
+        "points": "533",
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "nfqLevel": ""
     }
-}
+]
