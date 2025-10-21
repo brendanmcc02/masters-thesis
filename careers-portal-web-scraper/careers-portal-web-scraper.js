@@ -38,9 +38,9 @@ async function getCourses() {
             await expandButton.click();
             
             const overviewElementSelector = "div.prose.max-w-none.prose-sm.prose-slate.prose-headings\\:font-display.prose-headings\\:font-bold > div";
-            await page.waitForSelector(overviewElementSelector, { visible: true, timeout: 10000 });
-            const overviewHandles = await page.$$(overviewElementSelector);
-            console.log(overviewHandles.length);
+            await courseHandle.waitForSelector(overviewElementSelector, { visible: true, timeout: 10000 });
+            const overviewHandles = await courseHandle.$$(overviewElementSelector + ":first-child > p");
+            console.log("2?" + overviewHandles.length);
             // const overview = await Promise.all(
             //     overviewHandles.map(handle => handle.evaluate(el => el.textContent.trim()))
             // );
