@@ -1,6 +1,26 @@
-const puppeteer = require('puppeteer');
-// const cheerio = require('cheerio');
+// DL847
+// CAO
+// Level
+// 8
+// 4 Years
+// QQI Links
+// 605
+// #
+
+// let targetElements = await courseCard.$$("div.grid > div > span");
+// console.log(targetElements.length);
+// const openButton = await courseCard.$('label');
+// if (openButton) {
+//     console.log("we here!")
+//     await openButton.click();
+// }
+
+// const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-extra')
+const StealthPlugin = require('puppeteer-extra-plugin-stealth')
 const fs = require('fs');
+
+puppeteer.use(StealthPlugin())
 
 async function main() {
     const courses = await getCourses();
@@ -12,31 +32,15 @@ async function getCourses() {
     const url = 'https://careersportal.ie/courses/coursefinder?types_in=2';
     let courses = [];
 
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({ headless: false, defaultViewport: null, args: ['--start-maximized', '--window-size=1920,1080', '--no-sandbox', '--disable-setuid-sandbox'] }); // 
     const page = await browser.newPage();
-    await page.goto(url, { waitUntil: 'networkidle0' }); // networkidle0 may be faulty apparently
+    await page.setViewport({width: 1920, height: 1080});
+    await page.goto(url, { waitUntil: 'networkidle0' }); // ~~networkidle0 may be faulty apparently~~ i dont think so tbh, gemini maybe tripping
+    await page.content();
 
     while (true) {
         let courseCards = await page.$$("div.group\\/card");
-        
-        // DL847
-        // CAO
-        // Level
-        // 8
-        // 4 Years
-        // QQI Links
-        // 605
-        // #
 
-        // let targetElements = await courseCard.$$("div.grid > div > span");
-        // console.log(targetElements.length);
-        // const openButton = await courseCard.$('label');
-        // if (openButton) {
-        //     console.log("we here!")
-        //     await openButton.click();
-        // }
-
-        // use waitForSelector!!!
         for (const courseCard of courseCards) {
             const idElement = await courseCard.$("span.text-slate-500.font-bold"); 
             const id = idElement 
@@ -83,6 +87,9 @@ async function getCourses() {
                 ? await nfqLevelElement.evaluate(el => el.textContent.trim()) 
                 : "";
 
+            // const maybeButton = await courseCard.waitForSelector("div > label");
+            // console.log(maybeButton);
+
             courses.push({ 
                 id: id, 
                 type: type, 
@@ -91,8 +98,14 @@ async function getCourses() {
                 duration: duration, 
                 points: points,
                 isAdditionalPortfolioTestInterviewRequired: isAdditionalPortfolioTestInterviewRequired,
-                nfqLevel: nfqLevel 
+                nfqLevel: nfqLevel,
+                overview: "",
+                summary: "",
+                interests: [""]
             });
+
+            // TODO temp
+            return courses;
         }
         
         if (isNextButtonDisabled()) {
