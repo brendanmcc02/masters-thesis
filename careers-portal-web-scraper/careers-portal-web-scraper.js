@@ -23,30 +23,41 @@ async function getCourses() {
         let courseHandles = await page.$$("div.group\\/card");
 
         for (const courseHandle of courseHandles) {
-            const id = await getTextFromSelector(courseHandle, "span.text-slate-500.font-bold");
-            const type = await getTextFromSelector(courseHandle, "span.text-slate-300.text-\\[10px\\]");
-            const title = await getTextFromSelector(courseHandle, "a.font-display.font-bold.text-skin-fill-primary.leading-tight.my-1.hover\\:text-skin-fill-secondary.hover\\:underline");
-            const college = await getTextFromSelector(courseHandle, "a.text-sm.leading-tight.hover\\:text-skin-fill-secondary.hover\\:underline");
-            const duration = await getTextFromSelector(courseHandle, "span.text-sm.leading-tight");
-            const nfqLevel = await getTextFromSelector(courseHandle, "div > span.sr-only:last-child");
-            const points = parseInt(await getTextFromSelector(courseHandle, "div.text-sm > span.font-bold"));
+            const id = await getHandleTextFromSelector(courseHandle, "span.text-slate-500.font-bold");
+            const type = await getHandleTextFromSelector(courseHandle, "span.text-slate-300.text-\\[10px\\]");
+            const title = await getHandleTextFromSelector(courseHandle, "a.font-display.font-bold.text-skin-fill-primary.leading-tight.my-1.hover\\:text-skin-fill-secondary.hover\\:underline");
+            const college = await getHandleTextFromSelector(courseHandle, "a.text-sm.leading-tight.hover\\:text-skin-fill-secondary.hover\\:underline");
+            const duration = await getHandleTextFromSelector(courseHandle, "span.text-sm.leading-tight");
+            const nfqLevel = await getHandleTextFromSelector(courseHandle, "div > span.sr-only:last-child");
+            const points = parseInt(await getHandleTextFromSelector(courseHandle, "div.text-sm > span.font-bold"));
 
-            const additionalPortfolioTestInterviewRequiredText = await getTextFromSelector(courseHandle, "div.text-sm > span:nth-child(2)");
+            const additionalPortfolioTestInterviewRequiredText = await getHandleTextFromSelector(courseHandle, "div.text-sm > span:nth-child(2)");
             const isAdditionalPortfolioTestInterviewRequired = additionalPortfolioTestInterviewRequiredText.includes('#');
             
             const expandButton = await courseHandle.$("div.flex.flex-col.items-center.justify-center.doNotPrint.font-display > label");
             await expandButton.click();
-            
-            const overviewElementSelector = "div.prose.max-w-none.prose-sm.prose-slate.prose-headings\\:font-display.prose-headings\\:font-bold > div";
-            await courseHandle.waitForSelector(overviewElementSelector, { visible: true, timeout: 10000 });
-            const overviewHandles = await courseHandle.$$(overviewElementSelector + ":first-child > p");
-            console.log("2?" + overviewHandles.length);
-            // const overview = await Promise.all(
-            //     overviewHandles.map(handle => handle.evaluate(el => el.textContent.trim()))
-            // );
+
+            const overviewParagraphElementSelector = "div.prose.max-w-none.prose-sm.prose-slate.prose-headings\\:font-display.prose-headings\\:font-bold > div:nth-of-type(1) p";
+            await courseHandle.waitForSelector(overviewParagraphElementSelector, { visible: true, timeout: 15000 });
+            const overviewParagraphHandles = await courseHandle.$$(overviewParagraphElementSelector);
             let overview = "";
-            for (overviewHandle of overviewHandles) {
-                overview += await getTextFromSelector(overviewHandle, "p") + "\n";
+            for (overviewHandle of overviewParagraphHandles) {
+                // TODO, if <br>, replace with \n or space char?
+                overview += await overviewHandle.evaluate(el => el.textContent.trim()) + " ";
+            }
+
+            const careerOpportunitiesParagraphElementSelector = "div.prose.max-w-none.prose-sm.prose-slate.prose-headings\\:font-display.prose-headings\\:font-bold > div:nth-of-type(2) p";
+            const careerOpportunitiesParagraphHandles = await courseHandle.$$(careerOpportunitiesParagraphElementSelector);
+            let careerOpportunities = "";
+            for (careerOpportunitiesHandle of careerOpportunitiesParagraphHandles) {
+                // TODO, if <br>, replace with \n or space char?
+                careerOpportunities += await careerOpportunitiesHandle.evaluate(el => el.textContent.trim()) + " ";
+            }
+
+            let interests = []
+            const interestsHandles = await courseHandle.$$("div.mt-8.flex.flex-wrap.items-center.gap-2 span");
+            for (const interestsHandle of interestsHandles) {
+                interests.push(await interestsHandle.evaluate(el => el.textContent.trim()));
             }
 
             courses.push({ 
@@ -59,13 +70,9 @@ async function getCourses() {
                 points: points,
                 isAdditionalPortfolioTestInterviewRequired: isAdditionalPortfolioTestInterviewRequired,
                 overview: overview,
-                summary: "",
-                interests: [""]
+                careerOpportunities: careerOpportunities,
+                interests: interests
             });
-
-            // TODO temp
-            await browser.close();
-            return courses;
         }
         
         if (isNextButtonDisabled()) {
@@ -80,7 +87,7 @@ async function getCourses() {
     }
 }
 
-async function getTextFromSelector(elementHandle, selector) {
+async function getHandleTextFromSelector(elementHandle, selector) {
     const element = await elementHandle.$(selector); 
     const text = element 
         ? await element.evaluate(el => el.textContent.trim()) 
