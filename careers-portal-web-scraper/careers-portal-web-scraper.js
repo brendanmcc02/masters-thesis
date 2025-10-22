@@ -14,7 +14,7 @@ async function getCourses() {
     const url = 'https://careersportal.ie/courses/coursefinder?types_in=2';
     let courses = [];
 
-    const browser = await puppeteer.launch({ headless: true, defaultViewport: null, args: ['--start-maximized', '--window-size=1920,1080', '--no-sandbox', '--disable-setuid-sandbox'] });
+    const browser = await puppeteer.launch({ headless: false, defaultViewport: null, args: ['--start-maximized', '--window-size=1920,1080', '--no-sandbox', '--disable-setuid-sandbox'] });
     const page = await browser.newPage();
     await page.setViewport({width: 1920, height: 1080});
     await page.goto(url, { waitUntil: 'networkidle0' });
@@ -34,11 +34,21 @@ async function getCourses() {
             const additionalPortfolioTestInterviewRequiredText = await getHandleTextFromSelector(courseHandle, "div.text-sm > span:nth-child(2)");
             const isAdditionalPortfolioTestInterviewRequired = additionalPortfolioTestInterviewRequiredText.includes('#');
             
+            await courseHandle.evaluate(el => el.scrollIntoView({ behavior: 'smooth', block: 'center' }));
+            await sleepForMs(1000);
+
             const expandButton = await courseHandle.$("div.flex.flex-col.items-center.justify-center.doNotPrint.font-display > label");
             await expandButton.click();
 
             const overviewParagraphElementSelector = "div.prose.max-w-none.prose-sm.prose-slate.prose-headings\\:font-display.prose-headings\\:font-bold > div:nth-of-type(1) p";
-            await courseHandle.waitForSelector(overviewParagraphElementSelector, { visible: true, timeout: 15000 });
+            
+            try {
+                await courseHandle.waitForSelector(overviewParagraphElementSelector, { visible: true, timeout: 15000 });
+            } catch (TimeoutError) {
+                console.log("Timeout waiting for " + overviewParagraphElementSelector + " on " + id);
+                continue;
+            }
+            
             const overviewParagraphHandles = await courseHandle.$$(overviewParagraphElementSelector);
             let overview = "";
             for (overviewHandle of overviewParagraphHandles) {
@@ -60,6 +70,7 @@ async function getCourses() {
                 interests.push(await interestsHandle.evaluate(el => el.textContent.trim()));
             }
 
+            console.log("Pushed " + id);
             courses.push({ 
                 id: id,
                 type: type,
@@ -73,13 +84,15 @@ async function getCourses() {
                 careerOpportunities: careerOpportunities,
                 interests: interests
             });
+
+            await sleepForMs(10000);
         }
         
         if (isNextButtonDisabled()) {
             // TODO
             // click next button
             // refresh html or something
-            continue;
+            fs.writeFileSync("../datasets/careers-portal/careers-portal-courses.json", JSON.stringify(courses, null, 4));
         } else {
             await browser.close();
             return courses;
@@ -99,6 +112,10 @@ async function getHandleTextFromSelector(elementHandle, selector) {
 // TODO
 function isNextButtonDisabled() {
     return false;
+}
+
+async function sleepForMs(ms) {
+    await new Promise(r => setTimeout(r, ms));
 }
 
 main();
