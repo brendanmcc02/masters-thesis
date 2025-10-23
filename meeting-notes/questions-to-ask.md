@@ -1,7 +1,7 @@
 # Questions to Ask
-* ethical approval? has to be done before december afaik
-    * I could go to CBS if under minors
-    * how much more complicated is testing for minors?
+* timeline for ethics application - can it be done later (e.g. Dec/Jan) once my methodology gets more fleshed out?
+    * or is it something to be done asap
+    * it didn't sound urgent from our last conversation tbh
 * college courses only?
 * ask about o*net dataset, granularity with occupations
     * i think he mentioned something about translating them to college courses
