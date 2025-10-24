@@ -135,15 +135,15 @@ async function getPoints(courseHandle) {
     const points = await getHandleTextFromSelector(courseHandle, "div.col-span-1.flex.flex-col.items-center.justify-center.font-display > div.text-sm > span");
 
     if (points === "AQA") {
-        // TODO what is the best thing to return here?
-        return 0; // or return "AQA" string? but that would mean different return types, poor design
+        // TODO is 0 the best thing to return here?
+        return 0;
     } else if (points !== null) {
         return parseInt(points);
     }
 
     const isNewCourse = await getHandleTextFromSelector(courseHandle, "div.text-xs.bg-skin-fill-secondary.rounded-full.px-2.text-white.font-bold");
     if (isNewCourse === "New!") {
-        // TODO what is the best thing to return here?
+        // TODO is 0 the best thing to return here?
         return 0;
     }
 
