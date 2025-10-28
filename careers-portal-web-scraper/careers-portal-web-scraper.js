@@ -15,7 +15,7 @@ async function main() {
     await page.setViewport({width: 1920, height: 1080});
     await page.goto(url, { waitUntil: 'networkidle0' });
 
-    const pagesToSkip = 4;
+    const pagesToSkip = 0;
     for (let i = 1; i <= pagesToSkip; i++) {
         let nextButtons = await page.$$(NEXT_BUTTON_SELECTOR);
 
@@ -178,11 +178,10 @@ function cleanCourseTitle(courseTitle) {
   // campus    - Matches the literal string "campus" (case-insensitive due to the 'i' flag)
   // [^)]* - Matches any character except a closing parenthesis, zero or more times
   // \)        - Matches the closing parenthesis literally
-  
-  const campusPattern = /\s*\([^)]*campus[^)]*\)/gi;
-  
-  // Use String.prototype.replace() with the regular expression
-  return courseTitle.replace(campusPattern, '');
+  // gi -> global (match all occurences), and i (case-insensitive)
+
+  const campusInParenthesesPattern = /\s*\([^)]*campus[^)]*\)/gi;
+  return courseTitle.replace(campusInParenthesesPattern, '');
 }
 
 async function getInterest(interestsHandle) {
