@@ -8,12 +8,6 @@ const COURSE_HANDLES_SELECTOR = "div.group\\/card";
 pptr.use(StealthPlugin())
 
 async function main() {
-    const courses = await getCourses();
-    fs.writeFileSync("../datasets/careers-portal/careers-portal-courses.json", JSON.stringify(courses, null, 4));
-    return;
-}
-
-async function getCourses() {
     const url = 'https://careersportal.ie/courses/coursefinder?types_in=2';
     let courses = [];
 
@@ -93,22 +87,21 @@ async function getCourses() {
 
             await sleepForMs(10000);
         }
-        
-        if (isElementExist(page, NEXT_BUTTON_SELECTOR)) {
-            // I have no idea why, but the first thing that matches the selector is not the button we're looking for.
-            // even though the html clearly only shows one button that matches the descriptor
-            // maybe it's hidden or something, idc. this works.
-            const nextButton = await page.$$(NEXT_BUTTON_SELECTOR);
-            await nextButton[1].evaluate(el => el.scrollIntoView({ behavior: 'smooth', block: 'center' }));
-            await nextButton[1].click();
 
-            fs.writeFileSync("../datasets/careers-portal/careers-portal-courses.json", JSON.stringify(courses, null, 4));
+        fs.writeFileSync("../datasets/careers-portal/careers-portal-courses.json", JSON.stringify(courses, null, 4));
+
+        // I have no idea why, but the first thing that matches the selector is not the button we're looking for.
+        // even though the html clearly only shows one button that matches the descriptor
+        // maybe it's hidden or something, idc. this works.
+        const nextButtons = await page.$$(NEXT_BUTTON_SELECTOR);
+
+        if (nextButtons.length > 1) {
+            await nextButtons[1].evaluate(el => el.scrollIntoView({ behavior: 'smooth', block: 'center' }));
+            await nextButtons[1].click();
 
             await page.waitForSelector(COURSE_HANDLES_SELECTOR, { visible: true, timeout: 10000 });
         } else {
-            fs.writeFileSync("../datasets/careers-portal/careers-portal-courses.json", JSON.stringify(courses, null, 4));
             await browser.close();
-            return courses;
         }
     }
 }
@@ -150,4 +143,4 @@ async function getPoints(courseHandle) {
     return null;
 }
 
-main();
+await main();
