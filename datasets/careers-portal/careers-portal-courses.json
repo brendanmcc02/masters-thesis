@@ -1,1 +1,1586 @@
-[]
+[
+    {
+        "id": "DL847",
+        "type": "CAO",
+        "title": "3D-Animation",
+        "college": "Institute of Art, Design and Technology Dun Laoghaire - IADT",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 605,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "This unique course is the first 3D animation undergraduate degree in Ireland. It will allow you to understand the highly artistic and technical practices that are involved in creating characters, stories and worlds using advanced digital technologies.\nLearn both advanced technical and creative skills to understand 3D animation pipelines, including character, design, world building, animation principles, lighting, rendering along with other specialised areas.This course is running in partnership with Creative Futures Academy (CFA).",
+        "careerOpportunities": "Our graduates will be equipped with the creative, technical and production expertise to be able to choose from multiple pathways on graduation, either directly into the animation, film & tv, games, motion graphics and the visual effects industries, to engage and create using new immersive technologies or to post graduate studies. This course will lead to a career in the dynamic Irish or International animation industry.",
+        "interests": [
+            "Creative"
+        ]
+    },
+    {
+        "id": "CK202",
+        "type": "CAO",
+        "title": "Accounting",
+        "college": "University College Cork - UCC",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 510,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BSc Accounting is a distinctive broad business degree. It is unique in that it prepares students for a career in business and finance and for the pursuit of a professional accounting qualification, to further enhance career progression in business. Students have the opportunity to study a wide range of subjects including finance, law, management, economics, information systems, accounting, marketing, and statistics.",
+        "careerOpportunities": "Students will gain broad business skills as well as knowledge in the areas of finance, economics, information systems, law, management and marketing, and taxation. These skills are widely sought by employers in all areas of business.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "TU910",
+        "type": "CAO",
+        "title": "Accounting",
+        "college": "TU Dublin - Aungier Street",
+        "duration": "3-4 Years",
+        "nfqLevel": 8,
+        "points": 380,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course provides an ideal route to a career in professional accountancy and to a training contract with an accounting practice. You may also pursue a career in areas such as fund management, financial services, financial analysis, corporate finance and money markets.",
+        "careerOpportunities": "Graduates may also pursue careers in areas such as fund management, financial services, financial analysis, corporate finance and money markets.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "SE408",
+        "type": "CAO",
+        "title": "Accounting",
+        "college": "SETU Waterford Campus",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 308,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BA (Hons) in Accounting is a three year degree course that prepares students mainly for careers in accountancy.",
+        "careerOpportunities": "Graduates of the BA (Hons) in Accounting may work in business or as trainee accountants or teachers following further study",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "MT942",
+        "type": "CAO",
+        "title": "Accounting",
+        "college": "MTU Cork Campus",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 303,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This four-year honours degree programme offers advanced specialist education in accounting, providing a firm base for either further academic study, a career in business or the pursuit of a professional qualification with one of the accountancy bodies.\nMTU offers accounting students the benefit of small class sizes initially which assists with a smoother transition from second level. MTU accounting lecturers have professional qualifications and relevant industry experience.",
+        "careerOpportunities": "Career opportunities include: Accountant in practice, Accountant in industry, Banking/Finance, Business analyst, Management consultant, Purchasing and procurement, Self employed/entrepreneur, Supply chain analyst, Teaching and lecturing.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "SE407",
+        "type": "CAO",
+        "title": "Accounting",
+        "college": "SETU Carlow Campus",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 319,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BA (Hons) in Accounting is a three-year course that prepares graduates for a global career in accounting and business and the pursuit of professional accounting qualifications. This course is accredited by various professional accounting bodies and boasts maximum available exemptions for those students wishing to pursue a professional accounting qualification.\nFurther exemptions are available with the Irish Taxation Institute allowing graduates the opportunity to pursue various roles in taxation.",
+        "careerOpportunities": "Graduate opportunities exist as a trainee accountant in professional services firms such as Ernst & Young (EY), Price Waterhouse Coopers (PWC), Grant Thornton, Deloitte, KPMG and the International Federation of Accountants (IFAC).  \nMany graduates also find employment in accountancy practices, industry, government roles and in the financial services sectors such as banking, insurance, financial analysis and fund management.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "AU600",
+        "type": "CAO",
+        "title": "Accounting (Dublin Road campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 325,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Accountants are required by every business in every industry, providing expert business advice as well as managing the businesses economic activities and financial information. This three-year, Level 8 programme offers a direct pathway into a full-time career in accounting, and it also offers graduates opportunities in a range of business careers including, financial services and management consulting.",
+        "careerOpportunities": "The programme prepares students for employment in the accounting function of industry and commerce and with firms of professional accountants as well as other financial services employers. There are many different types of accounting roles, and accountants today play a very strategic role within businesses.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "AU902",
+        "type": "CAO",
+        "title": "Accounting (Sligo Campus)",
+        "college": "ATU Sligo",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 320,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree offers one of the fastest routes to achieving a professional accounting qualification. Our final-year students are experiencing high demand for their skill set and receiving numerous offers of employment both locally and nationally, often prior to completion of the course. The programme is delivered through a combination of lectures, case studies, problem-based learning and computer laboratory work. Students develop a detailed comprehension of core concepts and principles in accounting and will have the ability to apply this knowledge in problem-solving.",
+        "careerOpportunities": "The majority of graduates from the BA (Hons) in Accounting will progress to a professional accounting qualification. Most of our recent graduates are either on masters programmes, some sponsored by employers, or are in training contracts with local and national accounting and consultancy companies.\nOn completion of this degree, masters opportunities and professional qualifications are available for graduates.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "DB521",
+        "type": "CAO",
+        "title": "Accounting and Finance",
+        "college": "Dublin Business School - DBS",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 242,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BA (Hons) in Accounting & Finance degree programme is designed to prepare students for a career in the accounting and finance function in business. It features a blend of specialised accounting and finance subjects together with general business subjects. It aims to develop an awareness of the international relationships between finance and other business disciplines, to develop a critical and methodical approach to problem solving and decision making in a financial context and to develop the ability to interpret and communicate financial and other information.",
+        "careerOpportunities": "There are currently numerous employment opportunities in the following are: Accountancy Firms; Management Consultants; Commercial Banks; Investment Banks; Asset Managers; Insurance Companies.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "DC115",
+        "type": "CAO",
+        "title": "Accounting and Finance",
+        "college": "Dublin City University - DCU",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 532,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "A BA in Accounting and Finance gives you a world of opportunities. It is considered Ireland’s premier degree for those wishing to pursue careers as accountants and financial services professionals. The course offers great prospects for career progression, and the chance to work in a wide range of different industries.Your Career Starts HereThis degree was first of its kind in Ireland, and this continues to be an extremely popular course. Graduates are highly regarded by the accounting and financial services professions, as can be seen in the consistently employment rates for those who take the BA in Accounting and Finance.",
+        "careerOpportunities": "Graduates find careers as Accountants, Financial Managers, tax and management consultants,  and work in the fields of Industry, Commerce, Financial and Public Service and Education. Work can be found both nationally and internationally",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "DK810",
+        "type": "CAO",
+        "title": "Accounting and Finance",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 210,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The course provides a comprehensive introduction to accounting, progressing to cover more complex theoretical and practical accounting studies. The course explores a variety of other topics, including business, law, taxation, auditing, professional management, economics, corporate finance, microeconomics and macroeconomics, marketing, human resources management, and communications.",
+        "careerOpportunities": "Future Careers: Accountant, Banking, Financial Services, Payroll Manager, Management Accountant, Accounts Assistant, and Chartered Accountant.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "GC401",
+        "type": "CAO",
+        "title": "Accounting and Finance",
+        "college": "Griffith College Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 254,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Throughout the BA (Hons) Degree in Accounting and Finance, you will develop the analytical techniques, economic expertise and strategic insight needed for a successful career within financial and business sectors. You will also learn how to practically apply your accounting knowledge and skills to inform strategic business decisions and create added value for stakeholders.",
+        "careerOpportunities": "While typical careers focus on the world of finance and accounting in particular, any aspect of the business arena is open to graduates. A significant advantage is the many exemptions from the professional exams for which graduates of the course are eligible. Students who do not wish to focus on a career as an accountant will find numerous opportunities in banking, stockbroking, currency trading, management, insurance or positions in the financial sector.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "US610",
+        "type": "CAO",
+        "title": "Accounting and Finance",
+        "college": "TUS Midwest",
+        "duration": "2 Years",
+        "nfqLevel": 6,
+        "points": 229,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our two-year Higher Certificate (Level 6) programme in Accounting & Finance will equip you with the skills and knowledge necessary to pursue a successful career at Accounting Technician level. This programme is both a qualification in its own right and a stepping stone to the Level 8 (Honours) Degree programme in Accounting & Finance.",
+        "careerOpportunities": "This qualification equips learners with the skills and knowledge necessary to secure, and succeed in, junior accounting roles such as: Accounts Assistant, Finance Assistant, Credit Control Assistant, Purchases Ledger Clerk, Accounts Administrator/Bookkeeper and Payroll Clerk.\nSuccessful graduates of this programme will have the opportunity to progress to the Level 8 (Honours) degree programme in Accounting and Finance. Successful graduates of this programme may, alternatively choose to pursue Professional Accountancy Examinations and may benefit from examination exemptions from the relevant bodies.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "MH403",
+        "type": "CAO",
+        "title": "Accounting and Finance",
+        "college": "Maynooth University",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 412,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "You will learn how to compile, analyse, interpret and communicate essential information about the operations of a business – whether that business be a small firm, a publicly traded corporation or an NGO (non-governmental organisation). Study technical accounting skills, financial analysis and the measurement of performance in business.",
+        "careerOpportunities": "Graduates have successful and rewarding careers in accounting, banking and the financial services sector generally, as well as financial research and teaching.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "US845",
+        "type": "CAO",
+        "title": "Accounting and Finance",
+        "college": "TUS Midwest",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 357,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme is structured to address many of the competence requirements of professional Accountancy bodies and to give students a range of learning experiences tailored to careers in Accounting and Finance. Its practical focus ensures that on completion you will be a work-ready graduate with employment opportunities in professional accounting practice, commerce, industry, government, the not-for-profit sector and secondary school teaching. Along with the development of your accountancy and finance knowledge, there is a strong focus on developing your management skills to ensure that when you graduate you have the high-level transferable skills that employers are seeking.",
+        "careerOpportunities": "Positions that graduates can work in include: Trainee Accountant in professional practice, industry and/or the public sector, Trainee Tax Advisor, Funds Analyst, General management opportunities across a range of sectors, Secondary School Teaching (subject to the pursuit a Professional Master of Education (PME) degree programme), Leading employers include Deloitte, EY, PwC, Grant-Thornton, BDO, Mazars, BOI and Northern Trust”.\nSuccessful graduates of this programme are eligible for Level 9 and 10 postgraduate programmes within the institute and/or elsewhere. Successful graduates of this programme who wish to continue their studies towards professional accountancy accreditation can benefit from ‘fast track’ agreements with one or more of the professional bodies.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "ID001",
+        "type": "CAO",
+        "title": "Accounting and Finance",
+        "college": "ICD Business School",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course is designed for students seeking a high level career in finance, accountancy or business management. Graduates are employed in a variety of managerial careers. The course focuses on giving practical and theoretical skills of real use to financial managers.",
+        "careerOpportunities": "This course gives all-round business management skills as well as specialist knowledge of finance and accounting. Many graduates pursue careers as accountants and openings are available as management trainees in manufacturing, banks, government agencies and the public sector.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "NC022",
+        "type": "CAO",
+        "title": "Accounting and Finance",
+        "college": "National College of Ireland - NCI",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 336,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "NCI’s BA (Honours) in Accounting and Finance features a blend of specialised accounting and finance subjects together with general business subjects, giving you an excellent foundation in leadership and management as well as a critical and methodical approach to problem-solving and decision-making in a financial context.",
+        "careerOpportunities": "Recent graduates are employed as trainee accountants and tax advisors within the Big 4 and Top 10 accountancy firms together with industry and financial services. Many are undertaking the professional accountancy exams. Specific employers include EY, Deloitte, BDO, Grant Thornton, JPA Brenson Lawlor, JP Morgan, Enterprise Rent-a-Car, Citi, BNY Mellon, Moore Stephens, Cornmarket, PwC and Daiwa.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "GC201",
+        "type": "CAO",
+        "title": "Accounting and Finance",
+        "college": "Griffith College Cork",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 0,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Throughout the BA (Hons) Degree in Accounting and Finance, you will develop the analytical techniques, economic expertise and strategic insight needed for a successful career within financial and business sectors. You will also learn how to practically apply your accounting knowledge and skills to inform strategic business decisions and create added value for stakeholders.",
+        "careerOpportunities": "The programme gives you an understanding of the business, legal, and social environments in which accountancy operates and enables you to be conversant in the technical languages and practices of the accounting sector in a market economy. These include measurement and disclosure in financial statements, managerial accounting, auditing, taxation and business law.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "TU933 AFB",
+        "type": "CAO",
+        "title": "Accounting and Finance",
+        "college": "TU Dublin - Blanchardstown",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 261,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This four-year course prepares you for a career in professional accountancy and finance and can lead to a contact with an accounting practice. You don’t need to have studied any Leaving Certificate Accounting, Business or Economics subjects. We start at an introductory level, which will prepare you for the more complex concepts that you meet at a later stage in the course.",
+        "careerOpportunities": "While many go on to work in practice or in core financial reporting roles, the majority of accountants work in industry, many as auditors, tax consultants and management consultants. Graduates of this course also enjoy rewarding careers in banking, finance and charities as well as public sector roles.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "TU933 AFT",
+        "type": "CAO",
+        "title": "Accounting and Finance",
+        "college": "TU Dublin - Tallaght",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 261,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This four-year course prepares you for a career in professional accountancy and finance and can lead to a contact with an accounting practice. You don’t need to have studied any Leaving Certificate Accounting, Business or Economics subjects. We start at an introductory level, which will prepare you for the more complex concepts that you meet at a later stage in the course. All modules gradually develop students' knowledge with each module building on the knowledge acquired in previous semesters.",
+        "careerOpportunities": "A career in Accounting & Finance can offer you a strategic role in the management and development of an organisation. The career opportunities are broad ranging, interesting and dynamic. A career in Accounting and Finance is considered financially attractive, recession proof and a passport to travel globally.\nWhile many go on to work in practice or in core financial reporting roles, the majority of accountants work in industry, many as auditors, tax consultants and management consultants. Graduates of this course also enjoy rewarding careers in banking, finance and charities as well as public sector roles.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "TU788 AFB",
+        "type": "CAO",
+        "title": "Accounting and Finance",
+        "college": "TU Dublin - Blanchardstown",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 204,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This three year course aims to provide a level of knowledge and skills in Accounting and Finance that prepares students for middle level responsibility in an Accounting environment. Students who gain the Bachelor Degree Award may exit into the world of employment with this solid qualification.",
+        "careerOpportunities": "While many go on to work in practice or in core financial reporting roles, the majority of accountants work in industry, many as auditors, tax consultants and management consultants. Graduates of this course also enjoy rewarding careers in banking, finance and charities as well as public sector roles.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "TU788 AFT",
+        "type": "CAO",
+        "title": "Accounting and Finance",
+        "college": "TU Dublin - Tallaght",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 204,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This three year course aims to provide a level of knowledge and skills in Accounting and Finance that prepares students for middle level responsibility in an Accounting environment. Students who gain the Bachelor Degree Award may exit into the world of employment with this solid qualification.",
+        "careerOpportunities": "A career in Accounting & Finance can offer you a strategic role in the management and development of an organisation. The career opportunities are broad ranging, interesting and dynamic. A career in Accounting and Finance is considered financially attractive, recession proof and a passport to travel globally. While many go on to work in practice or in core financial reporting roles, the majority of accountants work in industry, many as auditors, tax consultants and management consultants. Graduates of this course also enjoy rewarding careers in banking, finance and charities as well as public sector roles.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "GC301",
+        "type": "CAO",
+        "title": "Accounting and Finance - CANCELLED for 2025 Entry",
+        "college": "Griffith College Limerick",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This Accounting and Finance degree reflects the multiple requirements of today’s business and finance world, preparing you for a career in accounting, banking, stockbroking, currency trading, management, insurance, or positions in the financial sector.\nWhether you want to change career, improve job prospects or are a school leaver, the BA (Hons) in Accounting and Finance is an excellent choice to develop your analytical techniques, economic expertise and strategic insight needed for a successful career within financial and business sectors.",
+        "careerOpportunities": "These include measurement and disclosure in financial statements, managerial accounting, auditing, taxation and business law. While typical careers focus on the world of finance and accounting in particular, any aspect of the business arena is open to graduates.",
+        "interests": [
+            "Administrative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "US846",
+        "type": "CAO",
+        "title": "Accounting with Finance",
+        "college": "TUS Midlands",
+        "duration": "3 - 4 Years",
+        "nfqLevel": 8,
+        "points": 358,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BA (Hons) in Accounting with Finance provides students with a comprehensive foundation in accounting principles, concepts and practices equipping students with the skills to work in various business contexts where they can to progress to become professional qualified accountants. The programme places a high emphasis on obtaining exemptions from professional accounting exams. This ensures that graduates from this programme have a minimal number of exams to sit after they graduate in order to become a fully qualified professional accountant.",
+        "careerOpportunities": "Successful graduates of this programme, may progress to study for a professional accountancy qualification or you are eligible for Level 9 and 10 postgraduate programmes within TUS or elsewhere. While the MA in Accounting at TUS Athlone is a natural progression route, students also have the option of continuing on to the MSc in Data Analytics.",
+        "interests": [
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "US847",
+        "type": "CAO",
+        "title": "Accounting with Finance (and Placement)",
+        "college": "TUS Midlands",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 318,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BA (Hons) in Accounting with Finance and Placement provides students with a comprehensive foundation in accounting principles, concepts and practices equipping students with the skills to work in various business contexts where they can to progress to become professional qualified accountants. The programme places a high emphasis on obtaining exemptions from professional accounting exams. This ensures that graduates from this programme have a minimal number of exams to sit after they graduate in order to become a fully qualified professional accountant. The programme also places an emphasis on building students’ professional and digital skills.",
+        "careerOpportunities": "Successful graduates of this programme, may progress to study for a professional accountancy qualification or you  are eligible for Level 9 and 10 postgraduate programmes within TUS or elsewhere. While the MA in Accounting at TUS Athlone is a natural progression route, students also have the option of continuing on to the MSc in Data Analytics.",
+        "interests": [
+            "Administrative"
+        ]
+    },
+    {
+        "id": "DN230",
+        "type": "CAO",
+        "title": "Actuarial & Financial Studies",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 613,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Studying UCD Actuarial & Financial Studies (BAFS) degree requires a multidisciplinary education in fields such as mathematics, economics, finance, statistics, risk management and professionalism. It takes a combination of strong analytical skills, business knowledge and understanding of human behaviour to design and manage programmes that control risk and guarantee sufficient funds for the insurance and pension sectors. Actuaries have traditionally worked mostly in the insurance and pensions industries but are increasingly moving into wider fields, where they can employ their range of skills. The course also opens up options to work in finance, investment and trading.",
+        "careerOpportunities": "Most Actuarial & Financial Studies graduates take positions as actuarial trainees in the following: Life insurance, Pensions, Health insurance, General insurance, Investment. Some graduates also work in banking or finance as business or financial analysts. As an Actuarial & Financial Studies graduate, you are also eligible to pursue graduate study in statistics, computer science, economics, mathematics, management science, finance and other specialist business subjects.",
+        "interests": [
+            "Administrative",
+            "Investigative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "DC126",
+        "type": "CAO",
+        "title": "Actuarial Mathematics",
+        "college": "Dublin City University - DCU",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 589,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Actuarial Mathematics could be the perfect course for you. It’s accredited by the Institute and Faculty of Actuaries, UK, meaning you may be exempt from some of the exams needed to qualify as an actuary in Ireland and the UK.\nBefore you embark on learning essential actuarial knowledge and theories, you’ll be given solid mathematical training. In your first two years, you’ll study the fundamental mathematical principles that underpin the actuarial and financial models covered in later years. You’ll also study computer programming, economics and accounting.",
+        "careerOpportunities": "Graduates find careers in Actuary, Actuarial Consultancy, Risk Management, Investments, Insurance, Pensions, Finance Analyst and Pricing Analyst, Statistical Analysis, Research Data Analytics in the Financial Services.",
+        "interests": [
+            "Administrative",
+            "Investigative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "RC006",
+        "type": "CAO",
+        "title": "Advanced Therapeutic Technologies",
+        "college": "RCSI University of Medicine and Health Sciences",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 476,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BSc in Advanced Therapeutic Technologies fuses digital technology with traditional science. This science degree is focused on the latest scientific discoveries and goes beyond learning about each step of the drug lifecycle process as it layers in cutting-edge advanced therapeutic technologies and precision medicine – state-of-the-art individual treatments based on individual’s genes, environment and lifestyle.",
+        "careerOpportunities": "Graduates are in a position to apply for range of varied roles in the pharmaceutical industry and related areas, including: Drug design and development, Connected medical device design and development, Design/management of clinical trial protocols, Analysis of clinical trial data, Project management, Quality assurance, Team leadership, and Compliance.",
+        "interests": [
+            "Investigative",
+            "Realist"
+        ]
+    },
+    {
+        "id": "AU837",
+        "type": "CAO",
+        "title": "Advanced Wood and Sustainable Building Technology (Sligo Campus)",
+        "college": "ATU Sligo",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 235,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme has been designed in partnership with industry to meet the needs of the ‘Green Economy’, which reports have projected to be a major area of employment within the Irish economy. This broad-based level 7 degree programme emphasises the principles of construction and has a strong bias towards sustainable construction practices. It equips students with practical carpentry and joinery skills and an in-depth knowledge of sustainable building technologies and materials, including the retrofitting / refurbishment of existing dwellings to achieve a low carbon design and the construction of new low-energy buildings.",
+        "careerOpportunities": "Graduates of this programme are prepared for employment with building contracting organisations, architects, quantity surveyors and local authorities in areas such as retrofitting existing building stock, BER certification, preparation of working drawings and specifications, surveying and site setting out, building surveying, defect analysis and construction planning\nGraduates may progress to the final year of our BSc (Hons) in Construction Project Management here at ATU Sligo.",
+        "interests": [
+            "Realist"
+        ]
+    },
+    {
+        "id": "TU919",
+        "type": "CAO",
+        "title": "Advertising and Marketing Communications",
+        "college": "TU Dublin - Tallaght",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 218,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "In this course, developed with the aid of industry practitioners, you'll exercise your creativity in areas such as creating advertisements, organising and running events, running a marketing campaign, creating radio and video ads, crafting a digital marketing strategy, etc.",
+        "careerOpportunities": "Performing as part of a team designing advertising and promotion campaigns for clients, Organising sporting, musical and cultural events, Advising companies on how to get the most out of their public relations activities, Designing digital marketing and social media campaigns for communicating with customers, Devising sales promotions and loyalty programmes that help launch new products or help boost the sales of brands in competitive markets, Working in a public or private-sector organisation, with responsibility for their advertising and marketing communications, Completing a master’s degree in a related field.",
+        "interests": [
+            "Enterprising",
+            "Linguistic",
+            "Administrative"
+        ]
+    },
+    {
+        "id": "LM077",
+        "type": "CAO",
+        "title": "Aeronautical Engineering",
+        "college": "University of Limerick - UL",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 556,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Engineering (B.E.) and Masters of Engineering (M.E.) programmes are 4 years and 5 years in duration, respectively. Both include an eight month period of Cooperative Education spent in an appropriate industrial environment. The course provides a broad and practical programme of study, which gives you a good understanding of aircraft design, aerodynamics, structures, propulsion, control, materials, avionics, business and maintenance, and enables you to work in all sectors of the aerospace industry.",
+        "careerOpportunities": "Graduates progressing directly into employment take up a wide variety of roles. The following provides a sample of initial roles listed on the Graduate Outcomes Survey by graduates approximately one year after graduation: Aero Design Engineer, Aeronautical Engineer, Aerospace Stress Engineer, Aircraft Design Engineer, Associate Technical Professional, Camo Engineer, Design Engineer, Design Liaison Engineer, Development Engineer, and Engineering Technician.\nFurther study options: MSc in Aeronautical Engineering, and Structured PhD in Aeronautical Engineering.",
+        "interests": [
+            "Investigative",
+            "Realist"
+        ]
+    },
+    {
+        "id": "SE714",
+        "type": "CAO",
+        "title": "Aerospace Engineering",
+        "college": "SETU Carlow Campus",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 462,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Aerospace engineering covers the design and development of all types of aerial and space vehicles. Aerospace engineers bring concepts to reality by applying the principles of engineering to the design, manufacture and operation of highly-sophisticated technologies for use in aviation and space.\nEngineers work as part of team using mathematical tools to predict the performance of these vehicles, and perform aerodynamic and structural analysis on evolving designs.",
+        "careerOpportunities": "Aerospace engineers work in many different aspects of the aerospace industry which can involve air vehicle design, engineering analysis, flight testing and software development of avionic and flight systems",
+        "interests": [
+            "Investigative",
+            "Realist"
+        ]
+    },
+    {
+        "id": "MT879",
+        "type": "CAO",
+        "title": "Agri-Biosciences",
+        "college": "MTU Cork Campus",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 370,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The course content is designed in collaboration with industry partners to meet the needs of the ever-evolving agri-food industry. Topics covered are contemporary and relevant both nationally and internationally. The lectures are supplemented with relevant examples, case studies, projects, assignments, site visits, web tools, and interactive media.",
+        "careerOpportunities": "Comprehensive training in biotechnology, microbiology, animal and crop physiology, quality systems and food analysis will allow graduates to gain employment both nationally and internationally, as key players across a variety of sectors within the agri-food industry. Some potential career routes include animal and food production, veterinary diagnostics, food composition analysis, animal feed production, and research and development.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "AU506",
+        "type": "CAO",
+        "title": "Agri-Business Management (Mountbellew Campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme will enable the learner to improve their knowledge and understanding of general business and to develop business skills, particularly as they apply to the rural enterprise and agri-business sector. The aim of the BB in Rural Enterprise and Agri-Business is to provide the learner with a business education that emphasises the importance of rural enterprise and agri business by developing an understanding of the theory, concepts and methods as well as the practical implementation of a range of skills and tools in these areas.",
+        "careerOpportunities": "There are many opportunities for graduates of this programme. The targeted roles, in addition to many returning to the farming sector or part-time farming, include: Education and training services, Financial institutions, Sales, Marketing and PR agencies, Entrepreneurship, Development agencies, Farm management and cooperative consultancy groups, Public sector, Charities, Farming organisations, Conservation bodies, Home and foreign governments.",
+        "interests": [
+            "Enterprising",
+            "Administrative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "AU606",
+        "type": "CAO",
+        "title": "Agri-Business Management (Mountbellew Campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 300,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Agriculture, food production and environmental management are just a few of Irelands key industries, and gaining a degree in this area opens up a host of career options. This programme will enable the learner to improve their knowledge and understanding of general business and to develop business skills, particularly as they apply to the rural enterprise and agri-business sector.\nThe aim of the BB (Hons) in Rural Enterprise and Agri-Business is to provide the learner with a business education that emphasises the importance of rural enterprise and agri business by developing an understanding of the theory, concepts and methods as well as the practical implementation of a range of skills and tools in these areas.",
+        "careerOpportunities": "There are many opportunities for graduates of this programme. The targeted roles for graduates of this programme, in addition to many returning to the farming sector or part-time farming, include but is not limited to: Education and training services, Financial institutions, Sales, marketing and PR agencies, Entrepreneurship, Development agencies, Farm management and cooperative consultancy groups, Public sector organisations, Charities, Farming organisations, Conservation bodies, Home and foreign governments.",
+        "interests": [
+            "Enterprising",
+            "Administrative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "DN250",
+        "type": "CAO",
+        "title": "Agri-Environmental Sciences - Agricultural Science",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 431,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Agri-Environmental Sciences programme is an applied science degree that will equip you with the knowledge and skills necessary to make a meaningful impact in the fields of agriculture and environmental management. Through a combination of classroom learning, practical field experience, and professional work placements, you will gain a deep understanding of rural environmental issues, sustainable agriculture practices, and the policies and schemes that protect our natural resources.",
+        "careerOpportunities": "Many graduates follow career paths as environmental advisors, planners or consultants. Others work in State agencies that require both agricultural and environmental management skills, including: Department of Agriculture, Food & the Marine, Teagasc, Environmental Protection Agency, National Parks & Wildlife Service, and Local authorities.\nA high proportion of AES graduates go on to further studies at postgraduate level.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "MT748",
+        "type": "CAO",
+        "title": "Agricultural Engineering",
+        "college": "MTU Kerry Campus",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 280,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Agricultural engineering is a specialised branch of engineering, concerned with the design, manufacture, modification and maintenance of equipment used in agriculture. As a student of MTU’s highly regarded Agricultural Engineering programmes, you will work in state-of-the-art facilities and graduate with a degree that enjoys an excellent reputation in the industry.",
+        "careerOpportunities": "Agricultural engineers take up a wide variety of employment opportunities in the agricultural engineering industry, for example: Organisation of the manufacturing process, Health and safety management, Maintenance management, Marketing and strategic planning, Process design, Product design and development, Operations management, Quality management, and Specification of rural structures.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "MT848",
+        "type": "CAO",
+        "title": "Agricultural Engineering",
+        "college": "MTU Kerry Campus",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 305,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Agricultural engineering is a specialised branch of engineering, concerned with the design, manufacture, modification and maintenance of equipment used in agriculture. As a student of MTU’s highly regarded agricultural engineering programmes, you will work in state-of-the-art facilities and graduate with a degree that enjoys an excellent reputation in the industry.",
+        "careerOpportunities": "Agricultural engineers take up a wide variety of employment opportunities in the agricultural engineering industry, for example: Organisation of the manufacturing process, Health and safety management, Maintenance management, Marketing and strategic planning, Process design, Product design and development, Operations management, and Quality management.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "US769",
+        "type": "CAO",
+        "title": "Agricultural Engineering",
+        "college": "TUS Midwest",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 301,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course provides students with education and training to work within the area of Agricultural Technology. The focus of this course is firmly on the provision of skilled technicians for the farm machinery industry in Ireland. Course content includes tractor engineering and workshop process, machinery operation, electrical and electronic technology, administration and management, engineering science and mathematics, engineering drawing and CAD and computer studies, project and industrial placement together with a high degree of personal and practical skills. Students will be taught a mix of technology, practical, academic, administrative and managerial modules which will prepare them to carry out complex diagnostics and repairs of modern machinery and to be receptive to future technological developments to take advantage of vacancies that will arise within the industry.",
+        "careerOpportunities": "Employment opportunities for graduates include Technical/Engineering Drafting, Field Technician, Service and Diagnostic Technician, Agricultural Engineering Manufacturing, Agricultural Engineering System Maintenance and Management, Agricultural Engineering Sales, Service, etc.\nGraduates may continue on to suitable Level 8 Bachelor of Engineering/Science honours degree course in TUS such as Mechanical Engineering.",
+        "interests": [
+            "Realist",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "AU648",
+        "type": "CAO",
+        "title": "Agricultural Engineering (Dublin Road campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 326,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "If you have a particular interest in the design, manufacturing, operation and maintenance of agricultural machineries, then Agricultural Engineering is for you. Combining Agricultural Science and Mechanical Engineering with an emphasis on power, this degree is designed to deliver high-quality engineers to the agricultural and agri-food industry.",
+        "careerOpportunities": "It is envisaged that graduates from the programme will be employed in a wide diversity of agricultural engineering related disciplines both nationally and internationally, namely; Technical/engineering drafting, field technicians. Agricultural engineering design/systems design. Agricultural systems (destructive and non-destructive testing). Agricultural processing, engineering sales, service etc. Cognate disciplines which involving heavy machinery design (i.e. Forestry, Peat &  Mining). Bioenergy/biomass sector\nSome graduates may also become self-employed.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "US651",
+        "type": "CAO",
+        "title": "Agricultural Mechanisation (Salesian Agricultural College Pallaskenry)",
+        "college": "TUS Midwest",
+        "duration": "2 Years",
+        "nfqLevel": 6,
+        "points": 257,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme provides students with education and training to work within the area of Agricultural Technology. The focus of this programme is firmly on the provision of skilled technicians for the farm machinery industry in Ireland. \nThe subject matter includes tractor engineering and workshop process, machinery operation, electrical and electronic technology, administration and management, engineering science and mathematics, engineering drawing and CAD and computer studies, project and industrial placement together with a high degree of personal and practical skills.",
+        "careerOpportunities": "Graduates have gained employment in the following areas: Machinery Dealerships, Machinery Importers, Machinery Manufacturers, Agricultural Contractors, Fabricators and Heavy Plant trades.\nGraduates of the programme can progress to a Level 7 Bachelor of Engineering in Agricultural Engineering or to a Level 7 Bachelor of Engineering in Road Transport Technology and Management degree in TUS.",
+        "interests": [
+            "Naturalist",
+            "Realist"
+        ]
+    },
+    {
+        "id": "MT777",
+        "type": "CAO",
+        "title": "Agricultural Science",
+        "college": "MTU Kerry Campus",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 259,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Agricultural science is the application of science and business to the primary production of quality food and ecosystem services. Agriculture is a huge growth industry, both in Ireland and internationally, and remains vital to the country’s economic development.\nPotential candidates interested in pursuing a career in the agri-food industry today, need to apply scientific knowledge to sustainable farm management. This helps to ensure that the range of agricultural activities – environmental awareness, food safety, animal welfare, advancements of agri-food technology and contemporary scientific knowledge are considered in the context of sustainable animal and crop production.",
+        "careerOpportunities": "Career opportunties include: Farm management, Technical service and consultancy, Research, Education, Marketing and communications, Primary production of quality food products, Agribusiness, and Consultancy.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "SE502",
+        "type": "CAO",
+        "title": "Agricultural Science",
+        "college": "SETU Waterford Campus",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 381,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The purpose of the course is to prepare students for a career in the areas of agricultural science and agri-business. Graduates will have a strong background in the areas of science, food, agriculture, the environment, business and quality assurance.\nSelf-management, team working, business awareness, problem solving, land management and communication are all areas which will be strongly incorporated into the main core of this level 8 programme.",
+        "careerOpportunities": "Graduates from BSc (Hons) in Agricultural Science can expect to find employment in the following areas: Senior technical positions in Quality Control in agri-food industries, Sales & Marketing Departments of agri-businesses, Technical personnel in organisations offering environmental and other services to farmers, Start-up Agricultural-based businesses.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "MT877",
+        "type": "CAO",
+        "title": "Agricultural Science",
+        "college": "MTU Kerry Campus",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 331,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Agricultural science is the application of science and business to the primary production of quality food and ecosystem services. Agriculture is a huge growth industry, both in Ireland and internationally, and remains vital to the country’s economic development.\nPotential candidates interested in pursuing a career in the agri-food industry today, need to apply scientific knowledge to sustainable farm management. This helps to ensure that the range of agricultural activities – environmental awareness, food safety, animal welfare, advancements of Agri-Food technology and contemporary scientific knowledge are considered in the context of sustainable animal and crop production.",
+        "careerOpportunities": "Career opportunities include: Farm management, Technical service and consultancy, Research, Education, Marketing and communications, Primary production of quality food products, Agribusiness, and Consultancy.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "CK412",
+        "type": "CAO",
+        "title": "Agricultural Science",
+        "college": "University College Cork - UCC",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 484,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "At UCC we guarantee a comprehensive agricultural education; building from a foundation of fundamental sciences, developing core knowledge, instilling best practice applications using the very latest tools and technologies, and interrogating the business that is dairying.",
+        "careerOpportunities": "Sample career opportunities include but not limited to leading roles within: Teagasc, DAFM, ICBF, financial institutions, dairy/food processing companies, agri-merchants, pharma giants, AI industry, enterprise management, private consultancy, education, marketing, communications, journalism etc.",
+        "interests": [
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "DN250",
+        "type": "CAO",
+        "title": "Agricultural Science - No Preference",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 431,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "If you are interested in studying Agricultural Science but are not certain of which area to specialise in, you can select the ‘No Preference (NPF)’ option on your CAO form. Then, during your ﬁrst year at UCD, you can choose your area of specialisation. Once you receive an offer on the Agricultural Science programme (DN250) you will be guaranteed a place in any of the 11 specialisations from second year.\nAlternatively, if you know which of the 11 programmes you would like to specialise in, you can select this on your CAO application.",
+        "careerOpportunities": "During first year, students will also have an opportunity to take one or more introductory modules from any of our courses, providing you with an insight into the subsequent stages of each available degree. This is particularly beneficial for students who are interested in Agricultural Science but are not yet certain of which area to specialise in.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "US870",
+        "type": "CAO",
+        "title": "Agricultural Science and Sustainability (Thurles Campus)",
+        "college": "TUS Midwest",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 300,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The aim of this course is to produce graduates with knowledge and skills in agriculture with a focus on sustainability. While the course provides the students with a sound theoretical basis for understanding complex agricultural and environmental phenomena within a sustainable development context, its focus is on the practical application of knowledge and skills including agri‑business and on‑farm settings.",
+        "careerOpportunities": "Graduates can avail of employment opportunities in agriculture, agri-food and environmental management. Graduates are qualified for a wide range of roles such as agricultural advisors, farm auditors, environmental officers/scientists with agribusinesses, the public sector and NGOs, or as researchers and consultants.",
+        "interests": [
+            "Naturalist",
+            "Enterprising",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "US740",
+        "type": "CAO",
+        "title": "Agricultural Science and Sustainability (Thurles Campus)",
+        "college": "TUS Midwest",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 225,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The aim of this course is to produce graduates with knowledge and skills in agriculture with a focus on sustainability. While the course provides the students with a sound theoretical basis for understanding complex agricultural and environmental phenomena within a sustainable development context, its focus is on the practical application of knowledge and skills including agri‑business and on‑farm settings.",
+        "careerOpportunities": "Graduates can avail of employment opportunities in agriculture, agri-food and environmental management. Graduates are qualified for a wide range of roles such as agricultural advisors, farm auditors, environmental officers/scientists with agribusinesses, the public sector and NGOs, or as researchers and consultants.",
+        "interests": [
+            "Naturalist",
+            "Investigative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "SE732",
+        "type": "CAO",
+        "title": "Agricultural Systems Engineering",
+        "college": "SETU Carlow Campus",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 313,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme focuses on agricultural science, agri-business, agricultural engineering and agricultural systems. Students will develop knowledge in areas such as sensing technology, electro-pneumatics, electro-hydraulics, automation, Agribusiness, management, marketing and product pricing.",
+        "careerOpportunities": "The main employment areas are as follows: Design of Agricultural Machinery and Equipment, Control System Design, Agri systems testing and maintenance, Advising the agrifood industry, Design of agricultural/food processing infrastructural works.",
+        "interests": [
+            "Investigative",
+            "Realist"
+        ]
+    },
+    {
+        "id": "SE733",
+        "type": "CAO",
+        "title": "Agricultural Systems Engineering",
+        "college": "SETU Carlow Campus",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 263,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme focuses on agricultural science, agri-business, agricultural engineering and agricultural systems. Students will develop knowledge in areas such as sensing technology, electro-pneumatics, electro-hydraulics, automation, Agribusiness, management, marketing and product pricing.",
+        "careerOpportunities": "The main employment areas are as follows: Design of agricultural machinery and equipment, Control System Design, Agri systems testing and maintenance, Advising the agrifood industry, Design of agricultural/food processing infrastructural works.",
+        "interests": [
+            "Investigative",
+            "Realist"
+        ]
+    },
+    {
+        "id": "DN250",
+        "type": "CAO",
+        "title": "Agricultural Systems Technology - Agricultural Science",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 431,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Agricultural Systems Technology is aimed at students who wish to learn how to build, develop, and manage technology for the agriculture sector. Students will gain a deep understanding of how to use technology in order to improve and enhance sustainability, efficiency and reliability in farming and food production. You will take classes in engineering, science, mathematics and data science. Upon completing the course, you will be uniquely equipped to build, develop and manage technologies such as computer systems, networks, data management and sensors, machinery systems and precision agriculture.",
+        "careerOpportunities": "Graduates will find rewarding and challenging employment in agri-food industries, including; Production agriculture, Environmental Protection, Consulting, Equipment manufacturing, and Agri-Tech.\nTypical roles include technical and managerial positions in; Production, Service Provision, Environmental Protection, Information Technology, Manufacturing, Process & Product Design. There are also excellent graduate study opportunities to specialise in Environmental Technology, Food Engineering and Sustainable Energy and Green Technology.",
+        "interests": [
+            "Investigative",
+            "Naturalist",
+            "Realist"
+        ]
+    },
+    {
+        "id": "MT750",
+        "type": "CAO",
+        "title": "Agriculture",
+        "college": "MTU Cork Campus",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 289,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The course develops farming, business and management skills to enable graduates to follow careers as successful commercial farmers or in the agri-business sector. It will provide graduates with the skills they will need to be able to participate actively in policy decisions – whether they are local, regional or international – which will influence their profession and its role in a modern economy.",
+        "careerOpportunities": "The course develops farming, business and management skills to enable graduates to follow careers as successful commercial farmers or in the agri-business sector. It will provide graduates with the skills they will need to be able to participate actively in policy decisions – whether they are local, regional or international – which will influence their profession and its role in a modern economy.",
+        "interests": [
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "SE508",
+        "type": "CAO",
+        "title": "Agriculture",
+        "college": "SETU Waterford Campus",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 315,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course is run jointly by SETU and Teagasc. Students take agriculture-based modules at Kildalton Agricultural College and scientific related modules are taken at Cork Road Campus, Waterford. A free bus service operates between Cork Road Campus, Waterford and Kildalton.Agriculture is of major importance to the Irish economy and most farms are family-operated with the farmer being the owner and manager and operator. The first two years of the course concentrates on equipping the student with the knowledge and skills needed to manage a modern commercial farm. The third year aims to expand the student’s business, managerial, scientific and IT skills.",
+        "careerOpportunities": "Graduates from this course may find employment in fields such as: Managers of modern farm enterprises Managers in Agri-Food cooperatives Managers in Meat processing plants Sales positions in Agribusiness",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "SE529",
+        "type": "CAO",
+        "title": "Agriculture",
+        "college": "SETU Waterford Campus",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree is designed to equip students with the knowledge and skills needed to manage modern commercial farms. The first two years focus on practical farming skills, while the third year enhances business, managerial, scientific, and IT competencies. Students undertake a 12-week farm placement in the second year, gaining hands-on experience on high-quality commercial farms. Graduates are prepared for roles in farm management, agrifood cooperatives, meat processing, and agribusiness sales.",
+        "careerOpportunities": "Farm Manager | Agricultural Advisor | Agribusiness Sales Representative | Livestock or Crop Production | Specialist | Quality Assurance Officer | Agri-food Industry Technician | Feed or Fertiliser Sales | Farm Inspector | Supply Chain Assistant | Agricultural Contractor",
+        "interests": [
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "AU371",
+        "type": "CAO",
+        "title": "Agriculture - Common Entry (Letterkenny campus)",
+        "college": "ATU Donegal",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 312,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our Bachelor of Science (Hons) in Agriculture with degree award options: Animal and Crop Science or Environmental Management prepares you for a career in the Agri-Business sector. It’s a dynamic and diverse industry, and our four year course leaves you perfectly positioned for an exciting future. This is a BSc Honours in Agriculture that will provide you with key skills in Animal Husbandry, Animal Science, Soil and Plant Science, as well as Environmental Science and Agriculture Business Management and Marketing.",
+        "careerOpportunities": "The main employers are: Agriculture Sector, Agri-food industry, and Government Agencies.\nGraduate careers typically include: Environmental Manager, Farm Manager, and R&D Scientist.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "AU272",
+        "type": "CAO",
+        "title": "Agriculture (Letterkenny campus)",
+        "college": "ATU Donegal",
+        "duration": "3 years",
+        "nfqLevel": 7,
+        "points": 251,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our Bachelor of Science in Agriculture provides you with the skills and knowledge to pursue a diverse and rewarding career in the agricultural industry. Whether it’s as a farm manager or in agricultural sales, the opportunities are vast and diverse. You’ll be gaining knowledge in the key areas of soil and plant science, ruminant husbandry and agriculture business management. You’ll also learn about Farm Waste and Environmental Science, Livestock Production and Animal Science in Year 3.",
+        "careerOpportunities": "The main employers are: Agriculture Sector, Agri-food industry, and Government Agencies\nGraduate careers typically include: Agricultural Research Assistant, Agricultural Sales, and Farm Manager",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "AU557",
+        "type": "CAO",
+        "title": "Agriculture and Environmental Management (Mountbellew Campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 250,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme provides you with the range of specialised skills ideal for employment in the agriculture and environmental sectors. Strong emphasis is placed on sustainability in agriculture and the environment. The programme consists of modules in Agriculture, Environmental Management and Agri-business.",
+        "careerOpportunities": "This programme is for people who intend to become part-time farmers, full time commercial farmers or for those who wish to use the specialised technical, creative and conceptual skills and competencies to initiate and develop rural enterprises, be employed as community rural development officers, as agricultural officers with the department of agriculture, as field technicians or as sales representatives with agri-service companies.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "AU657",
+        "type": "CAO",
+        "title": "Agriculture and Environmental Management (Mountbellew Campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 310,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme provides you with the range of specialised skills ideal for employment in the agriculture and environmental sectors. Strong emphasis is placed on sustainability in agriculture and the environment. The programme consists of modules in Agriculture, Environmental Management and Agri-business. Graduates of the programme can expect to gain employment in a range of areas including farming, agri-foods, environmental management and consultancy, applied ecology and agri-business. This programme is highly practical, with a mixture of lectures, field work, laboratory practicals and Information Technology.",
+        "careerOpportunities": "This qualification will enable graduates to gain employment in diverse roles within the Agriculture, Agri-business and Environmental Management areas. Graduates will be able to work in areas such as: Environmental Management, Applied Ecology, Agriculture, Agri-business, and Agri-foods",
+        "interests": [
+            "Investigative",
+            "Naturalist",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "SE729",
+        "type": "CAO",
+        "title": "Aircraft Systems",
+        "college": "SETU Carlow Campus",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 410,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Aircraft systems engineering is the field of study relating to the maintenance, safety, and airworthiness of aircraft. Aircraft system engineers support the development of on board flight systems, including flight controls. landing gear, electrical power, hydraulics, and avionics systems.\nThe 3-year programme follows a practical hands-on approach to produce graduates who have the theoretical and practical know how to work within the evolving aerospace and maintenance repair (MRO) industries.",
+        "careerOpportunities": "Aircraft system engineers develop careers within the airline, aerospace, and aircraft maintenance industries. The role of an aircraft systems engineer can involve maintenance scheduling, logistics, aircraft leasing, and field support.",
+        "interests": [
+            "Investigative",
+            "Realist"
+        ]
+    },
+    {
+        "id": "DN530",
+        "type": "CAO",
+        "title": "An Ghaeilge & An Cultúr/The Irish Language and Culture - Humanities",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 462,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Má tá tú ag iarraidh barr feabhais a bhaint amach sa Ghaeilge.\nMás spéis leat ard/sainscileanna teanga a bhaint amach agus a fhorbairt\nMás spéis leat gairm bheatha trí mheán na Gaeilge ag leibhéal náisiúnta agus idirnáisiúnta a bheith agat ina lán réimsí sa tsochaí aistriúchán, oideachas, cúrsaí foilsitheoireachta, na meáin chumarsáide, earnáil na hoidhreachta agus an chultúir, mar shampla.",
+        "careerOpportunities": "Aistriúchán le comhlachtaí príobháideacha, le hinstitiúidí náisiúnta agus Eorpacha\nGairmeacha le foilsitheoireacht – eagarthóirí, cóipeagarthóirí, aistritheoirí\nMúinteoireacht\nStátseirbhís agus Rialtas na hÉireann\nNa meáin chló, chraolta agus ar líne\nAistritheoirí agus Riarthóirí san Aontas Eorpach\nTaighdeoirí / léachtóirí ollscoile\nEagraíochtaí cultúrtha agus oidhreachta\n\nTá cáil ar an Ghaeilge i UCD as feabhas i dtaighde agus i dteagasc ag leibhéal fochéime agus iarchéime a neartú. Taobh le féidearthachtaí do MLitt agus PhD is féidir le mic léinn leanúint le MA: Scríobh & Cumarsáid agus MA sa Nua- Ghaeilge. Ghnóthaigh mic léinn ó na cúrsaí seo scoláireachtaí Fulbright agus Fondúireacht Cheanada-Éireann mar chomhaltaí teagaisc sna Stáit Aontaithe agus i gCeanada.",
+        "interests": [
+            "Linguistic"
+        ]
+    },
+    {
+        "id": "MT774",
+        "type": "CAO",
+        "title": "Analytical and Pharmaceutical Chemistry",
+        "college": "MTU Cork Campus",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 337,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Analytical chemistry deals with the great variety of methods used to identify and quantify the chemical components of materials, while pharmaceutical chemistry focuses on aspects of drug design, synthesis, and manufacture.",
+        "careerOpportunities": "Career opportunities exist not only in the BioPharmaChem industry, but also in such diverse areas as environmental analysis, elemental analysis (metallurgy), and food/ beverage processing, forensic analysis, contaminant analysis (e.g. in sports), etc.\nGraduates have become senior technicians, analysts, laboratory managers, and quality control supervisors. Some have progressed into company management positions over the years, and some have started and managed their own companies.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TU851",
+        "type": "CAO",
+        "title": "Analytical Chemistry (Environmental, Forensic & Pharmaceutical)",
+        "college": "TU Dublin - Grangegorman",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 311,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "An analytical chemist is trained to use modern analytical techniques and instruments to develop strategies to detect, identify and quantify substances such as the pollutants in air and water, illegal substances in suspicious powders and the active pharmaceutical ingredients in medicinal products.\nThis course, which includes rigorous scientific training and a six-month work placement, will make you work-ready.",
+        "careerOpportunities": "Career opportunities include: Environmental Chemist, Forensic Analyst, Quality Control Chemist, and Pharmaceutical Analyst.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "MT874",
+        "type": "CAO",
+        "title": "Analytical Chemistry with Quality Assurance",
+        "college": "MTU Cork Campus",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 370,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Analytical Chemistry is the speciality dealing with devising, selecting, and using methods for determining the identity and quantity of chemical composition of samples such as drugs, medicines, food and beverage, water, air etc.\nThese have key components that are present at very low levels or concentrations, and many sophisticated techniques have been developed for their detection and analysis.",
+        "careerOpportunities": "Graduates are prepared for laboratory careers in the BioPharmaChem industries and other industries. They are qualified in areas such as quality standards, good manufacturing practice, total quality management, and regulatory compliance.\nThey may take up leadership roles in areas such as method design and implementation, process validation, and management of quality systems.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "DC161",
+        "type": "CAO",
+        "title": "Analytical Science",
+        "college": "Dublin City University - DCU",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 410,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "During this interdisciplinary course, you will  learn both the theoretical and practical aspects of chemical, biochemical and microbiological analysis. In first year, you’ll gain essential background knowledge in chemistry, biology, mathematics and physics, and get hands-on laboratory experience. From second year on, you’ll focus on analytical science and from third year, you’ll specialise in either chemical or biological analysis.",
+        "careerOpportunities": "Past graduates have gained a variety of positions within Ireland’s growing pharmaceutical and biopharmaceutical industry – in areas such as quality control, product research and development and testing.Other opportunities include manufacturing industries, agricultural fertiliser production and fine chemicals production, environmental monitoring, food quality testing and research.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "SE513",
+        "type": "CAO",
+        "title": "Analytical Science",
+        "college": "SETU Carlow Campus",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 359,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Analytical scientists investigate the chemical nature of substances to identify and understand how they behave in different conditions. In the pharmaceutical industry, for example, analytical scientists are involved throughout the drug manufacturing process to ensure the quality and stability of drug products.",
+        "careerOpportunities": "Graduates of this course work in a range of economically important and dynamic sectors in Ireland and internationally, including: pharmaceutical production, product development, and quality control, production and quality control in food and beverage sector, environmental monitoring laboratories and agencies.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TR028",
+        "type": "CAO",
+        "title": "Ancient and Medieval History and Culture",
+        "college": "Trinity College Dublin - TCD",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 469,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Ancient and Medieval History and Culture concentrates on the period c. 2000 BC to c. 1500 AD. It explores the changes in society, politics, religious practices, and art and architecture that have helped to shape the world we live in.\nOver the four years of the programme you will explore topics including the development of different systems of government (from democracy in ancient Greece to monarchy and empire in the Middle Ages), the formation of Europe, ancient and medieval belief systems and religious practices (from the pantheon of ancient deities to the dominance of Christianity), the development of the legal system, and the role of warfare in bringing about change.",
+        "careerOpportunities": "Our graduates go on to a wide range of careers including archaeology, journalism, museums and conservation, marketing, and teaching.\nGraduates from the School of Histories and Humanities have also entered accountancy, advertising, business, civil service, diplomatic corps, human resources, journalism, management, and publishing. Many also go on to further study.",
+        "interests": [
+            "Social",
+            "Administrative"
+        ]
+    },
+    {
+        "id": "TR111",
+        "type": "CAO",
+        "title": "Ancient History and Archaeology/Geography",
+        "college": "Trinity College Dublin - TCD",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "You will enjoy this course if you are interested in studying the history and culture of the Greeks and Romans – their achievements and their profound influence on the modern world – through the complementary study of history and archaeology. You will have the opportunity to get practical experience and take part in Study Tours.",
+        "careerOpportunities": "Recent graduates have entered many fields including archaeology, archaeological consultancy in Ireland and the UK, heritage and museum work (for example in the National Museum of Ireland), art restoration, teaching and higher education policy, publishing, business, computing, accountancy, government and social work. Recent graduates are working for companies as diverse as McKinsey and Co and Cambridge University Press.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TR112",
+        "type": "CAO",
+        "title": "Ancient History and Archaeology/History",
+        "college": "Trinity College Dublin - TCD",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "You will study the Greek and Roman worlds by working with historical and literary documents alongside the material remains of ancient sites and artefacts. All material is studied in translation and no knowledge of Greek or Latin is required, but there are opportunities to take introductory modules in the languages.",
+        "careerOpportunities": "Recent graduates have entered many fields including archaeology, archaeological consultancy in Ireland and the UK, heritage and museum work (for example in the National Museum of Ireland), art restoration, teaching and higher education policy, publishing, business, computing, accountancy, government and social work. Recent graduates are working for companies as diverse as McKinsey and Co and Cambridge University Press.",
+        "interests": [
+            "Linguistic",
+            "Creative"
+        ]
+    },
+    {
+        "id": "TR113",
+        "type": "CAO",
+        "title": "Ancient History and Archaeology/History of Art and Architecture",
+        "college": "Trinity College Dublin - TCD",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Ancient History and Archaeology are both concerned with understanding social, political and cultural experience in the past. This course offers you the opportunity to range across these two broad disciplines. You will study the Greek and Roman worlds by working with historical and literary documents alongside the material remains of ancient sites and artefacts. All material is studied in translation and no knowledge of Greek or Latin is required, but there are opportunities to take introductory modules in the languages.",
+        "careerOpportunities": "Recent graduates have entered many fields including archaeology, archaeological consultancy in Ireland and the UK, heritage and museum work (for example in the National Museum of Ireland), art restoration, teaching and higher education policy, publishing, business, computing, accountancy, government and social work. Recent graduates are working for companies as diverse as McKinsey and Co and Cambridge University Press.",
+        "interests": [
+            "Social",
+            "Creative"
+        ]
+    },
+    {
+        "id": "TR114",
+        "type": "CAO",
+        "title": "Ancient History and Archaeology/Modern Language",
+        "college": "Trinity College Dublin - TCD",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Ancient History and Archaeology are both concerned with understanding social, political and cultural experience in the past. This course offers you the opportunity to range across these two broad disciplines. You will study the Greek and Roman worlds by working with historical and literary documents alongside the material remains of ancient sites and artefacts. All material is studied in translation and no knowledge of Greek or Latin is required, but there are opportunities to take introductory modules in the languages.",
+        "careerOpportunities": "Recent graduates have entered many fields including archaeology, archaeological consultancy in Ireland and the UK, heritage and museum work (for example in the National Museum of Ireland), art restoration, teaching and higher education policy, publishing, business, computing, accountancy, government and social work. Recent graduates are working for companies as diverse as McKinsey and Co and Cambridge University Press.",
+        "interests": [
+            "Linguistic",
+            "Creative"
+        ]
+    },
+    {
+        "id": "TR117",
+        "type": "CAO",
+        "title": "Ancient History and Archaeology/Religion",
+        "college": "Trinity College Dublin - TCD",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Ancient History and Archaeology are both concerned with understanding social, political and cultural experience in the past. This course offers you the opportunity to range across these two broad disciplines. You will study the Greek and Roman worlds by working with historical and literary documents alongside the material remains of ancient sites and artefacts. All material is studied in translation and no knowledge of Greek or Latin is required, but there are opportunities to take introductory modules in the languages.",
+        "careerOpportunities": "Recent graduates have entered many fields including archaeology, archaeological consultancy in Ireland and the UK, heritage and museum work (for example in the National Museum of Ireland), art restoration, teaching and higher education policy, publishing, business, computing, accountancy, government and social work. Recent graduates are working for companies as diverse as McKinsey and Co and Cambridge University Press.",
+        "interests": [
+            "Linguistic",
+            "Creative"
+        ]
+    },
+    {
+        "id": "DN250",
+        "type": "CAO",
+        "title": "Animal and Crop Production - Agricultural Science",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 431,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "UCD’s Animal and Crop Production programme offers a comprehensive education in the science and business of animal and crop production. You will learn about the development and improvement in farm animal and crop production, gain broad knowledge on growth, physiology, nutrient utilisation, agribusiness, agri-environment and develop the skills to create economical and sustainable agricultural production systems. Plus, you will gain communication and IT skills to help you stay up-to-date on evolving technical, economic, and regulatory frameworks.",
+        "careerOpportunities": "Graduates are employed in a wide variety of areas such as: Agribusiness, Animal and crop industries, Consultancy, Semi-state or government agencies, Financial services, Print, radio and television media.\n\n\n\n\nThis is also a very suitable degree if you intend to pursue full-time farming or combine part-time farming with a professional career. Research opportunities to Master’s and PhD level are available.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "MT781",
+        "type": "CAO",
+        "title": "Animal Bioscience",
+        "college": "MTU Kerry Campus",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 271,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our biological science degree in Animal Bioscience has a major focus on animal health, disease and diagnostics. The animal biosciences discipline is experiencing significant growth, both nationally and internationally, due to an increased demand for diagnostics to underpin animal health and disease management globally.",
+        "careerOpportunities": "Career opportunities include: Animal health researcher, Herd health advisor, Public (civil) servant, Animal nutritionist, Pharmaceutical drug and vaccine developer, Clinical practice manager, and Animal diagnostic laboratory officer.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "DN250",
+        "type": "CAO",
+        "title": "Animal Science - Agricultural Science",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 431,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "UCD’s Animal Science programme is a four-year degree that delves into the applied sciences necessary for understanding how animals function and the principles of livestock production. You will explore the growth, development, and behaviour of domestic animals, and the fundamentals of sustainable animal production systems. Modules include animal biology, genetics, biotechnology, nutrition, and more.",
+        "careerOpportunities": "A wide range of career opportunities are available to graduates of Animal Science. These include entry into graduate study leading to Masters and Ph.D. degrees and a career in research, and/or in the Animal Health and Pharmaceutical Industry, Animal Breeding and Genetics, Animal feed industry, Procurement, processing and marketing of animal products, Education, Consultancy, Farming and enterprise management, and Journalism.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "DN250",
+        "type": "CAO",
+        "title": "Animal Science - Equine - Agricultural Science",
+        "college": "University College Dublin - UCD",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 431,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Animal Science – Equine allows those with a passion for horses, the equine industry or equine science to pursue these interests at third level and still maintain a broad range of future career options within agriculture. A highlight of the degree is the opportunity to participate in a 5-month international work placement within a leading Thoroughbred or Sport Horse organisation. The degree provides the scientific knowledge and transferable skills necessary for professional leadership roles within many aspects of the Agriculture and Equine industries.",
+        "careerOpportunities": "In addition to the career opportunities available to Animal Science graduates, Animal Science Equine graduates are equipped to pursue careers in: Equine enterprise management, Equine leisure, recreation and tourism activities, Equestrian marketing and sales enterprises, Sports journalism, and Academic teaching.\n\n\n\n\n\n\n\n\nYou can pursue equine science research and development careers, and Master’s and PhD opportunities in Europe and the US.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "DL832",
+        "type": "CAO",
+        "title": "Animation",
+        "college": "Institute of Art, Design and Technology Dun Laoghaire - IADT",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 945,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "Explore and document your world as you learn the skills to become an animation production artist. You will develop creative and technical expertise, as well as the conceptual and cultural knowledge to be an informed and confident contributor to the animated art form. \nLearn the techniques and skills of the animated art form, including character, movement, background, design, storyboarding, layout, scripting, and animation principles, using both traditional and digital media",
+        "careerOpportunities": "Our students often go on to work in the animation industry in Ireland and abroad, some start their own companies, and others become successful freelancers. Graduates sometimes shift direction into new creative fields such as book illustration or web-based content. Students have progressed to postgraduate programmes in film and animation and a number of them have become educators.",
+        "interests": [
+            "Creative"
+        ]
+    },
+    {
+        "id": "AU331",
+        "type": "CAO",
+        "title": "Animation",
+        "college": "ATU Donegal",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 301,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "This is a creative animation programme offering a broad range of skills designed to enable you to operate independently within the commercial environment after graduation. The contemporary animation industry requires creative thinkers who can operate flexibly within different aspects of animation production. Applications to this programme were previously made through AU330 BA (Hons) in Design (Common Entry), which is now closed for application. Applicants can now apply directly to each speciality stream and still enjoy the benefits of a common entry start.",
+        "careerOpportunities": "Successful graduates find themselves working in animation companies, the games industry, live-action or special effects, and advertising. They typically work as animators, 3D modelers or storyboard artists.",
+        "interests": [
+            "Creative"
+        ]
+    },
+    {
+        "id": "AU617",
+        "type": "CAO",
+        "title": "Animation and Game Design (Wellpark Road campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 400,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The three-year BA (Hons) in Animation and Games Design is aimed at those who wish to secure employment in the Games and/or Animation industry, and those who wish to design and produce their own animated films or video games. The Animation and Game Design programme has been delivered since 2016 as a major pathway on the BA (Hons) in Design. It has been very successful, with excellent feedback from the students, graduates and industry.Students must choose a stream at the end of Year 1.",
+        "careerOpportunities": "The course is designed to produce Animators and Games Designers including, but not limited to, the following roles: Technical Artists, Conceptual Artists, Illustrators, Game Artists, Multimedia Artists, Character Animators, 3D Model-Makers, Animation production staff, and Storyboard Artists.\nGraduates could be employed in various direct and indirectly linked industries such as: Animation production, Games development, Architecture, Industrial design, Heritage, Advertising, Printing, Graphic design, Illustration, Mobile apps, and Website design.",
+        "interests": [
+            "Creative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "US802",
+        "type": "CAO",
+        "title": "Animation and Illustration",
+        "college": "TUS Midlands",
+        "duration": "4 years",
+        "nfqLevel": 8,
+        "points": 733,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "Graduates of the BA in Animation and Illustration will have the capacity to apply their knowledge and understanding of the fundamentals of illustration and principles of animation to a broad range of areas within the animation and illustration practice. Students develop the capacity for independent learning as well as producing work collaboratively. Solid analytical and IT-related skills, as well as critical reasoning through the twin emphasis of both animation and illustration, are vital to creating strong, visually appealing and imaginative artwork.",
+        "careerOpportunities": "Our graduates have established their own companies and some are working independently on original content. Our graduates carry out a number of roles in animation and illustration production associated with animated films, television production and television advertising. Other specific roles include; background artist, character designer, animator, VFX compositing, scene prep, storyboard artist, comic and graphic novel artist, agency illustrator and production management. There is the opportunity to go on to further studies at Level 9 and Level 10 after graduating from this our 4-Year Level 8 programme. We have had students that have went on to post-graduate Level 9 programmes such as Professional Masters of Education (PME) and post-graduate studies with the fields of animation or illustration practice. Successful graduates of our BA (Hons) in Animation and Illustration programme are eligible for Level 9 and 10 postgraduate programmes within TUS or elsewhere.",
+        "interests": [
+            "Creative"
+        ]
+    },
+    {
+        "id": "US778",
+        "type": "CAO",
+        "title": "Animation and Illustration",
+        "college": "TUS Midlands",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 623,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "Graduates of the BA in Animation and Illustration will have the capacity to apply their knowledge and understanding of the fundamentals of illustration and principles of animation to a broad range of areas within the animation and illustration practice.\nStudents develop the capacity for independent learning as well as producing work collaboratively. Solid analytical and IT-related skills, as well as critical reasoning through the twin emphasis of both animation and illustration, are vital to creating strong, visually appealing and imaginative artwork.",
+        "careerOpportunities": "Graduates may gain employment in roles such as; background artist, character designer, animator, scene prep, comic and graphic novel artist and agency illustrator. This programme will particularly suit applicants who wish to work in creative industries.Successful graduates of this programme are eligible for Level 8 Honours programme in Animation and Illustration within TUS.",
+        "interests": [
+            "Creative"
+        ]
+    },
+    {
+        "id": "MT811",
+        "type": "CAO",
+        "title": "Animation, Visual Effects and Motion Design",
+        "college": "MTU Kerry Campus",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 410,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "This course gives you up-to-the minute skills and industry relevant training in the animation and visual effects sector.\nIt will introduce you to the core principles of creative film making, animation and visual storytelling.  This degree gives you the necessary practical and technical skills for employment in this rapidly expanding sector. There are modules on drawing/character development, illustration, design, character modelling, animation principles, and much more.",
+        "careerOpportunities": "Our graduates pursue careers in, Animation, Film, Games, TV, Web animation, Mobile and online content, Advertising.",
+        "interests": [
+            "Creative"
+        ]
+    },
+    {
+        "id": "MT711",
+        "type": "CAO",
+        "title": "Animation, Visual Effects and Motion Design",
+        "college": "MTU Kerry Campus",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 335,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "This course gives you up-to-the minute skills and industry relevant training in the animation and visual effects sector. It will introduce you to the core principles of creative film making, animation and visual storytelling.",
+        "careerOpportunities": "Our graduates pursue careers in: Animation, Film, Games, TV, Web animation, Mobile and online content, and Advertising.",
+        "interests": [
+            "Creative"
+        ]
+    },
+    {
+        "id": "CK123",
+        "type": "CAO",
+        "title": "Anthropology",
+        "college": "University College Cork - UCC",
+        "duration": "3-4 Years",
+        "nfqLevel": 8,
+        "points": 301,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Anthropology is the comparative study of humankind in the cultures of the world, both past and present. This exciting programme offers a unique way of looking at the world, offering a greater understanding of the human experience and a strong sense of global citizenship to meet the challenges of the future.",
+        "careerOpportunities": "Career options include working as an archaeologist and forensic anthropologist, in arts administration and creative industries, community work, museums and heritage centres, journalism, librarianship, market research, the media, and in State bodies and NGOs dealing with social policy.\nOptions for postgraduate study at UCC include: MA Anthropology, MA Global Cultures & Languages, MA Human Osteoarchaeology, MA Museum Studies, MA Sociology, MA Sociology of Sustainability & Global Challenges",
+        "interests": [
+            "Linguistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "US730",
+        "type": "CAO",
+        "title": "Applied Biology",
+        "college": "TUS Midwest",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 288,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Applied Biology is a discipline that is currently at the forefront of scientific research and technological development and underpins a number of premier industries in Ireland and internationally. These include the Healthcare and Biopharmaceutical sectors, Food industries, Biotechnology, Bioanalytical and Diagnostics, and more.\nThis programme allows you an opportunity to study the key areas in Applied Biology including Microbiology, Biochemistry, Food Science, Biotechnology, Genetics, Bio-forensics, and Healthcare.",
+        "careerOpportunities": "The programme offers you diverse employment opportunities in key growth areas within the Life Sciences. As a graduate in Applied Biology you will have excellent career prospects and employment opportunities in a range of sectors such as the Biotechnology, Food, Healthcare, Environmental, Bio-Pharmaceutical and more.\nGraduates of the programme who meet the minimum criteria for progression may also progress to the one year add-on Level 8 Honours Degree in Bioanalysis & Biotechnology.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "TU651",
+        "type": "CAO",
+        "title": "Applied Biology",
+        "college": "TU Dublin - Tallaght",
+        "duration": "2 Years",
+        "nfqLevel": 6,
+        "points": 255,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course will introduce you to the fascinating world of the biological sciences. You’ll study a range of science subjects, including Microbiology, Biochemistry and Drug Delivery. Over the two years, you’ll gain around 400 hours of laboratory experience, experience that potential employers will value. The knowledge and practical experience gained in this course will set you on the way for other academic courses or directly into a job in industry.",
+        "careerOpportunities": "Graduate job titles include: Quality Control, Quality Assurance. Laboratory Assistant, Technologist",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "AU569",
+        "type": "CAO",
+        "title": "Applied Biology and Biopharmaceutical Science (Dublin Road campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 295,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme extends and develops the depth of understanding, competence and awareness of students in the main areas of analytical science, biochemical and microbiological analysis and quality management. It encompasses new and developing technologies such as biotechnology, genetic engineering and biopharmaceutical science. It improves and extends your supervisory, organisational and managerial potential and enables the student to obtain well-paid, responsible positions in industry.",
+        "careerOpportunities": "Graduates are prepared for employment in the pharmaceutical, biotechnological and food industries and in the area of quality control of starting materials, in-process and finished products.\nMany graduates have progressed to employment in supervisory, organisational and managerial capacities within industry and some have obtained employment as technical sales representatives in related industries.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "AU670",
+        "type": "CAO",
+        "title": "Applied Biology and Biopharmaceutical Science (Dublin Road campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 402,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme will prepare graduates for employment in the extensive pharmaceutical, biomedical and healthcare sectors in Ireland. Many opportunities also exist in the area of environmental protection, food quality and safety, the regulatory agencies and research. Students will gain a professional qualification that will enhance their prospects for career advancement to managerial position.",
+        "careerOpportunities": "Graduates have excellent career opportunities in the pharmaceutical, biomedical and healthcare sectors, in such areas as developments of new medicines, biomedicines, quality assurance, regulatory affairs, quality control, validation studies, management, research and development, the food industry, biotechnology sector, forensic science, consultancy, marketing, scientific publishing and education.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "MT775",
+        "type": "CAO",
+        "title": "Applied Biosciences",
+        "college": "MTU Cork Campus",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 440,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Applied Biosciences is the study of complex biological systems, and how they work, for example how bacteria generate energy from the breakdown of sugars. Applied Biosciences also involves the use of living organisms and bioprocesses in engineering, technology, medicine and agriculture – in other words, the application of scientific and technical advances in the life sciences to develop commercial products.",
+        "careerOpportunities": "Graduates from this course have traditionally gained employment in the pharmaceutical, food and healthcare industries, where graduates are employed in a variety of roles including; quality analysts, microbiologists, purification specialists, researchers and technicians. Graduates also have the option to progress to further academic studies at Level 8 within MTU.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "AU360",
+        "type": "CAO",
+        "title": "Applied Computing (Letterkenny campus)",
+        "college": "ATU Donegal",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 353,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This level 8 programme is designed to give the graduate experience with a wide range of modern computing skills. Students will learn cutting edge programming techniques, data analytics, UX design, web architecture plus many other skills. Students can practice honing core computational and problem solving skills needed for any 21st Century technology driven society, in a vibrant and modern campus.",
+        "careerOpportunities": "The main employers are: And many other types of careers, Engineering Companies, Financial Services,, Internet Services, Mobile Applications Development, Project Management, Research at MSc and PhD Level, Software Houses,, Systems Design, and Teaching.\nGraduate careers typically include: Data Analytics, Database Systems, Infrastructure, Internet Technologies, Mobile Apps, Programming, Systems Design.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "CK212",
+        "type": "CAO",
+        "title": "Applied Economics (through Transformational Learning)",
+        "college": "University College Cork - UCC",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 498,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Economics is the study of people in the ordinary business of life. It is about the choices and decisions that we make and the consequence of these decisions. The BSc Applied Economics is a degree in Economics with a difference. It is a 4 year degree combining the study and application of Economics with personal, professional development and the opportunity to go on work placement or study abroad.",
+        "careerOpportunities": "Graduates with Economics have traditionally gone into a wide variety of careers such as: economic consultancy, data analyst, junior economist, project management, advisory services, accountancy, marketing, banking , postgraduate, doctoral, and professional training",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "AU555",
+        "type": "CAO",
+        "title": "Applied Freshwater and Marine Biology (Dublin Road campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 302,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "You will study a range of modules from Marine Biology research at home and abroad (e.g. Spain or Portugal) to Environmental Management and Biodiversity / Conservation. You will be studying an exciting mix of subjects including Marine Biology, studies of rivers and lakes, ecology and zoology.\nYear one involves the study of a range of Science modules and year two focuses on Biology - the science of life. Biologists explore and learn how organisms are constructed and how they function. This involves the study of reproduction, growth and development and how organisms capture and use raw materials and energy. Year three covers areas such as fisheries, pollution control, the environment and aquatic biology where the main activity entails the monitoring of the aquatic environment.",
+        "careerOpportunities": "There are numerous employment opportunities in environmental protection, aquaculture, education and industry. Opportunities in environmental management and protection are increasing dramatically with the implementation of EU environmental directives and the current awareness of ‘green’ issues.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "AU655",
+        "type": "CAO",
+        "title": "Applied Freshwater and Marine Biology (Dublin Road campus)",
+        "college": "ATU Galway / Mayo",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 400,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "You will study a range of modules from Marine Biology research at home and abroad (e.g. Spain or Portugal) to Environmental Management and Biodiversity / Conservation. This programme focuses on Freshwater and Marine Ecology. The sustainable development of renewable resources in the face of the rapidly expanding population and developing economy is a consistent theme throughout the programme. Graduates learn about the relevant ecological processes and gain an understanding of how they should be managed in a responsible and beneficial manner and the legal framework which seeks to protect them from undue exploitation.",
+        "careerOpportunities": "Graduates from this programme would be equipped to play professional and managerial roles in positions related to Freshwater and Marine Biology. These include: Marine Research Manager, Environmental Offices, Regional Fisheries Board or County Council, Marine Fisheries Development Officer, Fisheries Officer, Regional Fisheries Board, Aquaculture Development Officer, Marine Biology Research, Freshwater Farm Manager, Marine Farm Manager, Fish Disease Research Scientist, and College Lecturer.",
+        "interests": [
+            "Investigative",
+            "Naturalist"
+        ]
+    },
+    {
+        "id": "SE928",
+        "type": "CAO",
+        "title": "Applied Health Care",
+        "college": "SETU Waterford Campus",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 226,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course also prepares students for the emerging area of internet and telephone health care delivery. Clinical experience is an essential element of the course. Placement occurs in each year of the course, which allows the student to put theory into practice in a real health care setting.",
+        "careerOpportunities": "Graduates may gain employment in the following areas: Applied health care provision in variety of settings including hospitals, clinics, community care settings, nursing homes. Managing and coordinating General Practices, Sales representatives in the pharmaceutical industry, and much more.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "DC155",
+        "type": "CAO",
+        "title": "Applied Language and Translation Studies",
+        "college": "Dublin City University - DCU",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 378,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BA in Applied Language and Translation Studies (ALTS) is a unique degree that aims to prepare a new generation of translators and language professionals for global career opportunities. You will study two foreign languages with exciting combinations that include Chinese, French, German, Japanese and Spanish. Plus this dynamic degree allows you to explore the principles behind language, culture, translation and intercultural communication.",
+        "careerOpportunities": "Graduates from our degree in Applied Language and Translation Studies are immediately work-ready and sought after for their professional competencies as language professionals and translators. \nMany of our graduates have found employment across a range of industries where they have applied their language skills, including localisation, gaming, banking, tourism, education, research and recruitment.",
+        "interests": [
+            "Linguistic"
+        ]
+    },
+    {
+        "id": "LM044",
+        "type": "CAO",
+        "title": "Applied Languages",
+        "college": "University of Limerick - UL",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 389,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme aims to produce graduates with a high level of competence in at least two languages combined with a specialist knowledge of the societies in which those languages are spoken. The course also offers the unusual opportunity to take three languages to degree level. Graduates will also possess professional expertise in an area such as Law, Marketing, Politics and International Relations, Teaching English to Speakers of Other Languages (TESOL) or Technical Communication. All languages are available at an advanced level, with German, Japanese and Spanish also available at beginners' level.",
+        "careerOpportunities": "Job titles for graduates with this degree: Communications, Media and Public Relations, Department Administrator, Events Coordinator, Professional Interpreter and/or Translator, Public Service, Including the Irish Foreign Service.\nFurther study options: Masters/PhD in Languages, Literature, Culture and Communications, MA in Business Management, Structured Ph.D. in Applied Languages, MA in Teaching English to Speakers of Other Languages, MSc in Marketing, Consumption and Society.",
+        "interests": [
+            "Linguistic"
+        ]
+    },
+    {
+        "id": "SE519",
+        "type": "CAO",
+        "title": "Applied Microbiology",
+        "college": "SETU Carlow Campus",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 312,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Microbiology is all about understanding how microorganisms affect our world in crucial ways, from improving healthcare to protecting the environment and driving new technologies. This course dives into how microbes are used to diagnose diseases, clean up pollution, and create bio-based solutions and biological products for industries. It focuses on three main areas: Diagnostic Microbiology, Environmental Microbiology, and Industrial Microbiology.",
+        "careerOpportunities": "What follow-on study opportunities are available?Postgraduate study options in SETU include taught programmes for example MSc Regulatory Affairs and PhD programmes linked to our research centres of excellence including enviroCORE and in other national and international institutions. What will I be able to do when I finish the course? With a BSc Hons in Applied Microbiology, you'll be ready to contribute to challenges like developing and manufacturing new diagnostics and biologics, fighting antimicrobial resistance, and improving environmental sustainability. Whether you choose further study, research, or jump into careers in healthcare, biotech, or industry, this degree opens doors to exciting possibilities.",
+        "interests": [
+            "Naturalist",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "SE520",
+        "type": "CAO",
+        "title": "Applied Microbiology",
+        "college": "SETU Carlow Campus",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 268,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Microbiology is all about understanding how microorganisms affect our world in crucial ways, from improving healthcare to protecting the environment and driving new technologies. This course dives into how microbes are used to diagnose diseases, clean up pollution, and create bio-based solutions and biological products for industries. It focuses on three main areas: Diagnostic Microbiology, Environmental Microbiology, and Industrial Microbiology.",
+        "careerOpportunities": "What follow-on study opportunities are available? Graduates are eligible to progress to Year 4 of the Bachelor of Science (Honours) in Applied Microbiology, the BSc Hons Biosciences with Biopharmaceuticals, BSc Hons Pharmaceutics and Drug Formulation or BSc Hons Brewing and Distilling at SETU Carlow. There are also opportunities to progress to honours degree courses in other Irish or international higher education institutes. What will I be able to do when I finish the course? With a BSc Ord in Applied Microbiology, you'll be ready to contribute to challenges like manufacturing new diagnostics and biologics and improving environmental sustainability. Whether you choose further study or jump into careers in healthcare, biotech, or industry, this degree opens doors to exciting possibilities.",
+        "interests": [
+            "Naturalist",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "DC175 AP",
+        "type": "CAO",
+        "title": "Applied Physics",
+        "college": "Dublin City University - DCU",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 413,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Do you want to know how to use your understanding of physics to have an impact in the real world? This is the course for you. As for students of any experimental physics course, you’ll need reasonable ability and comfort with mathematics to thrive and achieve your potential. This long-established experimental physics course focuses on the real-world applications of fundamental physics. You’ll learn through a blend of lectures, tutorials and a strong element of laboratory and project work, gaining theoretical and analytical knowledge as well as excellent hands-on experimental, problem-solving and analytical skills. And you can focus on your core interests, by choosing from a range of specialisms such as data science, computational physics or semiconductors. Gaining vital real-world experience In third year, you’ll do an INTRA work placement, either in an industrial or research laboratory environment. We strongly support students applying for summer internships both nationally and internationally, and some Applied Physics students go on such competitive internships each year, both in Ireland and abroad.",
+        "careerOpportunities": "Applied Physics is a gateway to a wide range of careers. Armed with highly marketable skills, you will be a powerful and versatile addition to any workforce. Examples of careers pursued by previous graduates include working in the areas of engineering, communications, semiconductors, photonics/optoelectronics and research and development. You could find yourself either in a design or management role, or you could push the boundaries of fundamental science in a research laboratory and be a future Nobel Prize winner!\nSuccessful completion of this Honours Bachelor Degree (NFQ Level 8) satisfies the current Teaching Council of Ireland subject curricular requirements for the teaching of physics at post-primary level.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "MT782",
+        "type": "CAO",
+        "title": "Applied Physics and Instrumentation",
+        "college": "MTU Cork Campus",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 332,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The aim of this course is to prepare graduates for a range of technical positions within the multidisciplinary field of applied physics and instrumentation.\nWhilst there is particular emphasis on employment within process industries, such as chemical, pharmaceutical, biotechnology, food, beverage and water, graduates are well equipped for employment in other sectors such as computers, medical devices and microelectronics, as well as in hospitals and in research and development.",
+        "careerOpportunities": "Whilst many of the graduates of this course progress to an honours degree, there are many immediate employment opportunities locally, nationally and internationally. Graduates typically work as junior instrument, control or automation engineers, metrology specialists, calibration specialists and research and development technologists.",
+        "interests": [
+            "Investigative",
+            "Realist"
+        ]
+    },
+    {
+        "id": "CK120",
+        "type": "CAO",
+        "title": "Applied Psychology",
+        "college": "University College Cork - UCC",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 533,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "As a student on the BA Applied Psychology, you get a chance to engage with a wide breadth of topics. The degree follows a rich, varied and challenging curriculum, from history to neuroscience, culture to biology, from children to the elderly, from professional skills to statistical and laboratory skills.",
+        "careerOpportunities": "Career oppertunities include: Clinical Psychologist, Human Resource Management, Advertising & Marketing, Social and health services, Criminal justice system, Industry, and Research.",
+        "interests": [
+            "Investigative",
+            "Social",
+            "Creative"
+        ]
+    }
+]
