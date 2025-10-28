@@ -15,7 +15,7 @@ async function main() {
     await page.setViewport({width: 1920, height: 1080});
     await page.goto(url, { waitUntil: 'networkidle0' });
 
-    const pagesToSkip = 2;
+    const pagesToSkip = 3;
     for (let i = 1; i <= pagesToSkip; i++) {
         let nextButtons = await page.$$(NEXT_BUTTON_SELECTOR);
 
