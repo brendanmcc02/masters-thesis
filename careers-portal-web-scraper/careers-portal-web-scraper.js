@@ -15,7 +15,7 @@ async function main() {
     await page.setViewport({width: 1920, height: 1080});
     await page.goto(url, { waitUntil: 'networkidle0' });
 
-    const pagesToSkip = 3;
+    const pagesToSkip = 4;
     for (let i = 1; i <= pagesToSkip; i++) {
         let nextButtons = await page.$$(NEXT_BUTTON_SELECTOR);
 
@@ -37,6 +37,8 @@ async function main() {
         const newTitle = await getHandleTextFromSelector(courseHandles[0], "a.font-display.font-bold.text-skin-fill-primary.leading-tight.my-1.hover\\:text-skin-fill-secondary.hover\\:underline");
 
         if (prevTitle === newTitle) {
+            console.log("prev:" + prevTitle);
+            console.log("new:" + newTitle);
             await browser.close();
             return;
         }
@@ -45,7 +47,6 @@ async function main() {
             const id = await getHandleTextFromSelector(courseHandle, "span.text-slate-500.font-bold");
 
             if (id.toLowerCase().includes("cancelled")) {
-                console.log("Course is cancelled, skipping: " + id);
                 continue;
             }
 
@@ -53,13 +54,13 @@ async function main() {
             let title = await getHandleTextFromSelector(courseHandle, "a.font-display.font-bold.text-skin-fill-primary.leading-tight.my-1.hover\\:text-skin-fill-secondary.hover\\:underline");
 
             if (title.toLowerCase().includes("cancelled")) {
-                console.log("Course is cancelled, skipping: " + id + ", " + title);
                 continue;
             }
 
             title = cleanCourseTitle(title);
 
             const college = await getHandleTextFromSelector(courseHandle, "div.col-span-2.flex.flex-col.items-start.justify-center.font-display > a.text-sm.leading-tight");
+            const region = getRegion(college);
             const duration = await getHandleTextFromSelector(courseHandle, "span.text-sm.leading-tight");
             const nfqLevel = parseInt(await getHandleTextFromSelector(courseHandle, "div > span.sr-only:last-child"));
             const points = await getPoints(courseHandle);
@@ -99,11 +100,7 @@ async function main() {
 
             const careerOpportunities = await getHandleTextFromSelector(courseHandle, "div.prose.max-w-none.prose-sm.prose-slate.prose-headings\\:font-display.prose-headings\\:font-bold > div:nth-of-type(2)");
 
-            let interests = []
-            const interestsHandles = await courseHandle.$$("div.mt-8.flex.flex-wrap.items-center.gap-2 span");
-            for (const interestsHandle of interestsHandles) {
-                interests.push(await interestsHandle.evaluate(el => el.textContent.trim()));
-            }
+            const interests = await getInterests(courseHandle);
 
             console.log("Pushed " + id);
             courses.push({ 
@@ -111,6 +108,7 @@ async function main() {
                 type: type,
                 title: title,
                 college: college,
+                region: region,
                 duration: duration,
                 nfqLevel: nfqLevel,
                 points: points,
@@ -157,7 +155,6 @@ async function getPoints(courseHandle) {
     const points = await getHandleTextFromSelector(courseHandle, "div.col-span-1.flex.flex-col.items-center.justify-center.font-display > div.text-sm > span");
 
     if (points === "AQA") {
-        // TODO is 0 the best thing to return here?
         return 0;
     } else if (points !== null) {
         return parseInt(points);
@@ -165,7 +162,6 @@ async function getPoints(courseHandle) {
 
     const isNewCourseText = await getHandleTextFromSelector(courseHandle, "div.text-xs.bg-skin-fill-secondary.rounded-full.px-2.text-white.font-bold");
     if (isNewCourseText === "New!") {
-        // TODO is 0 the best thing to return here?
         return 0;
     }
 
@@ -184,6 +180,147 @@ function cleanCourseTitle(courseTitle) {
   
   // Use String.prototype.replace() with the regular expression
   return courseTitle.replace(campusPattern, '');
+}
+
+async function getInterest(interestsHandle) {
+    const interest = await interestsHandle.evaluate(el => el.textContent.trim());
+
+    switch (interest) {
+        case "Realist":
+            return "Realistic";
+        case "Investigative":
+            return interest;
+        case "Creative":
+            return "Artistic";
+        case "Social":
+            return interest;
+        case "Enterprising":
+            return interest;
+        case "Administrative":
+            return "Conventional";
+        case "Naturalist":
+            return "Realistic";
+        case "Linguistic":
+            return "Artistic";
+    }
+}
+
+async function getInterests(courseHandle) {
+    let interests = [];
+    const interestsHandles = await courseHandle.$$("div.mt-8.flex.flex-wrap.items-center.gap-2 span");
+    for (const interestsHandle of interestsHandles) {
+        const interest = await getInterest(interestsHandle);
+
+        if (!interests.includes(interest)) {
+            interests.push(interest);
+        }
+    }
+
+    return interests;
+}
+
+async function getRegion(collegeName) {
+    switch (collegeName) {
+        case "ATU Donegal":
+            return "Ulster";
+        
+        case "University College Cork - UCC":
+            return "Munster";
+        case "MTU Cork Campus":
+            return "Munster";
+        case "MTU Kerry Campus":
+            return "Munster";
+        case "TUS Midwest":
+            return "Munster";
+        case "TUS Midwest (Thurles)":
+            return "Munster";
+        case "TUS Midlands":
+            return "Munster";
+        case "Griffith College Cork":
+            return "Munster";
+        case "Griffith College Limerick":
+            return "Munster";
+        case "University of Limerick - UL":
+            return "Munster";
+        case "SETU Waterford Campus":
+            return "Munster";
+        case "Mary Immaculate College":
+            return "Munster";
+        case "National Maritime College of Ireland (NMCI)":
+            return "Munster";
+        case "Shannon College of Hotel Management":
+            return "Munster";
+        
+        case "Carlow College":
+            return "Leinster (excluding Dublin)";
+        case "Dundalk Institute of Technology - DKIT":
+            return "Leinster (excluding Dublin)";
+        case "Maynooth University":
+            return "Leinster (excluding Dublin)";
+        case "St. Patrick's Pontificial University":
+            return "Leinster (excluding Dublin)";
+
+        case "Galway Business School":
+            return "Connacht";
+        case "University of Galway - UG":
+            return "Connacht";
+        case "ATU Galway / Mayo":
+            return "Connacht";
+        case "ATU Sligo":
+            return "Connacht";
+        case "ATU Donegal":
+            return "Connacht";
+        case "ATU Connemara":
+            return "Connacht";
+        case "ATU Sligo St. Angelas":
+            return "Connacht";
+
+        case "American College":
+            return "Dublin";
+        case "BIMM Institute Dublin":
+            return "Dublin";
+        case "CCT College Dublin":
+            return "Dublin";
+        case "Dorset College":
+            return "Dublin";
+        case "Dublin Business School - DBS":
+            return "Dublin";
+        case "Dublin City University (DCU)":
+            return "Dublin";
+        case "Griffith College Dublin":
+            return "Dublin";
+        case "IBAT College. Dublin": // yes there's supposed to be a . there
+            return "Dublin";
+        case "ICD Business School":
+            return "Dublin";
+        case "Institute of Art, Design and Technology Dun Laoghaire - IADT":
+            return "Dublin";
+        case "Marino Institute of Education":
+            return "Dublin";
+        case "National College of Art and Design - NCAD":
+            return "Dublin";
+        case "National College of Ireland - NCI":
+            return "Dublin";
+        case "RCSI University of Medicine and Health Sciences":
+            return "Dublin";
+        case "Setanta College":
+            return "Dublin";
+        case "Trinity College Dublin - TCD":
+            return "Dublin";
+        case "University College Dublin - UCD":
+            return "Dublin";
+        case "TU Dublin - Tallaght":
+            return "Dublin";
+        case "TU Dublin - Grangegorman":
+            return "Dublin";
+        case "TU Dublin - Blanchardstown":
+            return "Dublin";
+        case "TU Dublin - Aungier Street":
+            return "Dublin";
+        case "TU Dublin - Bolton Street":
+            return "Dublin";
+        
+    }
 }
 
 main();

@@ -27,7 +27,7 @@ def filterData(input_file, output_file):
             df_filtered[prefix] = (df_filtered[score_cols].mean(axis=1) - 1) / 4  # normalize mean between 0-1
             filtered_columns.insert(0, prefix)
 
-    df_output = df_filtered[filtered_columns].rename(columns={"major": "College Major", "R":"Realistic", "I":"Investigative", "A":"Artisitc", "S":"Social", "E":"Enterprising", "C":"Conventional"})
+    df_output = df_filtered[filtered_columns].rename(columns={"major": "College Major", "R":"Realistic", "I":"Investigative", "A":"Artistic", "S":"Social", "E":"Enterprising", "C":"Conventional"})
     df_output.to_csv(output_file, index=False, sep="\t")
 
 
