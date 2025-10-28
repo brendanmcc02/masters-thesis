@@ -1,7 +1,6 @@
 const pptr = require('puppeteer-extra')
 const StealthPlugin = require('puppeteer-extra-plugin-stealth')
 const fs = require('fs');
-
 const NEXT_BUTTON_SELECTOR = "button.MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-sizeMedium.MuiPaginationItem-text.MuiPaginationItem-circular.MuiPaginationItem-previousNext.css-1xr9krm";
 const COURSE_HANDLES_SELECTOR = "div.group\\/card";
 
@@ -16,14 +15,48 @@ async function main() {
     await page.setViewport({width: 1920, height: 1080});
     await page.goto(url, { waitUntil: 'networkidle0' });
 
+    const pagesToSkip = 2;
+    for (let i = 1; i <= pagesToSkip; i++) {
+        let nextButtons = await page.$$(NEXT_BUTTON_SELECTOR);
+
+        if (nextButtons.length > 1) {
+            await nextButtons[1].evaluate(el => el.scrollIntoView({ behavior: 'smooth', block: 'center' }));
+            await nextButtons[1].click();
+
+            await sleepForMs(3000);
+
+            await page.waitForSelector(COURSE_HANDLES_SELECTOR, { visible: true, timeout: 10000 });
+        } else {
+            await browser.close();
+        }
+    }
+
+    let prevTitle = "";
     while (true) {
         let courseHandles = await page.$$(COURSE_HANDLES_SELECTOR);
+        const newTitle = await getHandleTextFromSelector(courseHandles[0], "a.font-display.font-bold.text-skin-fill-primary.leading-tight.my-1.hover\\:text-skin-fill-secondary.hover\\:underline");
 
-        // for (let i = 17; i < courseHandles.length; i++) {
-        for (const courseHandle of courseHandles) {
+        if (prevTitle === newTitle) {
+            await browser.close();
+            return;
+        }
+
+        for (let courseHandle of courseHandles) {
             const id = await getHandleTextFromSelector(courseHandle, "span.text-slate-500.font-bold");
+
+            if (id.toLowerCase().includes("cancelled")) {
+                console.log("Course is cancelled, skipping: " + id);
+                continue;
+            }
+
             const type = await getHandleTextFromSelector(courseHandle, "span.text-slate-300.text-\\[10px\\]");
             const title = await getHandleTextFromSelector(courseHandle, "a.font-display.font-bold.text-skin-fill-primary.leading-tight.my-1.hover\\:text-skin-fill-secondary.hover\\:underline");
+
+            if (title.toLowerCase().includes("cancelled")) {
+                console.log("Course is cancelled, skipping: " + id + ", " + title);
+                continue;
+            }
+
             const college = await getHandleTextFromSelector(courseHandle, "div.col-span-2.flex.flex-col.items-start.justify-center.font-display > a.text-sm.leading-tight");
             const duration = await getHandleTextFromSelector(courseHandle, "span.text-sm.leading-tight");
             const nfqLevel = parseInt(await getHandleTextFromSelector(courseHandle, "div > span.sr-only:last-child"));
@@ -90,19 +123,18 @@ async function main() {
 
         fs.writeFileSync("../datasets/careers-portal/careers-portal-courses.json", JSON.stringify(courses, null, 4));
 
+        prevTitle = await getHandleTextFromSelector(courseHandles[0], "a.font-display.font-bold.text-skin-fill-primary.leading-tight.my-1.hover\\:text-skin-fill-secondary.hover\\:underline");
+
         // I have no idea why, but the first thing that matches the selector is not the button we're looking for.
         // even though the html clearly only shows one button that matches the descriptor
         // maybe it's hidden or something, idc. this works.
         const nextButtons = await page.$$(NEXT_BUTTON_SELECTOR);
+        await nextButtons[1].evaluate(el => el.scrollIntoView({ behavior: 'smooth', block: 'center' }));
+        await nextButtons[1].click();
 
-        if (nextButtons.length > 1) {
-            await nextButtons[1].evaluate(el => el.scrollIntoView({ behavior: 'smooth', block: 'center' }));
-            await nextButtons[1].click();
+        await sleepForMs(20000);
 
-            await page.waitForSelector(COURSE_HANDLES_SELECTOR, { visible: true, timeout: 10000 });
-        } else {
-            await browser.close();
-        }
+        await page.waitForSelector(COURSE_HANDLES_SELECTOR, { visible: true, timeout: 10000 });
     }
 }
 
@@ -113,11 +145,6 @@ async function getHandleTextFromSelector(elementHandle, selector) {
         : "";
 
     return text;
-}
-
-async function isElementExist(page, selector) {
-   const element = await page.$$(selector);
-   return element.length > 0;
 }
 
 async function sleepForMs(ms) {
@@ -143,4 +170,4 @@ async function getPoints(courseHandle) {
     return null;
 }
 
-await main();
+main();
