@@ -96,7 +96,10 @@ async function main() {
                 continue;
             }
             
-            const overview = await getHandleTextFromSelector(courseHandle, overviewElementSelector);
+            let overview = await getHandleTextFromSelector(courseHandle, overviewElementSelector);
+            if (overview === "Data will be updated as soon as it becomes available") {
+                overview = "";
+            }
 
             const careerOpportunities = await getHandleTextFromSelector(courseHandle, "div.prose.max-w-none.prose-sm.prose-slate.prose-headings\\:font-display.prose-headings\\:font-bold > div:nth-of-type(2)");
 
@@ -202,6 +205,8 @@ async function getInterest(interestsHandle) {
             return "Realistic";
         case "Linguistic":
             return "Artistic";
+        default:
+            return ("Interest doesn't match!: " + interest);
     }
 }
 
@@ -319,7 +324,9 @@ async function getRegion(collegeName) {
             return "Dublin";
         case "TU Dublin - Bolton Street":
             return "Dublin";
-        
+
+        default:
+            return "";
     }
 }
 
