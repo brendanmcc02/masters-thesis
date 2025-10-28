@@ -50,12 +50,14 @@ async function main() {
             }
 
             const type = await getHandleTextFromSelector(courseHandle, "span.text-slate-300.text-\\[10px\\]");
-            const title = await getHandleTextFromSelector(courseHandle, "a.font-display.font-bold.text-skin-fill-primary.leading-tight.my-1.hover\\:text-skin-fill-secondary.hover\\:underline");
+            let title = await getHandleTextFromSelector(courseHandle, "a.font-display.font-bold.text-skin-fill-primary.leading-tight.my-1.hover\\:text-skin-fill-secondary.hover\\:underline");
 
             if (title.toLowerCase().includes("cancelled")) {
                 console.log("Course is cancelled, skipping: " + id + ", " + title);
                 continue;
             }
+
+            title = cleanCourseTitle(title);
 
             const college = await getHandleTextFromSelector(courseHandle, "div.col-span-2.flex.flex-col.items-start.justify-center.font-display > a.text-sm.leading-tight");
             const duration = await getHandleTextFromSelector(courseHandle, "span.text-sm.leading-tight");
@@ -168,6 +170,20 @@ async function getPoints(courseHandle) {
     }
 
     return null;
+}
+
+function cleanCourseTitle(courseTitle) {
+  // \s* - Matches zero or more whitespace characters (to remove space before parenthesis)
+  // \(        - Matches the opening parenthesis literally
+  // [^)]* - Matches any character except a closing parenthesis, zero or more times
+  // campus    - Matches the literal string "campus" (case-insensitive due to the 'i' flag)
+  // [^)]* - Matches any character except a closing parenthesis, zero or more times
+  // \)        - Matches the closing parenthesis literally
+  
+  const campusPattern = /\s*\([^)]*campus[^)]*\)/gi;
+  
+  // Use String.prototype.replace() with the regular expression
+  return courseTitle.replace(campusPattern, '');
 }
 
 main();
