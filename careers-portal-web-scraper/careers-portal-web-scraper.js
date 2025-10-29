@@ -10,7 +10,7 @@ async function main() {
     const url = 'https://careersportal.ie/courses/coursefinder?types_in=2';
     let courses = [];
 
-    const browser = await pptr.launch({ headless: true, defaultViewport: null, args: ['--start-maximized', '--window-size=1920,1080', '--no-sandbox', '--disable-setuid-sandbox'] });
+    const browser = await pptr.launch({ headless: false, defaultViewport: null, args: ['--start-maximized', '--window-size=1920,1080', '--no-sandbox', '--disable-setuid-sandbox'] });
     const page = await browser.newPage();
     await page.setViewport({width: 1920, height: 1080});
     await page.goto(url, { waitUntil: 'networkidle0' });
@@ -33,8 +33,9 @@ async function main() {
 
     let prevTitle = "";
     while (true) {
+        console.log("New page");
         let courseHandles = await page.$$(COURSE_HANDLES_SELECTOR);
-        const newTitle = await getHandleTextFromSelector(courseHandles[0], "a.font-display.font-bold.text-skin-fill-primary.leading-tight.my-1.hover\\:text-skin-fill-secondary.hover\\:underline");
+        let newTitle = await getHandleTextFromSelector(courseHandles[0], "a.font-display.font-bold.text-skin-fill-primary.leading-tight.my-1.hover\\:text-skin-fill-secondary.hover\\:underline");
 
         if (prevTitle === newTitle) {
             console.log("prev:" + prevTitle);
@@ -44,6 +45,7 @@ async function main() {
         }
 
         for (let courseHandle of courseHandles) {
+        // for (let i = 99; i < courseHandles.length; i++) {
             const id = await getHandleTextFromSelector(courseHandle, "span.text-slate-500.font-bold");
 
             if (id.toLowerCase().includes("cancelled")) {
@@ -132,7 +134,10 @@ async function main() {
         // even though the html clearly only shows one button that matches the descriptor
         // maybe it's hidden or something, idc. this works.
         const nextButtons = await page.$$(NEXT_BUTTON_SELECTOR);
-        await nextButtons[1].evaluate(el => el.scrollIntoView({ behavior: 'smooth', block: 'center' }));
+        // scroll to bottom of the DOM (scrolling to the html element is unreliable)
+        await page.evaluate(() => {
+            window.scrollTo(0, document.body.scrollHeight);
+        });
         await nextButtons[1].click();
 
         await sleepForMs(20000);
@@ -223,7 +228,7 @@ async function getInterests(courseHandle) {
     return interests;
 }
 
-async function getRegion(collegeName) {
+function getRegion(collegeName) {
     switch (collegeName) {
         case "ATU Donegal":
             return "Ulster";
