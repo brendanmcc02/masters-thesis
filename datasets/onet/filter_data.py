@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def filterData(input_file, output_file):
+def filter_data(input_file, output_file):
     try:
         input_df = pd.read_csv(input_file, sep="\t")
     except Exception as e:
@@ -15,4 +15,4 @@ def filterData(input_file, output_file):
     output_df.to_csv(output_file, index=False, sep="\t")
 
 
-filterData("raw-basic-interests-to-riasec.tsv", "basic-interests-to-riasec.tsv")
+filter_data("raw-basic-interests-to-riasec.tsv", "basic-interests-to-riasec.tsv")

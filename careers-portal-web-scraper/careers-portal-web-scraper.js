@@ -52,7 +52,7 @@ async function main() {
                 continue;
             }
 
-            const type = await getHandleTextFromSelector(courseHandle, "span.text-slate-300.text-\\[10px\\]");
+            const type = await getHandleTextFromSelector(courseHandle, "span.text-slate-300.text-\\[10px\\]"); // TODO if i'm only doing college courses then this is irrelevant
             let title = await getHandleTextFromSelector(courseHandle, "a.font-display.font-bold.text-skin-fill-primary.leading-tight.my-1.hover\\:text-skin-fill-secondary.hover\\:underline");
 
             if (title.toLowerCase().includes("cancelled")) {
@@ -83,7 +83,7 @@ async function main() {
             } catch (TimeoutError) {
                 courses.push({ 
                     id: id,
-                    type: type,
+                    type: type, // TODO if i'm only doing college courses then this is irrelevant
                     title: title,
                     college: college,
                     duration: duration,
@@ -110,7 +110,7 @@ async function main() {
             console.log("Pushed " + id);
             courses.push({ 
                 id: id,
-                type: type,
+                type: type, // TODO if i'm only doing college courses then this is irrelevant
                 title: title,
                 college: college,
                 region: region,
