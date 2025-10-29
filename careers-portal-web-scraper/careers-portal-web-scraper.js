@@ -10,7 +10,7 @@ async function main() {
     const url = 'https://careersportal.ie/courses/coursefinder?types_in=2';
     let courses = [];
 
-    const browser = await pptr.launch({ headless: false, defaultViewport: null, args: ['--start-maximized', '--window-size=1920,1080', '--no-sandbox', '--disable-setuid-sandbox'] });
+    const browser = await pptr.launch({ headless: true, defaultViewport: null, args: ['--start-maximized', '--window-size=1920,1080', '--no-sandbox', '--disable-setuid-sandbox'] });
     const page = await browser.newPage();
     await page.setViewport({width: 1920, height: 1080});
     await page.goto(url, { waitUntil: 'networkidle0' });
@@ -123,10 +123,10 @@ async function main() {
                 interests: interests
             });
 
-            await sleepForMs(10000);
+            await sleepForMs(7500);
         }
 
-        fs.writeFileSync("../datasets/careers-portal/careers-portal-courses.json", JSON.stringify(courses, null, 4));
+        fs.writeFileSync("../datasets/cao-college-courses/cao-college-courses.json", JSON.stringify(courses, null, 4));
 
         prevTitle = await getHandleTextFromSelector(courseHandles[0], "a.font-display.font-bold.text-skin-fill-primary.leading-tight.my-1.hover\\:text-skin-fill-secondary.hover\\:underline");
 
@@ -210,7 +210,8 @@ async function getInterest(interestsHandle) {
         case "Linguistic":
             return "Artistic";
         default:
-            return ("Interest doesn't match!: " + interest);
+            console.log("INTEREST DOESN'T MATCH!!!: " + interest);
+            return ("INTEREST DOESN'T MATCH!!!: " + interest);
     }
 }
 
@@ -268,6 +269,10 @@ function getRegion(collegeName) {
             return "Leinster (excluding Dublin)";
         case "St. Patrick's Pontificial University":
             return "Leinster (excluding Dublin)";
+        case "SETU Carlow Campus":
+            return "Leinster (excluding Dublin)";
+        case "SETU Wexford Campus":
+            return "Leinster (excluding Dublin)";
 
         case "Galway Business School":
             return "Connacht";
@@ -294,7 +299,7 @@ function getRegion(collegeName) {
             return "Dublin";
         case "Dublin Business School - DBS":
             return "Dublin";
-        case "Dublin City University (DCU)":
+        case "Dublin City University - DCU":
             return "Dublin";
         case "Griffith College Dublin":
             return "Dublin";
@@ -330,6 +335,7 @@ function getRegion(collegeName) {
             return "Dublin";
 
         default:
+            console.log("region doesn't match! " + collegeName);
             return "";
     }
 }
