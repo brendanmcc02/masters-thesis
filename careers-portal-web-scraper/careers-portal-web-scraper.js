@@ -164,16 +164,9 @@ async function getPoints(courseHandle) {
 
     if (points === "AQA") {
         return 0;
-    } else if (points !== null) {
-        return parseInt(points);
     }
 
-    const isNewCourseText = await getHandleTextFromSelector(courseHandle, "div.text-xs.bg-skin-fill-secondary.rounded-full.px-2.text-white.font-bold");
-    if (isNewCourseText === "New!") {
-        return 0;
-    }
-
-    return null;
+    return parseInt(points);
 }
 
 function cleanCourseTitle(courseTitle) {
