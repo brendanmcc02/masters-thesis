@@ -28510,23 +28510,6 @@
         ]
     },
     {
-        "id": "SC801",
-        "type": "CAO",
-        "title": "Strength and conditioning",
-        "college": "Setanta College",
-        "region": "Dublin",
-        "duration": "",
-        "nfqLevel": 8,
-        "points": 222,
-        "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "",
-        "careerOpportunities": "",
-        "interests": [
-            "Realistic",
-            "Social"
-        ]
-    },
-    {
         "id": "SE903",
         "type": "CAO",
         "title": "Strength and Conditioning",
