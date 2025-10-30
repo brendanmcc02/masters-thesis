@@ -6723,23 +6723,6 @@
         ]
     },
     {
-        "id": "DB516",
-        "type": "CAO",
-        "title": "Business (Supply Chain Management)",
-        "college": "Dublin Business School - DBS",
-        "region": "Dublin",
-        "duration": "",
-        "nfqLevel": 8,
-        "points": null,
-        "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "",
-        "careerOpportunities": "",
-        "interests": [
-            "Enterprising",
-            "Conventional"
-        ]
-    },
-    {
         "id": "US842",
         "type": "CAO",
         "title": "Business",
