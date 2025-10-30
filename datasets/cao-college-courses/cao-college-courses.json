@@ -11992,23 +11992,6 @@
         ]
     },
     {
-        "id": "TU781",
-        "type": "CAO",
-        "title": "Digital Marketing - replaced by TU782",
-        "college": "TU Dublin - Blanchardstown",
-        "region": "Dublin",
-        "duration": "3 Years",
-        "nfqLevel": 7,
-        "points": 200,
-        "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "This programme has been replaced by TU782",
-        "careerOpportunities": "Career opportunities include; Social Media and PR Executives, Marketing Assistants, Event Administrators, Assistant Brand Managers, eCommerce Executives, and Digital Marketer.",
-        "interests": [
-            "Enterprising",
-            "Artistic"
-        ]
-    },
-    {
         "id": "DK818",
         "type": "CAO",
         "title": "Digital Marketing & Strategic Communication",
@@ -12037,23 +12020,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Students will delve into topics such as content creation, social media, strategy, and communications. Lectures create the opportunity to apply academic learning to contemporary workplace situations and challenges, with a focus on addressing real world organisational problems through innovative and insightful solutions.",
         "careerOpportunities": "Graduates of this course are qualified for careers in areas such as: public relations, advertising, data analytics, sales account management, online community/social media management, brand management, corporate social responsibility, media relations, customer engagement, event management, inbound/outbound communication, marketing, communication management, content generation, global sales and more.",
-        "interests": [
-            "Enterprising",
-            "Artistic"
-        ]
-    },
-    {
-        "id": "TU921",
-        "type": "CAO",
-        "title": "Digital Marketing Technologies - replaced by TU920",
-        "college": "TU Dublin - Tallaght",
-        "region": "Dublin",
-        "duration": "4 Years",
-        "nfqLevel": 8,
-        "points": 218,
-        "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "This programme has been replaced by TU920",
-        "careerOpportunities": "",
         "interests": [
             "Enterprising",
             "Artistic"
@@ -15385,22 +15351,6 @@
         "isAdditionalPortfolioTestInterviewRequired": true,
         "overview": "This course is for those who want to tell stories and express themselves through the medium of filmmaking. Our BA (Hons) Film is dedicated to teaching practice-based film making. Throughout the four years you will develop and create drama, documentary and experimental film. You will write scripts, shoot films, and submerge yourselves in cinema culture and tradition. You will work both individually and in teams to create powerful films that develop your own creative voice.",
         "careerOpportunities": "Work in film production; television, web & screen industries; and the broader screen arts and cultural sectors. Graduate employment opportunities exist in all levels of the film industry; VFX; television; online content providers; commercial production; production facilities; motion graphics; in house production facilities; and corporate and state bodies.",
-        "interests": [
-            "Artistic"
-        ]
-    },
-    {
-        "id": "DL856",
-        "type": "CAO",
-        "title": "Film (Joint International programme) - Replaced",
-        "college": "Institute of Art, Design and Technology Dun Laoghaire - IADT",
-        "region": "Dublin",
-        "duration": "3 Years",
-        "nfqLevel": 8,
-        "points": 530,
-        "isAdditionalPortfolioTestInterviewRequired": true,
-        "overview": "Applicants to the Film: Pathfinder Joint International Programme for intake 2026 will apply separately through the CAO for your preferred starting country, using the course codes below.",
-        "careerOpportunities": "National Film School graduates work across the Creative Industries as independent filmmakers, and as directors, producers, screenwriters, cinematographers, editors and sound designers, in addition to virtual reality, augmented reality and interactive media.",
         "interests": [
             "Artistic"
         ]
@@ -23816,22 +23766,6 @@
         ]
     },
     {
-        "id": "AU968",
-        "type": "CAO",
-        "title": "Pharmaceutical Science with Drug Development - REPLACED with AU976",
-        "college": "ATU Sligo",
-        "region": "Connacht",
-        "duration": "4 Years",
-        "nfqLevel": 8,
-        "points": 319,
-        "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "Pharmaceutical Science combines a range of scientific subjects that are vital in the development, discovery, processing and manufacturing of different drugs and therapies. The overall philosophy of this degree is to produce science graduates who can assume positions of responsibility in the area of pharmaceutical science.\nThis degree provides students with a broad but thorough background in the chemical, biological, and technological disciplines as they relate to the study of medicinal products. It allows students to develop a range of skills, covering scientific, engineering, regulatory and quality issues, as well as delivering excellent communication skills. Modules are based around the core pharmaceutical sciences, but with emphasis also placed on modern technology and advances within the sector.",
-        "careerOpportunities": "Graduates work in the pharmaceutical, biopharmaceutical, biomedical and medical device sectors in the areas of legislation and regulatory affairs, formulation, analysis, validation, production and quality systems. There is a very high direct employment rate from this degree to companies such as Abbott, AbbVie, Pfizer, Eli Lily. Baxter and Allergan.\nGraduates may progress to Level 9 Masters or Level 10 PhD programmes across a range of disciplines in ATU Sligo or in other third level institutions.",
-        "interests": [
-            "Investigative"
-        ]
-    },
-    {
         "id": "US866",
         "type": "CAO",
         "title": "Pharmaceutical Sciences",
@@ -26157,24 +26091,6 @@
         "interests": [
             "Investigative",
             "Realistic"
-        ]
-    },
-    {
-        "id": "TU676",
-        "type": "CAO",
-        "title": "Retail Management and Marketing - replaced by TU678",
-        "college": "TU Dublin - Aungier Street",
-        "region": "Dublin",
-        "duration": "2 Years",
-        "nfqLevel": 6,
-        "points": null,
-        "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "This programme has been replaced by TU678",
-        "careerOpportunities": "This programme provides an ideal introduction to the management and marketing of retail enterprises where there are excellent career opportunities. It provides a foundation for entry to the job market as trainee managers in retail companies or as marketing trainees within any company - particularly those where knowledge of Supply Chain Operations is beneficial.",
-        "interests": [
-            "Enterprising",
-            "Conventional",
-            "Artistic"
         ]
     },
     {
