@@ -55,7 +55,7 @@ async function main() {
             const type = await getHandleTextFromSelector(courseHandle, "span.text-slate-300.text-\\[10px\\]"); // TODO if i'm only doing college courses then this is irrelevant
             let title = await getHandleTextFromSelector(courseHandle, "a.font-display.font-bold.text-skin-fill-primary.leading-tight.my-1.hover\\:text-skin-fill-secondary.hover\\:underline");
 
-            if (title.toLowerCase().includes("cancelled")) {
+            if (title.toLowerCase().includes("cancelled") || title.toLowerCase().includes("graduate entry")) {
                 continue;
             }
 

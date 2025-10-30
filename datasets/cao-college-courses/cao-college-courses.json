@@ -22214,70 +22214,6 @@
         ]
     },
     {
-        "id": "CK791",
-        "type": "CAO",
-        "title": "Medicine - Graduate entry",
-        "college": "University College Cork - UCC",
-        "region": "Munster",
-        "duration": "4 Years",
-        "nfqLevel": 8,
-        "points": 57,
-        "isAdditionalPortfolioTestInterviewRequired": true,
-        "overview": "The Medicine curriculum at UCC is rooted in the basic Medical Sciences of Anatomy, Physiology, and Biochemistry, but also places emphasis on clinical instruction. A distinctive feature is small-group, patient-centred teaching, in which students learn the skills of listening and communicating, history-taking and clinical examination.",
-        "careerOpportunities": "Following successful completion of the Final Medical Examination, and subsequent graduation, Medical graduates are required to complete one year of internship training in order to achieve full registration with the Irish Medical Council.\nWhile UCC School of Medicine makes every effort to support students in the search for an internship post, students apply and compete for internship posts in an open jobs market.",
-        "interests": [
-            "Investigative"
-        ]
-    },
-    {
-        "id": "LM101",
-        "type": "CAO",
-        "title": "Medicine - Graduate Entry",
-        "college": "University of Limerick - UL",
-        "region": "Munster",
-        "duration": "4 Years",
-        "nfqLevel": 8,
-        "points": null,
-        "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "UL’s BM BS Graduate Entry Medical Programme is open to graduates from any discipline. It has a highly innovative curriculum which offers you the opportunity to complete undergraduate medical training in four years in an environment specifically designed for graduate students. During your four years of study, you will be taught the basic medical and clinical sciences necessary to form the basis for postgraduate training and for a career in any branch of medicine.",
-        "careerOpportunities": "Careers open to you with a degree in medicine include: Medical Practice in all disciplines such as Family Medicine, Hospital Medicine, Public Health Medicine etc, Medical Research, Medical Education, Medical Administration, Medical Journalism.",
-        "interests": [
-            "Investigative"
-        ]
-    },
-    {
-        "id": "RC101",
-        "type": "CAO",
-        "title": "Medicine - Graduate Entry",
-        "college": "RCSI University of Medicine and Health Sciences",
-        "region": "Dublin",
-        "duration": "4 Years",
-        "nfqLevel": 8,
-        "points": 58,
-        "isAdditionalPortfolioTestInterviewRequired": true,
-        "overview": "RCSI's GEM programme is a four-year accelerated programme. In your first year as a GEM student, you will be taught in a dedicated teaching facility on the main St Stephen’s Green campus.\nIn your second year, you will spend most of your time in RCSI's dedicated teaching space at Connolly Hospital in Blanchardstown, Dublin. In your final two years, you will be on clinical rotations in a variety of hospitals and GP practices in Dublin and throughout the country.",
-        "careerOpportunities": "Graduates qualify to pursue careers in general medical practice or post graduate specialist areas.",
-        "interests": [
-            "Investigative"
-        ]
-    },
-    {
-        "id": "DN401",
-        "type": "CAO",
-        "title": "Medicine - Graduate Entry",
-        "college": "University College Dublin - UCD",
-        "region": "Dublin",
-        "duration": "4 Years",
-        "nfqLevel": 8,
-        "points": 58,
-        "isAdditionalPortfolioTestInterviewRequired": true,
-        "overview": "UCD Graduate Entry Medicine (GEM) provides an innovative, science-driven and patient-centred curriculum, delivered by world-class educators in state-of-the-art facilities. This intensive, focused course is designed for students with an undergraduate degree who wish to pursue a career in medicine.",
-        "careerOpportunities": "Graduates of the School have achieved worldwide recognition in clinical practice, research and healthcare leadership. Upon graduation, you must complete one year as an intern to gain full registration with the Irish Medical Council. You may then pursue training towards a career in a wide variety of specialties, in diverse settings, including hospitals and primary care facilities, or laboratory-based diagnosis and research.\nEach year, approximately 100 Medicine students undertake an 8-week supervised laboratory, clinical or medical education projects in Ireland or at one of our partner institutions in the Student Summer Research programme. The programme brings to life our commitment to foster in our students a passion for inquiry, discovery and investigative research.",
-        "interests": [
-            "Investigative"
-        ]
-    },
-    {
         "id": "US878",
         "type": "CAO",
         "title": "Mental Health Nursing",
@@ -26107,22 +26043,6 @@
         ]
     },
     {
-        "id": "DN411",
-        "type": "CAO",
-        "title": "Radiography - Graduate Entry",
-        "college": "University College Dublin - UCD",
-        "region": "Dublin",
-        "duration": "2.5 Years",
-        "nfqLevel": 8,
-        "points": null,
-        "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "This accelerated Radiography training course has been developed to allow graduates from a wide variety of academic backgrounds to study with us. The content of this programme has been developed with respect to national requirements for radiography training as published by CORU, the Health and Social Care Professions Regulator, and by the Irish Institute of Radiography and Radiation Therapy (IIRT). As such, the programme supports robust learning of the underpinning core sciences and facilitates knowledge and skills development across the spectrum of radiographic and imaging techniques.",
-        "careerOpportunities": "This accelerated Radiography training course has been developed to allow graduates from a wide variety of academic backgrounds to study with us. The content of this programme has been developed with respect to national requirements for radiography training as published by CORU, the Health and Social Care Professions Regulator, and by the Irish Institute of Radiography and Radiation Therapy (IIRT). As such, the programme supports robust learning of the underpinning core sciences and facilitates knowledge and skills development across the spectrum of radiographic and imaging techniques.",
-        "interests": [
-            "Realistic"
-        ]
-    },
-    {
         "id": "MT510",
         "type": "CAO",
         "title": "Recreation and Leisure Management",
@@ -29178,23 +29098,6 @@
         "interests": [
             "Realistic",
             "Investigative"
-        ]
-    },
-    {
-        "id": "DN301",
-        "type": "CAO",
-        "title": "Veterinary Medicine - Graduate Entry",
-        "college": "University College Dublin - UCD",
-        "region": "Dublin",
-        "duration": "5 Years",
-        "nfqLevel": 8,
-        "points": null,
-        "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "The course is organised over four years. In ﬁrst year, students will build on their knowledge of the basic biological sciences. You will take modules which demonstrate how this knowledge is applied in the practice of veterinary medicine, and gain a ﬁrm grounding in animal welfare, behaviour and handling. A key objective will be to ensure that you have the required knowledge, skills and competencies to progress to second year. Between second and fourth year, you’ll take combined modules with students taking the DN300 degree in Veterinary Medicine.",
-        "careerOpportunities": "You can work in mixed, small animal, farm animal or equine practice. You may also obtain further specialist clinical qualiﬁcations. Beyond clinical practice, veterinarians play an important role in the protection of public health, in research into diseases of animals and man, and in other areas, such as conservation and wildlife protection. While most graduates work in clinical practice, increasing numbers pursue research in public service or private sector research. This reﬂects the important role of the veterinarian in animal health control and consumer protection. At present, there is almost complete employment for veterinary graduates.",
-        "interests": [
-            "Investigative",
-            "Realistic"
         ]
     },
     {
