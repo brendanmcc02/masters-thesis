@@ -1,5 +1,3 @@
-# TODO look at titles again! e.g. replaced, cancelled, etc.
-
 import json
 
 file = open("../datasets/cao-college-courses/cao-college-courses.json")
@@ -9,13 +7,17 @@ print("num courses: " + str(len(courses)) + "\n")
 
 # ids = set()
 # types = set()
-titles = set()
-repeatedTitles = set()
+# titles = set()
 # colleges = set()
 # regions = set()
 # durations = set()
 # nfqLevels = set()
 # points = set()
+# overviews = set()
+# repeatedOverviews = set()
+# careerOpportunities = set()
+# repeatedcareerOpportunities = set()
+# interests = set()
 for course in courses:
     # if not course["id"] or course["id"] == "":
     #     print("null or empty id!!!!!!!!!!!!!!!!!!!!!!!!:" + str(course["id"]))
@@ -27,11 +29,10 @@ for course in courses:
     
     # types.add(course["type"])
 
-    if not course["title"] or course["title"] == "":
-        print("null or empty title!!!!!!!!!!!!!!!!!!!!!!!!" + str(course["id"]))
+    # if not course["title"] or course["title"] == "":
+    #     print("null or empty title!!!!!!!!!!!!!!!!!!!!!!!!" + str(course["id"]))
     
-    if "(" in course["title"]:
-        titles.add(course["title"])
+    # titles.add(course["title"])
         
     # if not course["college"] or course["college"] == "":
     #     print("null or empty college!!!!!!!!!!!!!!!!!!!!!!!!:" + str(course["id"]))
@@ -58,6 +59,22 @@ for course in courses:
     # else:
     #     points.add(course["points"])
 
+    # if course["overview"] != "":
+    #     if course["overview"] in overviews:
+    #         repeatedOverviews.add(course["overview"])
+
+    #     overviews.add(course["overview"])
+
+    # if course["careerOpportunities"] != "":
+    #     if course["careerOpportunities"] in careerOpportunities:
+    #         repeatedcareerOpportunities.add(course["careerOpportunities"])
+
+    #     careerOpportunities.add(course["careerOpportunities"])
+
+    if len(course["interests"]) == 0:
+        print("empty interests: " + str(course["id"]))
+    
+
 # ids = sorted(list(ids))
 # print("ID's:\n")
 # for id in ids:
@@ -68,10 +85,10 @@ for course in courses:
 # for type in types:
 #     print(str(type))
 
-titles = sorted(list(titles))
-print("titles:\n")
-for title in titles:
-    print(str(title))
+# titles = sorted(list(titles))
+# print("titles:\n")
+# for title in titles:
+#     print(str(title))
     
 # colleges = sorted(list(colleges))
 # print("Colleges:\n")
@@ -97,3 +114,19 @@ for title in titles:
 # print("points:\n")
 # for point in points:
 #     print(str(point))
+
+# repeatedOverviews = sorted(list(repeatedOverviews))
+# print("repeatedOverviews:\n")
+# for repeatedOverview in repeatedOverviews:
+#     print(str(repeatedOverview) + "\n")
+
+# repeatedcareerOpportunities = sorted(list(repeatedcareerOpportunities))
+# print("repeatedcareerOpportunities:\n")
+# for repeatedcareerOpportunitie in repeatedcareerOpportunities:
+#     print(str(repeatedcareerOpportunitie) + "\n")
+
+# interests = sorted(list(interests))
+# print(str(len(interests)))
+# print("interests:\n")
+# for interests in interests:
+#     print(str(interests) + "\n")
