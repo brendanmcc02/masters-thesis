@@ -267,7 +267,7 @@ function getRegion(collegeName) {
             return "Leinster (excluding Dublin)";
         case "Maynooth University":
             return "Leinster (excluding Dublin)";
-        case "St. Patrick's Pontificial University":
+        case "St. Patrick's Pontifical University":
             return "Leinster (excluding Dublin)";
         case "SETU Carlow Campus":
             return "Leinster (excluding Dublin)";
