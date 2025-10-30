@@ -9895,22 +9895,6 @@
         ]
     },
     {
-        "id": "DS602",
-        "type": "CAO",
-        "title": "Computing",
-        "college": "Dorset College",
-        "region": "Dublin",
-        "duration": "2 Years",
-        "nfqLevel": 6,
-        "points": null,
-        "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "The Higher Certificate in Science in Computing & Multimedia Level 6 programme provides a broad range of modules designed to enhance the skills and knowledge of graduatesand also provide them with increased employment prospects in a wide range of areas. This course will teach students to build 3-D visual graphics and animations and incorporate them into computer programmes, mobile applications and games.",
-        "careerOpportunities": "This course will provide a wide range of skills that are necessary for a career in multimedia. An understanding of communication and media theories, design principles, techniques and tools is necessary. Multimedia professionals must also possess knowledge of computer hardware and software applications and Web design platforms.",
-        "interests": [
-            "Investigative"
-        ]
-    },
-    {
         "id": "DB500",
         "type": "CAO",
         "title": "Computing",
