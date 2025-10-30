@@ -9,12 +9,13 @@ print("num courses: " + str(len(courses)) + "\n")
 
 # ids = set()
 # types = set()
-# titles = set()
+titles = set()
+repeatedTitles = set()
 # colleges = set()
 # regions = set()
 # durations = set()
 # nfqLevels = set()
-points = set()
+# points = set()
 for course in courses:
     # if not course["id"] or course["id"] == "":
     #     print("null or empty id!!!!!!!!!!!!!!!!!!!!!!!!:" + str(course["id"]))
@@ -26,11 +27,12 @@ for course in courses:
     
     # types.add(course["type"])
 
-    # if not course["title"] or course["title"] == "":
-    #     print("null or empty title!!!!!!!!!!!!!!!!!!!!!!!!" + str(course["id"]))
+    if not course["title"] or course["title"] == "":
+        print("null or empty title!!!!!!!!!!!!!!!!!!!!!!!!" + str(course["id"]))
     
-    # titles.add(course["title"])
-
+    if "(" in course["title"]:
+        titles.add(course["title"])
+        
     # if not course["college"] or course["college"] == "":
     #     print("null or empty college!!!!!!!!!!!!!!!!!!!!!!!!:" + str(course["id"]))
     
@@ -51,10 +53,10 @@ for course in courses:
     
     # nfqLevels.add(course["nfqLevel"])
 
-    if course["points"] != 0 and not course["points"]:
-        print("null: " + str(course["id"]))
-    else:
-        points.add(course["points"])
+    # if course["points"] != 0 and not course["points"]:
+    #     print("null: " + str(course["id"]))
+    # else:
+    #     points.add(course["points"])
 
 # ids = sorted(list(ids))
 # print("ID's:\n")
@@ -66,10 +68,10 @@ for course in courses:
 # for type in types:
 #     print(str(type))
 
-# titles = sorted(list(titles))
-# print("Titles:\n")
-# for title in titles:
-#     print(str(title))
+titles = sorted(list(titles))
+print("titles:\n")
+for title in titles:
+    print(str(title))
     
 # colleges = sorted(list(colleges))
 # print("Colleges:\n")
@@ -91,7 +93,7 @@ for course in courses:
 # for nfqLevel in nfqLevels:
 #     print(str(nfqLevel))
 
-points = sorted(list(points))
-print("points:\n")
-for point in points:
-    print(str(point))
+# points = sorted(list(points))
+# print("points:\n")
+# for point in points:
+#     print(str(point))

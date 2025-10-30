@@ -665,7 +665,7 @@
     {
         "id": "US651",
         "type": "CAO",
-        "title": "Agricultural Mechanisation (Salesian Agricultural College Pallaskenry)",
+        "title": "Agricultural Mechanisation",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "2 Years",
@@ -1803,7 +1803,7 @@
     {
         "id": "SE917",
         "type": "CAO",
-        "title": "Applied Social Studies in Professional Social Care (Wexford)",
+        "title": "Applied Social Studies in Professional Social Care",
         "college": "SETU Wexford Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -2314,7 +2314,7 @@
     {
         "id": "CK606",
         "type": "CAO",
-        "title": "Architecture (Joint UCC and MTU)",
+        "title": "Architecture",
         "college": "University College Cork - UCC",
         "region": "Munster",
         "duration": "4 Years",
@@ -2398,7 +2398,7 @@
     {
         "id": "SE211",
         "type": "CAO",
-        "title": "Art (Wexford)",
+        "title": "Art",
         "college": "SETU Wexford Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -2414,7 +2414,7 @@
     {
         "id": "SE207",
         "type": "CAO",
-        "title": "Art (Wexford)",
+        "title": "Art",
         "college": "SETU Wexford Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -2430,7 +2430,7 @@
     {
         "id": "US800",
         "type": "CAO",
-        "title": "Art and Design - Common Entry (Clare Street)",
+        "title": "Art and Design - Common Entry",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
@@ -5355,7 +5355,7 @@
     {
         "id": "MT871",
         "type": "CAO",
-        "title": "Biomedical Science (Joint MTU & UCC course)",
+        "title": "Biomedical Science",
         "college": "University College Cork - UCC",
         "region": "Munster",
         "duration": "4 Years",
@@ -5371,7 +5371,7 @@
     {
         "id": "MT871",
         "type": "CAO",
-        "title": "Biomedical Science (Joint UCC & MTU course)",
+        "title": "Biomedical Science",
         "college": "MTU Cork Campus",
         "region": "Munster",
         "duration": "4 Years",
@@ -6209,7 +6209,7 @@
     {
         "id": "SE402",
         "type": "CAO",
-        "title": "Business (Common Entry Wexford)",
+        "title": "Business (Common Entry))",
         "college": "SETU Wexford Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -7398,7 +7398,7 @@
     {
         "id": "GY261",
         "type": "CAO",
-        "title": "Business Studies - International Hotel Management (Shannon)",
+        "title": "Business Studies - International Hotel Management",
         "college": "Shannon College of Hotel Management",
         "region": "Munster",
         "duration": "4 Years",
@@ -8886,7 +8886,7 @@
     {
         "id": "GY262",
         "type": "CAO",
-        "title": "Commerce - International Hotel Management (Shannon)",
+        "title": "Commerce - International Hotel Management",
         "college": "Shannon College of Hotel Management",
         "region": "Munster",
         "duration": "4 Years",
@@ -9278,7 +9278,7 @@
     {
         "id": "MH603",
         "type": "CAO",
-        "title": "Computational Thinking (Computer Science, Maths & Philosophy",
+        "title": "Computational Thinking (Computer Science, Maths & Philosophy)",
         "college": "Maynooth University",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 years",
@@ -10357,7 +10357,7 @@
     {
         "id": "AU242",
         "type": "CAO",
-        "title": "Construction (Architectural Tech or Construction Mgt) - Letterkenny campus",
+        "title": "Construction (Architectural Tech or Construction Mgt)",
         "college": "ATU Donegal",
         "region": "Ulster",
         "duration": "3 Years",
@@ -11778,7 +11778,7 @@
     {
         "id": "US805",
         "type": "CAO",
-        "title": "Digital Animation (Clonmel)",
+        "title": "Digital Animation",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
@@ -12582,7 +12582,7 @@
     {
         "id": "SE912",
         "type": "CAO",
-        "title": "Early Childhood Education and Practice (Wexford)",
+        "title": "Early Childhood Education and Practice",
         "college": "SETU Wexford Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -13014,7 +13014,7 @@
     {
         "id": "DC004",
         "type": "CAO",
-        "title": "Education - Primary Teaching - (Church of Ireland Centre)",
+        "title": "Education - Primary Teaching",
         "college": "Dublin City University - DCU",
         "region": "Dublin",
         "duration": "4 years",
@@ -13078,7 +13078,7 @@
     {
         "id": "MH002",
         "type": "CAO",
-        "title": "Education - Primary Teaching - Gaeltacht Applicants (Froebel)",
+        "title": "Education - Primary Teaching - Gaeltacht Applicants",
         "college": "Maynooth University",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -13110,7 +13110,7 @@
     {
         "id": "MH001",
         "type": "CAO",
-        "title": "Education - Primary Teaching (Froebel)",
+        "title": "Education - Primary Teaching",
         "college": "Maynooth University",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -13126,7 +13126,7 @@
     {
         "id": "AU620",
         "type": "CAO",
-        "title": "Education (Art and Design and Communication Graphics) - Wellpark Road campus",
+        "title": "Education (Art and Design and Communication Graphics)",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "4 Years",
@@ -13160,7 +13160,7 @@
     {
         "id": "AU680",
         "type": "CAO",
-        "title": "Education (Design Graphics and Construction) Letterfrack Campus",
+        "title": "Education (Design Graphics and Construction)",
         "college": "ATU Connemara",
         "region": "Connacht",
         "duration": "4 Years",
@@ -13278,7 +13278,7 @@
     {
         "id": "US801",
         "type": "CAO",
-        "title": "Education Art and Design (Clare Street)",
+        "title": "Education Art and Design",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
@@ -14147,7 +14147,7 @@
     {
         "id": "AU649",
         "type": "CAO",
-        "title": "Engineering (Common entry to - Agricultural, Biomedical, Energy, Manufacturing and/or Mechanical Engineering) Dublin Road campus",
+        "title": "Engineering (Common entry to - Agricultural, Biomedical, Energy, Manufacturing and/or Mechanical Engineering)",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "1 Year",
@@ -15732,7 +15732,7 @@
     {
         "id": "MT821",
         "type": "CAO",
-        "title": "Fine Art (MTU Crawford College)",
+        "title": "Fine Art",
         "college": "MTU Cork Campus",
         "region": "Munster",
         "duration": "4 Years",
@@ -16292,7 +16292,7 @@
     {
         "id": "US806",
         "type": "CAO",
-        "title": "Game Art and Design (Clonmel)",
+        "title": "Game Art and Design",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
@@ -16531,7 +16531,7 @@
     {
         "id": "TR093",
         "type": "CAO",
-        "title": "General Nursing (Adelaide School of Nursing)",
+        "title": "General Nursing",
         "college": "Trinity College Dublin - TCD",
         "region": "Dublin",
         "duration": "4 Years",
@@ -16567,7 +16567,7 @@
     {
         "id": "GY515",
         "type": "CAO",
-        "title": "General Nursing (Galway and Portiuncula)",
+        "title": "General Nursing",
         "college": "University of Galway - UG",
         "region": "Connacht",
         "duration": "4 Years",
@@ -16603,7 +16603,7 @@
     {
         "id": "TR091",
         "type": "CAO",
-        "title": "General Nursing (Meath, St. James's and Naas)",
+        "title": "General Nursing",
         "college": "Trinity College Dublin - TCD",
         "region": "Dublin",
         "duration": "4 Years",
@@ -17888,7 +17888,7 @@
     {
         "id": "SE507",
         "type": "CAO",
-        "title": "Horticulture (Dublin - National Botanic Gardens)",
+        "title": "Horticulture",
         "college": "SETU Waterford Campus",
         "region": "Munster",
         "duration": "3 Years",
@@ -17904,7 +17904,7 @@
     {
         "id": "SE506",
         "type": "CAO",
-        "title": "Horticulture (Waterford - Kildalton)",
+        "title": "Horticulture",
         "college": "SETU Waterford Campus",
         "region": "Munster",
         "duration": "3 Years",
@@ -22780,7 +22780,7 @@
     {
         "id": "MT936",
         "type": "CAO",
-        "title": "Music (MTU Cork School of Music)",
+        "title": "Music",
         "college": "MTU Cork Campus",
         "region": "Munster",
         "duration": "4 Years",
@@ -24696,7 +24696,7 @@
     {
         "id": "AU374",
         "type": "CAO",
-        "title": "Physiotherapy (Letterkenny)",
+        "title": "Physiotherapy",
         "college": "ATU Donegal",
         "region": "Ulster",
         "duration": "4 Years",
@@ -26295,7 +26295,7 @@
     {
         "id": "DN200",
         "type": "CAO",
-        "title": "Science - Mathematics Mathematics (includes Applied/Financial/Statistics & Data Science)",
+        "title": "Science - Mathematics (includes Applied/Financial/Statistics & Data Science)",
         "college": "University College Dublin - UCD",
         "region": "Dublin",
         "duration": "4 Years",
@@ -29089,7 +29089,7 @@
     {
         "id": "SE204",
         "type": "CAO",
-        "title": "Visual Communications and Design (Wexford)",
+        "title": "Visual Communications and Design",
         "college": "SETU Wexford Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -29122,7 +29122,7 @@
     {
         "id": "US810",
         "type": "CAO",
-        "title": "Visual Effects for Film, TV and Animaiton Portfolio (Clonmel)",
+        "title": "Visual Effects for Film, TV and Animaiton Portfolio",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
