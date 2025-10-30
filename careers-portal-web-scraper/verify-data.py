@@ -1,3 +1,5 @@
+# TODO look at titles again! e.g. replaced, cancelled, etc.
+
 import json
 
 file = open("../datasets/cao-college-courses/cao-college-courses.json")
