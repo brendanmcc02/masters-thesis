@@ -91,7 +91,6 @@ async function main() {
                     points: points,
                     isAdditionalPortfolioTestInterviewRequired: isAdditionalPortfolioTestInterviewRequired,
                     overview: "",
-                    careerOpportunities: "",
                     interests: []
                 });
                 console.log("Timeout waiting for " + overviewElementSelector + " on " + id + ". Pushed incomplete course to dataset.");
@@ -102,8 +101,6 @@ async function main() {
             if (overview === "Data will be updated as soon as it becomes available") {
                 overview = "";
             }
-
-            const careerOpportunities = await getHandleTextFromSelector(courseHandle, "div.prose.max-w-none.prose-sm.prose-slate.prose-headings\\:font-display.prose-headings\\:font-bold > div:nth-of-type(2)");
 
             const interests = await getInterests(courseHandle);
 
@@ -119,7 +116,6 @@ async function main() {
                 points: points,
                 isAdditionalPortfolioTestInterviewRequired: isAdditionalPortfolioTestInterviewRequired,
                 overview: overview,
-                careerOpportunities: careerOpportunities,
                 interests: interests
             });
 
