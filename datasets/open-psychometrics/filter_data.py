@@ -36,11 +36,6 @@ filtered_columns.insert(0, 'major')
 riasec_types = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprising', 'Conventional']
 df = df[filtered_columns].rename(columns={'R':riasec_types[0], 'I':riasec_types[1], 'A':riasec_types[2], 'S':riasec_types[3], 'E':riasec_types[4], 'C':riasec_types[5]})
 
-try:
-    college_majors_df = pd.read_csv("filtered_college_majors_2012_usa.tsv", sep='\t', low_memory=False)
-except Exception as e:
-    print(f'An error occurred while reading the CSV file: {e}')
-
 common_college_major_abbreviations_map = {
     'sci': 'science',
     'math': 'mathematics',
@@ -78,6 +73,11 @@ common_college_major_abbreviations_map = {
 for abbreviation, expaned_college_major in common_college_major_abbreviations_map.items():
     pattern = r'\b' + re.escape(abbreviation) + r'\b'
     df['major'] = df['major'].str.replace(pat=pattern, repl=expaned_college_major, regex=True)
+
+try:
+    college_majors_df = pd.read_csv("filtered_college_majors_2012_usa.tsv", sep='\t', low_memory=False)
+except Exception as e:
+    print(f'An error occurred while reading the CSV file: {e}')
 
 college_majors_and_college_major_categories = set(
     college_majors_df["College Major Category"].unique().tolist() +
@@ -140,6 +140,7 @@ is_mapped_filter = dirty_df['major'].isin(college_major_mapping_keys_set)
 
 mapped_df = dirty_df[is_mapped_filter].copy()
 
+# TODO i dont think this is getting concat'd correctly?
 clean_df = pd.concat([clean_df, mapped_df], ignore_index=True)
 
 dirty_df = dirty_df[~is_mapped_filter].copy()
