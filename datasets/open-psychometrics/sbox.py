@@ -1,4 +1,3 @@
-from fuzzywuzzy import fuzz
+import pandas as pd
 
-print(str(fuzz.partial_ratio("economics", "ecology")))
-
+clean_df = pd.concat([clean_df, mapped_df], ignore_index=True)

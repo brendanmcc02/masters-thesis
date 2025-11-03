@@ -19,7 +19,7 @@ df['major'] = df['major'].str.strip().str.lower().str.replace(r'\s+', ' ', regex
 non_empty_major_filter = ~(df['major'].fillna('').eq(''))
 df = df[non_empty_major_filter]
 
-dirty_college_major_filter = ~( (df['major'] == 'yes') | (df['major'] == 'no') | (df['major'] == 'na') | (df['major'] == 'none') | (df["major"] == "do not know") | (df["major"] == "dont know") | (df["major"] == "idk") | (df["major"] == "n. a."))
+dirty_college_major_filter = ~( (df['major'] == 'yes') | (df['major'] == 'no') | (df['major'] == 'na') | (df['major'] == 'none') | (df["major"] == "do not know") | (df["major"] == "dont know") | (df["major"] == "idk") | (df["major"] == "n. a.") | (df["major"] == "non") | (df['major'] == 'other') | (df['major'] == 'multiple'))
 df = df[dirty_college_major_filter]
 
 filtered_columns = []
@@ -38,6 +38,7 @@ df = df[filtered_columns].rename(columns={'R':riasec_types[0], 'I':riasec_types[
 
 common_college_major_abbreviations_map = {
     'sci': 'science',
+    'sciences': 'science',
     'math': 'mathematics',
     'maths': 'mathematics',
     'cs': 'computer science',
@@ -67,7 +68,10 @@ common_college_major_abbreviations_map = {
     'aero': 'aerospace',
     'ed': 'education',
     'telecomms': 'telecommunications',
-    'telecomm': 'telecommunications'
+    'telecomm': 'telecommunications',
+    'hr': 'human resources',
+    'hrm': 'human resource management',
+    'nurse': 'nursing'
 }
 
 for abbreviation, expaned_college_major in common_college_major_abbreviations_map.items():
@@ -91,11 +95,15 @@ dirty_df = df[~is_defined_college_major].copy()
 
 # the values in this dict need to be in college_majors
 college_major_mapping_dict = {
+    'art': 'arts',
+    'ba': 'arts', # bachelor of arts
+    'liberal studies': 'liberal arts',
     'literature': 'english language and literature',
     'english': 'english language and literature',
     'information technology': 'computer and information systems',
     'information systems': 'computer and information systems',
     'political science': 'political science and government',
+    'government': 'political science and government',
     'anthropology':'anthropology and archeology',
     'archeology':'anthropology and archeology',
     'science': 'multi-disciplinary or general science',
@@ -106,7 +114,6 @@ college_major_mapping_dict = {
     'agriculture production': 'agriculture production and management',
     'agriculture management': 'agriculture production and management',
     'plant science': 'plant science and agronomy',
-    'plant sciences': 'plant science and agronomy',
     'agronomy': 'plant science and agronomy',
     'theater arts': 'drama and theater arts',
     'visual arts': 'visual and performing arts',
@@ -116,12 +123,14 @@ college_major_mapping_dict = {
     'photographic arts': 'film video and photographic arts',
     'biochemical': 'biochemical sciences',
     'cognitive science': 'cognitive science and biopsychology',
+    'biopsychology': 'cognitive science and biopsychology',
     'actuary': 'actuarial science',
     'business management': 'business management and administration',
     'operations logistics': 'operations logistics and e-commerce',
     'e-commerce': 'operations logistics and e-commerce',
     'marketing': 'marketing and marketing research',
     'human resources': 'human resources and personnel management',
+    'human resource management': 'human resources and personnel management',
     'personnel management': 'human resources and personnel management',
     'statistics': 'statistics and decision science',
     'advertising': 'advertising and public relations',
@@ -132,17 +141,39 @@ college_major_mapping_dict = {
     'telecommunications': 'computer networking and telecommunications',
     'educational administration': 'educational administration and supervision',
     'higher education': 'secondary teacher education',
+    'law': 'law & public policy',
+    'communication': 'communications',
+    'public health': 'community and public health',
+    'community health': 'community and public health',
+    'commerce': 'general business',
+    'administration': 'business management and administration',
+    'medicine': 'general medical and health services',
+    'doctor': 'general medical and health services',
+    'health services': 'general medical and health services',
+    'family science':'family and consumer sciences',
+    'consumer science':'family and consumer sciences',
+    'counseling': 'counseling psychology',
+    'counselling': 'counseling psychology',
+    'biomedical science': 'biomedical engineering',
+    # 'classics': #TODO
+    # 'foreign langauge': 'foreign languages',
+    # 'french'
+    # 'german'
+    # 'chinese'
+    # 'japanese'
+    # 'korean'
+    # 'italian'
+    # 'spanish'
+    # 'pharmacy'
+    # 'philology'
 }
 
 dirty_df['major'] = dirty_df['major'].replace(college_major_mapping_dict)
-college_major_mapping_keys_set = set(college_major_mapping_dict.keys())
-is_mapped_filter = dirty_df['major'].isin(college_major_mapping_keys_set)
+college_major_mapping_values_set = set(college_major_mapping_dict.values())
+is_mapped_filter = dirty_df['major'].isin(college_major_mapping_values_set)
 
 mapped_df = dirty_df[is_mapped_filter].copy()
-
-# TODO i dont think this is getting concat'd correctly?
 clean_df = pd.concat([clean_df, mapped_df], ignore_index=True)
-
 dirty_df = dirty_df[~is_mapped_filter].copy()
 
 clean_df.to_csv("clean_riasec_college_majors.tsv", sep='\t', index=False)
