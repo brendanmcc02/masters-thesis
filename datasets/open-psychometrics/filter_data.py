@@ -37,10 +37,12 @@ riasec_types = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprisin
 df = df[filtered_columns].rename(columns={'R':riasec_types[0], 'I':riasec_types[1], 'A':riasec_types[2], 'S':riasec_types[3], 'E':riasec_types[4], 'C':riasec_types[5]})
 
 common_college_major_abbreviations_map = {
+    'art': 'arts',
     'sci': 'science',
     'sciences': 'science',
     'math': 'mathematics',
     'maths': 'mathematics',
+    'mathematic': 'mathematics',
     'cs': 'computer science',
     'comp': 'computer',
     'econ': 'economics',
@@ -93,37 +95,88 @@ is_defined_college_major = df['major'].isin(college_majors_and_college_major_cat
 clean_df = df[is_defined_college_major].copy()
 dirty_df = df[~is_defined_college_major].copy()
 
+# TODO spell check here?
+# or fuzzy wuzzy would be better?
+
 # the values in this dict need to be in college_majors
 college_major_mapping_dict = {
-    'art': 'arts',
+    # arts
     'ba': 'arts', # bachelor of arts
-    'liberal studies': 'liberal arts',
-    'literature': 'english language and literature',
-    'english': 'english language and literature',
-    'information technology': 'computer and information systems',
-    'information systems': 'computer and information systems',
-    'political science': 'political science and government',
-    'government': 'political science and government',
-    'anthropology':'anthropology and archeology',
-    'archeology':'anthropology and archeology',
-    'science': 'multi-disciplinary or general science',
-    'philosophy': 'philosophy and religious studies',
-    'religious studies': 'philosophy and religious studies',
-    'art history': 'art history and criticism',
-    'agriculture': 'general agriculture',
-    'agriculture production': 'agriculture production and management',
-    'agriculture management': 'agriculture production and management',
-    'plant science': 'plant science and agronomy',
-    'agronomy': 'plant science and agronomy',
+    'drama': 'drama and theater arts',
+    'drama arts': 'drama and theater arts',
     'theater arts': 'drama and theater arts',
+    'theater': 'drama and theater arts',
     'visual arts': 'visual and performing arts',
     'performing arts': 'visual and performing arts',
     'graphic design': 'commercial art and graphic design',
     'commercial art': 'commercial art and graphic design',
     'photographic arts': 'film video and photographic arts',
+    'film': 'film video and photographic arts',
+    'film school': 'film video and photographic arts',
+    'cinema': 'film video and photographic arts',
+    'musical studies': 'music',
+    
+    # humanities
+    'liberal studies': 'liberal arts',
+    'literature': 'english language and literature',
+    'english': 'english language and literature',
+    'english literature': 'english language and literature',
+    'philosophy': 'philosophy and religious studies',
+    'ethics': 'philosophy and religious studies',
+    'religious studies': 'philosophy and religious studies',
+    'religion': 'philosophy and religious studies',
+    'arts history': 'art history and criticism', # art -> arts ; abbreviation expansion
+    'arts criticism': 'art history and criticism', # art -> arts ; abbreviation expansion
+    'anthropology':'anthropology and archeology',
+    'archeology':'anthropology and archeology',
+    'foreign langauge': 'foreign languages',
+    'translation': 'foreign languages',
+    'french': 'foreign languages',
+    'german': 'foreign languages',
+    'chinese': 'foreign languages',
+    'japanese': 'foreign languages',
+    'korean': 'foreign languages',
+    'italian': 'foreign languages',
+    'spanish': 'foreign languages',
+    'russian': 'foreign languages',
+    'languages': 'foreign languages',
+    'philology': 'linguistics and comparative language and literature',
+    'linguistics': 'linguistics and comparative language and literature',
+    'classics': 'humanities & liberal arts',
+    'civilization': 'area ethnic and civilization studies',
+    'international studies': 'intercultural and international studies',
+    'intercultural studies': 'intercultural and international studies',
+    'theology': 'theology and religious vocations',
+
+    # biology
+    'plant science': 'plant science and agronomy',
+    'agronomy': 'plant science and agronomy',
     'biochemical': 'biochemical sciences',
     'cognitive science': 'cognitive science and biopsychology',
     'biopsychology': 'cognitive science and biopsychology',
+    'kinesiology': 'physiology',
+    'environmental': 'environmental science',
+    'biological': 'biology', # bio -> biological; abbreviation expansion
+
+
+    # health
+    'public health': 'community and public health',
+    'community health': 'community and public health',
+    'medicine': 'general medical and health services',
+    'medical': 'general medical and health services',
+    'doctor': 'general medical and health services',
+    'dentist': 'general medical and health services',
+    'dental science': 'general medical and health services',
+    'dental': 'general medical and health services',
+    'dentistry': 'general medical and health services',
+    'health services': 'general medical and health services',
+    'healthcare': 'general medical and health services',
+    'pharmacy': 'pharmacology',
+    'health science': 'biology',
+    'life science': 'biology',
+    'nutrition': 'nutrition sciences',
+
+    # business
     'actuary': 'actuarial science',
     'business management': 'business management and administration',
     'operations logistics': 'operations logistics and e-commerce',
@@ -132,40 +185,80 @@ college_major_mapping_dict = {
     'human resources': 'human resources and personnel management',
     'human resource management': 'human resources and personnel management',
     'personnel management': 'human resources and personnel management',
-    'statistics': 'statistics and decision science',
+    'commerce': 'general business',
+    'administration': 'business management and administration',
+    'business administration': 'business management and administration',
+    'administrative science': 'business management and administration',
+    'mba': 'business management and administration',
+    'management': 'business management and administration',
+    'economy': 'economics',
+    
+    # communications
+    'communication': 'communications',
+    'communication studies': 'communications',
     'advertising': 'advertising and public relations',
     'public relations': 'advertising and public relations',
+    'media': 'mass media',
+    'media studies': 'mass media',
+
+    # computers & math
+    'information technology': 'computer and information systems',
+    'information systems': 'computer and information systems',
+    'statistics': 'statistics and decision science',
     'computer programming': 'computer programming and data processing',
+    'programming': 'computer programming and data processing',
     'data processing': 'computer programming and data processing',
     'computer networking': 'computer networking and telecommunications',
     'telecommunications': 'computer networking and telecommunications',
+    'computer studies': 'computer and information systems',
+    'software engineering': 'computer science',
+
+    # education
     'educational administration': 'educational administration and supervision',
     'higher education': 'secondary teacher education',
+    'teacher': 'education',
+    'special education': 'special needs education',
+
+    # engineering
+    'biomedical science': 'biomedical engineering',
+
+    # agriculture
+    'agriculture': 'general agriculture',
+    'agriculture production': 'agriculture production and management',
+    'agriculture management': 'agriculture production and management',
+    'food': 'food science',
+
+    # physical science
+    'science': 'multi-disciplinary or general science',
+    'geology': 'geology and earth science',
+    'earth science': 'geology and earth science',
+    'geological science': 'geology and earth science',
+
+    # law
     'law': 'law & public policy',
-    'communication': 'communications',
-    'public health': 'community and public health',
-    'community health': 'community and public health',
-    'commerce': 'general business',
-    'administration': 'business management and administration',
-    'medicine': 'general medical and health services',
-    'doctor': 'general medical and health services',
-    'health services': 'general medical and health services',
-    'family science':'family and consumer sciences',
-    'consumer science':'family and consumer sciences',
+    'lawyer': 'law & public policy',
+    'legal': 'law & public policy',
+    'legal studies': 'law & public policy',
+    'paralegal': 'law & public policy',
+    'paralegal studies': 'law & public policy',
+    'criminal justice': 'criminal justice and fire protection',
+
+    # psych
     'counseling': 'counseling psychology',
     'counselling': 'counseling psychology',
-    'biomedical science': 'biomedical engineering',
-    # 'classics': #TODO
-    # 'foreign langauge': 'foreign languages',
-    # 'french'
-    # 'german'
-    # 'chinese'
-    # 'japanese'
-    # 'korean'
-    # 'italian'
-    # 'spanish'
-    # 'pharmacy'
-    # 'philology'
+
+    # social science
+    'political science': 'political science and government',
+    'politics': 'political science and government',
+    'government': 'political science and government',
+
+    # industrial arts
+    'family science':'family and consumer sciences',
+    'consumer science':'family and consumer sciences',
+    'culinary': 'cosmetology services and culinary arts',
+    'culinary arts': 'cosmetology services and culinary arts',
+    'culinary science': 'cosmetology services and culinary arts',
+    'hospitality': 'hospitality management',
 }
 
 dirty_df['major'] = dirty_df['major'].replace(college_major_mapping_dict)
