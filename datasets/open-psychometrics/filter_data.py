@@ -82,6 +82,8 @@ common_college_major_abbreviations_map = {
     'networking': 'networks',
     'teacher': 'education',
     'teaching': 'education',
+    'counselor': 'counseling',
+    'theatre': 'theater', # american spelling # could probably get rid of with fuzzy wuzzy?
 }
 
 for abbreviation, expaned_college_major in common_college_major_abbreviations_map.items():
@@ -271,12 +273,18 @@ college_major_mapping_dict = {
     'software engineering': 'computer science',
 
     # education
+    # note "teacher" & "teaching" -> "education"
+    'educational studies': 'education',
     'educational administration': 'educational administration and supervision',
+    'primary education': 'elementary education',
+    'secondary education': 'secondary teacher education',
     'higher education': 'secondary teacher education',
     'special education': 'special needs education',
     'mathematics education': 'mathematics teacher education',
-    'art education': 'art and music education',
+    'arts education': 'art and music education', # art -> arts
     'music education': 'art and music education',
+    'science education': 'science and computer teacher education',
+    'school counseling': 'school student counseling',
 
     # engineering
     'biomedical science': 'biomedical engineering',
