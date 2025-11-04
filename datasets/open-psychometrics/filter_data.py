@@ -51,9 +51,11 @@ common_college_major_abbreviations_map = {
     'polsci': 'political science',
     'pol': 'political',
     'psych': 'psychology',
-    'pysch': 'psychology', # common mis-spelling
-    'pyschology': 'psychology', # common mis-spelling
+    'pysch': 'psychology', # common mis-spelling # could probably get rid of with fuzzy wuzzy?
+    'pyschology': 'psychology', # common mis-spelling # could probably get rid of with fuzzy wuzzy?
+    'archaeology' : 'archeology', # common mis-spelling # could probably get rid of with fuzzy wuzzy?
     'tech': 'technology',
+    'technologies': 'technology',
     'info': 'information',
     'it': 'information technology',
     'eng': 'engineering',
@@ -74,7 +76,12 @@ common_college_major_abbreviations_map = {
     'telecomm': 'telecommunications',
     'hr': 'human resources',
     'hrm': 'human resource management',
-    'nurse': 'nursing'
+    'nurse': 'nursing',
+    'communication': 'communications',
+    'pr': 'public relations',
+    'networking': 'networks',
+    'teacher': 'education',
+    'teaching': 'education',
 }
 
 for abbreviation, expaned_college_major in common_college_major_abbreviations_map.items():
@@ -127,6 +134,7 @@ college_major_mapping_dict = {
     'ethics': 'philosophy and religious studies',
     'religious studies': 'philosophy and religious studies',
     'religion': 'philosophy and religious studies',
+    'bible': 'philosophy and religious studies',
     'arts history': 'art history and criticism', # art -> arts ; abbreviation expansion
     'arts criticism': 'art history and criticism', # art -> arts ; abbreviation expansion
     'anthropology':'anthropology and archeology',
@@ -158,6 +166,9 @@ college_major_mapping_dict = {
     'cognitive science': 'cognitive science and biopsychology',
     'biopsychology': 'cognitive science and biopsychology',
     'kinesiology': 'physiology',
+    'physical therapy': 'physiology',
+    'physio': 'physiology',
+    'physiotherapy': 'physiology',
     'environmental': 'environmental science',
     'biological': 'biology', # bio -> biological; abbreviation expansion
     'neuro': 'neuroscience',
@@ -165,6 +176,7 @@ college_major_mapping_dict = {
     'neurobiology': 'neuroscience',
     'neurology': 'physiology',
     'genetic': 'genetics',
+    'ecological science': 'ecology',
     
     # health
     'public health': 'community and public health',
@@ -198,17 +210,21 @@ college_major_mapping_dict = {
     'actuary': 'actuarial science',
     'actuarial': 'actuarial science',
     'actuarial studies': 'actuarial science',
-    'business management': 'business management and administration',
     'operations logistics': 'operations logistics and e-commerce',
+    'operations management': 'operations logistics and e-commerce',
     'e-commerce': 'operations logistics and e-commerce',
+    'business marketing': 'marketing and marketing research',
     'marketing': 'marketing and marketing research',
-    'human resources': 'human resources and personnel management',
+    'marketing management': 'marketing and marketing research',
+    'human resource': 'human resources and personnel management',
+    'human resources': 'human resources and personnel management', # could probably get rid of this with fuzzywuzzy
     'human resource management': 'human resources and personnel management',
-    'human resources management': 'human resources and personnel management',
+    'human resources management': 'human resources and personnel management', # could probably get rid of this with fuzzywuzzy
     'human resource development': 'human resources and personnel management',
-    'human resources development': 'human resources and personnel management',
+    'human resources development': 'human resources and personnel management', # could probably get rid of this with fuzzywuzzy
     'personnel management': 'human resources and personnel management',
     'commerce': 'general business',
+    'business management': 'business management and administration',
     'administration': 'business management and administration',
     'business administration': 'business management and administration',
     'administrative science': 'business management and administration',
@@ -216,24 +232,40 @@ college_major_mapping_dict = {
     'management': 'business management and administration',
     'economy': 'economics',
     'hotel management': 'hospitality management',
+    'international commerce': 'international business',
+    'international trade': 'international business',
+    'management information systems': 'management information systems and statistics',
+    'medical administration' : 'miscellaneous business & medical administration',
     
     # communications
-    'communication': 'communications',
+    'mass communications': 'mass media',
+    'media communications': 'mass media',
     'communication studies': 'communications',
+    'communications studies': 'communications', # could probably get rid of this with fuzzywuzzy
     'advertising': 'advertising and public relations',
     'public relations': 'advertising and public relations',
     'media': 'mass media',
     'media studies': 'mass media',
 
     # computers & math
+    'computer science and mathematics': 'mathematics and computer science',
     'computer': 'computer and information systems',
+    'computing': 'computer and information systems',
+    'computers': 'computer and information systems', # could probably get rid of this with fuzzywuzzy
+    'computer information system': 'computer and information systems', # could probably get rid of this with fuzzywuzzy
+    'computer information systems': 'computer and information systems',
+    'computer systems': 'computer and information systems',
+    'computer information technology': 'computer and information systems',
     'information technology': 'computer and information systems',
     'information systems': 'computer and information systems',
+    'computer technology': 'computer and information systems',
     'statistics': 'statistics and decision science',
     'computer programming': 'computer programming and data processing',
     'programming': 'computer programming and data processing',
     'data processing': 'computer programming and data processing',
-    'computer networking': 'computer networking and telecommunications',
+    'computer networks': 'computer networking and telecommunications', # networking -> networks ; abbreviation expansion
+    'networks': 'computer networking and telecommunications', # networking -> networks ; abbreviation expansion
+    'cybersecurity': 'computer networking and telecommunications',
     'telecommunications': 'computer networking and telecommunications',
     'computer studies': 'computer and information systems',
     'software engineering': 'computer science',
@@ -241,9 +273,10 @@ college_major_mapping_dict = {
     # education
     'educational administration': 'educational administration and supervision',
     'higher education': 'secondary teacher education',
-    'teacher': 'education',
-    'teaching': 'education',
     'special education': 'special needs education',
+    'mathematics education': 'mathematics teacher education',
+    'art education': 'art and music education',
+    'music education': 'art and music education',
 
     # engineering
     'biomedical science': 'biomedical engineering',
@@ -253,6 +286,8 @@ college_major_mapping_dict = {
     'electronics': 'electrical engineering',
     'architectural studies': 'architecture',
     'architect': 'architecture',
+    'industrial engineering': 'industrial and manufacturing engineering',
+    'manufacturing engineering': 'industrial and manufacturing engineering',
 
     # agriculture
     'agriculture': 'general agriculture',
@@ -265,6 +300,8 @@ college_major_mapping_dict = {
     'geology': 'geology and earth science',
     'earth science': 'geology and earth science',
     'geological science': 'geology and earth science',
+    'astronomy': 'astronomy and astrophysics',
+    'astrophysics': 'astronomy and astrophysics',
 
     # law
     'law': 'law & public policy',
@@ -279,12 +316,16 @@ college_major_mapping_dict = {
     # psych
     'counseling': 'counseling psychology',
     'counselling': 'counseling psychology',
+    'therapy': 'counseling psychology',
 
     # social science
     'political science': 'political science and government',
     'politics': 'political science and government',
     'government': 'political science and government',
     'sociological': 'sociology',
+    'international affairs': 'international relations',
+    'international development': 'international relations',
+    'international politics': 'international relations',
 
     # industrial arts
     'family science':'family and consumer sciences',
