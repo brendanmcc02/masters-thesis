@@ -57,6 +57,7 @@ common_college_major_abbreviations_map = {
     'info': 'information',
     'it': 'information technology',
     'eng': 'engineering',
+    'engineer': 'engineering',
     'admin': 'administration',
     'ag': 'agriculture',
     'agri': 'agriculture',
@@ -115,6 +116,7 @@ college_major_mapping_dict = {
     'film school': 'film video and photographic arts',
     'cinema': 'film video and photographic arts',
     'musical studies': 'music',
+    'design': 'commercial art and graphic design',
     
     # humanities
     'liberal studies': 'liberal arts',
@@ -152,13 +154,18 @@ college_major_mapping_dict = {
     'plant science': 'plant science and agronomy',
     'agronomy': 'plant science and agronomy',
     'biochemical': 'biochemical sciences',
+    'biochemistry': 'biochemical sciences',
     'cognitive science': 'cognitive science and biopsychology',
     'biopsychology': 'cognitive science and biopsychology',
     'kinesiology': 'physiology',
     'environmental': 'environmental science',
     'biological': 'biology', # bio -> biological; abbreviation expansion
-
-
+    'neuro': 'neuroscience',
+    'neuropsychology': 'neuroscience',
+    'neurobiology': 'neuroscience',
+    'neurology': 'physiology',
+    'genetic': 'genetics',
+    
     # health
     'public health': 'community and public health',
     'community health': 'community and public health',
@@ -168,22 +175,38 @@ college_major_mapping_dict = {
     'dentist': 'general medical and health services',
     'dental science': 'general medical and health services',
     'dental': 'general medical and health services',
+    'dental hygiene': 'general medical and health services',
+    'dental assistant': 'general medical and health services',
+    'dental assisting': 'general medical and health services',
     'dentistry': 'general medical and health services',
     'health services': 'general medical and health services',
     'healthcare': 'general medical and health services',
+    'pharmacist': 'pharmacology',
     'pharmacy': 'pharmacology',
+    'pharmaceutic': 'pharmacology',
+    'pharmaceutical': 'pharmacology',
+    'pharmacy technology': 'pharmacology',
+    'pharmaceuticals': 'pharmacology',
+    'pharmaceutical science': 'pharmacology',
     'health science': 'biology',
     'life science': 'biology',
     'nutrition': 'nutrition sciences',
+    'midwife': 'nursing',
+    'midwifery': 'nursing',
 
     # business
     'actuary': 'actuarial science',
+    'actuarial': 'actuarial science',
+    'actuarial studies': 'actuarial science',
     'business management': 'business management and administration',
     'operations logistics': 'operations logistics and e-commerce',
     'e-commerce': 'operations logistics and e-commerce',
     'marketing': 'marketing and marketing research',
     'human resources': 'human resources and personnel management',
     'human resource management': 'human resources and personnel management',
+    'human resources management': 'human resources and personnel management',
+    'human resource development': 'human resources and personnel management',
+    'human resources development': 'human resources and personnel management',
     'personnel management': 'human resources and personnel management',
     'commerce': 'general business',
     'administration': 'business management and administration',
@@ -192,6 +215,7 @@ college_major_mapping_dict = {
     'mba': 'business management and administration',
     'management': 'business management and administration',
     'economy': 'economics',
+    'hotel management': 'hospitality management',
     
     # communications
     'communication': 'communications',
@@ -202,6 +226,7 @@ college_major_mapping_dict = {
     'media studies': 'mass media',
 
     # computers & math
+    'computer': 'computer and information systems',
     'information technology': 'computer and information systems',
     'information systems': 'computer and information systems',
     'statistics': 'statistics and decision science',
@@ -217,10 +242,17 @@ college_major_mapping_dict = {
     'educational administration': 'educational administration and supervision',
     'higher education': 'secondary teacher education',
     'teacher': 'education',
+    'teaching': 'education',
     'special education': 'special needs education',
 
     # engineering
     'biomedical science': 'biomedical engineering',
+    'biotech': 'biological engineering',
+    'biotech engineering': 'biological engineering',
+    'biotechnology': 'biological engineering',
+    'electronics': 'electrical engineering',
+    'architectural studies': 'architecture',
+    'architect': 'architecture',
 
     # agriculture
     'agriculture': 'general agriculture',
@@ -236,6 +268,7 @@ college_major_mapping_dict = {
 
     # law
     'law': 'law & public policy',
+    'international law': 'law & public policy',
     'lawyer': 'law & public policy',
     'legal': 'law & public policy',
     'legal studies': 'law & public policy',
@@ -251,6 +284,7 @@ college_major_mapping_dict = {
     'political science': 'political science and government',
     'politics': 'political science and government',
     'government': 'political science and government',
+    'sociological': 'sociology',
 
     # industrial arts
     'family science':'family and consumer sciences',
