@@ -37,9 +37,12 @@ riasec_types = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprisin
 df = df[filtered_columns].rename(columns={'R':riasec_types[0], 'I':riasec_types[1], 'A':riasec_types[2], 'S':riasec_types[3], 'E':riasec_types[4], 'C':riasec_types[5]})
 
 common_college_major_abbreviations_map = {
-    'art': 'arts',
+    'ba': 'arts', # bachelor of arts
+    'mba': 'business',
+    # TODO get some other degree titles here
+    'art': 'arts', # stemming would fix this, probably don't need it here
     'sci': 'science',
-    'sciences': 'science',
+    'sciences': 'science', # stemming would fix this, probably don't need it here
     'math': 'mathematics',
     'maths': 'mathematics',
     'mathematic': 'mathematics',
@@ -55,11 +58,11 @@ common_college_major_abbreviations_map = {
     'pyschology': 'psychology', # common mis-spelling # could probably get rid of with fuzzy wuzzy?
     'archaeology' : 'archeology', # common mis-spelling # could probably get rid of with fuzzy wuzzy?
     'tech': 'technology',
-    'technologies': 'technology',
+    'technologies': 'technology', # stemming would fix this, probably don't need it here
     'info': 'information',
     'it': 'information technology',
     'eng': 'engineering',
-    'engineer': 'engineering',
+    'engineer': 'engineering', # stemming would fix this, probably don't need it here
     'admin': 'administration',
     'ag': 'agriculture',
     'agri': 'agriculture',
@@ -76,14 +79,15 @@ common_college_major_abbreviations_map = {
     'telecomm': 'telecommunications',
     'hr': 'human resources',
     'hrm': 'human resource management',
-    'nurse': 'nursing',
-    'communication': 'communications',
+    'nurse': 'nursing', # stemming would fix this, probably don't need it here
+    'communication': 'communications', # stemming would fix this, probably don't need it here, or fuzzy wuzzy
     'pr': 'public relations',
-    'networking': 'networks',
+    'networking': 'networks', # stemming would fix this, probably don't need it here
     'teacher': 'education',
     'teaching': 'education',
-    'counselor': 'counseling',
+    'counselor': 'counseling', # stemming would fix this, probably don't need it here
     'theatre': 'theater', # american spelling # could probably get rid of with fuzzy wuzzy?
+    'premed': 'medical preparatory programs'
 }
 
 for abbreviation, expaned_college_major in common_college_major_abbreviations_map.items():
@@ -111,7 +115,7 @@ dirty_df = df[~is_defined_college_major].copy()
 # the values in this dict need to be in college_majors
 college_major_mapping_dict = {
     # arts
-    'ba': 'arts', # bachelor of arts
+    
     'drama': 'drama and theater arts',
     'drama arts': 'drama and theater arts',
     'theater arts': 'drama and theater arts',
