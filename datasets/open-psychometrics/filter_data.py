@@ -65,7 +65,7 @@ def preprocess_text(text, common_college_major_abbreviations_and_acronyms_map):
 
 
 try:
-    df = pd.read_csv('raw_riasec_college_majors.tsv', sep='\t', low_memory=False)
+    df = pd.read_csv('test_raw_riasec_college_majors.tsv', sep='\t', low_memory=False)
 except Exception as e:
     print(f'An error occurred while reading the CSV file: {e}')
 
@@ -82,38 +82,38 @@ common_college_major_abbreviations_and_acronyms_map = {
     'cpa': 'accounting',
     'ba': 'arts',
     'ma': 'arts',
+    'aa': 'arts',
+    'bfa': 'fine arts',
+    'mfa': 'fine arts',
     'bs': 'science',
     'ms': 'science',
     'bsc': 'science',
     'msc': 'science',
+    'as': 'science',
+    'sci': 'science',
+    'mlis': 'library science',
+    'aas': 'applied science',
+    'math': 'mathematics',
+    'maths': 'mathematics',
+    'mathematic': 'mathematics',
+    'cs': 'computer science',
     'bba': 'business',
     'mba': 'business',
-    'bed': 'education',
-    'beng': 'engineering',
     'bcom': 'business',
     'bcomm': 'business',
-    'bfa': 'fine arts',
-    'mfa': 'fine arts',
+    'bed': 'education',
+    'beng': 'engineering',
+    'ee': 'electrical engineering',
+    'eee': 'electrical engineering',
     'llb': 'law',
     'jd': 'law',
     'bsw': 'social work',
     'mpa': 'public administration',
     'mph': 'public health',
     'md': 'medicine',
-    'ee': 'electrical engineering',
-    'eee': 'electrical engineering',
     'dnp': 'nursing',
     'aud': 'audiology',
     'msw': 'social work',
-    'mlis': 'library science',
-    'aas': 'applied science',
-    'aa': 'arts',
-    'as': 'science',
-    'sci': 'science',
-    'math': 'mathematics',
-    'maths': 'mathematics',
-    'mathematic': 'mathematics',
-    'cs': 'computer science',
     'comp': 'computer',
     'econ': 'economics',
     'lit': 'literature',
@@ -154,37 +154,46 @@ df = df[dirty_college_major_filter].copy()
 non_empty_major_processed_filter = ~(df['major_processed'].fillna('').eq(''))
 df = df[non_empty_major_processed_filter].copy()
 
-filtered_columns = []
-
+# some RIASEC questions have 0 as an answer
+# this shouldn't be possible, should be 1=dislike, 3=neutral, 5=like
+NUMBER_OF_QUESTIONS_PER_TAXONOMY = 8
 holland_code_prefixes = ['R', 'I', 'A', 'S', 'E', 'C']
+for prefix in holland_code_prefixes:
+    for i in range(1, NUMBER_OF_QUESTIONS_PER_TAXONOMY+1):
+        column = prefix + str(i)
+        df[column] = df[column].replace(0, 1)
+
+filtered_columns = []
+MAX_QUESTION_VALUE = 5
 for prefix in holland_code_prefixes[::-1]:
     score_cols = [col for col in df.columns if col.startswith(prefix) and col[1:].isdigit()]
     
-    # TODO negative scores???
     if score_cols:
-        df[prefix] = (df[score_cols].mean(axis=1) - 1) / 4  # normalize mean between 0.0 and 1.0
+        df[prefix] = (df[score_cols].mean(axis=1) - 1) / (MAX_QUESTION_VALUE - 1)  # normalize between 0.0 and 1.0
         filtered_columns.insert(0, prefix)
 
 filtered_columns.insert(0, 'major_processed')
 filtered_columns.insert(1, 'major')
 riasec_types = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprising', 'Conventional']
-df = df[filtered_columns].rename(columns={'R':riasec_types[0], 'I':riasec_types[1], 'A':riasec_types[2], 'S':riasec_types[3], 'E':riasec_types[4], 'C':riasec_types[5]})
+df = df[filtered_columns].rename(columns={'R':riasec_types[0], 'I':riasec_types[1], 'A':riasec_types[2], 'S':riasec_types[3], 'E':riasec_types[4], 'C':riasec_types[5], 'major':'major_original'})
 
 non_empty_major_processed_filter = ~(df['major_processed'].fillna('').eq(''))
 df = df[non_empty_major_processed_filter].copy()
 
-try:
-    college_majors_df = pd.read_csv("filtered_college_majors_2012_usa.tsv", sep='\t', low_memory=False)
-except Exception as e:
-    print(f'An error occurred while reading the CSV file: {e}')
+df.to_csv("test.tsv", sep='\t', index=False)
 
-college_majors_df['College Major'] = college_majors_df['College Major'].apply(preprocess_text, common_college_major_abbreviations_and_acronyms_map=common_college_major_abbreviations_and_acronyms_map)
-college_majors_df['College Major Category'] = college_majors_df['College Major Category'].apply(preprocess_text, common_college_major_abbreviations_and_acronyms_map=common_college_major_abbreviations_and_acronyms_map)
+# try:
+#     college_majors_df = pd.read_csv("filtered_college_majors_2012_usa.tsv", sep='\t', low_memory=False)
+# except Exception as e:
+#     print(f'An error occurred while reading the CSV file: {e}')
 
-college_majors_and_college_major_categories = set(
-    college_majors_df["College Major Category"].unique().tolist() +
-    college_majors_df["College Major"].unique().tolist()
-)
+# college_majors_df['College Major'] = college_majors_df['College Major'].apply(preprocess_text, common_college_major_abbreviations_and_acronyms_map=common_college_major_abbreviations_and_acronyms_map)
+# college_majors_df['College Major Category'] = college_majors_df['College Major Category'].apply(preprocess_text, common_college_major_abbreviations_and_acronyms_map=common_college_major_abbreviations_and_acronyms_map)
+
+# college_majors_and_college_major_categories = set(
+#     college_majors_df["College Major Category"].unique().tolist() +
+#     college_majors_df["College Major"].unique().tolist()
+# )
 
 # is_defined_college_major = df['major'].isin(college_majors_and_college_major_categories)
 
