@@ -1,4 +1,4 @@
-College Major	College Major Category
+college_major	college_major_category
 general agriculture	agriculture & natural resources
 agriculture production	agriculture & natural resources
 agriculture management	agriculture & natural resources
@@ -175,7 +175,8 @@ culinary arts	industrial arts & consumer services
 family sciences	industrial arts & consumer services
 consumer sciences	industrial arts & consumer services
 military technologies	industrial arts & consumer services
-physical fitness parks recreation	industrial arts & consumer services
+physical fitness parks	industrial arts & consumer services
+recreation	industrial arts & consumer services
 leisure	industrial arts & consumer services
 construction services	industrial arts & consumer services
 electrical technologies	industrial arts & consumer services
@@ -189,7 +190,7 @@ transportation sciences	industrial arts & consumer services
 interdisciplinary studies	interdisciplinary
 multidisciplinary studies	interdisciplinary
 court reporting	law & public policy
-pre-law	law & public policy
+law	law & public policy
 legal studies	law & public policy
 criminal justice	law & public policy
 fire protection	law & public policy
