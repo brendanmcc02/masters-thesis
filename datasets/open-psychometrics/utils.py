@@ -1,7 +1,9 @@
 import re
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
+from nltk.stem.snowball import SnowballStemmer
+
+area_ethnicities = ["american studies", "asian studies", "african studies", "african american studies", "european studies", "latin american studies"]
 
 def get_stop_words():
     stop_words = set(stopwords.words('english'))
@@ -41,19 +43,29 @@ def get_stop_words():
     stop_words.add("academic")
     stop_words.add("academics")
     stop_words.add("general")
+    stop_words.add("north")
+    stop_words.add("south")
+    stop_words.add("east")
+    stop_words.add("west")
+    stop_words.add("western")
+    stop_words.add("southeast")
+    stop_words.add("american")
+    stop_words.add("asian")
+    stop_words.add("african")
+    stop_words.add("european")
+    stop_words.add("focus")
 
     return stop_words
 
 stop_words = get_stop_words()
-porter_stemmer = PorterStemmer()
+stemmer = SnowballStemmer("english")  # better results than porter stemmer # e.g. 
 
 def preprocess_text(text):
     text = text.lower()
     text = re.sub(r'[\.\?=!£#`¬]', '', text) # remove numbers and symbols
     text = re.sub(r'\d+', '', text) # remove numbers
 
-    if text == "general" or "general studies" in text:
-        text = "multidisciplinary"
+    text = substitute_edge_cases(text)
 
     for abbreviation, expaned_college_major in common_college_major_abbreviations_and_acronyms_map.items():
         pattern = r'\b' + re.escape(abbreviation) + r'\b'
@@ -65,11 +77,24 @@ def preprocess_text(text):
     cleaned_tokens = []
     for word in tokens:
         if word not in stop_words:
-            stemmed_word = porter_stemmer.stem(word)
+            stemmed_word = stemmer.stem(word)
             cleaned_tokens.append(stemmed_word)
 
     return ' '.join(cleaned_tokens)
 
+
+def substitute_edge_cases(text):
+    if text == "general" or text == "general studies":
+        return "multidisciplinary"
+    
+    if text == "civil" or text == "aerospace":
+        return text + " engineering"
+    
+    for area_ethnicity in area_ethnicities:
+        if text == area_ethnicity:
+            return "area ethnic studies"
+
+    return text
 
 common_college_major_abbreviations_and_acronyms_map = {
     'cpa': 'accounting',
@@ -139,6 +164,17 @@ common_college_major_abbreviations_and_acronyms_map = {
     'pr': 'public relations',
     'premed': 'medical preparatory programs',
     '3rd': 'third',
+    'gen': 'general',
+    'french': 'foreign language',
+    'german': 'foreign language',
+    'italian': 'foreign language',
+    'spanish': 'foreign language',
+    'korean': 'foreign language',
+    'chinese': 'foreign language',
+    'japanese': 'foreign language',
+    'russian': 'foreign language',
+    'portuguese': 'foreign language',
+    'latin': 'foreign language',
 }
 
 

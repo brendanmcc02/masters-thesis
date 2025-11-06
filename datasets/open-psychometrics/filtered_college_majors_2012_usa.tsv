@@ -3,6 +3,8 @@ general agriculture	agriculture & natural resources
 agriculture production	agriculture & natural resources
 agriculture management	agriculture & natural resources
 agricultural economics	agriculture & natural resources
+agricultural science	agriculture & natural resources
+agricultural engineering	agriculture & natural resources
 animal sciences	agriculture & natural resources
 food science	agriculture & natural resources
 plant science	agriculture & natural resources
@@ -38,6 +40,7 @@ neuroscience	biology & life science
 miscellaneous biology	biology & life science
 cognitive science	biology & life science
 biopsychology	biology & life science
+administration	business
 general business	business
 accounting	business
 actuarial science	business
@@ -81,6 +84,7 @@ educational administration	education
 educational supervision	education
 school student counseling	education
 elementary education	education
+adult education	education
 mathematics teacher education	education
 physical education teaching	education
 health education teaching	education
@@ -100,6 +104,7 @@ library science	education
 architecture	engineering
 general engineering	engineering
 aerospace engineering	engineering
+aeronautical engineering	engineering
 biological engineering	engineering
 architectural engineering	engineering
 biomedical engineering	engineering
