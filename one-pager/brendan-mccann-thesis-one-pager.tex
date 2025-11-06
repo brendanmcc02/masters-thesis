@@ -1,0 +1,89 @@
+\documentclass{article}  % good style
+\usepackage[a4paper]{geometry}  % wider margin
+\usepackage{graphicx}  % for images
+\usepackage[T1]{fontenc}
+\usepackage{float}  % used for image positioning, very handy.
+\usepackage{gensymb} % has the degree symbol
+\usepackage{amsmath} % math
+\usepackage{listings} % code
+\usepackage{hyperref} % hyperlinks; \href{link_here}{label_here} -> opposite to md
+
+\begin{document}
+	
+	\begin{center}
+		\begin{Large}
+			Brendan McCann | Masters Thesis Two-Pager
+		\end{Large}
+	\end{center}
+	
+    \subsection*{Research question \& subsequent hypothesis}
+
+    The provisional title for my thesis is: \textbf{\emph{What Course Should I study?} Investigating the application of a Recommender System to assist in college course counselling.}
+    The first research question to investigate is: \emph{How can computational methods (e.g. AI) be used to assist in the Guidance Counselling (GC) process?}
+    My hypothesis is that a Recommender System (RS) can be leveraged to suggest strong-fit college courses to students, 
+    which would help their college course research.
+    It is very important to note that this RS would not replace the role of GC's, nor will it replace the college course research process that every student must undertake.
+    Rather, the RS would \textbf{augment} the college course research process.
+    Also, the recommendations should \textbf{not be seen as conclusive or final} - they should simply be seen as \textbf{suggestions} that act as 
+    \textbf{starting points} for the student's college course research process.
+
+    \subsection*{Methodology \& current challenges}
+
+    One challenge I am currently investigating is:
+    \emph{What data do we gather from the student in order to make informed and effective course recommendations?}
+    Both GC's I talked to mentioned that a lot of information can be learned about the student when you ask what LC subjects they like/dislike and why.
+    This seemed promising to me, and I will likely integrate this into our RS.
+
+    I am considering integrating a vocational interest quiz, likely the \href{https://openpsychometrics.org/tests/RIASEC/}{Holland Codes Quiz}. 
+    However, one of the GC's I talked to expressed concerns that Holland codes provide narrow snapshots of the students and can be very limiting.
+    I do believe her concerns are valid, but the goal of this RS is not to provide perfect-fit college courses, 
+    it is to provide starting points for the student.
+    It is also worth mentioning that John Holland's theories are ubiquitous in GC.
+    So, I would still lean towards utilising Holland Codes in my RS.\\
+    
+    The second challenge I am currently investigating is: \emph{Do I utilise a traditional-style RS with collaborative/content-based filtering, or 
+    an LLM-based RS?} The advantage of a traditional-style RS lies in its simplicity - it will be easy to decipher why a certain recommendation was made,
+    which is important for scrutability, model transparency and user trust. 
+    Although, this simplicity is also its biggest disadvantage - the questions asked to the student to gather data would have to be close-ended (\emph{e.g. Do you like Physics, yes or no?}), 
+    which can be at risk for over-simplifying the GC process.
+
+    With LLM's, the data-gathering process can be in the style of open-ended questions, for example: \emph{Tell me why you like or dislike Physics?}
+    The ability of LLM's to understand natural language lends itself well to the GC process, because GC is a very human-centered process, 
+    often in the form of conversations. However, my main concern with an LLM-based RS is a lack of control. 
+    These are incredibly complex systems that are black-boxes by nature, and I don't like the idea of off-handing all the algorithmic complexity
+    to an LLM. 
+    To be really frank, it feels a bit lazy, and I would like to be more ambitious in my implementation.\\
+
+    Perhaps a hybrid RS can be used - after all, that is what Netflix is doing today. 
+    A non-LLM-based RS can trim down the list of potential recommendations to a smaller subset (called candidate generation),
+    and then this smaller subset is fed to an LLM-based RS which can make sophisticated recommendations beyond the capabilities of 
+    a traditional RS. This is something I would like to investigate further.
+
+    \newpage
+
+    \subsection*{Evaluation}
+
+    The one audience I wish to evaluate my RS with is definitely students. 
+    As mentioned previously, I would like my RS to provide starting points to the student, not conclusive recommendations.
+    With this in mind, I would like my RS to give \textbf{diverse} recs, ensuring a broad range of course areas suggested.
+    The RS should also aid the students course research process by providing them with courses they may not have thought about 
+    otherwise. In other words, the RS should provide the student with \textbf{novel} and \textbf{serendipitous} recs.
+    Diversity, novelty and serendipity are well-known features of an effective RS, and there are established methods of evaluating these 
+    features in an RS. For example, they are outlined in Chapter 7 of Recommender Systems - The Textbook by Charu Aggarwal.\\
+
+    Another audience I wish to evaluate my RS with is Guidance Counsellors. 
+    I have not given a lot of thought as to how I would evaluate my RS with GC's, but off the top of my head,
+    we could provide the GC with a sample student's Holland Code scores (RIASEC) and their liked/disliked LC subjects. 
+    We can then ask them to provide a list of courses they would suggest to this student's profile, and then ask the student themself
+    to compare the GC's results with my RS' suggestions.
+
+    In terms of benchmarks, I believe a good baseline is to feed the information gathered about the student into an LLM model, such as ChatGPT,
+    and then the student can compare the recommendations of:
+
+    \begin{enumerate}
+        \item A real GC
+        \item My RS
+        \item An LLM like ChatGPT
+    \end{enumerate}
+	
+\end{document}
