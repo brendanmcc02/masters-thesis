@@ -5,7 +5,9 @@ print(preprocess_text("I.T/computing&networking and physics"))
 print(preprocess_text("computer science"))
 
 
-
+# comput scienc
+#
+# computer science
 
 # I.T/computing&networking and physics
 # inform technolog comput network physic
@@ -13,3 +15,6 @@ print(preprocess_text("computer science"))
 # information technology
 # computer networks
 # physics
+
+# tokenize -> try every substring (biggest first)
+# 
