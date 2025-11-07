@@ -1,14 +1,15 @@
 import fuzzywuzzy
 from utils import *
 
-print(preprocess_text("`physics`"))
-print(preprocess_text("`psychology`"))
+print(preprocess_text("I.T/computing&networking and physics"))
+print(preprocess_text("computer science"))
 
 
-# if we add to stop words:
 
-# what we want:
-# [american] studies -> area ethnic studies
-# [american] history -> history
-# [american] civilization -> civilization
-# etc.
+
+# I.T/computing&networking and physics
+# inform technolog comput network physic
+
+# information technology
+# computer networks
+# physics

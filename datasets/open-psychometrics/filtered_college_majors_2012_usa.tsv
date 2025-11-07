@@ -1,16 +1,15 @@
 college_major	college_major_category
-general agriculture	agriculture & natural resources
 agriculture production	agriculture & natural resources
 agriculture management	agriculture & natural resources
 agricultural economics	agriculture & natural resources
 agricultural science	agriculture & natural resources
 agricultural engineering	agriculture & natural resources
+agriculture	agriculture & natural resources
 animal sciences	agriculture & natural resources
 food science	agriculture & natural resources
 plant science	agriculture & natural resources
 agronomy	agriculture & natural resources
 soil science	agriculture & natural resources
-miscellaneous agriculture	agriculture & natural resources
 forestry	agriculture & natural resources
 natural resources management	agriculture & natural resources
 fine arts	arts
@@ -24,9 +23,9 @@ graphic design	arts
 film video arts	arts
 photographic	arts
 studio arts	arts
-miscellaneous fine arts	arts
 environmental science	biology & life science
 biology	biology & life science
+life science	biology & life science
 biochemical sciences	biology & life science
 botany	biology & life science
 molecular biology	biology & life science
@@ -37,18 +36,15 @@ pharmacology	biology & life science
 physiology	biology & life science
 zoology	biology & life science
 neuroscience	biology & life science
-miscellaneous biology	biology & life science
 cognitive science	biology & life science
 biopsychology	biology & life science
 administration	business
-general business	business
 accounting	business
 actuarial science	business
 business management	business
 business administration	business
 operations logistics	business
 e-commerce	business
-business economics	business
 marketing	business
 marketing research	business
 finance	business
@@ -57,7 +53,6 @@ personnel management	business
 international business	business
 hospitality management	business
 management information systems 	business
-miscellaneous business	business
 medical administration	business
 communications	communications & journalism
 journalism	communications & journalism
@@ -79,7 +74,6 @@ mathematics	computers & mathematics
 applied mathematics	computers & mathematics
 statistics	computers & mathematics
 decision science	computers & mathematics
-general education	education
 educational administration	education
 educational supervision	education
 school student counseling	education
@@ -99,10 +93,8 @@ language education	education
 drama education	education
 music education	education
 art education	education
-miscellaneous education	education
 library science	education
 architecture	engineering
-general engineering	engineering
 aerospace engineering	engineering
 aeronautical engineering	engineering
 biological engineering	engineering
@@ -127,18 +119,16 @@ naval architecture	engineering
 marine engineering	engineering
 nuclear engineering	engineering
 petroleum engineering	engineering
-miscellaneous engineering	engineering
 engineering technologies	engineering
 engineering management	engineering
 industrial management	engineering
 electrical engineering technology	engineering
 industrial production technologies	engineering
 mechanical engineering related technologies	engineering
-miscellaneous engineering technologies	engineering
 materials science	engineering
 nutrition sciences	health
-general health services	health
-general medical services	health
+health services	health
+medical services	health
 communication disorders sciences	health
 communication disorders services	health
 medical administrative services	health
@@ -152,7 +142,7 @@ pharmaceutical sciences	health
 treatment therapy professions	health
 community health	health
 public health	health
-miscellaneous health medical professions	health
+health medical professions	health
 area ethnic studies	humanities & liberal arts
 civilization studies	humanities & liberal arts
 comparative language	humanities & liberal arts
@@ -175,6 +165,8 @@ archeology	humanities & liberal arts
 art history	humanities & liberal arts
 art criticism	humanities & liberal arts
 history	humanities & liberal arts
+industrial arts	industrial arts & consumer services
+consumer services	industrial arts & consumer services
 cosmetology services	industrial arts & consumer services
 culinary arts	industrial arts & consumer services
 family sciences	industrial arts & consumer services
@@ -213,11 +205,11 @@ geosciences	physical sciences
 oceanography	physical sciences
 physics	physical sciences
 multidisciplinary science	physical sciences
-general science	physical sciences
 nuclear technologies	physical sciences
 industrial technologies	physical sciences
 radiology technologies	physical sciences
 biological technologies	physical sciences
+science	physical sciences
 psychology	psychology & social work
 educational psychology	psychology & social work
 clinical psychology	psychology & social work
@@ -225,12 +217,10 @@ counseling psychology	psychology & social work
 industrial psychology	psychology & social work
 organizational psychology	psychology & social work
 social psychology	psychology & social work
-miscellaneous psychology	psychology & social work
 human services	psychology & social work
 community organization	psychology & social work
 social work	psychology & social work
 interdisciplinary social sciences	social science
-general social sciences	social science
 economics	social science
 criminology	social science
 geography	social science
@@ -238,4 +228,3 @@ international relations	social science
 political science	social science
 government	social science
 sociology	social science
-miscellaneous social sciences	social science

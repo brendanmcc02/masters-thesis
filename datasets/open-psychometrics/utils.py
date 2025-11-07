@@ -3,7 +3,7 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 
-area_ethnicities = ["american studies", "asian studies", "african studies", "african american studies", "european studies", "latin american studies"]
+# area_ethnicities = ["american studies", "asian studies", "african studies", "african american studies", "european studies", "latin american studies"]
 
 def get_stop_words():
     stop_words = set(stopwords.words('english'))
@@ -43,22 +43,27 @@ def get_stop_words():
     stop_words.add("academic")
     stop_words.add("academics")
     stop_words.add("general")
-    stop_words.add("north")
-    stop_words.add("south")
-    stop_words.add("east")
-    stop_words.add("west")
-    stop_words.add("western")
-    stop_words.add("southeast")
-    stop_words.add("american")
-    stop_words.add("asian")
-    stop_words.add("african")
-    stop_words.add("european")
     stop_words.add("focus")
+    stop_words.add("misc")
+    stop_words.add("miscellaneous")
+    stop_words.add("st") # 1st -> numbers are removed before stop words
+    stop_words.add("nd") # 2nd -> numbers are removed before stop words
+    stop_words.add("rd") # 3rd -> numbers are removed before stop words
+    # stop_words.add("north")
+    # stop_words.add("south")
+    # stop_words.add("east")
+    # stop_words.add("west")
+    # stop_words.add("western")
+    # stop_words.add("southeast")
+    # stop_words.add("american")
+    # stop_words.add("asian")
+    # stop_words.add("african")
+    # stop_words.add("european")
 
     return stop_words
 
 stop_words = get_stop_words()
-stemmer = SnowballStemmer("english")  # better results than porter stemmer # e.g. 
+stemmer = SnowballStemmer("english")  # better results than porter stemmer
 
 def preprocess_text(text):
     text = text.lower()
@@ -84,15 +89,16 @@ def preprocess_text(text):
 
 
 def substitute_edge_cases(text):
+    # TODO partial replacement, not exact match
     if text == "general" or text == "general studies":
         return "multidisciplinary"
     
     if text == "civil" or text == "aerospace":
         return text + " engineering"
     
-    for area_ethnicity in area_ethnicities:
-        if text == area_ethnicity:
-            return "area ethnic studies"
+    # for area_ethnicity in area_ethnicities:
+    #     if text == area_ethnicity:
+    #         return "area ethnic studies"
 
     return text
 
@@ -163,7 +169,6 @@ common_college_major_abbreviations_and_acronyms_map = {
     'hrm': 'human resource development',
     'pr': 'public relations',
     'premed': 'medical preparatory programs',
-    '3rd': 'third',
     'gen': 'general',
     'french': 'foreign language',
     'german': 'foreign language',
