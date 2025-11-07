@@ -3,7 +3,6 @@
 
 import pandas as pd
 from utils import *
-import fuzzywuzzy
 
 try:
     df = pd.read_csv('raw_riasec_college_majors.tsv', sep='\t', low_memory=False)
@@ -89,6 +88,19 @@ major_to_major_category_dict = college_majors_and_categories_df.set_index('colle
 
 clean_df_to_append['major_category'] = clean_df_to_append['major_preprocessed'].map(major_to_major_category_dict).fillna(clean_df_to_append['major_category'])
 clean_df = pd.concat([clean_df, clean_df_to_append], ignore_index=True)
+
+# TODO
+print("fuzzy match for categories")
+dirty_df['major_category'] = dirty_df['major_preprocessed'].apply(fuzzy_match, listOfElements=unique_college_major_categories)
+
+# TODO
+print("fuzzy match for majors")
+
+# TODO
+print("substring match for majors")
+
+# TODO
+print("substring match for categories")
 
 clean_df['major_category'] = clean_df['major_category'].map(reverse_preprocessed_college_major_category_dict).fillna(clean_df['major_category'])
 clean_df = clean_df.sort_values(by=['major_category'])
