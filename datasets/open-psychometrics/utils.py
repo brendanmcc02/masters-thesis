@@ -104,8 +104,8 @@ def preprocess_text(text):
     return ' '.join(cleaned_tokens)
 
 
-FUZZY_MATCH_THRESHOLD = 80
-def fuzzy_match(text, college_majors_and_categories):
+FUZZY_MATCH_THRESHOLD = 85
+def fuzzy_match(text, college_majors_and_categories, major_to_major_category_dict):
     maxScore = 0
     maxText = ""
 
@@ -114,7 +114,10 @@ def fuzzy_match(text, college_majors_and_categories):
 
         if score >= FUZZY_MATCH_THRESHOLD and score > maxScore:
             maxScore = score
-            maxText = collegeMajorOrCategory
+            if collegeMajorOrCategory in major_to_major_category_dict:
+                maxText = major_to_major_category_dict[collegeMajorOrCategory]
+            else:
+                maxText = collegeMajorOrCategory
 
     return maxText
 

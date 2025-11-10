@@ -8,4 +8,4 @@ from utils import fuzzy_match
 majors = ["compt scienc", "infomtion technolog", "physics"]
 # print(str(fuzzy_match("computer scienc", majors)))
 
-print(str(fuzz.ratio("computer science", "compt scienc")))
+print(str(fuzz.ratio("socilsg", "socilog")))

@@ -9,7 +9,13 @@ try:
 except Exception as e:
     print(f'An error occurred while reading the CSV file: {e}')
 
-undergrad_or_postgrad_filter = (df['education'] == 3) | (df['education'] == 4)
+# education level of 2 = high school educated,
+# technically shouldn't include this, 
+# but it increases the final dataset size by ~30k
+# either:
+# 1. the person didn't go to college, but in the field they put down their current profession
+# 2. the person was college-educated but put down high-school educated (unlikely but possible)
+undergrad_or_postgrad_filter = (df['education'] == 2) |(df['education'] == 3) | (df['education'] == 4)
 df = df[undergrad_or_postgrad_filter].copy()
 
 non_empty_major_filter = ~(df['major'].fillna('').eq(''))
@@ -34,7 +40,6 @@ for prefix in holland_code_prefixes:
         column = prefix + str(i)
         df[column] = df[column].replace(0, 1)
 
-print("calculating means of RIASEC")
 filtered_columns = []
 MAX_QUESTION_VALUE = 5
 for prefix in holland_code_prefixes[::-1]:
@@ -95,7 +100,7 @@ clean_df = pd.concat([clean_df, clean_df_to_append], ignore_index=True)
 dirty_df = dirty_df[~has_substring_match_mask].copy()
 
 print("fuzzy match for majors and major categories")
-dirty_df['major_category'] = dirty_df['major_preprocessed'].apply(fuzzy_match, college_majors_and_categories=list(college_majors) + list(college_major_categories))
+dirty_df['major_category'] = dirty_df['major_preprocessed'].apply(fuzzy_match, college_majors_and_categories=list(college_majors) + list(college_major_categories), major_to_major_category_dict=major_to_major_category_dict)
 
 has_fuzzy_match_mask = dirty_df['major_category'].str.len() > 0
 
