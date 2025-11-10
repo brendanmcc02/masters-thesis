@@ -1,10 +1,10 @@
-import fuzzywuzzy as fuzz
+from fuzzywuzzy import fuzz
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 import re
 
-FUZZY_MATCH_THRESHOLD = 90
+FUZZY_MATCH_THRESHOLD = 80
 
 # area_ethnicities = ["american studies", "asian studies", "african studies", "african american studies", "european studies", "latin american studies"]
 
@@ -123,7 +123,6 @@ def fuzzy_match(text, listOfElements):
     return text
 
 
-
 college_major_abbreviations_acronyms_and_substitutions_map = {
     'cpa': 'accounting',
     'ba': 'arts',
@@ -203,3 +202,20 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'portuguese': 'foreign language',
     'latin': 'foreign language',
 }
+
+def get_substring_matches(column_value, college_majors, major_to_major_category_dict, college_major_categories):
+    substring_major_categories = set()
+    for major in college_majors:
+        category = major_to_major_category_dict[major]
+
+        if category not in substring_major_categories and major in column_value:
+            substring_major_categories.add(category)
+
+    for category in college_major_categories:
+        if category not in substring_major_categories and category in column_value:
+            substring_major_categories.add(category)
+
+    if len(substring_major_categories) > 0:
+        return list(substring_major_categories)
+    
+    return ""

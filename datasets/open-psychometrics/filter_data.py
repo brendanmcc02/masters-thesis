@@ -20,7 +20,7 @@ df = df[~df['major'].str.contains(HTML_ENTITY_REGEX, regex=True)].copy()
 
 print("text preprocessing on riasec dataset")
 df['major_preprocessed'] = df['major'].apply(preprocess_text)
-df['major_category'] = df['major_preprocessed']
+df['major_category'] = ''
 
 non_empty_major_preprocessed_filter = ~(df['major_preprocessed'].fillna('').eq(''))
 df = df[non_empty_major_preprocessed_filter].copy()
@@ -53,25 +53,20 @@ df = df[filtered_columns].rename(columns={'R':riasec_types[0], 'I':riasec_types[
 non_empty_major_preprocessed_filter = ~(df['major_preprocessed'].fillna('').eq(''))
 df = df[non_empty_major_preprocessed_filter].copy()
 
-df = df.sort_values(by=['major_preprocessed'])
-
 try:
     college_majors_and_categories_df = pd.read_csv("filtered_college_majors_2012_usa.tsv", sep='\t', low_memory=False)
 except Exception as e:
     print(f'An error occurred while reading the CSV file: {e}')
 
-unique_college_major_categories = college_majors_and_categories_df["college_major_category"].unique()
-reverse_preprocessed_college_major_category_dict = {}
-for unique_college_major_category in unique_college_major_categories:
-    reverse_preprocessed_college_major_category_dict[preprocess_text(unique_college_major_category)] = unique_college_major_category
-
 print("exact college major category match")
 
 college_majors_and_categories_df['college_major_category'] = college_majors_and_categories_df['college_major_category'].apply(preprocess_text)
+unique_college_major_categories = college_majors_and_categories_df["college_major_category"].unique()
 college_major_categories = set(unique_college_major_categories.tolist())
 is_defined_college_major_category = df['major_preprocessed'].isin(college_major_categories)
 
 clean_df = df[is_defined_college_major_category].copy()
+clean_df['major_category'] = clean_df['major_preprocessed']
 dirty_df = df[~is_defined_college_major_category].copy()
 
 print("exact college major match")
@@ -89,20 +84,29 @@ major_to_major_category_dict = college_majors_and_categories_df.set_index('colle
 clean_df_to_append['major_category'] = clean_df_to_append['major_preprocessed'].map(major_to_major_category_dict).fillna(clean_df_to_append['major_category'])
 clean_df = pd.concat([clean_df, clean_df_to_append], ignore_index=True)
 
-# TODO
-print("fuzzy match for categories")
-dirty_df['major_category'] = dirty_df['major_preprocessed'].apply(fuzzy_match, listOfElements=unique_college_major_categories)
+print("substring match for majors and major categories")
+dirty_df['major_category'] = dirty_df['major_preprocessed'].apply(get_substring_matches, college_majors=college_majors, major_to_major_category_dict=major_to_major_category_dict, college_major_categories=college_major_categories)
+has_substring_match_mask = dirty_df['major_category'].str.len() > 0
+
+clean_df_to_append = dirty_df[has_substring_match_mask].copy()
+clean_df_to_append = clean_df_to_append.explode('major_category', ignore_index=True)
+clean_df = pd.concat([clean_df, clean_df_to_append], ignore_index=True)
+
+dirty_df = dirty_df[~has_substring_match_mask].copy()
 
 # TODO
-print("fuzzy match for majors")
+# print("fuzzy match for majors and major categories")
+# dirty_df['major_category'] = dirty_df['major_preprocessed'].apply(fuzzy_match, listOfElements=unique_college_major_categories)
 
-# TODO
-print("substring match for majors")
 
-# TODO
-print("substring match for categories")
 
+reverse_preprocessed_college_major_category_dict = {}
+for unique_college_major_category in unique_college_major_categories:
+    reverse_preprocessed_college_major_category_dict[preprocess_text(unique_college_major_category)] = unique_college_major_category
+
+# reverse pre-processing for final output
 clean_df['major_category'] = clean_df['major_category'].map(reverse_preprocessed_college_major_category_dict).fillna(clean_df['major_category'])
+
 clean_df = clean_df.sort_values(by=['major_category'])
 clean_df.to_csv("clean_riasec_college_majors.tsv", sep='\t', index=False)
 dirty_df.to_csv("dirty_riasec_college_majors.tsv", sep='\t', index=False)
