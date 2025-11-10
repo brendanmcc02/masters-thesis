@@ -4,8 +4,6 @@ from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 import re
 
-FUZZY_MATCH_THRESHOLD = 80
-
 # area_ethnicities = ["american studies", "asian studies", "african studies", "african american studies", "european studies", "latin american studies"]
 
 def get_stop_words():
@@ -106,21 +104,19 @@ def preprocess_text(text):
     return ' '.join(cleaned_tokens)
 
 
-def fuzzy_match(text, listOfElements):
+FUZZY_MATCH_THRESHOLD = 80
+def fuzzy_match(text, college_majors_and_categories):
     maxScore = 0
     maxText = ""
 
-    for element in listOfElements:
-        score = fuzz.partial_ratio(text, element)
+    for collegeMajorOrCategory in college_majors_and_categories:
+        score = fuzz.ratio(text, collegeMajorOrCategory)
 
-        if score > maxScore:
-            score = maxScore
-            maxText = element
+        if score >= FUZZY_MATCH_THRESHOLD and score > maxScore:
+            maxScore = score
+            maxText = collegeMajorOrCategory
 
-    if maxScore > FUZZY_MATCH_THRESHOLD:
-        return maxText
-    
-    return text
+    return maxText
 
 
 college_major_abbreviations_acronyms_and_substitutions_map = {

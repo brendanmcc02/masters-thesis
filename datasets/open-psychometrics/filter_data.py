@@ -94,11 +94,15 @@ clean_df = pd.concat([clean_df, clean_df_to_append], ignore_index=True)
 
 dirty_df = dirty_df[~has_substring_match_mask].copy()
 
-# TODO
-# print("fuzzy match for majors and major categories")
-# dirty_df['major_category'] = dirty_df['major_preprocessed'].apply(fuzzy_match, listOfElements=unique_college_major_categories)
+print("fuzzy match for majors and major categories")
+dirty_df['major_category'] = dirty_df['major_preprocessed'].apply(fuzzy_match, college_majors_and_categories=list(college_majors) + list(college_major_categories))
 
+has_fuzzy_match_mask = dirty_df['major_category'].str.len() > 0
 
+clean_df_to_append = dirty_df[has_fuzzy_match_mask].copy()
+clean_df = pd.concat([clean_df, clean_df_to_append], ignore_index=True)
+
+dirty_df = dirty_df[~has_fuzzy_match_mask].copy()
 
 reverse_preprocessed_college_major_category_dict = {}
 for unique_college_major_category in unique_college_major_categories:
