@@ -52,7 +52,7 @@ for prefix in holland_code_prefixes[::-1]:
 filtered_columns.insert(0, 'major_category')
 filtered_columns.insert(1, 'major_preprocessed')
 filtered_columns.insert(2, 'major')
-riasec_types = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprising', 'Conventional']
+riasec_types = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
 df = df[filtered_columns].rename(columns={'R':riasec_types[0], 'I':riasec_types[1], 'A':riasec_types[2], 'S':riasec_types[3], 'E':riasec_types[4], 'C':riasec_types[5], 'major':'major_original'})
 
 non_empty_major_preprocessed_filter = ~(df['major_preprocessed'].fillna('').eq(''))
@@ -119,6 +119,10 @@ clean_df['major_category'] = clean_df['major_category'].map(reverse_preprocessed
 
 clean_df = clean_df.sort_values(by=['major_category'])
 clean_df.to_csv("clean_riasec_college_majors.tsv", sep='\t', index=False)
+
+aggregated_major_categories_df = clean_df.groupby('major_category')[riasec_types].mean().round(4).reset_index()
+aggregated_major_categories_df = aggregated_major_categories_df[['major_category']+riasec_types]
+aggregated_major_categories_df.to_csv("clean_aggregated_riasec_college_major_categories.tsv", sep='\t', index=False)
 
 dirty_df = dirty_df.sort_values(by=['major_preprocessed'])
 dirty_df.to_csv("dirty_riasec_college_majors.tsv", sep='\t', index=False)
