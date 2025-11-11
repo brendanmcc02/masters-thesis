@@ -67,16 +67,14 @@ def get_stop_words():
     stop_words.add("choice")
     stop_words.add("yet")
     stop_words.add("sure")
-    # stop_words.add("north")
-    # stop_words.add("south")
-    # stop_words.add("east")
-    # stop_words.add("west")
-    # stop_words.add("western")
-    # stop_words.add("southeast")
-    # stop_words.add("american")
-    # stop_words.add("asian")
-    # stop_words.add("african")
-    # stop_words.add("european")
+    stop_words.add("undeclared")
+    stop_words.add("attend")
+    stop_words.add("not")
+    stop_words.add("applicable")
+    stop_words.add("north")
+    stop_words.add("south")
+    stop_words.add("east")
+    stop_words.add("west")
 
     return stop_words
 
@@ -85,7 +83,7 @@ stemmer = SnowballStemmer("english")  # better results than porter stemmer
 
 def preprocess_text(text):
     text = text.lower()
-    text = re.sub(r'[\.\?=!£#`¬]', '', text) # remove numbers and symbols
+    text = re.sub(r'[\.\?=!£#`¬\*]', '', text) # remove numbers and symbols
     text = re.sub(r'\d+', '', text) # remove numbers
 
     for abbreviation, expaned_college_major in college_major_abbreviations_acronyms_and_substitutions_map.items():
@@ -200,18 +198,15 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'russian': 'foreign language',
     'portuguese': 'foreign language',
     'latin': 'foreign language',
+    'doctor': 'medicine',
 }
 
-def get_substring_matches(column_value, college_majors, major_to_major_category_dict, college_major_categories):
+def get_substring_matches(column_value, college_majors, major_to_major_category_dict):
     substring_major_categories = set()
     for major in college_majors:
         category = major_to_major_category_dict[major]
 
-        if category not in substring_major_categories and major in column_value:
-            substring_major_categories.add(category)
-
-    for category in college_major_categories:
-        if category not in substring_major_categories and category in column_value:
+        if major in column_value:
             substring_major_categories.add(category)
 
     if len(substring_major_categories) > 0:

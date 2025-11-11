@@ -14,15 +14,15 @@ forestry	agriculture & natural resources
 natural resources management	agriculture & natural resources
 natural resources	agriculture & natural resources
 fine arts	arts
-drama arts	arts
-theater arts	arts
+drama	arts
+theater	arts
 music	arts
 visual arts	arts
 performing arts	arts
 commercial art	arts
-graphic design	arts
-film video arts	arts
-photographic	arts
+design	arts
+film studies	arts
+photography	arts
 studio arts	arts
 environmental science	biology & life science
 biology	biology & life science
@@ -128,6 +128,7 @@ industrial production technologies	engineering
 mechanical engineering related technologies	engineering
 materials science	engineering
 medicine	health
+dentistry	health
 nutrition sciences	health
 health services	health
 medical services	health
