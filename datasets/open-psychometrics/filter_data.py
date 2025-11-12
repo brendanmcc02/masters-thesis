@@ -31,22 +31,24 @@ df['major_category'] = ''
 non_empty_major_preprocessed_filter = ~(df['major_preprocessed'].fillna('').eq(''))
 df = df[non_empty_major_preprocessed_filter].copy()
 
-# some RIASEC questions have 0 as an answer
-# this shouldn't be possible, should be 1=dislike, 3=neutral, 5=like
 NUMBER_OF_QUESTIONS_PER_VOCATIONAL_INTEREST = 8
 holland_code_prefixes = ['R', 'I', 'A', 'S', 'E', 'C']
 for prefix in holland_code_prefixes:
     for i in range(1, NUMBER_OF_QUESTIONS_PER_VOCATIONAL_INTEREST+1):
         column = prefix + str(i)
+        # some RIASEC questions have 0 as an answer,
+        # but all values should range from 1=dislike, 3=neutral, 5=like
         df[column] = df[column].replace(0, 1)
+        # adjust the scale from 1-5 to 0-4
+        df[column] -= 1
 
 filtered_columns = []
-MAX_QUESTION_VALUE = 5
+MAX_QUESTION_VALUE = 4
 for prefix in holland_code_prefixes[::-1]:
     score_cols = [col for col in df.columns if col.startswith(prefix) and col[1:].isdigit()]
     
     if score_cols:
-        df[prefix] = (df[score_cols].mean(axis=1) - 1) / (MAX_QUESTION_VALUE - 1)  # normalize
+        df[prefix] = df[score_cols].mean(axis=1) / MAX_QUESTION_VALUE # normalize
         filtered_columns.insert(0, prefix)
 
 filtered_columns.insert(0, 'major_category')
