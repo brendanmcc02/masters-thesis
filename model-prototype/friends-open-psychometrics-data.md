@@ -54,4 +54,6 @@ transportation sciences
 ```tsv
 conor	x	x	x	x	x	x	arts	comp	business	psych	soc	phys	comm	eng	health	ind art	law	educ	bio	libart	agri
 ignis	5	18	22	16	14	8
+oscar	14	22	19	19	15	5
+kihan	16	17	19	20	19	2
 ```
