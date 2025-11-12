@@ -4,10 +4,7 @@
 import pandas as pd
 from utils import *
 
-try:
-    df = pd.read_csv('raw_riasec_college_majors.tsv', sep='\t', low_memory=False)
-except Exception as e:
-    print(f'An error occurred while reading the CSV file: {e}')
+df = pd.read_csv('raw_riasec_college_majors.tsv', sep='\t', low_memory=False)
 
 # education level of 2 = high school educated,
 # technically shouldn't include this, 
@@ -60,10 +57,7 @@ df = df[filtered_columns].rename(columns={'R':riasec_types[0], 'I':riasec_types[
 non_empty_major_preprocessed_filter = ~(df['major_preprocessed'].fillna('').eq(''))
 df = df[non_empty_major_preprocessed_filter].copy()
 
-try:
-    college_majors_and_categories_df = pd.read_csv("filtered_college_majors_2012_usa.tsv", sep='\t', low_memory=False)
-except Exception as e:
-    print(f'An error occurred while reading the CSV file: {e}')
+college_majors_and_categories_df = pd.read_csv("filtered_college_majors_2012_usa.tsv", sep='\t', low_memory=False)
 
 print("exact college major category match")
 

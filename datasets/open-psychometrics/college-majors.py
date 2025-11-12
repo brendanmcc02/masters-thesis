@@ -2,11 +2,7 @@
 # please git checkout to fb61ac1 to find the manually changes!
 import pandas as pd
 
-try:
-    df = pd.read_csv("raw_college_majors_2012_usa.csv", low_memory=False)
-except Exception as e:
-    print(f'An error occurred while reading the CSV file: {e}')
-
+df = pd.read_csv("raw_college_majors_2012_usa.csv", low_memory=False)
 
 df = df.rename(columns={"Major": "College Major", "Major_Category": "College Major Category"})
 

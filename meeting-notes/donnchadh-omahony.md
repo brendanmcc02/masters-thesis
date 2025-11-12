@@ -1,8 +1,3 @@
-# todo!
-* he said he would give me an account to use
-* he said he would also give me the chatbot to use 
-    * or something like this, not 100% sure what he meant
-
 # the website
 * he doesn't do holland codes, he created his own vocational interest quiz
 * tries to replicate what he does in a 1:1 session
@@ -20,8 +15,8 @@ the website will ask:
 * nfq level
 
 # practical use with real guidance counsellors
-* he mentioned that a lot of their work now is counselling as opposed to course counselling
-* this product could help off-load work and give a head-start
+* he mentioned that a lot of their work now is counse*lling as opposed to course counselling
+* **this product could help off-load work and give a head-start**
 * they created a dashboard so real guidance counsellors can use it and see the student's results before they walk into a session
 
 # aptitude tests

@@ -2,11 +2,7 @@ import pandas as pd
 
 
 def filter_data(input_file, output_file):
-    try:
-        input_df = pd.read_csv(input_file, sep="\t")
-    except Exception as e:
-        print(f"An error occurred while reading the CSV file: {e}")
-        return
+    input_df = pd.read_csv(input_file, sep="\t")
     
     output_df = input_df.groupby('RIASEC Element Name')['Basic Interests Element Name'].apply(
         lambda x: ", ".join(x.astype(str))
