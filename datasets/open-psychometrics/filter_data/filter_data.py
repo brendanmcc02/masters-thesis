@@ -28,31 +28,28 @@ df['major_category'] = ''
 non_empty_major_preprocessed_filter = ~(df['major_preprocessed'].fillna('').eq(''))
 df = df[non_empty_major_preprocessed_filter].copy()
 
+filtered_columns = []
 NUMBER_OF_QUESTIONS_PER_VOCATIONAL_INTEREST = 8
 holland_code_prefixes = ['R', 'I', 'A', 'S', 'E', 'C']
 for prefix in holland_code_prefixes:
     for i in range(1, NUMBER_OF_QUESTIONS_PER_VOCATIONAL_INTEREST+1):
         column = prefix + str(i)
+        filtered_columns.append(column)
         # some RIASEC questions have 0 as an answer,
-        # but all values should range from 1=dislike, 3=neutral, 5=like
+        # i'm assuming this should be 1 (dislike), 
+        # but honestly i'n not sure,
+        # maybe it should be put down as 3 (neutral) instead.
+        # the readme doesn't say anything about it.
+        # all values should range from 1=dislike, 3=neutral, 5=like
         df[column] = df[column].replace(0, 1)
         # adjust the scale from 1-5 to 0-4
         df[column] -= 1
-
-filtered_columns = []
-MAX_QUESTION_VALUE = 4
-for prefix in holland_code_prefixes[::-1]:
-    score_cols = [col for col in df.columns if col.startswith(prefix) and col[1:].isdigit()]
-    
-    if score_cols:
-        df[prefix] = df[score_cols].mean(axis=1) / MAX_QUESTION_VALUE # normalize
-        filtered_columns.insert(0, prefix)
 
 filtered_columns.insert(0, 'major_category')
 filtered_columns.insert(1, 'major_preprocessed')
 filtered_columns.insert(2, 'major')
 riasec_types = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
-df = df[filtered_columns].rename(columns={'R':riasec_types[0], 'I':riasec_types[1], 'A':riasec_types[2], 'S':riasec_types[3], 'E':riasec_types[4], 'C':riasec_types[5], 'major':'major_original'}) 
+df = df[filtered_columns].rename(columns={'major':'major_original'}) 
 
 non_empty_major_preprocessed_filter = ~(df['major_preprocessed'].fillna('').eq(''))
 df = df[non_empty_major_preprocessed_filter].copy()
@@ -116,9 +113,9 @@ clean_df['major_category'] = clean_df['major_category'].map(reverse_preprocessed
 clean_df = clean_df.sort_values(by=['major_category'])
 clean_df.to_csv("../clean_riasec_college_majors.tsv", sep='\t', index=False)
 
-aggregated_major_categories_df = clean_df.groupby('major_category')[riasec_types].mean().round(4).reset_index()
-aggregated_major_categories_df = aggregated_major_categories_df[['major_category']+riasec_types]
-aggregated_major_categories_df.to_csv("../clean_aggregated_riasec_college_major_categories.tsv", sep='\t', index=False)
+# aggregated_major_categories_df = clean_df.groupby('major_category')[riasec_types].mean().round(4).reset_index()
+# aggregated_major_categories_df = aggregated_major_categories_df[['major_category']+riasec_types]
+# aggregated_major_categories_df.to_csv("../clean_aggregated_riasec_college_major_categories.tsv", sep='\t', index=False)
 
 dirty_df = dirty_df.sort_values(by=['major_preprocessed'])
 dirty_df.to_csv("dirty_riasec_college_majors.tsv", sep='\t', index=False)
