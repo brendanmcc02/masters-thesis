@@ -58,5 +58,5 @@ oscar	14	22	19	19	15	5
 
 doill	16	21	23	23	24	10	
 cian roche	x	x	x	x	x	x	eng	arts	health	bio	libart
-sj  12  23  28  19  12  5
+
 ```

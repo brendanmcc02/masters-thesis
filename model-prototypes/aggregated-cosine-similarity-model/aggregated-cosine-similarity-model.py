@@ -127,10 +127,10 @@ aggregatedCosineSimilarityModel.train(aggregated_riasec_major_categories_df)
 y_pred = aggregatedCosineSimilarityModel.predict(test_df)
 print("Aggregated Cosine Similarity Model Performance: " + str(evaluate(y_pred, test_df)))
 
-# randomModel = RandomModel()
-# randomModel.train(aggregated_riasec_major_categories_df)
-# random_model_results = []
-# for i in range(5000):
-#     y_pred = randomModel.predict(test_df)
-#     random_model_results.append(evaluate(y_pred, test_df))
-# print("Random RIASEC Model Performance: " + str(round(np.mean(random_model_results), 3)))
+randomModel = RandomModel()
+randomModel.train(aggregated_riasec_major_categories_df)
+random_model_results = []
+for i in range(5000):
+    y_pred = randomModel.predict(test_df)
+    random_model_results.append(evaluate(y_pred, test_df))
+print("Random RIASEC Model Performance: " + str(round(np.mean(random_model_results), 3)))
