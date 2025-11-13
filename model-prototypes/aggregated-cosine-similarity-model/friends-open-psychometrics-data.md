@@ -3,7 +3,7 @@
 ```
 Hello, I'm working on a rough prototype for my thesis and I'm interested in gathering some data to test out my model. If you're not aware, I am working on creating a machine learning model to suggest college courses to second-level students. 
 
-Do you mind taking no more than 5 minutes to rank these college course categories in order of preference? 1 is an area you'd like to study in the most, 15 is the least:
+Could you also choose 5 college course categories from below and list them in order of preference? 1 is an area you'd like to study in the most, 5 is the least:
 
 1. agriculture & natural resources
 2. arts
@@ -26,6 +26,8 @@ With that done, do you mind taking no more than 10 minutes to complete this quiz
 Note: After answering the 48 questions, the test will ask you if you are willing to answer a few more research questions. This is not necessary!
 
 Thanks for this!
+
+hey  sorry copy/paste message lol but i'd really appreciate if you took no more than 10-15 minutes for this, thanks! 🙏
 
 If you're confused about what kinds of courses/areas are `industrial arts & consumer services`, here are some ideas:
 `
@@ -52,8 +54,9 @@ transportation sciences
 # Unused data
 
 ```tsv
-conor	x	x	x	x	x	x	arts	comp	business	psych	soc	phys	comm	eng	health	ind art	law	educ	bio	libart	agri
-ignis	5	18	22	16	14	8
 oscar	14	22	19	19	15	5
-kihan	16	17	19	20	19	2
+
+doill	16	21	23	23	24	10	
+cian roche	x	x	x	x	x	x	eng	arts	health	bio	libart
+sj  12  23  28  19  12  5
 ```

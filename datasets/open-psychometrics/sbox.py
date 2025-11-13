@@ -1,4 +1,2 @@
-from nltk.stem import WordNetLemmatizer as wnl
-
-print(str(wnl().lemmatize("biological")))
-print(str(wnl().lemmatize("biology")))
+import random as rd
+print(str(rd.randint(0,1)))
