@@ -8,6 +8,9 @@ import numpy as np
 import random as rd
 import math
 
+MAX_QUESTION_VALUE = 4
+NUMBER_OF_QUESTIONS = 8
+MAX_CATEGORY_SCORE = MAX_QUESTION_VALUE * NUMBER_OF_QUESTIONS
 NUMBER_OF_RECOMMENDATIONS = 3
 RIASEC_CATEGORIES = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
 
@@ -24,6 +27,7 @@ class AggregatedCosineSimilarityModel:
             self.major_category_vectors[major_categories[i]] = category_vectors[i]
 
     def predict(self, test_df):
+        self.normalize_riasec_columns(test_df)
         return test_df.apply(self.predict_row, axis=1)
 
     def predict_row(self, row):
@@ -47,6 +51,10 @@ class AggregatedCosineSimilarityModel:
             return 0.0
 
         return np.dot(a, b) / (a_magnitude * b_magnitude)
+    
+    def normalize_riasec_columns(self, test_df):
+        for category in RIASEC_CATEGORIES:
+            test_df[category] /= MAX_CATEGORY_SCORE
 
 
 class RandomModel:
@@ -117,12 +125,12 @@ test_df = pd.read_csv('friends-open-psychometrics-data.tsv', sep='\t', low_memor
 aggregatedCosineSimilarityModel = AggregatedCosineSimilarityModel()
 aggregatedCosineSimilarityModel.train(aggregated_riasec_major_categories_df)
 y_pred = aggregatedCosineSimilarityModel.predict(test_df)
-print("Aggregated Cosine Similarity Model Performance: " +str(evaluate(y_pred, test_df)))
+print("Aggregated Cosine Similarity Model Performance: " + str(evaluate(y_pred, test_df)))
 
-randomModel = RandomModel()
-randomModel.train(aggregated_riasec_major_categories_df)
-random_model_results = []
-for i in range(5000):
-    y_pred = randomModel.predict(test_df)
-    random_model_results.append(evaluate(y_pred, test_df))
-print("Random RIASEC Model Performance: " + str(round(np.mean(random_model_results), 3)))
+# randomModel = RandomModel()
+# randomModel.train(aggregated_riasec_major_categories_df)
+# random_model_results = []
+# for i in range(5000):
+#     y_pred = randomModel.predict(test_df)
+#     random_model_results.append(evaluate(y_pred, test_df))
+# print("Random RIASEC Model Performance: " + str(round(np.mean(random_model_results), 3)))
