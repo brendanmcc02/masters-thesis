@@ -28,12 +28,15 @@ df['major_category'] = ''
 non_empty_major_preprocessed_filter = ~(df['major_preprocessed'].fillna('').eq(''))
 df = df[non_empty_major_preprocessed_filter].copy()
 
-filtered_columns = []
 NUMBER_OF_QUESTIONS_PER_VOCATIONAL_INTEREST = 8
 holland_code_prefixes = ['R', 'I', 'A', 'S', 'E', 'C']
+holland_code_columns = []
 for prefix in holland_code_prefixes:
     for i in range(1, NUMBER_OF_QUESTIONS_PER_VOCATIONAL_INTEREST+1):
-        column = prefix + str(i)
+        holland_code_columns.append(prefix + str(i))
+
+filtered_columns = []
+for column in holland_code_columns:
         filtered_columns.append(column)
         # some RIASEC questions have 0 as an answer,
         # i'm assuming this should be 1 (dislike), 
@@ -111,22 +114,22 @@ for unique_college_major_category in unique_college_major_categories:
 clean_df['major_category'] = clean_df['major_category'].map(reverse_preprocessed_college_major_category_dict).fillna(clean_df['major_category'])
 
 clean_df = clean_df.sort_values(by=['major_category'])
-clean_df.to_csv("../clean_riasec_college_majors.tsv", sep='\t', index=False)
+clean_df.to_csv("../clean_riasec_college_major_categories.tsv", sep='\t', index=False)
 
-# aggregated_major_categories_df = clean_df.groupby('major_category')[riasec_types].mean().round(4).reset_index()
-# aggregated_major_categories_df = aggregated_major_categories_df[['major_category']+riasec_types]
-# aggregated_major_categories_df.to_csv("../clean_aggregated_riasec_college_major_categories.tsv", sep='\t', index=False)
+aggregated_major_categories_df = clean_df.groupby('major_category')[holland_code_columns].mean().reset_index()
+
+MAX_QUESTION_VALUE = 4
+for prefix in holland_code_prefixes:
+    score_cols = [col for col in aggregated_major_categories_df.columns if col.startswith(prefix) and col[1:].isdigit()]
+    
+    if score_cols:
+        aggregated_major_categories_df[prefix] = round((aggregated_major_categories_df[score_cols].mean(axis=1) / MAX_QUESTION_VALUE), 4) # normalize
+
+aggregated_major_categories_df = aggregated_major_categories_df[['major_category']+holland_code_prefixes]
+aggregated_major_categories_df = aggregated_major_categories_df.rename(columns={'R':riasec_types[0], 'I':riasec_types[1], 'A':riasec_types[2], 'S':riasec_types[3], 'E':riasec_types[4], 'C':riasec_types[5]}) 
+aggregated_major_categories_df.to_csv("../clean_aggregated_riasec_college_major_categories.tsv", sep='\t', index=False)
 
 dirty_df = dirty_df.sort_values(by=['major_preprocessed'])
 dirty_df.to_csv("dirty_riasec_college_majors.tsv", sep='\t', index=False)
 
-# # TODO - aggregated
-# filtered_columns = []
-# MAX_QUESTION_VALUE = 4
-# for prefix in holland_code_prefixes[::-1]:
-#     score_cols = [col for col in df.columns if col.startswith(prefix) and col[1:].isdigit()]
-    
-#     if score_cols:
-#         df[prefix] = df[score_cols].mean(axis=1) / MAX_QUESTION_VALUE # normalize
-#         filtered_columns.insert(0, prefix)
-##
+
