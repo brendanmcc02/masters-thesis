@@ -3,7 +3,10 @@
 ```
 Hello, I'm working on a rough prototype for my thesis and I'm interested in gathering some data to test out my model. If you're not aware, I am working on creating a machine learning model to suggest college courses to second-level students. 
 
-Could you also choose 5 college course categories from below and list them in order of preference? 1 is an area you'd like to study in the most, 5 is the least:
+Could you also choose your top 3 college course categories from below? You can choose them from a mixture of:
+* you think you'd enjoy studying it
+* you would realistically choose to study it
+* you would be good at it
 
 1. agriculture & natural resources
 2. arts
@@ -54,9 +57,8 @@ transportation sciences
 # Unused data
 
 ```tsv
-oscar	14	22	19	19	15	5
 
-doill	16	21	23	23	24	10	
-cian roche	x	x	x	x	x	x	eng	arts	health	bio	libart
+vivi    2   22  12  18  7   14
+cian roche	x	x	x	x	x	x	eng	arts	health
 
 ```

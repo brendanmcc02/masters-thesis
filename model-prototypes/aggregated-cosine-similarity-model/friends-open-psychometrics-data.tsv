@@ -1,27 +1,36 @@
 name	realistic	investigative	artistic	social	enterprising	conventional	preference_1	preference_2	preference_3
-maggie	3	27	25	21	18	6	health	biology & health science	business
+brendan	9	27	0	21	16	17	computers & mathematics	engineering	education
+maggie	3	27	25	21	18	6	health	biology & life science	business
 konrad	15	6	22	13	16	25	computers & mathematics	engineering	business
-lisa	2	25	15	29	24	3	psych	education	biology & health science
+lisa	2	25	15	29	24	3	psychology & social work	education	biology & life science
 adam	14	4	0	5	15	15	business	engineering	computers & mathematics
-matthew	11	0	2	2	18	8	business	phys	engineering
-lili	0	1	8	22	10	0	education	psych	social science
+matthew	11	0	2	2	18	8	business	physical sciences	engineering
+lili	0	1	8	22	10	0	education	psychology & social work	social science
+dorka	2	18	9	25	6	0	health	biology & life science	education
 daniel	11	1	3	22	21	25	business	education	health
-sean	28	21	14	19	7	18	arts	engineering	biology & health science
+sean	28	21	14	19	7	18	arts	engineering	biology & life science
 alex	9	11	12	8	18	24	business	computers & mathematics	communications & journalism
-yi won	18	22	27	24	20	6	health	law & public policy	biology & health science
-aysha	7	27	19	25	10	8	health	biology & health science	law & public policy
-hassan	12	24	13	20	14	12	health	biology & health science	computers & mathematics
+yi won	18	22	27	24	20	6	health	law & public policy	biology & life science
+aysha	7	27	19	25	10	8	health	biology & life science	law & public policy
+hassan	12	24	13	20	14	12	health	biology & life science	computers & mathematics
 declan	18	15	26	17	12	17	computers & mathematics	education	arts
 conal	16	15	20	23	11	14	business	education	health
+doill	16	21	23	23	24	10	engineering	education	business
 kihan	16	17	19	20	19	2	health	law & public policy	social science
 kash	5	5	6	21	18	18	business	law & public policy	industrial arts & consumer services
 conor	11	16	29	22	17	10	arts	computers & mathematics	business
-muneeb	11	22	9	22	16	8	health	biology & health science	education
-ben h	9	26	26	8	17	8	computers & mathematics	biology & health science	engineering
-elisa	17	29	12	14	9	18	biology & health science	health	computers & mathematics
+muneeb	11	22	9	22	16	8	health	biology & life science	education
+ben h	9	26	26	8	17	8	computers & mathematics	biology & life science	engineering
+elisa	17	29	12	14	9	18	biology & life science	health	computers & mathematics
 ignis	5	18	22	16	14	8	computers & mathematics	communications & journalism	engineering
 sj	12	23	28	19	12	5	health	biology & life science	education
 ilmi	16	17	17	22	4	13	engineering	social science	agriculture & natural resources
 mati	16	16	11	16	13	20	engineering	law & public policy	computers & mathematics
 martin	12	6	14	16	11	13	business	social science	education
 rising	2	27	5	17	8	14	health	computers & mathematics	business
+dillon	31	15	14	16	18	20	computers & mathematics	engineering	physical sciences
+sarah	17	28	25	21	25	16	computers & mathematics	physical sciences	agriculture & natural resources
+oscar	14	22	19	19	15	5	health	engineering	computers & mathematics
+viktor	10	25	27	23	14	19	psychology & social work	humanities & liberal arts	social science
+kitti	1	24	27	20	14	1	arts	psychology & social work	humanities & liberal arts
+grainne	6	16	21	22	9	10	arts	health	social science

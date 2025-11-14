@@ -88,9 +88,9 @@ def evaluate(y_pred, user_df):
     for i in range(len(y_actual)):
         results.append(normalized_discounted_cumulative_gain(y_pred[i], y_actual[i], ideal_ranking))
         # print("\n" + str(user_df['name'][i]))
-        # print("PRED\tACTUAL")
+        # print("PRED\t\t\tACTUAL")
         # for j in range(len(y_actual[i])):
-        #     print(y_pred[i][j] + "\t" + y_actual[i][j])
+        #     print(y_pred[i][j] + "\t|\t" + y_actual[i][j])
 
     return round(np.mean(results), 3)
     
