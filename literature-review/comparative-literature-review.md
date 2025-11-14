@@ -89,8 +89,6 @@
 
 # Real-world products
 
-* From my research, there is **no AI/ML solution to course recommendations in Ireland!**
-
 1. [Advisor AI](https://joinadvisorai.com/)
     * very specialised to the US system
         * I can push mine to fit the Irish system, as an edge
@@ -122,6 +120,5 @@
     * not just career recs
 
 # The edge of my Thesis
-* There is no course recommender system for the Irish college system
 * In almost all of the peripheral literature I could find, there is a lack of scientific grounding with guidance counselling
 * In almost all the papers I've seen, they are either using traditional/ML methods for recs, as opposed to LLM-based recs

@@ -199,7 +199,7 @@ times more likely to experience high purpose in work
 
 ## [University Choice Process: A Literature Review on Models and Factors Affecting the Process](https://www.researchgate.net/publication/298334830_University_Choice_Process_A_Literature_Review_on_Models_and_Factors_Affecting_the_Process)
 
-* *his paper is more concerned with the actual college the person chooses, as opposed to the course itself*
+* *this paper is more concerned with the actual college the person chooses, as opposed to the course itself*
 * This is actually pretty important, because a student doesn't choose a college course that is completely independent to the institution, it is definitely a factor
 * This paper has a good citations regarding different influences of college choice
     * worth checking if I want to do further research
@@ -603,9 +603,6 @@ times more likely to experience high purpose in work
 * they talk about the value of **flexibility** - in other words, the counsellor should be flexible to the changing wants/needs of their client
     * this is topical, and Owen talked aout it
     * I think a student should be given the ability to re-do their RIASEC, sometimes after some self-reflection they realise some differences and may want to change things
-
-## Meeting with TCD careers service
-* TODO
 
 # Human Pyschology
 
