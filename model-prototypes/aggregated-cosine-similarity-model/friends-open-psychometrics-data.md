@@ -58,7 +58,9 @@ transportation sciences
 
 ```tsv
 
-vivi    2   22  12  18  7   14
+vivi	2	22	12	18	7	14
 cian roche	x	x	x	x	x	x	eng	arts	health
-
+aisling x	x	x	x	x	x	x	health	business	arts
+beth	1	5	17	31	6	2	
+luka	6	31	23	11	18	9
 ```
