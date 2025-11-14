@@ -140,6 +140,8 @@ we should ask: would you want to study in this college course/category?
 the **want** is intentionally open-ended, because people want many but different things from college courses, and we should leave that up to the student.
 this goes back to the reading between the lines thing.
 
+*instead of want, we could say 'like to' instead?* ig it's the same thing tbh
+
 if someone wants a course they enjoy, they will highly rank fields that they think they will like.
 if a person wants to make money, they will highly rank fields that they think will make money.
 if a person wants status, social impact, etc. etc. etc. they will highly rank fields that they think will align with what they want.
@@ -150,3 +152,20 @@ i also really like this because it doesn't over complicate the problem and avoid
 the only problem with this is the open psychometrics dataset I am using (and which will potentially be instrumental in my RS) was asked "would you enjoy x".
 if the question was asked differently, it may have yielded different results.
 but i think this limitation is something to acknowledge in my thesis, and i can ask for owen's opinion on it.
+
+## lc subjects - thinking out loud
+
+i have been quite tunnel-visioned on holland codes if I am being completely honest. aoife expressed concerns about them, saying they are a 1/200 snapshot of a person. i think about this a lot. i disagree with her, but that's mostly on an emotional level, because a part of me really wants it to be a great representation of someone. why? because it can be so easily translated to a computational problem. a 6-dimensional vector, the beauty, simplicity and power behind that.
+
+as my friends were sending me data though, i realised it may hold some limitations, and i will likely need something else additionally. both donnchadh and aoife mentioned that a lot of information can be gleamed from students by asking about their lc subjects, so i want to think out loud here.
+
+we can ask more close-ended questions, such as asking them on a scale of 1-5 how much they enjoy or find the specific subject interesting.
+
+this 1-5 can be normalized as a weight, and perhaps we could attach 1+ RIASEC taxonomies to each subject, and this could inform their RIASEC score potentially? e.g. physics would be I, construction would be R, etc.
+
+now that i think about it, i'm not so sold or convinced on this. does this really provide any additional info that could be gleamed from the RIASEC quiz? the only limitation with that dataset is the lack of diversity in the I questions, but that can be changed tbh.
+
+i also think lc subjects do not cover all areas of study, whereas the open psychometrics dataset has a solid coverage.
+then again, we use the RIASEC scores to **infer** other courses, the goal of this is not to say "what specific course do they want", we are trying to get some sort of vocational inventory of the person, and use this to make inferences about potentially strong-fitting college courses.
+
+I think this is where the LLM comes in, and we can ask a student **why** they like/dislike a subject, or what they do/don't find interesting about it.
