@@ -12,13 +12,13 @@ Also if your parents are alumni, or if your friends are going.
 Or to not be away from home because of a relationship, family situation.
 
 Choosing a college course is very multi-faceted. There are many, many reasons:
-* money
+* money/employability
 * enjoyment
 * interest
 * work/life balance
 * autonomy
 * aptitude/natural inclination
-* nobility - sense of meaning in their future work
+* proclivity for meaning
 * wanting to work with people or alone
 * wanting to work outdoors or at a desk
 
@@ -58,6 +58,10 @@ but now (november), i'm leaning towards giving a lot more power and autonomy to 
 # October
 
 began to dive into web scraping careers-portal.ie
+
+during this time, I also realised that I there is a bit of a headache with college + course requirements, e.g. subjects, stuff like that
+
+but i don't want to spend too much time on that - this thesis is focusing on the recommendation algorithm itself, i don't want to be bogged down by practical details like this that would take some time
 
 began to data wrangle riasec college major dataset (open psychometrics)
 
