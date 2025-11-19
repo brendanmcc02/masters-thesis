@@ -12,6 +12,11 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "communications & journalism",
+            "arts",
+            "social science"
         ]
     },
     {
@@ -26,6 +31,10 @@
         "overview": "Our BSc Medical and Health Sciences course will appeal to those of you with a keen interest in both science and medical health. This interdisciplinary and innovative course produces graduates who are passionate about human health and medicine and are equipped to embark on careers in the medical research or healthcare sector.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -40,6 +49,11 @@
         "overview": "Medical Science is the science related to medical conditions, their causes, diagnosis and treatment. This course provides multi-disciplinary training and clinical laboratory placement in all Biomedical Science disciplines, so that you may work in any of the following areas in pathology: Clinical Chemistry, Clinical Immunology, Clinical Cytology, Cellular Pathology, Haematology, Medical Microbiology, Molecular Diagnostics, and Transfusion Science.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "physical sciences"
         ]
     },
     {
@@ -54,6 +68,11 @@
         "overview": "Medical Science is the study of investigative laboratory procedures, techniques and instruments that are required for the diagnosis of clinical disease and the monitoring of therapy. In recent years there has been an increasing demand for medical laboratory diagnostic services and for the development of new services.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "physical sciences"
         ]
     },
     {
@@ -69,6 +88,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "health"
         ]
     },
     {
@@ -84,6 +107,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "health"
         ]
     },
     {
@@ -98,6 +125,10 @@
         "overview": "This course will educate and train you to become a scientific analyst in the medicinal products and pharmaceutical sector, as well as related chemical industries.\nIt will give you a solid foundation in the chemical sciences, together with a hands-on approach to laboratory work. Access to well-equipped laboratories supports the development of a high standard of practical laboratory skills.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "health"
         ]
     },
     {
@@ -112,6 +143,10 @@
         "overview": "The Medicine curriculum at UCC is rooted in the basic Medical Sciences of Anatomy, Physiology, and Biochemistry, but also places emphasis on clinical instruction. A distinctive feature is small-group, patient-centred teaching, in which students learn the skills of listening and communicating, history-taking and clinical examination.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -126,6 +161,10 @@
         "overview": "Our curriculum is patient-centred and continually adapts to the needs of society and developments in medical knowledge. You’ll learn from world-class educators and patients in state-of-the-art facilities, immerse yourself in our acclaimed undergraduate student research programme and beneﬁt from a diverse, international student population.\nTeaching methods include lectures, small group sessions, practicals and tutorials. There are four themes running through the entirety of both our undergraduate and graduate programmes: Evidence based medicine and research; Clinical competencies and preparedness; Professional medical practice; and Healthcare systems, quality and patient safety.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -140,6 +179,10 @@
         "overview": "Medicine has been taught at University of Galway for 175 years and we have a long tradition of clinical education. We have pioneered hospital-based and bedside teaching and our medical graduates are highly sought-after doctors, practicing medicine in healthcare facilities across the globe.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -154,6 +197,10 @@
         "overview": "The intermediate years of the programme will focus on learning about abnormal bodily functions. You will attend a wide array of clinical skills workshops, small group tutorials and case-based teaching sessions. A lot of your time will be spent in a hospital setting attached to clinical teams. The final years of the programme are spent fully immersed in various clinical specialties on a rotational basis.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -168,6 +215,10 @@
         "overview": "Medicine is a unique course in that students study a broad range of subjects with the primary goal of understanding the science and practice of healing.\nMedicine and healthcare are constantly evolving as new knowledge and therapies emerge to prevent and treat illness. Each day brings a new patient with new healthcare challenges.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -182,6 +233,10 @@
         "overview": "The course provides students with the knowledge, professional behaviour and clinical skills needed for a rewarding career in any branch of medicine.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -198,6 +253,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -214,6 +273,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -230,6 +293,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -246,6 +313,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -262,6 +333,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -278,6 +353,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -294,6 +373,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -310,6 +393,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -326,6 +413,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -342,6 +433,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -356,6 +451,9 @@
         "overview": "Microbiology is the study of microscopic organisms, known as microorganisms or microbes, that are usually invisible to the naked eye, including bacteria, protozoa, fungi, viruses and prions. Several modern scientific disciplines including genetic engineering, genomics, bioinformatics, microbial biotechnology, immunology and molecular biology originated from classical microbiology and therefore form an integral part of the teaching and research of microbiology at TUS. An industrial placement during the third year of the programme provides an opportunity to gain valuable experience and establish direct links with industry.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "biology & life science"
         ]
     },
     {
@@ -371,6 +469,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -386,6 +488,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -400,6 +506,10 @@
         "overview": "Middle Eastern, Jewish and Islamic Civilisations\nJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world.\nAncient History and Archaeology\nYou will study the Greek and Roman worlds by working with historical and literary documents alongside the material remains of ancient sites and artefacts. All material is studied in translation and no knowledge of Greek or Latin is required, but there are opportunities to take introductory modules in the languages.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -414,6 +524,10 @@
         "overview": "Middle Eastern, Jewish and Islamic Civilisations\nJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world.\nClassical Civilisation\nThe study of Classical Civilisation is concerned with the literature, thought and culture of Ancient Greece and Rome. Through the examination and contextualisation of literary works and the analysis of the main aspects of ancient history and art, you will develop a thorough knowledge of the classical world and a critical approach to Greek and Roman literature. All texts are studied in translation and no knowledge of Greek or Latin is required, but there are opportunities to study the languages at an introductory level.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -428,6 +542,10 @@
         "overview": "Middle Eastern, Jewish and Islamic CivilisationsJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world. Trinity is the only university in Ireland that offers a course in Jewish and Islamic civilisations. It attracts students of social and cultural diversity from Ireland and abroad. \nClassical LanguagesThe study of Classical Languages is concerned with the language, literature and thought of either Ancient Greece or Ancient Rome. You will choose to study either Greek or Latin. Through the reading of literature in the original language and the examination of key aspects of ancient history, you will develop a thorough knowledge of the classical world and a critical approach to textual and material culture.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -442,6 +560,10 @@
         "overview": "Middle Eastern, Jewish and Islamic CivilisationsJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world.\nHistoryThe History programme combines the strength of a broad-based programme in the first two years, introducing all students to the sheer diversity of historical studies, with the freedom to explore areas of particular interest to individual students in the final two years.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -456,6 +578,10 @@
         "overview": "Jewish and Islamic CivilisationsJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world.\nStudents combine this subject with their choice of French, Italian, Irish or Spanish.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -470,6 +596,11 @@
         "overview": "Middle Eastern, Jewish and Islamic CivilisationsJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world.\nMusic \nStudying music will allow you to engage with a range of traditions to acquire a profound understanding of how music works in theory and in creative practice.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "arts",
+            "social science"
         ]
     },
     {
@@ -484,6 +615,10 @@
         "overview": "Middle Eastern, Jewish and Islamic CivilisationsJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world.ReligionThis course explores theories of religion, the monotheistic religions of Judaism, Christianity and Islam, the religions of Asia and Africa, movements such as New Atheism, New Religious Movements and the interaction between religion and politics, science, or art.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -500,6 +635,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -516,6 +654,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -532,6 +673,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -548,6 +692,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -564,6 +711,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -580,6 +730,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -594,6 +747,9 @@
         "overview": "Mobile and Web Computing provides students with the theoretical and practical skills necessary to design, build and maintain secure internet based systems. There is a strong practical emphasis on the languages, tools, techniques and methodologies required to build real world solutions in today’s inter-connected world.\nThe considerable practical emphasis on the course allows for the smooth integration of graduates into the workplace. Students will develop an understanding of current and emerging technologies and best business/industrial standards to equip them to meet the demands of an increasingly technological world. The course will provide students with the professional, technical and project related capabilities applicable to the development of secure client-side and server-side Internet based systems and prepares students for a broad range of careers in the fast moving computing industry.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -608,6 +764,9 @@
         "overview": "Mobile and Web Computing provides students with the theoretical and practical skills necessary to design, build and maintain secure internet-based systems. Students will develop an understanding of current and emerging technologies and best business/industrial standards to equip them to meet the demands of an increasingly technological world.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -623,6 +782,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -637,6 +800,9 @@
         "overview": "Modern Languages combines advanced language skills with the literature, history and culture of the countries where these languages are spoken. It also focuses on developing critical faculties and cross-cultural awareness.\nThis degree is for those of you who want to concentrate on at least two modern foreign languages, explore the connections between them, spend a year abroad and graduate with a BA International degree.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -651,6 +817,10 @@
         "overview": "This is a three year full-time course designed to train you to work in the areas of biopharmaceutical, biomedical, environmental or food related industries. With further qualifications you could become a science researcher or a secondary school science teacher.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "biology & life science",
+            "health"
         ]
     },
     {
@@ -665,6 +835,10 @@
         "overview": "This programme serves to provide students with a comprehensive understanding of the Montessori approach to the education and care of children in early and middle childhood. Students are supported to develop the requisite knowledge(s), values and competencies to work effectively in a range of education and care settings, in line with current legislation, standards and quality frameworks.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -680,6 +854,11 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "arts",
+            "computers & mathematics",
+            "communications & journalism"
         ]
     },
     {
@@ -694,6 +873,10 @@
         "overview": "Study all the essentials of computing and software for mobile apps and websites, as well as key areas in mathematics, a major project and a six month placement in industry. Enjoy the huge benefit of studying another Arts subject with Computer Science in first year. This lends graduates a wider frame of reference.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -709,6 +892,11 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts",
+            "physical sciences"
         ]
     },
     {
@@ -723,6 +911,9 @@
         "overview": "This course introduces students to a wide variety of music fields including: Irish traditional music, ethnomusicology, jazz and popular music, music therapy and the classical repertoire.Students are encouraged to develop their performance skills, to take tuition to an advanced level with their chosen instrument and to take an active part in one of the Department's vocal or instrumental ensembles.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -737,6 +928,9 @@
         "overview": "Studying music will allow you to engage with a range of traditions to acquire a profound understanding of how music works in theory and in creative practice.\nIf you are interested in understanding music and its place in society, developing music technology skills, writing music, or improving your skills as an informed performer, this course could be for you. A music degree will prepare you for a wide range of careers in the creative arts, journalism, music production, arts management, research, and teaching.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -751,6 +945,9 @@
         "overview": "The BA (Hons) in Music is a four year full-time degree which aims to give the student a well-rounded third level music education. The course offers a balance between practical and theoretical modules within the context of the principal music genres (classical, Irish traditional, jazz and popular). This diversity will serve the student well both in the current job market and in pursuing postgraduate study opportunities.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -765,6 +962,9 @@
         "overview": "The music programme at MIC explores the history and language of music and is designed to enable students to develop technical, analytical, critical, performing, aural and creative skills.\nThe Music Department has purpose-built music lecture rooms, practice rooms, a music technology studio and a comprehensive library. Performing ensembles include the MIC Choral Society, the University of Limerick Orchestra and Irish traditional music groups.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -780,6 +980,9 @@
         "interests": [
             "Realistic",
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -794,6 +997,9 @@
         "overview": "Restricted course. Music Performance Studies are a central part of the course. In year 3 and 4 you specialise in one of Performance Studies, Music in the Community, Pedagogic [Music Teaching] Studies, Music Technology, Music Therapy, it is equally possible to specialise in Applied Musicianship Skills and/or Music History. Foundation level maths at HB2 acceptable.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -808,6 +1014,10 @@
         "overview": "MusicStudying music will allow you to engage with a range of traditions to acquire a profound understanding of how music works in theory and in creative practice. If you are interested in understanding music’s place in society, developing music technology skills, writing music, or improving your skills as an informed performer, this course could be for you.\nDrama Studies  (Restricted)The degree explores the relationship between the theory and practice of Drama and Theatre to discover how and why they work. The strong developmental emphasis of the courses requires a particular blend of practical and academic skills.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -823,6 +1033,10 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -838,6 +1052,10 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -853,6 +1071,10 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -868,6 +1090,10 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -882,6 +1108,10 @@
         "overview": "Love performing music? Want to build a career doing what you love – on stage, behind the scenes, or running the show? This unique degree is for music performers who want to turn their talent into a professional career in the live music and events industry. Whether you’re singing at weddings, playing in cover bands, working with live sound for shows, or producing music in a recording studio, this course will give you the real-world skills, musical and business knowledge to best set you up for success.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "business"
         ]
     },
     {
@@ -896,6 +1126,10 @@
         "overview": "This unique degree is for music performers who want to turn their talent into a professional career in the live music and events industry. Whether you’re singing at weddings, playing in cover bands, working with live sound for shows, or producing music in a recording studio, this course will give you the real-world skills, musical and business knowledge to best set you up for success.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "business"
         ]
     },
     {
@@ -911,6 +1145,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "education",
+            "arts"
         ]
     },
     {
@@ -926,6 +1164,10 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -941,6 +1183,10 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -955,6 +1201,10 @@
         "overview": "Our Certificate in Music Production for Games is available part-time over a one-year period. The aim of the course is to equip students with a high level of competence in specific skills for the areas of applications technology, games development, sound design, and much more.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -969,6 +1219,10 @@
         "overview": "Music, Film and Drama are art forms that speak to the very core of human experience; they impact our lives every day. This 4-year programme allows students to immerse themselves in the close study of these forms, to understand them from cultural and historical perspectives, and to explore the ways in which they influence and transform each other.\nLearn how to understand the inner workings of these art forms. Deepen your knowledge of their historical development. Research and write about the important place of these arts in society.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -984,6 +1238,11 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism",
+            "computers & mathematics"
         ]
     },
     {
@@ -998,6 +1257,10 @@
         "overview": "MusicStudying music will allow you to engage with a range of traditions to acquire a profound understanding of how music works in theory and in creative practice. If you are interested in understanding music’s place in society, developing music technology skills, writing music, or improving your skills as an informed performer, this course could be for you. A music degree will prepare you for a wide range of careers, in the creative arts, journalism, music production, arts management, research, and teaching. Students combine this subject with their choice of French, German, Irish or Spanish.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1013,6 +1276,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1027,6 +1294,10 @@
         "overview": "MusicStudying music will allow you to engage with a range of traditions to acquire a profound understanding of how music works in theory and in creative practice. If you are interested in understanding music’s place in society, developing music technology skills, writing music, or improving your skills as an informed performer, this course could be for you. A music degree will prepare you for a wide range of careers, in the creative arts, journalism, music production, arts management, research, and teaching. ReligionThis course explores theories of religion, the monotheistic religions of Judaism, Christianity and Islam, the religions of Asia and Africa, movements such as New Atheism, New Religious Movements and the interaction between religion and politics, science, or art.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1042,6 +1313,9 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -1057,6 +1331,9 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -1073,6 +1350,10 @@
             "Artistic",
             "Social",
             "Conventional"
+        ],
+        "categories": [
+            "communications & journalism",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1088,6 +1369,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -1103,6 +1388,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "engineering"
         ]
     },
     {
@@ -1118,6 +1407,10 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "communications & journalism",
+            "arts"
         ]
     },
     {
@@ -1134,6 +1427,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1150,6 +1446,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -1166,6 +1466,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -1181,6 +1485,10 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -1196,6 +1504,10 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -1211,6 +1523,10 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -1225,6 +1541,10 @@
         "overview": "This BSc (Honours) in Nutrition and Health Science course is a unique interfacial degree with an equal emphasis on both nutrition and health science. This course provides an approach to nutrition that is based on the scientific and academic principles of biology, biochemistry, social and public health aspects of human nutrition, as well as encompassing emerging issues such as biotechnology, food sustainability and security. This course develops students, across the disciplines of nutritional science, health promotion, research and practice-based nutrition, to build competencies towards becoming an accredited nutritionist.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -1241,6 +1561,11 @@
             "Investigative",
             "Realistic",
             "Enterprising"
+        ],
+        "categories": [
+            "health",
+            "business",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -1256,6 +1581,10 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -1271,6 +1600,11 @@
         "interests": [
             "Conventional",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "engineering",
+            "law & public policy"
         ]
     },
     {
@@ -1286,6 +1620,11 @@
         "interests": [
             "Conventional",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "engineering",
+            "law & public policy"
         ]
     },
     {
@@ -1301,6 +1640,11 @@
         "interests": [
             "Conventional",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "engineering",
+            "law & public policy"
         ]
     },
     {
@@ -1317,6 +1661,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -1333,6 +1681,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -1349,6 +1701,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -1365,6 +1721,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -1379,6 +1739,9 @@
         "overview": "Optometry is a regulated primary healthcare profession. Optometrists are often the first professional to be consulted when an eye problem presents. Optometrists check vision and prescribe and fit spectacles and contact lenses as needed. For children or adults with problems coordinating their eyes, optometrists carry out patching and other forms of vision therapy to help people develop and maintain binocular vision.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1394,6 +1757,11 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "education",
+            "agriculture & natural resources",
+            "health"
         ]
     },
     {
@@ -1409,6 +1777,10 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "education",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -1425,6 +1797,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1440,6 +1815,9 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1454,6 +1832,9 @@
         "overview": "This programme is designed to provide graduates with the skills to work as actors in theatre, film and television. Coursework includes skills classes, workshops, masterclasses from industry professionals and performances in the universities's Black Box theatre. Throughout the three years, students are introduced to the main acting genres and given a range of approaches to acting. In addition to vocal and movement skills, students learn how to create characterisation. Although we will want to see students develop as creative individuals, they will also learn to be part of an ensemble.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -1468,6 +1849,9 @@
         "overview": "We have developed this programme in consultation with arts practitioners in Ireland and abroad. It has the support of nationally and internationally-acclaimed theatre and film practitioners as well as major locally-based arts organisations including the Blue Raincoat Theatre Company, The Model Arts Centre and The Hawk’s Well Theatre.\nThis programme is unique in Ireland, offering tuition to Level 8 in the linked fields of acting and theatre design. The design strand is linked to the Abbey Theatre, giving students access to rehearsals, technical departments, work placements and backstage.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -1482,6 +1866,11 @@
         "overview": "This course is suited to those who wish to specialise in chemistry for the pharmaceutical and biomedical industries. Pharmaceutical Chemistry is a very important branch of Chemistry that is applied to the synthesis and formulation of new therapeutic drugs as well as the manufacture of medicinal compounds on a large scale.In this programme you will receive an excellent education in chemistry (physical chemistry, organic chemistry, inorganic chemistry), and have the opportunity to specialise in pharmaceutical chemistry, medicinal chemistry and bioinorganic chemistry.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science",
+            "health"
         ]
     }
 ]
