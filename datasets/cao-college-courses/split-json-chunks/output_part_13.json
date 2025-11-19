@@ -1,0 +1,1514 @@
+[
+    {
+        "id": "LM032",
+        "title": "Law and Cyber Security",
+        "college": "University of Limerick - UL",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The LLB in Law and Cyber Security is a joint degree between the School of Law and the Department of Electronic and Computer Engineering.Graduates will be equipped with attributes from both legal and computing disciplines. As well as studying the core subjects required to advance in the legal profession, it will also provide a solid basis and understanding of the importance of cyber security which underpins the critical infrastructure of the economic and social life of the nation. Graduates will be able to apply both mathematical and theoretical principles relevant to cyber security and work with and implement systems in the field of cyber security",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "CK302",
+        "title": "Law and French",
+        "college": "University College Cork - UCC",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 531,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "BCL (Law and French) allows you to study law and French at the same time in a joint honours degree. You can then become a lawyer with specific linguistic skills. Most of our graduates combine these two sets of skills and become lawyers with a unique linguistic ability. They often go on to work abroad in international or EU firms and institutions.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TR018",
+        "title": "Law and French",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 589,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Law and French degree programme offers a unique opportunity to study core and specialised legal modules but also the language, culture and political systems of France. Students must undertake an Erasmus year in France, exposing them to the law of that legal system.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TR019",
+        "title": "Law and German",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 540,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Law and German degree programme offer a unique opportunity to study core and specialised legal modules but also the language, culture and political systems of Germany. Students must undertake an Erasmus year in Germany, exposing them to the law of that legal system.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "GY252",
+        "title": "Law and Human Rights",
+        "college": "University of Galway - UG",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 520,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The four-year Bachelor of Civil Law (Human Rights) is an innovative and unique programme – the first of its kind in Ireland. It offers students the opportunity to combine a full undergraduate law programme with the study of human rights.",
+        "interests": [
+            "Conventional"
+        ]
+    },
+    {
+        "id": "CK304",
+        "title": "Law and Irish",
+        "college": "University College Cork - UCC",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 531,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BCL (Law and Irish) degree will introduce you to a variety of diverse and stimulating topics combining the best aspects of a law degree together with study of the Irish language, literature, culture and institutions. It will also develop your analytical and interpretative skills.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "MH503",
+        "title": "Law and Languages",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 410,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Students undertake all of the required modules needed for Law and a full suite of modules in their chosen European language. Graduates of this programme will develop a strong capacity for analytical and critical thinking as well as strong linguistic skills and a keen sense of cultural awareness.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DN600",
+        "title": "Law Dual Degree - BCL/Maitrise",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 566,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BCL/Maîtrise is one of two French Law Courses offered by Sutherland School of Law, the other being the BCL (Law with French Law) on the previous page. All students interested in the French Law Courses enter the BCL (Law with French Law) degree in first year. Both degrees offer the exciting opportunity for immersion in two of the world’s major legal systems, the common law and the civil law. A deep knowledge of civil law is invaluable to graduates who choose to pursue careers with organisations of the European Union or have ambitions to work in international law firms.",
+        "interests": [
+            "Conventional",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "LM029",
+        "title": "Law Plus",
+        "college": "University of Limerick - UL",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 510,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Law Plus places significant emphasis on the development of practical legal skills including oral and written communication skills, analytical and logical reasoning skills, negotiation, legal research, organisational and teamwork skills, particularly through the lawyering skills modules. The programme is of four years’ duration, of which seven semesters are spent on campus and one on Cooperative Education. In general, the programme consists of three law modules and two elective modules per semester.",
+        "interests": [
+            "Enterprising",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "AU210",
+        "title": "Law with Criminal Justice",
+        "college": "ATU Donegal",
+        "region": "Ulster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 232,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree will teach you all about the criminal justice system and the law. The programme allows you to study the core law subjects alongside subjects such as crime, criminology, legal practice, understanding conflict and different perspectives within the criminal justice system from victims to criminals/defendants, as well as support services and lawyers.",
+        "interests": [
+            "Enterprising",
+            "Social",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DN600 LES",
+        "title": "Law with Economics",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 566,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course allows you to obtain a highly respected degree in law, whilst simultaneously acquiring a broad knowledge of economics. Certain areas of law (e.g. competition regulation and intellectual property) are heavily inﬂuenced by economic theory. BCL (Law with Economics) graduates are uniquely equipped to understand these regulatory frameworks in all of their conceptual complexity.\nOn this degree, you’ll embark on a ﬁeld of cross-disciplinary study which is intellectually very demanding, but also tremendously enriching and of immense practical importance.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DN600 LFL",
+        "title": "Law with French Law",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 566,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Law with French Law is one of two French Law Courses offered by Sutherland School of Law, the other being the dual degree – the BCL/Maîtrise (more information on the following page). All students interested in the French Law Courses enter the BCL (Law with French Law) in first year.\nBoth degrees offer the exciting opportunity for immersion in two of the world’s major legal systems. Student will learn about the common law system, practised in Ireland and the UK (and in some form, in most of the English-speaking world) and the civil law system which is used throughout Europe.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DN600 LHY",
+        "title": "Law with History",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 566,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "There’s a natural aﬃnity between the disciplines of law and history. Each is shaped by the other. Important historical events are often interlinked with contemporary legal structures. Legal reform may be prompted by the deﬁning events of the past.\nThis course allows you to acquire a highly respected degree in law, whilst also pursuing a passion for history and acquiring a deeper understanding of past events that have shaped our current legal system.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Social"
+        ]
+    },
+    {
+        "id": "DN600 LIH",
+        "title": "Law with Irish",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 566,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BCL (Law with Irish) course allows undergraduate law students to access a cohesive set of Irish language modules which are relevant to the study and practice of law. This programme oﬀers you the opportunity to acquire a highly respected BCL degree, whilst additionally deepening your competence in the Irish language in the context of law.\nYour Irish language communication skills will be developed by the resources provided by a modern multi-media language laboratory (An Teanglann) and the advanced language skills training in Lárionad de Bhaldraithe.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DN600 LPY",
+        "title": "Law with Philosophy",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 566,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Legal systems express and reﬂect the prevailing moral, political, social and economic philosophy of the State. Law and philosophy are, therefore, complementary ﬁelds of study. An understanding of law is fundamentally enhanced by a deeper knowledge of philosophical theory. This course oﬀers you a highly respected degree in law, combined with an enriched appreciation of its philosophical underpinnings.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DN600 LPS",
+        "title": "Law with Politics",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 566,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Law and politics are inextricably linked by the legislative process. This course allows you to obtain a highly respected law degree, whilst also acquiring a deeper understanding of political theory and the political process. Many UCD law graduates have progressed to political careers. Others have become high-proﬁle political commentators.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DN600 LSJ",
+        "title": "Law with Social Justice",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 566,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BCL with Social Justice course, the ﬁrst of its kind in Ireland, combines the study of Law with rigorous analysis of social injustice, its causes and remedies. It will appeal to students who are interested in issues of equality, diversity and disadvantage, and who want to look in-depth at the social context in which law operates.\nOn completion, you’ll be uniquely equipped to oﬀer a critical perspective on issues such as the adequacy of our criminal justice system, the legal treatment of women and minority groups, and the underlying causes of social and economic injustice.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Social"
+        ]
+    },
+    {
+        "id": "GY254",
+        "title": "Law, Criminology and Criminal Justice",
+        "college": "University of Galway - UG",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 520,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The four-year Bachelor of Civil Law (Criminology and Criminal Justice)is a unique degree offering in Ireland for students with an interest in both law and the fields of criminology and criminal justice. \nStudents have the opportunity to combine the study of a full undergraduate law degree with an additional specialisation that focuses on the causes of crime and the operation of the criminal justice system. Students will have access to world-class academics that specialise in the fields of criminal law, criminal justice, criminology, psychology and human rights.",
+        "interests": [
+            "Enterprising",
+            "Social",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "TR580",
+        "title": "Law/Business Studies",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 613,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "LawThe law degree will appeal to you if you are interested in society and how it works, how we regulate the relationships between people. Given the wide range of legal modules, the degree attracts students with a broad range of interests.Business StudiesThis four year programme offers the opportunity to focus upon the many areas of overlapping interest between the two disciplines, for example, the structure of companies and other forms of business organisation, competition law and regulation of markets, consumer law, labour law, finance and financial markets, taxation, the protection of intellectual property and international perspectives on law and business.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "TR581",
+        "title": "Law/History",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 613,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Law\nThe law degree will appeal to you if you are interested in society and how it works, how we regulate the relationships between people. Given the wide range of legal modules, the degree attracts students with a broad range of interests. Those interested in politics are attracted to subjects such as constitutional law.\nHistory\nThe History programme introduces students to the diversity of historical studies, which include modules covering medieval and modern periods, including Irish, European, and American history, as well as some modules exploring the skills and methods which historians use, and the kinds of debates in which historians engage.",
+        "interests": [
+            "Enterprising",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "SE422",
+        "title": "Legal Studies",
+        "college": "SETU Waterford Campus",
+        "region": "Munster",
+        "duration": "2 Years",
+        "nfqLevel": 6,
+        "points": 220,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The study of law provides students with an education that is relevant to a wide range of employment opportunities because law regulates all aspects of life. Legal studies are not just for students who want to become solicitors or barristers.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "SE423",
+        "title": "Legal Studies",
+        "college": "SETU Carlow Campus",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "2 Years",
+        "nfqLevel": 6,
+        "points": 204,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Knowledge of the law and the legal system is important for people in many walks of life. Many professionals need to understand what the legal system is, how it works and how it assists people in asserting their rights. Legal Studies provides the professional and scholarly skills necessary for a general understanding of the law as well as for law-related careers, public service or further graduate level study.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "AC137",
+        "title": "Liberal Arts",
+        "college": "American College",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 293,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BA (Hons) in Liberal Arts (a level-8, QQI-accredited, award) provides an intellectually stimulating and challenging course of undergraduate study in the liberal arts, with a wide range of foundation courses combined in the latter stages with specialised study in four concentrations.\nIn the third year students are required to major in one of four concentrations: Irish Studies, American Studies, History, or English. In this way the study programme broadens the students’ knowledge and advances their communication skills in a wide range of intellectual areas, and provides them with an understanding of other cultures, their intrinsic values and historical experience.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TR230",
+        "title": "Linguistics/Classical Languages",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 498,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Linguistics\nStudents of Linguistics engage in evidence-based analysis of language, acquiring skills and techniques that allow investigation of different aspects of language structure such as sound, words and grammar. This involves key transferable skills in problem solving and critical thinking.\nClassical Languages\nThe study of Classical Languages is concerned with the language, literature and thought of either Ancient Greece or Ancient Rome. You will choose to study either Greek or Latin. Through the reading of literature in the original language and the examination of key aspects of ancient history, you will develop a thorough knowledge of the classical world and a critical approach to textual and material culture.",
+        "interests": [
+            "Artistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TR241",
+        "title": "Linguistics/Computer Science",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 498,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The combined study of Computer Science and Linguistics yields opportunities for graduates to specialise in computational speech and language processing or text analysis. Linguistics often appeals to students who are curious about language as one of the most fascinating aspects of human knowledge and behaviour. \nLinguistics is also appealing to those who enjoy detailed, problem-solving analysis and careful argumentation. Students of Linguistics engage in evidence-based analysis of language, acquiring skills and techniques that allow investigation of different aspects of language structure such as sound, words and grammar. This involves key transferable skills in problem solving and critical thinking.",
+        "interests": [
+            "Artistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TR588",
+        "title": "Linguistics/Modern Language",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 498,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Linguistics\nStudents of Linguistics engage in evidence-based analysis of language, acquiring skills and techniques that allow investigation of different aspects of language structure such as sound, words and grammar. This involves key transferable skills in problem solving and critical thinking.\nModern Language\nWithin the Modern Languages programme you study two modern European languages. It is the most intensive exposure to languages and cultures that Trinity College has to offer. You can choose between French, German, Irish, Italian, Russian and Spanish. Apart from French and Irish all languages can be studied from both advanced and beginners level",
+        "interests": [
+            "Artistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TR589",
+        "title": "Linguistics/Philosophy",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 498,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Linguistics\nStudents of Linguistics engage in evidence-based analysis of language, acquiring skills and techniques that allow investigation of different aspects of language structure such as sound, words and grammar. This involves key transferable skills in problem solving and critical thinking.\nPhilosophy\nThis course offers the opportunity to engage in depth with questions of metaphysics (about the fundamental nature of reality), epistemology (the theory of knowledge), ethics (theories of right and wrong), political philosophy (the nature of the just state), philosophy of religion (reasoning about God), philosophy of mind (questions about thought, language and reason) and various other areas.",
+        "interests": [
+            "Artistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TU907",
+        "title": "Logistics & Supply Chain Management",
+        "college": "TU Dublin - Aungier Street",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 260,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Logistics is the management of the flow of goods, information, and other resources including energy and people, between the point of origin and the point of consumption, in order to meet the requirements of consumers.The graduate will be provided with the wide-ranging knowledge and skills necessary to function as an effective professional in a national and international context, and will display a capacity for critical enquiry, capable are working in an environment of persistent change.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "TR034",
+        "title": "Management Science and Information Systems Studies",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 625,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Students learn how to use techniques from disciplines such as business, mathematics, computer science, statistics and management science to solve real world problems. There is also a firm emphasis on interpersonal skills such as verbal communication, interviewing, teamwork and report writing.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TU805 - TU823",
+        "title": "Manufacturing & Design Engineering",
+        "college": "TU Dublin - Bolton Street",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 490,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Engineering discipline are manufacturing technology and design for manufacture combined with business and enterprise management. In this course, you’ll acquire the right mix of technical, managerial and communication skills that will equip you for a wide range of careers in a broad spectrum of industries.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "SE725",
+        "title": "Manufacturing Engineering",
+        "college": "SETU Waterford Campus",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 322,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Engineering in Manufacturing Engineering is a three year level 7 programme. Graduates are trained in the core areas of mechatronics, robotics, production plant, power systems, engineering design, manufacturing technology, operations and quality management.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AU650",
+        "title": "Manufacturing Engineering Design",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 327,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme will deliver high quality manufacturing engineering graduates to support the local, national, and international manufacturing and service industries. It will provide the opportunity for prospective students to gain transferable knowledge and skills in order to develop rewarding and progressive careers.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "MT765",
+        "title": "Marine Electrotechnology",
+        "college": "National Maritime College of Ireland (NMCI)",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 226,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "An Electro-technical officer (ETO) operates, maintains and calibrates all electrical, electronic and ship’s equipment. The ETO’s role is not restricted to the engine room and they may also work on complex systems located throughout any vessel. This is an exciting programme to cater for the growing need on board ship for a specialist in electrical/electronic/networking systems.",
+        "interests": [
+            "Realistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "MT764",
+        "title": "Marine Engineering",
+        "college": "National Maritime College of Ireland (NMCI)",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 218,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The function of the marine engineer is to operate and maintain the engines, boilers, generators and other systems of ships. Most of the mechanical equipment aboard ship is operated and maintained by marine engineers. This course aims to provide a sound knowledge base of marine engineering.",
+        "interests": [
+            "Realistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "GY310",
+        "title": "Marine Science",
+        "college": "University of Galway - UG",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 440,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Marine Science encompasses the study of marine life and environments, how they are formed and evolve, and how they are affected by human activity. Topics covered in this programme include marine biology, earth science, chemistry and experimental physics, mathematics, statistics, oceanography, meteorology, botany, geology and microbiology.",
+        "interests": [
+            "Realistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "DB531",
+        "title": "Marketing",
+        "college": "Dublin Business School - DBS",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 269,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BA (Hons) Marketing focuses on core areas of marketing such as communications, planning, management, consumer behaviour, services marketing, marketing research, strategic marketing digital marketing and events marketing. It aims to develop learners' knowledge of the theory and practice of marketing, necessary for them to secure employment and perform in all key areas of marketing in a broad range of employment environments.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TU675",
+        "title": "Marketing",
+        "college": "TU Dublin - Aungier Street",
+        "region": "Dublin",
+        "duration": "2 Years",
+        "nfqLevel": 6,
+        "points": 0,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TU922",
+        "title": "Marketing",
+        "college": "TU Dublin - Aungier Street",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 380,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "In this course, you can acquire the knowledge, skills and competencies you need to function as a high-calibre marketing professional, both nationally and internationally.\nYou’ll be able to communicate and articulate a company’s vision, using digital and traditional marketing communication methods, and to design and implement marketing strategies and plans to ensure success",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "MT943",
+        "title": "Marketing",
+        "college": "MTU Cork Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 341,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "As a person-focused role, marketers are equipped with a broad skillset including, research, pricing, communication, branding, and psychology. This has served to make it a very enriching and engaging career choice with marketers acting as the public interface of a company and its products. Areas of specialism include digital marketing, social marketing, fashion marketing, and sports marketing all of which are skills in popular demand.",
+        "interests": [
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "MH404 MKT",
+        "title": "Marketing",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 - 4 Years",
+        "nfqLevel": 8,
+        "points": 400,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Marketing helps you understand where, when, and how to spend your marketing budget to the greatest effect; how to plan market research, develop strategic marketing plans, and create persuasive communications, while considering the needs of a multicultural, international business environment; and how marketing fits into the operations and strategy of a firm as a whole. You will also gain insights into Business as a whole, taking key modules in Management to complement your Marketing studies.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DB518",
+        "title": "Marketing (Digital Marketing)",
+        "college": "Dublin Business School - DBS",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 235,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This stream was developed in close discussion with practitioners from the communications and marketing industry and is ideal for those interested in building a career in marketing and communications within a technological skill base. It provides students with an opportunity to develop marketing skills, whilst also allowing them to develop digital marketing skills in an ever changing business environment.",
+        "interests": [
+            "Enterprising",
+            "Artistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "DB517",
+        "title": "Marketing (Event Management)",
+        "college": "Dublin Business School - DBS",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 265,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Event management professionals are widely seen as important to the development and success of Irish business and the tourism industry. This stream will provide graduates with a blend of knowledge and skills to equip them for employment in positions in marketing and/or event management, or will alternatively enable them to proceed to postgraduate study.The central focus of this programme is on specialist marketing and event management subjects. The programme also features a number of relevant business subjects, which extend the field of study to the broader business environment within which the event management and marketing functions are positioned.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU904",
+        "title": "Marketing",
+        "college": "ATU Sligo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 300,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Skilled marketers are in high demand in Ireland and across the globe. With more business taking place online, now more than ever, our graduates are highly employable. The broad marketing knowledge gained on this programme equips graduates with the skills for an exciting career in lots of different marketing and business areas.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU802",
+        "title": "Marketing",
+        "college": "ATU Sligo",
+        "region": "Connacht",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 232,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Skilled marketers are in high demand in Ireland and across the globe. With more business taking place online, now more than ever, our graduates are highly employable. The broad marketing knowledge gained on this programme, equips graduates with the skills for an exciting career in lots of different marketing and business areas.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "SE410",
+        "title": "Marketing and Digital Media",
+        "college": "SETU Waterford Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 300,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BA (Hons) in Marketing & Digital Media is a four year degree course, which prepares students for employment in marketing in the digital age. The first two semesters consist of general marketing and business subjects and then students study the specific marketing, advertising & media subjects from semesters 3-8.",
+        "interests": [
+            "Enterprising",
+            "Artistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "MH404 MGC",
+        "title": "Marketing and Global Cultures",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 or 4 Years",
+        "nfqLevel": 8,
+        "points": 400,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "An essential challenge for businesses in Ireland is how they can connect the capabilities of our workforce to contribute to solutions for people who are largely in markets outside Ireland, across the EU and the wider global community. Business needs graduates who can both understand the fundamentals of how to create value for customers and how to translate them into solutions and services that fit the needs of diverse cultures.",
+        "interests": [
+            "Enterprising",
+            "Artistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "DK853",
+        "title": "Marketing and International Tourism Management",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 262,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course combines tourism management with specialist marketing areas such as brand management, international business, and experience marketing. Tourism specific modules will develop an understanding of the complex issues facing a contemporary national and international tourism industry, while business and management modules will develop critical transferable skills in business, marketing, management, finance, and data analysis.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "US612",
+        "title": "Marketing and Management",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "2 Years",
+        "nfqLevel": 6,
+        "points": 216,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "A new Business Studies degree prepares students for employment at management level in a broad range of modern businesses, close to home or anywhere in the world. We explore practical, real-world applications of business principles through hands-on projects, work-based learning and small class sizes. With a wide range of subject choices and assessment types available on this course, students become independent and innovative thinkers, and develop their own views on society and how to shape the world of business into the future.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "US851",
+        "title": "Marketing and Management",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 244,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This newly designed and modern degree prepares students for employment at management level in a broad range of modern businesses, close to home or anywhere in the world. We explore practical, real-world applications of business principles through hands-on projects, work-based learning and small class sizes. With a wide range of subject choices and assessment types available on this course, students become independent and innovative thinkers, and develop their own views on society and how to shape the world of business into the future.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU503",
+        "title": "Marketing and Sales",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 238,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This three year level 7 course offers you a pathway to an exciting career in marketing and sales. You will graduate from this course with a solid foundation in the key discipline areas of marketing. You will also have the opportunity to enhance your employment potential through work based projects and a work placement.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU603",
+        "title": "Marketing and Sales",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 300,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This four year honours degree prepares you for an exciting career in marketing and sales. Students graduate from this course with the key skills, knowledge, and competencies required to work in variety of business settings from small businesses to multinational corporations.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "NC020",
+        "title": "Marketing Practice",
+        "college": "National College of Ireland - NCI",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 226,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "NCI’s BA (Honours) in Marketing Practice is a practical, hands-on degree that covers all the core marketing subjects such as brand management, consumer behaviour, digital marketing and entrepreneurship.\nThe final year concludes with an exciting capstone project, where you will work in teams developing real live business plans and platforms, where you will be expected to source products, develop marketing, communications and branding strategies in order to bring your ideas potential marketisation.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU302",
+        "title": "Marketing with Online Technologies",
+        "college": "ATU Donegal",
+        "region": "Ulster",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 300,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This new marketing with online technologies degree responds to the disruption that has taken place in the marketing discipline. It seeks to develop marketing graduates that are equipped with the requisite skills for Industry 4.0 recognising that marketing graduates must now possess the requisite skills for the dynamic digitised economy. The aim of this programme is to equip learners with the capabilities to excel in the dynamic and global marketing environment. It will develop marketing graduates who are innovative in their approach, and have the capacity to act as catalysts for marketing growth in organisations.",
+        "interests": [
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "DC240",
+        "title": "Marketing, Innovation and Technology (MINT)",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 487,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor’s of Marketing, Innovation and Technology (MInT) can help you to be a marketing leader of the future. The degree prepares you to hit the ground running in any organisation that is committed to growing their business through technology, marketing and innovation.​​ By the end of your four years of studying MInT in DCU, you will be part of a network of ambitious, well-rounded classmates who are keen to tackle a wide range of social causes and business opportunities",
+        "interests": [
+            "Enterprising",
+            "Artistic",
+            "Social"
+        ]
+    },
+    {
+        "id": "GY319",
+        "title": "Mathematical Science",
+        "college": "University of Galway - UG",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 542,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This honours degree programme provides students with a solid foundation in Mathematical Science, encompassing all aspects of mathematics and its applications. Students will have the opportunity to specialise in particular areas, for example in mathematics, applied mathematics, financial mathematics, computer science, statistics and bioinformatics.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "CK407",
+        "title": "Mathematical Sciences",
+        "college": "University College Cork - UCC",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 577,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mathematical Sciences, both as a language and as a body of knowledge and technique, have provided the fundamental underpinnings of science and technology for centuries. Today, its influence stretches beyond the physical sciences and engineering into medicine, business and finance, the life sciences, and the social sciences. Mathematical Sciences are also studied for the elegance of their ideas and the intellectual challenges they pose.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TR031",
+        "title": "Mathematics",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 578,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one’s logical reasoning, quantitative skills and problem-solving techniques.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "MI002 MAT",
+        "title": "Mathematics - Arts",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 280,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The mathematics programme includes several modules in the main branches of pure mathematics: Analysis (calculus in one and in several variables), Algebra (elementary number theory, linear algebra and abstract algebra) and Geometry. Relevant applications of mathematical theory are included in course modules and there are complete modules on computational mathematics and on statistics.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "LM124",
+        "title": "Mathematics (Common Entry)",
+        "college": "University of Limerick - UL",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 454,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "In UL the focus is on applied Mathematical sciences, where  Mathematics and Statistics are used to solve problems that arise in science, engineering, industry, finance or society. Applied mathematical and statistical modelling is a philosophy of asking, and trying to understand, how things work. A problem or phenomenon of some sort occurs and Mathematics and Statistics are used to explain, to understand and ideally to improve it. \nIn the first semester, you will study calculus, linear algebra and computer programming and can choose from a selection of other modules, including physics and economics, before deciding whether to pursue a degree in. Mathematical Sciences, Mathematics and Physics; or Economics and Mathematical Sciences.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "DN700 TSC",
+        "title": "Mathematics (Social Sciences Two Subject Combination)",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 490,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mathematics has long played a central role in our quest to fully describe and understand the natural world. Nowadays, it is also a vital tool in many of the social sciences. Those who concentrate on this subject will gain an understanding of mathematical concepts and learn how to prove key facts and solve problems using deductive reasoning.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "MH212 MED",
+        "title": "Mathematics (with Education)",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 420,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "If you would like to graduate with a second level teacher qualification to teach Mathematics and Applied Mathematics then the BSc Mathematics (with Education) is for you.",
+        "interests": [
+            "Social",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "LM097",
+        "title": "Mathematics and Computer Science with concurrent Teacher Education",
+        "college": "University of Limerick - UL",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 455,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree, with a specialism in teaching Mathematics and Computer Science, is designed to produce graduates with the mathematical knowledge and skills to satisfy the needs of Irish Second-level schools in teaching the Maths curriculum. Graduates will also be qualified to teach the new Leaving Certificate Computer Science curriculum, as well as short courses in coding and digital literacy for junior cycle.",
+        "interests": [
+            "Investigative",
+            "Social"
+        ]
+    },
+    {
+        "id": "DK823",
+        "title": "Mathematics and Data Science",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 325,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The course builds strong foundational knowledge in the areas of Mathematics, Statistics and Programming. Well-rounded computing skills are developed allowing students to focus in on high-tech areas within the data and computing domains.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TU874",
+        "title": "Mathematics and Statistics",
+        "college": "TU Dublin - Grangegorman",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 381,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mathematical Sciences encompasses most areas of mathematics and statistics. In this course, you’ll acquire high-calibre analytical, problem-solving skills and the ability to apply a broad range of mathematical techniques and rigour to countless applications and industries.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TR597",
+        "title": "Mathematics/Modern Language",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 613,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "MathematicsMathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one’s logical reasoning, quantitative skills and problem-solving techniques.You can choose between German, Irish, Italian, Russian and Spanish. Apart from French and Irish all languages can be studied from both advanced and beginners level.",
+        "interests": [
+            "Artistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TR598",
+        "title": "Mathematics/Music",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 613,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mathematics\nMathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one’s logical reasoning, quantitative skills and problem-solving techniques.\nMusic\nStudying music will allow you to engage with a range of traditions to acquire a profound understanding of how music works in theory and in creative practice. If you are interested in understanding music’s place in society, developing music technology skills, writing music, or improving your skills as an informed performer, this course could be for you.",
+        "interests": [
+            "Investigative",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TR599",
+        "title": "Mathematics/Philosophy",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 613,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mathematics\nMathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one’s logical reasoning, quantitative skills and problem-solving techniques.\nPhilosophy\nThis course offers the opportunity to engage in depth with questions of metaphysics (about the fundamental nature of reality), epistemology (the theory of knowledge), ethics (theories of right and wrong), political philosophy (the nature of the just state), philosophy of religion (reasoning about God), philosophy of mind (questions about thought, language and reason) and various other areas.",
+        "interests": [
+            "Investigative",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "MH212 MCS",
+        "title": "Maths and Computer Science (with Education)",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 420,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "If you would like to graduate with a second level teacher qualification to teach Mathematics and Computer Science then the BSc Mathematics and Computer Science (with Education) is for you.",
+        "interests": [
+            "Social",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "DC195",
+        "title": "Mechanical & Manufacturing Engineering",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 542,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Can you imagine designing and building a better electric vehicle, jet engine or wind turbine? Maybe you’ve figured out a way to improve inhalers or door handles. If you’re fascinated by how things work and are made, enjoy getting caught up in the details, and thrive as part of a team, choose Mechanical and Manufacturing Engineering. Our students take things apart, figure out how they work and how to fix or improve them, then put them back together again. You’ll get to use 3D printers and other advanced tools in DCU’s state-of-the-art labs, while also absorbing engineering theory. It is at heart a maths-based course, but you’ll also gain extensive skills and knowledge in engineering mechanics, computer simulation and analysis, design and manufacture, and project management. In third year, you’ll do an eight-month work placement in industry and you also have the opportunity to study abroad. And you can extend your undergraduate BEng programme by a year to complete a masters degree.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "SE712",
+        "title": "Mechanical & Manufacturing Engineering",
+        "college": "SETU Waterford Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 272,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This is a broad area focusing on the design and development of products and processes.  Mechanical engineering has a strong product and equipment design element, while manufacturing engineering analyses the processes and systems required to produce goods.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "MT834",
+        "title": "Mechanical and Manufacturing Engineering",
+        "college": "MTU Kerry Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 614,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "Mechanical and Manufacturing Engineering is a blended degree that brings in the best of manufacturing and mechanical engineering, culminating in flexible and adaptable engineers to meet industry needs. The REEdI student engineer will learn about the design and development of processes whilst also gaining an equally strong knowledge of the design, development and operation of products and equipment.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "US913",
+        "title": "Mechanical and Polymer Engineering",
+        "college": "TUS Midlands",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 302,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The honours degree in polymer and mechanical engineering is offered in response to the demand for highly skilled graduates with training in mechanical engineering fundamentals, emphasising specific technologies and methodologies associated with polymer engineering.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "DC194",
+        "title": "Mechanical and Sustainability Engineering",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 533,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Transitioning to zero carbon is one of the biggest challenges faced by humanity. Students who do this innovative programme will be ready to tackle the huge challenges thrown up by climate change, while also being mindful of the environmental impact of any engineering work they do.This programme merges practical engineering with theory. It provides rigorous engineering training and will be accredited by Engineers Ireland, but it also encompasses extensive learning around climate and sustainability issues. If you care deeply about the environment, but would also like to finish university as a mechanical engineer with additional skills in sustainability, this is the perfect course for you.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "MT736",
+        "title": "Mechanical Engineering",
+        "college": "MTU Cork Campus",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 320,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course has a strong emphasis on the practical side of mechanical engineering, exposing the student to many “hands on” modules in workshops and laboratories. Modules on the course are grouped into streams that run over the three years: Workshop Practice, Mechatronics, Mechanical Design and Computer Aided Engineering, Mechanics, Thermofluids, Materials, Management, Projects, Mathematics and Elective Options.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "MT836",
+        "title": "Mechanical Engineering",
+        "college": "MTU Cork Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 466,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Design and project work is a major feature of the course. The Innovative Project Development modules in Year 3 enable students, working in teams, to bring a concept from the idea stage through to a finished prototype, considering the technical performance and commercial potential of their designs.\nThere is a mixture of continuous assessment and a series of semesterised exams. In the final year each student undertakes an individual project involving research, design, prototype development and experimental verification to meet a real need.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "TU717",
+        "title": "Mechanical Engineering",
+        "college": "TU Dublin - Bolton Street",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 330,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mechanical engineering is the discipline that applies engineering, physics, engineering mathematics, and materials science principles to design, analyse, manufacture and maintain mechanical systems.This course will open up for you a wide range of opportunities in all industries. It stresses the fundamentals while embracing the changes in advanced technology.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "GY405",
+        "title": "Mechanical Engineering",
+        "college": "University of Galway - UG",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 566,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mechanical Engineering is a subject concerned with the design and manufacture of parts and systems that make up the range of machinery and equipment you see around you, from a can opener to a jet aircraft. Mechanical engineers design the tools and processes necessary to create all man-made products, and are often involved from conceiving of an idea right through to seeing it as a finished product ready for its commercial application.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "US771",
+        "title": "Mechanical Engineering",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 301,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme provides students with a broad understanding of Mechanical Engineering technology allowing students to enter the job market as an Associate Level Engineer or to pursue further education such as the Level 8 Bachelor of Mechanical Engineering (Honours) at TUS. The programme focuses on the practical aspects of Mechanical Engineering, such as Computer Aided Design, Engineering Processes and Maintenance, Refrigeration and Air Conditioning, Plant Engineering, Instruments and Control, etc. Mechanical Engineers apply sophisticated computer based tools and equipment such as Computer Aided Design (CAD), robotics and computer controlled manufacturing systems to aid the quality and speed of machinery production.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "SE731",
+        "title": "Mechanical Engineering",
+        "college": "SETU Waterford Campus",
+        "region": "Munster",
+        "duration": "2 Years",
+        "nfqLevel": 6,
+        "points": 200,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mechanical Engineering is the branch of engineering that deals with the design and manufacture of machinery and tools. Mechanical engineers use applied maths and science to design a wide range of machines, from domestic household appliances to sophisticated machines such as aircraft and automobiles.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "SE724",
+        "title": "Mechanical Engineering",
+        "college": "SETU Carlow Campus",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 368,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mechanical Engineering is one of the most diverse of the engineering disciplines. It deals with the design and manufacture of everything, from small individual parts and devices like the inkjet nozzle, to large systems such as spacecraft. The role of a mechanical engineer is to take ideas from concept to physical reality.\nIt requires specialist engineering knowledge combined with creative thinking, problem solving, team working and analytical skills.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "SE711",
+        "title": "Mechanical Engineering",
+        "college": "SETU Carlow Campus",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 433,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mechanical Engineering is one of the most diverse of the engineering disciplines. It deals with the design and manufacture of everything, from small individual parts and devices like the inkjet nozzle, to large systems such as spacecraft. The role of a mechanical engineer is to take ideas from concept to physical reality. It requires specialist engineering knowledge combined with creative thinking, problem solving, team working and analytical skills.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "US911",
+        "title": "Mechanical Engineering",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 337,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme focuses on the practical aspects of Mechanical Engineering, such as Computer Aided Design, Engineering Processes and Maintenance, Refrigeration and Air Conditioning, Plant Engineering, Instruments and Control, etc. Mechanical Engineers apply sophisticated computer based tools and equipment such as Computer Aided Design (CAD), robotics and computer controlled manufacturing systems to aid the quality and speed of machinery production. This programme is taught with a practical, hands-on approach, giving students the skills needed for the employment market.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "SE723",
+        "title": "Mechanical Engineering",
+        "college": "SETU Waterford Campus",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 204,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mechanical engineering is the branch of engineering that deals with the design and manufacture of machinery and tools. Mechanical engineers use applied maths and science to design a wide range of machines, from domestic household appliances to sophisticated machines such as aircraft and automobiles.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "DK844",
+        "title": "Mechanical Engineering",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 287,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course will allow students to test the limits of what is possible with maths and creativity and give them the skills and competencies that will allow you to contribute to local and international industry. Course topics include mechanics, fluids, heat, mathematics, materials, manufacturing, and computer-aided design.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "TU725",
+        "title": "Mechanical Engineering",
+        "college": "TU Dublin - Tallaght",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 0,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Engineers are in extremely high demand right now in Ireland and globally with exponential growth in job opportunities, especially in the Mechanical and Biomedical sector.\nEngineering graduates are trained to be creative and inventive, and to solve difficult problems such as the development of new technologies from jet engines to robots to artificial hip implants to hybrid cars and train components.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "TU805 - TU822",
+        "title": "Mechanical Engineering",
+        "college": "TU Dublin - Bolton Street",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 490,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course in Mechanical Engineering will give you the knowledge and competencies that you can apply in many fields of industry and research, including an excellent foundation in engineering science and maths, advanced design theory and practice, high-quality project work and practical workshop/laboratory hands-on skills.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "US910",
+        "title": "Mechanical Engineering",
+        "college": "TUS Midlands",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 278,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mechanical engineering is about putting ideas into action. It is about inventing, designing, developing, manufacturing and maintaining products, equipment and machinery of all kinds. Mechanical engineers use their knowledge of materials, mechanisms, power, energy and manufacturing technology to produce specifications for their designs and to see those designs become a reality. This course is a result of comprehensive industry engagement defining future needs regionally and nationally. The course will equip learners with the theoretical knowledge and hands-on practical expertise demanded by leading global employers to work in this constantly evolving field.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AU545",
+        "title": "Mechanical Engineering",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 283,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mechanical Engineers contribute to the design and manufacture of all types products, ranging from cars to toys, mobile phones and even heating systems.\nThey work in research & development, manufacturing, maintenance and building services. As a student on the Mechanical Engineering course in GMIT, you will build a fundamental knowledge of engineering science including physics, electrical, chemical and materials engineering. You will learn how to design, manufacture and maintain processes and products that perform efficiently and reliably in everyday use, by focusing on three main areas: Design using 3D modelling and simulation softwares, Manufacturing technologies and the integration of CAD/CAM, Automation from process control to programming of robotic arms.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AU645",
+        "title": "Mechanical Engineering",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 441,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mechanical Engineers contribute to the design and manufacture of all types products, ranging from cars to toys, mobile phones and even heating systems. They work in research & development, manufacturing, maintenance and building services. As a student on the Mechanical Engineering course in GMIT, you will build a fundamental knowledge of engineering science including physics, electrical, chemical and materials engineering. You will learn how to design, manufacture and maintain processes and products that perform efficiently and reliably in everyday use, by focusing on three main areas: Design using 3D modelling and simulation softwares, Manufacturing technologies and the integration of CAD/CAM, Automation from process control to programming of robotic arms.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "TU828",
+        "title": "Mechanical Engineering (General Entry)",
+        "college": "TU Dublin - Tallaght",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 358,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Engineers are in extremely high demand right now in Ireland and globally with exponential growth in job opportunities, especially in the Mechanical, Automation and Biomedical sector.\nEngineering graduates are trained to be creative and inventive, and to solve difficult problems such as the development of new technologies from jet engines to robots to artificial hip implants to hybrid cars and train components.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AU251",
+        "title": "Mechanical Engineering",
+        "college": "ATU Donegal",
+        "region": "Ulster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 271,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our Bachelor of Engineering in Mechanical Engineering is a three-year course where you will immerse yourself in a world of innovation and possibilities. If it moves, you can be sure that a mechanical engineer is at the heart of that movement, harnessing their skills to bring machines and equipment to life.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AU350",
+        "title": "Mechanical Engineering",
+        "college": "ATU Donegal",
+        "region": "Ulster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 384,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our Bachelor of Engineering (Hons) in Mechanical Engineering will develop your understanding of how design and technology solve real world problems. This four-year programme will empower you with the relevant technical and managerial skills to embark on careers in the design, application, installation, manufacturing, operation and maintenance of a wide range of mechanical systems.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AU833",
+        "title": "Mechanical Engineering",
+        "college": "ATU Sligo",
+        "region": "Connacht",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 271,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our Mechanical Engineering degree provides students with the skills, knowledge, and competencies required to begin a career in mechanical and manufacturing engineering. This degree enables students to understand and apply the principles of mathematics, science, physics, and the various mechanical engineering technologies, as well as practising design processes and techniques.\nThis programme is designed to address the needs of industry by supplying skilled technicians who have developed a diverse set of skills. Students have access to state-of-the-art facilities, including comprehensive material and testing laboratories, industry standards software in CAD/CAM, automation equipment, traditional manufacturing workshops, and 3D printers as well as advanced CNC machines.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AU943",
+        "title": "Mechanical Engineering",
+        "college": "ATU Sligo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 409,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This is a modern programme that prepares students for a broad range of career choices, some of which may not yet even exist, in the fields of mechanical and manufacturing engineering. Through a combination of theory, practicals, and workshops, students gain up to date knowledge of engineering principals, and learn how to apply these to solve real world problems. Students are also be asked to consider issues such as ethics and sustainability. It addresses the major skills shortage in the manufacturing sector both nationally and internationally. This programme enables students to understand the principles of mechanics, thermodynamics, fluid mechanics, material sciences, electronics, automation, information technology and computer aided engineering.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "US912",
+        "title": "Mechanical Engineering with Energy",
+        "college": "TUS Midlands",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 308,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mechanical Engineering with Energy offers a unique blend of career opportunities, personal fulfilment, and the chance to make positive impacts on the world by addressing energy challenges. This TUS Midlands course is ideal for students interested in the intersection of mechanical engineering and energy technology, as it equips them with the skills and knowledge needed to address contemporary energy challenges, including sustainability and environmental considerations. Graduates of such programs can pursue careers in various industries, including energy production, renewable energy, HVAC systems design, and more.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "TU810",
+        "title": "Mechatronic Engineering",
+        "college": "TU Dublin - Blanchardstown",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 301,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mechatronics is defined as a combination of mechanics and electronics which is controlled by computers. This includes designing robots or machines for various purposes; from the space rovers which explore planets, to auto-focusing digital cameras.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "DC193",
+        "title": "Mechatronic Engineering",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 533,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course all about how we build intelligent machines through the meeting of mechanical systems such as engines and machines with the electronics needed to control them.This course perfectly blends mechanical engineering and electronic engineering. It offers classes in 3D modelling and design, for example, as well as circuit design and programming. Our students and staff are intrigued and inspired by the interplay between electronics and moving parts in connected devices and state-of-the-art machinery.Gain knowledge for the real world In third year, you’ll get to do a six-month INTRA work placement and throughout the course, you’ll do lots of project-based learning where you use the latest real-world tools and technologies to solve problems and, of course, build robots. That’s not all. You’ll also take some business-based modules, so you can learn how to develop a business plan and work with other parts of an enterprise. While you can go on from this course to work in either mechanical or electronic engineering, our graduates typically end up in roles where they incorporate one into the other. For example, they might put sensors into a machine to measure aspects of how it’s working or develop control systems for a lift or a car. Either way, mechatronics graduates are in huge demand.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AU831",
+        "title": "Mechatronic Engineering",
+        "college": "ATU Sligo",
+        "region": "Connacht",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 309,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Mechatronics is the combination of mechanical, electronic, robotic and software engineering systems that are used in modern manufacturing industries. Mechatronic engineers are problem solvers by nature, looking for solutions to sometimes difficult engineering applications. This programme offers both an applied and practical-based approach with content that develops industry-relevant and sought-after skills. It is designed to address the needs of industry by supplying skilled technicians who have developed a diverse set of skills in machine design, sensor technology, control systems, computing and industrial networks",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "MI002 MCS",
+        "title": "Media & Communication Studies - Arts",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 280,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The programme in Media and Communication Studies gives you a solid foundation in theory and in hands-on, production practice so that you are equipped to follow these graduates into the media industry in Ireland and beyond.\nThe programme is designed to present a broad, integrated approach to the study and practice of media and communication systems both old and new. Students develop a critical understanding of the nature of the Media. We look at the development, structure and organisation of Irish and global media institutions, including the music industry, new media, radio, television and film.",
+        "interests": [
+            "Enterprising",
+            "Artistic",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "TU982",
+        "title": "Media Production and Digital Arts",
+        "college": "TU Dublin - Tallaght",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 283,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Working in a studio-based environment, our hands-on production modules and specialist workshops focus on digital content creation and will have you thinking, designing and creating right from the start. This degree is designed to be fluid, responding to both your interests and the ever-changing industry landscape. With a complementary suite of practical and theoretical modules, all aspects of the course inform and are informed by each other.",
+        "interests": [
+            "Artistic",
+            "Investigative"
+        ]
+    }
+]

@@ -1,0 +1,1521 @@
+[
+    {
+        "id": "AU900",
+        "title": "Business",
+        "college": "ATU Sligo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 281,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree is designed to ensure our graduates have the capabilities and skills for the current dynamic and challenging business environment. Students study core business areas throughout their studies before choosing their specialist stream in Year 4. Students choose between Finance, Marketing or Human Resource Management in their final year. This offers students the flexibility to explore various aspects of business before committing to a specialism. This programme looks at the broader business world and is perfect for a student looking to obtain a diverse range of skills and learn what area of business is for them.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "AU800",
+        "title": "Business",
+        "college": "ATU Sligo",
+        "region": "Connacht",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 179,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This three-year degree produces graduates with a blend of business-related knowledge and skills. Graduates are equipped with knowledge in core business areas. Individual and group projects are an integral part of the programme which develop skills required for business such as analysis, team work, presentation and professional business skills. This degree will position students for jobs at graduate entry level in business or the option to continue their studies in a broad range of business disciplines.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "US842",
+        "title": "Business",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 253,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our Business programmes educate students in a broad range of business principles and functions, providing a solid understanding of the modern business world. Coupled with an opportunity to undertake a semester long work placement at the during third year means that, on graduation, our students are equipped with the necessary core knowledge and skills to contribute immediately and effectively to any organisation.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "US721",
+        "title": "Business",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 196,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our Business programmes educate students in a broad range of business principles and functions, providing a solid understanding of the modern business world. Coupled with an opportunity to undertake a semester long work placement at the during third year means that, on graduation, our students are equipped with the necessary core knowledge and skills to contribute immediately and effectively to any organisation.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "AU901",
+        "title": "Business & ICT",
+        "college": "ATU Sligo",
+        "region": "Connacht",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 326,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This three year honours degree provides students with the skills to identify business challenges, find technological solutions, manage technology projects and analyse business data. Businesses today are finding it difficult to see how they can use the opportunities presented by digital technologies to transform their business. We have designed this programme to equip graduates with the skills to help support and lead a business through this digital transformation.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "TU912",
+        "title": "Business Analytics",
+        "college": "TU Dublin - Aungier Street",
+        "region": "Dublin",
+        "duration": "4 years",
+        "nfqLevel": 8,
+        "points": 338,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Business Analytics is about converting business data into valuable information through the use of statistical techniques and advanced software. It provides a set of analytical methods for solving problems and aiding decision-making, particularly in the context of large quantities of data. Combining such analysis with intuition can provide insights to businesses and public sector organisations and help them achieve their objectives.",
+        "interests": [
+            "Investigative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "MH407",
+        "title": "Business and Accounting",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 - 4 Years",
+        "nfqLevel": 8,
+        "points": 401,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Studying Business and Accounting together helps you develop an excellent set of technical accounting skills, coupled with a thorough appreciation of the world of business and management. Accounting and finance need to support the implementation of a business strategy to create and capture value for and from customers. The Business element of this degree gives students an appreciation of the core functions of a business and how they interact to create and capture value.",
+        "interests": [
+            "Conventional",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "DL848",
+        "title": "Business and Digital Technology",
+        "college": "Institute of Art, Design and Technology Dun Laoghaire - IADT",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 219,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree equips graduates for the changing business world and is designed to develop an agile set of future-facing responsive skills. Specifically, graduates will act as the link/bridge between the technology developers and clients and users.\nThis course will create graduates who understand the digital technology underpinning business and have the communication skills and are business savvy to move seamlessly between key stakeholders in digital businesses.",
+        "interests": [
+            "Investigative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "TU674",
+        "title": "Business and Finance",
+        "college": "TU Dublin - Aungier Street",
+        "region": "Dublin",
+        "duration": "2 Years",
+        "nfqLevel": 6,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course will provide you with a solid grounding in general business and competencies in key areas such as finance, economics and accounting.You’ll gain knowledge and skills in a broad range of business-related modules, including Accounting, Finance, Management, Marketing and Information Systems, and be able to apply this knowledge to different environments and industries. You’ll also develop good communication and writing skills.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "AU906",
+        "title": "Business and Irish",
+        "college": "ATU Sligo",
+        "region": "Connacht",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 307,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This three-year honours degree programme is a joint collaboration developed between St Angela’s College and ATU Sligo. It covers the disciplines of Business and Irish simultaneously and equally. The Business strand is undertaken through the medium of English, and the Irish strand through the medium of Irish. Opportunities occur to marry both subjects throughout the degree. Graduates of this programme have the knowledge, skills, and attributes to progress to careers or further study in a variety of fields.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "MH409",
+        "title": "Business and Languages",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 397,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "You choose one business subject (Accounting*, Business Management, International Business or Marketing) and one language (Chinese, French, German or Spanish). You do not need to have studied either business or your chosen language for the Leaving Certificate to take this degree.",
+        "interests": [
+            "Enterprising",
+            "Social",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "DN610",
+        "title": "Business and Law",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 566,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Business & Law (BBL) degree is a popular choice for many students and is extremely well regarded by employers across the legal and financial communities. The degree is a ‘double major’ which means it combines law and business in a single degree, providing an ideal skill-set for the commercial world and offering valuable career flexibility.\nIf you choose this degree, you will undertake business and law modules in equal measure for your first three years in both the UCD Sutherland School of Law and the UCD Quinn School of Business. This allows you to gain a deep understanding of both disciplines while offering you the opportunity to choose in final year which area interests you most for your career progression.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "US848",
+        "title": "Business and Law",
+        "college": "TUS Midlands",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 270,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree combines both law and business providing graduates with a skillset that allows them enter the professions in law, or the versatility and flexibility to enter the commercial and business world. Students will be equipped with the analytical and advocacy skills that arise from legal training, combined with the numeracy and financial literacy of a business degree. This course provides a comprehensive grounding in the fundamental areas of law, including the legal system and the interaction of Irish and European Law. In addition, you will also engage with key areas of business such as marketing and management.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "TU904",
+        "title": "Business and Law",
+        "college": "TU Dublin - Aungier Street",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 455,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The aim of the programme is to develop a high level of intellectual awareness and technical competence in Business and Law. This combined programme in Business and Law was established further to industry recommendation and advice that graduates with such a combination of skills i.e. business acumen and legal knowledge would be invaluable in the contemporary graduate labour market.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "US838",
+        "title": "Business and Law",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 271,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree combines both law and business providing graduates with a skill set that allows them enter the professions in law, or the versatility and flexibility to enter the commercial and business world. Students will be equipped with the analytical and advocacy skills that arise from legal training, combined with the numeracy and financial literacy of a business degree. This course provides a comprehensive grounding in the fundamental areas of law, including the legal system and the interaction of Irish and European Law. In addition, you will also engage with key areas of business such as marketing and management.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DK710",
+        "title": "Business and Management",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 0,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course introduces students to the fundamentals of business management and prepares them with the skills to work managing a modern complex business.\nStudents will learn how to gather, assess, analyse, and present business information, and will study management and global marketing strategies. There is also the option to study another international language.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "TU903",
+        "title": "Business and Management",
+        "college": "TU Dublin - Aungier Street",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 455,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "A diverse range of teaching approaches are adopted including formal lectures with tutorial support, business case-study analysis, debates, role play, industry project work, charity events, simulation exercises, networking events and in-company internship. Of particular note is the opportunity for students to take part in both national and international business strategy case study competitions in the final year of the course.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "MH404 BMA",
+        "title": "Business and Management",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 - 4 Years",
+        "nfqLevel": 8,
+        "points": 400,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Business and Management students will learn how, through business and management practices, they can make a positive difference in the lives of customers, employees, colleagues, organisations and the broader society\nThey are about coordinating the functions of a business to deliver value to the client and capture sufficient returns for staff and owners. We will teach you how to make a difference to the lives of customers, providing goods and services they need across a wide range of industries and countries..",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DK711",
+        "title": "Business and Technology",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 225,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The course will provide students with a comprehensive understanding of the relationship between the two domains of Business and Technology. Students will enhance their tech skills and apply them directly to a global business environment. Graduates of this course will be prepared for a career in the everevolving business landscape, with the opportunity to learn another language.",
+        "interests": [
+            "Conventional",
+            "Enterprising",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TU914",
+        "title": "Business Computing",
+        "college": "TU Dublin - Aungier Street",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 306,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course aims to develop skilled IT professionals with strong software and related skills and a good knowledge of how businesses function.\nIt combines computer studies, particularly software development, with business subjects. On graduating, you’ll combine technical, business and interpersonal skills regarded as being important to industry, and that are in constant demand by employers.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DB572",
+        "title": "Business in Accounting",
+        "college": "Dublin Business School - DBS",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 227,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Business in Accounting programme provides foundation education in the quantitative, computational and analytical skills required in the world of business and accounting.\nStudents learn about the role and operation of accounting in a range of contexts. All major accountancy disciplines are covered including financial and cost accounting, management accounting, auditing and taxation.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DB574",
+        "title": "Business in Information Technology",
+        "college": "Dublin Business School - DBS",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree has been designed to equip future managers with the necessary skills and knowledge that enable them to function effectively within a business environment. As well as providing a firm grounding in all aspects of business, it also introduces students to the key principles of understanding, choosing and managing information systems.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DB573",
+        "title": "Business in Marketing",
+        "college": "Dublin Business School - DBS",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 126,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Business in Marketing aims to develop student understanding of current marketing principles in both business and non-profit contexts, together with their applications in marketing practice.\nThis course is designed to meet the needs of tomorrow's marketing professional and the range of skills fostered will enable students to take advantage of opportunities to progress in a career in marketing management or a range of sub-disciplines such as marketing research or customer service.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU426",
+        "title": "Business in Tourism",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "2 Years",
+        "nfqLevel": 6,
+        "points": 196,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course will prepare you for many of the business roles available in the tourism industry. You will develop skills appropriate to both operational and supervisory levels. The course will also develop entrepreneurial skills to facilitate new business start-ups and, in today’s economic climate, these skills will prove invaluable upon graduation.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Social"
+        ]
+    },
+    {
+        "id": "TU913",
+        "title": "Business Information Systems",
+        "college": "TU Dublin - Blanchardstown",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "CK203",
+        "title": "Business Information Systems",
+        "college": "University College Cork - UCC",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 463,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BSc in Business Information Systems (BIS) specialises in the key skills that are essential to the success of professionals in modern information technology and information systems. The goals of this four-year degree course are to: provide a worthwhile and memorable student experience, join with businesses to ensure BIS students gain cutting-edge skills in business and IT, while also linking with businesses to provide innovative IS-related expertise, and cultivate and apply expertise in teaching, research and development.",
+        "interests": [
+            "Investigative",
+            "Conventional",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "MT944",
+        "title": "Business Information Systems",
+        "college": "MTU Cork Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 351,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Business Information Systems is a comprehensive blend of business and technology subjects that equips students with the skills and knowledge required to develop, manage and use information technology systems and solutions in a variety of business environments.\nThis will include a knowledge of management; digital marketing; financial and management accounting; information communication; technology strategy; computer applications; enterprise resource planning systems, and many more.",
+        "interests": [
+            "Investigative",
+            "Conventional",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "GY206",
+        "title": "Business Information Systems",
+        "college": "University of Galway - UG",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 507,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Business Information Systems (BIS) is an EFMD accredited innovative 4-year undergraduate degree that explores the use of technology in the modern business environment. Incorporating skills development in technology, business and technology management through individual, team and virtual team project work combined with our global learning and industry engagement initiatives.\nIt mixes business subjects such as Accounting, Economics and Marketing with technology-focused subjects such as Databases, Systems Analysis, Cybersecurity and Networks. The BSc (BIS) degree provides you with the ideal platform for a successful career in business.",
+        "interests": [
+            "Investigative",
+            "Conventional",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "SE413",
+        "title": "Business Information Systems",
+        "college": "SETU Waterford Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 319,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Digital transformation is occurring throughout business and industries, nationally and internationally. Digital transformation is a journey that an organisation embarks upon to change its client engagement, creating new business models or enabling its employees to work in a different manner using technology.",
+        "interests": [
+            "Investigative",
+            "Conventional",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "AU502",
+        "title": "Business Information Systems",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 232,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "An understanding of information systems is vital to anyone who wants to work in, or manage, a business. This is a highly practical course, which combines information technology with business subjects. Students will learn how to use the data generated by computer-based information systems in a business context. They will also learn how to design, implement and maintain an array of technologies including the World Wide Web, mobile devices, enterprise systems, social media and cloud computing. This programme aims to develop your understanding of the interaction between IT systems and business to prepare you for graduate positions in business operations and IT projects.",
+        "interests": [
+            "Investigative",
+            "Conventional",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "AU602",
+        "title": "Business Information Systems",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 320,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This four-year Level 8 course prepares you to become a skilled knowledge worker and information systems specialist for tomorrow’s dynamic and global businesses. This programme aims to develop your understanding of the interaction between IT systems and business to prepare you for graduate positions in business operations and IT projects. These roles include jobs like Business Systems Analysts, IT Project Managers, Cloud Support Analysts, IT Consultants, Support Engineers, Database Administrators, Web Developers and many others.",
+        "interests": [
+            "Investigative",
+            "Conventional",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "TU673",
+        "title": "Business Management",
+        "college": "TU Dublin - Aungier Street",
+        "region": "Dublin",
+        "duration": "2 Years",
+        "nfqLevel": 6,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DL823",
+        "title": "Business Management",
+        "college": "Institute of Art, Design and Technology Dun Laoghaire - IADT",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 220,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course successfully combines theory and practice to produce graduates with the solid foundations necessary for a successful business career. There is a focus on experiential, work based learning; and you will do practical projects linked to real business scenarios.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "MH404 BGC",
+        "title": "Business Management and Global Cultures",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 or 4 Years",
+        "nfqLevel": 8,
+        "points": 400,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "An essential challenge for businesses in Ireland is how they can connect the capabilities of our workforce to contribute to solutions for people who are largely in markets outside Ireland, across the EU and the wider global community. Business needs graduates who can both understand the fundamentals of how to create value for customers and how to translate them into solutions and services that fit the needs of diverse cultures.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DB512",
+        "title": "Business Studies",
+        "college": "Dublin Business School - DBS",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 263,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BA (Hons) in Business is designed to give a clearly structured business education that provides a solid foundation for success in a business career. This programme provides a strong grounding in fundamental business concepts, ideas, practices and methodologies.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DB571",
+        "title": "Business Studies",
+        "college": "Dublin Business School - DBS",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 100,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Business (Level 7, 180 ECTS) programme is designed to develop knowledge and skills in the area of general business, marketing, accounting and IT that are in demand in the current labour market.\nIn addition, students will benefit from gaining an understanding of the vital role that effective leadership and communication have in business along with acquiring insights into human resource management, economics, innovation and entrepreneurship.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DC111",
+        "title": "Business Studies",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "3 - 4 Years",
+        "nfqLevel": 8,
+        "points": 510,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Business Studies degree course is designed to give you an introduction to the foundations of business and guide you to a specialisation in economics, management, finance, marketing, HR or business analytics.\nThe four-year course includes an optional 11-month paid work placement that gives you the opportunity to experience working in a real business environment. Alternatively, you can opt to spend a year at one of our partner universities in Europe.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "LM050 BBS",
+        "title": "Business Studies",
+        "college": "University of Limerick - UL",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 444,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Business Studies (BBS) programme will provide you with a broad business education. You will study the core business principles of accounting, economics, risk management and insurance, human resource management and marketing - specialising in one area as your “major” in the second semester of Year 2. Theory will be brought to life through work on practical business projects in addition to an eight month work placement in industry.\nIf you are accepted into LM050 you must first choose which programme you would like to study. This will influence the modules and pathways available to you throughout your time studying. The available programmes are:\n\nBachelor of Business Studies\nBachelor of Business Studies with French\nBachelor of Business Studies with German\nBachelor of Business Studies with Japanese\nBachelor of Business Studies with Spanish (Beginners)\nBachelor of Business Studies with Spanish (Advanced)",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DK816",
+        "title": "Business Studies",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 219,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course equips students with a comprehensive understanding of various aspects of business and commerce. It encompasses the study of fundamental principles, theories, and practices related to economics, finance, management, marketing, and entrepreneurship.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "ID002",
+        "title": "Business Studies",
+        "college": "ICD Business School",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 160,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course is designed to specifically develop and enhance the ability of students to recognise, analyse and solve business problems, often against a background of economic, social and technological change. The programme is designed to be academically coherent and intellectually demanding.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "MI002 BUS",
+        "title": "Business Studies - Arts",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 280,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Business Studies as part of the BA programme will allow you to acquire the necessary skillset to succeed in the business world. You will gain a broad knowledge in business education that you can apply in a corporate or business setting.\nIt will equip you with critical and analytical skills, an understanding of organisational behaviour, structure and the business environment, an ability to research and interpret data and a creative approach to problem-solving.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "GY261",
+        "title": "Business Studies - International Hotel Management",
+        "college": "Shannon College of Hotel Management",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 474,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "The Bachelor of Business Studies in International Hotel Management at Shannon College of Hotel Management gives students the unique opportunity to combine professional practical training, language development, extensive business studies theory and hands on work experience in the international hotel industry.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Social"
+        ]
+    },
+    {
+        "id": "US836",
+        "title": "Business Studies (AI for Enterprise)",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 347,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The business landscape is evolving rapidly, with artificial intelligence (AI) driving unprecedented transformation across industries. The Bachelor of Business degree in Business Studies with a focus on AI for Enterprise equips students with the knowledge and skills to excel in this fast-paced environment. By blending core business principles with practical AI applications, this program bridges the gap between traditional business education and the future of enterprise innovation.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "US835",
+        "title": "Business Studies (AI for Enterprise)",
+        "college": "TUS Midlands",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This new degree is designed to give students a competitive edge with an understanding of AI and its applications in real-world business settings. The business landscape is evolving rapidly, with artificial intelligence (AI) driving unprecedented transformation across industries. This degree in Business Studies with a focus on AI for Enterprise equips students with the knowledge and skills to excel in this fast-paced environment. By blending core business principles with practical AI applications, this program bridges the gap between traditional business education and the future of enterprise innovation.",
+        "interests": [
+            "Investigative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "DB515",
+        "title": "Business Studies (Human Resource Management)",
+        "college": "Dublin Business School - DBS",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 236,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree is designed for those with an interest in people and the people aspects of businesses and organisations. Managers and employees alike can benefit greatly from a better understanding and knowledge of people at work. In addition to providing students with a firm grounding in business, this course provides the knowledge and skills that they need to compete successfully as a human resource specialist in today’s complex and changing world of business.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DB514",
+        "title": "Business Studies (Law)",
+        "college": "Dublin Business School - DBS",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 260,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Law is a vast area of study. Recent high profile domestic cases have focused attention on the need for compliance with legal principles and requirements. These principles dictate the way in which individuals and organisations carry out their daily business. This course is designed for students intending to pursue a business career in areas where a detailed knowledge of law is useful.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "LM050 NPF",
+        "title": "Business Studies (No Preference)",
+        "college": "University of Limerick - UL",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 444,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Business Studies (BBS) programme will provide you with a broad business education. You will study the core business principles of accounting, economics, risk management and insurance, human resource management and marketing - specialising in one area as your “major” in the second semester of Year 2. Theory will be brought to life through work on practical business projects in addition to an eight month work placement in industry. If you are accepted into LM050 you must first choose which programme you would like to study. This will influence the modules and pathways available to you throughout your time studying.\nThe available programmes are:\n\nBachelor of Business Studies\nBachelor of Business Studies with French\nBachelor of Business Studies with German\nBachelor of Business Studies with Japanese\nBachelor of Business Studies with Spanish (Beginners)\nBachelor of Business Studies with Spanish (Advanced)",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "TR085",
+        "title": "Business Studies and French",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 555,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This four year programme offers an exciting way of learning about business concepts, theories and models, in a variety of subject areas, as well as getting to grips in an in-depth and comprehensive manner with another country’s language, its society, culture and business environment.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TR086",
+        "title": "Business Studies and German",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 521,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme aims to provide you with the knowledge and skills necessary to communicate internationally and to understand the social, political and cultural contexts of markets, organisations and management across countries. In addition to studying modules in business, economic and social studies, you will study the society, institutions, culture and civilisation associated with your chosen language. Much of the teaching is provided through the target language. The third year is spent at a university or business school in Germany.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TR089",
+        "title": "Business Studies and Polish",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 476,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme teaches students about business concepts, theories and models, in a variety of subject areas, as well as getting to grips in an in-depth and comprehensive manner with another country’s language, its society, culture and business environment, the third year of which is spent studying abroad.This programme aims to provide you with the knowledge and skills necessary to communicate internationally and to understand the social, political and cultural contexts of markets, organisations and management across countries.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TR087",
+        "title": "Business Studies and Russian",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 433,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme offers an exciting way of learning about business concepts, theories and models, in a variety of subject areas, as well as getting to grips in an in-depth and comprehensive manner with another country’s language, its society, culture and business environment, the third year of which is spent studying abroad.This programme aims to provide you with the knowledge and skills necessary to communicate internationally and to understand the social, political and cultural contexts of markets, organisations and management across countries.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TR090",
+        "title": "Business Studies and Spanish",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 556,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme offers an exciting way of learning about business concepts, theories and models, in a variety of subject areas, as well as getting to grips in an in-depth and comprehensive manner with another country’s language, its society, culture and business environment,the third year of which is spent studying abroad.This programme aims to provide you with the knowledge and skills necessary to communicate internationally and to understand the social, political and cultural contexts of markets, organisations and management across countries.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DC110",
+        "title": "Business Studies International",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 498,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "If your ambition is to have a career in business that gives you international opportunities, then this course could be for you. The Business Studies degree course gives you an introduction to the foundations of business and allows you to specialise in areas such as economics, management, finance, marketing, HR or business analytics. International OpportunitiesThe course not only allows you to develop the skills and knowledge needed for a career in business, it also offers you an exciting intercultural experience and the chance to master another language. The four-year course gives you the chance to spend a year at one of DCU’s partner universities in Austria, Belgium, China, France, Germany, Japan, Mexico or Spain.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "US946",
+        "title": "Business Studies with Beauty and Spa Management",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 269,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course covers both the creative and business aspects of the beauty and spa sector. Learning and practising in well-equipped workshops, you are encouraged and facilitated to further develop your creativity and also acquire strong business know-how. By combining technical beauty and spa skills with business/management competencies, the course equips you to work and progress in a wide range of beauty and spa settings.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Social"
+        ]
+    },
+    {
+        "id": "US792",
+        "title": "Business Studies with Beauty and Spa Management",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 171,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Business Studies with Beauty and Spa Management prepares you to meet the sector’s need for highly skilled and trusted professionals who can establish strong relationships with clients, deliver services in a professional, efficient and hygienic manner, and progress to management roles within the industry.\nThe course covers both the creative and business aspects of the beauty and spa sector. Learning and practicing in well-equipped workshops, you are encouraged and facilitated to further develop your creativity and also acquire strong business know-how. By combining technical beauty and spa skills with business/management competencies, the course equips you to work and progress in a wide range of beauty and spa settings.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Social"
+        ]
+    },
+    {
+        "id": "US793",
+        "title": "Business Studies with Event Management",
+        "college": "TUS Midlands",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 241,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Business Studies with Event Management includes both the creative and business aspects of event management. During your studies, you are encouraged and facilitated to further develop your creativity and also acquire strong business know-how. By combining technical event management skills with business competencies, you can work and progress your career in a wide range of event-related settings.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "US942",
+        "title": "Business Studies with Event Management",
+        "college": "TUS Midlands",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 297,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BBs (Hons) in Business Studies with Event Management includes both the creative and business aspects of event management. During your studies, you are encouraged and facilitated to further develop your creativity and also acquire strong business know-how. By combining technical event management skills with business competencies, you can work and progress your career in a wide range of event-related settings. There is a full semester of work placement and/or the option to study at one of our partner universities across Europe, as well as regular field trips and guest lectures.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "US941",
+        "title": "Business Studies with Event Management",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 243,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Offering a balance of theoretical and practical learning that explores the latest trends and practices in event management, this course equips you with the practical skills to coordinate the interconnected aspects of the process from pre-event planning and design to post-event debriefing and evaluation, and to progress to leadership roles in the events sector. Business Studies with Event Management includes both the creative and business aspects of event management. During your studies, you are encouraged and facilitated to further develop your creativity and also acquire strong business know-how.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "US791",
+        "title": "Business Studies with Event Management",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 188,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Business Studies with Event Management includes both the creative and business aspects of event management. During your studies, you are encouraged and facilitated to further develop your creativity and also acquire strong business know-how. By combining technical event management skills with business competencies, you can work and progress your career in a wide range of event-related settings.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "LM050 BSF",
+        "title": "Business Studies with French",
+        "college": "University of Limerick - UL",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 444,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Business Studies (BBS) programme will provide you with a broad business education. You will study the core business principles of accounting, economics, risk management and insurance, human resource management and marketing. Students taking BBS with French will study the French language stream throughout the four years of the programme, along with their regular Business subjects.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "LM050 BSG",
+        "title": "Business Studies with German",
+        "college": "University of Limerick - UL",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 444,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Business Studies (BBS) programme will provide you with a broad business education. You will study the core business principles of accounting, economics, risk management and insurance, human resource management and marketing. Students taking BBS with German will study the German language stream throughout the four years of the programme, along with their regular Business subjects.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "LM050 BSJ",
+        "title": "Business Studies with Japanese",
+        "college": "University of Limerick - UL",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 444,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Business Studies (BBS) programme will provide you with a broad business education. You will study the core business principles of accounting, economics, risk management and insurance, human resource management and marketing. Students taking BBS with Japanese will study the Japanese language stream throughout the four years of the programme, along with their regular Business subjects.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "LM050 BSB or BSA",
+        "title": "Business Studies with Spanish",
+        "college": "University of Limerick - UL",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 444,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Business Studies (BBS) programme will provide you with a broad business education. You will study the core business principles of accounting, economics, risk management and insurance, human resource management and marketing. Students taking BBS with Spanish (Beginners or Advanced) will study the Spanish language stream throughout the four years of the programme, along with their regular Business subjects",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "US953",
+        "title": "Business Studies with Sports Management",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 253,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The interesting blend of both sports and business modules provides graduates with the skills, knowledge and competencies to work in either sport or business management, maximising employment opportunities. Students particularly enjoy the practical activities, learning through doing, which are central to the learning experience on this course. Develop your network of contacts through our professional links with various Sports Partnerships, the GAA, Camogie Association, FAI, Treaty United, Munster Rugby, Thomond Park Stadium and Sport Ireland.",
+        "interests": [
+            "Enterprising",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "US787",
+        "title": "Business Studies with Sports Management",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 207,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The interesting blend of both sports and business modules provides graduates with the skills, knowledge and competencies to work in either sport or business management, maximising employment opportunities. This course has been designed for people with a passion for sport who would like to work in an exciting, dynamic and global industry. Learn about working with athletes and training for performance and health. Develop your leadership skills and gain an understanding of governance and sports development, marketing, sponsorship, finance, law, running events, economics, public relations and human resource management.",
+        "interests": [
+            "Enterprising",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "TR188",
+        "title": "Business Studies/Computer Science",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 554,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Computer Science is concerned with the study of everything to do with computers and our relationship with them. Computer scientists are critical to the efficient running of modern societies, dealing with health, security, banking and finance, transportation, and now increasingly our interaction through social networks.\nComputing professionals deal with theoretical issues, solve complex problems, deal with matters of ethics and with society at large. Theoretical issues in computer science relate to the abstract notions of computation and information.",
+        "interests": [
+            "Enterprising",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "MT551",
+        "title": "Business Technology and Communications",
+        "college": "MTU Cork Campus",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 224,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Business Technology and Communications programme will provide students with a unique blend of technology, communication skills and general business knowledge required for work in a technology driven business environment. This is a practical, skills-focused programme, exposing students to the most up-to-date technologies which will enable graduates to work as individuals or in a collaborative team across business disciplines.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "MT951",
+        "title": "Business Technology and Communications",
+        "college": "MTU Cork Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 270,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Business Technology and Communications four-year honours degree programme offers a unique blend of technology, communication skills, sustainability principles, and business knowledge for a technology-driven environment. This practical, skills-focused programme exposes students to the latest technologies, enabling them to work individually or in teams across business disciplines.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "SE400",
+        "title": "Business with a Language",
+        "college": "SETU Waterford Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 273,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This four-year full-time course offers you a broad range of business skills combined with a thorough knowledge of the financial and economic environment in which firms operate. On graduation, you will have developed personal and professional skills which will give you the confidence to start a successful business career, in Ireland or overseas.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU605",
+        "title": "Business with Entrepreneurship",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 300,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "A Business with Entrepreneurship degree is ideal for students who would like to: Start their own business, Revitalise an existing business, possibly a family business, Work in a progressive organisation that values employees with an entrepreneurial approach to work\nThis degree will give you a solid grounding in business, while strengthening yourentrepreneurial knowledge, competence, know-how and skills. Entrepreneurs need to be able to communicate their vision, listen to input from others, sell their vision to employees/partners/investors, build teams and motivate employees.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "SE403",
+        "title": "Business with Law",
+        "college": "SETU Carlow Campus",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 271,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Historically, the disciplines of business and law have been closely associated in both the public and private sector. In the global economy, businesses deal with more complex issues concerning government regulations and international trade policies. Equally, legal expertise is required to contend with constantly evolving commercial organisations and business practices.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "SE421",
+        "title": "Business with Law",
+        "college": "SETU Carlow Campus",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "2 Years",
+        "nfqLevel": 6,
+        "points": 262,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Historically, the disciplines of business and law have been closely associated. In the global economy, businesses deal with complex issues concerning government regulations and international trade policies. Equally, the law has to contend with constantly evolving commercial organisations and business practices. With the expansion of the legal profession into areas of mergers, acquisitions and taxation, the skills of legal and business graduates have merged in many aspects.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DK802",
+        "title": "Business with Management",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 252,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course provides a multifaceted understanding of key business principles, including strategic planning, organisational behaviour, fiscal management, marketing strategies, and entrepreneurship.",
+        "interests": [
+            "Investigative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "MH412",
+        "title": "Business with Sport Science",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 - 4 Years",
+        "nfqLevel": 8,
+        "points": 455,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme is for students who have a desire to work in the growing and diverse range of businesses in the area of sports, exercise and well-being. The sports, exercise and well-being sector is one of the largest service industries in Ireland and globally. Ranging from small to large enterprises, many are run by sports-professionals. These businesses need graduates who can both understand the science and practicalities of the sports and exercise sector, and the fundamentals of how to create value and make a profit - via services and solutions that meet a variety of customers.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "TR081",
+        "title": "Business, Economics and Social Studies (BESS)",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 565,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "BESS is a uniquely flexible degree programme offering you different degree options across the disciplines of Business, Economics, Political Science and Sociology. It provides students with a broad education and you specialise and graduate with a Single Honours or Joint Honours degree with another subject, or a Major with a Minor.\nIt also offers a high level of flexibility in two very important ways: from the second year onwards students are allowed to (a) choose the specific degree they wish to take and, (b) choose individual modules within their chosen degree path.",
+        "interests": [
+            "Enterprising",
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "MT838",
+        "title": "Chemical & Biopharmaceutical Engineering",
+        "college": "MTU Cork Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 477,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Chemical Engineering is all about change; creating life enhancing products and services by applying scientific and mathematical understanding to design, control and improve processes that change raw materials into useful products. Chemical Engineers are world leaders in producing medicines, clean energy and water and other key products in a cost effective, safe and environmentally-friendly manner.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "LM115",
+        "title": "Chemical and Biochemical Engineering",
+        "college": "University of Limerick - UL",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 455,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The B.E. (Hons.) Chemical & Biochemical Engineering provides an interesting, intellectually challenging, and educationally rigorous degree programme that leads to a professionally recognised qualification and good employment prospects in any of a variety of stable, sustainable, well-paid careers. This degree programme comprises formal lectures/study, practical laboratories, workshops, training on industry-standard process engineering software, project work, as well as a substantial Cooperative Education period working in an industrial placement.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "AU668",
+        "title": "Chemical and Pharmaceutical Science",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 409,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme focuses on the practical application of chemistry and includes Medicinal Chemistry, Forensic Analysis, Quality Management, Pharmaceutical Science, and Analytical Techniques. Students learn how new medicines are discovered and how to ensure that they are safe and of high quality.\nA strong emphasis on practical work and projects gives the students a great experience in all these areas. It prepares graduates for immediate employment in the pharmaceutical, chemical, biomedical and biotechnology sectors.Not all graduates wear white coats.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "DC162",
+        "title": "Chemical and Pharmaceutical Sciences",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 477,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Are you curious about how chemistry affects our world, both in nature and when it comes to preparing and using everyday materials such as polymers, pharmaceuticals, fine chemicals, flavours and fragrances. If that’s the case and you’re a highly motivated independent student who is eager to challenge yourself in the different branches of chemistry, this course is for you. This course offers a compelling mix of technical knowledge and more hands-on practical experience than other similar courses, meaning you’ll be better prepared for the workforce or postgraduate study. During it, you’ll gain fundamental knowledge in organic, inorganic, physical, medicinal and analytical chemistry, along with practical lab skills and the ability to apply the theory you’ve learned. You’ll also build your creative, innovation and presentation skills. Preparing for exciting future opportunities: In third year, you’ll do a four- to six-month INTRA work placement in industry or in academic labs, in Ireland or overseas. This will give you vital experience, and enable you to learn new skills and develop contacts that can often lead to employment opportunities after finishing your degree. As a graduate you’ll be sought after in sectors such as the pharmaceutical/biopharmaceutical, chemical/materials, specialty chemical, food and government laboratories. Typical roles could include process development, synthetic chemistry, formulation, regulatory affairs, quality control/assurance, analytical method development and medicinal chemistry. Others may go into teaching or patent law, while some decide to go on to further study for a masters or a doctorate.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "CK406",
+        "title": "Chemical Sciences",
+        "college": "University College Cork - UCC",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 509,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Chemistry provides a scientific understanding of molecules and how they react together, leading to exciting developments in the use of the advanced materials we see around us in the world. It is the study of the properties and behaviour of all matter.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TR061",
+        "title": "Chemical Sciences",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 543,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Chemistry is a creative and central science, dealing with challenges that span the physical and life sciences. It is found and used everywhere from the creation of new materials and processes through to advancements in medical health and diagnosis of disease.\nA chemistry-based qualification provides students with the relevant skills and knowledge to open doors in research, medicine, education, industry, finance, consultancy and more.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "DC163",
+        "title": "Chemical Sciences (General Entry)",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 402,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Chemistry is everywhere – in the water we drink, the air we breathe and in every device we use. In fact, it’s key to understanding our world. As a chemist, you can help to solve everyday challenges and change people’s lives for the better.By choosing Chemical Sciences General Entry, you can spend your first year at DCU exploring different aspects of chemistry, so you discover which parts inspire you most. Among other topics, you’ll study drug design, introduction to synthetic methods to prepare drugs, industrial and forensic analytical techniques, environmental chemistry and biomolecules during this year. You can also take a language module such as French or Spanish.Path to a chemistry specialismHaving studied different types of chemistry and gained excellent hands-on lab experience, you can choose your specialist degree programme at the end of first year, although this is based on your first year results. You’ll have three options: the BSc in Analytical Science, the BSc in Chemical and Pharmaceutical Sciences and the BSc in Chemistry with Artificial Intelligence.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TU852",
+        "title": "Chemical Sciences with Medicinal Chemistry",
+        "college": "TU Dublin - Grangegorman",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 422,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This chemistry degree focuses on how chemistry can be used for medicinal applications, including drug design, synthesis, and delivery.\nIt will give you skills and expertise in synthetic chemistry that can be applied in the pharmaceutical and other industries. You can anticipate working in the pharmaceutical industry, facilitating the development of new and better medicines, as well as the chemical and allied industries.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "DC160",
+        "title": "Chemistry with Artificial Intelligence",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 413,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "During the course, you’ll explore AI applications in chemistry using large datasets, powerful computing architectures and advanced learning algorithms. As you develop your understanding of how to apply AI techniques and technologies, you’ll also learn from industry partners, who take an active role throughout the course.",
+        "interests": [
+            "Realistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "CK712",
+        "title": "Children's and General Nursing (Integrated)",
+        "college": "University College Cork - UCC",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 522,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Children’s and General Nursing course will provide you with opportunities to develop knowledge and skills relevant to children’s and general nursing practice, including independent and critical thinking and problem-solving. It will enable you to ensure that the nursing care you deliver is up-to-date and based on the best current evidence.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "DC218",
+        "title": "Children's and General Nursing (Integrated)",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "4.5 Years",
+        "nfqLevel": 8,
+        "points": 509,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Nurses are problem-solvers with a natural tendency to care about how people feel and usually have qualities such as resilience, empathy, reliability, integrity and good communication skills are leading qualities in the nursing field. Nurses play a critical role in society, helping people to achieve, maintain or regain the best possible health while also offering patients support and dignity. During this course, you’ll develop deep nursing knowledge, along with skills such as critical thinking, reflective practice, research principles and problem-based learning. You’ll learn how to ensure the care you deliver as a compassionate and committed nurse is current and evidence-based.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "DN451",
+        "title": "Children's and General Nursing (Integrated)",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 510,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "In this course you will undertake modules of theory delivered through lectures, workshops and tutorials in our state-of-the art facilities on Belfield campus. Our innovative degree course is taught by experienced lecturers in a friendly and supportive environment. It prepares you to become a professional nurse who can competently manage the complex healthcare needs of the adult and child population both nationally and internationally",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "TR911",
+        "title": "Children's and General Nursing (Integrated)",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 520,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Students of nursing learn about caring and the complexities of health and illness through interactive teaching and learning strategies in the classroom and the healthcare environment. Practice (clinical and community) experience provides the student with opportunities to integrate the art and science of nursing and promotes the development of caring relationships with patients and their families/significant others.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "DN130",
+        "title": "City Planning & Environmental Policy",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 481,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree integrates an interdisciplinary approach that will deepen and broaden your understanding of environmental, social and economic issues, and sets these in a practical policy context. On entering first year, you will be introduced to a host of new ideas and concepts. Building your knowledge and skills throughout the first year of the course, you will progressively gain insight into the complexity of our taken-for-granted world and how we can constructively and sustainably respond to the challenges we face. A small class size and the interactive learning environment ensures an enjoyable experience that stimulates creativity and ownership of your career path.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "MT731",
+        "title": "Civil Engineering",
+        "college": "MTU Cork Campus",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 259,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Civil engineering deals with one of the most visible signs of change and progress around us: the construction of new buildings, structures and infrastructure. New roads, rail-links, bridges and airports are always needed. New buildings are required for the public and private sectors and older buildings are redeveloped. Civil engineers are required to plan, design, construct and maintain these facilities.",
+        "interests": [
+            "Realistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TU704",
+        "title": "Civil Engineering",
+        "college": "TU Dublin - Bolton Street",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 331,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Civil engineers work on the design and construction of buildings and structures, highways, bridges, water supply and treatment systems. \nThis course will equip you with the skills you need to work as a civil engineering technologist, carrying out much of the detailed analytical and design specifications in a building project. You’ll develop your mathematical and analytical skills to solve many of the problems encountered in the broader civil engineering industry.",
+        "interests": [
+            "Realistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "GY402",
+        "title": "Civil Engineering",
+        "college": "University of Galway - UG",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 521,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Civil Engineering is concerned with the planning, design, construction and maintenance of the built environment. It encompasses minor and major structures, ranging from drainage systems, houses, commercial buildings, roads and bridges to multi-story buildings and water and wastewater treatment facilities. The work of civil engineers is most visible in the structures in which we live and work.",
+        "interests": [
+            "Realistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "MT732",
+        "title": "Civil Engineering",
+        "college": "MTU Kerry Campus",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 266,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Civil engineering is all about the assessment, planning, design, construction, operation and maintenance of the different types of infrastructural works that society needs, from roads and rail systems to bridges, harbours, airports, energy and utility services, and water supply schemes.#\nIt is a broad discipline which also includes structural and environmental engineering. Environmental engineers apply engineering principles to improve the quality of our environment and work towards the creation of healthy water, air and land resources.",
+        "interests": [
+            "Realistic",
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "SE719",
+        "title": "Civil Engineering",
+        "college": "SETU Carlow Campus",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 219,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Civil Engineers and Civil Engineering Technicians design, construct and maintain the Built Environment on which our modern societies depend. Civil Engineering includes our Roads and Railways, the Supply of Safe Water, Sewage and Wastewater treatment, our Buildings and Bridges, our Airports and Electricity Generation.\nEnsuring that we protect our natural environment while maintaining this critical infrastructure is an increasingly important part of what Civil Engineers and Civil Engineering Technicians do.",
+        "interests": [
+            "Realistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "US760",
+        "title": "Civil Engineering",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 206,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme is designed to provide Civil Engineering graduates to the construction and civil engineering industry and provides many transferable skills. The areas of speciality include Civil Engineering, Construction, Geotechnical Engineering, Highway Engineering, Public Health Engineering and Structural Engineering.\nGraduates are equipped to undertake challenging and responsible activities on site, in the laboratory or the design office. During the programme, there are opportunities for students to participate in site visits, organised by the programme team.",
+        "interests": [
+            "Realistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "US761",
+        "title": "Civil Engineering",
+        "college": "TUS Midlands",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 242,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme offers a rich learning experience in state of the art facilities. As a civil engineer, your work will require a diverse skill set, so the course has been designed to ensure you have the cutting edge knowledge to tackle complex problems in areas such as structures, materials, geotechnics, water, management, traffic and environmental engineering. Modules are delivered in an exciting and challenging blend of tutorials, laboratories and lectures.",
+        "interests": [
+            "Realistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "SE713",
+        "title": "Civil Engineering",
+        "college": "SETU Carlow Campus",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 444,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our course is broadly based and covers the Core Civil Engineering disciplines of Highways, Structures, Geotechnics, Water and Environmental. You will study the fundamental engineering science that underlies these disciplines and apply this knowledge to the Design and Construction of a wide variety of Civil Engineering Projects from Motorways to Buildings, Bridges, Water & Wastewater Schemes and Environmental Projects.\nYou will learn about the importance of developing Sustainable Solutions for Civil Engineering Projects. You will develop the analytical skills and structured approach to problem solving that underlies Civil Engineering.",
+        "interests": [
+            "Realistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "MT832",
+        "title": "Civil Engineering",
+        "college": "MTU Kerry Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 321,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Civil engineering is all about the assessment, planning, design, construction, operation and maintenance of the different types of infrastructural works that society needs, from roads and rail systems to bridges, harbours, airports, energy and utility services, and water supply schemes.\nIt is a broad discipline which also includes structural and environmental engineering. Environmental engineers apply engineering principles to improve the quality of our environment and work towards the creation of healthy water, air and land resources.",
+        "interests": [
+            "Realistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "US887",
+        "title": "Civil Engineering",
+        "college": "TUS Midlands",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 410,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Civil Engineering deals with the design, construction and maintenance of the physical and built environment. Civil Engineers play an essential role in solving some of the most pressing problems facing humanity, including concerns about planning, transport, energy and the environment. This programme offers a rich learning experience in state of the art facilities. As a civil engineer, your work will require a diverse skill set, so the course has been designed to ensure you have the cutting edge knowledge to tackle complex problems in areas such as structures, materials, geotechnics, water, management, traffic and environmental engineering.",
+        "interests": [
+            "Realistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "DK846",
+        "title": "Civil Engineering",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 317,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course helps students identify and build their skills in problem solving, design and management. Students manage and design projects of all scales as individuals and as part of teams, on topics such as Hydrology, Structural Analysis, Geotechnical and CAD. Sustainability, renewable energy, and environmental engineering are integral parts of this course.",
+        "interests": [
+            "Realistic",
+            "Investigative"
+        ]
+    }
+]

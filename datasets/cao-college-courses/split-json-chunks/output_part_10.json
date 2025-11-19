@@ -1,0 +1,1467 @@
+[
+    {
+        "id": "MT940",
+        "title": "Event Management",
+        "college": "MTU Kerry Campus",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 272,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This 3-year degree programme builds the fundamental knowledge and skills of students for a career in the events industry, by mixing event modules such as Event Risk Management, Event Project Management, Event Production & Design, Event Fundraising & Sponsorship and Event Operations Management, with a solid foundation of business focussed modules in areas of marketing, financial management and entrepreneurship.\nThe course also includes modules which encourage the personal development of students including, Leadership & Team Building, Research & Writing Skills and Volunteerism & Community Events.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DK852",
+        "title": "Event Management with Marketing",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 245,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course will teach students the fundamentals of creating and managing an event, spanning from the beginning of planning to post-event analysis. Students will be involved in planning and organising events including working on client briefs, carrying out risk assessments, designing presentations and producing reports. With their expertise in event management and marketing, they will learn how to elevate brands, connect communities, and shape memorable moments that drive business success.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "AU629",
+        "title": "Event Management with Public Relations",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 288,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The aim of this award is to provide relevant, professional education for students on all aspects of the planning, marketing and management of events and public relations programmes in this multifaceted industry.\nGraduates can expect to find employment in a variety of event, PR and entertainment enterprises including conference and convention centres, charitable non-profit organisations, national and regional tourism organisations, hotels, public relations firms, event management agencies, sports and leisure centres, community development organisations, arts and music festivals, multinational companies and public sector organisations.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "LM105",
+        "title": "Exercise & Health Fitness Management",
+        "college": "University of Limerick - UL",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 409,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course qualifies you as a Fitness Professional with a strong portfolio of specialisms which include  Advanced Personal Training and Strength & Conditioning for Athletes and Teams. This four year honours degree in Exercise & Health Fitness Management provides you with a broad introduction to a career in the fitness industry. In the first year, you will study a curriculum to qualify as a Fitness Instructor/Gym Instructor.",
+        "interests": [
+            "Social",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "US788",
+        "title": "Exercise and Health Science",
+        "college": "TUS Midlands",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 208,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course will include contributions from physical activity, nutrition, sports science and behaviour change specialists. Students will learn in small class groups, ensuring greater access to equipment and training and applied experience of knowledge generated. Students will also be transitioned into the requirements of education at third level, and their generic skills will be developed throughout the course to support greater employability.  This course is designed to produce specialists in behaviour change across all aspects of health but most specifically in exercise/physical activity and nutrition.",
+        "interests": [
+            "Social",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "SE902",
+        "title": "Exercise Science (Common Entry)",
+        "college": "SETU Waterford Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 280,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Exercise Sciences (Common Entry) is an exciting new four year degree path for those wishing to pursue a programme of study in the area of exercise science but who also wish to graduate in a specialist field. It is for students interested in Exercise Science as a broad career, but who are unsure about their specific areas of interest or career plan.\nSuccessful completion of the first two years of the common entry programme in Exercise Science is required in order to progress onto one of the specialist Level 8 exit award pathways.",
+        "interests": [
+            "Social",
+            "Realistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TU925",
+        "title": "Fashion and Retail Business",
+        "college": "TU Dublin - Aungier Street",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 282,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "You’ll acquire a comprehensive understanding of the principal operational and strategic issues involved in the management of retail & services-based enterprises in the context of both national and international business. You’ll become familiar with the business specialties and disciplines affecting both operational and strategic management decisions in such enterprises.",
+        "interests": [
+            "Enterprising",
+            "Conventional",
+            "Social"
+        ]
+    },
+    {
+        "id": "SE419",
+        "title": "Fashion Buying and Retail Management",
+        "college": "SETU Waterford Campus",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 206,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Fashion Retailing is a global, growth industry that provides challenging and rewarding career opportunities. Retail management is the achievement of company goals through effective and efficient planning, leadership, organisation and control of internal resources.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "GC494",
+        "title": "Fashion Design",
+        "college": "Griffith College Dublin",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 293,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "The BA (Hons) in Fashion Design gives students a comprehensive and rigorous preparation for careers in fashion design. The programme emphasises project-based learning, requiring learners to experiment and innovate in order to create imaginative design solutions. Assignments include industry-based projects to ensure graduates will have the skills to take up employment, either for a company or as independent designers.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AD211",
+        "title": "Fashion Design",
+        "college": "National College of Art and Design - NCAD",
+        "region": "Dublin",
+        "duration": "3 - 4 Years",
+        "nfqLevel": 8,
+        "points": 604,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "Fashion Design aims to educate students to become professional practitioners in the field of fashion and related industries. Students are encouraged to have an awareness of fashion in its social and cultural context and to bring that understanding to their work.\nThe department places great value on its industry and professional links that gives students an insight into real-world commercial requirements. Emphasis is placed on developing informed, creative designers, who are prepared for the needs of industry.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "GC495",
+        "title": "Fashion Design",
+        "college": "Griffith College Dublin",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 109,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our BA in Fashion Design is a three-year level 7 degree course available on a full-time basis. The course will immerse you in the fashion industry and prepare you for any role that requires a creative flair and business knowledge.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU334",
+        "title": "Fashion Design with Promotion",
+        "college": "ATU Donegal",
+        "region": "Ulster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 346,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme is for creative, innovative, and business-minded students. They may have a flair for fashion or want to bring innovation and business acumen to the fashion industry. Or they may want to develop fashion products and use photography and film to promote a business idea online. Students on this programme will explore their creative strengths. Each year, students will complete a fashion design project, which is very much concept-driven.",
+        "interests": [
+            "Artistic",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "TR042",
+        "title": "Film",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 518,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Why do films affect us the way they do? Why did the introduction of sound change film forever? What do we mean by ‘independent cinema? What is a digital story world? These and many more are the questions that Film Studies asks students to consider in small-group lectures and seminars.\nIn addition, over the course of your degree you’ll be encouraged to respond creatively to critical issues via projects, presentations, short films and video essays, as well as to develop your screenwriting skills to see if you have a fresh vision to share with the world around you.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DL843",
+        "title": "Film",
+        "college": "Institute of Art, Design and Technology Dun Laoghaire - IADT",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 927,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "This course is for those who want to tell stories and express themselves through the medium of filmmaking. Our BA (Hons) Film is dedicated to teaching practice-based film making. Throughout the four years you will develop and create drama, documentary and experimental film. You will write scripts, shoot films, and submerge yourselves in cinema culture and tradition. You will work both individually and in teams to create powerful films that develop your own creative voice.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TU983",
+        "title": "Film & Broadcasting",
+        "college": "TU Dublin - Grangegorman",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 430,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Film & Broadcasting is about telling stories - whether fiction or factual. This course combines high standards of training in production skills to make courses, dramas and documentaries for radio, television and cinema with a well-grounded academic education in media theory and contextual studies.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DB576",
+        "title": "Film and Creative Media",
+        "college": "Dublin Business School - DBS",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 108,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme will prepare students for the challenges of our society and of our evolving technologies in the future of work while developing the work-ready skills. Film courses are designed to appeal to students that want to gain critical exposure to creative media and film practices, as well as gain work experience and applied learning for a future career in the creative media sector.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DB567",
+        "title": "Film and Creative Media",
+        "college": "Dublin Business School - DBS",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 255,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BA (Hons) in Film and Creative Media (Level 8, 180 ECTS) programme provides students with the theoretical knowledge and practical skills in conventional and new media, by combining traditional communication and media production skills such as photography and video production, with high-level training in multimedia production, processes and design.The programme provides a focus on professional practices and applications required for the creative industries. Students will engage with professionals, clients, artists and employers through Creative Engagement / Internship module in the final stage.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU615",
+        "title": "Film and Documentary",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 302,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "A three-year Level 8 honours degree for those interested in developing a career in film, documentary, television and the audiovisual sector. This programme is designed to provide a specialised knowledge of the history, theory and practical working of documentary and film making. Embedded in the programme is the opportunity for ethical and philosophical discourse with regard to representation, media and new technologies.\nThe practical and technical skills options include such specialist areas as screenwriting, editing, sound, production design, cinematography, VFX (visual effects) and knowledge of the planning, budgeting and management requirements involved in shooting and delivering film and documentary projects.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU332",
+        "title": "Film and Media Production",
+        "college": "ATU Donegal",
+        "region": "Ulster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 302,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme is designed to cater to emerging opportunities across the film and media sector in digital film production planning, story and script, audio, design, special effects, compositing and editing. An enterprise and entrepreneurship ethos is embedded in modules. This programme engages traditional and emerging practices to cater for the needs of the film and media industry. Self-directed practice will be a key component across several modules focusing on audience and market. Studying film and media production provides hands-on experience in storytelling, cinematography & digital editing, preparing students for diverse careers in the entertainment industry.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "CK105",
+        "title": "Film and Screen Media (4 yrs for International Pathway)",
+        "college": "University College Cork - UCC",
+        "region": "Munster",
+        "duration": "3 - 4 Years",
+        "nfqLevel": 8,
+        "points": 390,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "University College Cork's BA in Film & Screen Media is a unique, major degree that offers students a thorough film studies education on the history, theory, values, aesthetics and ideology of the moving image.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DK864",
+        "title": "Film and Television Production",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 235,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course encompasses everything from pre-production planning and scriptwriting to filming, editing, and postproduction. Students will learn to harness creativity, innovation, and collaboration, and the practical aspects of mounting a production, such as budgeting, location scouting, casting, production design, filming, and post-production.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DL864",
+        "title": "Film Studies",
+        "college": "Institute of Art, Design and Technology Dun Laoghaire - IADT",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This Film Studies degree is for people who want to think critically about film and write it – combining academic depth with practical creativity and opening a pathway to professional screenwriting.",
+        "interests": [
+            "Artistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TR311",
+        "title": "Film Studies/Drama Studies",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 541,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Film StudiesIf you enjoy watching a wide range of films from around the world and if you are interested in acquiring the critical and creative tools to analyse them in relation to questions of style, technology, society, and industry, then this may be the course for you. While you will learn about practical issues involved in film production, including how to write a script and how to produce short videos, the course is geared toward critical engagement with film and digital media. Drama StudiesThe degree explores  the relationship between the theory and practice of Drama and Theatre to discover how and why they work. The strong developmental emphasis of the courses requires a particular blend of practical and academic skills. In addition to a high level of analytical ability and creativity you will need to possess resourcefulness and self-motivation.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TR312",
+        "title": "Film Studies/English Literature",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 541,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Film StudiesIf you enjoy watching a wide range of films from around the world and if you are interested in acquiring the critical and creative tools to analyse them in relation to questions of style, technology, society, and industry, then this may be the course for you. While you will learn about practical issues involved in film production, including how to write a script and how to produce short videos, the course is geared toward critical engagement with film and digital media. \nEnglish LiteratureEnglish Literature covers a broad range of literatures written in the English language, from Chaucer to the present day. The aim of the course is to help students acquire a thorough knowledge of the history of differing literatures while also enabling them to develop a sophisticated critical consciousness and an awareness of critical and cultural theory.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TR325",
+        "title": "Film Studies/History",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 541,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Film Studies\nWhile you will learn about practical issues involved in film production, including how to write a script and how to produce short videos, the course is geared toward critical engagement with film and digital media. HistoryThe History programme combines the strength of a broad-based programme in the first two years, introducing all students to the sheer diversity of historical studies, with the freedom to explore areas of particular interest to individual students in the final two years. The first and second years provide a range of modules covering medieval and modern periods, including Irish, European, and American history, as well as some modules exploring the skills and methods which historians use, and the kinds of debates in which historians engage.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TR324",
+        "title": "Film Studies/Modern Language",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 541,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Film StudiesIf you enjoy watching a wide range of films from around the world and if you are interested in acquiring the critical and creative tools to analyse them in relation to questions of style, technology, society, and industry, then this may be the course for you. While you will learn about practical issues involved in film production, including how to write a script and how to produce short videos, the course is geared toward critical engagement with film and digital media. You will work in small groups to debate the topics that arise in lectures and to create short films and documentaries. Our students are active in many different societies, including DU Film Society and the student-run film magazine, Trinity Film Review. Students combine this subject with their choice of French or Spanish.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TR320",
+        "title": "Film Studies/Music",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 541,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Film StudiesIf you enjoy watching a wide range of films from around the world and if you are interested in acquiring the critical and creative tools to analyse them in relation to questions of style, technology, society, and industry, then this may be the course for you. While you will learn about practical issues involved in film production, including how to write a script and how to produce short videos, the course is geared toward critical engagement with film and digital media. \nMusic Studying music will allow you to engage with a range of traditions to acquire a profound understanding of how music works in theory and in creative practice. If you are interested in understanding music’s place in society, developing music technology skills, writing music, or improving your skills as an informed performer, this course could be for you.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "GC456",
+        "title": "Film, TV and Screen Media Production",
+        "college": "Griffith College Dublin",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 255,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This exciting course has been created for people who have a passion for film making and storytelling on screen and have already started to experiment in these areas. This course will also assist enthusiastic students in developing the essential practical skills and knowledge required to work in the dynamic area of film, television, and screen production.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DL858",
+        "title": "Film: Pathfinder Joint International Programme (Belgium)",
+        "college": "Institute of Art, Design and Technology Dun Laoghaire - IADT",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This innovative three-year European Film degree, delivered across multiple European locations with our FilmEU partners, positions you at the forefront of the global screen arts industry. You’ll develop a blend of traditional filmmaking techniques alongside modern innovations and specialisations.As this is a joint international programme, you will study across multiple partner institutions during the three years, but your chosen CAO code determines where you begin your first year.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DL860",
+        "title": "Film: Pathfinder Joint International Programme (Bulgaria)",
+        "college": "Institute of Art, Design and Technology Dun Laoghaire - IADT",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This innovative three-year European Film degree, delivered across multiple European locations with our FilmEU partners, positions you at the forefront of the global screen arts industry. You’ll develop a blend of traditional filmmaking techniques alongside modern innovations and specialisations.As this is a joint international programme, you will study across multiple partner institutions during the three years, but your chosen CAO code determines where you begin your first year.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DL857",
+        "title": "Film: Pathfinder Joint International Programme (Ireland)",
+        "college": "Institute of Art, Design and Technology Dun Laoghaire - IADT",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This innovative three-year European Film degree, delivered across multiple European locations with our FilmEU partners, positions you at the forefront of the global screen arts industry. You’ll develop a blend of traditional filmmaking techniques alongside modern innovations and specialisations.As this is a joint international programme, you will study across multiple partner institutions during the three years, but your chosen CAO code determines where you begin your first year.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DL859",
+        "title": "Film: Pathfinder Joint International Programme (Portugal)",
+        "college": "Institute of Art, Design and Technology Dun Laoghaire - IADT",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This innovative three-year European Film degree, delivered across multiple European locations with our FilmEU partners, positions you at the forefront of the global screen arts industry. You’ll develop a blend of traditional filmmaking techniques alongside modern innovations and specialisations.As this is a joint international programme, you will study across multiple partner institutions during the three years, but your chosen CAO code determines where you begin your first year.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "CK204",
+        "title": "Finance",
+        "college": "University College Cork - UCC",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 577,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Finance is concerned with the operation of financial markets and the valuation of financial assets, in particular in stock, bond, foreign exchange and interest rate markets. The BSc Finance is based equally on the subject areas of corporate finance and financial economics. This combined approach provides graduates with a thorough grounding in each area.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "MH410",
+        "title": "Finance",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 or 4 years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "In this degree, you will learn about how the financial system works – how assets such as gold, coffee and orange juice are traded, how international markets are linked and the impact of government decisions on markets.",
+        "interests": [
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "AU604",
+        "title": "Finance and Economics",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 307,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Graduates with Finance, Economics and Big Data skills are in high demand here in Ireland and overseas. This also opens up opportunities in a range of business careers including financial planning, banking, accounting, economics and management consulting. Postgraduate options include economics and finance. A highlight of the programme is the opportunity to undertake a three-to-six-month work experience placement as part of third year. Students can alternatively choose to study abroad on Erasmus.",
+        "interests": [
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "LM058",
+        "title": "Financial Mathematics",
+        "college": "University of Limerick - UL",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 457,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The aims of the degree are to produce graduates with developed mathematical, statistical and computing skills, and the ability to apply them to the quantitative analysis of industrial, commercial or financial business decisions. The programme also aims to produce graduates with sufficient mathematical, statistical and computing skills for them to undertake postgraduate work in these or related areas.",
+        "interests": [
+            "Investigative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "GY309",
+        "title": "Financial Mathematics and Economics",
+        "college": "University of Galway - UG",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 509,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BSc in Financial Mathematics and Economics (BSc in FME) programme is a four-year degree programme consisting of courses in mathematics, economics, statistics/probability, applied mathematics, accounting and business finance, and computer science. The programme’s aim is to equip students with expertise in quantitative subjects, with a particular focus on financial economics, actuarial mathematics and statistics. The degree should appeal to people who enjoy mathematics and are interested in studying economics and other subjects in the financial area. (Please note that you do not have to study economics for the Leaving Certificate to be admitted to this course.)",
+        "interests": [
+            "Investigative",
+            "Conventional",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "TU974",
+        "title": "Fine Art",
+        "college": "TU Dublin - Grangegorman",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 701,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "The BA in Fine Art is designed for students who wish to work as cultural producers in the Fine Art sector. The course is focused primarily on acquiring the knowledge and skills that are needed to operate as a visual artist in a competitive environment, nationally and internationally.\nThere’s a strong emphasis on developing skills acquisition, creative intelligence and conceptual and critical thinking abilities, which are integrated with modules in Critical Theory and Professional Practice.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "MT821",
+        "title": "Fine Art",
+        "college": "MTU Cork Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 340,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "This studio-based programme prepares students for the professional world of contemporary art; learning how to make, experiment, research and critique art. Students will explore and engage with: painting, drawing, sculpture, print, photography, performance, sound, video, and digital media in varied contexts. Students are encouraged to experiment with a wide range of media in order to develop their individual art practice.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU822",
+        "title": "Fine Art",
+        "college": "ATU Sligo",
+        "region": "Connacht",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 256,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "The degree is designed to offer students the widest possible experience in materials and media - drawing, painting, digital media photography and video, ceramics, printmaking, sculptural studies, work in context, visual literacy and visual material culture, and history/theory of art. These are taught with a focus on the student’s own research and art-making initiatives as the years progress.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU928",
+        "title": "Fine Art",
+        "college": "ATU Sligo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 378,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "The degree is designed to offer students the widest possible experience in materials and media - drawing, painting, digital media photography & video, ceramics, printmaking, sculptural studies, work in context, visual literacy and visual material culture and history/theory of art. These are taught with a focus on the student’s own research and art-making initiatives as the years progress.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AD104",
+        "title": "Fine Art & Applied Art",
+        "college": "National College of Art and Design - NCAD",
+        "region": "Dublin",
+        "duration": "3 - 4 Years",
+        "nfqLevel": 8,
+        "points": 548,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "All departments in the School of Fine Art - Media, Painting, Fine Print , Sculpture and Applied Materials - help students to develop a highly individual way of seeing and interpreting, and of expressing themselves visually.  Emphasis is placed on visual awareness and artistic analysis, on acquiring skills in the use of both traditional and new materials and media.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU340",
+        "title": "Fire Safety Engineering",
+        "college": "ATU Donegal",
+        "region": "Ulster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 301,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our Bachelor of Engineering (Hons) in Fire Safety Engineering is a broad discipline covering a wide range of areas including fire prevention, detection, escape, suppression and control. The aim of this four year programme is to equip you with the engineering knowledge at a scientific and practical level to undertake both prescriptive and performance based fire design safety.\nYou will take core modules in mathematics, fire science, fluids, thermodynamics, building services, construction technology and structural design, along with general construction elements such as CAD, construction economics, land surveying and technical writing. You will then advance to fire safety subjects that take account of human behavior, fire and reliability modelling, fire structural design and fire engineering techniques.",
+        "interests": [
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AD101",
+        "title": "First Year Art & Design (Common Entry)",
+        "college": "National College of Art and Design - NCAD",
+        "region": "Dublin",
+        "duration": "3 - 4 Years",
+        "nfqLevel": 8,
+        "points": 515,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "First Year Studies at NCAD gives you the solid foundation that you require for entry into the variety of creative paths of study offered by the college. First Year Studies is a common entry course that leads our students to studying any one of the fourteen different studio specialisms available in NCAD\nThe School of Fine Art, Paint, Print, Sculpture , Media, Textile Art & Artefact and Ceramics & Glass ( Applied Hard Materials) ; and in the School of Design, Graphics, Illustration, Moving Image Design, Fashion Design, Textile Surface Design, Jewellery & Objects, Product Design and Interaction Design.\nAll these specialisms can also be studied as a Joint Honours Degree with Education or as a Studio specialism with Visual Culture.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DN250",
+        "title": "Food and Agribusiness Management - Agricultural Science",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 431,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "During the Food & Agribusiness Management degree, you’ll learn how the principles of economics and business management apply to farming, food production and marketing. You’ll gain an understanding of how the Irish and international food systems deliver food products and services that people want, and how farmers and food manufacturers can produce proﬁtably, while also taking care of the natural environment.\nThe four-year degree provides a unique opportunity to understand both business and science, focusing on the agri-food sector – Ireland’s largest indigenous industry. You will learn skills that can be used across a wide range of jobs both within and outside the agri-food sector.",
+        "interests": [
+            "Enterprising",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "MT929",
+        "title": "Food Business",
+        "college": "MTU Cork Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 389,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "All aspects of the programme are intrinsically linked to the food industry, which is rapidly expanding and changing its future focus to meet consumer demands and expectations. This programme is designed to provide learners with a holistic comprehension of the food industry. With subjects covering food and food science underpinned by sustainability, new and future technology, analytics, management, and leadership, graduates will become leaders in food business. Learners will also develop a professional network through work-based learning, thus gaining valuable experience by applying their theoretical knowledge in practice.",
+        "interests": [
+            "Artistic",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "DN250",
+        "title": "Food Business with Chinese Studies - Agricultural Science",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 431,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our Food Business with Chinese Studies programme prepares graduates with the skills urgently required by the Irish food industry to succeed in the changing market landscape. With Brexit and the uncertainty surrounding the UK market, it is critical for the industry to expand exports to emerging markets, particularly China. This requires improved foreign language capability, which we provide through a combination of fundamental food science and food business management modules, and language, cultural, and target market-oriented courses. In third year, students study at Renmin University of China, taking Chinese language courses and other relevant modules, while experiencing the diverse culture and vibrant economic growth of China.",
+        "interests": [
+            "Enterprising",
+            "Realistic",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "CK213",
+        "title": "Food Marketing and Entrepreneurship",
+        "college": "University College Cork - UCC",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 466,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "BSc (Hons) Food Marketing & Entrepreneurship offers a unique combination of business and science, providing graduates with the skills to work in an exciting, fast-paced industry. During Years 1-3 you will study various modules across a range of disciplines including Food Business, Marketing, Food Policy, Management, Economics, Microbiology, Accounting, Law, and Nutrition.",
+        "interests": [
+            "Enterprising",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "CK505",
+        "title": "Food Science",
+        "college": "University College Cork - UCC",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 453,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Food science focuses on the physical, chemical and biological characteristics of food along the production chain, from its production on a farm to being eaten. The diverse scope of subjects covered provides students with a unique blend of scientific and technical skills designed to meet the needs of careers in the food industry, ranging from research and development to food processing and production.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "DN261",
+        "title": "Food Science",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 466,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Food Science Programme at UCD develops your scientific knowledge and practical skills in producing sustainable, high-quality, safe, and nutritious food for the global market. As a food scientist, you will be involved in all aspects of the food chain, from production to the consumer. You will learn core sciences such as biology, chemistry, and mathematics, and apply them to food physics, analysis, microbiology, and sensory science.You will also gain expertise in food chemistry, processing, and new product development, preparing you for careers in production management, nutrition, food quality and safety, sales and marketing, and research.Applicants can pick one of two pathways:\n\nFood Science or\nSustainable Food Systems",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "SE510",
+        "title": "Food Science",
+        "college": "SETU Waterford Campus",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 336,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This is a three year full time course is designed to train you in modern food processing methods, food safety management, analytical testing relevant to the food industry. The programme also incorporates a range of business skills to allow you have knowledge of the financial and management environment for the food industry.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "TU881",
+        "title": "Food Science",
+        "college": "TU Dublin - Grangegorman",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 346,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Food Science is a multi-disciplinary field that uses knowledge of chemistry, biology, nutrition, microbiology and engineering. Food scientists are interested in the design and development of healthy, safe, nutritious and sustainable foods.\nThe Food Science programme here in TU Dublin will develop your scientific knowledge while also developing strong practical skills sought by employers. Practical work in our dedicated labs for food analysis, new product development, food chemistry, food microbiology and sensory science allows students to develop excellent laboratory skills.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "LM068",
+        "title": "Food Science and Health",
+        "college": "University of Limerick - UL",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 407,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This B.Sc. programme in Food Science and Health prepares graduates for careers in Ireland’s largest The programme is four years in duration. This Food Science and Health degree programme has been developed to meet these needs among consumers, the food industry, academic and research organisations, and government agencies. You will find the study of Food Science and Health challenging and rewarding. This degree programme will combine the study of nutrition, human physiology and diet-health relationships with classical food science and technology.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "MH222",
+        "title": "Food Science and Human Nutrition",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 440,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme is for students who wish to work in the area of food production, quality assurance, nutrition, and product development, with a focus on future foods and the role of food in the health of people, in Ireland and globally. this course provides students with a broad science-based education, with specialist content on the future of food development, human nutrition, and the role of food and healthy living, and also explores the social and global challenges around food security.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AU370",
+        "title": "Food Science and Nutrition",
+        "college": "ATU Donegal",
+        "region": "Ulster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 310,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Science (Hons) in Food Science & Nutrition will provide the student with a broad knowledge of food science, including food manufacturing and processing alongside nutrition and dietary analysis. You will gain a deep understanding about the relationship between diet and disease, and how changing consumer lifestyles can impact on our health, as well as how the modern food industry operates. You’ll also learn about food production and processing, and study the nutritional properties, quality and safety of food products, acquiring a knowledge of human biochemistry, nutrition and dietary analysis.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "US863",
+        "title": "Forensic and Pharmaceutical Science",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 429,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BSc (Hons) in Forensic & Pharmaceutical Science is a unique interdisciplinary course providing students with a detailed knowledge and understanding of the sciences in areas of forensics, pharmaceutical and analytical techniques. This course thus produces graduates who are highly employable in a broad range of sectors. Students gain valuable hands-on experience in the methodology and techniques at the forefront of these major sectors and develop transferable skills including problem solving, communicating, and defending scientific data, evidence interpretation, time management and team building.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "US732",
+        "title": "Forensic and Pharmaceutical Science",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 309,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This unique interdisciplinary programme provides students with detailed knowledge and understanding of forensic, analytical, and pharmaceutical science. Students gain knowledge and critical skills in areas of crime scene investigation, forensic evidence examination, instrumental techniques, pharmaceutical technology, drug analysis, statistical analysis, quality assurance, molecular and immunobiology.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "AU859",
+        "title": "Forensic Investigation & Analysis",
+        "college": "ATU Sligo",
+        "region": "Connacht",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 244,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Forensic Investigation and Analysis encompasses the application of a forensic investigative approach using advanced analytical science for the provision of scientific data and evidence. This degree equips graduates with skills in both forensic and analytical science making them highly employable in a broad range of sectors. Students study both biology and chemistry through the exciting and stimulating medium of forensic science. A major focus of the programme is the development of excellent practical analytical science skills which are in great demand by employers and for postgraduate research.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "AU970",
+        "title": "Forensic Investigation and Analysis",
+        "college": "ATU Sligo",
+        "region": "Connacht",
+        "duration": "4 years",
+        "nfqLevel": 8,
+        "points": 320,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree equips graduates with skills in both forensic and analytical science making them highly employable in a broad range of sectors. Students study both biology and chemistry through the exciting and stimulating medium of forensic science. A major focus of the programme is the development of excellent practical analytical science skills which are in great demand by employers and for postgraduate research.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "AU669",
+        "title": "Forensic Science and Analysis",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 419,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Students will discover how a crime scene is investigated and how to collect and analyse crime scene evidence. They will learn about ethical computer hacking, DNA analysis and much more. There is a large practical and project component to the programme, and students will learn skills such as project management, time management, decision making and laboratory practical skills.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "SE505",
+        "title": "Forestry",
+        "college": "SETU Waterford Campus",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 271,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BSc in Forestry is a three year degree course that prepares students for a professional career in Forest Management.The programme is professionally accredited by the Society of Irish Foresters and graduates may apply to be placed on the Forest Service register of Approved Foresters.",
+        "interests": [
+            "Realistic"
+        ]
+    },
+    {
+        "id": "SE527",
+        "title": "Forestry",
+        "college": "SETU Waterford Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree is focused on sustainable forest management. Students engage in extensive fieldwork and a semester-long industry placement, gaining practical experience in forest operations. The curriculum covers topics such as silviculture, forest protection, timber technology, and environmental management.",
+        "interests": [
+            "Realistic"
+        ]
+    },
+    {
+        "id": "DN250",
+        "title": "Forestry - Agricultural Science",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 431,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "UCD Forestry students learn how to create habitats, provide spaces for recreation, and produce timber – a resource that can simultaneously store carbon and substitute for concrete and steel. Students will gain skills in forest planning, remote sensing, the use of geographical information systems and forest modelling while developing the capacity for life-long learning that enables them to stay abreast of developments in policy, technology and the sciences that underpin forestry practice. The combination of science and business modules, complemented by a work experience placement, ensures that UCD Forestry graduates are in high demand across the sector.",
+        "interests": [
+            "Realistic"
+        ]
+    },
+    {
+        "id": "MI002 FRE",
+        "title": "French Studies - Arts",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 280,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "French Studies can be taken as part of the MIC Arts Degree as a joint honours combination. You will learn about French society, literature and culture as well as improving your language skills. You will use a wide range of materials to aid your study, including textbooks, newspapers, film, radio, TV and internet.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TR667",
+        "title": "French/Modern Language",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 339,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Within the Modern Languages programme you study two modern European languages to degree level.  You can choose between French, German, Irish, Italian, Russian and Spanish. Apart from French and Irish all languages can be studied from both advanced and beginners level.French studies develop transferable skills (excellent writing and oral communication abilities, critical thinking, extensive analytical skills) that are highly sought after across a range of sectors (the creative industries, public service, tourism, publishing, interpreting, teaching, journalism, broadcasting, the Diplomatic Service, etc.). The study of French language, literature, history, politics and philosophy is a hugely enriching intellectual experience and it also leaves graduates very well placed to succeed in a wide range of professional contexts.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU681",
+        "title": "Furniture Design and Manufacture",
+        "college": "ATU Connemara",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 404,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "If you like to solve problems using creative techniques and if you are interested in learning the range of skills required to design and make contemporary and innovative furniture products, then this course is for you.\nYou will get an opportunity to develop skills in both traditional and advanced manufacturing techniques and learn how to apply the design process from concept through to fully finished furniture projects.",
+        "interests": [
+            "Realistic",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU683",
+        "title": "Furniture Design Making and Technology - Common Entry",
+        "college": "ATU Connemara",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 403,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme is designed for those who are interested in pursuing a rewarding and exciting career in the furniture and wood manufacturing industry. Students first develop skills in a wide range of furniture manufacturing principles and learn the latest computer aided design software used in industry. In second year, students choose one of the degree options at the end of year one – Design, Making or Digital.",
+        "interests": [
+            "Realistic",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU583",
+        "title": "Furniture Design, Making and Technology - Common Entry",
+        "college": "ATU Connemara",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 7,
+        "points": 351,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme is designed for those who are interested in pursuing a rewarding and exciting career in the furniture and wood manufacturing industry. Students first develop skills in a wide range of furniture manufacturing principles and learn the latest computer aided design software used in industry. In second year, students choose one of the degree options at the end of year one – Design, Making or Digital.",
+        "interests": [
+            "Realistic",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU682",
+        "title": "Furniture Making and Architectural Woodworking",
+        "college": "ATU Connemara",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 401,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "If you enjoy woodworking and see a future, professional career in the furniture making, architectural joinery or wood manufacturing industries this programme is for you.\nThrough structured projects students develop skills and knowledge to enable them to make furniture, architectural joinery and wood products to the highest standards using a range of traditional and advanced manufacturing technologies.",
+        "interests": [
+            "Realistic",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "MI002 GAL",
+        "title": "Gaeilge - Arts",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 280,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Is féidir an Ghaeilge a dhéanamh mar chomhábhar sa Chéim sna Dána i gColáiste Mhuire gan Smál.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "GY136",
+        "title": "Gaeilge agus Léann an Aistriúcháin",
+        "college": "University of Galway - UG",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 368,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree is aimed specifically at jobs in the field of language skills. Excellent opportunities now exist in Ireland and Europe for those with a translation / language qualification—indeed, there is a shortage of qualified translators to fill job vacancies.\n \nThis highly practical degree course focuses on the linguistic, technological and workplace skills needed to become a professional translator. In addition to studying Translation in Léann an Aistriúcháin, you study Irish as a second subject and and qualify with a degree in both Translation Studies and Irish.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "US706",
+        "title": "Game Art and Design",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme targets the creative needs of the games industry by producing graduates who can develop high quality game content, design game levels and work with industry leading content creation tools, scripting languages and game engines. In addition to developing students’ artistic skills, students of the programme acquire the skills to produce compelling game content for various gaming applications and platforms. The graduates of this programme possess a well-developed understanding of both the creative and technical processes involved in producing game content.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "US806",
+        "title": "Game Art and Design",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 844,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "The B.Sc. (Honours) in Game Art & Design targets the creative needs of the games industry by producing graduates who can develop high quality game content, design game levels and work with industry leading content creation tools, scripting languages and game engines.\nThe programme is designed to provide students with the knowledge and skills required to work in the games industry as games artists, content creators and designers. The programme embodies the multidisciplinary nature of the games sector and seeks to address the demand for game art and design skills both nationally and internationally.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TU984",
+        "title": "Game Design",
+        "college": "TU Dublin - Grangegorman",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 402,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This four-year course focuses on the creation and study of games. It covers the design and development of digital and analogue games, including PC, mobile, Web, card and board games.\nTopics include in-depth analysis of games, practical hands-on development experience and theoretical game studies. Along the way, you’ll also learn important industry skills such as programming, game design, digital media asset creation, project management and game publishing.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DL854",
+        "title": "Game Design",
+        "college": "Institute of Art, Design and Technology Dun Laoghaire - IADT",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 343,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course has been designed with the unique needs of the contemporary games industry in mind. It offers a creative pathway, enabling and enhancing the production and practice of game design and development. It also provides opportunities for an exciting and sustainable career both at home in Ireland’s dynamic and rapidly-evolving Creative Industries and internationally.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU848",
+        "title": "Games Development",
+        "college": "ATU Sligo",
+        "region": "Connacht",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 260,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree uses a software engineering approach to games development, combining study of the technical aspects of games programming, including virtual reality, augmented reality and artiﬁcial intelligence, with the principles of project management, quality assurance and organisational management.  While focused on developing games software, we also provide a general grounding in software engineering to equip students with the breadth of skills to work in any aspect of the information technology industry.\nA cutting edge games development computer laboratory and peripheral hardware are just some of the features on this programme which allow students to flex their creativity and gain first-hand experience.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU631",
+        "title": "Gastronomy Science and Food Innovation",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 300,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This new dynamic course aims to provide students with the knowledge, creative skills and technological competences necessary for a career in the food and/or culinary sector. The course is designed to reinforce and enhance the student’s knowledge of scientific principles, processes and technologies through the study of food. will focus on a new food product development, entrepreneurship, and introduction to sensory and consumer science. The final years of study will focus on the acquisition of scientific skills in food science, sensory and flavor science.",
+        "interests": [
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AU531",
+        "title": "Gastronomy Science and Food Innovation",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 282,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Three year degree combining scientific principles with the theoretical and practical aspects of food. Graduates will develop the skills necessary for an exciting career in food research and development and/or the culinary sector. The Bachelor of Arts (Hons) in Culinary and Gastronomic Sciences aims to provide the student with the knowledge, creative skills and technological competences necessary for a career in the food and/or culinary sector. The course is designed to reinforce and enhance the student’s knowledge of scientific principles, processes and technologies through the study of food.",
+        "interests": [
+            "Realistic"
+        ]
+    },
+    {
+        "id": "US877",
+        "title": "General Nursing",
+        "college": "TUS Midlands",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 389,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course involves the study of theoretical and practice based modules. It involves classroom teaching and taught placements in a variety of clinical and non-clinical settings. This honours degree programme takes advantage of the various areas of expertise available at the three regional hospitals in the Health Service Executive Midlands area in Tullamore, Portlaoise and Mullingar, throughout the Midlands (Laois/Offaly and Longford/Westmeath) and with private healthcare facilities nationally.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "CK710",
+        "title": "General Nursing",
+        "college": "University College Cork - UCC",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 452,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our BSc General Nursing programme will provide you with excellent opportunities to develop knowledge and skills relevant to professional General Nursing practice, including independent and critical thinking, and problem-solving. It will enable you to deliver nursing care that is up-to-date and based on the best current evidence.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "DK870",
+        "title": "General Nursing",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 381,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Students will learn the theory and evidence-based principles of nursing to help people prevent and overcome illness and enable them to take ownership of their own health and well-being. Students will learn the practice of nursing by working with registered nurses in clinical areas who act as mentors, assisting students to apply their knowledge and skills to real-life situations.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "DN450",
+        "title": "General Nursing",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 444,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree prepares you to become a Registered General Nurse who can work collaboratively to successfully manage the complex healthcare needs of the adult population. You will study the theory and practice of nursing in a fully integrated way, establishing a strong foundation for your future career. Your lectures, workshops and tutorials are delivered on our Belﬁeld campus, while practice placements will enhance your learning and develop your nursing skills.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "LM150",
+        "title": "General Nursing",
+        "college": "University of Limerick - UL",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 411,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "General nursing is a discipline of nursing practice that involves caring for people with acute and long-term conditions in hospital and community settings.  Registered General Nurses (RGNs) work collaboratively and in partnership with patients, their families/carers, the wider community, and other health professionals in providing proactive, evidence-based quality holistic care.The BSc Nursing (General) programme is designed to provide students with the understanding, knowledge, skills and attitudes required to deliver compassionate care that is responsive to the needs of individuals within evolving healthcare settings.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "MT926",
+        "title": "General Nursing",
+        "college": "MTU Kerry Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 380,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "While undertaking this programme, you will learn the skills to provide nursing care in a variety of settings. It emphasises the importance of working with other professions and planning individualised nursing care in partnership with patients. As with all nurse education programmes, our focus is on caring, communication and understanding the patient’s experience of health and illness.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "SE915",
+        "title": "General Nursing",
+        "college": "SETU Waterford Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 409,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "General nurses work as part of a multidisciplinary team in promoting and maintaining health of individuals, families and communities and in systematically caring for those who develop health problems and supporting them to live their lives to their maximum potential.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "MH701",
+        "title": "General Nursing",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 466,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This innovative programme integrates theory, skills practice and practice placements. It aims to prepare competent graduates who are confident in their ability to deliver person centred, safe, compassionate, evidence-based, effective and high-quality care across diverse healthcare settings.",
+        "interests": [
+            "Social",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TR093",
+        "title": "General Nursing",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 407,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Students of nursing learn about caring and the complexities of health and illness through interactive teaching and learning strategies in the classroom and the healthcare environment.\nPractice (clinical and community) experience provides the student with opportunities to integrate the art and science of nursing and promotes the development of caring relationships with patients and their families and significant others.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AU690",
+        "title": "General Nursing",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 347,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "General nursing involves caring for people of all ages both in hospital and community care settings. This programme will give you the knowledge and skills you need to work as a general nurse both in Ireland and other countries. You will spend time in class and in our specially built clinical skills labs.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "GY515",
+        "title": "General Nursing",
+        "college": "University of Galway - UG",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 441,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Nursing Science (General) course is a four-year degree programme provided in partnership with the Health Service Executive (HSE) West, Blackrock Health Galway Clinic, Bon Secours Hospital Galway. The programme consists of theoretical and clinical modules. The theoretical content aims to provide students with the knowledge necessary to underpin their professional practice.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AU380",
+        "title": "General Nursing",
+        "college": "ATU Donegal",
+        "region": "Ulster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 340,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our Bachelor of Science (Hons) in General Nursing prepares you for a career in professional healthcare. It’s a four year course that will open up a world of opportunities to pursue a rewarding and vital role in society.\n\n\nNursing involves working with, and caring for, people suffering from a wide variety of physical health problems. This course will equip you with the necessary skills to analyse numerous problems and apply solutions based on best practice. And equally importantly, teach you how to convey your knowledge in an effective and empathetic manner.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "TR091",
+        "title": "General Nursing",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 423,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This four-year degree programme integrates theory and practice, preparing our students to be world-class practitioners.\nAs key members of the interdisciplinary healthcare team and in partnership with patients, general nurses provide for the physical, psychological and social wellbeing of persons with acute or chronic physical illness.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AU991",
+        "title": "General Nursing",
+        "college": "ATU Sligo St. Angelas",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 369,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Science (Hons) in General Nursing, is a four year degree pre-registration course. On completion of the course, graduates will be eligible to register as a General Nurse with the Nursing and Midwifery Board of Ireland (NMBI) having obtained an university accredited honours degree awarded. The course is offered in conjunction with Sligo University Hospital and other Health Service Executive (HSE) organisations and groups in the Western region.",
+        "interests": [
+            "Social",
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "CK405",
+        "title": "Genetics",
+        "college": "University College Cork - UCC",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 521,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BSc Genetics will teach you to understand how genes work in individuals and populations, and how this genetic information is passed from one generation to the next. Our Genetics programme places particular emphasis on the molecular basis of genetics, and our graduates will obtain a strong foundation in modern genetics.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "DC168",
+        "title": "Genetics and Cell Biology",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 518,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "By studying on this programme, you can come to understand the genetic basis for life and how this information can be used to investigate, diagnose and treat diseases. You’ll also gain practical laboratory skills, as well as skills in communications, critical thinking and problem-solving. Furthermore, you’ll gain skills in computational biology, which uses high-tech data analysis and modelling to help harness genetic and biological insights.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "GY321",
+        "title": "Genetics and Genomics",
+        "college": "University of Galway - UG",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 474,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Genetics and Genomics is an exciting area of science involving the study and use of DNA based data in the life sciences. Genetics is the study of how DNA is the blueprint for functionality in every cell and is also the code that passes information from one generation to the next. New sequencing technologies can now generate vast quantities of data from DNA. \nGenomics is the study of these data to make important discoveries in areas such as medicine, agriculture, evolution, the environment and biotechnology.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "MI002 GEO",
+        "title": "Geography - Arts",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 280,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Geography is concerned with both the natural and the cultural environments created on the earth’s surface and with the inter-relationships between them. It has links with a wide range of other disciplines, and is a subject with enormous contemporary relevance in a world facing challenges such as globalisation, inequality, natural resource depletion, environmental degradation, climate change, and large-scale international migration and refugee flows. As it is inherently interdisciplinary, Geography helps to develop a wide range of talents.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "DN700 TSC",
+        "title": "Geography (Social Sciences Two Subject Combination)",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 490,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Geography is the only discipline that combines the study of both the natural and social worlds, and their interaction, and is key to solving global problems such as climate change, poverty, migration, urbanisation and environmental management.\nBy studying Geography in UCD, you will understand the context in which environmental, socio-cultural and politico-economic decision-making takes place and develop skills that prepare you for the workplaces and societies of tomorrow.",
+        "interests": [
+            "Investigative",
+            "Social"
+        ]
+    },
+    {
+        "id": "TR062",
+        "title": "Geography and Geoscience",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 472,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Geography and Geoscience is the study of our planet and the people that live on it. This multi-disciplinary programme is designed by leading research scientists in response to critical challenges facing the Earth system and humanity in the 21st century. It integrates knowledge from the physical, chemical, biological and social sciences to develop novel insights into Earth system function and human-environment interactions.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "GY134",
+        "title": "Geography and Geosystems",
+        "college": "University of Galway - UG",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 350,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "There is a growing demand for a work force literate in the scientific and geographic protocols used to advance environmental issues such as climate change, energy use, sustainable development, and policy. This new degree course will allow you to become an expert in many decision-making fields that now rely on a fundamental understanding of how human activities depend upon natural systems, through the interpretation of the scientific, spatial, and economic aspects of geographic principles and processes.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AU693",
+        "title": "Geography and Outdoor Education",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 307,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme combines the study of the Geography, Landscape and Adventure. Graduates will be empowered to promote careful use and management of an increasingly threatened natural world and to educate others in wise use and sustainable practice.\nGraduates will be well placed to manage the different and sometimes conflicting interests between rural land uses such as farming, tourism, outdoor recreation, nature conservation, forestry, and alternative energy solutions.",
+        "interests": [
+            "Social",
+            "Realistic",
+            "Investigative"
+        ]
+    }
+]

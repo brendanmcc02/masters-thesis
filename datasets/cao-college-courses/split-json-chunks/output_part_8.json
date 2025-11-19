@@ -1,0 +1,1457 @@
+[
+    {
+        "id": "US701",
+        "title": "Digital Animation",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": null,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "On this programme, students learn to design, create and animate for both 2D and 3D platforms such as TV, Film and Games. There is a focus on developing students’ core skills in the traditional disciplines of drawing, illustration and animation asset design with a strong emphasis on the principles of animation. Building on this foundation, students continue to develop their creative voice while training in industry standard software, processes and technologies with the aim of bringing their ideas and concepts to life on screen.",
+        "interests": [
+            "Artistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "US805",
+        "title": "Digital Animation",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 789,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "On this programme, students learn to design, create and animate for both 2D and 3D platforms such as TV, Film and Games. There is a focus on developing students’ core skills in the traditional disciplines of drawing, illustration and animation asset design with a strong emphasis on the principles of animation.\nBuilding on this foundation, students continue to develop their creative voice while training in industry standard software, processes and technologies with the aim of bringing their ideas and concepts to life on screen.\n.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DC241",
+        "title": "Digital Business and Innovation",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 468,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Learn how companies leverage digital technologies to innovate, transform and succeed.Whether it’s Big Data, the Internet of Things or Virtual Reality, the world of business is being transformed by digital technology. It’s an exciting time of rapid change that is creating wonderful new opportunities. This four-year course is the first of its kind in Ireland and aims to give you the skills to succeed in a future world of work that is driven by technology.",
+        "interests": [
+            "Conventional",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "TU863",
+        "title": "Digital Forensics and Cyber Security",
+        "college": "TU Dublin - Blanchardstown",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 300,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course will provide you with an all-round perspective on information security risk and risk management. It is designed to produce highly knowledgeable and skilled graduates to counter the growing cyber security threat facing the world today. Graduates are in high demand in all parts of the Information Technology sector, as security is one of the fastest-growing parts of the industry.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TU758",
+        "title": "Digital Forensics and Cyber Security",
+        "college": "TU Dublin - Blanchardstown",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 270,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course will provide you with an all-round perspective on information security risk and risk management. It is designed to produce highly knowledgeable and skilled graduates to counter the growing cyber security threat facing the world today. \nSubjects covered range from the basics of Programming, Networking, Web Development and Databases to Advanced Programming, IT Business Management, Penetration Testing, Secure Programming, and Network Security.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "MT815",
+        "title": "Digital Health and Informatics for Healthcare",
+        "college": "MTU Kerry Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 160,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Digital health technologies include mobile apps, wearable devices and platforms that provide remote healthcare (telehealth), software to help track symptoms, online tools to diagnose conditions, and programmes that analyse data from medical devices. The BSc (Honours) in Digital Health and Informatics for Healthcare aims to meet the growing demand for a specialised workforce in the digital health technologies. It is a four-year level 8 programme, three years on campus followed by one year on work placement. It is a combined degree in science and computing and multidisciplinary involving three pillars in the following areas: Bioscience, Health Studies and Data Science. The former two pillars underpinning the latter, providing graduates who understand the medical and human sciences as well as the advanced technical knowledge and skills.",
+        "interests": [
+            "Conventional",
+            "Social"
+        ]
+    },
+    {
+        "id": "CK118",
+        "title": "Digital Humanities and Information Technology",
+        "college": "University College Cork - UCC",
+        "region": "Munster",
+        "duration": "3 - 4 years",
+        "nfqLevel": 8,
+        "points": 300,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Our BA (Hons) Digital Humanities and Information Technology degree is an innovative course where you will explore a broad range of arts and humanities topics, while also studying the principles of information technology and digital media. We look at how the digital can enable innovation, but also how technology is changing what it means for us to be human in the age of machines.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "US724",
+        "title": "Digital Marketing",
+        "college": "TUS Midlands",
+        "region": "Munster",
+        "duration": "3 years",
+        "nfqLevel": 7,
+        "points": 190,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "On this degree, you can: Develop creative content, apply SEO and explore cyberpsychology and its ability to alter human behaviours within the context of real-life company’s digital marketing campaigns.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TU920",
+        "title": "Digital Marketing",
+        "college": "TU Dublin - Blanchardstown",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 273,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course in Digital Marketing is the discipline of understanding how and why consumers buy products and services, and using those insights to satisfy consumer wants and needs. Subjects include Marketing, Web Design, Social Media, Advertising, Financial Planning, Online Advertising, Consumer Behaviour and Market Research.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "US843",
+        "title": "Digital Marketing",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 279,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This BBus degree is designed to ensure that you graduate with a wide range of skills to help you choose the career path you want to follow in life. You will assess the impact of digital technology on all types of business scenarios, learn to integrate social media tools into a marketing communications strategy, and effectively use different forms of digital marketing in the development of a global online presence. With a wide range of business subjects and assessments available on this course, students become independent thinkers, developing their own views on society and how to shape the world of digital business into the future.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TU782",
+        "title": "Digital Marketing",
+        "college": "TU Dublin - Tallaght",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 0,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course integrates theory and practical marketing to prepare you for this exciting and evolving industry. You’ll learn all about consumer behaviour, marketing communications and brand management, and how to best use digital tools.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "US844",
+        "title": "Digital Marketing",
+        "college": "TUS Midlands",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 270,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Students undertaking this four-year honours degree programme learn about digital theory and cyber psychology while also getting hands-on practical experience from academics with relevant industry experience. This is crucial to your constant development and upskilling because digital marketing is an ever evolving, fast-moving field.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DL840",
+        "title": "Digital Marketing",
+        "college": "Institute of Art, Design and Technology Dun Laoghaire - IADT",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 209,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Digital marketing is critical to the evolving world of technologies, platforms, consumer dynamics, businesses and brands. This three year degree course combines traditional marketing theory, practice and digital tools. You will learn how businesses can reach, connect and promote their products to a larger audience using a diverse range of digital marketing tools and strategies.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DK818",
+        "title": "Digital Marketing & Strategic Communication",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 184,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Students will delve into topics such as Content Creation, social media, strategy, and communications. Lectures create the opportunity to apply academic learning to contemporary workplace situations and challenges, with a focus on addressing real-world organisational problems through innovative and insightful solutions.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DK712",
+        "title": "Digital Marketing and Public Relations",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 0,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Students will delve into topics such as content creation, social media, strategy, and communications. Lectures create the opportunity to apply academic learning to contemporary workplace situations and challenges, with a focus on addressing real world organisational problems through innovative and insightful solutions.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "SE411",
+        "title": "Digital Marketing with Analytics",
+        "college": "SETU Carlow Campus",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 290,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Examining how digital, web and social media technologies are used to deliver innovative business solutions, and how data analysis is at the heart of all successful marketing, this cutting edge degree provides an ideal space to explore the customer and commercial focus of marketing, the creativity of design and digital technology, and the analytical world of data.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "SE418",
+        "title": "Digital Marketing with Analytics",
+        "college": "SETU Carlow Campus",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 258,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Examining how digital, web and social media technologies are used to deliver innovative business solutions, and how data analysis is at the heart of all successful marketing, this cutting edge degree provides an ideal space to explore the customer and commercial focus of marketing, the creativity of design and digital technology, and the analytical world of data.",
+        "interests": [
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TU761",
+        "title": "Dispensing Optician",
+        "college": "TU Dublin - Grangegorman",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 404,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Dispensing Opticians are eye care professionals who are trained to interpret prescriptions issued by optometrists or ophthalmologists and to dispense spectacles and other optical aids.\nA career as a dispensing optician is extremely rewarding. It offers great variety and will deliver a high degree of job satisfaction to those attracted to a career in an allied healthcare setting, who have an interest in maths and science, relish problem solving and enjoy interacting with the public.",
+        "interests": [
+            "Investigative",
+            "Social"
+        ]
+    },
+    {
+        "id": "TU752",
+        "title": "DNA and Forensic Analysis",
+        "college": "TU Dublin - Tallaght",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 412,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Forensic science is the application of scientific knowledge and techniques in support of the legal process. The application of DNA technologies in forensics, and a wide range of industries and the state laboratories, has increased hugely. This course will provide you with a broad knowledge and understanding of the core biological and chemical sciences. You’ll develop practical and problem-solving skills in the laboratory in pharmaceutical, biological and chemical & forensic analysis, as well as both theoretical understanding and practical skills in DNA fingerprinting technology.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "TU864",
+        "title": "DNA and Forensic Analysis",
+        "college": "TU Dublin - Tallaght",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 412,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Forensic science is the application of scientific knowledge and techniques in support of the legal process. The application of DNA technologies in forensics, and a wide range of industries and the state laboratories, has increased hugely. The application of scientific knowledge and techniques is of growing significance in legal cases in the real world as well as in fiction, but there is also an increasing demand in many industries for the skills of an analyst in biotechnology and forensics, so this course may lead you to an exciting career.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "TU962",
+        "title": "Drama (Performance)",
+        "college": "TU Dublin - Grangegorman",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 449,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "This is a three-year, full-time course in practical drama training and education. TU Dublin Conservatory has over 25 years’ experience in drama training and is one of the leading centres of education in the performing arts in Ireland.\nOur graduates have had national and international success as actors, directors, drama facilitators and drama researchers.",
+        "interests": [
+            "Artistic",
+            "Social"
+        ]
+    },
+    {
+        "id": "MI002 DTS",
+        "title": "Drama & Theatre Studies - Arts",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 280,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Drama and Theatre Studies Programme will allow you to acquire a broad knowledge in drama and theatre studies. It will equip you with the critical, analytical and literary skills necessary to analyse live performance and play-texts, and locate them within a socio-cultural context. The programme has a special emphasis on contemporary theatre and on applied drama/theatre.",
+        "interests": [
+            "Artistic",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "MI010",
+        "title": "Drama and English",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 316,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "MIC's new BA in Drama and English offers a unique combination of Drama/Theatre practice and research with significant grounding in English Literature.\nBy combining a focus on practical modules in acting and theatre production with academic research on great literature, we offer our students a unique and exciting degree that will develop critical thinking, problem-solving, and excellent writing and communication skills.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TR025",
+        "title": "Drama and Theatre Studies",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 506,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "Theatre Studies encompass all the arts that make up the live experience we call theatre – including costume, lighting, sound, devising, directing, design, dramaturgy and playwriting. We also study the meaning behind theatre, analysing culture and politics, space and place, the presence of audience and performers, and the use of digital technology.",
+        "interests": [
+            "Artistic",
+            "Social"
+        ]
+    },
+    {
+        "id": "TR566",
+        "title": "Drama Studies/Middle Eastern, Jewish and Islamic Civilisations",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 423,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "What is Drama?Drama exists on and off the stage. Theatre happens in our everyday life. It is the basis for story-telling and other forms of performance within the creative arts. It has its origins in sacred ritual and remains central today as part of our sensemaking as we negotiate our place in the world.\nWhat is Middle Eastern, Jewish and Islamic Civilisations? The cultures and societies of the Middle East have been deeply influential in shaping European and western values. In spite of this, the region and its peoples are often misunderstood and represented. Middle Eastern, Jewish and Islamic Civilisations is the study of the historical origins as well as contemporary culture of a wide range of societies of the region, providing you with an insight into the contemporary Middle East and to the challenges of diversity and multiculturalism in an increasingly globalised world.",
+        "interests": [
+            "Artistic",
+            "Social"
+        ]
+    },
+    {
+        "id": "TR323",
+        "title": "Drama Studies/Modern Language",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 423,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Drama Studies The course explores the relationship between the theory and practice of Drama and Theatre to discover how and why they work. The strong developmental emphasis of the courses requires a particular blend of practical and academic skills. In addition to a high level of analytical ability and creativity you will need to possess resourcefulness and self-motivation. Students combine this subject with their choice of Italian, Russian or Spanish.",
+        "interests": [
+            "Artistic"
+        ]
+    },
+    {
+        "id": "US864",
+        "title": "Drug and Medicinal Product Analysis",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 306,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme has been developed in conjunction with people working in the industries that employ our graduates. We aim to produce graduates who understand how medicines and healthcare products, including medical devices, pharmaceuticals and biopharmaceuticals, are manufactured and checked to make sure they are safe, effective, and of a high quality. Drug and Medicinal Product Analysis is a highly relevant programme that leads to excellent job prospects.",
+        "interests": [
+            "Investigative"
+        ]
+    },
+    {
+        "id": "TU924",
+        "title": "E-Commerce in Retailing",
+        "college": "TU Dublin - Aungier Street",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 251,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "e-Commerce is the buying and selling of goods and services online. This e-Commerce in Retailing course responds to a changing retail landscape that is influenced by digital and social media. \nThe course addresses contemporary retail management needs that reflect the rapidly changing economic and technological environment. It aims to provide a broad technologically informed business education for future retail managers that reflects the changing needs of the sector.",
+        "interests": [
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "TR022",
+        "title": "Early and Modern Irish",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 349,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Early Irish is the language in use in Ireland from the earliest period for which there are records up to the year 1200. The course covers the language and literature from the emergence of writing at the arrival of Christianity in Ireland to the production of the great saga manuscripts of the twelfth century.",
+        "interests": [
+            "Artistic",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "MI007",
+        "title": "Early Childhood Care and Education",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 376,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The BA in Early Childhood Care and Education is a full-time, four-year, honours degree programme (Level 8), designed to provide an exciting and challenging programme for those interested in working with young children, from birth to six years of age, in a range of educational settings.\nIt provides a highly-regarded qualification in this most rewarding area, and was developed in response to contemporary developments in the field of early years education both in Ireland and internationally.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "TU989 ECB",
+        "title": "Early Childhood Care and Education",
+        "college": "TU Dublin - Blanchardstown",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 262,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course It explores the varied approaches to early childhood education and care, including child development, child psychology, sociology of childhood, art, drama and music, equality, diversity and inclusion, language acquisition, health and well-being, and safeguarding children.\nYou’ll gain insights into outdoor learning and risky play through our purpose-built outdoor classroom. You’ll be able to apply and adapt your learning in the realistic setting of our dedicated early-childhood practice room.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "TU790 ECB",
+        "title": "Early Childhood Care and Education",
+        "college": "TU Dublin - Blanchardstown",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 280,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course explores the varied approaches to early childhood education and care, including child development, child psychology, sociology of childhood, art, drama and music, equality, diversity and inclusion, language acquisition, health and well-being, and safeguarding children. You’ll gain insights into outdoor learning and risky play through our purpose-built outdoor classroom.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "TU790 ECT",
+        "title": "Early Childhood Care and Education",
+        "college": "TU Dublin - Tallaght",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 280,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "If you’re interested in working with children and finding out how they develop and learn, are eager to study different cultures, languages and diversity in the world, and enthusiastic about making a difference in children’s lives, this course will suit you.\nIt explores the varied approaches to early childhood education and care, including child development, child psychology, sociology of childhood, art, drama and music, equality, diversity and inclusion, language acquisition, health and well-being, and safeguarding children. You’ll gain insights into outdoor learning and risky play through our purpose-built outdoor classroom. You’ll be able to apply and adapt your learning in the realistic setting of our dedicated early-childhood practice room.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "SE911",
+        "title": "Early Childhood Care and Education",
+        "college": "SETU Waterford Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 270,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course produces professionally qualified graduates who work effectively in a wide range of early years’ contexts, with children up to the age of eight years. The course involves the study of core, interrelated disciplines including early years’ education,, psychology, sociology, law and personal and professional development and supervised professional practice placements which are essential to effective working in ECCE settings",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "TU989 ECT",
+        "title": "Early Childhood Care and Education",
+        "college": "TU Dublin - Tallaght",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 262,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "If you’re interested in working with children and finding out how they develop and learn, are eager to study different cultures, languages and diversity in the world, and enthusiastic about making a difference in children’s lives, this course will suit you.\nIt explores the varied approaches to early childhood education and care, including child development, child psychology, sociology of childhood, art, drama and music, equality, diversity and inclusion, language acquisition, health and well-being, and safeguarding children.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "AU695",
+        "title": "Early Childhood Care and Education",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 291,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree provides experiences, insights and knowledge into early childhood education and care. Early childhood educators work with children from infancy to primary school. Our programme aims to develop well-informed, articulate professionals who are passionate about early childhood education and care. There is a strong focus on play and learning, the close relationship to nature and outdoor experiences and children’s rights to participation. This firm academic foundation is cemented by a strong emphasis on practical application of theory.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "AU190",
+        "title": "Early Childhood Care, Health & Education",
+        "college": "ATU Donegal",
+        "region": "Ulster",
+        "duration": "2 Years",
+        "nfqLevel": 6,
+        "points": 163,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Higher Certificate in Early Childhood Care, Health & Education is a two-year course that equips graduates with the necessary competencies to work in a supervisory position with young children and their families. It is an invigorating and exciting career path with opportunity to gain employment as a lead Early Childhood Educator. The Higher Certificate programme is delivered with theory lectures, practical work, and group tutorial classes, adopting a spiral curriculum approach. This method progressively builds on the student’s capacity as an Early Childhood Educator, assessor and facilitator of young children’s learning and development through play.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "AU390",
+        "title": "Early Childhood Care, Health and Education",
+        "college": "ATU Donegal",
+        "region": "Ulster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 301,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Science (Hons) in Early Childhood Care, Health & Education is a four-year degree course that equips graduates with the necessary competencies to work with young children and their families. It is an invigorating and exciting career path.This programme is delivered with theory lectures, practical work, and group tutorial classes, adopting a spiral curriculum approach. This method progressively builds on the student’s capacity as an Early Childhood Manager and Educator, assessor and facilitator of young children’s learning and development through play.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "TU995",
+        "title": "Early Childhood Education",
+        "college": "TU Dublin - Grangegorman",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 307,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Early Childhood Education (ECE) generally refers to education before the start of primary school attendance (0-6 years in Ireland). Services include pre-schools, Naíonraí, specific intervention centres such as community support preschools, Barnardo's childcare services, Focus Ireland support services, crèches, child-minding and after-school groups.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "CM020",
+        "title": "Early Childhood Education",
+        "college": "Marino Institute of Education",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 346,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Students will study a wide range of courses to help them become knowledgeable, dedicated early childhood practitioners. These include child psychology, play, language and literacy, enquiry-based learning, child care and protection, arts and the early years.\nYou will learn about educators who have influenced the education of young children, including Montessori,  and Vygotsky. You will learn about the Aistear  and will take education placements in a variety of early childhood settings.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "US927",
+        "title": "Early Childhood Education & Care",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 270,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Early childhood education and care (ECEC) reflects a holistic view of the education (e.g. early stimulation, education, developmental activities) and care (e.g. health, nutrition, hygiene, safety and security, responsive caregiving) of young children from 0 to 6 years of age. Therefore, this course is designed to equip graduates with the essential core knowledge, practices and values to fulfil the role of a professional early childhood educator.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "MT971",
+        "title": "Early Childhood Education and Care",
+        "college": "MTU Kerry Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 307,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree programme is delivered through a blend of lectures, workshops, practicals, tutorials and online support. Work placements are an integral part of the programme. All students participate in a supervised work placement in one of a variety of settings in Ireland or abroad for two full semesters.\nIn the final year of the programme, you study research methods, specialise in chosen areas and complete a dissertation on a topic of your choice.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "MT571",
+        "title": "Early Childhood Education and Care",
+        "college": "MTU Kerry Campus",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 254,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course is designed to prepare graduates for employment in early childhood services in Ireland. \nTheory is delivered in conjunction with work based learning in supervised practice placements over two full semesters, so that students are provided with the necessary practical and managerial skills to work in, set up and/or run a service.\nThis approach is intended to assist students in obtaining the knowledge, values and skills required to generate high standards of practical performance to manage a facility.\nThis Level 7 programme focuses on the development of a sound practical skillset for a career in the sector and the emphasis on the supervised work placements is to further develop theoretical concepts in the field of Early Childhood Care and Education for practical implementation.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "NC030",
+        "title": "Early Childhood Education and Care",
+        "college": "National College of Ireland - NCI",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 209,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Arts (Honours) in Early Childhood Education and Care is a four-year, day and evening delivery programme, designed for people who are interested in pursuing opportunities in the Early Childhood Education and Care (ECEC) sector.\nThe aim of the BA (Hons) in Early Childhood Education and Care is to provide learners with a firm foundation in Early Childhood Education and Care so as to practice as Professional Early Childhood Educators in a range of ECEC environments.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "US783",
+        "title": "Early Childhood Education and Care",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 205,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Throughout the course, students will explore the exciting and dynamic content and practice, giving you the knowledge and skills to be a formidable candidate for any career path you may choose to pursue in the area. Early childhood education and care (ECEC) reflects a holistic view of the education. You will have the opportunity to study modules such as Child Health and Wellbeing, Play, STEAM, Curriculum, Leadership and Management and School Age Childcare. This course is designed to equip graduates with the essential core knowledge practices and values to fulfill the role of professional Early Childhood Educator.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "MT972",
+        "title": "Early Childhood Education and Care",
+        "college": "MTU Cork Campus",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 340,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The programme offers the student the opportunity to study early childhood from differing perspectives – educational, psychological, social, and cultural.\nThe programme also includes tuition in art, music and drama, which provides an extensive portfolio of child-centred activities. Attention is also paid to practical skills needed in this type of work such as child health, exercise and nutrition, and the physical care of children.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "AU491",
+        "title": "Early Childhood Education and Care",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "2 Years",
+        "nfqLevel": 6,
+        "points": 163,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This two-year Higher Certificate in Early Childhood Education and Care provides learners with a comprehensive education on the role of early childhood educators.The programme aims to provide learners with an education for professional practice in Early Childhood Education and Care (ECEC). The programme has a practice development module which gives learners the opportunity to complete a student placement in an early-years setting every week of study for 12 hours. Early childhood is the period from birth to six years.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "SE913",
+        "title": "Early Childhood Education and Practice",
+        "college": "SETU Carlow Campus",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 297,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Early childhood education and practice involves supporting babies and young children to become competent and confident learners through loving relationships with others. Children require high-quality education and care during their formative years. Research indicates that the higher the professional qualification of the educator working with the children, the higher the quality of the setting and the children’s experiences in it.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "SE934",
+        "title": "Early Childhood Education and Practice",
+        "college": "SETU Wexford Campus",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 0,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Early childhood education or early learning and care, is a very rewarding profession that supports the development of young children from infancy and throughout the childhood years. Direct practice involves working with children by tailoring learning experiences to children’s individual needs. Supporting parents in their parenting role is also an essential part of the job.\nIndirect practice involves managing services, educating students, professional representation, governance and national policy development. Such wide ranging career opportunities ensures early childhood education is a rewarding and diverse profession.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "SE935",
+        "title": "Early Childhood Education and Practice",
+        "college": "SETU Carlow Campus",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 213,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Early childhood education and care involves supporting babies and young children to become competent and confident learners through loving relationships with others. Children require high-quality education and care during their formative years.\nResearch indicates that the higher the professional qualification of the educator working with the children, the higher the quality of the setting and the children’s experiences in it.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "SE912",
+        "title": "Early Childhood Education and Practice",
+        "college": "SETU Wexford Campus",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 249,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course is a four-year programme, which equips graduates with the theoretical, policy, legal and practical knowledge required to work in early years services. Learning is through experiential and self-directed learning activities, as well as through group work and presentations.\nThe final year research project is supervised by an experienced research team. Placement opportunities in each year of study supports learners to become competent early childhood educators.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "DK876",
+        "title": "Early Childhood Studies",
+        "college": "Dundalk Institute of Technology - DKIT",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 243,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course provides comprehensive knowledge and understanding of the early years of a child’s life. This course is focused on the holistic development of young children and aims to equip students with the necessary skills to work effectively with children, families, and communities. Students explore key theories, research findings, and practical approaches related to child development, learning, and wellbeing.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "MH003",
+        "title": "Early Childhood Teaching and Learning",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 399,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This full-time degree will prepare you for a range of leadership roles in the Early Childhood Education and Care. It is a progressive level 8 degree, supporting the development of outstanding early childhood educators.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "AU919",
+        "title": "Early Education and Care",
+        "college": "ATU Sligo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 301,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The overarching aim of this degree is to foster and develop the knowledge, skills, competencies, and values of emerging Early Years Professionals to be independent and professional educators. The programme aims to meet the criteria for initial professional education, forming graduates who have the expertise to nurture and enrich infants' and young children's lives in early years learning and care settings. Combining theory with professional practice, this applied degree supports graduates to become skilled, competent, ethical, and reflective practitioners.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "CK111",
+        "title": "Early Years and Childhood Studies",
+        "college": "University College Cork - UCC",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 368,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This four-year degree will expose you to interdisciplinary perspectives from the Schools of Applied Psychology, Applied Social Studies and Education. The curriculum emphasises academic theory, research skills, and professional and reflective practice. It includes a broad range of perspectives on childhood, the child in society, child development, early years care and education, and child health.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "US780",
+        "title": "Early Years Care and Education",
+        "college": "TUS Midlands",
+        "region": "Munster",
+        "duration": "3 Years",
+        "nfqLevel": 7,
+        "points": 243,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "On this course, you will learn to make a difference to the lives of babies and young children by understanding how they develop and learn. You will learn how to meet the needs of children, and to understand the role of the family and society.\nThe programme promotes a child-centered approach to care and education, taking account of physical, educational and emotional needs of babies and young children.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "US926",
+        "title": "Early Years Care and Education",
+        "college": "TUS Midlands",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 251,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The early childhood education and care educator plays a pivotal role in the provision of quality care and education. This course introduces students to the dynamic landscape of early childhood education and care. Policy, legislation and practice are currently undergoing unprecedented change. Students will have opportunities to develop knowledge, skills and values to support the holistic development of children from birth to six years. Engagement with academic and theoretical literature, classroom simulated practice, and practice placement in early childhood education and care settings will enable students to develop as reflective educators with abilities to articulate what young children are learning, how they are learning and the pedagogic approach which underpins their knowledge.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "GY314",
+        "title": "Earth and Ocean Sciences",
+        "college": "University of Galway - UG",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 403,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Earth and Ocean Sciences involve the study of the physical and chemical processes that affect planet Earth and its oceans. In this field, you will study topical subjects, such as climate change, natural resources and the management and conservation of our oceans. Four sub-disciplines are involved: geology, geophysics, hydrogeology and oceanography, which, in different ways, look at various workings of our planet, from the atmosphere to the seabed.",
+        "interests": [
+            "Investigative",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "DN710",
+        "title": "Economics",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 542,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Economics explores how and why people make decisions and choose between alternative ways of spending their money and using their time, energy and skills. That is why Economics can help to shed light on decision-making in areas from love and marriage, to sports and crime.\nIf you are interested in people’s behaviour and in current affairs, and if you enjoy problem-solving and are naturally analytical with good numeracy skills, then Economics will appeal to you.",
+        "interests": [
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "MH415",
+        "title": "Economics",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 445,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "As a BSc Economics student, you will learn to take a scientific evidence-based approach to understand, critique and create policies to combat economic and social problems. Employers in all sectors from government to financial services have a growing need for economists who can analyse and interpret data. This requires a strong grounding in analytical and quantitative methods. With an emphasis on independent research, this programme is designed to allow you to flourish based on your individual curiosity and strengths.",
+        "interests": [
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DN700 TSC",
+        "title": "Economics (Social Sciences Two Subject Combination)",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 490,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Economics explores how and why people make decisions and choose between alternative ways of spending their money and using their time, energy and skills.\nThat is why Economics can help to shed light on decision-making in areas from love and marriage, to sports and crime. If you are interested in people’s behaviour and in current affairs, and if you enjoy problem-solving and are naturally analytical with good numeracy skills, then Economics will appeal to you.",
+        "interests": [
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "TU905",
+        "title": "Economics and Finance",
+        "college": "TU Dublin - Aungier Street",
+        "region": "Dublin",
+        "duration": "3-4 Years",
+        "nfqLevel": 8,
+        "points": 436,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme focuses on the analysis of how these and other factors influence the goods and services an economy produces, the resources it uses in production, and the distribution of its output. It also focuses on contemporary issues such as the globalisation of world markets, international monetary systems, privatisation of industry and the management of the economy.",
+        "interests": [
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DN670",
+        "title": "Economics and Finance",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "3-4 Years",
+        "nfqLevel": 8,
+        "points": 625,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "If you have a strong interest or ability in economics, maths and statistics, this degree provides everything you need for a future career in the areas of financial economics, banking and finance. Recognised as one of the premier degrees in its field in Ireland and internationally, it equips students with outstanding expertise in quantitative methods, analytical skills and a rigorous preparation in economics and finance. The skills that the course develops are valuable on their own in many careers and provide the essential background for learning Economics and Finance.",
+        "interests": [
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DN700 EMS",
+        "title": "Economics, Mathematics & Statistics - Social Sciences",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 490,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "If you are interested in Mathematics, Statistics and Economics, then this course enables you to explore these areas in depth, while also emphasising how they complement each other.\nEconomists employ mathematics to design theoretical models and use statistics to test these models and to explore the tremendous amount of data that is generated by the economy. In turn, the models and data that are part of the study of Economics provide an interesting source of applications for students that have learned mathematical and statistical skills.",
+        "interests": [
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "DC230",
+        "title": "Economics, Politics and Law",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "3-4 Years",
+        "nfqLevel": 8,
+        "points": 467,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Are you interested in how societies work? DCU’s Economics, Politics and Law (EPL) degree course is designed to give you a deep and thorough understanding of the political, legal and economic forces that shape the world. Build strong foundations This degree provides a solid base to all three disciplines and you will study foundational topics such as introductions to micro and macroeconomics, political science and constitutional law. You don’t need to have done any of these before. As you progress through your studies you may choose to specialise in areas such as Urban and Regional Economics, Issues in American Politics or Family Law, to name a few. You will also maximise your learning potential with dedicated research methods modules that will equip you with a variety of study skills. Skills attractive to employers This extremely versatile degree provides you with skills and knowledge that are highly valued across sectors including finance and banking, government and policy, the legal profession, NGOs and more. This degree will help you develop your oral and written communication skills, research techniques, critical thinking, teamwork and research abilities. 3 or 4 year degree You can complete the BA in Economics, Politics and Law degree in three years, or choose to take an extra year either to study abroad or complete an INTRA placement.",
+        "interests": [
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "TR198",
+        "title": "Economics/Geography",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 578,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "EconomicsAny society has to address the problem of how and what to produce for its material survival, and how the goods and services that are produced should be distributed among its population. Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. GeographyGeography is the study of Earth’s landscapes, peoples, places and environments. Fundamentally it is about the world in which we live. Geography offers a 21st century education by uniquely bridging the social sciences (human geography) with the natural sciences (physical geography).   Geography also covers increasingly important environmental issues where humans affect physical environments and vice versa.",
+        "interests": [
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "TR202",
+        "title": "Economics/History",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 578,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "EconomicsAny society has to address the problem of how and what to produce for its material survival, and how the goods and services that are produced should be distributed among its population. Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. HistoryThe four-year programme allows students to lay firm foundations in the first two years, with wide-ranging modules on medieval and modern history, Irish, European, American, environmental and global history, as well as on historical methods and approaches. The final two years of the programme allow students the chance to study several specialist modules in-depth and to undertake independent research on a subject of their own choice.",
+        "interests": [
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "TR207",
+        "title": "Economics/Mathematics",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 578,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Economics\nEconomists explore how people and institutions behave and function when producing, exchanging and using goods and services. Economists’ main motivation is to find mechanisms that encourage efficiency in the production and use of material goods and resources, while at the same time producing a pattern of income distribution that society finds acceptable. \nMathematicsMathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one’s logical reasoning, quantitative skills and problem-solving techniques.",
+        "interests": [
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "TR208",
+        "title": "Economics/Modern Language",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 578,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. Economists’ main motivation is to find mechanisms that encourage efficiency in the production and use of material goods and resources, while at the same time producing a pattern of income distribution that society finds acceptable. Students combine this subject with their choice of German or Spanish.",
+        "interests": [
+            "Investigative",
+            "Conventional",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "TR209",
+        "title": "Economics/Philosophy",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 578,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. Economists’ main motivation is to find mechanisms that encourage efficiency in the production and use of material goods and resources, while at the same time producing a pattern of income distribution that society finds acceptable. \nPhilosophyThis course offers the opportunity to engage in depth with questions of metaphysics (about the fundamental nature of reality), epistemology (the theory of knowledge), ethics (theories of right and wrong), political philosophy (the nature of the just state), philosophy of religion (reasoning about God), philosophy of mind (questions about thought, language and reason) and various other areas. We teach courses which have both systematic and historical emphases and in the higher years students can choose options and get to write a thesis on a topic of their own choice.",
+        "interests": [
+            "Investigative",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "TR212",
+        "title": "Economics/Sociology",
+        "college": "Trinity College Dublin - TCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 578,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "EconomicsAny society has to address the problem of how and what to produce for its material survival, and how the goods and services that are produced should be distributed among its population. Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. Economists’ main motivation is to find mechanisms that encourage efficiency in the production and use of material goods and resources, while at the same time producing a pattern of income distribution that society finds acceptable. \nSociologyIf you want to understand the social changes taking place in the world today, and you are curious about people and society, then Sociology is for you. You will also gain the ability to understand topical issues and to present and communicate information and thoughts coherently. In addition, you will learn invaluable analytical, communication, research and presentation skills – transferable skills which can be applied to a wide range of careers and postgraduate programmes.",
+        "interests": [
+            "Investigative",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "DC001",
+        "title": "Education - Early Childhood Education",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 420,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Do you want to make a difference to the lives and educational futures of young children? Then follow your passion and explore early education with an internationally-recognised team of academics and researchers in DCU. This course will prepare you for a highly rewarding career, educating and supporting young children during a vital time in their development. The Bachelor of Early Childhood Education (BECE) prepares you for work as a professional in a variety of early childhood educational settings, from preschools and creches, to child and family support programmes and it equips graduates to work with children of all needs. The BECE enables graduates to follow a career in a range of voluntary and statutory organisations that work on behalf of children and families.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "CK124",
+        "title": "Education - Gaeilge",
+        "college": "University College Cork - UCC",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 398,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Teachers of Irish are now in high demand in secondary schools, both in English-speaking schools and also in Gaelcholáistí. Our BEd degree enables students to qualify as teachers of Irish in combination with a second subject through a 4-year undergraduate teaching degree. The second subjects offered in this degree are French, Spanish, German, Italian, and Mathematical Studies.",
+        "interests": [
+            "Social",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "CM001",
+        "title": "Education - Primary Teaching",
+        "college": "Marino Institute of Education",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 473,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Helping young people learn has to be one of the most satisfying and rewarding careers of all. By choosing the Bachelor in Education (Primary) programme you embark on a  course that will prepare you for working in primary schools in Ireland. You will find out how children learn to read, write, count and calculate; you’ll learn how to introduce them to the arts the magic and mysteries of the world around them and how to grow and develop in a healthy way.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "MI005",
+        "title": "Education - Primary Teaching",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 484,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme enables students to examine their role as a learner, a teacher, a researcher and a leader. It comprises of on-campus study and school placement, and also gives students the opportunity to specialise in specific areas in education or the liberal arts. Insightful and challenging, the B Ed programme will prepare you for a varied and rewarding career as an educator.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "DC002",
+        "title": "Education - Primary Teaching",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 485,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Education will prepare you for a rewarding career as a Primary School Teacher, a role that has a positive and lasting impact on young children's lives. As a primary school teacher, you can make a real difference - guiding and supporting children’s growing minds and personal development. This course will help you to become a skilled and creative teaching professional. Learning to Teach, Teaching to Learn The Bachelor of Education (Primary Teaching) will equip you not only with subject knowledge, but also with the leadership and communication skills that teachers need. The course helps you to understand how children learn, and gives you the tools to motivate your students in the classroom. As well as learning how to teach the subjects on the primary school curriculum, your knowledge and understanding of the world will deepen through great interactive lectures.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "DC004",
+        "title": "Education - Primary Teaching",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "4 years",
+        "nfqLevel": 8,
+        "points": 407,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "As a primary school teacher, you can make a real difference - guiding and supporting children’s growing minds and personal development. This course will help you to become a skilled and creative teaching professional. Learning to Teach, Teaching to Learn The Bachelor of Education (Primary Teaching) will equip you not only with subject knowledge, but also with the leadership and communication skills that teachers need. The course helps you to understand how children learn, and gives you the tools to motivate your students in the classroom. As well as learning how to teach the subjects on the primary school curriculum, your knowledge and understanding of the world will deepen through great interactive lectures.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "CM002",
+        "title": "Education - Primary Teaching - Gaeltacht Applicants",
+        "college": "Marino Institute of Education",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 440,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "Over the four years of the  you will learn how to teach children aged from 4 to 12. In the foundation  you will study how children learn, what factors influence their learning and how our understanding of this has changed over time.\nAdvance your own knowledge of curriculum subjects and learn specific methods for teaching all primary school subjects. Experience the challenge and satisfaction of teaching through engaging in school placement in a supportive environment.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "MI006",
+        "title": "Education - Primary Teaching - Gaeltacht Applicants",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 447,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "The Bachelor of Education is a four-year, full-time, honours degree (Level 8) designed to qualify students to teach in primary schools. Accredited by the Teaching Council, it seeks to equip participants with the competence to teach at all levels of the primary school.\nReflecting the College's well-established reputation for excellence in teacher education, this programme enables students to examine their role as a learner, a teacher, a researcher and a leader. It comprises of on-campus study and school placement, and also gives students the opportunity to specialise in specific areas in education or the liberal arts.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "DC003",
+        "title": "Education - Primary Teaching - Gaeltacht Applicants",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 431,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "Mar mhúinteoir bunscoile, is féidir leat fíordhifríocht a dhéanamh - meon agus forbairt phearsanta leanaí a threorú agus a thacú. Cabhróidh an cúrsa seo leat a bheith i do ghairmí múinteoireachta oilte cruthaitheach Ag Foghlaim a Mhúineadh, Ag múineadh chun foghlaim Tabharfaidh an Baitsiléir san Oideachas (Bunmhúinteoireacht) gach eolas duit ar na hábhair a bheidh le múineadh chomh maith leis na scileanna ceannaireachta agus cumarsáide a theastaíonn chun iad a mhúineadh. Cuidíonn an cúrsa leat tuiscint a fháil ar an gcaoi a bhfoghlaimíonn leanaí, agus tugann sé na huirlisí duit chun do mhic léinn a spreagadh sa seomra ranga. Ina theannta sin, méadófar ar do chuid eolais agus tuiscint ar an domhan thart ort trí léachtaí iontacha idirghníomhacha",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "MH002",
+        "title": "Education - Primary Teaching - Gaeltacht Applicants",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 544,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree is designed to prepare students to be primary school teachers.The foundation disciplines of Psychology, Philosophy, Sociology and History of Education form the theoretical basis for this degree.\nYou will take Education modules and a school-based placement across all four years of this professional teaching degree, as well as a placement in the Gaeltacht for two fortnight blocks in years two and three of the degree.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "MI004",
+        "title": "Education - Primary Teaching - International",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 552,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "As a student on the programme you will study many of the same modules as your colleagues on the Bachelor of Education. In Year 3, semester 5, you will spend the semester studying abroad.\nNot only will you explore teaching methodologies in a different context but the semester will also allow you to experience and understand the education system and policies of another country. On returning from your study abroad you will take education specialisation modules in Comparative Education.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "MH001",
+        "title": "Education - Primary Teaching",
+        "college": "Maynooth University",
+        "region": "Leinster (excluding Dublin)",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 506,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This degree is designed to prepare students to be primary school teachers.The foundation disciplines of Psychology, Philosophy, Sociology and History of Education form the theoretical basis for this degree.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "AU620",
+        "title": "Education (Art and Design and Communication Graphics)",
+        "college": "ATU Galway / Mayo",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 400,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This four-year (Level 8) honours degree is accredited by the Teaching Council and will enable graduates to teach both Art and Design and Communication Graphics in Irish post-primary schools. This unique initial teacher education programme is designed to ensure that students attain the skills, knowledge and practice to become excellent teachers of both Art and Design and Communication Graphics. \nDuring the programme, students will develop their creativity and learn and apply emerging digital technologies to enable them to master these subjects. Projects focused on design, art techniques, CAD and graphics ensures that students can gradually gain the confidence, skills and competence to independently teach these subject to the highest level and standards.",
+        "interests": [
+            "Social",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "GY133",
+        "title": "Education (Computer Science and Mathematical Studies)",
+        "college": "University of Galway - UG",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 402,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This is a degree course allows you to combine the study of mathematics with computer science and post-primary teaching education. This is a four year concurrent initial teacher education programme and includes a number of school placement opportunities throughout the course. At the end of this four year course graduates will be eligible to teach computer science and mathematics",
+        "interests": [
+            "Social",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "AU680",
+        "title": "Education (Design Graphics and Construction)",
+        "college": "ATU Connemara",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 410,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Design-led projects and a strong focus on design, woodwork, CAD and graphics ensures graduates are competent and confident in their role as a professional teacher. School Placements each year provide students with experience of the classroom, the role of the teacher and the whole school environment in a structured and supportive way.",
+        "interests": [
+            "Social",
+            "Artistic",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "DN760 EGA",
+        "title": "Education (Education and Gaeilge)",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 442,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course blends language learning and initial teacher education to prepare you to work as a language teacher in post-primary schools in the Irish education system. You can choose to study two languages from modern languages (French, Spanish, German or Italian) and/or an Ghaeilge. Alternatively, you can choose to major in an Ghaeilge alone.\nYou will engage in modules to develop your language proficiency skills, building your linguistic competencies while also learning about the culture and literature of the language(s) through an interrogation of key texts.\nYou will also develop your skills as a teacher as you progress through the course, undertaking modules in foundation disciplines (history/sociology/psychology/philosophy of education, curriculum studies) and professional studies (communication skills, digital learning, research) while also engaging in school placement (in both primary and post-primary schools).",
+        "interests": [
+            "Social",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DN760 EML",
+        "title": "Education (Education and Modern Languages)",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 442,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course blends language learning and initial teacher education to prepare you to work as a language teacher in post-primary schools in the Irish education system. You can choose to study two languages from modern languages (French, Spanish, German or Italian) and/or an Ghaeilge. Alternatively, you can choose to major in an Ghaeilge alone.\nYou will engage in modules to develop your language proficiency skills, building your linguistic competencies while also learning about the culture and literature of the language(s) through an interrogation of key texts.\nYou will also develop your skills as a teacher as you progress through the course, undertaking modules in foundation disciplines (history/sociology/psychology/philosophy of education, curriculum studies) and professional studies (communication skills, digital learning, research) while also engaging in school placement (in both primary and post-primary schools).",
+        "interests": [
+            "Social",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "DN760 EGM",
+        "title": "Education (Education, Gaeilge and Modern Languages)",
+        "college": "University College Dublin - UCD",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 442,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This course blends language learning and initial teacher education to prepare you to work as a language teacher in post-primary schools in the Irish education system. You can choose to study two languages from modern languages (French, Spanish, German or Italian) and/or an Ghaeilge. Alternatively, you can choose to major in an Ghaeilge alone.\nYou will engage in modules to develop your language proficiency skills, building your linguistic competencies while also learning about the culture and literature of the language(s) through an interrogation of key texts.\nYou will also develop your skills as a teacher as you progress through the course, undertaking modules in foundation disciplines (history/sociology/psychology/philosophy of education, curriculum studies) and professional studies (communication skills, digital learning, research) while also engaging in school placement (in both primary and post-primary schools).",
+        "interests": [
+            "Social",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AD202",
+        "title": "Education and Art or Design (Second Level Teaching)",
+        "college": "National College of Art and Design - NCAD",
+        "region": "Dublin",
+        "duration": "3 - 4 Years",
+        "nfqLevel": 8,
+        "points": 600,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "Do you like to solve problems and to think ‘outside the box’? If so, a career as an art teacher might be just the right choice for you.\nThe BA in Education and Design or Education and Fine Art is a Joint Honours award. That means you follow the full degree course in Fine Art or Design as well as taking a dedicated teacher education programme as a professional qualification. This Joint Honours course takes four years to complete, as compared to the three-year single discipline Fine Art or Design degree.",
+        "interests": [
+            "Social",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "MI008",
+        "title": "Education and Psychology - Primary Teaching",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 578,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The B Ed in Education and Psychology is a unique four-year, full-time, double-honours (level 8) degree programme in Education and Psychology. The programme prepares graduates to be primary teachers, as accredited by the Teaching Council of Ireland, and obtain a degree in Psychology, as accredited by the Psychological Society of Ireland.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "DC235",
+        "title": "Education and Training",
+        "college": "Dublin City University - DCU",
+        "region": "Dublin",
+        "duration": "3 - 4 Years",
+        "nfqLevel": 8,
+        "points": 346,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "There’s a strong demand for educators and trainers across Ireland, from individual communities through to large organisations. On this course, you will gain the skills and knowledge you need to enter a career area that can change lives, and one that has excellent employment opportunities. Education Theory You will explore how teachers and trainers engage their learners and develop their understanding in any given topic. You will look at how people learn, how to use a variety of teaching methods to appeal to different learning styles and how to tailor your planning to get the very best from each learner. Teaching Skills and Placement As you develop your skills, you will be given practical advice on how to improve as a teacher trainer. You will also learn how to plan and construct lessons and then you will get the chance to practise your teaching in a safe environment before getting work experience in real life environments.",
+        "interests": [
+            "Social"
+        ]
+    },
+    {
+        "id": "US801",
+        "title": "Education Art and Design",
+        "college": "TUS Midwest",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 949,
+        "isAdditionalPortfolioTestInterviewRequired": true,
+        "overview": "This programme enables you to teach Art and Design at second level. It begins from the place of creative making in the studio setting where students are introduced to a variety of creative disciplines including; Fashion Design, Painting, Ceramics, Graphic Design, Sculpture, Animation & Motion Design, Printmaking and Contemporary Practice. Concurrent to this you will study educational theory and practice which will equip you with the teaching aptitudes and skills to enter into the profession of teaching Art and Design.",
+        "interests": [
+            "Social",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "CM010",
+        "title": "Education Studies",
+        "college": "Marino Institute of Education",
+        "region": "Dublin",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 320,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "During the programme you will learn about adult, adolescent and early childhood education through attendance at classes, hands on learning, reading and skill development.\nThe modules delivered on the programme encompass the themes of life-long learning, ethics and social justice, education and culture, and education policies and practices. The modules cover technology, the arts, curriculum and programme design, policy analysis and much more.",
+        "interests": [
+            "Social",
+            "Investigative"
+        ]
+    },
+    {
+        "id": "MI016",
+        "title": "Education, Business Studies and Accounting",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 years",
+        "nfqLevel": 8,
+        "points": 409,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme places great emphasis on teaching and research. Graduates are qualified to teach Business Studies and Accounting to honours Leaving Certificate level.",
+        "interests": [
+            "Social",
+            "Enterprising",
+            "Conventional"
+        ]
+    },
+    {
+        "id": "MI017",
+        "title": "Education, Business Studies and Religious Studies",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 346,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "This programme places great emphasis on teaching and research and as part of their development as research-active teachers, students undertake an Undergraduate Dissertation. The Dissertation can be in either Education or a Subject discipline. Students begin the preparation for the dissertation in Year 3 where they undertake their research methods module.",
+        "interests": [
+            "Social",
+            "Enterprising"
+        ]
+    },
+    {
+        "id": "MI019",
+        "title": "Education, Gaeilge and Business Studies",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 years",
+        "nfqLevel": 8,
+        "points": 397,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Students are educated in the most current methodologies and technologies available to enhance the teaching of their subject areas at post-primary level. The degree programme includes four years of modules in Irish and Religious Studies. These are taken concurrently with education modules which include theoretical, pedagogical and professional studies along with a number of school placement experiences.",
+        "interests": [
+            "Social",
+            "Enterprising",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "MI018",
+        "title": "Education, Gaeilge and Religious Studies",
+        "college": "Mary Immaculate College",
+        "region": "Munster",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 407,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The degree programme includes four years of modules in Irish and Religious Studies. These are taken concurrently with education modules which include theoretical and professional studies along with a succession of practical teaching experiences.The Teaching Council requires Irish language teachers to have spent a minimum of three months on residential placement in a designated Gaeltacht area prior to registering with it.",
+        "interests": [
+            "Social",
+            "Artistic"
+        ]
+    },
+    {
+        "id": "AU988",
+        "title": "Education, Home Economics - with concurrent Teacher Education",
+        "college": "ATU Sligo St. Angelas",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 388,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Education in Home Economics is a four-year, concurrent level eight degree, university accredited and recognised by the Teaching Council of Ireland. This professional qualification is designed to provide students with the knowledge, skills, attitudes, values and beliefs necessary for teaching Home Economics to the highest level in the post-primary sector. The study of education is undertaken concurrently with study in the subject discipline Home Economics in each of the four years of the programme. School placement is a key feature of the programme and students undertake a school-based placement each year.",
+        "interests": [
+            "Social",
+            "Realistic"
+        ]
+    },
+    {
+        "id": "AU985",
+        "title": "Education, Home Economics and Biology - with concurrent Teacher Education",
+        "college": "ATU Sligo St. Angelas",
+        "region": "Connacht",
+        "duration": "4 Years",
+        "nfqLevel": 8,
+        "points": 453,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The Bachelor of Education in Home Economics and Biology is a full-time, concurrent teacher education degree leading to a National Framework of Qualifications (NFQ) Level 8 honours degree.",
+        "interests": [
+            "Social",
+            "Investigative"
+        ]
+    }
+]
