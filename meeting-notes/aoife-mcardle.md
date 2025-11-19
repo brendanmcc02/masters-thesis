@@ -26,7 +26,7 @@
     * she said that you can find out a lot from that
 * also asks them what they do in their spare time, what do they read or are interested in
     * gave an example of a student that lives/breathes politics
-* she thinks that hobbies can really inform what people what want
+* she thinks that [hobbies](https://www.kaggle.com/datasets/muhadel/hobbies) can really inform what people what want
 
 # Misc
 * I talked about the importance of diversity in recs (i'll keep using this word because of relevance with RS, but she made a very good point) and the importance of not pidgeon-holing people

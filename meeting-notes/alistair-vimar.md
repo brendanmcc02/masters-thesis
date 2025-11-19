@@ -6,7 +6,7 @@ starts quiz/interests first -> 150 questions
 * validating your interest in the different categories
 * ~20 categories
 * sys gives you a score
-* 6-8 qeustions per category, v little -> v high
+* 6-8 questions per category, v little -> v high
 * gets score for each category
 * 60% threshold
 * edge cases -> what if they don't get over threshold for example
