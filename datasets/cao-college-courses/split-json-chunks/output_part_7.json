@@ -12,6 +12,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -27,6 +31,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -41,6 +49,9 @@
         "overview": "The overall aim of this programme is to provide its learners with the necessary theoretical and practical skills, knowledge and competence, to gain a comprehensive, specialised and in-depth, understanding of the area in Information Technology.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -57,6 +68,10 @@
             "Enterprising",
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "business"
         ]
     },
     {
@@ -71,6 +86,10 @@
         "overview": "Data Science, also known as Big Data Analytics is the process of examining large amounts of data of a variety of types (big data) to uncover hidden patterns, unknown correlations and other useful information. Such information can provide competitive advantages over rival organizations and result in business benefits, such as more effective marketing and increased revenue. Data Science has in turn been the big enabler for the expansion of Artificial Intelligence (AI) as a truly mass-market technology. AI relies on the patterns found in data to make decisions.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "business"
         ]
     },
     {
@@ -86,6 +105,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -101,6 +124,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -116,6 +143,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -130,6 +161,9 @@
         "overview": "This course provides a solid foundation in software development for web and mobile systems, and how to test and implement it into group projects. Critical thinking and communication skills are taught to provide students with the core soft skills required to work as part of a modern software engineering team. Students will specialise in the design, development, testing and evaluation of software systems with particular emphasis on the application of agile process development.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -144,6 +178,9 @@
         "overview": "How do we interact with computers? How is computing evolving? Software Development is about solving problems, designing new applications and developing your own personal skills for communication, leadership and management.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -158,6 +195,9 @@
         "overview": "The course places a major emphasis on the development of practical programming language skills, problem solving and the application of computer science theory to real-world problems. In addition to becoming proficient in programming languages such as Java and C#, students will learn how to design, create and test software solutions for a world where mobility, connectivity, heterogeneity and Big Data are rapidly becoming part of everyday life.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -172,6 +212,9 @@
         "overview": "This exciting Level 8 Bachelors Degree teaches students about the latest technological developments, and enables them to gain practical work experience, and specialise in, one of four emerging areas.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -186,6 +229,9 @@
         "overview": "This 4-year Honours degree programme provides students with a thorough understanding of the key principles of computer science.\nStudents will have the opportunity to work on software development projects, which have a strong industry focus. The projects will help support the theoretical content taught in class. In Year 3, you’ll undertake a 6-month work placement in the computing industry. In Year 4, you will choose a speciality: Cloud Computing, Network Management, Games Development or Software Development.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -200,6 +246,9 @@
         "overview": "This degree integrates Software Design and Development skills, with the Computing Systems on which applications are deployed, and an understanding of the DevOps tools and processes to manage their delivery. Students have a strong interest in software and enjoy the more technically focused and systems-driven aspects of Computing to aim to streamline their software development processes, improve team collaboration, and enhance the overall efficiency and quality of their software delivery.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -215,6 +264,9 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -229,6 +281,10 @@
         "overview": "Machine Learning & Artificial Intelligence are cornerstones of the next wave in ICT. IDA Ireland is pursuing an AI Island strategy set to attract the brightest and best AI players to work in Ireland.\nThis four-year degree course, designed in consultation with major IT Companies such as Amazon AWS, Microsoft, SAP & IBM develops a unique mix of Computing, Business Intelligence and Data Science skills to address this gap. New computing power allows use to gain insight from large scale datasets which can be mined for information using Machine Learning and Artificial Intelligence Techniques.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "business"
         ]
     },
     {
@@ -243,6 +299,11 @@
         "overview": "The Construction Common Entry Level 7 degree programme is for students interested in both construction management and quantity surveying as a career, but who may be unsure of which discipline to follow. This common entry degree programme gives students the opportunity to see both disciplines first hand. Through the various modules on offer, and interaction with the lecturers, student can decide which discipline suits them best.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "engineering",
+            "business"
         ]
     },
     {
@@ -257,6 +318,11 @@
         "overview": "A common entry BSc in Construction (with award title of BSc in Architectural Technology or BSc in Construction Management). At the end of Stage 1, learners choose either the Architectural Technology or Construction Management pathway, having had the opportunity to decide which best suits their interests skills and ability.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "engineering",
+            "business"
         ]
     },
     {
@@ -273,6 +339,11 @@
             "Realistic",
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "engineering"
         ]
     },
     {
@@ -289,6 +360,11 @@
             "Realistic",
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "engineering"
         ]
     },
     {
@@ -305,6 +381,12 @@
             "Realistic",
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "engineering",
+            "law & public policy"
         ]
     },
     {
@@ -321,6 +403,11 @@
             "Realistic",
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "engineering"
         ]
     },
     {
@@ -337,6 +424,12 @@
             "Realistic",
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "engineering",
+            "law & public policy"
         ]
     },
     {
@@ -353,6 +446,12 @@
             "Realistic",
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "engineering",
+            "law & public policy"
         ]
     },
     {
@@ -369,6 +468,11 @@
             "Realistic",
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "engineering"
         ]
     },
     {
@@ -385,6 +489,12 @@
             "Realistic",
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "engineering",
+            "law & public policy"
         ]
     },
     {
@@ -401,6 +511,11 @@
             "Realistic",
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "engineering"
         ]
     },
     {
@@ -417,6 +532,11 @@
             "Realistic",
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "engineering"
         ]
     },
     {
@@ -433,6 +553,11 @@
             "Realistic",
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "engineering"
         ]
     },
     {
@@ -449,6 +574,11 @@
             "Realistic",
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "engineering"
         ]
     },
     {
@@ -465,6 +595,11 @@
             "Realistic",
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "engineering"
         ]
     },
     {
@@ -480,6 +615,11 @@
         "interests": [
             "Realistic",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "engineering"
         ]
     },
     {
@@ -494,6 +634,9 @@
         "overview": "The new and exciting Contemporary Applied Art Degree course explores contemporary ideas, use of materials and offers students the opportunity to creatively develop and make objects.\nThe course combines studio projects and practical workshop based sessions, where idea development and making are integrated. Students have a base studio, where individual and group tutorials, crits, and presentations take place. The programme is staffed by practicing professionals, and visiting lecturers who regularly contribute specialist expertise.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -508,6 +651,9 @@
         "overview": "The BA Contemporary Dance programme is designed to develop your contemporary dance skills and knowledge of your dance practice, as well as to include other forms of artistic expression.\nYou will learn a range of Modern and Contemporary Dance Techniques, Choreography, Ballet and movement awareness techniques such as Yoga, Pilates and Feldenkrais. You will have the opportunity to engage with other dance practices such as Aerial Dance, Hip hop, Flamenco, and Irish traditional dance. You will gain the contextual understanding and the critical, analytical and reflective skills which will inform your artistic practice.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -523,6 +669,11 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "communications & journalism",
+            "business",
+            "arts"
         ]
     },
     {
@@ -538,6 +689,11 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "communications & journalism",
+            "business",
+            "arts"
         ]
     },
     {
@@ -553,6 +709,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "law & public policy",
+            "business"
         ]
     },
     {
@@ -568,6 +728,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "psychology & social work",
+            "health"
         ]
     },
     {
@@ -582,6 +746,11 @@
         "overview": "If you are interested in the performing arts, television and film, fashion, music, festivals, media, visual arts and museums — or aspire to work creatively in business, the public sector, and digital technology — this course is for you! Combining project-based work with high-level career mentorship, this new four-year course prepares students for careers in the cultural and creative industries.This course is running in partnership with Creative Futures Academy (CFA).",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts",
+            "business"
         ]
     },
     {
@@ -597,6 +766,10 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -612,6 +785,10 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -627,6 +804,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -641,6 +822,10 @@
         "overview": "Apply and develop your creativity in the thriving and dynamic area of computing. Gain the hands-on skills and knowledge to create solutions for today’s fast-paced world. Learn core computing skills such as programming, app development and databases, while keeping a focus on the design of the technology interaction with the user.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -655,6 +840,10 @@
         "overview": "This is a four year course designed to provide students with the knowledge and practical experience of industry standard innovative tools and technologies, within the domains of technology and creative media.\nThe course is primarily a computing course specialising in creative media, with approximately 60% computing content and 40% creative media content. It is a very practical based course where students develop skills through a strong emphasis on project work and continuous assessment.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -670,6 +859,10 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -685,6 +878,10 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -699,6 +896,10 @@
         "overview": "Creative digital media combines the creativity of art and design with the skills and knowledge of computer technologies and programming to create interactive digital media products. Creative digital media comes in many different formats. It can be almost anything you can hear or see like text, image, music, sound, video, film, animation, and more.\nBy combining media, content and interactivity, those interested in creative digital media can take on and work with a variety of media forms to get their content to communicate across a variety of platforms and in some cases perform interactive experiences.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -713,6 +914,10 @@
         "overview": "Prospective digital creatives will be in their element in this cutting edge course. We’ll help you find and develop your creativity and give you the tools and techniques to express it.\nOur student groups blend filmmakers, graphic designers, web designers, app developers and animators into a creative, exciting mix. We look for students with passion and flair, good visual awareness, and an interest in media, design, the internet and technology.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -727,6 +932,10 @@
         "overview": "This course will appeal to prospective digital creatives. We’ll help you find and develop your creativity and give you the tools and techniques to express it. Our student groups blend filmmakers, graphic designers, web designers, app developers and animators into a creative, exciting mix.\nWe look for students with passion and flair, good visual awareness, and an interest in media, design, the internet and technology. This dynamic course will supply you with the practical, creative and technical skills you need to succeed in the digital society and creative industries.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -741,6 +950,11 @@
         "overview": "This course provides an industry-focused grounding in theories and practices of Creative Industries and Visual Culture. In the first year, you’ll study a wide range of contemporary issues, including arts policy, management, criticism, media law, and current discussions in the fields of art, design, film, photography, curating, museums, media, aesthetics, gender studies, and postcolonial studies.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "business",
+            "social science"
         ]
     },
     {
@@ -755,6 +969,10 @@
         "overview": "This course develops media and communication theory as well as professional and technical skills through lectures, tutorials, studio workshops, exhibitions, presentations and group work. Individual and team-based project work are essential to acquiring the skills to be successful on this course and in industry. This course will build competencies in key skills in both conventional and new media.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -769,6 +987,11 @@
         "overview": "The BA (Hons) in Creative Media places a strong emphasis on creativity, collaboration, design and innovation, and developing students’ practical skills to a high standard. Students are also encouraged to develop the theoretical skills necessary to critically analyse key media issues, both in terms of its technological manifestation and its social impact.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism",
+            "social science"
         ]
     },
     {
@@ -783,6 +1006,9 @@
         "overview": "Learn from some of the finest industry practitioners in the contemporary music scene. This unique programme has some of Ireland’s leading commercial recording studios and performance spaces as teaching facilities.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -797,6 +1023,10 @@
         "overview": "The BA in Creative Writing and English offers you the opportunity to develop critical and creative skills within one programme, which is innovative not only for its integration of two intertwined subjects, but for its industry links and its teaching practices.Graduates of the BA in Creative Writing and English will be equipped with: skills in creative thinking; the ability to formulate, present and disseminate complex issues; excellent communication skills; a highly-tuned sensitivity to language usage; the ability to tell and organise stories in compelling ways; an understanding of how to inhabit alternative viewpoints and outlooks. As such, graduates of the programme will be well- prepared for the world of work and will have the capacity to be flexible, inventive and adaptable in their chosen careers.Course Duration: 3 years (4 with Erasmus/Study Abroad)",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -812,6 +1042,11 @@
         "interests": [
             "Enterprising",
             "Social"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science",
+            "psychology & social work"
         ]
     },
     {
@@ -827,6 +1062,10 @@
         "interests": [
             "Enterprising",
             "Social"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -842,6 +1081,10 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "social science",
+            "law & public policy"
         ]
     },
     {
@@ -857,6 +1100,11 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "social science",
+            "law & public policy",
+            "psychology & social work"
         ]
     },
     {
@@ -872,6 +1120,11 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "social science",
+            "psychology & social work",
+            "law & public policy"
         ]
     },
     {
@@ -887,6 +1140,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "biology & life science"
         ]
     },
     {
@@ -903,6 +1160,11 @@
             "Realistic",
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts",
+            "business"
         ]
     },
     {
@@ -919,6 +1181,11 @@
             "Realistic",
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts",
+            "business"
         ]
     },
     {
@@ -935,6 +1202,11 @@
             "Realistic",
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts",
+            "business"
         ]
     },
     {
@@ -951,6 +1223,11 @@
             "Realistic",
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts",
+            "business"
         ]
     },
     {
@@ -967,6 +1244,11 @@
             "Realistic",
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts",
+            "business"
         ]
     },
     {
@@ -983,6 +1265,11 @@
             "Realistic",
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts",
+            "health"
         ]
     },
     {
@@ -999,6 +1286,11 @@
             "Realistic",
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts",
+            "business"
         ]
     },
     {
@@ -1013,6 +1305,10 @@
         "overview": "The Higher Certificate (Level 6) in Culinary Arts is a dynamic course which aims to provide students with the knowledge and skills necessary for a career in the food and/or culinary sector. The practical nature of this programme will provide learners with the necessary competencies and knowledge required of culinary professionals to succeed in a range of businesses. This course is also suitable for individuals who wish to advance in their current position.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts"
         ]
     },
     {
@@ -1029,6 +1325,11 @@
             "Realistic",
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts",
+            "business"
         ]
     },
     {
@@ -1045,6 +1346,11 @@
             "Realistic",
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts",
+            "business"
         ]
     },
     {
@@ -1061,6 +1367,11 @@
             "Realistic",
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts",
+            "business"
         ]
     },
     {
@@ -1077,6 +1388,11 @@
             "Realistic",
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts",
+            "business"
         ]
     },
     {
@@ -1091,6 +1407,10 @@
         "overview": "This course aims to provide industry with graduates who are knowledgeable in cybersecurity processes, practices, implementation and assessment of both IT infrastructure and software, enabling secure and scalable solutions.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "law & public policy"
         ]
     },
     {
@@ -1105,6 +1425,10 @@
         "overview": "IT Security is the practice of safeguarding information from unauthorised access and modification. Cybercrime is illegal activity carried out with technology. With growing dependence on technology and increased interconnectivity between personal, business, government devices and critical infrastructure, the requirement for security in the IT ecosystem is amplified.\nThis course aims to provide industry with graduates who are knowledgeable in cybersecurity processes, practices, implementation and assessment of both IT infrastructure and software, enabling secure and scalable solutions.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "law & public policy"
         ]
     },
     {
@@ -1121,6 +1445,11 @@
             "Investigative",
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science",
+            "computers & mathematics"
         ]
     },
     {
@@ -1136,6 +1465,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "law & public policy"
         ]
     },
     {
@@ -1151,6 +1484,10 @@
         "interests": [
             "Realistic",
             "Enterprising"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "business"
         ]
     },
     {
@@ -1165,6 +1502,11 @@
         "overview": "Fancy a career as a professional problem solver, investigator and storyteller? That’s exactly what a data scientist is. From retail and sports science to journalism and fintech, data scientists are increasingly at the heart of business and government. Whether it’s enabling product recommendations or helping a sports team decide what player to buy next, data science can unlock the secrets of any sector. If you like maths, creative problem solving and collaborative work, data science could really appeal to you. This course sits at the intersection of computer science, maths and business, enabling you to understand what is possible with cutting-edge technology such as machine learning and artificial intelligence.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "business",
+            "social science"
         ]
     },
     {
@@ -1179,6 +1521,9 @@
         "overview": "NCI’s Higher Certificate in Data Science uses a blend of computer science and data science to provide you with the knowledge and skills necessary to carry out data modelling, data management and data analysis activities, and to interpret and communicate that data to a variety of audiences.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1193,6 +1538,9 @@
         "overview": "Data Science is the science of collating, managing, analysing, visualising and understanding data. It is key to unlocking the hidden wisdom that is stored in the vast amounts of data available in today’s world.\nData Science students study statistics, computer science and mathematics and crucially will learn to appreciate the overlap between eliciting valuable information from data through statistical reasoning and managing databases via complex manipulations.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1207,6 +1555,10 @@
         "overview": "NCI’s BSc (Honours) in Data Science is practical in nature, providing you with knowledge of the way data science can solve real problems and facilitate business decisions based on evidence. Due to the shortage of suitably qualified data science professionals in Ireland and internationally, this degree offers exceptional job prospects for graduates.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "business"
         ]
     },
     {
@@ -1221,6 +1573,9 @@
         "overview": "Our BSc in Data Science & Analytics degree at UCC provides education in data storage, manipulation and interpretation using mathematical sciences and computational methods which assists us in solving complex real-world problems.\nIn the first and second year, you will study the mathematical and computational foundations of data science and analytics. During the third year, you begin applying the fundamentals of data science and analytics to real-life problems and data.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1235,6 +1590,9 @@
         "overview": "The Bachelor of Science in Data Science and AI is a state of the art course that aims to provide graduates with leading-edge skills in data science and artificial intelligence (AI) technologies, as well as fundamental skills of computer science.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1250,6 +1608,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "social science",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1265,6 +1627,9 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1279,6 +1644,9 @@
         "overview": "This course will give you the clinical competence to work as a dental nurse. Students with an interest in teamwork and communication will be supported to assist within a dental team. The dental nursing student will participate in dental placement enabling students to communicate, demonstrate clinical skills, administration duties and problem solve within their scope of practice under the supervision of a registered dentist.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1293,6 +1661,9 @@
         "overview": "This course gives you the skills and practical competence needed to work in a dental surgery. You will learn about the day-to-day running of a dental practice and acquire the qualifications for entry to the Dental Council Voluntary Register of Dental Nurses.In the second year of the programme, the students will have the opportunity to work with various dental clinicians in a wide variety of disciplines. Clinical experiences will be gained within the DDUH environment, external institutions and private practices.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1307,6 +1678,9 @@
         "overview": "A dental nurse works as part of a dental team in a variety of clinical and non-clinical settings. In Ireland Dental Nurses are mainly employed in General Dental Surgeries, Dental Hospitals, Health Service Executive Dental Clinics or Specialist Surgeries.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1322,6 +1696,10 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -1337,6 +1715,10 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "engineering"
         ]
     },
     {
@@ -1352,6 +1734,9 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1367,6 +1752,9 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1381,6 +1769,9 @@
         "overview": "On the course you learn the skills of being a designer, sketching, model making/prototyping, creative problem solving, visual communication and working as part of a team. You will be using programmes like Solidworks, Photoshop, Illustrator, In Design and more.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -1395,6 +1786,10 @@
         "overview": "The BA in Design (Common Entry) course is the first year of a three year (Level 7) course. Following exploration of design disciplines in the first semester, you will begin to focus on your preferred specialist area in the second semester. In Year 2 you will then transfer on to one of the following level 7/8 degree courses; BA in Product Design, BA in Interior Design, BA in Graphic Design and Illustration, BA in Textile and Fashion Design\nOther topics on the programme include Photography, Digital Media, Design History & Theory, Creative Problem Solving, Business & Entrepreneurial skills and an Ethical and Sustainable Design ethos.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "business"
         ]
     },
     {
@@ -1409,6 +1804,10 @@
         "overview": "The work of the Design – Visual Communication graduate is all about breathing life into images, text and concepts, turning them on their head and communicating them in a fresh way to a wide audience.\nThis four-year course will suit you if you wish to become a graphic designer, illustrator, typographer or digital media designer.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -1423,6 +1822,9 @@
         "overview": "Bachelor of Arts in Design is a common entry programme with degree award options: Animation, Graphic Design and Illustration, Film and Media Promotion, or Fashion Design with Promotion. It is designed to provide students interested in Art & Design with an opportunity to study various subject areas before choosing a specialised field to pursue the career of their dreams.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -1437,6 +1839,10 @@
         "overview": "Visual Communication is often referred to as graphic design and it embraces symbols, type and images that appear in the commercial public domain.\nGraphic designers work across a wide variety of print and screen disciplines and the end result is normally a creative output in 2D format. With the arrival of digital and mobile technology, visual communication now includes visual media, information design and screen-based design.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -1452,6 +1858,10 @@
         "interests": [
             "Realistic",
             "Artistic"
+        ],
+        "categories": [
+            "engineering",
+            "arts"
         ]
     },
     {
@@ -1466,6 +1876,9 @@
         "overview": "Based in the National Film School, this is the only course in Ireland to bring together set designers, costume designers, character designers, model makers and digital artists, all learning highly specialised skills in a fully professional, collaborative context. Explore the worlds of character, costume, set, model making, games/VFX design for careers in film, theatre, television, entertainment and the digital narrative arts.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -1481,6 +1894,10 @@
         "interests": [
             "Conventional",
             "Realistic"
+        ],
+        "categories": [
+            "business",
+            "computers & mathematics"
         ]
     }
 ]

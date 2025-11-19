@@ -11,6 +11,11 @@
         "overview": "Geography\nGeography is the study of Earth’s landscapes, peoples, places and environments. Fundamentally it is about the world in which we live. Geography offers a 21st century education by uniquely bridging the social sciences (human geography) with the natural sciences (physical geography).\nComputer Science\nStudents studying Computer Science and Geography may have a particular interest in geographic information systems, spatial data or “smart cities”. The combined study of Computer Science and Linguistics yields opportunities for graduates to specialise in computational speech and language processing or text analysis.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "physical sciences",
+            "computers & mathematics"
         ]
     },
     {
@@ -26,6 +31,11 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "social science",
+            "physical sciences",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -41,6 +51,11 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "social science",
+            "physical sciences",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -55,6 +70,11 @@
         "overview": "Geography\nHuman geography focuses on understanding the dynamics of cultures, societies and economies, while physical geography focuses on understanding the dynamics of physical landscapes. In Trinity, a Geography degree also covers increasingly important environmental issues where humans affect physical environments and vice versa.\nPolitical Science\nPolitical Science will appeal to students who are excited about exploring the background to current events, the nature and use of power and how decisions are made that impact on wider society. If you are interested in having an in-depth knowledge of public affairs, developing critical and much sought after research skills and if your career interests lie in journalism, public service, teaching, public policy, international organisation and/or business then Political Science may be for you",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "physical sciences",
+            "law & public policy"
         ]
     },
     {
@@ -69,6 +89,11 @@
         "overview": "GeographyGeography is the study of Earth’s landscapes, peoples, places and environments. Fundamentally it is about the world in which we live. Geography offers a 21st century education by uniquely bridging the social sciences (human geography) with the natural sciences (physical geography). Human geography focuses on understanding the dynamics of cultures, societies and economies, while physical geography focuses on understanding the dynamics of physical landscapes. \nSociologyIf you want to understand the social changes taking place in the world today, and you are curious about people and society, then Sociology is for you. You will also gain the ability to understand topical issues and to present and communicate information and thoughts coherently.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "physical sciences",
+            "psychology & social work"
         ]
     },
     {
@@ -83,6 +108,9 @@
         "overview": "German Studies at MIC not only includes language learning, but also offers a different perspective on European media, film, literature, history and different cultures and provides students with skills much needed today.\nThe Department of German Studies offers an exciting and wide-ranging language programme that enables students to excel in their language and intercultural skills, be it as beginners or advanced German students.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -97,6 +125,9 @@
         "overview": "Within the Modern Languages programme you study two modern European languages to degree level. It is the most intensive exposure to languages and cultures that Trinity College has to offer. You can choose between French, German, Irish, Italian, Russian and Spanish. Apart from French and Irish all languages can be studied from both advanced and beginners level.\nThey will enable you to acquire a high level of language competence and fluency, combined with an in-depth understanding of the main cultures and societies in which these languages are spoken.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -113,6 +144,10 @@
             "Enterprising",
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "social science"
         ]
     },
     {
@@ -129,6 +164,9 @@
             "Enterprising",
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "business"
         ]
     },
     {
@@ -145,6 +183,10 @@
             "Enterprising",
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "social science"
         ]
     },
     {
@@ -161,6 +203,11 @@
             "Enterprising",
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "social science",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -177,6 +224,11 @@
             "Enterprising",
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "social science",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -193,6 +245,11 @@
             "Enterprising",
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "social science",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -209,6 +266,10 @@
             "Enterprising",
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "social science"
         ]
     },
     {
@@ -225,6 +286,10 @@
             "Realistic",
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "engineering"
         ]
     },
     {
@@ -240,6 +305,10 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "social science",
+            "law & public policy"
         ]
     },
     {
@@ -256,6 +325,10 @@
             "Enterprising",
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "social science",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -272,6 +345,11 @@
             "Enterprising",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "humanities & liberal arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -288,6 +366,10 @@
             "Investigative",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -303,6 +385,10 @@
         "interests": [
             "Enterprising",
             "Investigative"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -317,6 +403,10 @@
         "overview": "the BA (Honours) in Graphic and Digital Design will provide you with a unique and exciting educational experience while learning to become a designer. You’ll be encouraged to follow your passion and to develop your design process through research and experimentation. At the same time, you will be exposed to a host of new, exciting disciplines and skills that will enhance your critical and theoretical thinking to help you advance your skills as a conceptual and strategic graphic designer.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -331,6 +421,10 @@
         "overview": "Our BA in Graphic Communication Design is a three-year level 7 degree course available on a full-time basis. This challenging degree will teach you how to continuously respond with creativity, and create innovative visuals while developing a keen understanding of consumer culture and market trends.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -345,6 +439,10 @@
         "overview": "Our BA (Hons) in Graphic Communication Design is a three-year level 8 degree course available on a full-time basis. This challenging degree will teach you how to continuously respond with creativity, and create innovative visuals while developing a keen understanding of consumer culture and market trends.​",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -359,6 +457,10 @@
         "overview": "The BA in Graphic Design course will provide you with a unique and exciting educational experience while learning to become a designer. Your creative talents will be nurtured by a team of lecturers who are passionate about their field. You’ll be encouraged to follow your passion and to develop your style. At the same time, you will be exposed to a host of new exciting disciplines and skills that will enhance and inform your work.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -373,6 +475,10 @@
         "overview": "Graphic Design is an internationally recognised programme that demonstrates how communication design is socially, culturally and economically engaged across a broad spectrum of media platforms and technologies.\nThis innovative programme, with a unique focus on complex and diverse real-world problems, combines the best principles of traditional, new, and emergent graphic design practices to produce highly employable and entrepreneurial graduates with transferable skills that are much sought after by industry.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -387,6 +493,10 @@
         "overview": "Studying graphic design unleashes your creativity and equips you with the power to visually captivate audiences and shape unforgettable brand experiences in today’s dynamic digital world. This Graphic Design programme includes four key strands:\n\nGraphic Design covers typography, layout, visual identity, and publication design, establishing classic design principles.\nIllustration & Motion Design fosters creativity in illustration, editorial illustration, photography, and motion design for visual storytelling.\nUX Design focuses on UX/UI and interaction design for user-centric digital experiences.\nDesign Theory provides a theoretical foundation in design principles, practices, and critical thinking for effective design.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -401,6 +511,10 @@
         "overview": "The BA (Hons) in Graphic Design & Illustration is a 4-year course. It has a common first semester, after which students also have the opportunity to switch to another design programme if they wish (subject to available places).\nTopics on the programme include Photography, Digital Media, Design History & Theory, Creative Problem Solving, Business & Entrepreneurial skills and an Ethical and Sustainable Design ethos. Graphic Design & Illustration students will learn about visual communications, illustration, typography, visual communications - major project, advanced digital design, and book arts for design.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -415,6 +529,10 @@
         "overview": "This course is founded on strong design principles of research, content-generation and development, problem-identification and problem-solving. We value experimentation and thinking over ready-made and easily identifiable solutions, and we encourage processes that will develop our students' individual style and voice.\nStudents have the opportunity to explore a range of media and approaches, including various methods of animation, motion graphics, special FX, interaction, live action, dramatic and short-form documentary filmmaking.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -431,6 +549,11 @@
             "Social",
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "education",
+            "engineering",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -447,6 +570,11 @@
             "Social",
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "education",
+            "engineering",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -463,6 +591,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -479,6 +610,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -495,6 +629,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -509,6 +647,10 @@
         "overview": "AU391 Bachelor of Science (Honours) in Health and Social Care has been formally approved by CORU, Ireland’s multi-profession health regulator. The course based in ATU Donegal is the third course at ATU to be approved by CORU in recent years and marks its commitment to providing high-quality education in the field of Health and Social Care Practice.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -523,6 +665,11 @@
         "overview": "This course has been designed to enable you to discover all the aspects of health issues, and learn how to understand, research and act to improve the health of populations. \nDuring the course, you’ll encounter many different ways of thinking about and acting on health issues, including biological, social, political, ethical and psychological perspectives. You’ll not only learn about different potential career paths, but you’ll also get to focus many projects and other programme activities on your own health interests.As a Health and Society student, you’ll participate in a voluntary community project in your first year, then go on to design and implement a health equity campaign in second year. In your final year, you’ll complete a health research project and write your final dissertation. Once you’ve completed the programme, you could go on to work in a state or voluntary health or social agency, or go to work in overseas development. Many of our graduates apply to go directly into further study, such as a postgraduate programme in occupational therapy, speech and language therapy, health promotion, social research and a wide range of other areas.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "health",
+            "social science",
+            "psychology & social work"
         ]
     },
     {
@@ -539,6 +686,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -555,6 +706,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -570,6 +725,10 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -585,6 +744,10 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -599,6 +762,10 @@
         "overview": "Health Science with Physiotherapy Studies is the study of the human body with particular focus on Anatomy and Physiology and provides a foundation to Physiotherapy studies. Through a unique progression opportunity, this programme allows students to progress to complete a BSc Honours in Physiotherapy at Coventry University.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -615,6 +782,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -631,6 +802,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -647,6 +822,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -661,6 +840,11 @@
         "overview": "The BA (Honours) in Heritage Studies has an applied focus and is interdisciplinary in nature – linking heritage with history, geography, archaeology, tourism, genealogy, museum studies, folklore, literature, planning, computing, digital media, business and languages. This programme is particularly appropriate for students wishing to acquire a broader knowledge and understanding of the built, cultural and natural heritages of Ireland, Europe and the wider world.\nIt will also provide you with an understanding of the role that heritage resource management plays in the safeguarding of archaeological and historic sites, national monuments, architecture, artefacts, archives, cultural landscapes and identities, habitats, flora and fauna.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -676,6 +860,11 @@
         "interests": [
             "Conventional",
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -690,6 +879,9 @@
         "overview": "The History modules at Trinity allow you to study a remarkable range of types of history—whether cultural or political history, military or social history, environmental history or the history of ideas—from the early Middle Ages to the very recent past.\nWe offer survey modules allowing you to grasp the broad patterns in history, specialist modules where you can study topics of particular interest to you in small classes, and opportunities for you to pursue your own independent research.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -704,6 +896,9 @@
         "overview": "The Department of History offers a range of modules. These include modules in aspects of political, social and cultural history, including courses on Irish migration, unconventional warfare, death and the afterlife, kingship in medieval Ireland and the social and political history of modern Ireland.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -719,6 +914,9 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -733,6 +931,9 @@
         "overview": "History is the pursuit of how we got here and the stories that we tell ourselves to explain the past. Working from ordinary to extraordinary, local to global, fact to fiction, you’ll develop critical thinking, argument and analysis skills that lie at the heart of careers in media, government, culture and education.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -748,6 +949,11 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science",
+            "law & public policy"
         ]
     },
     {
@@ -763,6 +969,11 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science",
+            "physical sciences"
         ]
     },
     {
@@ -777,6 +988,10 @@
         "overview": "History of Art and Architecture is about the study of images, objects and buildings. It is unique in developing high levels of visual literacy applicable to a range of career pathways.\nIt explores why works of art look the way they do and seeks to discover what they say about the societies that created them. It develops skills in visual analysis, critical assessment, and communication.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -792,6 +1007,10 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -806,6 +1025,10 @@
         "overview": "History of Art and ArchitectureHistory of Art and Architecture is about the study of images, objects and buildings. It is unique in developing high levels of visual literacy applicable to a range of career pathways. It explores why works of art look the way they do and seeks to discover what they say about the societies that created them. It develops skills in visual analysis, critical assessment, and communication. Students combine this subject with their choice of French, Italian or Spanish.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -821,6 +1044,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -836,6 +1063,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "arts"
         ]
     },
     {
@@ -850,6 +1081,9 @@
         "overview": "History The History programme combines the strength of a broad-based programme in the first two years, introducing all students to the sheer diversity of historical studies, with the freedom to explore areas of particular interest to individual students in the final two years. A range of modules covering medieval and modern periods, including Irish, European, and American history, as well as some modules exploring the skills and methods which historians use, and the kinds of debates in which historians engage.\nThere is the opportunity to concentrate on those parts of history which interest you most, and above all in the final year dissertation, an independent research project which very many students find the most rewarding part of their whole degree programme.\nStudents combine this subject with their choice of German, Irish, Russian or Spanish.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -866,6 +1100,9 @@
             "Investigative",
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -880,6 +1117,11 @@
         "overview": "History The History programme introduces all students to the diversity of historical studies, with the freedom to explore areas of particular interest to individual students in the final two years.\nPolitical Science\nPolitical Science will appeal to students who are excited about exploring the background to current events, the nature and use of power and how decisions are made that impact on wider society. If you are interested in having an in-depth knowledge of public affairs, developing critical and much sought after research skills and if your career interests lie in journalism, public service, teaching, public policy, international organisation and/or business then Political Science may be for you",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science",
+            "law & public policy"
         ]
     },
     {
@@ -894,6 +1136,9 @@
         "overview": "Religion\nThis course offers you a choice of three possible directions of study after your first year. The first is a broad-based study of Religion and Theology, the second a specialisation in the Cultural Study of Religion, and the third in Christian Theology. Within the Cultural Study of Religion, you have the opportunity to explore the monotheistic religions of Judaism, Christianity and Islam, the religions of Asia and Africa, as well new atheistic and religious movements.\nIf you choose to specialise in Theology, you can investigate the development of Christian self-understanding in a number of different modes, including denominational, multidenominational and ecumenical aspects.\nHistory\nThe History programme introduces students to the diversity of historical studies, such as medieval and modern periods, including Irish, European, and American history, as well as some modules exploring the skills and methods which historians use, and the kinds of debates in which historians engage.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -908,6 +1153,11 @@
         "overview": "The degree combines scientific, social, and applied learning to prepare graduates for life and work in families, communities and broader society. You’ll explore the interconnections between nutrition, health, wellbeing, consumer behaviour, and sustainable living. Through hands-on labs, community engagement, and real‐world project work, this programme develops both the practical skills and critical thinking needed to make a positive impact.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "health",
+            "social science"
         ]
     },
     {
@@ -923,6 +1173,11 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "health",
+            "social science"
         ]
     },
     {
@@ -938,6 +1193,11 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "business",
+            "health"
         ]
     },
     {
@@ -953,6 +1213,11 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "education",
+            "industrial arts & consumer services",
+            "engineering"
         ]
     },
     {
@@ -967,6 +1232,10 @@
         "overview": "This degree is delivered in partnership with Teagasc and South East Technological University. It blends science, practical skills, and business, covering plant production, landscape design, food crops, and sustainability. With a 15 week industry placement, graduates earn Green Cert status. This course suits those passionate about plants, the environment, sustainable food production, or pursuing a dynamic career in horticulture, landscaping, or agribusiness.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "biology & life science"
         ]
     },
     {
@@ -981,6 +1250,10 @@
         "overview": "With a focus on environmentally friendly practices and innovative technologies, this degree equips you with the knowledge and skills to become a competent and confident leader in the horticulture community. By studying core science subjects and specialist horticulture and environment modules, you will gain an understanding of sustainable management of food and ornamental plant production, knowledge of protecting and enhancing biodiversity and habitats, designing and managing landscapes, and the benefits of horticultural therapy.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "biology & life science"
         ]
     },
     {
@@ -995,6 +1268,10 @@
         "overview": "Horticulture plays a central role in creating, maintaining, and enhancing the landscapes we live in. Trained Horticulturists play a key role in creating beautiful places for recreation and relaxation. Parks, golf courses, public and private gardens would not be possible without skilled people to design, build and care for them. Even fresh fruit and vegetables, key to a healthy lifestyle, are produced by horticulturists.\nHorticulture is a diverse industry with wide-ranging career opportunities, from producing plants for garden centres, working on golf courses, or landscaping, right through to fruit and vegetable production.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "biology & life science"
         ]
     },
     {
@@ -1009,6 +1286,10 @@
         "overview": "Horticulture plays a central role in creating, maintaining, and enhancing the landscapes we live in. Pretty, pollinator-friendly floral displays are the backdrop in our thriving tourist towns. The pristine golf courses and pitches we compete on, and the beautiful parks, gardens, and urban landscapes we relax in would not be possible without the skills and knowledge of Ireland’s trained horticulturists.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "biology & life science"
         ]
     },
     {
@@ -1025,6 +1306,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1041,6 +1326,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1057,6 +1346,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1073,6 +1366,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1089,6 +1386,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1105,6 +1406,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1121,6 +1426,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1137,6 +1446,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1151,6 +1464,10 @@
         "overview": "The Human Health and Disease degree trains students for work in the field of biomedical research. It brings to life the fascinating connections between structure and function in the human body and explores the health and disease continuum in detail, including teaching on how medical therapies act to treat or even prevent disease.\nAs an example, understanding brain structure and biochemistry allows us to appreciate how neurons communicate and this in turn is helping biomedical researchers and clinicians to identify new and effective ways to treat and prevent diseases such as dementia.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -1166,6 +1483,10 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -1177,10 +1498,14 @@
         "nfqLevel": 8,
         "points": 349,
         "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "Human Nutrition in ATU Sligo combines a number of scientific disciplines to provide a thorough understanding of the role of diet and nutrition in health and in the prevention of major diseases such as cardiovascular disease, cancer, diabetes and osteoporosis. The degree gives students a comprehensive understanding of the relationship between diet and health. Students learn how to apply this knowledge to individual and population health, as well as providing safe and nutritious food to the consumer.",
+        "overview": "Human Nutrition in ATU Sligo combines a number of scientific disciplines to provide a thorough understanding of the role of diet and nutrition in health and in the prevention of major diseases such as cardiovascular disease, cancer, diabetes and osteoporosis. The degree gives students a comprehensive understanding of the relationship between diet and health. Students learn how to apply this knowledge to individual and population health, as well as providing safe and nutritious food to the consumer.",
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -1196,6 +1521,10 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -1211,6 +1540,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -1226,6 +1559,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -1242,6 +1579,10 @@
             "Enterprising",
             "Social",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "social science"
         ]
     },
     {
@@ -1258,6 +1599,10 @@
             "Enterprising",
             "Social",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "social science"
         ]
     },
     {
@@ -1272,6 +1617,10 @@
         "overview": "In a culturally-rich and dynamic environment, students will be encouraged to develop their image-making skills and problem-solving abilities throughout the programme; whilst constantly being challenged to create original work that is strong in content and aesthetically engaging. Thorough research is an on-going necessity so that students will be able to respond to diverse and demanding project briefs, guided by enthusiastic and experienced staff.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -1287,6 +1636,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "biology & life science",
+            "health"
         ]
     },
     {
@@ -1302,6 +1655,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -1316,6 +1673,10 @@
         "overview": "Immersive Software Engineering is a new computer science degree where you learn by doing. You get an integrated Bachelors/Masters qualification (level 9) in four years. You spend half your time learning on campus in a research-driven paradigm, in studios, working on projects, in teams, undergoing continuous assessment instead of end of term exams. You spend the other half of your time in paid residencies, where you solve some of society’s toughest problems in excellent companies.\nThe goal of Immersive Software Engineering is to turn curious, creative people like you into top notch problem solvers and software engineers, familiar with concepts, methods and tools, and with about 2 years of experience gained in the field in up to 5 companies.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "engineering"
         ]
     },
     {
@@ -1331,6 +1692,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -1346,6 +1711,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "engineering"
         ]
     },
     {
@@ -1360,6 +1729,10 @@
         "overview": "This is a multidisciplinary four-year engineering programme. It has an excellent graduate employment rate and provides graduates with a range of practical skills and competences in areas such as: Electro-Mechanical, Electronics, PLCs, SCADA, Control and Instrumentation, Industrial Networks, Data Modelling, Motion Control, Robotics and Software Engineering.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -1375,6 +1748,10 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -1390,6 +1767,11 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "communications & journalism",
+            "social science",
+            "computers & mathematics"
         ]
     },
     {
@@ -1404,6 +1786,9 @@
         "overview": "Our BSc in Information Technology is not just about coding. It's about understanding the impact of technology on society, it's about learning how to think critically, solve problems, and develop solutions that matter. You'll learn to work with modern technologies like cloud computing, networking and security, but you'll also learn how to identify and solve the challenges that businesses and society face.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1418,6 +1803,10 @@
         "overview": "This programme provides students with the knowledge, skills and competencies in IT infrastructure, security, emerging technologies, systems management, database systems and IT applications. The programme is designed around five key strategic pillars; Networking, Security, Cloud Computing Technologies, Scripting and Database Systems. The students who enrol on this programme will study modules aligned to the above areas.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "law & public policy"
         ]
     },
     {
@@ -1433,6 +1822,10 @@
         "interests": [
             "Investigative",
             "Enterprising"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "business"
         ]
     },
     {
@@ -1448,6 +1841,10 @@
         "interests": [
             "Investigative",
             "Enterprising"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "business"
         ]
     },
     {
@@ -1463,6 +1860,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "physical sciences"
         ]
     },
     {
@@ -1479,6 +1880,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -1495,6 +1900,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     }
 ]

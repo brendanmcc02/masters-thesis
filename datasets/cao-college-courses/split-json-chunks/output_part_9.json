@@ -13,6 +13,11 @@
             "Social",
             "Realistic",
             "Conventional"
+        ],
+        "categories": [
+            "education",
+            "industrial arts & consumer services",
+            "business"
         ]
     },
     {
@@ -28,6 +33,11 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "education",
+            "industrial arts & consumer services",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -42,6 +52,11 @@
         "overview": "The Bachelor of Education in Home Economics and Religious Education is a full-time, concurrent teacher education degree leading to a National Framework of Qualifications (NFQ) Level 8 honours degree.\nUpon graduation students will meet all the Teaching Council requirements to be registered as a Newly Qualified Teacher (NQT) of Home Economics and Religious Education.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "industrial arts & consumer services",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -58,6 +73,11 @@
             "Social",
             "Conventional",
             "Investigative"
+        ],
+        "categories": [
+            "education",
+            "computers & mathematics",
+            "business"
         ]
     },
     {
@@ -74,6 +94,11 @@
             "Social",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "education",
+            "computers & mathematics",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -88,6 +113,9 @@
         "overview": "This programme has been designed to allow graduates to work in an industry embarking on the rapid transition to electrified propulsion, namely Electric Vehicle. We are delighted to be supported in the roll-out of this course by Jaguar Land Rover and Hyundai who are major players in Ireland in the transition to Electric Vehicles. The programme covers technology associated with a wide range of vehicles, including cars, public transport vehicles, goods vehicles, and specialist industrial vehicles.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -103,6 +131,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -118,6 +150,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -133,6 +168,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -148,6 +186,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -163,6 +205,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -178,6 +223,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -193,6 +241,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -208,6 +259,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -223,6 +277,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -238,6 +295,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -253,6 +313,9 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -268,6 +331,9 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -283,6 +349,10 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -298,6 +368,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -313,6 +387,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -328,6 +406,9 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -343,6 +424,9 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -358,6 +442,9 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -373,6 +460,9 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -388,6 +478,9 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -403,6 +496,9 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -418,6 +514,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -433,6 +533,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -448,6 +552,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -463,6 +571,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -478,6 +590,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -493,6 +609,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "communications & journalism"
         ]
     },
     {
@@ -508,6 +628,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -523,6 +647,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "physical sciences"
         ]
     },
     {
@@ -538,6 +666,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -553,6 +684,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -568,6 +702,9 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -583,6 +720,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -597,6 +737,9 @@
         "overview": "ATU Sligo offer a wide range of engineering programmes including Civil Engineering, Mechanical Engineering, Mechatronics and Precision Engineering and Design. This degree offers students the opportunity to study engineering in a general way for a semester before specialising in an area of their choice. This general engineering semester gives students exposure to all different types of engineering and equips them with the fundamentals of engineering.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -612,6 +755,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -627,6 +773,10 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -642,6 +792,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -657,6 +810,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -672,6 +828,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -687,6 +846,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -702,6 +864,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -717,6 +882,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -731,6 +899,9 @@
         "overview": "Our common first year has been developed to give our students sufficient time and experience to come to an informed choice as to which specific mechanical engineering course they wish to pursue at TUS Athlone. This broad experience of some of the major areas in mechanical, renewable, automation, and robotics will better enable the students to carry on to the second year, knowing they have an interest and aptitude for a particular field.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -747,6 +918,9 @@
             "Investigative",
             "Realistic",
             "Artistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -762,6 +936,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -777,6 +954,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -792,6 +972,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -806,6 +990,9 @@
         "overview": "This Common Entry course offers a mix of electronic, electrical, computer, robotics and mechanical. You can sample core engineering modules in first year so that you can decide which area of engineering you enjoy most before choosing the area you want to pursue in subsequent years.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -821,6 +1008,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -835,6 +1025,9 @@
         "overview": "If you’re not sure which area of engineering to go for, this course is probably the right one for you. It’s designed to enable students to sample core engineering modules in first year and help them decide which area of engineering they most enjoy. They can then choose the area they want to pursue in subsequent years.\nIn your first year, you’ll study subjects such as Algebra and Geometry, Digital Electronics, Engineering Science, Fundamentals of Calculus, Electrical Science, Introduction to Electronic Communications and Professional Development for Engineers, and gain experience in Workshop Practice.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -850,6 +1043,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -865,6 +1061,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "physical sciences"
         ]
     },
     {
@@ -880,6 +1080,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -895,6 +1098,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -910,6 +1116,10 @@
         "interests": [
             "Realistic",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -925,6 +1135,10 @@
         "interests": [
             "Realistic",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -941,6 +1155,10 @@
             "Investigative",
             "Enterprising",
             "Social"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -956,6 +1174,9 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -971,6 +1192,9 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -986,6 +1210,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "communications & journalism"
         ]
     },
     {
@@ -1001,6 +1229,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "psychology & social work"
         ]
     },
     {
@@ -1016,6 +1248,9 @@
         "interests": [
             "Social",
             "Conventional"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1031,6 +1266,9 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1046,6 +1284,9 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1061,6 +1302,10 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "arts"
         ]
     },
     {
@@ -1076,6 +1321,9 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1091,6 +1339,10 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "arts"
         ]
     },
     {
@@ -1106,6 +1358,9 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1121,6 +1376,9 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1136,6 +1394,9 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1151,6 +1412,10 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "psychology & social work"
         ]
     },
     {
@@ -1166,6 +1431,9 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1181,6 +1449,10 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "arts"
         ]
     },
     {
@@ -1195,6 +1467,11 @@
         "overview": "Study English, Drama and Film if you are interested in the relationships between literature, drama, film, and media cultures. Refine your critical engagement with a wide variety of texts and cultures, in different genres and media, and across different national and historical locations.\nConsider the role of cultural representation across a diverse range of genres, forms and time periods in shaping community and societal structures and beliefs. Explore how the study of English, Drama and Film intersects with questions of gender, race, and identity. Become a critical and creative thinker.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -1209,6 +1486,9 @@
         "overview": "Learn Entrepreneurship by doing Entrepreneurship on a new Business Studies degree which allows you to control what you study and how you learn. Design and develop your own business ideas and business plans from day one. Meet and work with real business start-ups throughout your degree. Graduates will not only acquire and develop the creative thinking mindset necessary to succeed in new business ventures, but also the management skills and knowledge required to allow employment in established businesses and entrepreneurial support organisations.",
         "interests": [
             "Enterprising"
+        ],
+        "categories": [
+            "business"
         ]
     },
     {
@@ -1223,6 +1503,9 @@
         "overview": "Learn Entrepreneurship by doing Entrepreneurship on a new Business Studies degree which allows you to control what you study and how you learn. Design and develop your own business ideas and business plans from day one. Meet and work with real business start-ups throughout your degree.\nGraduates will not only acquire and develop the creative thinking mindset necessary to succeed in new business ventures, but also the management skills and knowledge required to allow employment in established businesses and entrepreneurial support organisations.",
         "interests": [
             "Enterprising"
+        ],
+        "categories": [
+            "business"
         ]
     },
     {
@@ -1237,6 +1520,9 @@
         "overview": "The Bachelor of Arts (Hons) in Enterprise Management programme prepares learners to be the emerging leaders of the future developing key skills including an ability to think and work creatively and innovatively, manage effectively and build relationships with customers and peers to meet and solve future business challenges.",
         "interests": [
             "Enterprising"
+        ],
+        "categories": [
+            "business"
         ]
     },
     {
@@ -1251,6 +1537,9 @@
         "overview": "This programme supports and develops your entrepreneurial learning and provides you with a comprehensive business foundation. You will learn how to develop and deliver ideas using the latest business models and frameworks for use within a business setting or if you wanted to explore your own business idea. This degree enables you to develop valuable skill sets and perspectives such as creative problem solving, diagnostic skills, communication, project management functional and strategic business capabilities to effectively contribute to business success.",
         "interests": [
             "Enterprising"
+        ],
+        "categories": [
+            "business"
         ]
     },
     {
@@ -1266,6 +1555,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -1282,6 +1575,10 @@
             "Realistic",
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "health",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -1297,6 +1594,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -1312,6 +1613,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -1327,6 +1632,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "engineering",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -1342,6 +1652,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -1357,6 +1671,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "agriculture & natural resources",
+            "biology & life science"
         ]
     },
     {
@@ -1372,6 +1691,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "agriculture & natural resources",
+            "biology & life science"
         ]
     },
     {
@@ -1387,6 +1711,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "agriculture & natural resources",
+            "biology & life science"
         ]
     },
     {
@@ -1401,6 +1730,11 @@
         "overview": "The overall aim of the programme is to equip you with degree-level competence in the disciplines of Equine Science and a choice of professional studies in either Equitation* (the art or practice of horse riding or horsemanship) or Equine Business Management. Graduates of the programme contribute to the continued development of the horse industry through the application of their knowledge, skills and research in Science, Equitation and Business Management.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "biology & life science",
+            "agriculture & natural resources",
+            "business"
         ]
     },
     {
@@ -1415,6 +1749,11 @@
         "overview": "The Certificate and Diploma courses are suitable if you want to achieve academic qualifications before starting work in an area of horse-based or related industries. The programmes offer a broad base of learning in equine science, equitation and equine related business topics. This three stranded approach provides a strong platform for building a flexible career. In most semesters you will have a choice of module that allows you to align your studies with your personal interests and ambitions. Students who progress to the Diploma in Science (Equine Science) can choose to follow either a business or equitation specialist route.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "biology & life science",
+            "agriculture & natural resources",
+            "business"
         ]
     },
     {
@@ -1429,6 +1768,11 @@
         "overview": "European Studies in the University of Limerick is a broad and integrated world-class programme. It allows students an in-depth opportunity to study European languages and policy and equips them with highly sought-after digital and research skills. It is also the only European Studies programme in Ireland which includes Irish as one of its language options. The BA in European Studies offers you a core European Studies programme and a wide degree of choice between options in European History, Sociology, Politics, Economics or Marketing, Law and European Literature & Film, as well as the opportunity to develop an in-depth knowledge of French, German, Irish/Gaeilge and Spanish languages and cultures.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "social science",
+            "humanities & liberal arts",
+            "law & public policy"
         ]
     },
     {
@@ -1443,6 +1787,10 @@
         "overview": "European Studies is a broad-ranging and integrated programme that offers students the chance to learn European languages, and also to study history and social sciences. This programme encourages students to think about our continent in all its complexity, and to analyse Europe’s cultures, history, and politics.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "social science",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1458,6 +1806,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "social science",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1473,6 +1825,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "arts"
         ]
     },
     {
@@ -1488,6 +1844,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "arts"
         ]
     }
 ]

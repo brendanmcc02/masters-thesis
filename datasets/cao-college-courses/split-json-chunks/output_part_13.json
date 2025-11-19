@@ -11,6 +11,10 @@
         "overview": "The LLB in Law and Cyber Security is a joint degree between the School of Law and the Department of Electronic and Computer Engineering.Graduates will be equipped with attributes from both legal and computing disciplines. As well as studying the core subjects required to advance in the legal profession, it will also provide a solid basis and understanding of the importance of cyber security which underpins the critical infrastructure of the economic and social life of the nation. Graduates will be able to apply both mathematical and theoretical principles relevant to cyber security and work with and implement systems in the field of cyber security",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "law & public policy",
+            "computers & mathematics"
         ]
     },
     {
@@ -27,6 +31,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -43,6 +51,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -59,6 +71,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -73,6 +89,10 @@
         "overview": "The four-year Bachelor of Civil Law (Human Rights) is an innovative and unique programme – the first of its kind in Ireland. It offers students the opportunity to combine a full undergraduate law programme with the study of human rights.",
         "interests": [
             "Conventional"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -89,6 +109,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -105,6 +129,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -120,6 +148,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "law & public policy",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -135,6 +167,10 @@
         "interests": [
             "Enterprising",
             "Investigative"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -151,6 +187,10 @@
             "Enterprising",
             "Social",
             "Conventional"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -167,6 +207,10 @@
             "Enterprising",
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -183,6 +227,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -199,6 +247,10 @@
             "Enterprising",
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "law & public policy",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -215,6 +267,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -231,6 +287,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -247,6 +307,10 @@
             "Enterprising",
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -263,6 +327,11 @@
             "Enterprising",
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science",
+            "psychology & social work"
         ]
     },
     {
@@ -279,6 +348,11 @@
             "Enterprising",
             "Social",
             "Conventional"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science",
+            "psychology & social work"
         ]
     },
     {
@@ -294,6 +368,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "law & public policy",
+            "business"
         ]
     },
     {
@@ -309,6 +387,10 @@
         "interests": [
             "Enterprising",
             "Investigative"
+        ],
+        "categories": [
+            "law & public policy",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -325,6 +407,10 @@
             "Enterprising",
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -341,6 +427,10 @@
             "Enterprising",
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -355,6 +445,10 @@
         "overview": "The BA (Hons) in Liberal Arts (a level-8, QQI-accredited, award) provides an intellectually stimulating and challenging course of undergraduate study in the liberal arts, with a wide range of foundation courses combined in the latter stages with specialised study in four concentrations.\nIn the third year students are required to major in one of four concentrations: Irish Studies, American Studies, History, or English. In this way the study programme broadens the students’ knowledge and advances their communication skills in a wide range of intellectual areas, and provides them with an understanding of other cultures, their intrinsic values and historical experience.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -370,6 +464,9 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -385,6 +482,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -400,6 +501,9 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -415,6 +519,9 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -430,6 +537,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "engineering"
         ]
     },
     {
@@ -446,6 +557,10 @@
             "Enterprising",
             "Conventional",
             "Investigative"
+        ],
+        "categories": [
+            "business",
+            "computers & mathematics"
         ]
     },
     {
@@ -460,6 +575,10 @@
         "overview": "Engineering discipline are manufacturing technology and design for manufacture combined with business and enterprise management. In this course, you’ll acquire the right mix of technical, managerial and communication skills that will equip you for a wide range of careers in a broad spectrum of industries.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -475,6 +594,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -489,6 +611,9 @@
         "overview": "This programme will deliver high quality manufacturing engineering graduates to support the local, national, and international manufacturing and service industries. It will provide the opportunity for prospective students to gain transferable knowledge and skills in order to develop rewarding and progressive careers.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -504,6 +629,9 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -519,6 +647,9 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -534,6 +665,11 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -549,6 +685,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -564,6 +704,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -579,6 +723,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -593,6 +741,10 @@
         "overview": "As a person-focused role, marketers are equipped with a broad skillset including, research, pricing, communication, branding, and psychology. This has served to make it a very enriching and engaging career choice with marketers acting as the public interface of a company and its products. Areas of specialism include digital marketing, social marketing, fashion marketing, and sports marketing all of which are skills in popular demand.",
         "interests": [
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -609,6 +761,10 @@
             "Enterprising",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -625,6 +781,11 @@
             "Enterprising",
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism",
+            "computers & mathematics"
         ]
     },
     {
@@ -640,6 +801,11 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism",
+            "arts"
         ]
     },
     {
@@ -655,6 +821,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -670,6 +840,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -686,6 +860,11 @@
             "Enterprising",
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism",
+            "computers & mathematics"
         ]
     },
     {
@@ -702,6 +881,11 @@
             "Enterprising",
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "business",
+            "social science",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -717,6 +901,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -733,6 +921,10 @@
             "Enterprising",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -749,6 +941,10 @@
             "Enterprising",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -765,6 +961,10 @@
             "Enterprising",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -781,6 +981,10 @@
             "Enterprising",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -796,6 +1000,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -810,6 +1018,10 @@
         "overview": "This new marketing with online technologies degree responds to the disruption that has taken place in the marketing discipline. It seeks to develop marketing graduates that are equipped with the requisite skills for Industry 4.0 recognising that marketing graduates must now possess the requisite skills for the dynamic digitised economy. The aim of this programme is to equip learners with the capabilities to excel in the dynamic and global marketing environment. It will develop marketing graduates who are innovative in their approach, and have the capacity to act as catalysts for marketing growth in organisations.",
         "interests": [
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "computers & mathematics"
         ]
     },
     {
@@ -826,6 +1038,11 @@
             "Enterprising",
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism",
+            "computers & mathematics"
         ]
     },
     {
@@ -840,6 +1057,10 @@
         "overview": "This honours degree programme provides students with a solid foundation in Mathematical Science, encompassing all aspects of mathematics and its applications. Students will have the opportunity to specialise in particular areas, for example in mathematics, applied mathematics, financial mathematics, computer science, statistics and bioinformatics.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "physical sciences"
         ]
     },
     {
@@ -854,6 +1075,10 @@
         "overview": "Mathematical Sciences, both as a language and as a body of knowledge and technique, have provided the fundamental underpinnings of science and technology for centuries. Today, its influence stretches beyond the physical sciences and engineering into medicine, business and finance, the life sciences, and the social sciences. Mathematical Sciences are also studied for the elegance of their ideas and the intellectual challenges they pose.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "physical sciences"
         ]
     },
     {
@@ -868,6 +1093,10 @@
         "overview": "Mathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one’s logical reasoning, quantitative skills and problem-solving techniques.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "physical sciences"
         ]
     },
     {
@@ -882,6 +1111,10 @@
         "overview": "The mathematics programme includes several modules in the main branches of pure mathematics: Analysis (calculus in one and in several variables), Algebra (elementary number theory, linear algebra and abstract algebra) and Geometry. Relevant applications of mathematical theory are included in course modules and there are complete modules on computational mathematics and on statistics.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "physical sciences"
         ]
     },
     {
@@ -896,6 +1129,10 @@
         "overview": "In UL the focus is on applied Mathematical sciences, where  Mathematics and Statistics are used to solve problems that arise in science, engineering, industry, finance or society. Applied mathematical and statistical modelling is a philosophy of asking, and trying to understand, how things work. A problem or phenomenon of some sort occurs and Mathematics and Statistics are used to explain, to understand and ideally to improve it. \nIn the first semester, you will study calculus, linear algebra and computer programming and can choose from a selection of other modules, including physics and economics, before deciding whether to pursue a degree in. Mathematical Sciences, Mathematics and Physics; or Economics and Mathematical Sciences.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "physical sciences"
         ]
     },
     {
@@ -910,6 +1147,10 @@
         "overview": "Mathematics has long played a central role in our quest to fully describe and understand the natural world. Nowadays, it is also a vital tool in many of the social sciences. Those who concentrate on this subject will gain an understanding of mathematical concepts and learn how to prove key facts and solve problems using deductive reasoning.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "social science"
         ]
     },
     {
@@ -925,6 +1166,10 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "education",
+            "computers & mathematics"
         ]
     },
     {
@@ -940,6 +1185,10 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "education",
+            "computers & mathematics"
         ]
     },
     {
@@ -954,6 +1203,10 @@
         "overview": "The course builds strong foundational knowledge in the areas of Mathematics, Statistics and Programming. Well-rounded computing skills are developed allowing students to focus in on high-tech areas within the data and computing domains.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "physical sciences"
         ]
     },
     {
@@ -968,6 +1221,10 @@
         "overview": "Mathematical Sciences encompasses most areas of mathematics and statistics. In this course, you’ll acquire high-calibre analytical, problem-solving skills and the ability to apply a broad range of mathematical techniques and rigour to countless applications and industries.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "physical sciences"
         ]
     },
     {
@@ -983,6 +1240,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -998,6 +1259,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -1013,6 +1278,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1028,6 +1297,10 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "education",
+            "computers & mathematics"
         ]
     },
     {
@@ -1043,6 +1316,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1058,6 +1334,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1073,6 +1352,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1088,6 +1370,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "physical sciences"
         ]
     },
     {
@@ -1103,6 +1389,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -1118,6 +1408,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1133,6 +1426,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1148,6 +1444,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1163,6 +1462,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1178,6 +1480,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1193,6 +1498,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1208,6 +1516,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1223,6 +1534,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1238,6 +1552,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1253,6 +1570,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1268,6 +1588,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1283,6 +1606,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1298,6 +1624,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1313,6 +1642,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1328,6 +1660,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1343,6 +1678,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1358,6 +1696,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1373,6 +1714,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1388,6 +1732,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1403,6 +1750,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1418,6 +1768,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1433,6 +1786,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -1448,6 +1805,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -1463,6 +1824,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -1478,6 +1843,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -1494,6 +1863,11 @@
             "Enterprising",
             "Artistic",
             "Conventional"
+        ],
+        "categories": [
+            "communications & journalism",
+            "arts",
+            "social science"
         ]
     },
     {
@@ -1509,6 +1883,11 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "communications & journalism",
+            "arts",
+            "computers & mathematics"
         ]
     }
 ]

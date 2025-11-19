@@ -12,6 +12,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "arts"
         ]
     },
     {
@@ -27,6 +31,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -42,6 +50,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -57,6 +69,9 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -72,6 +87,10 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -88,6 +107,10 @@
             "Social",
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -104,6 +127,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -119,6 +146,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -133,6 +164,10 @@
         "overview": "The BA (Hons) in Fashion Design gives students a comprehensive and rigorous preparation for careers in fashion design. The programme emphasises project-based learning, requiring learners to experiment and innovate in order to create imaginative design solutions. Assignments include industry-based projects to ensure graduates will have the skills to take up employment, either for a company or as independent designers.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -147,6 +182,10 @@
         "overview": "Fashion Design aims to educate students to become professional practitioners in the field of fashion and related industries. Students are encouraged to have an awareness of fashion in its social and cultural context and to bring that understanding to their work.\nThe department places great value on its industry and professional links that gives students an insight into real-world commercial requirements. Emphasis is placed on developing informed, creative designers, who are prepared for the needs of industry.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -161,6 +200,10 @@
         "overview": "Our BA in Fashion Design is a three-year level 7 degree course available on a full-time basis. The course will immerse you in the fashion industry and prepare you for any role that requires a creative flair and business knowledge.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -176,6 +219,11 @@
         "interests": [
             "Artistic",
             "Enterprising"
+        ],
+        "categories": [
+            "arts",
+            "industrial arts & consumer services",
+            "business"
         ]
     },
     {
@@ -190,6 +238,10 @@
         "overview": "Why do films affect us the way they do? Why did the introduction of sound change film forever? What do we mean by ‘independent cinema? What is a digital story world? These and many more are the questions that Film Studies asks students to consider in small-group lectures and seminars.\nIn addition, over the course of your degree you’ll be encouraged to respond creatively to critical issues via projects, presentations, short films and video essays, as well as to develop your screenwriting skills to see if you have a fresh vision to share with the world around you.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -204,6 +256,10 @@
         "overview": "This course is for those who want to tell stories and express themselves through the medium of filmmaking. Our BA (Hons) Film is dedicated to teaching practice-based film making. Throughout the four years you will develop and create drama, documentary and experimental film. You will write scripts, shoot films, and submerge yourselves in cinema culture and tradition. You will work both individually and in teams to create powerful films that develop your own creative voice.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -218,6 +274,10 @@
         "overview": "Film & Broadcasting is about telling stories - whether fiction or factual. This course combines high standards of training in production skills to make courses, dramas and documentaries for radio, television and cinema with a well-grounded academic education in media theory and contextual studies.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -232,6 +292,10 @@
         "overview": "This programme will prepare students for the challenges of our society and of our evolving technologies in the future of work while developing the work-ready skills. Film courses are designed to appeal to students that want to gain critical exposure to creative media and film practices, as well as gain work experience and applied learning for a future career in the creative media sector.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -246,6 +310,10 @@
         "overview": "The BA (Hons) in Film and Creative Media (Level 8, 180 ECTS) programme provides students with the theoretical knowledge and practical skills in conventional and new media, by combining traditional communication and media production skills such as photography and video production, with high-level training in multimedia production, processes and design.The programme provides a focus on professional practices and applications required for the creative industries. Students will engage with professionals, clients, artists and employers through Creative Engagement / Internship module in the final stage.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -260,6 +328,10 @@
         "overview": "A three-year Level 8 honours degree for those interested in developing a career in film, documentary, television and the audiovisual sector. This programme is designed to provide a specialised knowledge of the history, theory and practical working of documentary and film making. Embedded in the programme is the opportunity for ethical and philosophical discourse with regard to representation, media and new technologies.\nThe practical and technical skills options include such specialist areas as screenwriting, editing, sound, production design, cinematography, VFX (visual effects) and knowledge of the planning, budgeting and management requirements involved in shooting and delivering film and documentary projects.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -274,6 +346,10 @@
         "overview": "This programme is designed to cater to emerging opportunities across the film and media sector in digital film production planning, story and script, audio, design, special effects, compositing and editing. An enterprise and entrepreneurship ethos is embedded in modules. This programme engages traditional and emerging practices to cater for the needs of the film and media industry. Self-directed practice will be a key component across several modules focusing on audience and market. Studying film and media production provides hands-on experience in storytelling, cinematography & digital editing, preparing students for diverse careers in the entertainment industry.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -288,6 +364,10 @@
         "overview": "University College Cork's BA in Film & Screen Media is a unique, major degree that offers students a thorough film studies education on the history, theory, values, aesthetics and ideology of the moving image.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -302,6 +382,10 @@
         "overview": "This course encompasses everything from pre-production planning and scriptwriting to filming, editing, and postproduction. Students will learn to harness creativity, innovation, and collaboration, and the practical aspects of mounting a production, such as budgeting, location scouting, casting, production design, filming, and post-production.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -317,6 +401,11 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -331,6 +420,11 @@
         "overview": "Film StudiesIf you enjoy watching a wide range of films from around the world and if you are interested in acquiring the critical and creative tools to analyse them in relation to questions of style, technology, society, and industry, then this may be the course for you. While you will learn about practical issues involved in film production, including how to write a script and how to produce short videos, the course is geared toward critical engagement with film and digital media. Drama StudiesThe degree explores  the relationship between the theory and practice of Drama and Theatre to discover how and why they work. The strong developmental emphasis of the courses requires a particular blend of practical and academic skills. In addition to a high level of analytical ability and creativity you will need to possess resourcefulness and self-motivation.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -345,6 +439,11 @@
         "overview": "Film StudiesIf you enjoy watching a wide range of films from around the world and if you are interested in acquiring the critical and creative tools to analyse them in relation to questions of style, technology, society, and industry, then this may be the course for you. While you will learn about practical issues involved in film production, including how to write a script and how to produce short videos, the course is geared toward critical engagement with film and digital media. \nEnglish LiteratureEnglish Literature covers a broad range of literatures written in the English language, from Chaucer to the present day. The aim of the course is to help students acquire a thorough knowledge of the history of differing literatures while also enabling them to develop a sophisticated critical consciousness and an awareness of critical and cultural theory.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -359,6 +458,11 @@
         "overview": "Film Studies\nWhile you will learn about practical issues involved in film production, including how to write a script and how to produce short videos, the course is geared toward critical engagement with film and digital media. HistoryThe History programme combines the strength of a broad-based programme in the first two years, introducing all students to the sheer diversity of historical studies, with the freedom to explore areas of particular interest to individual students in the final two years. The first and second years provide a range of modules covering medieval and modern periods, including Irish, European, and American history, as well as some modules exploring the skills and methods which historians use, and the kinds of debates in which historians engage.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -373,6 +477,11 @@
         "overview": "Film StudiesIf you enjoy watching a wide range of films from around the world and if you are interested in acquiring the critical and creative tools to analyse them in relation to questions of style, technology, society, and industry, then this may be the course for you. While you will learn about practical issues involved in film production, including how to write a script and how to produce short videos, the course is geared toward critical engagement with film and digital media. You will work in small groups to debate the topics that arise in lectures and to create short films and documentaries. Our students are active in many different societies, including DU Film Society and the student-run film magazine, Trinity Film Review. Students combine this subject with their choice of French or Spanish.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -387,6 +496,10 @@
         "overview": "Film StudiesIf you enjoy watching a wide range of films from around the world and if you are interested in acquiring the critical and creative tools to analyse them in relation to questions of style, technology, society, and industry, then this may be the course for you. While you will learn about practical issues involved in film production, including how to write a script and how to produce short videos, the course is geared toward critical engagement with film and digital media. \nMusic Studying music will allow you to engage with a range of traditions to acquire a profound understanding of how music works in theory and in creative practice. If you are interested in understanding music’s place in society, developing music technology skills, writing music, or improving your skills as an informed performer, this course could be for you.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -401,6 +514,10 @@
         "overview": "This exciting course has been created for people who have a passion for film making and storytelling on screen and have already started to experiment in these areas. This course will also assist enthusiastic students in developing the essential practical skills and knowledge required to work in the dynamic area of film, television, and screen production.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -415,6 +532,10 @@
         "overview": "This innovative three-year European Film degree, delivered across multiple European locations with our FilmEU partners, positions you at the forefront of the global screen arts industry. You’ll develop a blend of traditional filmmaking techniques alongside modern innovations and specialisations.As this is a joint international programme, you will study across multiple partner institutions during the three years, but your chosen CAO code determines where you begin your first year.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -429,6 +550,10 @@
         "overview": "This innovative three-year European Film degree, delivered across multiple European locations with our FilmEU partners, positions you at the forefront of the global screen arts industry. You’ll develop a blend of traditional filmmaking techniques alongside modern innovations and specialisations.As this is a joint international programme, you will study across multiple partner institutions during the three years, but your chosen CAO code determines where you begin your first year.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -443,6 +568,10 @@
         "overview": "This innovative three-year European Film degree, delivered across multiple European locations with our FilmEU partners, positions you at the forefront of the global screen arts industry. You’ll develop a blend of traditional filmmaking techniques alongside modern innovations and specialisations.As this is a joint international programme, you will study across multiple partner institutions during the three years, but your chosen CAO code determines where you begin your first year.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -457,6 +586,10 @@
         "overview": "This innovative three-year European Film degree, delivered across multiple European locations with our FilmEU partners, positions you at the forefront of the global screen arts industry. You’ll develop a blend of traditional filmmaking techniques alongside modern innovations and specialisations.As this is a joint international programme, you will study across multiple partner institutions during the three years, but your chosen CAO code determines where you begin your first year.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -472,6 +605,9 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business"
         ]
     },
     {
@@ -486,6 +622,9 @@
         "overview": "In this degree, you will learn about how the financial system works – how assets such as gold, coffee and orange juice are traded, how international markets are linked and the impact of government decisions on markets.",
         "interests": [
             "Enterprising"
+        ],
+        "categories": [
+            "business"
         ]
     },
     {
@@ -501,6 +640,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "social science"
         ]
     },
     {
@@ -516,6 +659,10 @@
         "interests": [
             "Investigative",
             "Enterprising"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "business"
         ]
     },
     {
@@ -532,6 +679,11 @@
             "Investigative",
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "social science",
+            "business"
         ]
     },
     {
@@ -546,6 +698,9 @@
         "overview": "The BA in Fine Art is designed for students who wish to work as cultural producers in the Fine Art sector. The course is focused primarily on acquiring the knowledge and skills that are needed to operate as a visual artist in a competitive environment, nationally and internationally.\nThere’s a strong emphasis on developing skills acquisition, creative intelligence and conceptual and critical thinking abilities, which are integrated with modules in Critical Theory and Professional Practice.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -560,6 +715,9 @@
         "overview": "This studio-based programme prepares students for the professional world of contemporary art; learning how to make, experiment, research and critique art. Students will explore and engage with: painting, drawing, sculpture, print, photography, performance, sound, video, and digital media in varied contexts. Students are encouraged to experiment with a wide range of media in order to develop their individual art practice.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -574,6 +732,9 @@
         "overview": "The degree is designed to offer students the widest possible experience in materials and media - drawing, painting, digital media photography and video, ceramics, printmaking, sculptural studies, work in context, visual literacy and visual material culture, and history/theory of art. These are taught with a focus on the student’s own research and art-making initiatives as the years progress.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -588,6 +749,9 @@
         "overview": "The degree is designed to offer students the widest possible experience in materials and media - drawing, painting, digital media photography & video, ceramics, printmaking, sculptural studies, work in context, visual literacy and visual material culture and history/theory of art. These are taught with a focus on the student’s own research and art-making initiatives as the years progress.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -602,6 +766,9 @@
         "overview": "All departments in the School of Fine Art - Media, Painting, Fine Print , Sculpture and Applied Materials - help students to develop a highly individual way of seeing and interpreting, and of expressing themselves visually.  Emphasis is placed on visual awareness and artistic analysis, on acquiring skills in the use of both traditional and new materials and media.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -616,6 +783,9 @@
         "overview": "Our Bachelor of Engineering (Hons) in Fire Safety Engineering is a broad discipline covering a wide range of areas including fire prevention, detection, escape, suppression and control. The aim of this four year programme is to equip you with the engineering knowledge at a scientific and practical level to undertake both prescriptive and performance based fire design safety.\nYou will take core modules in mathematics, fire science, fluids, thermodynamics, building services, construction technology and structural design, along with general construction elements such as CAD, construction economics, land surveying and technical writing. You will then advance to fire safety subjects that take account of human behavior, fire and reliability modelling, fire structural design and fire engineering techniques.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -630,6 +800,9 @@
         "overview": "First Year Studies at NCAD gives you the solid foundation that you require for entry into the variety of creative paths of study offered by the college. First Year Studies is a common entry course that leads our students to studying any one of the fourteen different studio specialisms available in NCAD\nThe School of Fine Art, Paint, Print, Sculpture , Media, Textile Art & Artefact and Ceramics & Glass ( Applied Hard Materials) ; and in the School of Design, Graphics, Illustration, Moving Image Design, Fashion Design, Textile Surface Design, Jewellery & Objects, Product Design and Interaction Design.\nAll these specialisms can also be studied as a Joint Honours Degree with Education or as a Studio specialism with Visual Culture.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -645,6 +818,10 @@
         "interests": [
             "Enterprising",
             "Realistic"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "business"
         ]
     },
     {
@@ -660,6 +837,10 @@
         "interests": [
             "Artistic",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -676,6 +857,11 @@
             "Enterprising",
             "Realistic",
             "Artistic"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "business",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -691,6 +877,10 @@
         "interests": [
             "Enterprising",
             "Realistic"
+        ],
+        "categories": [
+            "business",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -706,6 +896,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -721,6 +916,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -736,6 +936,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -751,6 +956,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -766,6 +976,12 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "physical sciences",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -781,6 +997,12 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "physical sciences",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -796,6 +1018,12 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "physical sciences",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -810,6 +1038,11 @@
         "overview": "The BSc (Hons) in Forensic & Pharmaceutical Science is a unique interdisciplinary course providing students with a detailed knowledge and understanding of the sciences in areas of forensics, pharmaceutical and analytical techniques. This course thus produces graduates who are highly employable in a broad range of sectors. Students gain valuable hands-on experience in the methodology and techniques at the forefront of these major sectors and develop transferable skills including problem solving, communicating, and defending scientific data, evidence interpretation, time management and team building.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "law & public policy",
+            "health"
         ]
     },
     {
@@ -824,6 +1057,11 @@
         "overview": "This unique interdisciplinary programme provides students with detailed knowledge and understanding of forensic, analytical, and pharmaceutical science. Students gain knowledge and critical skills in areas of crime scene investigation, forensic evidence examination, instrumental techniques, pharmaceutical technology, drug analysis, statistical analysis, quality assurance, molecular and immunobiology.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "law & public policy",
+            "health"
         ]
     },
     {
@@ -838,6 +1076,11 @@
         "overview": "Forensic Investigation and Analysis encompasses the application of a forensic investigative approach using advanced analytical science for the provision of scientific data and evidence. This degree equips graduates with skills in both forensic and analytical science making them highly employable in a broad range of sectors. Students study both biology and chemistry through the exciting and stimulating medium of forensic science. A major focus of the programme is the development of excellent practical analytical science skills which are in great demand by employers and for postgraduate research.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "law & public policy",
+            "biology & life science"
         ]
     },
     {
@@ -852,6 +1095,11 @@
         "overview": "This degree equips graduates with skills in both forensic and analytical science making them highly employable in a broad range of sectors. Students study both biology and chemistry through the exciting and stimulating medium of forensic science. A major focus of the programme is the development of excellent practical analytical science skills which are in great demand by employers and for postgraduate research.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "law & public policy",
+            "biology & life science"
         ]
     },
     {
@@ -866,6 +1114,10 @@
         "overview": "Students will discover how a crime scene is investigated and how to collect and analyse crime scene evidence. They will learn about ethical computer hacking, DNA analysis and much more. There is a large practical and project component to the programme, and students will learn skills such as project management, time management, decision making and laboratory practical skills.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "law & public policy"
         ]
     },
     {
@@ -880,6 +1132,9 @@
         "overview": "The BSc in Forestry is a three year degree course that prepares students for a professional career in Forest Management.The programme is professionally accredited by the Society of Irish Foresters and graduates may apply to be placed on the Forest Service register of Approved Foresters.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "agriculture & natural resources"
         ]
     },
     {
@@ -894,6 +1149,9 @@
         "overview": "This degree is focused on sustainable forest management. Students engage in extensive fieldwork and a semester-long industry placement, gaining practical experience in forest operations. The curriculum covers topics such as silviculture, forest protection, timber technology, and environmental management.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "agriculture & natural resources"
         ]
     },
     {
@@ -908,6 +1166,9 @@
         "overview": "UCD Forestry students learn how to create habitats, provide spaces for recreation, and produce timber – a resource that can simultaneously store carbon and substitute for concrete and steel. Students will gain skills in forest planning, remote sensing, the use of geographical information systems and forest modelling while developing the capacity for life-long learning that enables them to stay abreast of developments in policy, technology and the sciences that underpin forestry practice. The combination of science and business modules, complemented by a work experience placement, ensures that UCD Forestry graduates are in high demand across the sector.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "agriculture & natural resources"
         ]
     },
     {
@@ -922,6 +1183,9 @@
         "overview": "French Studies can be taken as part of the MIC Arts Degree as a joint honours combination. You will learn about French society, literature and culture as well as improving your language skills. You will use a wide range of materials to aid your study, including textbooks, newspapers, film, radio, TV and internet.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -936,6 +1200,9 @@
         "overview": "Within the Modern Languages programme you study two modern European languages to degree level.  You can choose between French, German, Irish, Italian, Russian and Spanish. Apart from French and Irish all languages can be studied from both advanced and beginners level.French studies develop transferable skills (excellent writing and oral communication abilities, critical thinking, extensive analytical skills) that are highly sought after across a range of sectors (the creative industries, public service, tourism, publishing, interpreting, teaching, journalism, broadcasting, the Diplomatic Service, etc.). The study of French language, literature, history, politics and philosophy is a hugely enriching intellectual experience and it also leaves graduates very well placed to succeed in a wide range of professional contexts.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -951,6 +1218,10 @@
         "interests": [
             "Realistic",
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts"
         ]
     },
     {
@@ -966,6 +1237,10 @@
         "interests": [
             "Realistic",
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts"
         ]
     },
     {
@@ -981,6 +1256,10 @@
         "interests": [
             "Realistic",
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts"
         ]
     },
     {
@@ -996,6 +1275,11 @@
         "interests": [
             "Realistic",
             "Artistic"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -1010,6 +1294,9 @@
         "overview": "Is féidir an Ghaeilge a dhéanamh mar chomhábhar sa Chéim sna Dána i gColáiste Mhuire gan Smál.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1024,6 +1311,10 @@
         "overview": "This degree is aimed specifically at jobs in the field of language skills. Excellent opportunities now exist in Ireland and Europe for those with a translation / language qualification—indeed, there is a shortage of qualified translators to fill job vacancies.\n \nThis highly practical degree course focuses on the linguistic, technological and workplace skills needed to become a professional translator. In addition to studying Translation in Léann an Aistriúcháin, you study Irish as a second subject and and qualify with a degree in both Translation Studies and Irish.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "communications & journalism"
         ]
     },
     {
@@ -1038,6 +1329,10 @@
         "overview": "This programme targets the creative needs of the games industry by producing graduates who can develop high quality game content, design game levels and work with industry leading content creation tools, scripting languages and game engines. In addition to developing students’ artistic skills, students of the programme acquire the skills to produce compelling game content for various gaming applications and platforms. The graduates of this programme possess a well-developed understanding of both the creative and technical processes involved in producing game content.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -1052,6 +1347,10 @@
         "overview": "The B.Sc. (Honours) in Game Art & Design targets the creative needs of the games industry by producing graduates who can develop high quality game content, design game levels and work with industry leading content creation tools, scripting languages and game engines.\nThe programme is designed to provide students with the knowledge and skills required to work in the games industry as games artists, content creators and designers. The programme embodies the multidisciplinary nature of the games sector and seeks to address the demand for game art and design skills both nationally and internationally.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -1066,6 +1365,10 @@
         "overview": "This four-year course focuses on the creation and study of games. It covers the design and development of digital and analogue games, including PC, mobile, Web, card and board games.\nTopics include in-depth analysis of games, practical hands-on development experience and theoretical game studies. Along the way, you’ll also learn important industry skills such as programming, game design, digital media asset creation, project management and game publishing.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -1080,6 +1383,10 @@
         "overview": "This course has been designed with the unique needs of the contemporary games industry in mind. It offers a creative pathway, enabling and enhancing the production and practice of game design and development. It also provides opportunities for an exciting and sustainable career both at home in Ireland’s dynamic and rapidly-evolving Creative Industries and internationally.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -1094,6 +1401,10 @@
         "overview": "This degree uses a software engineering approach to games development, combining study of the technical aspects of games programming, including virtual reality, augmented reality and artiﬁcial intelligence, with the principles of project management, quality assurance and organisational management.  While focused on developing games software, we also provide a general grounding in software engineering to equip students with the breadth of skills to work in any aspect of the information technology industry.\nA cutting edge games development computer laboratory and peripheral hardware are just some of the features on this programme which allow students to flex their creativity and gain first-hand experience.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -1108,6 +1419,11 @@
         "overview": "This new dynamic course aims to provide students with the knowledge, creative skills and technological competences necessary for a career in the food and/or culinary sector. The course is designed to reinforce and enhance the student’s knowledge of scientific principles, processes and technologies through the study of food. will focus on a new food product development, entrepreneurship, and introduction to sensory and consumer science. The final years of study will focus on the acquisition of scientific skills in food science, sensory and flavor science.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "physical sciences",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1122,6 +1438,11 @@
         "overview": "Three year degree combining scientific principles with the theoretical and practical aspects of food. Graduates will develop the skills necessary for an exciting career in food research and development and/or the culinary sector. The Bachelor of Arts (Hons) in Culinary and Gastronomic Sciences aims to provide the student with the knowledge, creative skills and technological competences necessary for a career in the food and/or culinary sector. The course is designed to reinforce and enhance the student’s knowledge of scientific principles, processes and technologies through the study of food.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "physical sciences",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1138,6 +1459,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1154,6 +1478,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1170,6 +1497,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1186,6 +1516,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1202,6 +1535,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1218,6 +1554,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1234,6 +1573,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1249,6 +1591,9 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1265,6 +1610,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1281,6 +1629,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1297,6 +1648,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1313,6 +1667,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1329,6 +1686,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1345,6 +1705,9 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -1359,6 +1722,9 @@
         "overview": "The BSc Genetics will teach you to understand how genes work in individuals and populations, and how this genetic information is passed from one generation to the next. Our Genetics programme places particular emphasis on the molecular basis of genetics, and our graduates will obtain a strong foundation in modern genetics.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "biology & life science"
         ]
     },
     {
@@ -1373,6 +1739,10 @@
         "overview": "By studying on this programme, you can come to understand the genetic basis for life and how this information can be used to investigate, diagnose and treat diseases. You’ll also gain practical laboratory skills, as well as skills in communications, critical thinking and problem-solving. Furthermore, you’ll gain skills in computational biology, which uses high-tech data analysis and modelling to help harness genetic and biological insights.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "biology & life science",
+            "computers & mathematics"
         ]
     },
     {
@@ -1387,6 +1757,10 @@
         "overview": "Genetics and Genomics is an exciting area of science involving the study and use of DNA based data in the life sciences. Genetics is the study of how DNA is the blueprint for functionality in every cell and is also the code that passes information from one generation to the next. New sequencing technologies can now generate vast quantities of data from DNA. \nGenomics is the study of these data to make important discoveries in areas such as medicine, agriculture, evolution, the environment and biotechnology.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "biology & life science",
+            "computers & mathematics"
         ]
     },
     {
@@ -1401,6 +1775,10 @@
         "overview": "Geography is concerned with both the natural and the cultural environments created on the earth’s surface and with the inter-relationships between them. It has links with a wide range of other disciplines, and is a subject with enormous contemporary relevance in a world facing challenges such as globalisation, inequality, natural resource depletion, environmental degradation, climate change, and large-scale international migration and refugee flows. As it is inherently interdisciplinary, Geography helps to develop a wide range of talents.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "physical sciences"
         ]
     },
     {
@@ -1416,6 +1794,10 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "social science",
+            "physical sciences"
         ]
     },
     {
@@ -1431,6 +1813,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "social science"
         ]
     },
     {
@@ -1446,6 +1832,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "social science"
         ]
     },
     {
@@ -1462,6 +1852,11 @@
             "Social",
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "education",
+            "agriculture & natural resources"
         ]
     }
 ]

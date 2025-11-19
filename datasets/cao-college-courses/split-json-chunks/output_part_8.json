@@ -12,6 +12,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -26,6 +30,10 @@
         "overview": "On this programme, students learn to design, create and animate for both 2D and 3D platforms such as TV, Film and Games. There is a focus on developing students’ core skills in the traditional disciplines of drawing, illustration and animation asset design with a strong emphasis on the principles of animation.\nBuilding on this foundation, students continue to develop their creative voice while training in industry standard software, processes and technologies with the aim of bringing their ideas and concepts to life on screen.\n.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -41,6 +49,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "computers & mathematics"
         ]
     },
     {
@@ -55,6 +67,10 @@
         "overview": "This course will provide you with an all-round perspective on information security risk and risk management. It is designed to produce highly knowledgeable and skilled graduates to counter the growing cyber security threat facing the world today. Graduates are in high demand in all parts of the Information Technology sector, as security is one of the fastest-growing parts of the industry.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "law & public policy"
         ]
     },
     {
@@ -69,6 +85,10 @@
         "overview": "This course will provide you with an all-round perspective on information security risk and risk management. It is designed to produce highly knowledgeable and skilled graduates to counter the growing cyber security threat facing the world today. \nSubjects covered range from the basics of Programming, Networking, Web Development and Databases to Advanced Programming, IT Business Management, Penetration Testing, Secure Programming, and Network Security.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "law & public policy"
         ]
     },
     {
@@ -84,6 +104,10 @@
         "interests": [
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "health",
+            "computers & mathematics"
         ]
     },
     {
@@ -98,6 +122,10 @@
         "overview": "Our BA (Hons) Digital Humanities and Information Technology degree is an innovative course where you will explore a broad range of arts and humanities topics, while also studying the principles of information technology and digital media. We look at how the digital can enable innovation, but also how technology is changing what it means for us to be human in the age of machines.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -113,6 +141,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -128,6 +160,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -143,6 +179,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -158,6 +198,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -173,6 +217,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -188,6 +236,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -203,6 +255,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -218,6 +274,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism"
         ]
     },
     {
@@ -233,6 +293,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "computers & mathematics"
         ]
     },
     {
@@ -248,6 +312,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "computers & mathematics"
         ]
     },
     {
@@ -263,6 +331,9 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "health"
         ]
     },
     {
@@ -278,6 +349,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "biology & life science",
+            "law & public policy",
+            "physical sciences"
         ]
     },
     {
@@ -293,6 +369,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "biology & life science",
+            "law & public policy",
+            "physical sciences"
         ]
     },
     {
@@ -308,6 +389,9 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -323,6 +407,10 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -337,6 +425,10 @@
         "overview": "MIC's new BA in Drama and English offers a unique combination of Drama/Theatre practice and research with significant grounding in English Literature.\nBy combining a focus on practical modules in acting and theatre production with academic research on great literature, we offer our students a unique and exciting degree that will develop critical thinking, problem-solving, and excellent writing and communication skills.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -352,6 +444,10 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -367,6 +463,10 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -381,6 +481,10 @@
         "overview": "Drama Studies The course explores the relationship between the theory and practice of Drama and Theatre to discover how and why they work. The strong developmental emphasis of the courses requires a particular blend of practical and academic skills. In addition to a high level of analytical ability and creativity you will need to possess resourcefulness and self-motivation. Students combine this subject with their choice of Italian, Russian or Spanish.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -395,6 +499,10 @@
         "overview": "This programme has been developed in conjunction with people working in the industries that employ our graduates. We aim to produce graduates who understand how medicines and healthcare products, including medical devices, pharmaceuticals and biopharmaceuticals, are manufactured and checked to make sure they are safe, effective, and of a high quality. Drug and Medicinal Product Analysis is a highly relevant programme that leads to excellent job prospects.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "physical sciences"
         ]
     },
     {
@@ -409,6 +517,10 @@
         "overview": "e-Commerce is the buying and selling of goods and services online. This e-Commerce in Retailing course responds to a changing retail landscape that is influenced by digital and social media. \nThe course addresses contemporary retail management needs that reflect the rapidly changing economic and technological environment. It aims to provide a broad technologically informed business education for future retail managers that reflects the changing needs of the sector.",
         "interests": [
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "computers & mathematics"
         ]
     },
     {
@@ -424,6 +536,9 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -438,6 +553,10 @@
         "overview": "The BA in Early Childhood Care and Education is a full-time, four-year, honours degree programme (Level 8), designed to provide an exciting and challenging programme for those interested in working with young children, from birth to six years of age, in a range of educational settings.\nIt provides a highly-regarded qualification in this most rewarding area, and was developed in response to contemporary developments in the field of early years education both in Ireland and internationally.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -452,6 +571,10 @@
         "overview": "This course It explores the varied approaches to early childhood education and care, including child development, child psychology, sociology of childhood, art, drama and music, equality, diversity and inclusion, language acquisition, health and well-being, and safeguarding children.\nYou’ll gain insights into outdoor learning and risky play through our purpose-built outdoor classroom. You’ll be able to apply and adapt your learning in the realistic setting of our dedicated early-childhood practice room.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -466,6 +589,10 @@
         "overview": "This course explores the varied approaches to early childhood education and care, including child development, child psychology, sociology of childhood, art, drama and music, equality, diversity and inclusion, language acquisition, health and well-being, and safeguarding children. You’ll gain insights into outdoor learning and risky play through our purpose-built outdoor classroom.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -480,6 +607,10 @@
         "overview": "If you’re interested in working with children and finding out how they develop and learn, are eager to study different cultures, languages and diversity in the world, and enthusiastic about making a difference in children’s lives, this course will suit you.\nIt explores the varied approaches to early childhood education and care, including child development, child psychology, sociology of childhood, art, drama and music, equality, diversity and inclusion, language acquisition, health and well-being, and safeguarding children. You’ll gain insights into outdoor learning and risky play through our purpose-built outdoor classroom. You’ll be able to apply and adapt your learning in the realistic setting of our dedicated early-childhood practice room.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -494,6 +625,10 @@
         "overview": "This course produces professionally qualified graduates who work effectively in a wide range of early years’ contexts, with children up to the age of eight years. The course involves the study of core, interrelated disciplines including early years’ education,, psychology, sociology, law and personal and professional development and supervised professional practice placements which are essential to effective working in ECCE settings",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -508,6 +643,10 @@
         "overview": "If you’re interested in working with children and finding out how they develop and learn, are eager to study different cultures, languages and diversity in the world, and enthusiastic about making a difference in children’s lives, this course will suit you.\nIt explores the varied approaches to early childhood education and care, including child development, child psychology, sociology of childhood, art, drama and music, equality, diversity and inclusion, language acquisition, health and well-being, and safeguarding children.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -522,6 +661,10 @@
         "overview": "This degree provides experiences, insights and knowledge into early childhood education and care. Early childhood educators work with children from infancy to primary school. Our programme aims to develop well-informed, articulate professionals who are passionate about early childhood education and care. There is a strong focus on play and learning, the close relationship to nature and outdoor experiences and children’s rights to participation. This firm academic foundation is cemented by a strong emphasis on practical application of theory.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -536,6 +679,10 @@
         "overview": "The Higher Certificate in Early Childhood Care, Health & Education is a two-year course that equips graduates with the necessary competencies to work in a supervisory position with young children and their families. It is an invigorating and exciting career path with opportunity to gain employment as a lead Early Childhood Educator. The Higher Certificate programme is delivered with theory lectures, practical work, and group tutorial classes, adopting a spiral curriculum approach. This method progressively builds on the student’s capacity as an Early Childhood Educator, assessor and facilitator of young children’s learning and development through play.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -550,6 +697,10 @@
         "overview": "The Bachelor of Science (Hons) in Early Childhood Care, Health & Education is a four-year degree course that equips graduates with the necessary competencies to work with young children and their families. It is an invigorating and exciting career path.This programme is delivered with theory lectures, practical work, and group tutorial classes, adopting a spiral curriculum approach. This method progressively builds on the student’s capacity as an Early Childhood Manager and Educator, assessor and facilitator of young children’s learning and development through play.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -564,6 +715,10 @@
         "overview": "Early Childhood Education (ECE) generally refers to education before the start of primary school attendance (0-6 years in Ireland). Services include pre-schools, Naíonraí, specific intervention centres such as community support preschools, Barnardo's childcare services, Focus Ireland support services, crèches, child-minding and after-school groups.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -578,6 +733,10 @@
         "overview": "Students will study a wide range of courses to help them become knowledgeable, dedicated early childhood practitioners. These include child psychology, play, language and literacy, enquiry-based learning, child care and protection, arts and the early years.\nYou will learn about educators who have influenced the education of young children, including Montessori,  and Vygotsky. You will learn about the Aistear  and will take education placements in a variety of early childhood settings.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -592,6 +751,10 @@
         "overview": "Early childhood education and care (ECEC) reflects a holistic view of the education (e.g. early stimulation, education, developmental activities) and care (e.g. health, nutrition, hygiene, safety and security, responsive caregiving) of young children from 0 to 6 years of age. Therefore, this course is designed to equip graduates with the essential core knowledge, practices and values to fulfil the role of a professional early childhood educator.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -606,6 +769,10 @@
         "overview": "This degree programme is delivered through a blend of lectures, workshops, practicals, tutorials and online support. Work placements are an integral part of the programme. All students participate in a supervised work placement in one of a variety of settings in Ireland or abroad for two full semesters.\nIn the final year of the programme, you study research methods, specialise in chosen areas and complete a dissertation on a topic of your choice.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -620,6 +787,10 @@
         "overview": "This course is designed to prepare graduates for employment in early childhood services in Ireland. \nTheory is delivered in conjunction with work based learning in supervised practice placements over two full semesters, so that students are provided with the necessary practical and managerial skills to work in, set up and/or run a service.\nThis approach is intended to assist students in obtaining the knowledge, values and skills required to generate high standards of practical performance to manage a facility.\nThis Level 7 programme focuses on the development of a sound practical skillset for a career in the sector and the emphasis on the supervised work placements is to further develop theoretical concepts in the field of Early Childhood Care and Education for practical implementation.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -634,6 +805,10 @@
         "overview": "The Bachelor of Arts (Honours) in Early Childhood Education and Care is a four-year, day and evening delivery programme, designed for people who are interested in pursuing opportunities in the Early Childhood Education and Care (ECEC) sector.\nThe aim of the BA (Hons) in Early Childhood Education and Care is to provide learners with a firm foundation in Early Childhood Education and Care so as to practice as Professional Early Childhood Educators in a range of ECEC environments.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -648,6 +823,10 @@
         "overview": "Throughout the course, students will explore the exciting and dynamic content and practice, giving you the knowledge and skills to be a formidable candidate for any career path you may choose to pursue in the area. Early childhood education and care (ECEC) reflects a holistic view of the education. You will have the opportunity to study modules such as Child Health and Wellbeing, Play, STEAM, Curriculum, Leadership and Management and School Age Childcare. This course is designed to equip graduates with the essential core knowledge practices and values to fulfill the role of professional Early Childhood Educator.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -662,6 +841,10 @@
         "overview": "The programme offers the student the opportunity to study early childhood from differing perspectives – educational, psychological, social, and cultural.\nThe programme also includes tuition in art, music and drama, which provides an extensive portfolio of child-centred activities. Attention is also paid to practical skills needed in this type of work such as child health, exercise and nutrition, and the physical care of children.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -676,6 +859,10 @@
         "overview": "This two-year Higher Certificate in Early Childhood Education and Care provides learners with a comprehensive education on the role of early childhood educators.The programme aims to provide learners with an education for professional practice in Early Childhood Education and Care (ECEC). The programme has a practice development module which gives learners the opportunity to complete a student placement in an early-years setting every week of study for 12 hours. Early childhood is the period from birth to six years.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -690,6 +877,10 @@
         "overview": "Early childhood education and practice involves supporting babies and young children to become competent and confident learners through loving relationships with others. Children require high-quality education and care during their formative years. Research indicates that the higher the professional qualification of the educator working with the children, the higher the quality of the setting and the children’s experiences in it.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -704,6 +895,10 @@
         "overview": "Early childhood education or early learning and care, is a very rewarding profession that supports the development of young children from infancy and throughout the childhood years. Direct practice involves working with children by tailoring learning experiences to children’s individual needs. Supporting parents in their parenting role is also an essential part of the job.\nIndirect practice involves managing services, educating students, professional representation, governance and national policy development. Such wide ranging career opportunities ensures early childhood education is a rewarding and diverse profession.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -718,6 +913,10 @@
         "overview": "Early childhood education and care involves supporting babies and young children to become competent and confident learners through loving relationships with others. Children require high-quality education and care during their formative years.\nResearch indicates that the higher the professional qualification of the educator working with the children, the higher the quality of the setting and the children’s experiences in it.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -732,6 +931,10 @@
         "overview": "This course is a four-year programme, which equips graduates with the theoretical, policy, legal and practical knowledge required to work in early years services. Learning is through experiential and self-directed learning activities, as well as through group work and presentations.\nThe final year research project is supervised by an experienced research team. Placement opportunities in each year of study supports learners to become competent early childhood educators.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -746,6 +949,10 @@
         "overview": "This course provides comprehensive knowledge and understanding of the early years of a child’s life. This course is focused on the holistic development of young children and aims to equip students with the necessary skills to work effectively with children, families, and communities. Students explore key theories, research findings, and practical approaches related to child development, learning, and wellbeing.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -760,6 +967,10 @@
         "overview": "This full-time degree will prepare you for a range of leadership roles in the Early Childhood Education and Care. It is a progressive level 8 degree, supporting the development of outstanding early childhood educators.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -774,6 +985,10 @@
         "overview": "The overarching aim of this degree is to foster and develop the knowledge, skills, competencies, and values of emerging Early Years Professionals to be independent and professional educators. The programme aims to meet the criteria for initial professional education, forming graduates who have the expertise to nurture and enrich infants' and young children's lives in early years learning and care settings. Combining theory with professional practice, this applied degree supports graduates to become skilled, competent, ethical, and reflective practitioners.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -788,6 +1003,11 @@
         "overview": "This four-year degree will expose you to interdisciplinary perspectives from the Schools of Applied Psychology, Applied Social Studies and Education. The curriculum emphasises academic theory, research skills, and professional and reflective practice. It includes a broad range of perspectives on childhood, the child in society, child development, early years care and education, and child health.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -802,6 +1022,10 @@
         "overview": "On this course, you will learn to make a difference to the lives of babies and young children by understanding how they develop and learn. You will learn how to meet the needs of children, and to understand the role of the family and society.\nThe programme promotes a child-centered approach to care and education, taking account of physical, educational and emotional needs of babies and young children.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -816,6 +1040,10 @@
         "overview": "The early childhood education and care educator plays a pivotal role in the provision of quality care and education. This course introduces students to the dynamic landscape of early childhood education and care. Policy, legislation and practice are currently undergoing unprecedented change. Students will have opportunities to develop knowledge, skills and values to support the holistic development of children from birth to six years. Engagement with academic and theoretical literature, classroom simulated practice, and practice placement in early childhood education and care settings will enable students to develop as reflective educators with abilities to articulate what young children are learning, how they are learning and the pedagogic approach which underpins their knowledge.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -831,6 +1059,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -846,6 +1078,9 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "social science"
         ]
     },
     {
@@ -861,6 +1096,9 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "social science"
         ]
     },
     {
@@ -876,6 +1114,9 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "social science"
         ]
     },
     {
@@ -891,6 +1132,10 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "social science"
         ]
     },
     {
@@ -906,6 +1151,10 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "social science"
         ]
     },
     {
@@ -921,6 +1170,10 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "social science",
+            "computers & mathematics"
         ]
     },
     {
@@ -936,6 +1189,10 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "social science",
+            "law & public policy"
         ]
     },
     {
@@ -951,6 +1208,10 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "social science",
+            "physical sciences"
         ]
     },
     {
@@ -966,6 +1227,10 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "social science",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -981,6 +1246,10 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "social science",
+            "computers & mathematics"
         ]
     },
     {
@@ -997,6 +1266,10 @@
             "Investigative",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "social science",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1012,6 +1285,10 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "social science",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1027,6 +1304,10 @@
         "interests": [
             "Investigative",
             "Enterprising"
+        ],
+        "categories": [
+            "social science",
+            "psychology & social work"
         ]
     },
     {
@@ -1041,6 +1322,10 @@
         "overview": "Do you want to make a difference to the lives and educational futures of young children? Then follow your passion and explore early education with an internationally-recognised team of academics and researchers in DCU. This course will prepare you for a highly rewarding career, educating and supporting young children during a vital time in their development. The Bachelor of Early Childhood Education (BECE) prepares you for work as a professional in a variety of early childhood educational settings, from preschools and creches, to child and family support programmes and it equips graduates to work with children of all needs. The BECE enables graduates to follow a career in a range of voluntary and statutory organisations that work on behalf of children and families.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -1056,6 +1341,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "education",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1070,6 +1359,9 @@
         "overview": "Helping young people learn has to be one of the most satisfying and rewarding careers of all. By choosing the Bachelor in Education (Primary) programme you embark on a  course that will prepare you for working in primary schools in Ireland. You will find out how children learn to read, write, count and calculate; you’ll learn how to introduce them to the arts the magic and mysteries of the world around them and how to grow and develop in a healthy way.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education"
         ]
     },
     {
@@ -1084,6 +1376,9 @@
         "overview": "This programme enables students to examine their role as a learner, a teacher, a researcher and a leader. It comprises of on-campus study and school placement, and also gives students the opportunity to specialise in specific areas in education or the liberal arts. Insightful and challenging, the B Ed programme will prepare you for a varied and rewarding career as an educator.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education"
         ]
     },
     {
@@ -1098,6 +1393,9 @@
         "overview": "The Bachelor of Education will prepare you for a rewarding career as a Primary School Teacher, a role that has a positive and lasting impact on young children's lives. As a primary school teacher, you can make a real difference - guiding and supporting children’s growing minds and personal development. This course will help you to become a skilled and creative teaching professional. Learning to Teach, Teaching to Learn The Bachelor of Education (Primary Teaching) will equip you not only with subject knowledge, but also with the leadership and communication skills that teachers need. The course helps you to understand how children learn, and gives you the tools to motivate your students in the classroom. As well as learning how to teach the subjects on the primary school curriculum, your knowledge and understanding of the world will deepen through great interactive lectures.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education"
         ]
     },
     {
@@ -1112,6 +1410,9 @@
         "overview": "As a primary school teacher, you can make a real difference - guiding and supporting children’s growing minds and personal development. This course will help you to become a skilled and creative teaching professional. Learning to Teach, Teaching to Learn The Bachelor of Education (Primary Teaching) will equip you not only with subject knowledge, but also with the leadership and communication skills that teachers need. The course helps you to understand how children learn, and gives you the tools to motivate your students in the classroom. As well as learning how to teach the subjects on the primary school curriculum, your knowledge and understanding of the world will deepen through great interactive lectures.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education"
         ]
     },
     {
@@ -1126,6 +1427,9 @@
         "overview": "Over the four years of the  you will learn how to teach children aged from 4 to 12. In the foundation  you will study how children learn, what factors influence their learning and how our understanding of this has changed over time.\nAdvance your own knowledge of curriculum subjects and learn specific methods for teaching all primary school subjects. Experience the challenge and satisfaction of teaching through engaging in school placement in a supportive environment.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education"
         ]
     },
     {
@@ -1140,6 +1444,9 @@
         "overview": "The Bachelor of Education is a four-year, full-time, honours degree (Level 8) designed to qualify students to teach in primary schools. Accredited by the Teaching Council, it seeks to equip participants with the competence to teach at all levels of the primary school.\nReflecting the College's well-established reputation for excellence in teacher education, this programme enables students to examine their role as a learner, a teacher, a researcher and a leader. It comprises of on-campus study and school placement, and also gives students the opportunity to specialise in specific areas in education or the liberal arts.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education"
         ]
     },
     {
@@ -1154,6 +1461,9 @@
         "overview": "Mar mhúinteoir bunscoile, is féidir leat fíordhifríocht a dhéanamh - meon agus forbairt phearsanta leanaí a threorú agus a thacú. Cabhróidh an cúrsa seo leat a bheith i do ghairmí múinteoireachta oilte cruthaitheach Ag Foghlaim a Mhúineadh, Ag múineadh chun foghlaim Tabharfaidh an Baitsiléir san Oideachas (Bunmhúinteoireacht) gach eolas duit ar na hábhair a bheidh le múineadh chomh maith leis na scileanna ceannaireachta agus cumarsáide a theastaíonn chun iad a mhúineadh. Cuidíonn an cúrsa leat tuiscint a fháil ar an gcaoi a bhfoghlaimíonn leanaí, agus tugann sé na huirlisí duit chun do mhic léinn a spreagadh sa seomra ranga. Ina theannta sin, méadófar ar do chuid eolais agus tuiscint ar an domhan thart ort trí léachtaí iontacha idirghníomhacha",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education"
         ]
     },
     {
@@ -1168,6 +1478,9 @@
         "overview": "This degree is designed to prepare students to be primary school teachers.The foundation disciplines of Psychology, Philosophy, Sociology and History of Education form the theoretical basis for this degree.\nYou will take Education modules and a school-based placement across all four years of this professional teaching degree, as well as a placement in the Gaeltacht for two fortnight blocks in years two and three of the degree.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education"
         ]
     },
     {
@@ -1182,6 +1495,9 @@
         "overview": "As a student on the programme you will study many of the same modules as your colleagues on the Bachelor of Education. In Year 3, semester 5, you will spend the semester studying abroad.\nNot only will you explore teaching methodologies in a different context but the semester will also allow you to experience and understand the education system and policies of another country. On returning from your study abroad you will take education specialisation modules in Comparative Education.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education"
         ]
     },
     {
@@ -1196,6 +1512,9 @@
         "overview": "This degree is designed to prepare students to be primary school teachers.The foundation disciplines of Psychology, Philosophy, Sociology and History of Education form the theoretical basis for this degree.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education"
         ]
     },
     {
@@ -1211,6 +1530,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "education",
+            "arts"
         ]
     },
     {
@@ -1226,6 +1549,10 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "education",
+            "computers & mathematics"
         ]
     },
     {
@@ -1242,6 +1569,10 @@
             "Social",
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "education",
+            "engineering"
         ]
     },
     {
@@ -1257,6 +1588,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "education",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1272,6 +1607,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "education",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1287,6 +1626,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "education",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1302,6 +1645,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "education",
+            "arts"
         ]
     },
     {
@@ -1316,6 +1663,10 @@
         "overview": "The B Ed in Education and Psychology is a unique four-year, full-time, double-honours (level 8) degree programme in Education and Psychology. The programme prepares graduates to be primary teachers, as accredited by the Teaching Council of Ireland, and obtain a degree in Psychology, as accredited by the Psychological Society of Ireland.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -1330,6 +1681,9 @@
         "overview": "There’s a strong demand for educators and trainers across Ireland, from individual communities through to large organisations. On this course, you will gain the skills and knowledge you need to enter a career area that can change lives, and one that has excellent employment opportunities. Education Theory You will explore how teachers and trainers engage their learners and develop their understanding in any given topic. You will look at how people learn, how to use a variety of teaching methods to appeal to different learning styles and how to tailor your planning to get the very best from each learner. Teaching Skills and Placement As you develop your skills, you will be given practical advice on how to improve as a teacher trainer. You will also learn how to plan and construct lessons and then you will get the chance to practise your teaching in a safe environment before getting work experience in real life environments.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "education"
         ]
     },
     {
@@ -1345,6 +1699,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "education",
+            "arts"
         ]
     },
     {
@@ -1360,6 +1718,10 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "education",
+            "social science"
         ]
     },
     {
@@ -1376,6 +1738,10 @@
             "Social",
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "education",
+            "business"
         ]
     },
     {
@@ -1391,6 +1757,11 @@
         "interests": [
             "Social",
             "Enterprising"
+        ],
+        "categories": [
+            "education",
+            "business",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1407,6 +1778,11 @@
             "Social",
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "education",
+            "business",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1422,6 +1798,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "education",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1437,6 +1817,10 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "education",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1452,6 +1836,11 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "education",
+            "industrial arts & consumer services",
+            "biology & life science"
         ]
     }
 ]

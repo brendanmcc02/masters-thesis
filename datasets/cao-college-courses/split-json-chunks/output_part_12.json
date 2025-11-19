@@ -13,6 +13,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -29,6 +33,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -45,6 +53,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -61,6 +73,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -77,6 +93,10 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -92,6 +112,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -107,6 +131,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "arts",
+            "computers & mathematics"
         ]
     },
     {
@@ -122,6 +150,10 @@
         "interests": [
             "Artistic",
             "Enterprising"
+        ],
+        "categories": [
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -137,6 +169,10 @@
         "interests": [
             "Artistic",
             "Enterprising"
+        ],
+        "categories": [
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -152,6 +188,10 @@
         "interests": [
             "Artistic",
             "Enterprising"
+        ],
+        "categories": [
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -166,6 +206,10 @@
         "overview": "This course takes the student from initiation through to successful completion to produce an Interior Design graduate who can create, design, problem solve and act professionally in all related working environments. Successful Interior Design graduates are industry ready, and creatively and technically proficient to propose innovative solutions and problem-solving expertise within the built environment.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -181,6 +225,10 @@
         "interests": [
             "Artistic",
             "Enterprising"
+        ],
+        "categories": [
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -196,6 +244,10 @@
         "interests": [
             "Artistic",
             "Enterprising"
+        ],
+        "categories": [
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -210,6 +262,10 @@
         "overview": "This course is all about the art or process of designing the interior decoration of a room or building, and how we experience spaces and the objects in them. It’s a powerful, essential part of our daily lives that affects how we live, work and play. Exciting recreational environments, unique domestic spaces, functional workplaces, inspiring retail spaces, that’s interior design at work.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -224,6 +280,10 @@
         "overview": "This studio-based programme consists of modules that are primarily assessed through design projects, coursework and assignments.\nProgramme content is concerned with the study of interiors through analysis, research and intervention. Through understanding the needs of the client, respecting the existing situation, and researching the specialised area, it allows the student to respond with relevant, innovative and creative solutions.\nThe programme uses the design project as the central vehicle for learning and aims to stimulate and provoke imaginative responses to the reuse of interior spaces. Projects address domestic, commercial, hospitality, community, social and user-specific interior briefs.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -238,6 +298,10 @@
         "overview": "The BA (Hons) in Interior Design is a 4-year course. It has a common first semester, after which students also have the opportunity to switch to another design programme if they wish (subject to available places).\nTopics on the programme include Photography, Digital Media, Design History & Theory, Creative Problem Solving, Business & Entrepreneurial skills and an Ethical and Sustainable Design ethos. Interior Design Students will learn about the design of interior spaces, 3D model making, building regulations, ergonomics and human centred design, textile and surface design, interior design - surfaces, materials and finishes, interior design - integrated interior design project, and building information modelling.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -254,6 +318,10 @@
             "Enterprising",
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "business",
+            "social science"
         ]
     },
     {
@@ -270,6 +338,10 @@
             "Enterprising",
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "business",
+            "social science"
         ]
     },
     {
@@ -286,6 +358,10 @@
             "Enterprising",
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "business",
+            "social science"
         ]
     },
     {
@@ -302,6 +378,10 @@
             "Enterprising",
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "business",
+            "social science"
         ]
     },
     {
@@ -318,6 +398,10 @@
             "Enterprising",
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "business",
+            "social science"
         ]
     },
     {
@@ -334,6 +418,11 @@
             "Enterprising",
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "business",
+            "social science",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -349,6 +438,10 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "computers & mathematics"
         ]
     },
     {
@@ -365,6 +458,11 @@
             "Enterprising",
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "business",
+            "social science",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -381,6 +479,10 @@
             "Enterprising",
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -397,6 +499,10 @@
             "Enterprising",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -413,6 +519,10 @@
             "Enterprising",
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -428,6 +538,10 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "social science",
+            "business"
         ]
     },
     {
@@ -444,6 +558,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -460,6 +578,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -476,6 +598,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -492,6 +618,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -508,6 +638,10 @@
             "Enterprising",
             "Social",
             "Conventional"
+        ],
+        "categories": [
+            "social science",
+            "law & public policy"
         ]
     },
     {
@@ -522,6 +656,9 @@
         "overview": "Software is driving the development of new, innovative applications and services that are transforming industries and improving people’s lives. The overall aim of the programme is to develop a high level of intellectual awareness and professional international based competence in the area of software development. In a sector such as software design the global nature of the industry requires an international focus.\nThe programme offers an integrated an internationalised approach to delivering end to end software development skills. The focus on the practical problem-solving skills required for software developers. Programme participants will also gain an integrated and critical knowledge of the skills and particular technologies widely used in the industry today.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -538,6 +675,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -554,6 +695,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -570,6 +715,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -584,6 +733,9 @@
         "overview": "This programme will allow you to develop your performance skills. You will also be able to develop your scholarly knowledge and enquiry around traditional Irish dance. However, and very importantly, you will be introduced to other performance practices and scholarly traditions in order to gain new insights into the worlds of music and dance, enhancing your creative potential. You will also study a number of vocationally focused modules aimed at allowing you to translate your artistic and scholarly creativity into a fulfilling career.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -598,6 +750,9 @@
         "overview": "This programme will allow you to develop your performance skills and also develop your scholarly knowledge and enquiry around your own disciplines. However, and very importantly, you will be introduced to other performance practices and scholarly traditions in order to gain new insights into the worlds of music and dance, enhancing your creative potential. You will also study a number of vocationally focused modules aimed at allowing you to translate your artistic and scholarly creativity into a fulfilling career.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -613,6 +768,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -627,6 +786,9 @@
         "overview": "Within the Modern Languages programme you study two modern European languages to degree level.  You can choose between French, German, Irish, Italian, Russian and Spanish. Apart from French and Irish all languages can be studied from both advanced and beginners level. Our programmes will give you the opportunity for full immersion into the languages and cultures that you study.\nThey will enable you to acquire a high level of language competence and fluency, combined with an in-depth understanding of the main cultures and societies in which these languages are spoken.Tugtar ‘Nua-Ghaeilge’ ar an teanga ón mbliain 1200 go dtí an lá atá inniu ann. Sa chúrsa seo léitear litríocht ó gach cuid den tréimhse agus déantar staidéar ar fhorás na teanga lena linn. Déantar staidéar speisialta freisin ar Ghaeilge an lae inniu agus ar Ghaeilge na hAlban.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -642,6 +804,11 @@
         "interests": [
             "Investigative",
             "Enterprising"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "business",
+            "law & public policy"
         ]
     },
     {
@@ -656,6 +823,9 @@
         "overview": "Within the Modern Languages programme you study two modern European languages to degree level. It is the most intensive exposure to languages and cultures that Trinity College has to offer. You can choose between French, German, Irish, Italian, Russian and Spanish. Apart from French and Irish all languages can be studied from both advanced and beginners level.\nIn this course, you study Italy’s language as well as its rich history and culture: literature, cinema, art, even opera. You do not need to have studied Italian before: most students of Italian start as beginners. Having fluent Italian is extremely beneficial for the job market.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -670,6 +840,10 @@
         "overview": "The BA in Jazz and Contemporary Music Performance at DCU is a four-year, full time Honours degree which trains you for a life as a professional performing musician. To take to the stage as a performer demands intensive training as well as talent. Our degree course can help you on your way to a career as a professional musician. You will also understand the context of the international music scene today, how the music business works and how you can make your mark in it.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "business"
         ]
     },
     {
@@ -685,6 +859,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -700,6 +878,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -715,6 +897,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -729,6 +915,9 @@
         "overview": "Greek & Roman Civilisation explores the Classical World, through history, literature, art, archaeology, mythology and philosophy. You do not need any previous knowledge of the subject, nor will you have to learn the ancient languages. Latin and Greek allow you to either learn a language from scratch or to develop your existing knowledge. Learn to read works by authors such as Cicero, Homer, Plato, Sophocles and Virgil, in their original languages.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -743,6 +932,10 @@
         "overview": "Drama Studies is for students who are interested in learning about theatre and performance in theory and practice. Drama Studies has a range of modules that bring together scholarly, creative, and practical “on-your-feet” tasks and assignments. Drama Studies educates students in the history and practices of theatre and performance, in current theoretical methods and approaches to research and analysis of theatre and performance, and in a wide range of generic, historical, national and international traditions.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -757,6 +950,9 @@
         "overview": "Study English at UCD if you are an enthusiastic reader, writer and thinker who loves literature. Strengthen your understanding of narrative, poetic and dramatic forms. Enlarge your critical vocabulary and historical awareness. Explore how the study of literature intersects with questions of gender, politics and cultural theory. Learn how to research a topic, evaluate evidence and present your ideas in a cogent, elegant fashion.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -771,6 +967,10 @@
         "overview": "Media literacy is a vital 21st century skill and the cultivation of such literacy stands at the centre of this degree path. Students are encouraged to make connections between literary, cinematic and televisual forms, to deepen their knowledge of screen cultures and, in particular, to ask serious questions about how representation, culture and politics interrelate.\nIf you have a passion for media, this degree provides a unique opportunity for you to acquire key interpretive skills and hone your ability to make critically reasoned arguments. Film Studies will give you the tools to better understand how all the things we think of as entertainment actually create the world in which we live.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -785,6 +985,9 @@
         "overview": "French is both a European and global language whose cultural and economic importance is projected to grow substantially in the coming decades. Studying French at UCD equips you for a diverse and varied workplace. You will explore the language and cultures of France and other French speaking countries around the globe. You will also enhance your cultural awareness, intellectual flexibility, communication skills and critical thinking.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -800,6 +1003,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "social science",
+            "physical sciences"
         ]
     },
     {
@@ -814,6 +1021,9 @@
         "overview": "The course aims to give you a high degree of proficiency in the language and also exposes you to the rich arts, culture and history of the German-speaking countries. In First Year, two streams are offered, one for absolute beginners, and another for non-beginners. For the non-beginners' level a minimum grade of H4 in Leaving Certificate German, or equivalent is strongly recommended.Students may opt for a three year degree programme or choose to spend an additional year abroad and qualify with a BA (International).\nGerman can be studied as a Joint Major or Minor subject through DN520, as a Minor subject through DN700 or alongside selected additional subjects as part of DN530.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -828,6 +1038,9 @@
         "overview": "As so much of European culture looks back to Classical Antiquity, studying Classics will give you insights not just into the ancient past but also into the ideas and texts that shaped the present. Three subjects are offered within the BA degree, which you can take separately or combine:\n\nGreek & Roman Civilisation\nLatin\nGreek\n\nGreek & Roman Civilisation explores the Classical World, through history, literature, art, archaeology, mythology and philosophy. You do not need any previous knowledge of the subject, nor will you have to learn the ancient languages.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -842,6 +1055,9 @@
         "overview": "History is the pursuit of how we got here and the stories that we tell ourselves to explain the past. Working from ordinary to extraordinary, local to global, fact to fiction, you’ll develop critical thinking, argument and analysis skills that lie at the heart of careers in media, government, culture and education.\nYou will study Irish, European, and Global History from the medieval to the modern era. You will engage with different aspects of History – political, cultural, social, and economic. You will explore questions and problems, and develop your critical thinking skills and your ability to express your ideas and arguments.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -857,6 +1073,11 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "communications & journalism",
+            "social science",
+            "computers & mathematics"
         ]
     },
     {
@@ -872,6 +1093,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -887,6 +1112,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -901,6 +1130,9 @@
         "overview": "This course is for you if you have an interest in the Irish language and you would like to develop your skills in speaking and communication and also learn more about the literature and history of the Irish people.All lectures are conducted through Irish. You will study amongst other topics, the language, literature, oral tradition, and film - spanning a period from Fionn and the Fianna to TG4.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -915,6 +1147,9 @@
         "overview": "Italian accepts both beginners and non-beginners. Indeed, most of our students are beginners, so if you are thinking of stretching yourself with a new language you’ll be in good company! We strongly encourage our students to spend a year abroad as part of their degree. Studying abroad is a valuable experience, which enables you to perfect your language skills and immerse yourself in a different culture.\nAlternatively, if you wish to study more than one language, with a year abroad consider. you will have the option to spend a year studying in Italy, one of the world’s most beautiful and fascinating countries. At UCD you will be immersed in Italian culture, from Dante to contemporary Italian writers.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -929,6 +1164,9 @@
         "overview": "As so much of European culture looks back to Classical Antiquity, studying Classics will give you insights not just into the ancient past but also into the ideas and texts that shaped the present. Three subjects are offered within the BA degree, which you can take separately or combine:\n\nGreek & Roman Civilisation\nLatin\nGreek\n\nGreek & Roman Civilisation explores the Classical World, through history, literature, art, archaeology, mythology and philosophy. You do not need any previous knowledge of the subject, nor will you have to learn the ancient languages.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -944,6 +1182,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -958,6 +1200,9 @@
         "overview": "Mathematics has long played a central role in our quest to fully describe and understand the natural world. Nowadays, it is also a vital tool in many of the social sciences. Those who concentrate on this subject will gain an understanding of mathematical concepts and learn how to prove key facts and solve problems using deductive reasoning.\nSome first year modules build on the foundations laid at Leaving Certificate or equivalent, while others will introduce exciting new aspects of the subject. It is not assumed that you will have met everything before and each topic is carefully introduced and built upon",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -972,6 +1217,9 @@
         "overview": "Music is a universal form of expression, one that captures our imagination in countless ways. In UCD, we equip students with the skills necessary to understand a wide variety of musical practices. Study music in UCD if you love performing, listening to, and talking about music.\nDevelop your musicianship through both theory and performance. Deepen your knowledge of musical history and cultures. Analyse the important role music plays in contemporary life. Learn how to research and write about specific musical genres and topics.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -987,6 +1235,9 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1001,6 +1252,9 @@
         "overview": "Portuguese is a global language, spoken across four continents by more than 250 million people. Studying Portuguese offers valuable career opportunities in many areas of business and society both in Ireland and abroad. During your degree at UCD, you will delve into the language and the cultural diversity of the Portuguese-speaking world. You will also enhance your critical thinking, intercultural understanding and communication skills.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1015,6 +1269,10 @@
         "overview": "If you are interested in people, you will be interested in sociology. It is relevant for understanding almost every aspect of our lives. We are all part of society, we are connected with each other and we are affected by the people around us. In the same way, we shape the social context for others as well. Sociology provides you with the mindset and the research tools to observe the social world, make connections, understand differences, norms, cultures or inequalities.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "psychology & social work"
         ]
     },
     {
@@ -1029,6 +1287,9 @@
         "overview": "Spanish is a truly global language, spoken by more than 400 million people around the world. Taught through interactive language classes, Spanish is not only accessible in the initial stages of learning, it is also richly rewarding for those interested in the more advanced subtleties of linguistic study.\nIn tandem with learning to communicate effectively in Spanish, a combination of lectures, tutorials and group work enables you to pursue your own readings of and reflections upon works by major authors. This will deepen your knowledge of Hispanic culture, as well as sharpening your critical faculties.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1043,6 +1304,9 @@
         "overview": "If you are interested in studying Statistics with an Arts and Humanities or Social Science subject, then this degree could be for you.\nStatistics is the science of transforming data into knowledge and understanding, providing a principled approach to making data-informed decisions. Statistical methods enable us to gain insights from data, and with the advent of powerful computing technology, these methods have become widely used in many sectors.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1058,6 +1322,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "communications & journalism",
+            "social science"
         ]
     },
     {
@@ -1073,6 +1341,9 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "communications & journalism"
         ]
     },
     {
@@ -1089,6 +1360,10 @@
             "Artistic",
             "Enterprising",
             "Investigative"
+        ],
+        "categories": [
+            "communications & journalism",
+            "social science"
         ]
     },
     {
@@ -1104,6 +1379,11 @@
         "interests": [
             "Realistic",
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "engineering",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -1119,6 +1399,10 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "education",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1133,6 +1417,10 @@
         "overview": "This course is designed for students who are seeking a high level of language and intercultural competency by developing effective communication and analytical skills. The programme takes a holistic approach to language by fostering linguistics, alongside literary and cultural approaches. Students can choose from Irish, French, German, Italian, Spanish, Latin and Ancient Greek. Modules are available in Portuguese and Welsh.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -1149,6 +1437,11 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science",
+            "business"
         ]
     },
     {
@@ -1165,6 +1458,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -1181,6 +1478,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -1197,6 +1498,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -1213,6 +1518,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -1229,6 +1538,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -1245,6 +1558,11 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science",
+            "business"
         ]
     },
     {
@@ -1261,6 +1579,11 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science",
+            "business"
         ]
     },
     {
@@ -1275,6 +1598,10 @@
         "overview": "The LL.B. is three years in length. Students will study core subjects and pick additional subjects (\"electives\"), allowing them to tailor their degree to their interests and needs. This allows the student to focus on key areas in which they are interested, such as criminal law, human rights law, or corporate law.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "law & public policy",
+            "business"
         ]
     },
     {
@@ -1289,6 +1616,10 @@
         "overview": "This Programme is for school leavers as well as mature learners who wish to attain a specialised Law degree in the area of Criminal Justice. The programme develops within learners critical, analytical, research and communications skills in both an academic and clinical context and fosters learners’ ability to work effectively whether as a team member or independently. As learners progress over three years, they build on their knowledge of core legal subjects to attain increasing specialization in their chosen field, including a number of elective module options.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -1305,6 +1636,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -1321,6 +1656,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -1337,6 +1676,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -1353,6 +1696,10 @@
             "Enterprising",
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -1368,6 +1715,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1383,6 +1734,10 @@
         "interests": [
             "Enterprising",
             "Investigative"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science"
         ]
     },
     {
@@ -1390,7 +1745,7 @@
         "title": "Law & Business",
         "college": "University of Galway - UG",
         "region": "Connacht",
-        "duration": "3 Years",
+        "duration": "4 Years",
         "nfqLevel": 8,
         "points": 517,
         "isAdditionalPortfolioTestInterviewRequired": false,
@@ -1398,6 +1753,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "law & public policy",
+            "business"
         ]
     },
     {
@@ -1413,6 +1772,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "law & public policy",
+            "business"
         ]
     },
     {
@@ -1429,6 +1792,10 @@
             "Conventional",
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "business"
         ]
     },
     {
@@ -1445,6 +1812,10 @@
             "Conventional",
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "law & public policy",
+            "business"
         ]
     },
     {
@@ -1460,6 +1831,10 @@
         "interests": [
             "Enterprising",
             "Investigative"
+        ],
+        "categories": [
+            "law & public policy",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1475,6 +1850,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "law & public policy",
+            "business"
         ]
     },
     {
@@ -1490,6 +1869,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "law & public policy",
+            "business"
         ]
     },
     {
@@ -1506,6 +1889,11 @@
             "Enterprising",
             "Social",
             "Conventional"
+        ],
+        "categories": [
+            "law & public policy",
+            "social science",
+            "psychology & social work"
         ]
     }
 ]

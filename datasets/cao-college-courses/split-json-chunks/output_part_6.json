@@ -12,6 +12,10 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -27,6 +31,11 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "industrial arts & consumer services",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -42,6 +51,11 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "industrial arts & consumer services",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -57,6 +71,10 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -72,6 +90,11 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "industrial arts & consumer services",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -87,6 +110,11 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "industrial arts & consumer services",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -102,6 +130,12 @@
         "interests": [
             "Realistic",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business",
+            "industrial arts & consumer services",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -117,6 +151,9 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -132,6 +169,10 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "arts"
         ]
     },
     {
@@ -148,6 +189,9 @@
             "Investigative",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -163,6 +207,9 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -178,6 +225,10 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "arts"
         ]
     },
     {
@@ -194,6 +245,9 @@
             "Investigative",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -209,6 +263,10 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -224,6 +282,11 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "arts",
+            "social science"
         ]
     },
     {
@@ -239,6 +302,9 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -254,6 +320,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "social science"
         ]
     },
     {
@@ -269,6 +339,10 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -284,6 +358,10 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -299,6 +377,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -313,6 +395,9 @@
         "overview": "Learn with the People who develop the best in the world! TU Dublin has been a leader in the delivery of Cloud courses for a number of years working closely with Amazon AWS and Microsoft Azure, global leaders in public cloud computing. The best in the world have developed their skills with us, in August 2019 a TU Dublin graduate won the coveted Gold Medal at the World Skills Competition for Cloud Computing in Kazan Russia.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -328,6 +413,10 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "business"
         ]
     },
     {
@@ -343,6 +432,10 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "business"
         ]
     },
     {
@@ -358,6 +451,10 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "education"
         ]
     },
     {
@@ -372,6 +469,9 @@
         "overview": "This four-year programme is designed to help students gain the theoretical and practical skills required for the employment market in business. students will have opportunities to interact with businesses and learn in real workplace scenarios and students also have the option to benefit from experiencing college life in other countries through the Study Abroad Programme.",
         "interests": [
             "Enterprising"
+        ],
+        "categories": [
+            "business"
         ]
     },
     {
@@ -387,6 +487,9 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business"
         ]
     },
     {
@@ -402,6 +505,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "law & public policy"
         ]
     },
     {
@@ -417,6 +524,9 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business"
         ]
     },
     {
@@ -433,6 +543,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -449,6 +563,10 @@
             "Enterprising",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -465,6 +583,9 @@
             "Enterprising",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "business"
         ]
     },
     {
@@ -481,6 +602,10 @@
             "Enterprising",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -497,6 +622,10 @@
             "Enterprising",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -513,6 +642,10 @@
             "Enterprising",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -529,6 +662,11 @@
             "Enterprising",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "humanities & liberal arts",
+            "arts"
         ]
     },
     {
@@ -543,6 +681,10 @@
         "overview": "This four-year course has been designed for guitarists, bass players, drummers, vocalists, songwriters, music producers and those running commercial music projects who want to gain a Level 8 qualification in modern music, while at the same time fulfilling their creative and commercial potential.\nIt will encourage you to hone your live performance skills and recording studio technical knowledge while also developing your career goals, which may include being a professional performer, professional songwriter or producer, music manager or publisher, academic researcher or teacher.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "business"
         ]
     },
     {
@@ -557,6 +699,10 @@
         "overview": "This programme encourages musicians to hone their live performance skills and recording studio technical knowledge while also developing your career goals, which may include being a professional performer, professional songwriter or producer, music manager or publisher, academic researcher or teacher. Streams: Drums, Bass, Guitar, Vocals, Songwriting and Music Production. The course includes a mixture of classroom study, live performance and specialist workshops.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "business"
         ]
     },
     {
@@ -572,6 +718,9 @@
         "interests": [
             "Enterprising",
             "Investigative"
+        ],
+        "categories": [
+            "law & public policy"
         ]
     },
     {
@@ -586,6 +735,10 @@
         "overview": "If you’d like to qualify for in-demand quantitative roles in the insurance and financial industry, the Common Entry into Actuarial and Financial Mathematics programme (CAFM) might be for you. It’s especially ideal if you’d like the flexibility to explore different areas of maths before choosing how you’ll specialise. \nYou’ll learn the fundamental mathematical principles that underpin the state-of-the-art actuarial and financial models you’ll study in later years, along with computer programming, data analysis, economics and accounting.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "business"
         ]
     },
     {
@@ -601,6 +754,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -617,6 +775,10 @@
             "Enterprising",
             "Artistic",
             "Conventional"
+        ],
+        "categories": [
+            "communications & journalism",
+            "arts"
         ]
     },
     {
@@ -633,6 +795,10 @@
             "Enterprising",
             "Artistic",
             "Conventional"
+        ],
+        "categories": [
+            "communications & journalism",
+            "arts"
         ]
     },
     {
@@ -649,6 +815,10 @@
             "Enterprising",
             "Artistic",
             "Conventional"
+        ],
+        "categories": [
+            "communications & journalism",
+            "social science"
         ]
     },
     {
@@ -665,6 +835,10 @@
             "Enterprising",
             "Artistic",
             "Conventional"
+        ],
+        "categories": [
+            "communications & journalism",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -679,6 +853,10 @@
         "overview": "This 3-year Level 8 honours degree programme offers students the opportunity to garner the skills to craft, bring to life and deliver stories through the various media and platforms that are available today. The BA in Creative Media and Storytelling is aimed at students who wish to pursue a career in the digital communications arena. It will include key subjects that inform the digital media sphere, including local journalism, marketing and advertising, advocacy, campaigning, community awareness and digital communication.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "communications & journalism",
+            "arts"
         ]
     },
     {
@@ -693,6 +871,10 @@
         "overview": "This course is grounded in the principles of empowerment, human rights, inclusion and social justice. Graduates of this course will be furnished with the requisite knowledge and skills to work in and meaningfully engage communities affected by addiction, to support voluntary activity and to progress community projects.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -707,6 +889,11 @@
         "overview": "This course promotes principles of inclusion, human rights, equality and social justice, working towards sustainable development and tackling issues such as inequality, climate change, poverty and disadvantage.\nIn this course, you’ll learn the knowledge and skills you need to work in community development and youth work. Subjects include sociology, psychology, community development, social policy, addiction, human rights, youth development and social entrepreneurship. The course has a strong element of experiential learning and involves fieldwork placements.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science",
+            "law & public policy"
         ]
     },
     {
@@ -721,6 +908,10 @@
         "overview": "The BA in Community and Youth Work is a fully integrated programme of education and training in both community and youth work. Community work is concerned with the development and empowerment of communities through facilitating the active participation of people in addressing issues that affect them collectively.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -735,6 +926,11 @@
         "overview": "Our mission is to educate and train future community development and youth workers to work in a range of settings in Ireland and internationally so that they can become active citizens and agents of change.\nThe course promotes principles of inclusion, human rights, equality and social justice, working towards sustainable development, and tackling issues such as inequality, climate change, poverty and disadvantage.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science",
+            "law & public policy"
         ]
     },
     {
@@ -749,6 +945,10 @@
         "overview": "The youth work course supports the development of youth work practitioners as professionals, with an enhanced understanding of societal impacts on young people. Emphasis on human rights, social justice and equality are central themes within the modules.\nCombined with the development of desired skill sets such as IT, programme development, and understanding of sociology, psychology and relationships, this course aims to educate youth workers with critical, essential skills for the youth work setting.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -763,6 +963,10 @@
         "overview": "The world around us is undergoing significant changes due to digitization and deployment of Artificial Intelligence. Today we are more interconnected than ever before. As we navigate this new social landscape, we leave behind digital footprints that can be analyzed and interpreted through the lens of Computational Social Science.\nThis field of study leverages the power of big data, computer simulations, and social network analysis to gain insights into social phenomena and individual behaviour.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "computers & mathematics"
         ]
     },
     {
@@ -778,6 +982,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -792,6 +1000,10 @@
         "overview": "Computer and software engineering involves developing new software and hardware for computers by combining the skills of both electronic engineering and computer science. They design, produce and test programmes, networks, chips, and processors.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -806,6 +1018,10 @@
         "overview": "Computer engineers play a vital role in the research, design, development and installation of computer hardware and software. Areas where computer engineers are employed include the mobile phone industry, gaming, medical devices, cloud technology, smart transport and energy management.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -820,6 +1036,10 @@
         "overview": "Computer engineers play a vital role in the research, design, development and installation of computer hardware and software. Areas where computer engineers are employed include the mobile phone industry, gaming, medical devices, cloud technology, smart transport and energy management.\nThis degree will provide you with the education and training necessary for a career in the computer, software and electronics industry. You will develop the necessary theoretical knowledge in areas that are crucial to computer engineering and you will develop skills in computer systems administration and problem-solving.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -834,6 +1054,10 @@
         "overview": "Computer engineering is a discipline that combines elements of both electrical engineering and computer science. Computer engineers are electrical engineers that have additional training in the areas of software design and hardware-software integration.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -848,6 +1072,10 @@
         "overview": "Information, Communications Technology, otherwise known as ICT continues to be a transformative technology force in the world and the release of low-cost microcontrollers and an exponential use of sensors is now driving the Internet of Things. This will drive demand for engineers with the skill to design and integrate these sensor systems to appropriate software platforms.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -862,6 +1090,10 @@
         "overview": "The BSc (Hons) in Computer Forensics & Security is a four year honours degree course equipping graduates with the specialised skills and knowledge needed to secure, monitor and examine electronic crime scenes and digital environments.\nThis is a computer science degree with a specialism in the securing, monitoring and investigating of computers, digital devices and data. It also covers programming, computer networks, operating systems and web technologies. It allows you to investigate, decode and decipher the digital world in which you live.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "law & public policy"
         ]
     },
     {
@@ -877,6 +1109,10 @@
         "interests": [
             "Artistic",
             "Enterprising"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -892,6 +1128,10 @@
         "interests": [
             "Artistic",
             "Enterprising"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -907,6 +1147,10 @@
         "interests": [
             "Artistic",
             "Enterprising"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -923,6 +1167,10 @@
             "Investigative",
             "Realistic",
             "Enterprising"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "law & public policy"
         ]
     },
     {
@@ -938,6 +1186,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "law & public policy"
         ]
     },
     {
@@ -952,6 +1204,9 @@
         "overview": "The BSc in Computer Science is a full-time four-year degree course that encompasses all aspects of computer systems (both software and hardware) and ICT (information and communication technology), including software development, database technology, computer networks, operating systems, algorithms, security, web technology and applications.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -966,6 +1221,9 @@
         "overview": "Our world runs on computing. It’s used in every single sector and industry. From climate modelling and the study of disease to high tech companies and the latest online games, innovation and progress needs software engineers to solve problems and build products. If you want to know how computers work and learn how to develop cutting-edge computer, internet and mobile technology, choose Computer Science. Along with programming, you’ll study advanced data tools and algorithms, databases, networks and cryptography, along with other much needed skills such as critical thinking and communications skills.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -980,6 +1238,9 @@
         "overview": "The UCD Computer Science degree covers the fundamentals of Computer Science while also exposing students to the contemporary languages and technologies used in the industry. Key topics include programming, foundational mathematics, advanced software engineering, cloud development, theory of computer science, networks and security. The principal programming languages used are C, Java and Python. Specialised topics include computer graphics, game development, robotics, mobile development and others.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -994,6 +1255,9 @@
         "overview": "Computer scientists are critical to the global infrastructure that underlie our communications, finance, health, energy, transport and many other vital systems. Are you interested in understanding the algorithmic complexity of problems, automating human intelligence, providing ubiquitous access to information and designing secure and eﬀective software and computer systems? If so, this course will prepare you for work in an exciting industry.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1008,6 +1272,9 @@
         "overview": "Computer Science is concerned with the study of everything to do with computers and our relationship with them. Computer scientists are critical to the efficient running of modern societies, dealing with health, security, banking and finance, transportation, and now increasingly our interaction through social networks.\nComputing professionals deal with theoretical issues, solve complex problems, deal with matters of ethics and with society at large. Theoretical issues in computer science relate to the abstract notions of computation and information.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1022,6 +1289,9 @@
         "overview": "You will learn about the basics of computing/software development, and then decide which of the specialisms you think best suits your personal interests, strengths and plans. Through the use of specialist streams, we can quickly react to industry trends, while always ensuring that you will become a strong programmer/software developer.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1036,6 +1306,9 @@
         "overview": "Computer Science (Common Entry) offers exposure to a variety of subjects relating to different areas of computing such as general programming, knowledge of computer architecture, games modelling, and an understanding of the mathematical basis that underpins computing. Our well-equipped and modern laboratories will enable you to acquire practical experience and skills with confidence. You will follow a common first-year programme of study and then select one of the three BSc programmes during the second semester. During the first year you will become well-versed in a range of computing subjects, and therefore, can make better choices that suit your particular needs and interests.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1050,6 +1323,9 @@
         "overview": "Computer Science (Infrastructure) is about developing software and infrastructure for applications ranging from those on smart devices to those in global corporations. This course provides the skills required to build data centres and networks, and to develop software securely, individually and in teams.\nYou’ll gain a working knowledge of the components of a computer and a network, become familiar with the components of an operating system, and learn to administrate large distributed systems.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1064,6 +1340,9 @@
         "overview": "This course will provide you with the knowledge and skills to work as a global software engineer or as an application developer, able to develop as needed in an ever-changing global industry.\nOn graduation, you’ll be qualified to work in the international IT industry in a wide range of computer roles. You’ll have a strong foundation in such areas as Internet development, cloud computing, mobile software, enterprise systems, artificial intelligence and games technology.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1078,6 +1357,9 @@
         "overview": "This is a 3-year Honours degree for students who have completed the Leaving Certificate Computer Science subject. This is a broad-based computing course which covering a full range of core topics including programming, databases, networking, machine learning and AI and data science.apps, your opportunities are superb.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1089,9 +1371,12 @@
         "nfqLevel": 8,
         "points": 440,
         "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "We depend on electronic devices, such as computers and mobile phones, computer software and networks to store, process, transmit, retrieve and manipulate information. Students will cover the technology used in these devices and will focus on the development of the software applications that make these devices useful.",
+        "overview": "We depend on electronic devices, such such as computers and mobile phones, computer software and networks to store, process, transmit, retrieve and manipulate information. Students will cover the technology used in these devices and will focus on the development of the software applications that make these devices useful.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1106,6 +1391,9 @@
         "overview": "Study all the essentials of computing and software for mobile apps and websites, as well as key areas in mathematics, a major project and a six month placement in industry. Enjoy the huge benefit of studying another Arts subject with Computer Science in first year. This lends graduates a wider frame of reference.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1120,6 +1408,9 @@
         "overview": "Study all the essentials of computing and software, as well as key areas in mathematics, a major project and a six month placement in industry. Acquire hands-on programming skills and advanced problem solving techniques in our new dedicated computer science building (Eolas). You will study another Science subject or Critical Skills with Computer Science and Mathematics in first year.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1135,6 +1426,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1150,6 +1445,11 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "social science",
+            "business"
         ]
     },
     {
@@ -1165,6 +1465,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "engineering"
         ]
     },
     {
@@ -1180,6 +1484,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1194,6 +1501,9 @@
         "overview": "On this course, you’ll cover the full range of software development topics. You will have an opportunity to use what you learn by developing software systems by yourself and as part of a team.\nThis course focuses on software development, systems development, desktop systems, computer architecture, management studies and mathematics. The course has a very practical emphasis.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1208,6 +1518,9 @@
         "overview": "NCI’s innovative BSc (Honours) in Computing will provide you with programming and advanced problem-solving skills, to create software applications that solve real-world problems. This exciting course will expose you to areas like games programming, software development, cybersecurity, blockchain, artificial intelligence/ machine learning/data analytics, internet of things and digital business transformation",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1222,6 +1535,9 @@
         "overview": "NCI’s Higher Certificate in Computing is an ideal starting point to your studies as it offers a clear path into the computing degrees at NCI and other institutions. This full-time course will provide you with all the skills you need to pursue a career in the Information and Communications Technology industry.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1236,6 +1552,9 @@
         "overview": "This two-year Higher Certificate course gives you the essential Computing skills to start a career in industry. Software Development, Web Development, Scripting & OS, Cyber Security, Systems Analysis, Architecture & Networking, Software Quality & Test and are covered with mathematical foundations in Discrete Mathematics, Statistics & Management Science. You will have the foundations to start a career in career in this vital area that is so influencing the modern world.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1250,6 +1569,9 @@
         "overview": "This three year course gives a great grounding in the essentials of computing leading to rewarding careers. Employment prospects are excellent with a shortage of computing graduates currently and predicted both in Ireland and internationally. We use a common year 1 where you develop essential skills and get to understand your particular strengths. We then give you a choice of specialising in IT Management or Software Development.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1264,6 +1586,9 @@
         "overview": "Students enrolling in the Level 8 Computing program will have the opportunity in Year 1 to choose between two specializations - Software Development and Information Technology Management. Given the rapid advancements in technology across various industries, including healthcare, robotics, pharmaceuticals, automotive, and more, graduates from these computing programs will play a pivotal role in driving innovation and enhancing our quality of life through cutting-edge solutions.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1278,6 +1603,9 @@
         "overview": "This course will provide students with a solid grounding in the computing fundamentals but is flexible to allow students to shape their experience to focus on what interests them. This allows them entry into a widely varied industry with the specialised skills of their choosing, while also having a grasp of the basics across other computing areas.\nStudents will learn skills in coding skills from application and web development to front and backend development, problem solving and critical thinking, and communication and collaboration skills.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1292,6 +1620,10 @@
         "overview": "The Bachelor of Science in Computing & Multimedia programme provides a broad range of modules designed to enhance the skills and knowledge of graduates and also provide them with increased employment prospects in a wide range of areas.This course will teach students to build 3-D visual graphics and animations and incorporate them into computer programmes, mobile applications and games.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -1306,6 +1638,9 @@
         "overview": "Computer Science provides you with expertise in a variety of exciting disciplines such as programming, networking, analytics, and cloud computing. One of the most important aspects of computer science is problem solving; an essential skill for life. When you develop knowledge and skills in these areas you will belong to a group of talented people, with highly sought-after qualifications and competencies.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1320,6 +1655,9 @@
         "overview": "Computing professionals are in high demand and short supply. This computing degree in MTU, Kerry Campus, prepares graduates to be problem solvers and innovative thinkers. It is the most flexible of our computing programmes. During the first year, students will study common modules, as they progress into second year, they will be offered a choice of specialisms: Games Development, Software Development, and Cloud Development.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1334,6 +1672,9 @@
         "overview": "Computing professionals are in high demand and short supply. This computing degree in MTU, Kerry Campus, prepares graduates to be problem solvers and innovative thinkers. It is the most flexible of our computing programmes. During the first year, students will study common modules, as they progress into second year, they will be offered a choice of specialisms: Games Development, Software Development, and Cloud Development.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1349,6 +1690,9 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1363,6 +1707,9 @@
         "overview": "Our Bachelor of Science in Computing provides you with a range of both theoretical and practical skills to advance in the computer industry. The ethos of this three-year course is to provide you with a strong core set of competencies in general computing - the kind of skills that are typically required across all aspects of the industry.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1378,6 +1725,9 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1393,6 +1743,9 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1408,6 +1761,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1422,6 +1778,9 @@
         "overview": "This course has been designed to meet Irelands growing need for computing graduates who can contribute to the development of the next generation of cutting-edge computing technologies.\nThe demand for our computing graduates keeps increasing as technology continues to positively shape the world around us. With a computing degree, you’ve got a skillset that is internationally recognised, providing the potential for career mobility and excellent earnings.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1436,6 +1795,9 @@
         "overview": "Combining the best of computer science with hands on practical skills, this four year degree will see students gain skills, knowledge and competencies in software development, mobile application development, web development, game and interactive development, entrepreneurship, networking, and cyber-security.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1450,6 +1812,9 @@
         "overview": "This degree includes lots of time spent in computer labs creating programs and solving problems. The aim is to teach students how to use industry standard tools and techniques and then explain the concepts behind them. Creativity, problem solving, persistence and critical thinking are key skills which are developed during the degree. New high-tech computer teaching labs will open at ATU Sligo in 2023 and give students access to the latest advancements in technology.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -1464,6 +1829,9 @@
         "overview": "This programme aims to provide the academic knowledge and practical skills needed for a foundational computing qualification with specialisation in the area of software development.The programme focuses on theoretical knowledge and practical skills in core areas such software development, database technology, computer networking, operating systems, computer security and web technologies while also offering applied skills in contemporary topics such as processing big data, cloud platform development and problem solving and algorithms.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     }
 ]
