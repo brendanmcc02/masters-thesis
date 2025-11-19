@@ -29,38 +29,16 @@ With that done, do you mind taking no more than 10 minutes to complete this quiz
 Note: After answering the 48 questions, the test will ask you if you are willing to answer a few more research questions. This is not necessary!
 
 Thanks for this!
+```
 
+```
 hey  sorry copy/paste message lol but i'd really appreciate if you took no more than 10-15 minutes for this, thanks! 🙏
-
-If you're confused about what kinds of courses/areas are `industrial arts & consumer services`, here are some ideas:
-`
-cosmetology services
-culinary arts
-family sciences
-consumer sciences
-military technologies
-physical fitness parks
-recreation
-leisure
-construction services
-electrical technologies
-electrical production
-mechanical technologies
-mechanical production
-precision technologies
-precision production
-transportation technologies
-transportation sciences
-`
 ```
 
 # Unused data
 
 ```tsv
 
-vivi	2	22	12	18	7	14
 cian roche	x	x	x	x	x	x	eng	arts	health
-aisling x	x	x	x	x	x	x	health	business	arts
 beth	1	5	17	31	6	2	
-luka	6	31	23	11	18	9
 ```
