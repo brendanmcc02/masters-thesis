@@ -13,6 +13,10 @@
             "Investigative",
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -29,6 +33,10 @@
             "Investigative",
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -45,6 +53,10 @@
             "Investigative",
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -61,6 +73,10 @@
             "Investigative",
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -77,6 +93,10 @@
             "Investigative",
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -93,6 +113,10 @@
             "Investigative",
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -109,6 +133,10 @@
             "Investigative",
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -123,6 +151,10 @@
         "overview": "The BA (Hons) in Psychology is taught over 3 years full-time (or 4 years part-time). In the programme, learners engage with the core areas of psychology, including developmental, social, and cognitive psychology, abnormal psychology, psychotherapy, and neuropsychology. A significant component of the programme is also dedicated to equipping learners with a strong capability in research methods, culminating in an independent research project. An application for accreditation of this programme has been submitted to The Psychological Society of Ireland (PSI).",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -138,6 +170,10 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -153,6 +189,11 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -169,6 +210,10 @@
             "Investigative",
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -185,6 +230,11 @@
             "Investigative",
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science",
+            "biology & life science"
         ]
     },
     {
@@ -200,6 +250,10 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "computers & mathematics"
         ]
     },
     {
@@ -215,6 +269,10 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "computers & mathematics"
         ]
     },
     {
@@ -229,6 +287,10 @@
         "overview": "The BSc in Psychology and Mathematics is the first course in Ireland to integrate these subjects, preparing students for a career combining the interpretation of human behaviour with high-level numeracy, analytical and problem-solving skills. \nBy doing this course, you’ll gain in-depth knowledge and understanding of each discipline alongside a broad critical perspective on contemporary society. You’ll delve into the different fields of psychology along with studying calculus, probability, computing, statistics and data analysis. Research literacy is also a core focus. Moreover, you’ll study applied subjects such as coding and cryptography, which integrate psychology and maths.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "psychology & social work",
+            "computers & mathematics"
         ]
     },
     {
@@ -245,6 +307,10 @@
             "Investigative",
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -261,6 +327,11 @@
             "Realistic",
             "Social",
             "Enterprising"
+        ],
+        "categories": [
+            "health",
+            "social science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -276,6 +347,10 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "health",
+            "social science"
         ]
     },
     {
@@ -292,6 +367,11 @@
             "Realistic",
             "Social",
             "Enterprising"
+        ],
+        "categories": [
+            "health",
+            "social science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -307,6 +387,10 @@
         "interests": [
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "communications & journalism",
+            "business"
         ]
     },
     {
@@ -322,6 +406,10 @@
         "interests": [
             "Enterprising",
             "Artistic"
+        ],
+        "categories": [
+            "communications & journalism",
+            "business"
         ]
     },
     {
@@ -337,6 +425,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "computers & mathematics"
         ]
     },
     {
@@ -352,6 +444,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -367,6 +463,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -382,6 +482,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -397,6 +501,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -412,6 +520,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -427,6 +539,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -442,6 +558,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -457,6 +577,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -472,6 +596,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -487,6 +615,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -502,6 +634,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -517,6 +653,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -532,6 +672,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -547,6 +691,10 @@
         "interests": [
             "Conventional",
             "Enterprising"
+        ],
+        "categories": [
+            "engineering",
+            "business"
         ]
     },
     {
@@ -561,6 +709,10 @@
         "overview": "Radiation therapy uses targeted high energy X-rays to treat patients with cancer and is one of the main treatments for cancer. This course qualifies you to work as a radiation therapist – the healthcare professional who, together with the other multidisciplinary team members, is responsible for the preparation and delivery of a course of radiation therapy.\nThis degree provides you with the required scientific understanding and the critical clinical and research skills to adapt to the ever-changing medical environment.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "physical sciences"
         ]
     },
     {
@@ -575,6 +727,10 @@
         "overview": "Radiographers are responsible for producing high-quality images to assist in the diagnosis and treatment of disease. While radiography is a caring profession, it’s also one that requires considerable technological and scientific expertise in both the production of images and the responsible delivery of ionising radiation. If you’re interested in science and you want to use your knowledge to care for people, Radiography at UCD may be a perfect fit for you.\nOur aim is to prepare graduate radiographers to meet the everyday challenges arising from ongoing advances in diagnostic imaging and healthcare.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "physical sciences"
         ]
     },
     {
@@ -590,6 +746,11 @@
         "interests": [
             "Enterprising",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "health",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -605,6 +766,11 @@
         "interests": [
             "Enterprising",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "health",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -620,6 +786,11 @@
         "interests": [
             "Enterprising",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "health",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -634,6 +805,10 @@
         "overview": "This course encourages and enables students to engage Religion plays a significant role in diverse cultural, social and political contexts. Religious world-views, values and symbols play a critical role in shaping cultural norms, traditions and practices. This is the case both in religiously plural contexts, as well as those dominated by particular traditions.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -648,6 +823,10 @@
         "overview": "World Religions and TheologyThis course explores theories of religion, the monotheistic religions of Judaism, Christianity and Islam, the religions of Asia and Africa, movements such as New Atheism, New Religious Movements and the interaction between religion and politics, science, or art. Classical CivilisationThe study of Classical Civilisation is concerned with the literature, thought and culture of Ancient Greece and Rome. Through the examination and contextualisation of literary works and the analysis of the main aspects of ancient history and art, you will develop a thorough knowledge of the classical world and a critical approach to Greek and Roman literature.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -662,6 +841,10 @@
         "overview": "World Religions and TheologyThis course explores theories of religion, the monotheistic religions of Judaism, Christianity and Islam, the religions of Asia and Africa, movements such as New Atheism, New Religious Movements and the interaction between religion and politics, science, or art. \nEnglish Literature\nEnglish Literature covers a broad range of literatures written in the English language, from Chaucer to the present day. The aim of the course is to help students acquire a thorough knowledge of the history of differing literatures while also enabling them to develop a sophisticated critical consciousness and an awareness of critical and cultural theory.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -677,6 +860,11 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "arts",
+            "social science"
         ]
     },
     {
@@ -691,6 +879,10 @@
         "overview": "This course explores theories of religion, the monotheistic religions of Judaism, Christianity and Islam, the religions of Asia and Africa, movements such as New Atheism, New Religious Movements and the interaction between religion and politics, science, or art.Students combine this subject with their choice of French, German, Italian or Russian.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     },
     {
@@ -705,6 +897,10 @@
         "overview": "Energy and especially Electrical Energy is needed for everything we do in today’s world. Climate change is real and caused by burning fossil fuels. This programme covers all the technologies needed to produce energy and in particular electrical energy from renewable sources, to monitor and control energy systems and to connect them to the electricity grid. It is a mixture of theory and practical hands-on learning in all aspects of Renewable Energy Technology, electrical technology and automated monitoring and control systems.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -720,6 +916,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -735,6 +935,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -750,6 +954,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -765,6 +973,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -779,6 +991,9 @@
         "overview": "Within the Modern Languages programme you study two modern European languages to degree level. It is the most intensive exposure to languages and cultures that Trinity College has to offer. You can choose between French, German, Irish, Italian, Russian and Spanish. Apart from French and Irish all languages can be studied from both advanced and beginners level. Russian writers, musicians and artists have made a considerable contribution to European culture; Russian history has helped shape Europe as we know it today: exploring Russia’s past and present helps understand the interaction between Europe’s eastern and western traditions.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -793,6 +1008,11 @@
         "overview": "The programme provides a solid foundation in Science subjects in the first year, with module offerings in Biology, Chemistry, Physics, Mathematics, Mathematical Studies, Computing and Applied Mathematics.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science",
+            "computers & mathematics"
         ]
     },
     {
@@ -807,6 +1027,11 @@
         "overview": "In the BSc degree students study a broad range of subjects inlcuding Physics, Chemistry, Biology, Engineering Science, Mathematics – and newer disciplines such as Biotechnology, Genetics, Bioinformatics and Multimedia.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science",
+            "computers & mathematics"
         ]
     },
     {
@@ -822,6 +1047,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science"
         ]
     },
     {
@@ -837,6 +1066,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "biology & life science",
+            "physical sciences"
         ]
     },
     {
@@ -852,6 +1085,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "biology & life science",
+            "physical sciences"
         ]
     },
     {
@@ -866,6 +1103,9 @@
         "overview": "The UCD Science (DN200) course offers 27 degree subjects categorised into streams. Students can study subjects from more than one stream in first year. It is also possible for students to change their stream in first year.\nAt the end of first year, students choose a minimum of two subjects to study in second year (for example Statistics and Mathematics or Genetics and Microbiology). Students will major in one of these subjects in third and fourth year.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences"
         ]
     },
     {
@@ -880,6 +1120,10 @@
         "overview": "This three year course will give you the opportunity to discover which area of science - Bioanalytical Science, Food Science & Nutrition or Pharmaceutical & Medicinal Science. This is a good choice for anyone who know they want to study science but are unsure about which specific area you want to specialize in. After one year you’ll be able to make your choice, furthering your study and opening up numerous career opportunities including becoming a Biology teacher, Quality Manager or Biopharmaceutical Scientist, in the areas of Biopharmaceuticals, the Environmental sector and Education.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science"
         ]
     },
     {
@@ -895,6 +1139,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -909,6 +1157,10 @@
         "overview": "The UCD Science course offers 27 degrees categorised into the following streams: \n\nExplore Multiple Streams\nBiological, Biomedical & Biomolecular Sciences\nEarth & Environmental Sciences\nChemistry (includes Medicinal/Sustainable/Biophysical)\nMathematics (includes Applied/Financial/Statistics)\nPhysics (includes Theoretical/Astronomy & Space Science)\nScience, Mathematica & Education\n\n Explore Multiple Streams The Explore Multiple Streams option is for students who are interested in degrees in different streams. For example a student may be interested in Genetics and Chemistry. As Genetics is in the Biological, Biomedical & Biomolecular Sciences stream and Chemistry is in the Chemistry stream, students interested in these subjects can choose explore Multiple Streams. Students who choose Explore Multiple Streams, are offered the same first year module guarantees as students who choose the other streams.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science"
         ]
     },
     {
@@ -923,11 +1175,15 @@
         "overview": "The UCD Science (DN200) course offers 27 degree subjects categorised into streams. Students can study subjects from more than one stream in first year. It is also possible for students to change their stream in first year.\nAt the end of first year, students choose a minimum of two subjects to study in second year (for example Statistics and Mathematics or Genetics and Microbiology). Students will major in one of these subjects in third and fourth year.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "physical sciences"
         ]
     },
     {
         "id": "DK783",
-        "title": "Science - Pharmaceutical  Science",
+        "title": "Science - Pharmaceutical    Science",
         "college": "Dundalk Institute of Technology - DKIT",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -937,6 +1193,11 @@
         "overview": "Throughout this course students develop an understanding of the physicochemical and biological principles that underpin the design, function, synthesis, analysis and delivery of pharmaceutical substances. This course educates and trains students to become scientists in the pharmaceutical and chemical industries.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science",
+            "health"
         ]
     },
     {
@@ -952,6 +1213,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences"
         ]
     },
     {
@@ -966,6 +1230,10 @@
         "overview": "If you are unsure about which science discipline you wish to study, you may apply for the BSc and BSc (Honours) undenominated programme. Year 1 involves the study of a range of science subjects, including Chemistry, Biology, Maths, Physics and Learning & Innovation Skills.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science"
         ]
     },
     {
@@ -980,6 +1248,10 @@
         "overview": "If you are unsure about which science discipline you wish to study, you may apply for the BSc and BSc (Honours) undenominated programme. Year 1 involves the study of a range of science subjects, including Chemistry, Biology, Maths, Physics and Learning & Innovation Skills.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science"
         ]
     },
     {
@@ -995,6 +1267,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "physical sciences",
+            "biology & life science"
         ]
     },
     {
@@ -1010,6 +1287,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "biology & life science",
+            "physical sciences",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -1025,6 +1307,10 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science"
         ]
     },
     {
@@ -1040,6 +1326,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science"
         ]
     },
     {
@@ -1054,6 +1344,10 @@
         "overview": "Science (Common Entry) was designed as a common entry course for the student who has a keen interest in science, but is unsure of which area they would like to specialise in. This course gives the student a flavour of a variety of different scientific disciplines, allowing them to keep their options open when applying to study science at third level.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science"
         ]
     },
     {
@@ -1068,6 +1362,10 @@
         "overview": "The main aim of this course is to produce graduates with the skills they need to work as technicians/technologists or scientific personnel in the fields of biosciences, chemistry and physics.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science"
         ]
     },
     {
@@ -1082,6 +1380,10 @@
         "overview": "Science is the process of understanding the world around us and underpins many of the major industrial sectors and employers in Ireland, for example, Pharmaceutical, Biotechnology, Healthcare, Agri-Food and the Green Economy. \nThis General Science course is ideal if you are not yet sure which Science discipline you wish to pursue and you are looking for a broad education in first year that will allow the maximum possible choice in future years.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science"
         ]
     },
     {
@@ -1097,6 +1399,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science",
+            "computers & mathematics"
         ]
     },
     {
@@ -1111,6 +1418,10 @@
         "overview": "This programme is an general entry science programme that gives students an exceptional level of flexibility. The programme builds a core foundation in key science disciplines in Year 1. Our science programmes are hands-on, with a big emphasis on developing practical skills. This means our students graduate with the skills employers want. Students spend 50% of their time in labs and have access to state-of-the-art, industry-spec equipment. Small class sizes ensure students always have their own lab space and are fully supported by our expert academic staff throughout their learning. We also focus on soft skills such as teamwork and communication. These skills are highly valued by potential employers.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science"
         ]
     },
     {
@@ -1125,6 +1436,10 @@
         "overview": "This programme is an general entry science degree that gives students an exceptional level of flexibility. The programme builds a core foundation in key science disciplines in Year 1. This is a good choice for students who know they want to study science but are unsure about their key area at the time of application. Students are given advice during the year to help guide their decisions. Students also get to choose from elective science subjects in Year 1 before selecting a specialised honours degree at the end of that year.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "biology & life science"
         ]
     },
     {
@@ -1140,6 +1455,12 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "education",
+            "physical sciences",
+            "biology & life science",
+            "computers & mathematics"
         ]
     },
     {
@@ -1155,6 +1476,11 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "education",
+            "physical sciences",
+            "computers & mathematics"
         ]
     },
     {
@@ -1170,6 +1496,11 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "education",
+            "physical sciences",
+            "biology & life science"
         ]
     },
     {
@@ -1185,6 +1516,12 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "education",
+            "biology & life science",
+            "physical sciences",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -1200,6 +1537,10 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "education",
+            "physical sciences"
         ]
     },
     {
@@ -1214,6 +1555,10 @@
         "overview": "In this Nanoscience course you will learn about the study of very small-things on a nanometer scale (one thousandth millionth of a metre). This is the scale of large molecules like plastics or proteins.\nNanotechnology includes the techniques used to create structures on a scale below 100 nm, which can be used in new generations of electronics, sensors and computer chips.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "engineering"
         ]
     },
     {
@@ -1229,6 +1574,11 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "education",
+            "physical sciences",
+            "computers & mathematics"
         ]
     },
     {
@@ -1244,6 +1594,11 @@
         "interests": [
             "Investigative",
             "Conventional"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "engineering",
+            "law & public policy"
         ]
     },
     {
@@ -1259,6 +1614,10 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -1274,6 +1633,10 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -1289,6 +1652,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering",
+            "computers & mathematics"
         ]
     },
     {
@@ -1303,6 +1670,10 @@
         "overview": "Social care workers provide professional individual or group care to clients with personal and social needs, in a caring, compassionate, non-judgmental way. Client groups include children and adolescents in residential care; young people in detention schools; people with intellectual or physical disabilities; people who are homeless; people with alcohol/drug dependency; families in the community, older people, and asylum-seekers/refugees.\nThis course will familiarise you with the latest concepts and theoretical developments in the relevant academic disciplines, and help you to develop as a self-aware, reflective, altruistic, empathic social care professional.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -1317,6 +1688,10 @@
         "overview": "Social care practitioners work in a wide variety of settings with a wide variety of people: children and adolescents in residential care, people with learning or physical disabilities, the homeless, people with alcohol/ drug dependency, families in the community, older people or recent immigrants to Ireland. This programme is delivered through a blend of lectures, workshops and two full semesters of off-site, supervised practice placementSocial studies examines  the past and current behaviour of individuals and societies. It predicts possible future human behaviour through the study of subjects such as economics, geography, politics and psychology. This knowledge can then be used to try to improve the lives of people.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -1331,6 +1706,10 @@
         "overview": "This course prepares students to have a rewarding career in social care, a profession characterised by working in partnership with people who experience marginalisation, or disadvantage, or who have special needs.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -1345,6 +1724,10 @@
         "overview": "Social care is a profession where people work with those who experience marginalisation or disadvantage or who have special needs. Social care practitioners work in a wide variety of settings with a wide variety of people: children and adolescents in residential care, people with learning or physical disabilities, the homeless, people with alcohol/ drug dependency, families in the community, older people or recent immigrants to Ireland. Social care practitioners typically work in a direct person-to-person capacity with service users. This programme is delivered through a blend of lectures, workshops and two full semesters of off-site, supervised practice placement.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -1359,6 +1742,10 @@
         "overview": "This programme is approved by CORU – (Health and Social Care Regulatory Body)\nSocial care is a practice based profession and an academic discipline. This degree will give you a recognised professional qualification in social care and prepare for you for the challenging and rewarding role of being a social care worker. Our programme is a combination of academic study and assessed practice learning opportunities. We use a variety of innovative teaching methods to support students to acquire the knowledge, skills and values required to practice as a Social Care Worker.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -1373,6 +1760,10 @@
         "overview": "Social studies examines  the past and current behaviour of individuals and societies. The overall aim of the course is to develop critically reflective, skilled and ethically aware practitioners with the capacity to build professional relationships, in partnership with vulnerable individuals and groups who experience marginalisation, disadvantage or special needs.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -1387,6 +1778,10 @@
         "overview": "Social Care Practice is a dynamic and continuously developing field that is now a professionally regulated career under CORU, along with other health and social care professions. Throughout this honours degree, students develop their critical thinking skills, have a greater understanding of human interaction and how to respond in a professional and informed way to the needs of people who use support services.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -1401,6 +1796,10 @@
         "overview": "Social Care Work is described by CORU as a relationship-based approach to the purposeful planning and provision of care, protection, psychosocial support, and advocacy in partnership with vulnerable individuals and groups who experience marginalisation, disadvantage, or special needs.\nThe importance of Social Care Work to the functioning of Irish society cannot be underestimated. The profession challenges the mechanics of inequality and forges creative pathways towards a fairer, more inclusive society where all human beings are valued.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -1415,6 +1814,10 @@
         "overview": "This course requires students to undertake two semesters of professional placement. Typically, a Social Care Worker is employed working with those who have physical or learning difficulties, disabilities, young people at risk, children who have been neglected or abused, family support services, addiction services, homeless services, elderly people, and in settings as diverse as residential care, day care, and community-based services.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -1429,6 +1832,10 @@
         "overview": "Social Care Work is a relationship-based approach to the purposeful planning and provision of care, protection, psychosocial support and advocacy in partnership with vulnerable individuals and groups who experience marginalisation, disadvantage or special needs. This course emphasises the professional and personal development required to work in the challenging field. Graduates find employment opportunities with the HSE, TUSLA, statutory and voluntary organisations and community-based agencies.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -1443,6 +1850,10 @@
         "overview": "This course requires students to undertake two semesters of professional placement. Typically, a Social Care Worker is employed working with those who have physical or learning difficulties, disabilities, young people at risk, children who have been neglected or abused, family support services, addiction services, homeless services, elderly people, and in settings as diverse as residential care, day care, and community-based services.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -1457,6 +1868,10 @@
         "overview": "This course emphasises the professional and personal development required to work in the challenging field. Graduates find employment opportunities with the HSE, TUSLA, statutory and voluntary organisations and community-based agencies.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -1473,6 +1888,10 @@
             "Investigative",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "social science",
+            "law & public policy"
         ]
     }
 ]
