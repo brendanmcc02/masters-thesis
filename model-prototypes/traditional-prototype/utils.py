@@ -1,4 +1,5 @@
 import numpy as np
+from ml_models import *
 
 NUMBER_OF_RIASEC_CATEGORIES = 6
 NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY = 8
@@ -107,16 +108,8 @@ def one_hot_encode(course, vectorized_representation):
     for category in course['categories']:
         vectorized_representation[STARTING_CATEGORY_VECTOR_INDEX + COLLEGE_MAJOR_CATEGORIES.index(category)] = 1.0
 
-# TODO
-# ML/vector model
 def get_weighted_categories_vector(user_riasec_vector):
-    return np.zeros(len(COLLEGE_MAJOR_CATEGORIES))
-
-def get_normalized_vectorized_riasec(user_riasec):
-    for i in range(len(user_riasec)):
-        user_riasec[i] /= MAX_RIASEC_QUESTION_VALUE
-
-    return user_riasec
+    return multiNomialNaiveBayes(user_riasec_vector)
 
 def get_simplified_user_riasec_vector(user_riasec_vector, lc_subjects_preferences):
     riasec_category_vectors= []
