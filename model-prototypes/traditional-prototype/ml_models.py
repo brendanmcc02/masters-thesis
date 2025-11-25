@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.naive_bayes import MultinomialNB, CategoricalNB
-from sklearn.metrics import accuracy_score#, classification_report, confusion_matrix
+from sklearn.metrics import top_k_accuracy_score
 from sklearn.dummy import DummyClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.neural_network import MLPClassifier
@@ -31,80 +31,103 @@ X_train, X_test, y_train, y_test = train_test_split(
 # actual models
 
 ## multinomial naive bayes
-multinomial_naive_bayes_model = MultinomialNB()
-multinomial_naive_bayes_model.fit(X_train, y_train)
-y_predicted_multinomial_naive_bayes = multinomial_naive_bayes_model.predict(X_test)
+# multinomial_naive_bayes_model = MultinomialNB()
+# multinomial_naive_bayes_model.fit(X_train, y_train)
+# y_predicted_class_probabilities_multinomial_naive_bayes = multinomial_naive_bayes_model.predict_proba(X_test)
 
 ## categorical naive bayes
-categorical_naive_bayes_model = CategoricalNB()
-categorical_naive_bayes_model.fit(X_train, y_train)
-y_predicted_categorical_naive_bayes = categorical_naive_bayes_model.predict(X_test)
+# categorical_naive_bayes_model = CategoricalNB()
+# categorical_naive_bayes_model.fit(X_train, y_train)
+# y_predicted_class_probabilities_categorical_naive_bayes = categorical_naive_bayes_model.predict_proba(X_test)
 
 ## logistic regression
-logistic_regression_model = LogisticRegression(
-    multi_class='multinomial',
-    solver='saga', # negligible performance differences, saga is the quickest
-    C=1.0, # different values have negligible impact
-    max_iter=1000,
-    random_state=42
-)
-logistic_regression_model.fit(X_train, y_train)
-y_predicted_logistic_regression = logistic_regression_model.predict(X_test)
+# logistic_regression_model = LogisticRegression(
+#     multi_class='multinomial',
+#     solver='saga', # negligible performance differences, saga is the quickest
+#     C=1.0, # different values have negligible impact
+#     max_iter=1000,
+#     warm_start=True,
+#     random_state=42
+# )
+# logistic_regression_model.fit(X_train, y_train)
+# y_predicted_class_probabilities_logistic_regression = logistic_regression_model.predict_proba(X_test)
 
 ## multi-layer perceptron
 # (48, 20, 15) architecture: 48 inputs -> 2 hidden layers of 50 neurons each -> 15 outputs
 # alpha is the L2 penalty, similar to regularization
-mlp_model = MLPClassifier(
-    hidden_layer_sizes=(50, 50), 
-    max_iter=500, # Often needs many iterations
-    alpha=0.0001, 
-    random_state=42
-)
-mlp_model.fit(X_train, y_train)
-y_predicted_mlp = mlp_model.predict(X_test)
+# mlp_model = MLPClassifier(
+#     hidden_layer_sizes=(50, 50), 
+#     max_iter=500, # Often needs many iterations
+#     alpha=0.0001,
+#     warm_start=True,
+#     random_state=42
+# )
+# mlp_model.fit(X_train, y_train)
+# y_predicted_class_probabilities_mlp = mlp_model.predict_proba(X_test)
 
 ## support vector machine (svm)
-svm_model = SVC(kernel='linear', C=1.0, random_state=42)
+svm_model = SVC(
+    kernel='linear', 
+    C=1.0,
+    random_state=42)
 # Note: SVMs scale poorly with N, so using a LinearSVC or linear kernel is often necessary for 77k rows.
 # For SVC, it's highly recommended to scale your features (0-4) before training.
 # svm_model = SVC(kernel='rbf', C=1.0, random_state=42) # slower
 svm_model.fit(X_train, y_train)
-y_predicted_svm = svm_model.predict(X_test)
+y_predicted_class_probabilities_svm = svm_model.predict_proba(X_test)
 
 ## gradient boosting machines (gbm)
 hgbm_model = HistGradientBoostingClassifier(random_state=42)
 hgbm_model.fit(X_train, y_train)
-y_predicted_hgbm = hgbm_model.predict(X_test)
+y_predicted_class_probabilities_hgbm = hgbm_model.predict_proba(X_test)
 
-## random forest
+# random forest
 # n_estimators is the number of trees; often start with 100 or 200
-random_forest_model = RandomForestClassifier(n_estimators=200, random_state=42, n_jobs=-1)
+random_forest_model = RandomForestClassifier(
+    n_estimators=200, 
+    warm_start=True,
+    random_state=42, 
+    n_jobs=-1)
 random_forest_model.fit(X_train, y_train)
-y_predicted_random_forest = random_forest_model.predict(X_test)
+y_predicted_class_probabilities_random_forest = random_forest_model.predict_proba(X_test)
 
 # baselines
 
 ## random
 number_of_classes = len(np.unique(y_train))
 number_of_random_samples = len(y_test)
-y_predicted_random = np.random.randint(low=0, high=number_of_classes, size=number_of_random_samples)
+np.random.seed(42) # Ensure random baseline is reproducible
+random_scores = np.random.rand(number_of_random_samples, number_of_classes)
+y_predicted_class_probabilities_random = random_scores / random_scores.sum(axis=1, keepdims=True)
 
 ## most frequent
 most_frequent_model = DummyClassifier(strategy='most_frequent')
 most_frequent_model.fit(X_train, y_train)
-y_predicted_most_frequent = most_frequent_model.predict(X_test)
+y_predicted_class_probabilities_most_frequent = most_frequent_model.predict_proba(X_test)
 
 # evaluation
 
+number_of_top_k = 3
+
 print("\n# ACTUAL MODELS")
-print("Multinomial Naive Bayes Accuracy:    " + str(round(accuracy_score(y_test, y_predicted_multinomial_naive_bayes), 3)))
-print("Categorical Naive Bayes Accuracy:    " + str(round(accuracy_score(y_test, y_predicted_categorical_naive_bayes), 3)))
-print("Logistic Regression Accuracy:        " + str(round(accuracy_score(y_test, y_predicted_logistic_regression), 3)))
-print("MLP Accuracy:                        " + str(round(accuracy_score(y_test, y_predicted_mlp), 3)))
-print("SVM Accuracy:                        " + str(round(accuracy_score(y_test, y_predicted_svm), 3)))
-print("Gradient Boosting Machines Accuracy: " + str(round(accuracy_score(y_test, y_predicted_hgbm), 3)))
-print("Random Forest Accuracy:              " + str(round(accuracy_score(y_test, y_predicted_random_forest), 3)))
+# print("Multinomial Naive Bayes Accuracy:    " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_multinomial_naive_bayes, k=number_of_top_k), 3)))
+# print("Categorical Naive Bayes Accuracy:    " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_categorical_naive_bayes, k=number_of_top_k), 3)))
+# print("Logistic Regression Accuracy:        " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_logistic_regression, k=number_of_top_k), 3)))
+# print("MLP Accuracy:                        " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_mlp, k=number_of_top_k), 3)))
+print("SVM Accuracy:                        " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_svm, k=number_of_top_k), 3)))
+print("Gradient Boosting Machines Accuracy: " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_hgbm, k=number_of_top_k), 3)))
+print("Random Forest Accuracy:              " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_random_forest, k=number_of_top_k), 3)))
 
 print("\n# BASELINE MODELS")
-print("Random Model Accuracy:               " + str(round(accuracy_score(y_test, y_predicted_random), 3)))
-print("Most Frequent Model Accuracy:        " + str(round(accuracy_score(y_test, y_predicted_most_frequent), 3)))
+print("Random Model Accuracy:               " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_random, k=number_of_top_k), 3)))
+print("Most Frequent Model Accuracy:        " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_most_frequent, k=number_of_top_k), 3)))
+
+# # ACTUAL MODELS
+# Multinomial Naive Bayes Accuracy:    0.562
+# Categorical Naive Bayes Accuracy:    0.551
+# Logistic Regression Accuracy:        0.639
+
+# # BASELINE MODELS
+# Random Model Accuracy:               0.199
+# Most Frequent Model Accuracy:        0.349
+
