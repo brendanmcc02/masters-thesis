@@ -148,9 +148,10 @@ this goes back to the reading between the lines thing.
 
 if someone wants a course they enjoy, they will highly rank fields that they think they will like.
 if a person wants to make money, they will highly rank fields that they think will make money.
+if a person wants something with a high sense of employment, they will avoid areas with low levels of employment (e.g. the arts)
 if a person wants status, social impact, etc. etc. etc. they will highly rank fields that they think will align with what they want.
 
-i think that's a great workaround, because it gives more power to the user, which is incredibly important because this is such a multi-faceted problem, and I have hesitations about over-simplifying the process and exerting too much control over the user, putting them in a box, which would result in a frustrating RS experience.
+i think that's a solid workaround, because it gives more power to the user, which is incredibly important because this is such a multi-faceted problem, and I have hesitations about over-simplifying the process and exerting too much control over the user, putting them in a box, which would result in a frustrating RS experience.
 i also really like this because it doesn't over complicate the problem and avoids over-engineering, for example badgering the user with tens of questions about "how much do i value money in work, etc.". it **reads between the lines!**
 
 the only problem with this is the open psychometrics dataset I am using (and which will potentially be instrumental in my RS) was asked "would you enjoy x".

@@ -40,5 +40,4 @@ hey  sorry copy/paste message lol but i'd really appreciate if you took no more 
 ```tsv
 
 cian roche	x	x	x	x	x	x	eng	arts	health
-beth	1	5	17	31	6	2	
 ```
