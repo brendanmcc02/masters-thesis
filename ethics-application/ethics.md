@@ -1,3 +1,10 @@
+# Questions
+* Do I need a consent form?
+    * my guess is yes?
+* am i processing personal data for participant recruitment?
+    * i.e. consent form
+    * i guess i am?
+
 # [Ethics Approval](https://www.tcd.ie/research/support/ethics-approval.php)
 * [Project Methods recording (last year)](https://eu-lti.bbcollab.com/recording/08fbda64b5bd47ee9f0609745816f7db)
 
@@ -68,3 +75,7 @@ normal daily life;
     * I think this is quite solid and better, not perfect, but still decent
     * some flaws with this is that if they are currently studying a STEM subject for the last few years (and they are 23), this might've pushed them towards typical STEM qualities, which would potentially skew results
         * but we could remark this as a limitation
+
+# Risks
+* Owen has concerns about potential risks, and I do agree there is a form of risk
+* however, i'd classify the risk as low (REAMS will ask you to classifiy it as low-medium-high)
