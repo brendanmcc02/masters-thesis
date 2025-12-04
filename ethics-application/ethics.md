@@ -1,9 +1,4 @@
 # Questions
-* Do I need a consent form?
-    * my guess is yes?
-* am i processing personal data for participant recruitment?
-    * i.e. consent form
-    * i guess i am?
 
 # [Ethics Approval](https://www.tcd.ie/research/support/ethics-approval.php)
 * [Project Methods recording (last year)](https://eu-lti.bbcollab.com/recording/08fbda64b5bd47ee9f0609745816f7db)
