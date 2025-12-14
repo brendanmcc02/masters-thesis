@@ -2,7 +2,7 @@
 # original found here (identical): https://openpsychometrics.org/_rawdata/
 
 import pandas as pd
-from utils import *
+from filter_data_utils import *
 
 df = pd.read_csv('raw_riasec_college_majors.tsv', sep='\t', low_memory=False)
 
@@ -87,6 +87,7 @@ clean_df_to_append = dirty_df[has_fuzzy_match_mask].copy()
 clean_df = pd.concat([clean_df, clean_df_to_append], ignore_index=True)
 
 dirty_df = dirty_df[~has_fuzzy_match_mask].copy()
+
 
 clean_df = reverse_college_major_category_preprocessing(clean_df, unique_college_major_categories)
 clean_df.to_csv("../clean_riasec_college_major_categories.tsv", sep='\t', index=False)

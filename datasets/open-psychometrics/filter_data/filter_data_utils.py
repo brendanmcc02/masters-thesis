@@ -68,6 +68,7 @@ def get_stop_words():
     stop_words.add("yet")
     stop_words.add("sure")
     stop_words.add("undeclared")
+    stop_words.add("undecided")
     stop_words.add("attend")
     stop_words.add("not")
     stop_words.add("applicable")
@@ -199,6 +200,7 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'portuguese': 'foreign language',
     'latin': 'foreign language',
     'doctor': 'medicine',
+    'medical': 'medicine'
 }
 
 def reverse_college_major_category_preprocessing(df, unique_college_major_categories):

@@ -21,6 +21,7 @@ visual arts	arts
 performing arts	arts
 commercial art	arts
 design	arts
+graphic design	arts
 film studies	arts
 photography	arts
 studio arts	arts
@@ -35,6 +36,7 @@ genetics	biology & life science
 microbiology	biology & life science
 pharmacology	biology & life science
 physiology	biology & life science
+kinesiology	biology & life science
 zoology	biology & life science
 neuroscience	biology & life science
 cognitive science	biology & life science
@@ -43,6 +45,7 @@ administration	business
 accounting	business
 actuarial science	business
 management	business
+business management	business
 business administration	business
 operations logistics	business
 e-commerce	business
@@ -50,6 +53,7 @@ marketing	business
 marketing research	business
 finance	business
 human resources management	business
+human resources	business
 personnel management	business
 international business	business
 hospitality management	business
@@ -61,6 +65,7 @@ advertising	communications
 public relations	communications
 communication technologies	computers & mathematics
 information systems	computers & mathematics
+information technology	computers & mathematics
 computer systems	computers & mathematics
 computer programming	computers & mathematics
 data processing	computers & mathematics
@@ -140,7 +145,7 @@ medical technologies technicians	health
 health preparatory programs	health
 medical preparatory programs	health
 nursing	health
-pharmaceutical sciences	health
+pharmacy	health
 treatment therapy professions	health
 community health	health
 public health	health

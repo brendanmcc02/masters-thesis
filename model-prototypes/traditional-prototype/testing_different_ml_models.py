@@ -135,3 +135,6 @@ print("Most Frequent Model Top-1 Test Accuracy:        " + str(round(accuracy_sc
 # Logistic Regression Top-3 Test Accuracy:        0.645
 # Logistic Regression Top-1 Test Accuracy:        0.37
 
+# no substring match
+# Logistic Regression Top-3 Test Accuracy:        0.66
+# Logistic Regression Top-1 Test Accuracy:        0.379

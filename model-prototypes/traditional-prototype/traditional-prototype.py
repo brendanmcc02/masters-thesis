@@ -1,4 +1,4 @@
-from utils import *
+from traditional_prototype_utils import *
 
 user_college_course_preferences = { "nfq_levels": [8], 
                                     "colleges": ["Trinity College Dublin - TCD", 
