@@ -12,7 +12,7 @@ user_riasec_vector = [ 0, 0, 0, 0, 0, 0, 0, 0, # R
                        0, 1, 3, 0, 2, 1, 0, 1, # E
                        1, 1, 4, 3, 4, 2, 2, 2] # C
 user_lc_subject_preferences = { "Mathematics": 4, 
-                                "English": 4, 
+                                "English": 3, 
                                 "Irish": 1, 
                                 "Physics": 4, 
                                 "Design and Communication Graphics": 4, 

@@ -17,7 +17,7 @@ NUMBER_OF_COLLEGE_MAJOR_CATEGORIES = 15
 VECTOR_REPRESENTATION_DIMENSION_SIZE = NUMBER_OF_RIASEC_CATEGORIES + NUMBER_OF_COLLEGE_MAJOR_CATEGORIES + 1 # + 1 for points
 
 POINTS_VECTOR_INDEX = 6
-STARTING_CATEGORY_VECTOR_INDEX = POINTS_VECTOR_INDEX + 1
+STARTING_COLLEGE_MAJOR_CATEGORY_VECTOR_INDEX = POINTS_VECTOR_INDEX + 1
 
 MIN_POINTS = 0 # global variables, will be modified
 MAX_POINTS = 0 # global variables, will be modified
@@ -26,7 +26,7 @@ MAX_RIASEC_QUESTION_VALUE = 4.0 # assuming 0-4, not 1-5!
 RIASEC_CATEGORIES = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprising', 'Conventional']
 COLLEGE_MAJOR_CATEGORIES = ['agriculture & natural resources', 'arts', 'biology & life science', 'business', 'communications & journalism', 'computers & mathematics', 'education', 'engineering', 'health', 'humanities & liberal arts', 'industrial arts & consumer services', 'law & public policy', 'physical sciences', 'psychology & social work', 'social science']
 
-LC_SUBJECTS_TO_RIASEC_MAP = {
+leaving_cert_SUBJECTS_TO_RIASEC_MAP = {
                             # practical
                             "Construction Studies": ["Realistic"], 
                             "Engineering": ["Realistic", "Investigative"], 
@@ -118,7 +118,7 @@ def get_normalized_points_vector(points, min_points, max_points):
 
 def one_hot_encode(course, vectorized_representation):
     for category in course['categories']:
-        vectorized_representation[STARTING_CATEGORY_VECTOR_INDEX + COLLEGE_MAJOR_CATEGORIES.index(category)] = 1.0
+        vectorized_representation[STARTING_COLLEGE_MAJOR_CATEGORY_VECTOR_INDEX + COLLEGE_MAJOR_CATEGORIES.index(category)] = 1.0
 
 def get_weighted_categories_model(should_retrain_model):
     clean_riasec_college_major_categories = pd.read_csv("../../datasets/open-psychometrics/clean_riasec_college_major_categories.tsv", sep='\t')
@@ -163,31 +163,29 @@ def get_normalized_vector(vector):
 
     return vector
 
-def get_simplified_user_riasec_vector(user_riasec_vector, lc_subjects_preferences):
+def get_simplified_user_riasec_vector(user_riasec_vector, leaving_cert_subjects_preferences):
     riasec_category_vectors= []
     # reduce 48 -> 6 dimensions
     for i in range(0, len(user_riasec_vector), NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY):
         riasec_category_vectors.append(user_riasec_vector[i:i+NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY])
 
-    simplified_user_riasec_vector = factor_lc_subjects_into_riasec(riasec_category_vectors, lc_subjects_preferences)
+    simplified_user_riasec_vector = factor_leaving_cert_subjects_into_riasec(riasec_category_vectors, leaving_cert_subjects_preferences)
 
-    normalized_simplified_user_riasec_vector = get_normalized_vector(simplified_user_riasec_vector)
+    return np.array(simplified_user_riasec_vector, dtype='float32')
 
-    return np.array(normalized_simplified_user_riasec_vector, dtype='float32')
-
-def factor_lc_subjects_into_riasec(riasec_category_vectors, lc_subjects_preferences):
-    for subject in lc_subjects_preferences:
-        subject_interests = LC_SUBJECTS_TO_RIASEC_MAP[subject]
+def factor_leaving_cert_subjects_into_riasec(riasec_category_vectors, leaving_cert_subjects_preferences):
+    for subject in leaving_cert_subjects_preferences:
+        subject_interests = leaving_cert_SUBJECTS_TO_RIASEC_MAP[subject]
 
         for interest in subject_interests:
-            riasec_category_vectors[RIASEC_CATEGORIES.index(interest)].append(lc_subjects_preferences[subject])
+            riasec_category_vectors[RIASEC_CATEGORIES.index(interest)].append(leaving_cert_subjects_preferences[subject])
 
     simplified_user_riasec_vector = np.zeros(len(RIASEC_CATEGORIES))
 
     for i in range(len(riasec_category_vectors)):
         simplified_user_riasec_vector[i] = np.mean(riasec_category_vectors[i])
 
-    return simplified_user_riasec_vector
+    return get_normalized_vector(simplified_user_riasec_vector)
 
 def get_top_k_results(cao_courses, user_vector, k):
     cached_user_vector_magnitude = np.linalg.norm(user_vector)
@@ -230,14 +228,22 @@ def get_filtered_cao_courses(user_college_course_preferences):
 
     return filtered_cao_courses
 
-def get_top_k_recommendations(filtered_cao_courses, user_riasec_vector, user_college_course_preferences, user_lc_subject_preferences, k, should_retrain_model):
+def print_stringified_category_vector(category_vector):
+    for i in range(len(category_vector)):
+        print(COLLEGE_MAJOR_CATEGORIES[i] + ": " + str(round(category_vector[i], 2)))
+    print("\n")
+
+def get_top_k_recommendations(filtered_cao_courses, user_riasec_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, k, should_retrain_model):
     weighted_categories_model = get_weighted_categories_model(should_retrain_model)
     user_categories_vector = get_weighted_categories_vector(user_riasec_vector, weighted_categories_model)
+    print_stringified_category_vector(user_categories_vector)
 
     user_points_vector = get_normalized_points_vector(user_college_course_preferences["expected_points"], MIN_POINTS, MAX_POINTS)
 
-    simplified_user_riasec_vector = get_simplified_user_riasec_vector(user_riasec_vector, user_lc_subject_preferences)
+    simplified_user_riasec_vector = get_simplified_user_riasec_vector(user_riasec_vector, user_leaving_cert_subject_preferences)
 
     user_vector = np.concatenate((simplified_user_riasec_vector, user_points_vector, user_categories_vector), axis=0)
 
     return get_top_k_results(filtered_cao_courses, user_vector, k)
+
+
