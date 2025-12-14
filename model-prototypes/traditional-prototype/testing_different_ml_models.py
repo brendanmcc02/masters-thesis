@@ -10,13 +10,16 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.svm import SVC
 from sklearn.ensemble import HistGradientBoostingClassifier, RandomForestClassifier
 
-number_of_top_k = 3
+number_of_top_k = 5
 
 dataset = pd.read_csv("../../datasets/open-psychometrics/clean_riasec_college_major_categories.tsv", sep='\t')
 
-feature_columns = [ 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8', 'I1', 'I2', 'I3', 'I4', 'I5', 'I6', 'I7', 'I8', 
-                    'A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8', 
-                    'E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8', 'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8']
+feature_columns = [ 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8',
+                    'I1', 'I2', 'I3', 'I4', 'I5', 'I6', 'I7', 'I8', 
+                    'A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8',
+                    'S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8', 
+                    'E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8',
+                    'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8']
 
 X = dataset[feature_columns]
 y = dataset['major_category']
@@ -30,7 +33,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, stratify=y ,random_state=42
 )
 
-# actual models
+# trained models
 
 ## multinomial naive bayes
 # multinomial_naive_bayes_model = MultinomialNB()
@@ -48,7 +51,7 @@ logistic_regression_model = LogisticRegression(
     solver='saga', # negligible performance differences, saga is the quickest
     C=1.0, # different values have negligible impact
     max_iter=1000,
-    warm_start=True,
+    warm_start=True, 
     random_state=42
 )
 logistic_regression_model.fit(X_train, y_train)
@@ -66,7 +69,7 @@ y_predicted_class_probabilities_logistic_regression = logistic_regression_model.
 # )
 # mlp_model.fit(X_train, y_train)
 # y_predicted_class_probabilities_mlp = mlp_model.predict_proba(X_test)
-# print("MLP Accuracy:                        " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_mlp, k=number_of_top_k), 3)))
+# print("MLP Test Accuracy:                        " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_mlp, k=number_of_top_k), 3)))
 
 ## support vector machine (svm)
 # svm_model = SVC(
@@ -79,13 +82,13 @@ y_predicted_class_probabilities_logistic_regression = logistic_regression_model.
 # svm_model = SVC(kernel='rbf', C=1.0, random_state=42) # slower
 # svm_model.fit(X_train, y_train)
 # y_predicted_class_probabilities_svm = svm_model.predict_proba(X_test)
-# print("SVM Accuracy:                        " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_svm, k=number_of_top_k), 3)))
+# print("SVM Test Accuracy:                        " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_svm, k=number_of_top_k), 3)))
 
 ## gradient boosting machines (gbm)
 # hgbm_model = HistGradientBoostingClassifier(random_state=42)
 # hgbm_model.fit(X_train, y_train)
 # y_predicted_class_probabilities_hgbm = hgbm_model.predict_proba(X_test)
-# print("Gradient Boosting Machines Accuracy: " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_hgbm, k=number_of_top_k), 3)))
+# print("Gradient Boosting Machines Test Accuracy: " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_hgbm, k=number_of_top_k), 3)))
 
 # random forest
 # n_estimators is the number of trees; often start with 100 or 200
@@ -96,47 +99,73 @@ y_predicted_class_probabilities_logistic_regression = logistic_regression_model.
 #     n_jobs=-1)
 # random_forest_model.fit(X_train, y_train)
 # y_predicted_class_probabilities_random_forest = random_forest_model.predict_proba(X_test)
-# print("Random Forest Accuracy:              " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_random_forest, k=number_of_top_k), 3)))
+# print("Random Forest Test Accuracy:              " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_random_forest, k=number_of_top_k), 3)))
 
 # baselines
 
 ## random
-# number_of_classes = len(np.unique(y_train))
-# number_of_random_samples = len(y_test)
-# np.random.seed(42) # Ensure random baseline is reproducible
-# random_scores = np.random.rand(number_of_random_samples, number_of_classes)
-# y_predicted_class_probabilities_random = random_scores / random_scores.sum(axis=1, keepdims=True)
+number_of_classes = len(np.unique(y_train))
+number_of_random_samples = len(y_test)
+np.random.seed(42) # Ensure random baseline is reproducible
+random_scores = np.random.rand(number_of_random_samples, number_of_classes)
+y_predicted_class_probabilities_random = random_scores / random_scores.sum(axis=1, keepdims=True)
 
 ## most frequent
-# most_frequent_model = DummyClassifier(strategy='most_frequent')
-# most_frequent_model.fit(X_train, y_train)
-# y_predicted_class_probabilities_most_frequent = most_frequent_model.predict_proba(X_test)
+most_frequent_model = DummyClassifier(strategy='most_frequent')
+most_frequent_model.fit(X_train, y_train)
+y_predicted_class_probabilities_most_frequent = most_frequent_model.predict_proba(X_test)
 
 # evaluation
 
 
 
 # print("\n# ACTUAL MODELS")
-# print("Multinomial Naive Bayes Accuracy:    " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_multinomial_naive_bayes, k=number_of_top_k), 3)))
-# print("Categorical Naive Bayes Accuracy:    " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_categorical_naive_bayes, k=number_of_top_k), 3)))
-print("Logistic Regression Accuracy:        " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_logistic_regression, k=number_of_top_k), 3)))
+# print("Multinomial Naive Bayes Test Accuracy:    " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_multinomial_naive_bayes, k=number_of_top_k), 3)))
+# print("Categorical Naive Bayes Test Accuracy:    " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_categorical_naive_bayes, k=number_of_top_k), 3)))
+print("Logistic Regression Test Accuracy:        " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_logistic_regression, k=number_of_top_k), 3)))
 
 
 # print("\n# BASELINE MODELS")
-# print("Random Model Accuracy:               " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_random, k=number_of_top_k), 3)))
-# print("Most Frequent Model Accuracy:        " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_most_frequent, k=number_of_top_k), 3)))
+print("Random Model Test Accuracy:               " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_random, k=number_of_top_k), 3)))
+print("Most Frequent Model Test Accuracy:        " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_most_frequent, k=number_of_top_k), 3)))
 
-# # ACTUAL MODELS
-# Multinomial Naive Bayes Accuracy:    0.562
-# Categorical Naive Bayes Accuracy:    0.551
-# Logistic Regression Accuracy:        0.639 # fast
-# SVM Accuracy:                        0.636 # so long
-# Gradient Boosting Machines Accuracy: 0.636 # fast
-# Random Forest Accuracy:              0.618
-# MLP Accuracy:                        0.622
+# # TRAINED MODELS, TOP K ACCURACY (K=3)
+# Multinomial Naive Bayes Test Accuracy:    0.562
+# Categorical Naive Bayes Test Accuracy:    0.551
+# Logistic Regression Test Accuracy:        0.639 # fast
+# Logistic Regression Train Accuracy:       0.645 # no indication of significant over-fitting
+# SVM Test Accuracy:                        0.636 # so long
+# Gradient Boosting Machines Test Accuracy: 0.636 # fast
+# Random Forest Test Accuracy:              0.618
+# MLP Test Accuracy:                        0.622
 
 # # BASELINE MODELS
-# Random Model Accuracy:               0.199
-# Most Frequent Model Accuracy:        0.349
+# Random Model Test Accuracy:               0.199
+# Most Frequent Model Test Accuracy:        0.349
+
+
+# 0-2 LIKERT SCALE
+# Logistic Regression Test Accuracy:        0.629
+# Logistic Regression Test Accuracy:        0.633
+
+# # TOP K ACCURACY (K=1)
+# Logistic Regression Test Accuracy:        0.363
+# Random Model Test Accuracy:               0.065
+# Most Frequent Model Test Accuracy:        0.229
+
+# # TOP K ACCURACY (K=2)
+# Logistic Regression Test Accuracy:        0.53
+# Random Model Test Accuracy:               0.131
+# Most Frequent Model Test Accuracy:        0.289
+
+# # TOP K ACCURACY (K=4)
+# Logistic Regression Test Accuracy:        0.723
+# Random Model Test Accuracy:               0.265
+# Most Frequent Model Test Accuracy:        0.382
+
+# # TOP K ACCURACY (K=5)
+# Logistic Regression Test Accuracy:        0.788
+# Random Model Test Accuracy:               0.332
+# Most Frequent Model Test Accuracy:        0.385
 
 

@@ -7,6 +7,9 @@ warnings.warn = warn
 import joblib
 import numpy as np
 from sklearn.linear_model import LogisticRegression
+from sklearn.preprocessing import LabelEncoder
+import json
+import pandas as pd
 
 NUMBER_OF_RIASEC_CATEGORIES = 6
 NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY = 8
@@ -15,6 +18,9 @@ VECTOR_REPRESENTATION_DIMENSION_SIZE = NUMBER_OF_RIASEC_CATEGORIES + NUMBER_OF_C
 
 POINTS_VECTOR_INDEX = 6
 STARTING_CATEGORY_VECTOR_INDEX = POINTS_VECTOR_INDEX + 1
+
+MIN_POINTS = 0 # global variables, will be modified
+MAX_POINTS = 0 # global variables, will be modified
 
 MAX_RIASEC_QUESTION_VALUE = 4.0 # assuming 0-4, not 1-5!
 RIASEC_CATEGORIES = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprising', 'Conventional']
@@ -72,14 +78,13 @@ LC_SUBJECTS_TO_RIASEC_MAP = {
                             "Economics": ["Investigative", "Enterprising"]
                             }
 
-def get_min_points(cao_courses):
-    min_points = 625
+RIASEC_DATASET_FEATURE_COLUMNS = [ 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8', 'I1', 'I2', 'I3', 'I4', 'I5', 'I6', 'I7', 'I8', 
+                                   'A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8', 
+                                   'E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8', 'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8']
 
-    for course in cao_courses:
-        if course['points']:
-            min_points = min(min_points, course['points'])
-
-    return min_points
+def get_min_points():
+    # some courses have null points, so there's no need to calculate the min
+    return 0.0
 
 def get_max_points(cao_courses):
     max_points = 0
@@ -115,9 +120,14 @@ def one_hot_encode(course, vectorized_representation):
     for category in course['categories']:
         vectorized_representation[STARTING_CATEGORY_VECTOR_INDEX + COLLEGE_MAJOR_CATEGORIES.index(category)] = 1.0
 
-def get_weighted_categories_model(X_train, y_train, isFirstTimeRunning):
-    saved_model_filename = "logistic_regression_model.joblib"
-    if isFirstTimeRunning:
+def get_weighted_categories_model(should_retrain_model):
+    clean_riasec_college_major_categories = pd.read_csv("../../datasets/open-psychometrics/clean_riasec_college_major_categories.tsv", sep='\t')
+    X = clean_riasec_college_major_categories[RIASEC_DATASET_FEATURE_COLUMNS]
+    label_encoder = LabelEncoder()
+    y = label_encoder.fit_transform(clean_riasec_college_major_categories['major_category'])
+
+    saved_model_filename = "saved_logistic_regression_model.joblib"
+    if should_retrain_model:
         model = LogisticRegression(
             multi_class='multinomial',
             solver='saga', # negligible performance differences, saga is the quickest
@@ -126,7 +136,7 @@ def get_weighted_categories_model(X_train, y_train, isFirstTimeRunning):
             random_state=42
         )
 
-        model.fit(X_train, y_train)
+        model.fit(X, y)
         joblib.dump(model, saved_model_filename)
     else:
         model = joblib.load(saved_model_filename)
@@ -140,9 +150,6 @@ def get_weighted_categories_vector(user_riasec_vector, model):
 
     return normalized_model_class_probabilities
 
-# TODO maybe some problems with normalizing,
-# what if they are all really high, they get set to 0,
-# can we somehow just expand it to 1.0 but not set to 0 or something?
 def get_normalized_vector(vector):
     maxValue = 0.0
     minValue = 1.0
@@ -164,7 +171,9 @@ def get_simplified_user_riasec_vector(user_riasec_vector, lc_subjects_preference
 
     simplified_user_riasec_vector = factor_lc_subjects_into_riasec(riasec_category_vectors, lc_subjects_preferences)
 
-    return np.array(simplified_user_riasec_vector, dtype='float32')
+    normalized_simplified_user_riasec_vector = get_normalized_vector(simplified_user_riasec_vector)
+
+    return np.array(normalized_simplified_user_riasec_vector, dtype='float32')
 
 def factor_lc_subjects_into_riasec(riasec_category_vectors, lc_subjects_preferences):
     for subject in lc_subjects_preferences:
@@ -197,3 +206,38 @@ def get_top_k_results(cao_courses, user_vector, k):
 def get_cosine_similarity(user_vector, cached_user_vector_magnitude, course_vector):
     return np.dot(user_vector, course_vector) / (cached_user_vector_magnitude * np.linalg.norm(course_vector))
 
+# TODO what about courses with portfolios that have excessive points?
+# no one would get recommended courses over 625 points
+def get_filtered_cao_courses(user_college_course_preferences):
+    with open("../../datasets/cao-college-courses/cao-college-courses.json", 'r', encoding='utf-8') as f: 
+        cao_courses = json.load(f)
+
+    filtered_cao_courses = []
+    for course in cao_courses:
+        if (course["nfqLevel"] in user_college_course_preferences["nfq_levels"] and 
+            course["college"] in user_college_course_preferences["colleges"] and 
+            course["points"] <= user_college_course_preferences["expected_points"]):
+            filtered_cao_courses.append(course)
+
+    global MIN_POINTS
+    global MAX_POINTS
+
+    MIN_POINTS = get_min_points()
+    MAX_POINTS = get_max_points(filtered_cao_courses)
+
+    for course in filtered_cao_courses:
+        add_vectorized_course_as_attribute(course, MIN_POINTS, MAX_POINTS)
+
+    return filtered_cao_courses
+
+def get_top_k_recommendations(filtered_cao_courses, user_riasec_vector, user_college_course_preferences, user_lc_subject_preferences, k, should_retrain_model):
+    weighted_categories_model = get_weighted_categories_model(should_retrain_model)
+    user_categories_vector = get_weighted_categories_vector(user_riasec_vector, weighted_categories_model)
+
+    user_points_vector = get_normalized_points_vector(user_college_course_preferences["expected_points"], MIN_POINTS, MAX_POINTS)
+
+    simplified_user_riasec_vector = get_simplified_user_riasec_vector(user_riasec_vector, user_lc_subject_preferences)
+
+    user_vector = np.concatenate((simplified_user_riasec_vector, user_points_vector, user_categories_vector), axis=0)
+
+    return get_top_k_results(filtered_cao_courses, user_vector, k)
