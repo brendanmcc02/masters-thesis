@@ -1,5 +1,12 @@
+# ignores warnings
+def warn(*args, **kwargs):
+    pass
+import warnings
+warnings.warn = warn
+
+import joblib
 import numpy as np
-from ml_models import *
+from sklearn.linear_model import LogisticRegression
 
 NUMBER_OF_RIASEC_CATEGORIES = 6
 NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY = 8
@@ -92,24 +99,62 @@ def get_vectorized_representation(course, min_points, max_points):
     for interest in course['interests']:
         vectorized_representation[RIASEC_CATEGORIES.index(interest)] = 1.0
 
-    vectorized_representation[POINTS_VECTOR_INDEX] = get_normalized_points(course['points'], min_points, max_points)
+    vectorized_representation[POINTS_VECTOR_INDEX] = get_normalized_points_vector(course['points'], min_points, max_points)
 
     one_hot_encode(course, vectorized_representation)
 
     return vectorized_representation
 
-def get_normalized_points(points, min_points, max_points):
+def get_normalized_points_vector(points, min_points, max_points):
     if not points:
         points = 0.0
     
-    return (points - min_points) / (max_points - min_points)
+    return np.array([(points - min_points) / (max_points - min_points)])
 
 def one_hot_encode(course, vectorized_representation):
     for category in course['categories']:
         vectorized_representation[STARTING_CATEGORY_VECTOR_INDEX + COLLEGE_MAJOR_CATEGORIES.index(category)] = 1.0
 
-def get_weighted_categories_vector(user_riasec_vector):
-    return multiNomialNaiveBayes(user_riasec_vector)
+def get_weighted_categories_model(X_train, y_train, isFirstTimeRunning):
+    saved_model_filename = "logistic_regression_model.joblib"
+    if isFirstTimeRunning:
+        model = LogisticRegression(
+            multi_class='multinomial',
+            solver='saga', # negligible performance differences, saga is the quickest
+            C=1.0, # different values have negligible impact
+            max_iter=1000,
+            random_state=42
+        )
+
+        model.fit(X_train, y_train)
+        joblib.dump(model, saved_model_filename)
+    else:
+        model = joblib.load(saved_model_filename)
+
+    return model
+
+def get_weighted_categories_vector(user_riasec_vector, model):
+    user_riasec_vector = np.array(user_riasec_vector).reshape(1, -1) # 1d -> 2d array
+    model_class_probabilities = model.predict_proba(user_riasec_vector)
+    normalized_model_class_probabilities = get_normalized_vector(model_class_probabilities[0]) # interested in only the first element
+
+    return normalized_model_class_probabilities
+
+# TODO maybe some problems with normalizing,
+# what if they are all really high, they get set to 0,
+# can we somehow just expand it to 1.0 but not set to 0 or something?
+def get_normalized_vector(vector):
+    maxValue = 0.0
+    minValue = 1.0
+
+    for val in vector:
+        maxValue = max(maxValue, val)
+        minValue = min(minValue, val)
+
+    for i in range(len(vector)):
+        vector[i] = (vector[i] - minValue) / (maxValue - minValue)
+
+    return vector
 
 def get_simplified_user_riasec_vector(user_riasec_vector, lc_subjects_preferences):
     riasec_category_vectors= []
@@ -134,4 +179,21 @@ def factor_lc_subjects_into_riasec(riasec_category_vectors, lc_subjects_preferen
         simplified_user_riasec_vector[i] = np.mean(riasec_category_vectors[i])
 
     return simplified_user_riasec_vector
+
+def get_top_k_results(cao_courses, user_vector, k):
+    cached_user_vector_magnitude = np.linalg.norm(user_vector)
+    for course in cao_courses:
+        course["similarity"] = get_cosine_similarity(user_vector, cached_user_vector_magnitude, course["vector_representation"])
+
+    results = sorted(
+        cao_courses,
+        key=lambda x: x["similarity"],
+        reverse=True
+    )
+    top_k_results = results[0:k]
+
+    return top_k_results
+
+def get_cosine_similarity(user_vector, cached_user_vector_magnitude, course_vector):
+    return np.dot(user_vector, course_vector) / (cached_user_vector_magnitude * np.linalg.norm(course_vector))
 

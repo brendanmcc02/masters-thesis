@@ -11,6 +11,10 @@
         "overview": "This course provides a solid intellectual foundation in Theology in conjunction with one or two other Arts subjects. A scholarly discipline in the liberal arts, Theology offers the space and skills necessary for asking about, exploring and reflecting on the ultimate questions of existence and life.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "arts"
         ]
     },
     {
@@ -25,6 +29,10 @@
         "overview": "Theoretical Physics explores the natural world at its most fundamental level, using mathematical theories guided by experimental investigation. For some it is the foundation for an academic career in mathematics or physics.\nFor others it provides the basis for many career options in industry, medicine, law, finance and computing. Trinity provides a course which ranges widely across physics and mathematics. Its graduates are in demand for their technical skills and versatility.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "computers & mathematics"
         ]
     },
     {
@@ -39,6 +47,10 @@
         "overview": "Study the entire physical world from the microscopic to the cosmic - topics such as black holes, the Big Bang, quantum computing, elementary particles and the fundamental forces of nature, superconductivity, neural networks, matter in extreme conditions, and simulation of physical and biological systems.\nIn this degree you will develop a deeper understanding of the various areas of modern mathematics, including analysis, algebra, geometry, and topology.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "physical sciences",
+            "computers & mathematics"
         ]
     },
     {
@@ -55,6 +67,11 @@
             "Enterprising",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "business",
+            "communications & journalism",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -71,6 +88,10 @@
             "Social",
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -86,6 +107,11 @@
         "interests": [
             "Enterprising",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "arts"
         ]
     },
     {
@@ -101,6 +127,11 @@
         "interests": [
             "Enterprising",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "arts"
         ]
     },
     {
@@ -116,6 +147,11 @@
         "interests": [
             "Enterprising",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "arts"
         ]
     },
     {
@@ -132,6 +168,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -146,6 +186,10 @@
         "overview": "The Bachelor of Business in Tourism Management provides students with the expertise and knowledge needed to become a successful manager or entrepreneur in this challenging and exciting industry.\nThis course has a strong emphasis on the broad business, management and marketing subjects complemented with tourism specific modules. Learning is based around class delivered lectures, field trips, practical lab classes, guest speakers, and both group and individual project work.",
         "interests": [
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -162,6 +206,10 @@
             "Enterprising",
             "Conventional",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -176,6 +224,10 @@
         "overview": "The Bachelor of Business (Honours) in Tourism Management provides students with the expertise and knowledge needed to become a successful manager or entrepreneur in this challenging and exciting industry. This course has a strong emphasis on the broad business, management and marketing subjects complemented with tourism specific modules.\nLearning is based around class delivered lectures, field trips, practical lab classes, guest speakers, and both group and individual project work.",
         "interests": [
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -191,6 +243,11 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "arts"
         ]
     },
     {
@@ -205,6 +262,10 @@
         "overview": "TV & Media Production is a practical, hands-on course. You will work in groups and individually to develop ideas from script to screen. This course teaches a wide range of skills covering each stage of media production. Research and producing, script writing, camera work, graphics, audio and video editing are all taught over the three years - providing a solid, practical foundation for future work in the media industry.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "communications & journalism",
+            "arts"
         ]
     },
     {
@@ -219,6 +280,10 @@
         "overview": "The Bachelor of Science Honours degree in TV and Media Production is a hands-on course where students find themselves completely immersed in the practical world of media production.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "communications & journalism",
+            "arts"
         ]
     },
     {
@@ -234,6 +299,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "biology & life science",
+            "health",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -249,6 +319,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -264,6 +339,11 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -279,6 +359,11 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -294,6 +379,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -309,6 +399,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -324,6 +419,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -339,6 +439,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -354,6 +459,11 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -368,6 +478,9 @@
         "overview": "The undergraduate Visual Art programme at SETU Waterford offers students the opportunity to work broadly and experimental across a wide range of fine art media and practices, these include; drawing, painting, sculpture, print-making, photography, performance, video and digital media.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -382,6 +495,10 @@
         "overview": "Visual Communication is the art of problem- solving and communication through the use of type, space, and image. It presents the idea that a graphic message has the power to inform, educate, or persuade a person or audience. It can be presented as a still image, or motion graphics, including sound, and in some cases, interactive activity.\nYou will produce artwork for print, interface design, motion graphics, illustration, photography, typography, packaging, branding, advertising campaigns and much more!",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "communications & journalism",
+            "arts"
         ]
     },
     {
@@ -396,6 +513,10 @@
         "overview": "The three-year course is designed to facilitate a transition from novice student to creative practitioner. Students are taught a variety of design and pratical skills to achieve this.\nThis highly practical course features a studio environment where students complete projects in a variety of 2D design disciplines, such as: branding; illustration; packaging; typography; advertising; layout; signage; websites; mobile devices; games; moving image video and animation.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "communications & journalism",
+            "arts"
         ]
     },
     {
@@ -410,6 +531,10 @@
         "overview": "Visual Communication and Design is a problem-solving practice that uses image, text, print and screen to communicate messages. This discipline originates from graphic design and now incorporates the traditional skills of drawing, printing, photography, typography and other graphic processes with the new digital realms of video, web and animation.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "communications & journalism",
+            "arts"
         ]
     },
     {
@@ -425,6 +550,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -439,6 +568,11 @@
         "overview": "The BSc. in Visual Effects for Film, TV and Animation is designed to develop your artistic and technical abilities to produce world-class content from social media to the cinema screen. film, television, and animation sectors both nationally and internationally.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism",
+            "computers & mathematics"
         ]
     },
     {
@@ -453,6 +587,11 @@
         "overview": "Are you interested in learning how to create the latest Visual Effects you see in Films? Do you like to create your own content on social media? The BSc. in Visual Effects for Film, TV and Animation is designed to develop your artistic and technical abilities to produce world-class content from social media to the cinema screen, film, television, and animation sectors both nationally and internationally.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism",
+            "computers & mathematics"
         ]
     },
     {
@@ -468,6 +607,11 @@
         "interests": [
             "Artistic",
             "Enterprising"
+        ],
+        "categories": [
+            "industrial arts & consumer services",
+            "arts",
+            "business"
         ]
     },
     {
@@ -482,6 +626,9 @@
         "overview": "This programme will allow you to develop a range of skills for professional vocal performance in a variety of contexts.  You will also develop your scholarly knowledge and inquiry through engaging academic studies focused on singing and artistic practice in educational, social, community and health settings.\nYou will focus and advance your vocal performance practice through individual voice lessons combined with group performance, ensemble and musicianship classes. Vocalists engaged in this course at the Irish World Academy will explore a range of vocal styles and traditions. Students enter the programme from popular (CCM), music theatre/stage school, singer/songwriter, folk, sacred or choral backgrounds (among others). You will find that the core aspects of the programme will support your development across multiple styles, broadening your singing and developing functional awareness of your instrument.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -497,6 +644,10 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "biology & life science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -511,6 +662,9 @@
         "overview": "The BA World Languages is a four-year specialist language programme, including a year of study abroad and, in most of the languages offered, Computer-Assisted Language Learning to complement traditional teaching.\nIt aims to produce graduates with sought-after language skills, as well as an understanding of language as a system and of the cultures of the languages studied.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -525,6 +679,9 @@
         "overview": "This programme will support you to develop your performance skills in your own current, chosen style(s) of music, while offering you the opportunity to explore and play a wide range of global musics. You will also develop your scholarly and theoretical knowledge of music. In order to offer new insights into the world of music and enhance your creative potential, you will be introduced to a wide range of performance practices and scholarly traditions. You will also study a number of vocational modules that will support you in your development of a fulfilling career.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts"
         ]
     },
     {
@@ -539,6 +696,10 @@
         "overview": "This full-time undergraduate degree programme in Writing and Literature* is delivered fully online, facilitating wider access to this creative programme. All lectures will be delivered live online and students will be able to fully participate in group work and project work by means of innovative online supports. There is no requirement to attend campus.\nThis innovative new programme focuses on developing writing skills over the course of three years. The students embark upon a range of writing covering fiction, nonfiction, poetry, screenwriting, playwriting, flash fiction, cultural journalism and other forms of writing.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "arts"
         ]
     },
     {
@@ -553,6 +714,10 @@
         "overview": "This programme focuses on developing skills in fiction, nonfiction, poetry, screenwriting, playwriting, cultural journalism and other forms. Coursework is anchored by a focus on the processes of creative and critical writing along with a detailed study of literature, drama and film. The programme is delivered through interactive workshops, seminars and field trips. Visiting lecturers include novelists, poets, screenwriters, playwrights, podcasters, journalists, editors, agents and publishers.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "arts"
         ]
     },
     {
@@ -567,6 +732,10 @@
         "overview": "The aim of this programme is to prepare students to engage successfully in Youth Work and Community Development practice in an increasingly complex world. The programme will equip students with the knowledge, values, and skills necessary to assess and address a wide variety of challenges, using the best available evidence to guide practice and support communities meaningfully.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -581,6 +750,9 @@
         "overview": "This dedicated programme immerses students in the fascinating world of the animal kingdom, with specialised modules, practical skills training and work placement opportunities.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "biology & life science"
         ]
     }
 ]

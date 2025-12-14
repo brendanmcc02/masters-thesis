@@ -11,6 +11,10 @@
         "overview": "The Bachelor of Social Science (BSocSc) at University College Dublin is the premier honours degree of its kind in Ireland. It is the standard qualification for those working in policy making and social services and recently celebrated its fiftieth anniversary. If you are interested in exploring how societies, communities and families work and wish to make a difference to the world, affect cultural change, contribute to public service or corporate responsibility, then this course is for you",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "psychology & social work"
         ]
     },
     {
@@ -25,6 +29,10 @@
         "overview": "Social Policy\nThis subject is relevant to students intending to pursue a career in research, social policy analysis and evaluation, management and planning within the social services, both voluntary and statutory, as well as to those with a general interest in society and social policy.\nEconomics\nEconomists explore how people and institutions behave and function when producing, exchanging and using goods and services. Economists’ main motivation is to find mechanisms that encourage efficiency in the production and use of material goods and resources, while at the same time producing a pattern of income distribution that society finds acceptable.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "business"
         ]
     },
     {
@@ -39,6 +47,10 @@
         "overview": "Social Policy\nCurious about social and economic policy issues around the world? Searching for a course that demands both academic and vocational qualities? Interested in understanding society, its social problems and have a desire to make a difference? Then Social Policy may be the subject choice for you. It is particularly relevant to students intending to pursue a career in research, social policy analysis and evaluation, management and planning within the social services, both voluntary and statutory, as well as to those with a general interest in society and social policy.\nPolitical Science\nPolitical Science will appeal to students who are excited about exploring the background to current events, the nature and use of power and how decisions are made that impact on wider society. If you are interested in having an in-depth knowledge of public affairs, developing critical and much sought after research skills and if your career interests lie in journalism, public service, teaching, public policy, international organisation and/or business then Political Science may be for you.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "law & public policy"
         ]
     },
     {
@@ -54,6 +66,10 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "psychology & social work"
         ]
     },
     {
@@ -69,6 +85,11 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "psychology & social work",
+            "law & public policy"
         ]
     },
     {
@@ -84,6 +105,10 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "psychology & social work"
         ]
     },
     {
@@ -99,6 +124,12 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "psychology & social work",
+            "law & public policy",
+            "business"
         ]
     },
     {
@@ -114,6 +145,10 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -129,6 +164,10 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "psychology & social work"
         ]
     },
     {
@@ -144,6 +183,10 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "computers & mathematics"
         ]
     },
     {
@@ -159,6 +202,15 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "humanities & liberal arts",
+            "law & public policy",
+            "business",
+            "communications & journalism",
+            "physical sciences",
+            "psychology & social work"
         ]
     },
     {
@@ -174,6 +226,12 @@
         "interests": [
             "Social",
             "Enterprising"
+        ],
+        "categories": [
+            "social science",
+            "arts",
+            "communications & journalism",
+            "law & public policy"
         ]
     },
     {
@@ -188,6 +246,10 @@
         "overview": "Social work is a profession concerned with supporting and helping people in a variety of situations and settings.\nPeople who use social work services include young and adult offenders, children, families, older people, people with mental and physical illness and disability, homeless people, unemployed people, ethnic groups, Travellers and people with drug and alcohol problems. Ultimately, social work aims to support people to live more successfully, within their communities by helping them to find solutions to their problems.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "psychology & social work",
+            "social science"
         ]
     },
     {
@@ -203,6 +265,10 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "psychology & social work"
         ]
     },
     {
@@ -219,6 +285,10 @@
             "Investigative",
             "Artistic",
             "Social"
+        ],
+        "categories": [
+            "social science",
+            "law & public policy"
         ]
     },
     {
@@ -234,6 +304,11 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "social science",
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -248,6 +323,10 @@
         "overview": "Sociology\nIf you want to understand the social changes taking place in the world today, and you are curious about people and society, then Sociology is for you. You will also gain the ability to understand topical issues and to present and communicate information and thoughts coherently. In addition, you will learn invaluable analytical, communication, research and presentation skills.\nMiddle Eastern, Jewish & Islamic Civilisations\nJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -263,6 +342,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "social science",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -277,6 +360,10 @@
         "overview": "Sociology\nIf you want to understand the social changes taking place in the world today, and you are curious about people and society, then Sociology is for you. You will also gain the ability to understand topical issues and to present and communicate information and thoughts coherently. In addition, you will learn invaluable analytical, communication, research and presentation skills – transferable skills which can be applied to a wide range of careers and postgraduate programmes.\nSocial Policy\nCurious about social and economic policy issues around the world? Searching for a course that demands both academic and vocational qualities? Interested in understanding society, its social problems and have a desire to make a difference? Then Social Policy may be the subject choice for you. It is particularly relevant to students intending to pursue a career in research, social policy analysis and evaluation, management and planning within the social services, both voluntary and statutory, as well as to those with a general interest in society and social policy.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "social science",
+            "psychology & social work"
         ]
     },
     {
@@ -293,6 +380,10 @@
             "Investigative",
             "Realistic",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "engineering"
         ]
     },
     {
@@ -308,6 +399,10 @@
         "interests": [
             "Artistic",
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "engineering"
         ]
     },
     {
@@ -323,6 +418,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "engineering"
         ]
     },
     {
@@ -338,6 +437,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "engineering"
         ]
     },
     {
@@ -353,6 +456,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -368,6 +475,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -383,6 +494,9 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -398,6 +512,9 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -413,6 +530,9 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -428,6 +548,9 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -443,6 +566,9 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -458,6 +584,9 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -473,6 +602,9 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -488,6 +620,9 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -504,6 +639,10 @@
             "Investigative",
             "Conventional",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "law & public policy"
         ]
     },
     {
@@ -519,6 +658,10 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "arts"
         ]
     },
     {
@@ -533,6 +676,9 @@
         "overview": "The BSc in Software Systems Development is a three year ordinary degree course. In this degree programme students will learn how to design, develop, and maintain software applications such as interactive web sites, mobile apps, database applications, and business intelligence tools. Our students also have the option to choose and elective stream of modules in either business, languages or psychology.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -548,6 +694,9 @@
         "interests": [
             "Investigative",
             "Artistic"
+        ],
+        "categories": [
+            "computers & mathematics"
         ]
     },
     {
@@ -563,6 +712,10 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts",
+            "engineering"
         ]
     },
     {
@@ -577,6 +730,9 @@
         "overview": "Within the Modern Languages programme you study two modern European languages to degree level. It is the most intensive exposure to languages and cultures that Trinity College has to offer. You can choose between French, German, Irish, Italian, Russian and Spanish. Apart from French and Irish all languages can be studied from both advanced and beginners level.\nOur programmes will give you the opportunity for full immersion into the languages and cultures that you study. They will enable you to acquire a high level of language competence and fluency, combined with an in-depth understanding of the main cultures and societies in which these languages are spoken.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -592,6 +748,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -607,6 +767,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -622,6 +786,10 @@
         "interests": [
             "Social",
             "Artistic"
+        ],
+        "categories": [
+            "health",
+            "psychology & social work"
         ]
     },
     {
@@ -637,6 +805,10 @@
         "interests": [
             "Social",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "health"
         ]
     },
     {
@@ -652,6 +824,10 @@
         "interests": [
             "Realistic",
             "Social"
+        ],
+        "categories": [
+            "health",
+            "education"
         ]
     },
     {
@@ -667,6 +843,11 @@
         "interests": [
             "Realistic",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "health",
+            "social science"
         ]
     },
     {
@@ -681,6 +862,11 @@
         "overview": "Sport and Exercise Science develops an understanding of the human body’s response to exercise, how to maximise performance in athletes, the benefits of physical activity for health, and the psychological and sociological factors influencing sport and exercise.\nThis course incorporates the core areas of biomechanics, physiology and psychology, and studentsare encouraged to develop an interdisciplinary approach to solving real-world problems in sport and exercise.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "psychology & social work"
         ]
     },
     {
@@ -697,6 +883,11 @@
             "Realistic",
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "psychology & social work"
         ]
     },
     {
@@ -713,6 +904,11 @@
             "Realistic",
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "physical sciences"
         ]
     },
     {
@@ -729,6 +925,11 @@
             "Social",
             "Realistic",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "education",
+            "health"
         ]
     },
     {
@@ -745,6 +946,11 @@
             "Social",
             "Realistic",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "education",
+            "health"
         ]
     },
     {
@@ -761,6 +967,11 @@
             "Social",
             "Realistic",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "education",
+            "health"
         ]
     },
     {
@@ -775,6 +986,11 @@
         "overview": "The Bachelor of Business (Honours) in Sport Management (with international placement) is the only sports business degree in Ireland which guarantees an international placement. We work with students to find rewarding and challenging experiences overseas which will help them develop into leaders and innovators in the sport industry. Post-certification, successful students will have opportunities to work in diverse roles within the sport and leisure industry.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services",
+            "social science"
         ]
     },
     {
@@ -791,6 +1007,11 @@
             "Realistic",
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "physical sciences"
         ]
     },
     {
@@ -807,6 +1028,11 @@
             "Realistic",
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "physical sciences"
         ]
     },
     {
@@ -823,6 +1049,10 @@
             "Realistic",
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "health"
         ]
     },
     {
@@ -839,6 +1069,11 @@
             "Social",
             "Realistic",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "education",
+            "health"
         ]
     },
     {
@@ -855,6 +1090,11 @@
             "Social",
             "Realistic",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "education",
+            "health"
         ]
     },
     {
@@ -870,6 +1110,10 @@
         "interests": [
             "Realistic",
             "Social"
+        ],
+        "categories": [
+            "business",
+            "health"
         ]
     },
     {
@@ -886,6 +1130,11 @@
             "Social",
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "physical sciences"
         ]
     },
     {
@@ -901,6 +1150,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -916,6 +1169,10 @@
         "interests": [
             "Realistic",
             "Social"
+        ],
+        "categories": [
+            "health",
+            "education"
         ]
     },
     {
@@ -931,6 +1188,11 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "education",
+            "psychology & social work"
         ]
     },
     {
@@ -946,6 +1208,11 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "education",
+            "physical sciences"
         ]
     },
     {
@@ -961,6 +1228,10 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "health",
+            "education"
         ]
     },
     {
@@ -976,6 +1247,10 @@
         "interests": [
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "education"
         ]
     },
     {
@@ -991,6 +1266,10 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "education"
         ]
     },
     {
@@ -1006,6 +1285,11 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "business",
+            "health",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1021,6 +1305,11 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "business",
+            "health",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1036,6 +1325,11 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "business",
+            "health",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1051,6 +1345,11 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "business",
+            "health",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1066,6 +1365,11 @@
         "interests": [
             "Social",
             "Realistic"
+        ],
+        "categories": [
+            "business",
+            "health",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1082,6 +1386,10 @@
             "Realistic",
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -1098,6 +1406,11 @@
             "Realistic",
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "physical sciences"
         ]
     },
     {
@@ -1114,6 +1427,11 @@
             "Realistic",
             "Social",
             "Investigative"
+        ],
+        "categories": [
+            "health",
+            "biology & life science",
+            "physical sciences"
         ]
     },
     {
@@ -1129,6 +1447,10 @@
         "interests": [
             "Investigative",
             "Social"
+        ],
+        "categories": [
+            "health",
+            "biology & life science"
         ]
     },
     {
@@ -1143,6 +1465,10 @@
         "overview": "If you’re thinking about a career in sport, a Sports Studies degree from the Technological University of Dublin will help you be the difference. We’ve integrated our academic courses with the University's world-class sports facilities to provide a unique and rewarding studying and sporting environment.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "health",
+            "social science"
         ]
     },
     {
@@ -1158,6 +1484,11 @@
         "interests": [
             "Social",
             "Enterprising"
+        ],
+        "categories": [
+            "business",
+            "health",
+            "social science"
         ]
     },
     {
@@ -1172,6 +1503,10 @@
         "overview": "If you are interested in studying Statistics with an Arts and Humanities or Social Science subject, then this degree could be for you.\nStatistics is the science of transforming data into knowledge and understanding, providing a principled approach to making data-informed decisions. Statistical methods enable us to gain insights from data, and with the advent of powerful computing technology, these methods have become widely used in many sectors.",
         "interests": [
             "Investigative"
+        ],
+        "categories": [
+            "computers & mathematics",
+            "social science"
         ]
     },
     {
@@ -1187,6 +1522,10 @@
         "interests": [
             "Realistic",
             "Social"
+        ],
+        "categories": [
+            "health",
+            "education"
         ]
     },
     {
@@ -1202,6 +1541,10 @@
         "interests": [
             "Realistic",
             "Social"
+        ],
+        "categories": [
+            "health",
+            "education"
         ]
     },
     {
@@ -1217,6 +1560,10 @@
         "interests": [
             "Realistic",
             "Social"
+        ],
+        "categories": [
+            "health",
+            "education"
         ]
     },
     {
@@ -1232,6 +1579,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1247,6 +1597,9 @@
         "interests": [
             "Investigative",
             "Realistic"
+        ],
+        "categories": [
+            "engineering"
         ]
     },
     {
@@ -1262,6 +1615,11 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "social science",
+            "business"
         ]
     },
     {
@@ -1277,6 +1635,12 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "social science",
+            "physical sciences",
+            "business"
         ]
     },
     {
@@ -1291,6 +1655,10 @@
         "overview": "The BA (Hons) in Sustainability Management programme aims to provide learners with the knowledge, skills, and mindset necessary to address global sustainability challenges, as well as creating and maintaining sustainable operations in the public, commercial and not-for-profit sectors.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "business"
         ]
     },
     {
@@ -1305,6 +1673,11 @@
         "overview": "Students will develop a deep understanding of modern agricultural science with a strong focus on food production and processing, quality assurance and safety, business and economic management and environmental science. Students will focus on the core principles of agri-food production, with a solid foundation in business and economic management, environmental science, food production and processing, agricultural mechanisation, quality assurance and health & safety.",
         "interests": [
             "Realistic"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "business",
+            "physical sciences"
         ]
     },
     {
@@ -1320,6 +1693,11 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "agriculture & natural resources",
+            "physical sciences"
         ]
     },
     {
@@ -1335,6 +1713,10 @@
         "interests": [
             "Realistic",
             "Investigative"
+        ],
+        "categories": [
+            "engineering",
+            "agriculture & natural resources"
         ]
     },
     {
@@ -1351,6 +1733,10 @@
             "Realistic",
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "business"
         ]
     },
     {
@@ -1367,6 +1753,10 @@
             "Realistic",
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "agriculture & natural resources",
+            "business"
         ]
     },
     {
@@ -1382,6 +1772,10 @@
         "interests": [
             "Enterprising",
             "Conventional"
+        ],
+        "categories": [
+            "business",
+            "engineering"
         ]
     },
     {
@@ -1396,6 +1790,10 @@
         "overview": "This course is for students who want to tell stories and express themselves through drama, comedy, non-fiction and formatted genres. Immerse yourself in the multi-disciplinary world of modern television content creation, from traditional linear TV to multi-platform content. Although the ways in which consume, shape and interact with the medium are changing, the core skills of good storytelling remain.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "communications & journalism",
+            "arts"
         ]
     },
     {
@@ -1411,6 +1809,10 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1426,6 +1828,10 @@
         "interests": [
             "Artistic",
             "Realistic"
+        ],
+        "categories": [
+            "arts",
+            "industrial arts & consumer services"
         ]
     },
     {
@@ -1440,6 +1846,10 @@
         "overview": "Theatre and Drama Studies is a practice-based course for those intending to pursue a career in theatre or dramatic arts. Individual acting skills, voice production, ensemble performance and related theatre design and technical audio visual studies equip the student to work in live theatre, broadcast media or community-based arts facilitation.\nThis honours degree course centres on theatre performance training, with supporting modules to facilitate wider career options. The course aims to produce artists that are physically and vocally flexible and intellectually alive and curious.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1454,6 +1864,10 @@
         "overview": "This course is perfect for students who know they want to work in areas of Theatre and Film but have not yet decided on which sector to specialise in. The course offers potential performing arts students the ability to develop all the skills necessary not only in voice, acting and movement, but also in film studies, film production and postproduction resulting in a well-rounded and diversly skilled graduate.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "communications & journalism"
         ]
     },
     {
@@ -1468,6 +1882,10 @@
         "overview": "Our BA (Hons) Theatre & Performative Practices degree at University College Cork (UCC) is a window to the exciting world of theatre and performance. Our programme explores the world of theatre and the wide spectrum of performance: such as dance, outdoor performance, and music theatre. Our teaching focuses on three key themes; Making theatre, Theatre for change, The business of theatre and performance production.",
         "interests": [
             "Artistic"
+        ],
+        "categories": [
+            "arts",
+            "business"
         ]
     },
     {
@@ -1482,6 +1900,9 @@
         "overview": "The BTh is an immersion into the Christian intellectual tradition. Academically rigorous and intellectually engaging, this three-year full time degree provides students with a holistic formation in theology, especially within the Catholic theological tradition.\nLearners delve into all major theological subdisciplines, including but not limited to the study of Scripture, moral theology or ethics, and systematic theology. Students receive a grounding in philosophy, languages, and the history of Christian thought and culture.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts"
         ]
     },
     {
@@ -1496,6 +1917,10 @@
         "overview": "The Department of Theology & Religious Studies offers a wide-ranging perspective on the phenomenon of religion, and Christianity in particular. It does so by drawing on a great number of sub-disciplines, such as philosophy, history, literary criticism, sociology, the study of art, and so forth.\nTheology & Religious Studies at MIC covers a wide range of topics including world religions, the world of the Bible, Christology, moral theology and critical issues in modern religion.",
         "interests": [
             "Social"
+        ],
+        "categories": [
+            "humanities & liberal arts",
+            "social science"
         ]
     }
 ]

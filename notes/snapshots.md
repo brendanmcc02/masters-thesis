@@ -174,3 +174,7 @@ i also think lc subjects do not cover all areas of study, whereas the open psych
 then again, we use the RIASEC scores to **infer** other courses, the goal of this is not to say "what specific course do they want", we are trying to get some sort of vocational inventory of the person, and use this to make inferences about potentially strong-fitting college courses.
 
 I think this is where the LLM comes in, and we can ask a student **why** they like/dislike a subject, or what they do/don't find interesting about it.
+
+# December
+
+how do we integrate natural language? integrate LLM effectively with the ML RS?

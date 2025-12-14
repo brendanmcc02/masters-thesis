@@ -15,37 +15,24 @@
 # RS metrics to evaluate/measure
 
 ## Relevance
+* for simplicity, I should just do binary relevance: thumbs up/down
+    * anything more complicated would be unnecessary and lead to decision fatigue - don't over-engineer!
 
 ### Precision
-* for simplicity I could just do binary relevance: thumbs up/down
 * use **precision:** `(number of relevant items)/(total number of recommended items)`
 * precision also has it's limits, because you may not have large coverage, so that's where **recall** comes in
+* think about `p@5`, `p@10`, etc.
 
 ### [Recall](https://gemini.google.com/u/1/app/acae7b12e67f4cfa)
 * `(number of recommended relevant items)/(all possibly relevant items)`
 * the challenge is how to calculate `(all possibly relevant items)`
-* gemini has a few suggestions:
-    
-    1. ask user to pick out 5-20 (leaning towards 20) courses they would realistically consider studying
-        * this would not be factored in by the RS in making the recs ofc, just for evaluation
-        * after generating the recs, ask the user to mark any relevant courses
-        * add these unique courses to their list of 10 courses
-        * this becomes your `(all possibly relevant items)`
-        * very limited though because it's not considering many courses that could be rated highly by them
-    2. ask the user to pick out every course they would realistically consider studying
-        * the downside is the time and effort for the participant - cognitive overload, decision fatigue
-        * but this would generate a pretty solid ground truth
-        * you can really try to mitigate this task by having filters by points, nfq level, location, colleges
-        * when I applied my own filters (points, nfq level, location, colleges), it trimmed the list down to 434 courses
-    3. **alternative to 2:** 
-        * ask the user to pick out 25-50 courses they would be interested in studying
-        * this can be our `(all possibly relevant items)`
-        * it's worth noting this is not an incredibly objective metric, because it's a list of **known relevant items**
-    4. ask a GC
-        * I don't like this idea
-        * firstly because of what I already mentioned - a GC has such a limited snapshot of a person
-        * the person itself would generate a better ground truth as opposed to a GC who doesn't even know them and only has access to a limited snapshot
-        * it's also time-consuming for them
+* one idea: ask user to pick out 10-20 (`n`) courses they would realistically consider studying
+    * after generating the recs, ask the user to mark any relevant courses
+    * add these unique courses to their list of `n` courses
+    * this becomes your `(all possibly relevant items)`
+
+### F1 Score
+* could consider using f1 score to harmonise recall and precision?
 
 ## diversity
 
