@@ -4,6 +4,8 @@ from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 import re
 
+RIASEC_TYPES = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
+
 def get_stop_words():
     stop_words = set(stopwords.words('english'))
     stop_words.add("undergrad")
@@ -211,3 +213,29 @@ def get_substring_matches(column_value, college_majors, major_to_major_category_
         return list(substring_major_categories)
     
     return ""
+
+def reverse_college_major_category_preprocessing(df, unique_college_major_categories):
+    reverse_preprocessed_college_major_category_dict = {}
+    for unique_college_major_category in unique_college_major_categories:
+        reverse_preprocessed_college_major_category_dict[preprocess_text(unique_college_major_category)] = unique_college_major_category
+
+    df['major_category'] = df['major_category'].map(reverse_preprocessed_college_major_category_dict).fillna(df['major_category'])
+
+    df = df.sort_values(by=['major_category'])
+
+    return df
+
+def get_aggregated_college_major_categories_df(df, holland_code_columns, HOLLAND_CODE_PREFIXES):
+    aggregated_major_categories_df = df.groupby('major_category')[holland_code_columns].mean().reset_index()
+
+    MAX_QUESTION_VALUE = 4
+    for prefix in HOLLAND_CODE_PREFIXES:
+        score_cols = [col for col in aggregated_major_categories_df.columns if col.startswith(prefix) and col[1:].isdigit()]
+        
+        if score_cols:
+            aggregated_major_categories_df[prefix] = round((aggregated_major_categories_df[score_cols].mean(axis=1) / MAX_QUESTION_VALUE), 4) # normalize
+
+    aggregated_major_categories_df = aggregated_major_categories_df[['major_category']+HOLLAND_CODE_PREFIXES]
+    aggregated_major_categories_df = aggregated_major_categories_df.rename(columns={'R':RIASEC_TYPES[0], 'I':RIASEC_TYPES[1], 'A':RIASEC_TYPES[2], 'S':RIASEC_TYPES[3], 'E':RIASEC_TYPES[4], 'C':RIASEC_TYPES[5]}) 
+
+    return aggregated_major_categories_df

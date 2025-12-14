@@ -6,17 +6,6 @@ from utils import *
 
 df = pd.read_csv('raw_riasec_college_majors.tsv', sep='\t', low_memory=False)
 
-# education level of 2 = high school educated,
-# technically, I shouldn't include this, 
-# but it increases the final dataset size by ~30k,
-# and it results in slighly better model performance.
-# either, the person:
-# 1. didn't graduate from their course (e.g. dropped out)
-# 1. didn't go to college, but in the field they put down their current profession
-# 2. was college-educated but put down high-school educated (unlikely, but possible)
-# undergrad_or_postgrad_filter = (df['education'] == 3) | (df['education'] == 4)
-# df = df[undergrad_or_postgrad_filter].copy()
-
 non_empty_major_filter = ~(df['major'].fillna('').eq(''))
 df = df[non_empty_major_filter].copy()
 
@@ -30,8 +19,8 @@ df['major_category'] = ''
 non_empty_major_preprocessed_filter = ~(df['major_preprocessed'].fillna('').eq(''))
 df = df[non_empty_major_preprocessed_filter].copy()
 
-NUMBER_OF_QUESTIONS_PER_VOCATIONAL_INTEREST = 8
 HOLLAND_CODE_PREFIXES = ['R', 'I', 'A', 'S', 'E', 'C']
+NUMBER_OF_QUESTIONS_PER_VOCATIONAL_INTEREST = 8
 holland_code_columns = []
 for prefix in HOLLAND_CODE_PREFIXES:
     for i in range(1, NUMBER_OF_QUESTIONS_PER_VOCATIONAL_INTEREST+1):
@@ -53,7 +42,7 @@ for column in holland_code_columns:
 filtered_columns.insert(0, 'major_category')
 filtered_columns.insert(1, 'major_preprocessed')
 filtered_columns.insert(2, 'major')
-riasec_types = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
+
 df = df[filtered_columns].rename(columns={'major':'major_original'}) 
 
 non_empty_major_preprocessed_filter = ~(df['major_preprocessed'].fillna('').eq(''))
@@ -89,6 +78,7 @@ clean_df_to_append['major_category'] = clean_df_to_append['major_preprocessed'].
 clean_df = pd.concat([clean_df, clean_df_to_append], ignore_index=True)
 
 print("substring match for majors")
+
 dirty_df['major_category'] = dirty_df['major_preprocessed'].apply(get_substring_matches, college_majors=college_majors, major_to_major_category_dict=major_to_major_category_dict)
 has_substring_match_mask = dirty_df['major_category'].str.len() > 0
 
@@ -99,6 +89,7 @@ clean_df = pd.concat([clean_df, clean_df_to_append], ignore_index=True)
 dirty_df = dirty_df[~has_substring_match_mask].copy()
 
 print("fuzzy match for majors and major categories")
+
 dirty_df['major_category'] = dirty_df['major_preprocessed'].apply(fuzzy_match, college_majors_and_categories=list(college_majors) + list(college_major_categories), major_to_major_category_dict=major_to_major_category_dict)
 
 has_fuzzy_match_mask = dirty_df['major_category'].str.len() > 0
@@ -108,27 +99,10 @@ clean_df = pd.concat([clean_df, clean_df_to_append], ignore_index=True)
 
 dirty_df = dirty_df[~has_fuzzy_match_mask].copy()
 
-# reverse pre-processing for final output
-reverse_preprocessed_college_major_category_dict = {}
-for unique_college_major_category in unique_college_major_categories:
-    reverse_preprocessed_college_major_category_dict[preprocess_text(unique_college_major_category)] = unique_college_major_category
-
-clean_df['major_category'] = clean_df['major_category'].map(reverse_preprocessed_college_major_category_dict).fillna(clean_df['major_category'])
-
-clean_df = clean_df.sort_values(by=['major_category'])
+clean_df = reverse_college_major_category_preprocessing(clean_df, unique_college_major_categories)
 clean_df.to_csv("../clean_riasec_college_major_categories.tsv", sep='\t', index=False)
 
-aggregated_major_categories_df = clean_df.groupby('major_category')[holland_code_columns].mean().reset_index()
-
-MAX_QUESTION_VALUE = 4
-for prefix in HOLLAND_CODE_PREFIXES:
-    score_cols = [col for col in aggregated_major_categories_df.columns if col.startswith(prefix) and col[1:].isdigit()]
-    
-    if score_cols:
-        aggregated_major_categories_df[prefix] = round((aggregated_major_categories_df[score_cols].mean(axis=1) / MAX_QUESTION_VALUE), 4) # normalize
-
-aggregated_major_categories_df = aggregated_major_categories_df[['major_category']+HOLLAND_CODE_PREFIXES]
-aggregated_major_categories_df = aggregated_major_categories_df.rename(columns={'R':riasec_types[0], 'I':riasec_types[1], 'A':riasec_types[2], 'S':riasec_types[3], 'E':riasec_types[4], 'C':riasec_types[5]}) 
+aggregated_major_categories_df = get_aggregated_college_major_categories_df(clean_df, holland_code_columns, HOLLAND_CODE_PREFIXES)
 aggregated_major_categories_df.to_csv("../clean_aggregated_riasec_college_major_categories.tsv", sep='\t', index=False)
 
 dirty_df = dirty_df.sort_values(by=['major_preprocessed'])
