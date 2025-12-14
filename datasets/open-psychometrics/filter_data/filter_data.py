@@ -7,13 +7,15 @@ from utils import *
 df = pd.read_csv('raw_riasec_college_majors.tsv', sep='\t', low_memory=False)
 
 # education level of 2 = high school educated,
-# technically shouldn't include this, 
-# but it increases the final dataset size by ~30k
-# either:
-# 1. the person didn't go to college, but in the field they put down their current profession
-# 2. the person was college-educated but put down high-school educated (unlikely but possible)
-undergrad_or_postgrad_filter = (df['education'] == 2) |(df['education'] == 3) | (df['education'] == 4)
-df = df[undergrad_or_postgrad_filter].copy()
+# technically, I shouldn't include this, 
+# but it increases the final dataset size by ~30k,
+# and it results in slighly better model performance.
+# either, the person:
+# 1. didn't graduate from their course (e.g. dropped out)
+# 1. didn't go to college, but in the field they put down their current profession
+# 2. was college-educated but put down high-school educated (unlikely, but possible)
+# undergrad_or_postgrad_filter = (df['education'] == 3) | (df['education'] == 4)
+# df = df[undergrad_or_postgrad_filter].copy()
 
 non_empty_major_filter = ~(df['major'].fillna('').eq(''))
 df = df[non_empty_major_filter].copy()
@@ -29,9 +31,9 @@ non_empty_major_preprocessed_filter = ~(df['major_preprocessed'].fillna('').eq('
 df = df[non_empty_major_preprocessed_filter].copy()
 
 NUMBER_OF_QUESTIONS_PER_VOCATIONAL_INTEREST = 8
-holland_code_prefixes = ['R', 'I', 'A', 'S', 'E', 'C']
+HOLLAND_CODE_PREFIXES = ['R', 'I', 'A', 'S', 'E', 'C']
 holland_code_columns = []
-for prefix in holland_code_prefixes:
+for prefix in HOLLAND_CODE_PREFIXES:
     for i in range(1, NUMBER_OF_QUESTIONS_PER_VOCATIONAL_INTEREST+1):
         holland_code_columns.append(prefix + str(i))
 
@@ -119,13 +121,13 @@ clean_df.to_csv("../clean_riasec_college_major_categories.tsv", sep='\t', index=
 aggregated_major_categories_df = clean_df.groupby('major_category')[holland_code_columns].mean().reset_index()
 
 MAX_QUESTION_VALUE = 4
-for prefix in holland_code_prefixes:
+for prefix in HOLLAND_CODE_PREFIXES:
     score_cols = [col for col in aggregated_major_categories_df.columns if col.startswith(prefix) and col[1:].isdigit()]
     
     if score_cols:
         aggregated_major_categories_df[prefix] = round((aggregated_major_categories_df[score_cols].mean(axis=1) / MAX_QUESTION_VALUE), 4) # normalize
 
-aggregated_major_categories_df = aggregated_major_categories_df[['major_category']+holland_code_prefixes]
+aggregated_major_categories_df = aggregated_major_categories_df[['major_category']+HOLLAND_CODE_PREFIXES]
 aggregated_major_categories_df = aggregated_major_categories_df.rename(columns={'R':riasec_types[0], 'I':riasec_types[1], 'A':riasec_types[2], 'S':riasec_types[3], 'E':riasec_types[4], 'C':riasec_types[5]}) 
 aggregated_major_categories_df.to_csv("../clean_aggregated_riasec_college_major_categories.tsv", sep='\t', index=False)
 

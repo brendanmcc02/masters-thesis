@@ -4,8 +4,6 @@ from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
 import re
 
-# area_ethnicities = ["american studies", "asian studies", "african studies", "african american studies", "european studies", "latin american studies"]
-
 def get_stop_words():
     stop_words = set(stopwords.words('english'))
     stop_words.add("undergrad")
@@ -86,9 +84,9 @@ def preprocess_text(text):
     text = re.sub(r'[\.\?=!£#`¬\*]', '', text) # remove numbers and symbols
     text = re.sub(r'\d+', '', text) # remove numbers
 
-    for abbreviation, expaned_college_major in college_major_abbreviations_acronyms_and_substitutions_map.items():
+    for abbreviation, expanded_college_major in college_major_abbreviations_acronyms_and_substitutions_map.items():
         pattern = r'\b' + re.escape(abbreviation) + r'\b'
-        text = re.sub(pattern, expaned_college_major, text)
+        text = re.sub(pattern, expanded_college_major, text)
 
     text = re.sub(r'[\(\)\{\}\[\]&/+,;:\\|\-]', ' ', text)
 
@@ -184,7 +182,7 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'telecomm': 'telecommunications',
     'hr': 'human resources',
     'hrm': 'human resource management',
-    'hrm': 'human resource development',
+    'hrd': 'human resource development',
     'pr': 'public relations',
     'premed': 'medical preparatory programs',
     'gen': 'general',

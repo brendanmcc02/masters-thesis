@@ -82,7 +82,7 @@ print("Random Model Top-" + str(number_of_top_k) + " Test Accuracy:             
 print("Most Frequent Model Top-" + str(number_of_top_k) + " Test Accuracy:        " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_most_frequent, k=number_of_top_k), 3)))
 print("Most Frequent Model Top-1 Test Accuracy:                                   " + str(round(accuracy_score(y_test, y_predicted_most_frequent), 3)))
 
-# # TRAINED MODELS, TOP K ACCURACY (K=3)
+# # TRAINED MODELS, TOP K ACCURACY (K=3), EDUCATION_FILTER >= 2
 # Multinomial Naive Bayes Test Accuracy:    0.562
 # Categorical Naive Bayes Test Accuracy:    0.551
 # Logistic Regression Test Accuracy:        0.639 # fast
@@ -138,4 +138,8 @@ print("Most Frequent Model Top-1 Test Accuracy:                                 
 # physical sciences                     1.8%         6.1%
 # psychology & social work              43.2%        22.9%
 # social science                        0.2%         5.9%
+
+# NO EDUCATION FILTER
+# Logistic Regression Top-3 Test Accuracy:        0.645
+# Logistic Regression Top-1 Test Accuracy:        0.37
 
