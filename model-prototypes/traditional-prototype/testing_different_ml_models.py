@@ -55,13 +55,6 @@ test_college_major_category_counts = defaultdict(int)
 for college_major_category in y_test:    
     test_college_major_category_counts[int(college_major_category)] += 1
 
-## random baseline model
-number_of_classes = len(np.unique(y_train))
-number_of_random_samples = len(y_test)
-np.random.seed(42) # Ensure random baseline is reproducible
-random_scores = np.random.rand(number_of_random_samples, number_of_classes)
-y_predicted_class_probabilities_random = random_scores / random_scores.sum(axis=1, keepdims=True)
-
 ## most frequent baseline model
 most_frequent_model = DummyClassifier(strategy='most_frequent')
 most_frequent_model.fit(X_train, y_train)
@@ -77,10 +70,9 @@ for i in range(len(college_major_categories)):
 
 print("\n# EVALUATION")
 print("Logistic Regression Top-" + str(number_of_top_k) + " Test Accuracy:        " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_logistic_regression, k=number_of_top_k), 3)))
-print("Logistic Regression Top-1 Test Accuracy:                                   " + str(round(accuracy_score(y_test, y_predicted_logistic_regression), 3)))
-print("Random Model Top-" + str(number_of_top_k) + " Test Accuracy:               " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_random, k=number_of_top_k), 3)))
 print("Most Frequent Model Top-" + str(number_of_top_k) + " Test Accuracy:        " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_most_frequent, k=number_of_top_k), 3)))
-print("Most Frequent Model Top-1 Test Accuracy:                                   " + str(round(accuracy_score(y_test, y_predicted_most_frequent), 3)))
+print("Logistic Regression Top-1 Test Accuracy:        " + str(round(accuracy_score(y_test, y_predicted_logistic_regression), 3)))
+print("Most Frequent Model Top-1 Test Accuracy:        " + str(round(accuracy_score(y_test, y_predicted_most_frequent), 3)))
 
 # # TRAINED MODELS, TOP K ACCURACY (K=3), EDUCATION_FILTER >= 2
 # Multinomial Naive Bayes Test Accuracy:    0.562

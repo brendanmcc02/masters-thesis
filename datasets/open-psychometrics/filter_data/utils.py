@@ -201,19 +201,6 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'doctor': 'medicine',
 }
 
-def get_substring_matches(column_value, college_majors, major_to_major_category_dict):
-    substring_major_categories = set()
-    for major in college_majors:
-        category = major_to_major_category_dict[major]
-
-        if major in column_value:
-            substring_major_categories.add(category)
-
-    if len(substring_major_categories) > 0:
-        return list(substring_major_categories)
-    
-    return ""
-
 def reverse_college_major_category_preprocessing(df, unique_college_major_categories):
     reverse_preprocessed_college_major_category_dict = {}
     for unique_college_major_category in unique_college_major_categories:
