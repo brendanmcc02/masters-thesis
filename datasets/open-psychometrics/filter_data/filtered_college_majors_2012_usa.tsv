@@ -1,11 +1,12 @@
 college_major	college_major_category
+agriculture	agriculture & natural resources
 agriculture production	agriculture & natural resources
 agriculture management	agriculture & natural resources
 agricultural economics	agriculture & natural resources
 agricultural science	agriculture & natural resources
 agricultural engineering	agriculture & natural resources
 agriculture	agriculture & natural resources
-animal sciences	agriculture & natural resources
+animal science	agriculture & natural resources
 food science	agriculture & natural resources
 plant science	agriculture & natural resources
 agronomy	agriculture & natural resources
@@ -29,7 +30,7 @@ studio arts	arts
 environmental science	biology & life science
 biology	biology & life science
 life science	biology & life science
-biochemical sciences	biology & life science
+biochemical science	biology & life science
 botany	biology & life science
 molecular biology	biology & life science
 ecology	biology & life science
@@ -70,7 +71,7 @@ journalism	communications
 mass media	communications
 advertising	communications
 public relations	communications
-communication technologies	computers & mathematics
+communication technology	computers & mathematics
 information systems	computers & mathematics
 information technology	computers & mathematics
 computing	computers & mathematics
@@ -79,7 +80,7 @@ computer programming	computers & mathematics
 data processing	computers & mathematics
 computer science	computers & mathematics
 software engineering	computers & mathematics
-information sciences	computers & mathematics
+information science	computers & mathematics
 computer networking	computers & mathematics
 telecommunications	computers & mathematics
 mathematics	computers & mathematics
@@ -88,7 +89,6 @@ statistics	computers & mathematics
 decision science	computers & mathematics
 teaching	education
 educational administration	education
-school counseling	education
 elementary education	education
 adult education	education
 mathematics education	education
@@ -97,7 +97,7 @@ health education	education
 early childhood education	education
 science education	education
 secondary education	education
-special needs education	education
+special education	education
 history education	education
 social science education	education
 language education	education
@@ -129,21 +129,23 @@ naval architecture	engineering
 marine engineering	engineering
 nuclear engineering	engineering
 petroleum engineering	engineering
-engineering technologies	engineering
+engineering technology	engineering
 engineering management	engineering
 industrial management	engineering
 materials science	engineering
 medicine	health
-dentistry	health
 nursing	health
-nutrition sciences	health
+midwifery	health
+dentistry	health
+dental hygiene	health
+dental technology	health
+veterinarian	health
+veterinarian technology	health
+nutrition science	health
 health services	health
-communication disorders sciences	health
-communication disorders services	health
-medical administrative services	health
-health administrative services	health
+speech pathology	health
+health administration	health
 medical assisting	health
-medical technologies technicians	health
 pharmacy	health
 community health	health
 public health	health
@@ -176,20 +178,20 @@ industrial design	industrial arts & consumer services
 consumer services	industrial arts & consumer services
 cosmetology	industrial arts & consumer services
 culinary arts	industrial arts & consumer services
-family sciences	industrial arts & consumer services
-consumer sciences	industrial arts & consumer services
+family science	industrial arts & consumer services
+consumer science	industrial arts & consumer services
 military science	industrial arts & consumer services
 recreation management	industrial arts & consumer services
 leisure studies	industrial arts & consumer services
 construction services	industrial arts & consumer services
-electrical technologies	industrial arts & consumer services
+electrical technology	industrial arts & consumer services
 electrical production	industrial arts & consumer services
-mechanical technologies	industrial arts & consumer services
+mechanical technology	industrial arts & consumer services
 mechanical production	industrial arts & consumer services
-precision technologies	industrial arts & consumer services
+precision technology	industrial arts & consumer services
 precision production	industrial arts & consumer services
-transportation technologies	industrial arts & consumer services
-transportation sciences	industrial arts & consumer services
+transportation technology	industrial arts & consumer services
+transportation science	industrial arts & consumer services
 hospitality	industrial arts & consumer services
 tourism	industrial arts & consumer services
 court reporting	law & public policy
@@ -200,21 +202,21 @@ criminal justice	law & public policy
 fire protection	law & public policy
 public administration	law & public policy
 public policy	law & public policy
-physical sciences	physical sciences
-astronomy	physical sciences
-astrophysics	physical sciences
-atmospheric sciences	physical sciences
-meteorology	physical sciences
-chemistry	physical sciences
-geology	physical sciences
-earth science	physical sciences
-geosciences	physical sciences
-oceanography	physical sciences
-physics	physical sciences
-nuclear technologies	physical sciences
-industrial technologies	physical sciences
-radiology technologies	physical sciences
-biological technologies	physical sciences
+physical science	physical science
+astronomy	physical science
+astrophysics	physical science
+atmospheric science	physical science
+meteorology	physical science
+chemistry	physical science
+geology	physical science
+earth science	physical science
+geoscience	physical science
+oceanography	physical science
+physics	physical science
+nuclear technology	physical science
+industrial technology	physical science
+radiology	physical science
+biological technology	physical science
 psychology	psychology & social work
 educational psychology	psychology & social work
 clinical psychology	psychology & social work

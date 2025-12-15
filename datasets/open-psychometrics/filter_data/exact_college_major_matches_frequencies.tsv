@@ -1,77 +1,65 @@
 college_major_preprocessed	count	college_major
 agricultur product	0	agriculture production
-communic technolog	0	communication technologies
-nuclear technolog	0	nuclear technologies
-educ supervis	0	educational supervision
-school student counsel	0	school student counseling
-precis technolog	0	precision technologies
-health educ teach	0	health education teaching
-comput teacher educ	0	computer teacher education
-secondari teacher educ	0	secondary teacher education
-histori teacher educ	0	history teacher education
-social teacher educ	0	social science teacher education
+communic technolog	0	communication technology
+nuclear technolog	0	nuclear technology
 drama educ	0	drama education
 miner engin	0	mineral engineering
-personnel manag	0	personnel management
-industri product technolog	0	industrial production technologies
-medicin servic	0	medical services
-communic disord servic	0	communication disorders services
-medicin administr servic	0	medical administrative services
-medicin technolog technician	0	medical technologies technicians
+health administr	0	health administration
 area ethnic	0	area ethnic studies
 composit	0	composition
 religi vocat	0	religious vocations
-transport technolog	0	transportation technologies
+personnel manag	0	personnel management
 industri art	0	industrial arts
+communiti organ	0	community organization
 construct servic	0	construction services
 electr product	0	electrical production
 mechan product	0	mechanical production
-mechan engin relat technolog	0	mechanical engineering related technologies
-communiti organ	0	community organization
+precis technolog	0	precision technology
 precis product	0	precision production
+transport technolog	0	transportation technology
 agricultur manag	0	agriculture management
 consum	1	consumer sciences
-physic educ teach	1	physical education teaching
-data process	1	data processing
-health administr servic	1	health administrative services
-electr technolog	1	electrical technologies
-biolog technolog	1	biological technologies
-special need educ	1	special needs education
+dentistri technolog	1	dental technology
 court report	1	court reporting
+biolog technolog	1	biological technology
+data process	1	data processing
 consum servic	1	consumer services
 art critic	1	art criticism
-natur resourc manag	2	natural resources management
-fire protect	2	fire protection
-geophys engin	2	geophysical engineering
+special need educ	1	special needs education
+electr technolog	2	electrical technology
 atmospher	2	atmospheric sciences
-market research	2	marketing research
-mechan technolog	2	mechanical technologies
+natur resourc manag	2	natural resources management
+mechan technolog	2	mechanical technology
 decis	2	decision science
-soil	3	soil science
-e commerc	3	e-commerce
-mathemat teacher educ	3	mathematics teacher education
-commerci art	3	commercial art
+geophys engin	2	geophysical engineering
+fire protect	2	fire protection
+market research	2	marketing research
 archeolog	3	archeology
+soil	3	soil science
+commerci art	3	commercial art
 leisur	3	leisure studies
-radiolog technolog	4	radiology technologies
+e commerc	3	e-commerce
+intercultur	4	intercultural studies
+naval architectur	4	naval architecture
 plant	4	plant science
 natur resourc	4	natural resources
 geoscienc	4	geosciences
-naval architectur	4	naval architecture
-intercultur	4	intercultural studies
-rhetor	5	rhetoric
+radiolog technolog	5	radiology technology
 oceanographi	5	oceanography
-teacher educ	6	science teacher education
-comput system	6	computer systems
+rhetor	5	rhetoric
 industri manag	6	industrial management
-agricultur econom	6	agricultural economics
+comput system	6	computer systems
 transport	6	transportation sciences
-organiz psycholog	7	organizational psychology
-engin manag	7	engineering management
+agricultur econom	6	agricultural economics
 geolog engin	7	geological engineering
+engin manag	7	engineering management
+organiz psycholog	7	organizational psychology
 recreat manag	8	recreation management
-metallurg engin	8	metallurgical engineering
 educ administr	8	educational administration
+metallurg engin	8	metallurgical engineering
+midwiferi	8	midwifery
+health educ	9	health education
+social educ	9	social science education
 militari	10	military science
 meteorolog	11	meteorology
 health servic	11	health services
@@ -80,35 +68,39 @@ biochem	11	biochemical sciences
 biopsycholog	12	biopsychology
 medicin administr	12	medical administration
 compar literatur	12	comparative literature
-oper manag	13	operations management
 languag educ	13	language education
 nuclear engin	13	nuclear engineering
-mine engin	14	mining engineering
-industri technolog	14	industrial technologies
-earth	15	earth science
-manufactur engin	15	manufacturing engineering
+oper manag	13	operations management
+industri technolog	14	industrial technology
 agronomi	15	agronomy
-adult educ	16	adult education
+manufactur engin	15	manufacturing engineering
+mine engin	15	mining engineering
+earth	15	earth science
 govern	16	government
-biolog engin	17	biological engineering
+veterinarian technolog	16	veterinarian technology
+adult educ	16	adult education
 communiti health	17	community health
+biolog engin	17	biological engineering
+histori educ	17	history education
 social psycholog	17	social psychology
 telecommun	17	telecommunications
 botani	18	botany
+secondari educ	19	secondary education
+mathemat educ	19	mathematics education
 petroleum engin	20	petroleum engineering
 astrophys	20	astrophysics
-pharmacolog	22	pharmacology
-engin technolog	22	engineering technologies
 architectur engin	22	architectural engineering
+pharmacolog	22	pharmacology
+engin technolog	22	engineering technology
 forestri	23	forestry
-materi	23	materials science
 marin engin	23	marine engineering
-genet	24	genetics
+materi	23	materials science
 comput network	24	computer networking
+genet	24	genetics
 molecular biolog	25	molecular biology
 ecolog	25	ecology
-public polici	26	public policy
 inform	26	information sciences
+public polici	26	public policy
 industri psycholog	26	industrial psychology
 cognit	28	cognitive science
 manag inform system	28	management information systems 
@@ -121,82 +113,85 @@ art educ	34	art education
 logist	36	logistics
 visual art	37	visual arts
 librari	37	library science
-astronomi	38	astronomy
 religi	38	religious studies
+astronomi	38	astronomy
 educ psycholog	38	educational psychology
 famili	40	family sciences
+dentistri hygien	40	dental hygiene
 industri design	42	industrial design
 studio art	43	studio arts
-drama	43	drama
 life	43	life science
+drama	43	drama
 food	46	food science
 theater	49	theater
 aeronaut engin	50	aeronautical engineering
-environment engin	54	environmental engineering
-clinic psycholog	55	clinical psychology
+environment engin	55	environmental engineering
 legal	55	legal studies
+clinic psycholog	55	clinical psychology
 actuari	60	actuarial science
 physiolog	62	physiology
-communic disord	66	communication disorders sciences
 public administr	71	public administration
 paraleg	72	paralegal studies
 zoolog	73	zoology
+speech patholog	74	speech pathology
 intern	77	international studies
-statist	79	statistics
 aerospac engin	79	aerospace engineering
+statist	79	statistics
 inform system	81	information systems
-public relat	84	public relations
+physic educ	83	physical education
 hospit manag	84	hospitality management
+public relat	84	public relations
 culinari art	86	culinary arts
 medicin assist	87	medical assisting
 music educ	88	music education
 sport manag	89	sports management
 advertis	89	advertising
 microbiolog	91	microbiology
-agricultur	92	agricultural science
-agricultur	92	agriculture
-agricultur	92	agricultural science
-agricultur	92	agriculture
+agricultur	93	agricultural science
+agricultur	93	agricultural science
+agricultur	93	agriculture
+agricultur	93	agriculture
 interior design	94	interior design
-dentistri	95	dentistry
 photographi	97	photography
-administr	99	administration
-sport	103	sport
+administr	100	administration
 biomed engin	103	biomedical engineering
+sport	103	sport
 occup therapi	106	occupational therapy
 english literatur	109	english literature
 theolog	114	theology
 nutrit	117	nutrition sciences
-human	120	humanities
+human	121	humanities
 art histori	122	art history
-industri engin	124	industrial engineering
 physic therapi	124	physical therapy
+industri engin	124	industrial engineering
 tourism	124	tourism
 literatur	126	literature
+dentistri	127	dentistry
 media	128	mass media
+veterinarian	133	veterinarian
 softwar engin	134	software engineering
 intern busi	139	international business
 neurosci	141	neuroscience
-film	143	film studies
+film	144	film studies
 hospit	144	hospitality
-geolog	148	geology
 biomed	148	biomedical science
+geolog	148	geology
 exercis	149	exercise science
 anim	151	animal sciences
 public health	152	public health
-elementari educ	163	elementary education
-earli childhood educ	164	early childhood education
-criminolog	190	criminology
+elementari educ	164	elementary education
+childhood educ	173	early childhood education
 teach	190	teaching
+criminolog	190	criminology
 linguist	215	linguistics 
 geographi	226	geography
 human resourc manag	232	human resources management
 environment	236	environmental science
 fine art	240	fine arts
 intern relat	243	international relations
-pharmaci	259	pharmacy
 graphic design	280	graphic design
 kinesiolog	281	kinesiology
+pharmaci	283	pharmacy
 anthropolog	309	anthropology
 human servic	324	human services
 comput engin	336	computer engineering
@@ -205,20 +200,20 @@ journal	378	journalism
 liber art	409	liberal arts
 human resourc	423	human resources
 chemic engin	429	chemical engineering
-philosophi	434	philosophy
-music	490	music
-physic	500	physics
-physic	500	physics
-physic	500	physical sciences
-physic	500	physical sciences
+philosophi	435	philosophy
+music	491	music
+physic	502	physical sciences
+physic	502	physical sciences
+physic	502	physics
+physic	502	physics
 electr engin	536	electrical engineering
 architectur	551	architecture
-inform technolog	561	information technology
+inform technolog	562	information technology
 chemistri	595	chemistry
 languag	601	foreign languages
-social work	708	social work
-counsel	742	counseling
+social work	709	social work
 busi manag	758	business management
+counsel	795	counseling
 financ	798	finance
 mechan engin	810	mechanical engineering
 polit	876	political science
@@ -228,20 +223,21 @@ mathemat	911	applied mathematics
 mathemat	911	mathematics
 manag	916	management
 sociolog	922	sociology
-market	926	marketing
+market	928	marketing
 busi administr	931	business administration
 crimin justic	936	criminal justice
 histori	977	history
 civil engin	1134	civil engineering
-law	1142	law
+law	1148	law
 econom	1155	economics
-medicin	1253	medicine
-comput	1484	computing
+medicin	1356	medicine
+comput	1484	computer science
 comput	1484	computer science
 comput	1484	computing
-comput	1484	computer science
+comput	1484	computing
 account	1639	accounting
+educ	2080	science education
 biolog	2215	biology
-nurs	2482	nursing
-english	3252	english
-psycholog	13991	psychology
+nurs	2485	nursing
+english	3253	english
+psycholog	14002	psychology

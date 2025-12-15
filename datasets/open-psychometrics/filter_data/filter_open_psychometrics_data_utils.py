@@ -2,7 +2,6 @@ from fuzzywuzzy import fuzz
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
-from nltk.stem import WordNetLemmatizer
 import re
 
 def get_stop_words():
@@ -36,6 +35,8 @@ def get_stop_words():
     stop_words.add("associate")
     stop_words.add("associates")
     stop_words.add("university")
+    stop_words.add("college")
+    stop_words.add("school")
     stop_words.add("department")
     stop_words.add("year")
     stop_words.add("years")
@@ -81,12 +82,17 @@ def get_stop_words():
     stop_words.add("foreign")
     stop_words.add("mass")
     stop_words.add("subject")
+    stop_words.add("currently")
+    stop_words.add("attending")
+    stop_words.add("field")
+    stop_words.add("early")
+    stop_words.add("middle")
+    stop_words.add("e") # e for electronic e.g. e-commerce
 
     return stop_words
 
 stop_words = get_stop_words()
 stemmer = SnowballStemmer("english")  # better results than porter stemmer
-lemmatizer = WordNetLemmatizer()
 
 def preprocess_text(text):
     text = text.lower()
@@ -103,8 +109,6 @@ def preprocess_text(text):
     cleaned_tokens = []
     for word in tokens:
         if word not in stop_words:
-            # lemmatized_word = lemmatizer.lemmatize(word)
-            # stemmed_word = stemmer.stem(lemmatized_word)
             stemmed_word = stemmer.stem(word)
             cleaned_tokens.append(stemmed_word)
 
@@ -153,8 +157,10 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'poli': 'political',
     'pol': 'political',
     'polsci': 'political science',
+    'pharmaceutical': 'pharmacy',
     'psych': 'psychology',
     'tech': 'technology',
+    'technician': 'technology',
     'info': 'information',
     'it': 'information technology',
     'eng': 'engineering',
@@ -188,9 +194,18 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'portuguese': 'foreign language',
     'latin': 'foreign language',
     'premed': 'medicine',
-    'doctor': 'medicine',
+    'med': 'medicine',
     'medical': 'medicine',
-    'liberal studies': 'liberal arts'
+    'doctor': 'medicine',
+    'dentist': 'dentistry',
+    'dental': 'dentistry',
+    'vet': 'veterinarian',
+    'veterinary medicine': 'veterinarian',
+    'veterinary': 'veterinarian',
+    'liberal studies': 'liberal arts',
+    'speech language pathology': 'speech pathology',
+    'speech therapy': 'speech pathology',
+    'dietetics': 'nutrition sciences'
 }
 
 
