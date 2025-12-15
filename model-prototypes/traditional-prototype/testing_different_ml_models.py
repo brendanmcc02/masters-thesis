@@ -6,7 +6,14 @@ from sklearn.metrics import top_k_accuracy_score, accuracy_score
 from sklearn.dummy import DummyClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import HistGradientBoostingClassifier
+from imblearn.ensemble import BalancedRandomForestClassifier
 from collections import defaultdict
+
+def print_top_k_accuracy(y_actual, model_name, number_of_top_k, train_or_test_label, y_predicted_class_probabilities):
+    print(str(round(top_k_accuracy_score(y_actual, y_predicted_class_probabilities, k=number_of_top_k), 3)) + " - " + model_name + " Top-" + str(number_of_top_k) + " " + train_or_test_label + " Accuracy")
+
+def print_top_1_accuracy(y_actual, model_name, train_or_test_label, y_predicted):
+    print(str(round(accuracy_score(y_actual, y_predicted), 3)) + " - " + model_name + " Top-1 " + train_or_test_label + " Accuracy")
 
 number_of_top_k = 3
 
@@ -31,17 +38,17 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.1, stratify=y ,random_state=42
 )
 
-## logistic regression
-logistic_regression_model = LogisticRegression(
-    class_weight='balanced', # prevents disproporionate predictions
-    multi_class='multinomial',
-    solver='saga', # negligible performance differences, saga is the quickest
-    C=1.0, # different values have negligible impact
-    max_iter=1000,
-    random_state=42)
-logistic_regression_model.fit(X_train, y_train)
-y_predicted_class_probabilities_logistic_regression = logistic_regression_model.predict_proba(X_test)
-y_predicted_logistic_regression = logistic_regression_model.predict(X_test)
+# ## logistic regression
+# logistic_regression_model = LogisticRegression(
+#     class_weight='balanced', # prevents disproporionate predictions
+#     multi_class='multinomial',
+#     solver='saga', # negligible performance differences, saga is the quickest
+#     C=1.0, # different values have negligible impact
+#     max_iter=1000,
+#     random_state=42)
+# logistic_regression_model.fit(X_train, y_train)
+# y_predicted_class_probabilities_logistic_regression = logistic_regression_model.predict_proba(X_test)
+# y_predicted_logistic_regression = logistic_regression_model.predict(X_test)
 
 ## hist gradient boosting machines
 hist_gradient_boosting_machine_model = HistGradientBoostingClassifier(
@@ -50,6 +57,20 @@ hist_gradient_boosting_machine_model = HistGradientBoostingClassifier(
 hist_gradient_boosting_machine_model.fit(X_train, y_train)
 y_predicted_class_probabilities_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict_proba(X_test)
 y_predicted_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict(X_test)
+y_predicted_train_class_probabilities_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict_proba(X_train)
+y_predicted_train_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict(X_train)
+
+# ## balanced random forest classifier
+# balanced_random_forest_model = BalancedRandomForestClassifier(
+#     n_estimators=200,
+#     random_state=42,
+#     replacement=True,
+#     sampling_strategy='all',  # Resamples all classes to match the minority class size
+#     n_jobs=-1
+# )
+# balanced_random_forest_model.fit(X_train, y_train)
+# y_predicted_class_probabilities_balanced_random_forest = balanced_random_forest_model.predict_proba(X_test)
+# y_predicted_balanced_random_forest = balanced_random_forest_model.predict(X_test)
 
 ## most frequent baseline model
 most_frequent_model = DummyClassifier(strategy='most_frequent')
@@ -60,7 +81,7 @@ y_predicted_most_frequent = most_frequent_model.predict(X_test)
 # proportions
 college_major_categories = dataset['major_category'].unique()
 
-y_predicted = [y_predicted_logistic_regression, y_predicted_hist_gradient_boosting_machine]
+y_predicted = [y_predicted_hist_gradient_boosting_machine]
 for y_pred in y_predicted:
     predicted_college_major_counts = defaultdict(int)
     for pred in y_pred:
@@ -80,16 +101,21 @@ for y_pred in y_predicted:
         sum_of_squared_differences += (actual_proportion - pred_proportion)**2
         print(college_major_categories[i] + " " + str(pred_proportion) + "%     " + str(actual_proportion) + "%")
 
-    print("Sum of Squared Differences: " + str(sum_of_squared_differences))
+    print("Sum of Squared Differences: " + str(round(sum_of_squared_differences, 2)))
 
 
 print("\n# EVALUATION")
-print("Logistic Regression Top-" + str(number_of_top_k) + " Test Accuracy:         " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_logistic_regression, k=number_of_top_k), 3)))
-print("Gradient Boosting Machines Top-" + str(number_of_top_k) + " Test Accuracy: " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_hist_gradient_boosting_machine, k=number_of_top_k), 3)))
-print("Most Frequent Model Top-" + str(number_of_top_k) + " Test Accuracy:         " + str(round(top_k_accuracy_score(y_test, y_predicted_class_probabilities_most_frequent, k=number_of_top_k), 3)))
-print("Logistic Regression Top-1 Test Accuracy:        " + str(round(accuracy_score(y_test, y_predicted_logistic_regression), 3)))
-print("Gradient Boosting Machines Top-1 Test Accuracy:        " + str(round(accuracy_score(y_test, y_predicted_hist_gradient_boosting_machine), 3)))
-print("Most Frequent Model Top-1 Test Accuracy:        " + str(round(accuracy_score(y_test, y_predicted_most_frequent), 3)))
+# print_top_k_accuracy("Logistic Regression", number_of_top_k, "test", y_predicted_class_probabilities_logistic_regression)
+print_top_k_accuracy(y_test, "Hist Gradient Boosting Machines", number_of_top_k, "test", y_predicted_class_probabilities_hist_gradient_boosting_machine)
+print_top_k_accuracy(y_train, "Hist Gradient Boosting Machines", number_of_top_k, "train", y_predicted_train_class_probabilities_hist_gradient_boosting_machine)
+# print_top_k_accuracy("Balanced Random Forest", number_of_top_k, "test", y_predicted_class_probabilities_balanced_random_forest)
+# print_top_k_accuracy("Most Frequent", number_of_top_k, "test", y_predicted_class_probabilities_most_frequent)
+# print_top_1_accuracy("Logistic Regression", "test", y_predicted_logistic_regression)
+print_top_1_accuracy(y_test, "Hist Gradient Boosting Machine", "test", y_predicted_hist_gradient_boosting_machine)
+print_top_1_accuracy(y_train, "Hist Gradient Boosting Machine", "train", y_predicted_train_hist_gradient_boosting_machine)
+# print_top_1_accuracy("Balanced Random Forest", "test", y_predicted_balanced_random_forest)
+# print_top_1_accuracy("Most Frequent", "test", y_predicted_most_frequent)
+
 
 # # TRAINED MODELS, TOP K ACCURACY (K=3), EDUCATION_FILTER >= 2
 # Multinomial Naive Bayes Test Accuracy:    0.562
@@ -236,3 +262,29 @@ print("Most Frequent Model Top-1 Test Accuracy:        " + str(round(accuracy_sc
 # Random Forest Top-1 Test Accuracy:        0.357
 # Most Frequent Model Top-1 Test Accuracy:        0.228
 
+
+## balanced random forest
+# # PROPORTIONS
+# CATEGORY    PREDICTED    ACTUAL
+# agriculture & natural resources 2.1%     0.6%
+# arts 8.8%     3.9%
+# biology & life science 8.7%     5.6%
+# business 12.3%     16.4%
+# communications 6.8%     2.7%
+# computers & mathematics 6.7%     4.8%
+# education 6.5%     4.3%
+# engineering 9.3%     9.0%
+# health 10.0%     7.7%
+# humanities & liberal arts 4.3%     9.9%
+# industrial arts & consumer services 1.9%     0.8%
+# law & public policy 3.2%     3.3%
+# physical sciences 6.1%     2.4%
+# psychology & social work 10.3%     22.8%
+# social science 3.0%     5.7%
+# Sum of Squared Differences: 293.13000000000005
+
+# # EVALUATION
+# Gradient Boosting Machines Top-3 Test Accuracy: 0.56
+# Balanced Random Forest Top-3 Test Accuracy: 0.523
+# Gradient Boosting Machines Top-1 Test Accuracy:        0.285
+# Balanced Random Forest Top-1 Test Accuracy:        0.264
