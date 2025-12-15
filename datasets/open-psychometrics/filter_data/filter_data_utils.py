@@ -78,6 +78,9 @@ def get_stop_words():
     stop_words.add("west")
     stop_words.add("science")
     stop_words.add("sciences")
+    stop_words.add("foreign")
+    stop_words.add("mass")
+    stop_words.add("subject")
 
     return stop_words
 
@@ -202,7 +205,8 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'portuguese': 'foreign language',
     'latin': 'foreign language',
     'doctor': 'medicine',
-    'medical': 'medicine'
+    'medical': 'medicine',
+    'liberal studies': 'liberal arts'
 }
 
 def reverse_college_major_category_preprocessing(df, unique_college_major_categories):

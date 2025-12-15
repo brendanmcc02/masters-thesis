@@ -2,7 +2,7 @@ import pandas as pd
 
 dirty_df = pd.read_csv('dirty_riasec_college_majors.tsv', sep='\t', low_memory=False)
 
-MIN_COLLEGE_MAJOR_PREPROCESSED_FREQUENCY = 100
+MIN_COLLEGE_MAJOR_PREPROCESSED_FREQUENCY = 75
 
 value_counts = dirty_df['major_preprocessed'].value_counts()
 
