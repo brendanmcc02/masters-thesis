@@ -2,7 +2,7 @@
 # original found here (identical): https://openpsychometrics.org/_rawdata/
 
 import pandas as pd
-from filter_data_utils import *
+from filter_open_psychometrics_data_utils import *
 
 df = pd.read_csv('raw_riasec_college_majors.tsv', sep='\t', low_memory=False)
 
