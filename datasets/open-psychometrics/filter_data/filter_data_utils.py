@@ -76,6 +76,8 @@ def get_stop_words():
     stop_words.add("south")
     stop_words.add("east")
     stop_words.add("west")
+    stop_words.add("science")
+    stop_words.add("sciences")
 
     return stop_words
 
