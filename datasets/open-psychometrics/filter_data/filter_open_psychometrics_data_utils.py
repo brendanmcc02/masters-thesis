@@ -2,9 +2,8 @@ from fuzzywuzzy import fuzz
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
+from nltk.stem import WordNetLemmatizer
 import re
-
-RIASEC_TYPES = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
 
 def get_stop_words():
     stop_words = set(stopwords.words('english'))
@@ -69,6 +68,7 @@ def get_stop_words():
     stop_words.add("sure")
     stop_words.add("undeclared")
     stop_words.add("undecided")
+    stop_words.add("maybe")
     stop_words.add("attend")
     stop_words.add("not")
     stop_words.add("applicable")
@@ -86,6 +86,7 @@ def get_stop_words():
 
 stop_words = get_stop_words()
 stemmer = SnowballStemmer("english")  # better results than porter stemmer
+lemmatizer = WordNetLemmatizer()
 
 def preprocess_text(text):
     text = text.lower()
@@ -102,28 +103,12 @@ def preprocess_text(text):
     cleaned_tokens = []
     for word in tokens:
         if word not in stop_words:
+            # lemmatized_word = lemmatizer.lemmatize(word)
+            # stemmed_word = stemmer.stem(lemmatized_word)
             stemmed_word = stemmer.stem(word)
             cleaned_tokens.append(stemmed_word)
 
     return ' '.join(cleaned_tokens)
-
-
-FUZZY_MATCH_THRESHOLD = 85
-def fuzzy_match(text, college_majors_and_categories, major_to_major_category_dict):
-    maxScore = 0
-    maxText = ""
-
-    for collegeMajorOrCategory in college_majors_and_categories:
-        score = fuzz.ratio(text, collegeMajorOrCategory)
-
-        if score >= FUZZY_MATCH_THRESHOLD and score > maxScore:
-            maxScore = score
-            if collegeMajorOrCategory in major_to_major_category_dict:
-                maxText = major_to_major_category_dict[collegeMajorOrCategory]
-            else:
-                maxText = collegeMajorOrCategory
-
-    return maxText
 
 
 college_major_abbreviations_acronyms_and_substitutions_map = {
@@ -143,7 +128,6 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'aas': 'applied science',
     'math': 'mathematics',
     'maths': 'mathematics',
-    'mathematic': 'mathematics',
     'cs': 'computer science',
     'bba': 'business',
     'mba': 'business',
@@ -192,7 +176,6 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'hrm': 'human resource management',
     'hrd': 'human resource development',
     'pr': 'public relations',
-    'premed': 'medical preparatory programs',
     'gen': 'general',
     'french': 'foreign language',
     'german': 'foreign language',
@@ -204,10 +187,30 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'russian': 'foreign language',
     'portuguese': 'foreign language',
     'latin': 'foreign language',
+    'premed': 'medicine',
     'doctor': 'medicine',
     'medical': 'medicine',
     'liberal studies': 'liberal arts'
 }
+
+
+FUZZY_MATCH_THRESHOLD = 85
+def fuzzy_match(text, college_majors_and_categories, major_to_major_category_dict):
+    maxScore = 0
+    maxText = ""
+
+    for collegeMajorOrCategory in college_majors_and_categories:
+        score = fuzz.ratio(text, collegeMajorOrCategory)
+
+        if score >= FUZZY_MATCH_THRESHOLD and score > maxScore:
+            maxScore = score
+            if collegeMajorOrCategory in major_to_major_category_dict:
+                maxText = major_to_major_category_dict[collegeMajorOrCategory]
+            else:
+                maxText = collegeMajorOrCategory
+
+    return maxText
+
 
 def reverse_college_major_category_preprocessing(df, unique_college_major_categories):
     reverse_preprocessed_college_major_category_dict = {}
@@ -220,6 +223,7 @@ def reverse_college_major_category_preprocessing(df, unique_college_major_catego
 
     return df
 
+RIASEC_TYPES = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
 def get_aggregated_college_major_categories_df(df, holland_code_columns, HOLLAND_CODE_PREFIXES):
     aggregated_major_categories_df = df.groupby('major_category')[holland_code_columns].mean().reset_index()
 

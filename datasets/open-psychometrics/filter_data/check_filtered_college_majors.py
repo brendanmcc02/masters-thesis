@@ -1,16 +1,25 @@
 import pandas as pd
+from filter_open_psychometrics_data_utils import preprocess_text
 
-clean_df = pd.read_csv('clean_riasec_college_major_categories.tsv', sep='\t', low_memory=False)
+clean_df = pd.read_csv('../clean_riasec_college_major_categories.tsv', sep='\t', low_memory=False)
 
-MIN_COLLEGE_MAJOR_PREPROCESSED_FREQUENCY = 75
+college_majors_and_categories_df = pd.read_csv('filtered_college_majors_2012_usa.tsv', sep='\t', low_memory=False)
 
-value_counts = dirty_df['major_preprocessed'].value_counts()
+college_majors_and_categories_df["college_major_preprocessed"] = college_majors_and_categories_df["college_major"].apply(preprocess_text)
 
-frequent_values_series = value_counts[value_counts >= MIN_COLLEGE_MAJOR_PREPROCESSED_FREQUENCY]
+exact_college_major_matches_df = clean_df[clean_df['major_preprocessed'].isin(college_majors_and_categories_df["college_major_preprocessed"])].copy()
 
-# turn the old index (the major name) into a column.
-frequent_dirty_college_major_preprocessed_df = frequent_values_series.reset_index()
-frequent_dirty_college_major_preprocessed_df.columns = ['major_preprocessed', 'count']
-frequent_dirty_college_major_preprocessed_df = frequent_dirty_college_major_preprocessed_df.sort_values(by='count', ascending=False)
+major_counts_series = exact_college_major_matches_df['major_preprocessed'].value_counts()
+complete_major_counts_series = major_counts_series.reindex(
+    college_majors_and_categories_df["college_major_preprocessed"], 
+    fill_value=0
+)
+major_counts_df = complete_major_counts_series.reset_index()
+major_counts_df = major_counts_df.merge(
+    college_majors_and_categories_df[['college_major', 'college_major_preprocessed']].drop_duplicates(),
+    on='college_major_preprocessed',
+    how='left' # Use 'left' to keep all counts, even if a preprocessed major matches multiple original majors (which should be rare)
+)
 
-frequent_dirty_college_major_preprocessed_df.to_csv('frequent_dirty_college_major_preprocessed.tsv', sep='\t', index=False)
+major_counts_df = major_counts_df.sort_values(by='count', ascending=True)
+major_counts_df.to_csv('exact_college_major_matches_frequencies.tsv', sep='\t', index=False)

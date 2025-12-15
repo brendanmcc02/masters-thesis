@@ -53,7 +53,8 @@ management	business
 business management	business
 sports management	business
 business administration	business
-operations logistics	business
+operations management	business
+logistics	business
 e-commerce	business
 marketing	business
 marketing research	business
@@ -79,8 +80,6 @@ data processing	computers & mathematics
 computer science	computers & mathematics
 software engineering	computers & mathematics
 information sciences	computers & mathematics
-computer administration management	computers & mathematics
-computer administration security	computers & mathematics
 computer networking	computers & mathematics
 telecommunications	computers & mathematics
 mathematics	computers & mathematics
@@ -89,20 +88,18 @@ statistics	computers & mathematics
 decision science	computers & mathematics
 teaching	education
 educational administration	education
-educational supervision	education
-school student counseling	education
+school counseling	education
 elementary education	education
 adult education	education
-mathematics teacher education	education
-physical education teaching	education
-health education teaching	education
+mathematics education	education
+physical education	education
+health education	education
 early childhood education	education
-science teacher education	education
-computer teacher education	education
-secondary teacher education	education
+science education	education
+secondary education	education
 special needs education	education
-history teacher education	education
-social science teacher education	education
+history education	education
+social science education	education
 language education	education
 drama education	education
 music education	education
@@ -135,33 +132,25 @@ petroleum engineering	engineering
 engineering technologies	engineering
 engineering management	engineering
 industrial management	engineering
-electrical engineering technology	engineering
-industrial production technologies	engineering
-mechanical engineering related technologies	engineering
 materials science	engineering
 medicine	health
 dentistry	health
+nursing	health
 nutrition sciences	health
 health services	health
-medical services	health
 communication disorders sciences	health
 communication disorders services	health
 medical administrative services	health
 health administrative services	health
 medical assisting	health
 medical technologies technicians	health
-health preparatory programs	health
-medical preparatory programs	health
-nursing	health
 pharmacy	health
-treatment therapy professions	health
 community health	health
 public health	health
-health medical professions	health
 occupational therapy	health
 area ethnic studies	humanities & liberal arts
 civilization studies	humanities & liberal arts
-comparative language	humanities & liberal arts
+comparative literature	humanities & liberal arts
 linguistics 	humanities & liberal arts
 foreign languages	humanities & liberal arts
 english	humanities & liberal arts
@@ -183,15 +172,15 @@ art history	humanities & liberal arts
 art criticism	humanities & liberal arts
 history	humanities & liberal arts
 industrial arts	industrial arts & consumer services
+industrial design	industrial arts & consumer services
 consumer services	industrial arts & consumer services
-cosmetology services	industrial arts & consumer services
+cosmetology	industrial arts & consumer services
 culinary arts	industrial arts & consumer services
 family sciences	industrial arts & consumer services
 consumer sciences	industrial arts & consumer services
-military technologies	industrial arts & consumer services
-physical fitness parks	industrial arts & consumer services
-recreation	industrial arts & consumer services
-leisure	industrial arts & consumer services
+military science	industrial arts & consumer services
+recreation management	industrial arts & consumer services
+leisure studies	industrial arts & consumer services
 construction services	industrial arts & consumer services
 electrical technologies	industrial arts & consumer services
 electrical production	industrial arts & consumer services
