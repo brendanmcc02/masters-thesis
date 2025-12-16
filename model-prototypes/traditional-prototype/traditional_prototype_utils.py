@@ -6,7 +6,7 @@ warnings.warn = warn
 
 import joblib
 import numpy as np
-from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.preprocessing import LabelEncoder
 import json
 import pandas as pd
@@ -24,6 +24,7 @@ MAX_POINTS = 0 # global variables, will be modified
 
 MAX_RIASEC_QUESTION_VALUE = 4.0 # assuming 0-4, not 1-5!
 RIASEC_CATEGORIES = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprising', 'Conventional']
+# TODO load these in from filtered_college_majors_usa_2012.csv - DRY!
 COLLEGE_MAJOR_CATEGORIES = ['agriculture & natural resources', 'arts', 'biology & life science', 'business', 'communications & journalism', 'computers & mathematics', 'education', 'engineering', 'health', 'humanities & liberal arts', 'industrial arts & consumer services', 'law & public policy', 'physical sciences', 'psychology & social work', 'social science']
 
 leaving_cert_SUBJECTS_TO_RIASEC_MAP = {
@@ -126,15 +127,13 @@ def get_weighted_categories_model(should_retrain_model):
     label_encoder = LabelEncoder()
     y = label_encoder.fit_transform(clean_riasec_college_major_categories['major_category'])
 
-    saved_model_filename = "saved_logistic_regression_model.joblib"
+    saved_model_filename = "saved_model.joblib"
     if should_retrain_model:
-        model = LogisticRegression(
-            multi_class='multinomial',
-            solver='saga', # negligible performance differences, saga is the quickest
-            C=1.0, # different values have negligible impact
-            max_iter=1000,
-            random_state=42
-        )
+        model = HistGradientBoostingClassifier(
+            class_weight='balanced',
+            l2_regularization=1.0,
+            # max_leaf_nodes=None,
+            random_state=42)
 
         model.fit(X, y)
         joblib.dump(model, saved_model_filename)

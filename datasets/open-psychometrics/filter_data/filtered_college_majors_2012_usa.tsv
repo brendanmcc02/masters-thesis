@@ -7,8 +7,6 @@ agricultural science	agriculture & natural resources
 agricultural engineering	agriculture & natural resources
 agriculture	agriculture & natural resources
 animal science	agriculture & natural resources
-veterinarian	agriculture & natural resources
-veterinarian technology	agriculture & natural resources
 food science	agriculture & natural resources
 plant science	agriculture & natural resources
 agronomy	agriculture & natural resources
@@ -136,6 +134,8 @@ engineering management	engineering
 industrial management	engineering
 materials science	engineering
 medicine	health
+veterinarian	health
+veterinarian technology	health
 nursing	health
 midwifery	health
 dentistry	health
