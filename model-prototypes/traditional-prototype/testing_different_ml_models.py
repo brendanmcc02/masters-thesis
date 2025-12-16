@@ -6,7 +6,6 @@ from sklearn.metrics import top_k_accuracy_score, accuracy_score
 from sklearn.dummy import DummyClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import HistGradientBoostingClassifier
-from imblearn.ensemble import BalancedRandomForestClassifier
 from collections import defaultdict
 
 def print_top_k_accuracy(y_actual, model_name, number_of_top_k, train_or_test_label, y_predicted_class_probabilities):
@@ -52,36 +51,19 @@ X_train, X_test, y_train, y_test = train_test_split(
 # y_predicted_train_class_probabilities_logistic_regression = logistic_regression_model.predict_proba(X_train)
 # y_predicted_train_logistic_regression = logistic_regression_model.predict(X_train)
 
-# ## hist gradient boosting machines
-# hist_gradient_boosting_machine_model = HistGradientBoostingClassifier(
-#     class_weight='balanced', # prevents disproporionate predictions
-#     l2_regularization=100.0, # less overfitting, but still overfits
-#     max_depth=10, # negligible performance difference
-#     min_samples_leaf=100 # negligible performance difference
-#     # ,random_state=42
-#     )
-# hist_gradient_boosting_machine_model.fit(X_train, y_train)
-# y_predicted_test_class_probabilities_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict_proba(X_test)
-# y_predicted_test_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict(X_test)
-# y_predicted_train_class_probabilities_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict_proba(X_train)
-# y_predicted_train_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict(X_train)
-
-# balanced random forest classifier
-balanced_random_forest_model = BalancedRandomForestClassifier(
-    n_estimators=500,
-    random_state=42,
-    replacement=True,
-    sampling_strategy='all',  # Resamples all classes to match the minority class size
-    n_jobs=-1,
-
-    max_depth=5,
-    min_samples_leaf=100
-)
-balanced_random_forest_model.fit(X_train, y_train)
-y_predicted_test_class_probabilities_balanced_random_forest = balanced_random_forest_model.predict_proba(X_test)
-y_predicted_test_balanced_random_forest = balanced_random_forest_model.predict(X_test)
-y_predicted_train_class_probabilities_balanced_random_forest = balanced_random_forest_model.predict_proba(X_train)
-y_predicted_train_balanced_random_forest = balanced_random_forest_model.predict(X_train)
+## hist gradient boosting machines
+hist_gradient_boosting_machine_model = HistGradientBoostingClassifier(
+    class_weight='balanced', # prevents disproporionate predictions
+    l2_regularization=100.0, # less overfitting, but still overfits
+    max_depth=10, # negligible performance difference
+    min_samples_leaf=100 # negligible performance difference
+    # ,random_state=42
+    )
+hist_gradient_boosting_machine_model.fit(X_train, y_train)
+y_predicted_test_class_probabilities_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict_proba(X_test)
+y_predicted_test_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict(X_test)
+y_predicted_train_class_probabilities_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict_proba(X_train)
+y_predicted_train_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict(X_train)
 
 ## most frequent baseline model
 most_frequent_model = DummyClassifier(strategy='most_frequent')
@@ -92,7 +74,7 @@ y_predicted_most_frequent = most_frequent_model.predict(X_test)
 # proportions
 college_major_categories = dataset['major_category'].unique()
 
-y_predicted = [y_predicted_test_balanced_random_forest, y_predicted_train_balanced_random_forest]
+y_predicted = [y_predicted_test_hist_gradient_boosting_machine, y_predicted_train_hist_gradient_boosting_machine]
 y_actual = [y_test, y_train]
 for i in range(len(y_predicted)):
     predicted_college_major_counts = defaultdict(int)
@@ -119,18 +101,14 @@ for i in range(len(y_predicted)):
 print("\n# EVALUATION")
 # print_top_k_accuracy(y_test, "Logistic Regression", number_of_top_k, "test", y_predicted_test_class_probabilities_logistic_regression)
 # print_top_k_accuracy(y_train, "Logistic Regression", number_of_top_k, "train", y_predicted_train_class_probabilities_logistic_regression)
-# print_top_k_accuracy(y_test, "Hist Gradient Boosting Machines", number_of_top_k, "test", y_predicted_test_class_probabilities_hist_gradient_boosting_machine)
-# print_top_k_accuracy(y_train, "Hist Gradient Boosting Machines", number_of_top_k, "train", y_predicted_train_class_probabilities_hist_gradient_boosting_machine)
-print_top_k_accuracy(y_test, "Balanced Random Forest", number_of_top_k, "test", y_predicted_test_class_probabilities_balanced_random_forest)
-print_top_k_accuracy(y_train, "Balanced Random Forest", number_of_top_k, "train", y_predicted_train_class_probabilities_balanced_random_forest)
-# print_top_k_accuracy("Most Frequent", number_of_top_k, "test", y_predicted_class_probabilities_most_frequent)
+print_top_k_accuracy(y_test, "Hist Gradient Boosting Machines", number_of_top_k, "test", y_predicted_test_class_probabilities_hist_gradient_boosting_machine)
+print_top_k_accuracy(y_train, "Hist Gradient Boosting Machines", number_of_top_k, "train", y_predicted_train_class_probabilities_hist_gradient_boosting_machine)
+print_top_k_accuracy(y_test, "Most Frequent", number_of_top_k, "test", y_predicted_class_probabilities_most_frequent)
 # print_top_1_accuracy(y_test, "Logistic Regression", "test", y_predicted_test_logistic_regression)
 # print_top_1_accuracy(y_train, "Logistic Regression", "train", y_predicted_train_logistic_regression)
-# print_top_1_accuracy(y_test, "Hist Gradient Boosting Machine", "test", y_predicted_test_hist_gradient_boosting_machine)
-# print_top_1_accuracy(y_train, "Hist Gradient Boosting Machine", "train", y_predicted_train_hist_gradient_boosting_machine)
-print_top_1_accuracy(y_test, "Balanced Random Forest", "test", y_predicted_test_balanced_random_forest)
-print_top_1_accuracy(y_train, "Balanced Random Forest", "train", y_predicted_train_balanced_random_forest)
-# print_top_1_accuracy("Most Frequent", "test", y_predicted_most_frequent)
+print_top_1_accuracy(y_test, "Hist Gradient Boosting Machine", "test", y_predicted_test_hist_gradient_boosting_machine)
+print_top_1_accuracy(y_train, "Hist Gradient Boosting Machine", "train", y_predicted_train_hist_gradient_boosting_machine)
+print_top_1_accuracy(y_test, "Most Frequent", "test", y_predicted_most_frequent)
 
 
 # # TRAINED MODELS, TOP K ACCURACY (K=3), EDUCATION_FILTER >= 2
