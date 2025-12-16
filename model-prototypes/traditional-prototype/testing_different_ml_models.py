@@ -47,30 +47,41 @@ X_train, X_test, y_train, y_test = train_test_split(
 #     max_iter=1000,
 #     random_state=42)
 # logistic_regression_model.fit(X_train, y_train)
-# y_predicted_class_probabilities_logistic_regression = logistic_regression_model.predict_proba(X_test)
-# y_predicted_logistic_regression = logistic_regression_model.predict(X_test)
+# y_predicted_test_class_probabilities_logistic_regression = logistic_regression_model.predict_proba(X_test)
+# y_predicted_test_logistic_regression = logistic_regression_model.predict(X_test)
+# y_predicted_train_class_probabilities_logistic_regression = logistic_regression_model.predict_proba(X_train)
+# y_predicted_train_logistic_regression = logistic_regression_model.predict(X_train)
 
-## hist gradient boosting machines
-hist_gradient_boosting_machine_model = HistGradientBoostingClassifier(
-    class_weight='balanced', # prevents disproporionate predictions
-    random_state=42)
-hist_gradient_boosting_machine_model.fit(X_train, y_train)
-y_predicted_class_probabilities_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict_proba(X_test)
-y_predicted_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict(X_test)
-y_predicted_train_class_probabilities_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict_proba(X_train)
-y_predicted_train_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict(X_train)
+# ## hist gradient boosting machines
+# hist_gradient_boosting_machine_model = HistGradientBoostingClassifier(
+#     class_weight='balanced', # prevents disproporionate predictions
+#     l2_regularization=100.0, # less overfitting, but still overfits
+#     max_depth=10, # negligible performance difference
+#     min_samples_leaf=100 # negligible performance difference
+#     # ,random_state=42
+#     )
+# hist_gradient_boosting_machine_model.fit(X_train, y_train)
+# y_predicted_test_class_probabilities_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict_proba(X_test)
+# y_predicted_test_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict(X_test)
+# y_predicted_train_class_probabilities_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict_proba(X_train)
+# y_predicted_train_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict(X_train)
 
-# ## balanced random forest classifier
-# balanced_random_forest_model = BalancedRandomForestClassifier(
-#     n_estimators=200,
-#     random_state=42,
-#     replacement=True,
-#     sampling_strategy='all',  # Resamples all classes to match the minority class size
-#     n_jobs=-1
-# )
-# balanced_random_forest_model.fit(X_train, y_train)
-# y_predicted_class_probabilities_balanced_random_forest = balanced_random_forest_model.predict_proba(X_test)
-# y_predicted_balanced_random_forest = balanced_random_forest_model.predict(X_test)
+# balanced random forest classifier
+balanced_random_forest_model = BalancedRandomForestClassifier(
+    n_estimators=500,
+    random_state=42,
+    replacement=True,
+    sampling_strategy='all',  # Resamples all classes to match the minority class size
+    n_jobs=-1,
+
+    max_depth=5,
+    min_samples_leaf=100
+)
+balanced_random_forest_model.fit(X_train, y_train)
+y_predicted_test_class_probabilities_balanced_random_forest = balanced_random_forest_model.predict_proba(X_test)
+y_predicted_test_balanced_random_forest = balanced_random_forest_model.predict(X_test)
+y_predicted_train_class_probabilities_balanced_random_forest = balanced_random_forest_model.predict_proba(X_train)
+y_predicted_train_balanced_random_forest = balanced_random_forest_model.predict(X_train)
 
 ## most frequent baseline model
 most_frequent_model = DummyClassifier(strategy='most_frequent')
@@ -81,39 +92,44 @@ y_predicted_most_frequent = most_frequent_model.predict(X_test)
 # proportions
 college_major_categories = dataset['major_category'].unique()
 
-y_predicted = [y_predicted_hist_gradient_boosting_machine]
-for y_pred in y_predicted:
+y_predicted = [y_predicted_test_balanced_random_forest, y_predicted_train_balanced_random_forest]
+y_actual = [y_test, y_train]
+for i in range(len(y_predicted)):
     predicted_college_major_counts = defaultdict(int)
-    for pred in y_pred:
+    for pred in y_predicted[i]:
         predicted_college_major_counts[int(pred)] += 1
 
     test_college_major_category_counts = defaultdict(int)
 
-    for college_major_category in y_test:    
+    for college_major_category in y_actual[i]:
         test_college_major_category_counts[int(college_major_category)] += 1
 
     print("\n# PROPORTIONS")
     print("CATEGORY    PREDICTED    ACTUAL")
     sum_of_squared_differences = 0.0
-    for i in range(len(college_major_categories)):
-        actual_proportion = round((test_college_major_category_counts[i] / len(y_test)) * 100, 1)
-        pred_proportion = round((predicted_college_major_counts[i] / len(y_test)) * 100, 1)
+    for j in range(len(college_major_categories)):
+        actual_proportion = round((test_college_major_category_counts[j] / len(y_actual[i])) * 100, 1)
+        pred_proportion = round((predicted_college_major_counts[j] / len(y_actual[i])) * 100, 1)
         sum_of_squared_differences += (actual_proportion - pred_proportion)**2
-        print(college_major_categories[i] + " " + str(pred_proportion) + "%     " + str(actual_proportion) + "%")
+        print(college_major_categories[j] + " " + str(pred_proportion) + "%     " + str(actual_proportion) + "%")
 
-    print("Sum of Squared Differences: " + str(round(sum_of_squared_differences, 2)))
+    print("\nSum of Squared Differences: " + str(round(sum_of_squared_differences, 2)))
 
 
 print("\n# EVALUATION")
-# print_top_k_accuracy("Logistic Regression", number_of_top_k, "test", y_predicted_class_probabilities_logistic_regression)
-print_top_k_accuracy(y_test, "Hist Gradient Boosting Machines", number_of_top_k, "test", y_predicted_class_probabilities_hist_gradient_boosting_machine)
-print_top_k_accuracy(y_train, "Hist Gradient Boosting Machines", number_of_top_k, "train", y_predicted_train_class_probabilities_hist_gradient_boosting_machine)
-# print_top_k_accuracy("Balanced Random Forest", number_of_top_k, "test", y_predicted_class_probabilities_balanced_random_forest)
+# print_top_k_accuracy(y_test, "Logistic Regression", number_of_top_k, "test", y_predicted_test_class_probabilities_logistic_regression)
+# print_top_k_accuracy(y_train, "Logistic Regression", number_of_top_k, "train", y_predicted_train_class_probabilities_logistic_regression)
+# print_top_k_accuracy(y_test, "Hist Gradient Boosting Machines", number_of_top_k, "test", y_predicted_test_class_probabilities_hist_gradient_boosting_machine)
+# print_top_k_accuracy(y_train, "Hist Gradient Boosting Machines", number_of_top_k, "train", y_predicted_train_class_probabilities_hist_gradient_boosting_machine)
+print_top_k_accuracy(y_test, "Balanced Random Forest", number_of_top_k, "test", y_predicted_test_class_probabilities_balanced_random_forest)
+print_top_k_accuracy(y_train, "Balanced Random Forest", number_of_top_k, "train", y_predicted_train_class_probabilities_balanced_random_forest)
 # print_top_k_accuracy("Most Frequent", number_of_top_k, "test", y_predicted_class_probabilities_most_frequent)
-# print_top_1_accuracy("Logistic Regression", "test", y_predicted_logistic_regression)
-print_top_1_accuracy(y_test, "Hist Gradient Boosting Machine", "test", y_predicted_hist_gradient_boosting_machine)
-print_top_1_accuracy(y_train, "Hist Gradient Boosting Machine", "train", y_predicted_train_hist_gradient_boosting_machine)
-# print_top_1_accuracy("Balanced Random Forest", "test", y_predicted_balanced_random_forest)
+# print_top_1_accuracy(y_test, "Logistic Regression", "test", y_predicted_test_logistic_regression)
+# print_top_1_accuracy(y_train, "Logistic Regression", "train", y_predicted_train_logistic_regression)
+# print_top_1_accuracy(y_test, "Hist Gradient Boosting Machine", "test", y_predicted_test_hist_gradient_boosting_machine)
+# print_top_1_accuracy(y_train, "Hist Gradient Boosting Machine", "train", y_predicted_train_hist_gradient_boosting_machine)
+print_top_1_accuracy(y_test, "Balanced Random Forest", "test", y_predicted_test_balanced_random_forest)
+print_top_1_accuracy(y_train, "Balanced Random Forest", "train", y_predicted_train_balanced_random_forest)
 # print_top_1_accuracy("Most Frequent", "test", y_predicted_most_frequent)
 
 
@@ -237,7 +253,7 @@ print_top_1_accuracy(y_train, "Hist Gradient Boosting Machine", "train", y_predi
 # Gradient Boosting Machines Top-1 Test Accuracy:        0.285
 # Most Frequent Model Top-1 Test Accuracy:        0.228
 
-# random forest, class_weight='balanced'/'balanced_subsample' (same results basically)
+# random forest, class_weight='balanced'/'balan200ced_subsample' (same results basically)
 # # PROPORTIONS
 # CATEGORY    PREDICTED    ACTUAL
 # agriculture & natural resources 0.1%     0.6%
@@ -288,3 +304,149 @@ print_top_1_accuracy(y_train, "Hist Gradient Boosting Machine", "train", y_predi
 # Balanced Random Forest Top-3 Test Accuracy: 0.523
 # Gradient Boosting Machines Top-1 Test Accuracy:        0.285
 # Balanced Random Forest Top-1 Test Accuracy:        0.264
+
+
+
+# BALANCED RANDOM FOREST
+# # PROPORTIONS - TEST
+# CATEGORY    PREDICTED    ACTUAL
+# agriculture & natural resources 2.1%     0.6%
+# arts 8.8%     3.9%
+# biology & life science 8.7%     5.6%
+# business 12.3%     16.4%
+# communications 6.8%     2.7%
+# computers & mathematics 6.7%     4.8%
+# education 6.5%     4.3%
+# engineering 9.3%     9.0%
+# health 10.0%     7.7%
+# humanities & liberal arts 4.3%     9.9%
+# industrial arts & consumer services 1.9%     0.8%
+# law & public policy 3.2%     3.3%
+# physical sciences 6.1%     2.4%
+# psychology & social work 10.3%     22.8%
+# social science 3.0%     5.7%
+
+# Sum of Squared Differences: 293.13
+
+# # PROPORTIONS - TRAIN
+# CATEGORY    PREDICTED    ACTUAL
+# agriculture & natural resources 1.7%     0.6%
+# arts 8.7%     4.0%
+# biology & life science 8.4%     5.6%
+# business 12.0%     16.4%
+# communications 6.6%     2.7%
+# computers & mathematics 6.8%     4.8%
+# education 7.0%     4.3%
+# engineering 9.0%     9.0%
+# health 9.7%     7.7%
+# humanities & liberal arts 4.6%     9.9%
+# industrial arts & consumer services 1.9%     0.8%
+# law & public policy 4.1%     3.3%
+# physical sciences 5.8%     2.4%
+# psychology & social work 9.6%     22.8%
+# social science 4.1%     5.7%
+
+# Sum of Squared Differences: 299.3
+
+# # EVALUATION
+# 0.523 - Balanced Random Forest Top-3 test Accuracy
+# 0.791 - Balanced Random Forest Top-3 train Accuracy
+# 0.264 - Balanced Random Forest Top-1 test Accuracy
+# 0.519 - Balanced Random Forest Top-1 train Accuracy
+
+
+# HGBM
+# # PROPORTIONS - TEST
+# CATEGORY    PREDICTED    ACTUAL
+# agriculture & natural resources 1.9%     0.6%
+# arts 8.2%     3.9%
+# biology & life science 7.9%     5.6%
+# business 12.1%     16.4%
+# communications 6.0%     2.7%
+# computers & mathematics 7.2%     4.8%
+# education 8.0%     4.3%
+# engineering 8.7%     9.0%
+# health 8.7%     7.7%
+# humanities & liberal arts 5.0%     9.9%
+# industrial arts & consumer services 2.3%     0.8%
+# law & public policy 3.2%     3.3%
+# physical sciences 5.1%     2.4%
+# psychology & social work 12.0%     22.8%
+# social science 3.8%     5.7%
+
+# Sum of Squared Differences: 229.2
+
+# # PROPORTIONS - TRAIN
+# CATEGORY    PREDICTED    ACTUAL
+# agriculture & natural resources 1.9%     0.6%
+# arts 8.3%     4.0%
+# biology & life science 7.4%     5.6%
+# business 11.6%     16.4%
+# communications 6.3%     2.7%
+# computers & mathematics 6.7%     4.8%
+# education 7.4%     4.3%
+# engineering 8.6%     9.0%
+# health 9.3%     7.7%
+# humanities & liberal arts 5.3%     9.9%
+# industrial arts & consumer services 2.6%     0.8%
+# law & public policy 3.6%     3.3%
+# physical sciences 5.1%     2.4%
+# psychology & social work 11.8%     22.8%
+# social science 4.0%     5.7%
+
+# Sum of Squared Differences: 231.03
+
+# # EVALUATION
+# 0.56 - Hist Gradient Boosting Machines Top-3 test Accuracy
+# 0.694 - Hist Gradient Boosting Machines Top-3 train Accuracy
+# 0.285 - Hist Gradient Boosting Machine Top-1 test Accuracy
+# 0.421 - Hist Gradient Boosting Machine Top-1 train Accuracy
+
+
+# LOGISTIC REGRESSION
+# # PROPORTIONS - TEST
+# CATEGORY    PREDICTED    ACTUAL
+# agriculture & natural resources 4.5%     0.6%
+# arts 7.3%     3.9%
+# biology & life science 7.0%     5.6%
+# business 9.7%     16.4%
+# communications 6.4%     2.7%
+# computers & mathematics 7.3%     4.8%
+# education 8.4%     4.3%
+# engineering 8.2%     9.0%
+# health 8.7%     7.7%
+# humanities & liberal arts 3.9%     9.9%
+# industrial arts & consumer services 5.9%     0.8%
+# law & public policy 3.5%     3.3%
+# physical sciences 5.8%     2.4%
+# psychology & social work 10.3%     22.8%
+# social science 3.1%     5.7%
+
+# Sum of Squared Differences: 348.63
+
+# # PROPORTIONS - TRAIN
+# CATEGORY    PREDICTED    ACTUAL
+# agriculture & natural resources 4.7%     0.6%
+# arts 7.7%     4.0%
+# biology & life science 6.3%     5.6%
+# business 10.1%     16.4%
+# communications 6.4%     2.7%
+# computers & mathematics 6.7%     4.8%
+# education 7.9%     4.3%
+# engineering 7.9%     9.0%
+# health 9.5%     7.7%
+# humanities & liberal arts 4.0%     9.9%
+# industrial arts & consumer services 5.7%     0.8%
+# law & public policy 3.7%     3.3%
+# physical sciences 6.1%     2.4%
+# psychology & social work 10.3%     22.8%
+# social science 3.1%     5.7%
+
+# Sum of Squared Differences: 341.07
+
+# # EVALUATION
+# 0.536 - Logistic Regression Top-3 test Accuracy
+# 0.548 - Logistic Regression Top-3 train Accuracy
+# 0.265 - Logistic Regression Top-1 test Accuracy
+# 0.274 - Logistic Regression Top-1 train Accuracy
+
