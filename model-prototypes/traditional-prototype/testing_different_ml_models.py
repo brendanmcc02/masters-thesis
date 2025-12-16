@@ -4,7 +4,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import top_k_accuracy_score, accuracy_score
 from sklearn.dummy import DummyClassifier
-from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import HistGradientBoostingClassifier
 from collections import defaultdict
 
@@ -36,20 +35,6 @@ y = label_encoder.fit_transform(y)
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, stratify=y, random_state=42
 )
-
-# ## logistic regression
-# logistic_regression_model = LogisticRegression(
-#     class_weight='balanced', # prevents disproporionate predictions
-#     multi_class='multinomial',
-#     solver='saga', # negligible performance differences, saga is the quickest
-#     C=1.0, # different values have negligible impact
-#     max_iter=1000,
-#     random_state=42)
-# logistic_regression_model.fit(X_train, y_train)
-# y_predicted_test_class_probabilities_logistic_regression = logistic_regression_model.predict_proba(X_test)
-# y_predicted_test_logistic_regression = logistic_regression_model.predict(X_test)
-# y_predicted_train_class_probabilities_logistic_regression = logistic_regression_model.predict_proba(X_train)
-# y_predicted_train_logistic_regression = logistic_regression_model.predict(X_train)
 
 ## hist gradient boosting machines (HGBM)
 # testing the following hyperparameters with different configuration, and it resulted in neglibile improvements:
@@ -133,13 +118,9 @@ for i in range(len(y_predicted)):
     print("\nSum of Squared Differences: " + str(round(sum_of_squared_differences, 2)))
 
 print("\n## ACCURACY METRICS")
-# print_top_k_accuracy_metric(y_test, "Logistic Regression", number_of_top_k, "test", y_predicted_test_class_probabilities_logistic_regression)
-# print_top_k_accuracy_metric(y_train, "Logistic Regression", number_of_top_k, "train", y_predicted_train_class_probabilities_logistic_regression)
 print_top_k_accuracy_metric(y_test, "Hist Gradient Boosting Machines", number_of_top_k, "test", y_predicted_test_class_probabilities_hist_gradient_boosting_machine)
 print_top_k_accuracy_metric(y_train, "Hist Gradient Boosting Machines", number_of_top_k, "train", y_predicted_train_class_probabilities_hist_gradient_boosting_machine)
 print_top_k_accuracy_metric(y_test, "Most Frequent", number_of_top_k, "test", y_predicted_class_probabilities_most_frequent)
-# print_top_1_accuracy_metric(y_test, "Logistic Regression", "test", y_predicted_test_logistic_regression)
-# print_top_1_accuracy_metric(y_train, "Logistic Regression", "train", y_predicted_train_logistic_regression)
 print_top_1_accuracy_metric(y_test, "Hist Gradient Boosting Machine", "test", y_predicted_test_hist_gradient_boosting_machine)
 print_top_1_accuracy_metric(y_train, "Hist Gradient Boosting Machine", "train", y_predicted_train_hist_gradient_boosting_machine)
 print_top_1_accuracy_metric(y_test, "Most Frequent", "test", y_predicted_most_frequent)
@@ -160,19 +141,6 @@ print_top_1_accuracy_metric(y_test, "Most Frequent", "test", y_predicted_most_fr
 # Logistic Regression Top-1 Test Accuracy:        0.379
 
 
-# LOGISTIC REGRESSION
-# # PROPORTIONS - TEST
-# Sum of Squared Differences: 348.63
-
-# # PROPORTIONS - TRAIN
-# # Sum of Squared Differences: 341.07
-
-# # EVALUATION
-# 0.536 - Logistic Regression Top-3 test Accuracy
-# 0.548 - Logistic Regression Top-3 train Accuracy
-# 0.265 - Logistic Regression Top-1 test Accuracy
-# 0.274 - Logistic Regression Top-1 train Accuracy
-
 # HGBM - max_leaf_nodes=None, l2_regularization=1.0, class_weight='balanced'
 # Sum of Squared Differences (test): 34.24
 # Sum of Squared Differences (train): 16.41
@@ -181,13 +149,4 @@ print_top_1_accuracy_metric(y_test, "Most Frequent", "test", y_predicted_most_fr
 # 0.952 - Hist Gradient Boosting Machines Top-3 train Accuracy
 # 0.319 - Hist Gradient Boosting Machine Top-1 test Accuracy
 # 0.875 - Hist Gradient Boosting Machine Top-1 train Accuracy
-
-# HGBM - max_leaf_nodes=default, l2_regularization=1.0, class_weight='balanced'
-# Sum of Squared Differences: 234.57
-# Sum of Squared Differences: 238.37
-
-# 0.568 - Hist Gradient Boosting Machines Top-3 test Accuracy
-# 0.682 - Hist Gradient Boosting Machines Top-3 train Accuracy
-# 0.288 - Hist Gradient Boosting Machine Top-1 test Accuracy
-# 0.409 - Hist Gradient Boosting Machine Top-1 train Accuracy
 
