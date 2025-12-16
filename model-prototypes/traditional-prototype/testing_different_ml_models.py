@@ -72,68 +72,72 @@ X_train, X_test, y_train, y_test = train_test_split(
 # 0.319 - Hist Gradient Boosting Machine Top-1 test Accuracy
 # 0.875 - Hist Gradient Boosting Machine Top-1 train Accuracy
 # ```
-hist_gradient_boosting_machine_model = HistGradientBoostingClassifier(
+hist_gradient_boosting_machines_model = HistGradientBoostingClassifier(
     class_weight='balanced', # prevents disproporionate predictions
     l2_regularization=1.0, # less overfitting & improves performance. still overfits on the whole.
-    max_leaf_nodes=None, # see notes above
+    # max_leaf_nodes=None, # see notes above
     random_state=42
     )
-hist_gradient_boosting_machine_model.fit(X_train, y_train)
-y_predicted_test_class_probabilities_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict_proba(X_test)
-y_predicted_test_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict(X_test)
-y_predicted_train_class_probabilities_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict_proba(X_train)
-y_predicted_train_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict(X_train)
+hist_gradient_boosting_machines_model.fit(X_train, y_train)
+y_predicted_test_class_probabilities_hist_gradient_boosting_machines = hist_gradient_boosting_machines_model.predict_proba(X_test)
+y_predicted_test_hist_gradient_boosting_machines = hist_gradient_boosting_machines_model.predict(X_test)
+y_predicted_train_class_probabilities_hist_gradient_boosting_machines = hist_gradient_boosting_machines_model.predict_proba(X_train)
+y_predicted_train_hist_gradient_boosting_machines = hist_gradient_boosting_machines_model.predict(X_train)
 
-# ## most frequent baseline model
-most_frequent_model = DummyClassifier(strategy='most_frequent')
-most_frequent_model.fit(X_train, y_train)
-y_predicted_class_probabilities_most_frequent = most_frequent_model.predict_proba(X_test)
-y_predicted_most_frequent = most_frequent_model.predict(X_test)
+## most frequent baseline model
+most_frequent_baseline_model = DummyClassifier(strategy='most_frequent')
+most_frequent_baseline_model.fit(X_train, y_train)
+y_predicted_class_probabilities_most_frequent = most_frequent_baseline_model.predict_proba(X_test)
+y_predicted_most_frequent = most_frequent_baseline_model.predict(X_test)
 
 # proportions
 print("\n# EVALUATION")
 college_major_categories = dataset['major_category'].unique()
 
-y_predicted = [y_predicted_test_hist_gradient_boosting_machine, y_predicted_train_hist_gradient_boosting_machine]
-y_actual = [y_test, y_train]
-for i in range(len(y_predicted)):
-    predicted_college_major_counts = defaultdict(int)
-    for pred in y_predicted[i]:
-        predicted_college_major_counts[int(pred)] += 1
+predicted_college_major_counts = defaultdict(int)
+for pred in y_predicted_test_hist_gradient_boosting_machines:
+    predicted_college_major_counts[int(pred)] += 1
 
-    test_college_major_category_counts = defaultdict(int)
+test_college_major_category_counts = defaultdict(int)
 
-    for college_major_category in y_actual[i]:
-        test_college_major_category_counts[int(college_major_category)] += 1
+for college_major_category in y_test:
+    test_college_major_category_counts[int(college_major_category)] += 1
 
-    print("\n## PROPORTIONS")
-    print("CATEGORY    PREDICTED    ACTUAL")
-    sum_of_squared_differences = 0.0
-    for j in range(len(college_major_categories)):
-        actual_proportion = round((test_college_major_category_counts[j] / len(y_actual[i])) * 100, 1)
-        pred_proportion = round((predicted_college_major_counts[j] / len(y_actual[i])) * 100, 1)
-        sum_of_squared_differences += (actual_proportion - pred_proportion)**2
-        print(college_major_categories[j] + " " + str(pred_proportion) + "%     " + str(actual_proportion) + "%")
+print("\n## PROPORTIONS")
+print("CATEGORY    PREDICTED    ACTUAL")
+sum_of_squared_differences = 0.0
+for j in range(len(college_major_categories)):
+    actual_proportion = round((test_college_major_category_counts[j] / len(y_test)) * 100, 1)
+    pred_proportion = round((predicted_college_major_counts[j] / len(y_test)) * 100, 1)
+    sum_of_squared_differences += (actual_proportion - pred_proportion)**2
+    print(college_major_categories[j] + " " + str(pred_proportion) + "%     " + str(actual_proportion) + "%")
 
-    print("\nSum of Squared Differences: " + str(round(sum_of_squared_differences, 2)))
+print("\nSum of Squared Differences: " + str(round(sum_of_squared_differences, 2)))
 
 print("\n## ACCURACY METRICS")
-print_top_k_accuracy_metric(y_test, "Hist Gradient Boosting Machines", number_of_top_k, "test", y_predicted_test_class_probabilities_hist_gradient_boosting_machine)
-print_top_k_accuracy_metric(y_train, "Hist Gradient Boosting Machines", number_of_top_k, "train", y_predicted_train_class_probabilities_hist_gradient_boosting_machine)
-print_top_k_accuracy_metric(y_test, "Most Frequent", number_of_top_k, "test", y_predicted_class_probabilities_most_frequent)
-print_top_1_accuracy_metric(y_test, "Hist Gradient Boosting Machine", "test", y_predicted_test_hist_gradient_boosting_machine)
-print_top_1_accuracy_metric(y_train, "Hist Gradient Boosting Machine", "train", y_predicted_train_hist_gradient_boosting_machine)
-print_top_1_accuracy_metric(y_test, "Most Frequent", "test", y_predicted_most_frequent)
+print_top_k_accuracy_metric(y_test, "Hist Gradient Boosting Machines", number_of_top_k, "test", y_predicted_test_class_probabilities_hist_gradient_boosting_machines)
+print_top_k_accuracy_metric(y_train, "Hist Gradient Boosting Machines", number_of_top_k, "train", y_predicted_train_class_probabilities_hist_gradient_boosting_machines)
+# print_top_k_accuracy_metric(y_test, "Most Frequent Baseline", number_of_top_k, "test", y_predicted_class_probabilities_most_frequent)
+print_top_1_accuracy_metric(y_test, "Hist Gradient Boosting Machines", "test", y_predicted_test_hist_gradient_boosting_machines)
+print_top_1_accuracy_metric(y_train, "Hist Gradient Boosting Machines", "train", y_predicted_train_hist_gradient_boosting_machines)
+# print_top_1_accuracy_metric(y_test, "Most Frequent Baseline", "test", y_predicted_most_frequent)
 
-# at least with Log Reg model, it seems to perform better with 0-4 likert
-# 0-2 LIKERT SCALE
-# Logistic Regression Test Accuracy:        0.629
-# Logistic Regression Test Accuracy:        0.633
+# 0-2 LIKERT SCALE (0-4 has better performance)
+# 0.629 - Logistic Regression Test Accuracy
+# 0.633 - Logistic Regression Test Accuracy
+# 0.566 - Hist Gradient Boosting Machines Top-3 test Accuracy
+# 0.937 - Hist Gradient Boosting Machines Top-3 train Accuracy
+# 0.281 - Hist Gradient Boosting Machine Top-1 test Accuracy
+# 0.831 - Hist Gradient Boosting Machine Top-1 train Accuracy
 
-# at least with Log Reg model, it seems to perform better with no education filter
-# NO EDUCATION FILTER
-# Logistic Regression Top-3 Test Accuracy:        0.645
-# Logistic Regression Top-1 Test Accuracy:        0.37
+# NO EDUCATION FILTER (better performance with no education filter)
+# 0.645 - Logistic Regression Top-3 Test Accuracy
+# 0.37  - Logistic Regression Top-1 Test Accuracy
+# 0.566 - Hist Gradient Boosting Machines Top-3 test Accuracy
+# 0.937 - Hist Gradient Boosting Machines Top-3 train Accuracy
+# 0.281 - Hist Gradient Boosting Machine Top-1 test Accuracy
+# 0.831 - Hist Gradient Boosting Machine Top-1 train Accuracy
+
 
 # at least with Log Reg model, it seems to perform better with no substring match
 # no substring match
