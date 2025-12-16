@@ -8,10 +8,10 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import HistGradientBoostingClassifier
 from collections import defaultdict
 
-def print_top_k_accuracy(y_actual, model_name, number_of_top_k, train_or_test_label, y_predicted_class_probabilities):
+def print_top_k_accuracy_metric(y_actual, model_name, number_of_top_k, train_or_test_label, y_predicted_class_probabilities):
     print(str(round(top_k_accuracy_score(y_actual, y_predicted_class_probabilities, k=number_of_top_k), 3)) + " - " + model_name + " Top-" + str(number_of_top_k) + " " + train_or_test_label + " Accuracy")
 
-def print_top_1_accuracy(y_actual, model_name, train_or_test_label, y_predicted):
+def print_top_1_accuracy_metric(y_actual, model_name, train_or_test_label, y_predicted):
     print(str(round(accuracy_score(y_actual, y_predicted), 3)) + " - " + model_name + " Top-1 " + train_or_test_label + " Accuracy")
 
 number_of_top_k = 3
@@ -34,7 +34,7 @@ y = label_encoder.fit_transform(y)
 
 # stratify ensures proportion of output variables remains the same in the sets
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.1, stratify=y ,random_state=42
+    X, y, test_size=0.2, stratify=y, random_state=42
 )
 
 # ## logistic regression
@@ -51,13 +51,47 @@ X_train, X_test, y_train, y_test = train_test_split(
 # y_predicted_train_class_probabilities_logistic_regression = logistic_regression_model.predict_proba(X_train)
 # y_predicted_train_logistic_regression = logistic_regression_model.predict(X_train)
 
-## hist gradient boosting machines
+## hist gradient boosting machines (HGBM)
+# testing the following hyperparameters with different configuration, and it resulted in neglibile improvements:
+# * max_iter
+# * max_depth
+# * min_samples_leaf
+# a note on `max_leaf_nodes=None`:
+# * it overfits like crazy (~0.9 top-3 train set performance), BUT
+# * significant improvement on top-3 unseen test set performance (~+0.04)
+# * AND significant reduction in sum of squared differences (~30.0 vs ~250 previously)
+#   * this might seem like an improvement,
+#   * BUT it puts more bias towards psych & business (combined ~40% of the dataset)
+#   * see metrics for `default` and `None` hyperparameter values for `max_leaf_nodes`
+# max_leaf_nodes=default:
+# ```
+# major_category            PREDICTED   ACTUAL
+# business                  11.8%       16.4%
+# psychology & social work  11.6%       22.8%
+# Sum of Squared Differences: 234.57
+
+# 0.568 - Hist Gradient Boosting Machines Top-3 test Accuracy
+# 0.682 - Hist Gradient Boosting Machines Top-3 train Accuracy
+# 0.288 - Hist Gradient Boosting Machine Top-1 test Accuracy
+# 0.409 - Hist Gradient Boosting Machine Top-1 train Accuracy
+# ```
+# max_leaf_nodes=None:
+# ```
+# major_category            PREDICTED   ACTUAL
+# business                  17.9%       16.4%
+# psychology & social work  19.5%       22.8%
+# Sum of Squared Differences: 34.24
+
+# 0.606 - Hist Gradient Boosting Machines Top-3 test Accuracy
+# 0.952 - Hist Gradient Boosting Machines Top-3 train Accuracy
+# 0.319 - Hist Gradient Boosting Machine Top-1 test Accuracy
+# 0.875 - Hist Gradient Boosting Machine Top-1 train Accuracy
+# ```
 hist_gradient_boosting_machine_model = HistGradientBoostingClassifier(
     class_weight='balanced', # prevents disproporionate predictions
-    l2_regularization=100.0, # less overfitting, but still overfits
-    max_depth=10, # negligible performance difference
-    min_samples_leaf=100 # negligible performance difference
-    # ,random_state=42
+    l2_regularization=1.0, # less overfitting & improves performance. still overfits on the whole.
+    max_leaf_nodes=None, # see notes above
+    random_state=42
     )
 hist_gradient_boosting_machine_model.fit(X_train, y_train)
 y_predicted_test_class_probabilities_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict_proba(X_test)
@@ -65,13 +99,14 @@ y_predicted_test_hist_gradient_boosting_machine = hist_gradient_boosting_machine
 y_predicted_train_class_probabilities_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict_proba(X_train)
 y_predicted_train_hist_gradient_boosting_machine = hist_gradient_boosting_machine_model.predict(X_train)
 
-## most frequent baseline model
+# ## most frequent baseline model
 most_frequent_model = DummyClassifier(strategy='most_frequent')
 most_frequent_model.fit(X_train, y_train)
 y_predicted_class_probabilities_most_frequent = most_frequent_model.predict_proba(X_test)
 y_predicted_most_frequent = most_frequent_model.predict(X_test)
 
 # proportions
+print("\n# EVALUATION")
 college_major_categories = dataset['major_category'].unique()
 
 y_predicted = [y_predicted_test_hist_gradient_boosting_machine, y_predicted_train_hist_gradient_boosting_machine]
@@ -86,7 +121,7 @@ for i in range(len(y_predicted)):
     for college_major_category in y_actual[i]:
         test_college_major_category_counts[int(college_major_category)] += 1
 
-    print("\n# PROPORTIONS")
+    print("\n## PROPORTIONS")
     print("CATEGORY    PREDICTED    ACTUAL")
     sum_of_squared_differences = 0.0
     for j in range(len(college_major_categories)):
@@ -97,18 +132,17 @@ for i in range(len(y_predicted)):
 
     print("\nSum of Squared Differences: " + str(round(sum_of_squared_differences, 2)))
 
-
-print("\n# EVALUATION")
-# print_top_k_accuracy(y_test, "Logistic Regression", number_of_top_k, "test", y_predicted_test_class_probabilities_logistic_regression)
-# print_top_k_accuracy(y_train, "Logistic Regression", number_of_top_k, "train", y_predicted_train_class_probabilities_logistic_regression)
-print_top_k_accuracy(y_test, "Hist Gradient Boosting Machines", number_of_top_k, "test", y_predicted_test_class_probabilities_hist_gradient_boosting_machine)
-print_top_k_accuracy(y_train, "Hist Gradient Boosting Machines", number_of_top_k, "train", y_predicted_train_class_probabilities_hist_gradient_boosting_machine)
-print_top_k_accuracy(y_test, "Most Frequent", number_of_top_k, "test", y_predicted_class_probabilities_most_frequent)
-# print_top_1_accuracy(y_test, "Logistic Regression", "test", y_predicted_test_logistic_regression)
-# print_top_1_accuracy(y_train, "Logistic Regression", "train", y_predicted_train_logistic_regression)
-print_top_1_accuracy(y_test, "Hist Gradient Boosting Machine", "test", y_predicted_test_hist_gradient_boosting_machine)
-print_top_1_accuracy(y_train, "Hist Gradient Boosting Machine", "train", y_predicted_train_hist_gradient_boosting_machine)
-print_top_1_accuracy(y_test, "Most Frequent", "test", y_predicted_most_frequent)
+print("\n## ACCURACY METRICS")
+# print_top_k_accuracy_metric(y_test, "Logistic Regression", number_of_top_k, "test", y_predicted_test_class_probabilities_logistic_regression)
+# print_top_k_accuracy_metric(y_train, "Logistic Regression", number_of_top_k, "train", y_predicted_train_class_probabilities_logistic_regression)
+print_top_k_accuracy_metric(y_test, "Hist Gradient Boosting Machines", number_of_top_k, "test", y_predicted_test_class_probabilities_hist_gradient_boosting_machine)
+print_top_k_accuracy_metric(y_train, "Hist Gradient Boosting Machines", number_of_top_k, "train", y_predicted_train_class_probabilities_hist_gradient_boosting_machine)
+print_top_k_accuracy_metric(y_test, "Most Frequent", number_of_top_k, "test", y_predicted_class_probabilities_most_frequent)
+# print_top_1_accuracy_metric(y_test, "Logistic Regression", "test", y_predicted_test_logistic_regression)
+# print_top_1_accuracy_metric(y_train, "Logistic Regression", "train", y_predicted_train_logistic_regression)
+print_top_1_accuracy_metric(y_test, "Hist Gradient Boosting Machine", "test", y_predicted_test_hist_gradient_boosting_machine)
+print_top_1_accuracy_metric(y_train, "Hist Gradient Boosting Machine", "train", y_predicted_train_hist_gradient_boosting_machine)
+print_top_1_accuracy_metric(y_test, "Most Frequent", "test", y_predicted_most_frequent)
 
 # at least with Log Reg model, it seems to perform better with 0-4 likert
 # 0-2 LIKERT SCALE
@@ -126,20 +160,6 @@ print_top_1_accuracy(y_test, "Most Frequent", "test", y_predicted_most_frequent)
 # Logistic Regression Top-1 Test Accuracy:        0.379
 
 
-# HGBM
-# # PROPORTIONS - TEST
-# Sum of Squared Differences: 229.2
-
-# # PROPORTIONS - TRAIN
-# Sum of Squared Differences: 231.03
-
-# # EVALUATION
-# 0.56 - Hist Gradient Boosting Machines Top-3 test Accuracy
-# 0.694 - Hist Gradient Boosting Machines Top-3 train Accuracy
-# 0.285 - Hist Gradient Boosting Machine Top-1 test Accuracy
-# 0.421 - Hist Gradient Boosting Machine Top-1 train Accuracy
-
-
 # LOGISTIC REGRESSION
 # # PROPORTIONS - TEST
 # Sum of Squared Differences: 348.63
@@ -152,4 +172,22 @@ print_top_1_accuracy(y_test, "Most Frequent", "test", y_predicted_most_frequent)
 # 0.548 - Logistic Regression Top-3 train Accuracy
 # 0.265 - Logistic Regression Top-1 test Accuracy
 # 0.274 - Logistic Regression Top-1 train Accuracy
+
+# HGBM - max_leaf_nodes=None, l2_regularization=1.0, class_weight='balanced'
+# Sum of Squared Differences (test): 34.24
+# Sum of Squared Differences (train): 16.41
+
+# 0.606 - Hist Gradient Boosting Machines Top-3 test Accuracy
+# 0.952 - Hist Gradient Boosting Machines Top-3 train Accuracy
+# 0.319 - Hist Gradient Boosting Machine Top-1 test Accuracy
+# 0.875 - Hist Gradient Boosting Machine Top-1 train Accuracy
+
+# HGBM - max_leaf_nodes=default, l2_regularization=1.0, class_weight='balanced'
+# Sum of Squared Differences: 234.57
+# Sum of Squared Differences: 238.37
+
+# 0.568 - Hist Gradient Boosting Machines Top-3 test Accuracy
+# 0.682 - Hist Gradient Boosting Machines Top-3 train Accuracy
+# 0.288 - Hist Gradient Boosting Machine Top-1 test Accuracy
+# 0.409 - Hist Gradient Boosting Machine Top-1 train Accuracy
 
