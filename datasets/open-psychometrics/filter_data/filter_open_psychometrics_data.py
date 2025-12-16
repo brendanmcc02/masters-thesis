@@ -77,6 +77,16 @@ major_to_major_category_dict = college_majors_and_categories_df.set_index('colle
 clean_df_to_append['major_category'] = clean_df_to_append['major_preprocessed'].map(major_to_major_category_dict).fillna(clean_df_to_append['major_category'])
 clean_df = pd.concat([clean_df, clean_df_to_append], ignore_index=True)
 
+# print("substring match college majors for most frequently occuring major category")
+
+# dirty_df['major_category'] = dirty_df['major_preprocessed'].apply(get_most_frequently_occuring_college_major_category_with_substring_match, college_majors=college_majors, major_to_major_category_dict=major_to_major_category_dict)
+# has_substring_match_mask = dirty_df['major_category'].str.len() > 0
+
+# clean_df_to_append = dirty_df[has_substring_match_mask].copy()
+# clean_df = pd.concat([clean_df, clean_df_to_append], ignore_index=True)
+
+# dirty_df = dirty_df[~has_substring_match_mask].copy()
+
 print("fuzzy match for majors and major categories")
 
 dirty_df['major_category'] = dirty_df['major_preprocessed'].apply(fuzzy_match, college_majors_and_categories=list(college_majors) + list(college_major_categories), major_to_major_category_dict=major_to_major_category_dict)

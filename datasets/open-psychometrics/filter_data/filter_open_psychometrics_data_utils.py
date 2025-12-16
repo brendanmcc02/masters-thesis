@@ -2,6 +2,7 @@ from fuzzywuzzy import fuzz
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
+from collections import defaultdict
 import re
 
 def get_stop_words():
@@ -26,6 +27,8 @@ def get_stop_words():
     stop_words.add("dual")
     stop_words.add("studies")
     stop_words.add("concentration")
+    stop_words.add("honor")
+    stop_words.add("honour")
     stop_words.add("honors")
     stop_words.add("honours")
     stop_words.add("degree")
@@ -209,7 +212,7 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
 }
 
 
-FUZZY_MATCH_THRESHOLD = 85
+FUZZY_MATCH_THRESHOLD = 85  # obtained mostly from vibes and trial/error, negligible performance increase comparing 80/85/90
 def fuzzy_match(text, college_majors_and_categories, major_to_major_category_dict):
     maxScore = 0
     maxText = ""
@@ -253,3 +256,17 @@ def get_aggregated_college_major_categories_df(df, holland_code_columns, HOLLAND
     aggregated_major_categories_df = aggregated_major_categories_df.rename(columns={'R':RIASEC_TYPES[0], 'I':RIASEC_TYPES[1], 'A':RIASEC_TYPES[2], 'S':RIASEC_TYPES[3], 'E':RIASEC_TYPES[4], 'C':RIASEC_TYPES[5]}) 
 
     return aggregated_major_categories_df
+
+def get_most_frequently_occuring_college_major_category_with_substring_match(column_value, college_majors, major_to_major_category_dict):
+    substring_college_major_categories_counts = defaultdict(int)
+    for major in college_majors:
+        category = major_to_major_category_dict[major]
+
+        if major in column_value:
+            substring_college_major_categories_counts[category] += 1
+
+    if len(substring_college_major_categories_counts) > 0:
+        sorted_college_major_categories = sorted(substring_college_major_categories_counts, key=substring_college_major_categories_counts.get, reverse=True)
+        return sorted_college_major_categories[0] # just return the most frequently occuring college major category
+    
+    return ""

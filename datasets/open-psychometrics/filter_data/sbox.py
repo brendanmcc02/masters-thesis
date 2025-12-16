@@ -1,13 +1,5 @@
-from filter_open_psychometrics_data_utils import preprocess_text
+from collections import defaultdict
 
-# vet
-# veterinary medicine
-# veterinary science
-# veterinarian
+d = defaultdict(int)
 
-# historical
-# psychological
-# vet
-
-print(preprocess_text("pharmacy"))
-print(preprocess_text("Pharmaceutical"))
+print(str(len(d)))
