@@ -257,16 +257,17 @@ def get_aggregated_college_major_categories_df(df, holland_code_columns, HOLLAND
 
     return aggregated_major_categories_df
 
-def get_most_frequently_occuring_college_major_category_with_substring_match(column_value, college_majors, major_to_major_category_dict):
-    substring_college_major_categories_counts = defaultdict(int)
-    for major in college_majors:
-        category = major_to_major_category_dict[major]
+# # commenting out because this surprisingly reduces HGBM model performance by ~0.02
+# def get_most_frequently_occuring_college_major_category_with_substring_match(column_value, college_majors, major_to_major_category_dict):
+#     college_major_categories_counts = defaultdict(int)
+#     for major in college_majors:
+#         category = major_to_major_category_dict[major]
 
-        if major in column_value:
-            substring_college_major_categories_counts[category] += 1
+#         if major in column_value:
+#             college_major_categories_counts[category] += 1
 
-    if len(substring_college_major_categories_counts) > 0:
-        sorted_college_major_categories = sorted(substring_college_major_categories_counts, key=substring_college_major_categories_counts.get, reverse=True)
-        return sorted_college_major_categories[0] # just return the most frequently occuring college major category
+#     if len(college_major_categories_counts) > 0:
+#         sorted_college_major_categories = sorted(college_major_categories_counts, key=college_major_categories_counts.get, reverse=True)
+#         return sorted_college_major_categories[0] # just return the most frequently occuring college major category
     
-    return ""
+#     return ""
