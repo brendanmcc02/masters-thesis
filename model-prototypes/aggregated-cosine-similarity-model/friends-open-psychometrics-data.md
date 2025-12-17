@@ -8,18 +8,18 @@ Could you also choose your top 3 college course categories from below? You can c
 * you would realistically choose to study it
 * you would be good at it
 
-1. agriculture & natural resources
+1. agriculture
 2. arts
-3. biology & life science
+3. life science
 4. business
 5. communications & journalism
 6. computers & mathematics
 7. education
 8. engineering
 9. health
-10. humanities & liberal arts
+10. humanities
 11. industrial arts & consumer services
-12. law & public policy
+12. law
 13. physical sciences
 14. psychology & social work
 15. social science

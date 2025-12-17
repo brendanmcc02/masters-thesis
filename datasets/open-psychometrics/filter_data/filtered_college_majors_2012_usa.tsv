@@ -1,19 +1,16 @@
 college_major	college_major_category
-agriculture	agriculture & natural resources
-agriculture production	agriculture & natural resources
-agriculture management	agriculture & natural resources
-agricultural economics	agriculture & natural resources
-agricultural science	agriculture & natural resources
-agricultural engineering	agriculture & natural resources
-agriculture	agriculture & natural resources
-animal science	agriculture & natural resources
-food science	agriculture & natural resources
-plant science	agriculture & natural resources
-agronomy	agriculture & natural resources
-soil science	agriculture & natural resources
-forestry	agriculture & natural resources
-natural resources management	agriculture & natural resources
-natural resources	agriculture & natural resources
+agriculture production	agriculture
+agriculture management	agriculture
+agricultural economics	agriculture
+agricultural science	agriculture
+agricultural engineering	agriculture
+agriculture	agriculture
+animal science	agriculture
+food science	agriculture
+plant science	agriculture
+agronomy	agriculture
+soil science	agriculture
+forestry	agriculture
 fine arts	arts
 drama	arts
 theater	arts
@@ -27,26 +24,25 @@ interior design	arts
 film studies	arts
 photography	arts
 studio arts	arts
-environmental science	biology & life science
-biology	biology & life science
-life science	biology & life science
-biochemical science	biology & life science
-botany	biology & life science
-molecular biology	biology & life science
-ecology	biology & life science
-genetics	biology & life science
-microbiology	biology & life science
-pharmacology	biology & life science
-physiology	biology & life science
-exercise science	biology & life science
-physical therapy	biology & life science
-biomedical science	biology & life science
-kinesiology	biology & life science
-sport	biology & life science
-zoology	biology & life science
-neuroscience	biology & life science
-cognitive science	biology & life science
-biopsychology	biology & life science
+environmental science	life science
+biology	life science
+biochemical science	life science
+botany	life science
+molecular biology	life science
+ecology	life science
+genetics	life science
+microbiology	life science
+pharmacology	life science
+physiology	life science
+exercise science	life science
+physical therapy	life science
+biomedical science	life science
+kinesiology	life science
+sport	life science
+zoology	life science
+neuroscience	life science
+cognitive science	life science
+biopsychology	life science
 administration	business
 business administration	business
 medical administration	business
@@ -149,29 +145,28 @@ pharmacy	health
 community health	health
 public health	health
 occupational therapy	health
-area ethnic studies	humanities & liberal arts
-civilization studies	humanities & liberal arts
-comparative literature	humanities & liberal arts
-linguistics 	humanities & liberal arts
-foreign languages	humanities & liberal arts
-english	humanities & liberal arts
-english literature	humanities & liberal arts
-literature	humanities & liberal arts
-composition	humanities & liberal arts
-rhetoric	humanities & liberal arts
-liberal arts	humanities & liberal arts
-humanities	humanities & liberal arts
-intercultural studies	humanities & liberal arts
-international studies	humanities & liberal arts
-philosophy	humanities & liberal arts
-religious studies	humanities & liberal arts
-theology	humanities & liberal arts
-religious vocations	humanities & liberal arts
-anthropology	humanities & liberal arts
-archeology	humanities & liberal arts
-art history	humanities & liberal arts
-art criticism	humanities & liberal arts
-history	humanities & liberal arts
+area ethnic studies	humanities
+civilization studies	humanities
+comparative literature	humanities
+linguistics 	humanities
+foreign languages	humanities
+english	humanities
+english literature	humanities
+literature	humanities
+composition	humanities
+rhetoric	humanities
+liberal arts	humanities
+intercultural studies	humanities
+international studies	humanities
+philosophy	humanities
+religious studies	humanities
+theology	humanities
+religious vocations	humanities
+anthropology	humanities
+archeology	humanities
+art history	humanities
+art criticism	humanities
+history	humanities
 industrial arts	industrial arts & consumer services
 industrial design	industrial arts & consumer services
 consumer services	industrial arts & consumer services
@@ -193,14 +188,13 @@ transportation technology	industrial arts & consumer services
 transportation science	industrial arts & consumer services
 hospitality	industrial arts & consumer services
 tourism	industrial arts & consumer services
-court reporting	law & public policy
-law	law & public policy
-legal studies	law & public policy
-paralegal studies	law & public policy
-criminal justice	law & public policy
-fire protection	law & public policy
-public administration	law & public policy
-public policy	law & public policy
+court reporting	law
+legal studies	law
+paralegal studies	law
+criminal justice	law
+fire protection	law
+public administration	law
+public policy	law
 astronomy	physical science
 astrophysics	physical science
 atmospheric science	physical science

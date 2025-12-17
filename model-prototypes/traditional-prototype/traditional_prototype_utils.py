@@ -25,7 +25,7 @@ MAX_POINTS = 0 # global variables, will be modified
 MAX_RIASEC_QUESTION_VALUE = 4.0 # assuming 0-4, not 1-5!
 RIASEC_CATEGORIES = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprising', 'Conventional']
 # TODO load these in from filtered_college_majors_usa_2012.csv - DRY!
-COLLEGE_MAJOR_CATEGORIES = ['agriculture & natural resources', 'arts', 'biology & life science', 'business', 'communications & journalism', 'computers & mathematics', 'education', 'engineering', 'health', 'humanities & liberal arts', 'industrial arts & consumer services', 'law & public policy', 'physical sciences', 'psychology & social work', 'social science']
+COLLEGE_MAJOR_CATEGORIES = ['agriculture', 'arts', 'life science', 'business', 'communications & journalism', 'computers & mathematics', 'education', 'engineering', 'health', 'humanities', 'industrial arts & consumer services', 'law', 'physical sciences', 'psychology & social work', 'social science']
 
 leaving_cert_SUBJECTS_TO_RIASEC_MAP = {
                             # practical
