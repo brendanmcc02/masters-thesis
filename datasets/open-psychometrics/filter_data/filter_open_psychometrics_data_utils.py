@@ -209,7 +209,7 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'liberal studies': 'liberal arts',
     'speech language pathology': 'speech pathology',
     'speech therapy': 'speech pathology',
-    'dietetics': 'nutrition sciences',
+    'dietetics': 'nutrition science',
     'computer programming': 'programming',
 }
 
