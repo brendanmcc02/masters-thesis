@@ -26,4 +26,4 @@ filtered_cao_courses = get_filtered_cao_courses(user_college_course_preferences)
 top_k_recommendations = get_top_k_recommendations(filtered_cao_courses, user_riasec_vector, user_college_course_preferences, user_lc_subject_preferences, k=20, should_retrain_model=True)
 
 for rec in top_k_recommendations:
-    print(rec["title"] + "\n" + rec["college"] + "\nPoints: " + str(rec["points"]) + "\nSimilarity: " + str(round(rec["similarity"]*100.0, 1)) + "%\n")
+    print(rec["title"] + "\n" + rec["college"] + "\nPoints: " + str(rec["points"]) + "\nCategories: " + str(rec["categories"]) + "\nSimilarity: " + str(round(rec["similarity"]*100.0, 1)) + "%\n")
