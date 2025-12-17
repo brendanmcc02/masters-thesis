@@ -68,12 +68,14 @@ college_majors_and_categories_df['college_major_preprocessed'] = college_majors_
 
 college_majors_preprocessed = set(college_majors_and_categories_df["college_major_preprocessed"].unique().tolist())
 
+# TODO TEMP
 occurred = set()
 for major in college_majors_and_categories_df['college_major_preprocessed']:
      if major in occurred:
           print(str(major))
 
      occurred.add(str(major))
+########
 
 is_defined_college_major = dirty_df['college_major_preprocessed'].isin(college_majors_preprocessed)
 
@@ -112,7 +114,10 @@ clean_df.to_csv("../clean_riasec_college_major_categories.tsv", sep='\t', index=
 dirty_df = dirty_df.sort_values(by=['college_major_preprocessed'])
 dirty_df.to_csv("dirty_riasec_college_majors.tsv", sep='\t', index=False)
 
-# # get counts of exact college major matches
+# get counts of exact college major matches
+
+# college_majors_and_categories_df
+
 # exact_college_major_matches_df = clean_df[clean_df['college_major_preprocessed'].isin(college_majors)].copy()
 
 # major_counts_series = exact_college_major_matches_df['college_major_preprocessed'].value_counts()
@@ -127,7 +132,6 @@ dirty_df.to_csv("dirty_riasec_college_majors.tsv", sep='\t', index=False)
 #     how='left' # Use 'left' to keep all counts, even if a preprocessed major matches multiple original majors (which should be rare)
 # )
 
-# major_counts_df = major_counts_df.sort_values(by='count', ascending=True)
 # major_counts_df.to_csv('exact_college_major_matches_frequencies.tsv', sep='\t', index=False)
 
 # aggregated_major_categories_df = get_aggregated_college_major_categories_df(clean_df, holland_code_columns, HOLLAND_CODE_PREFIXES)

@@ -1,5 +1,4 @@
-from collections import defaultdict
+from filter_open_psychometrics_data_utils import preprocess_text
 
-d = defaultdict(int)
-
-print(str(len(d)))
+print(str(preprocess_text("computer science")))
+print(str(preprocess_text("computing")))
