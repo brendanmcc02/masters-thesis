@@ -122,4 +122,6 @@ college_majors_and_major_categories_df = college_majors_and_major_categories_df[
                                                                                  'number_of_exact_college_major_matches', 
                                                                                  'college_major_category', 
                                                                                  'college_major_category_preprocessed']] # re-order columns
+
+college_majors_and_major_categories_df = college_majors_and_major_categories_df.sort_values(by=['college_major_category', 'college_major'])
 college_majors_and_major_categories_df.to_csv('college_majors_and_major_categories.tsv', sep='\t', index=False)
