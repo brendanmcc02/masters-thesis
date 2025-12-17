@@ -68,11 +68,11 @@ college_majors_and_major_categories_df['college_major_preprocessed'] = college_m
 
 college_majors_preprocessed = set(college_majors_and_major_categories_df["college_major_preprocessed"].unique().tolist())
 
-# TODO TEMP
+# TEMP - check for duplicates
 occurred = set()
 for major in college_majors_and_major_categories_df['college_major_preprocessed']:
      if major in occurred:
-          print(str(major))
+          print("Duplicate preprocessed major!: " + str(major))
 
      occurred.add(str(major))
 ########

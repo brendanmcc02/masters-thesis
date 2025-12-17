@@ -21,7 +21,7 @@ Could you also choose your top 3 college course categories from below? You can c
 11. industrial arts & consumer services
 12. law
 13. physical sciences
-14. psychology & social work
+14. social science
 15. social science
 
 With that done, do you mind taking no more than 10 minutes to complete this quiz and sending me a screenshot of your results? https://openpsychometrics.org/tests/RIASEC.php

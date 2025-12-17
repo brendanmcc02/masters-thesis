@@ -2,10 +2,10 @@ name	realistic	investigative	artistic	social	enterprising	conventional	preferenc
 brendan	9	27	0	21	16	17	computers & mathematics	engineering	education
 maggie	3	27	25	21	18	6	health	life science	business
 konrad	15	6	22	13	16	25	computers & mathematics	engineering	business
-lisa	2	25	15	29	24	3	psychology & social work	education	life science
+lisa	2	25	15	29	24	3	social science	education	life science
 adam	14	4	0	5	15	15	business	engineering	computers & mathematics
 matthew	11	0	2	2	18	8	business	physical sciences	engineering
-lili	0	1	8	22	10	0	education	psychology & social work	social science
+lili	0	1	8	22	10	0	education	social science	social science
 dorka	2	18	9	25	6	0	health	life science	education
 daniel	11	1	3	22	21	25	business	education	health
 sean	28	21	14	19	7	18	arts	engineering	life science
@@ -31,16 +31,16 @@ rising	2	27	5	17	8	14	health	computers & mathematics	business
 dillon	31	15	14	16	18	20	computers & mathematics	engineering	physical sciences
 sarah	17	28	25	21	25	16	computers & mathematics	physical sciences	agriculture
 oscar	14	22	19	19	15	5	health	engineering	computers & mathematics
-viktor	10	25	27	23	14	19	psychology & social work	humanities	social science
-kitti	1	24	27	20	14	1	arts	psychology & social work	humanities
+viktor	10	25	27	23	14	19	social science	humanities	social science
+kitti	1	24	27	20	14	1	arts	social science	humanities
 grainne	6	16	21	22	9	10	arts	health	social science
 sofia	8	14	27	18	19	14	business	communications & journalism	education
-vicky	11	13	12	17	17	22	business	computers & mathematics	psychology & social work
+vicky	11	13	12	17	17	22	business	computers & mathematics	social science
 luka	6	31	23	11	18	9	business	life science	computers & mathematics
 vivi	2	22	12	18	7	14	business	life science	engineering
 aisling	7	22	15	19	10	5	health	business	arts
-sarka	9	18	16	29	17	2	psychology & social work	social science	education
-alan	2	3	24	14	18	4	communications & journalism	social science	psychology & social work
+sarka	9	18	16	29	17	2	social science	social science	education
+alan	2	3	24	14	18	4	communications & journalism	social science	social science
 cian k	12	7	29	20	16	22	business	computers & mathematics	industrial arts & consumer services
 lucas	15	13 	18	16	19	19	life science	agricultural & natural resources	business
 beth	1	5	17	31	6	2	social science	humanities	law

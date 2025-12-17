@@ -197,15 +197,15 @@ physics	physic	502	physical science	physic
 nuclear technology	nuclear technolog	0	physical science	physic
 industrial technology	industri technolog	14	physical science	physic
 radiology	radiolog	55	physical science	physic
-psychology	psycholog	14002	psychology & social work	psycholog social work
-educational psychology	educ psycholog	38	psychology & social work	psycholog social work
-clinical psychology	clinic psycholog	55	psychology & social work	psycholog social work
-counseling	counsel	795	psychology & social work	psycholog social work
-industrial psychology	industri psycholog	26	psychology & social work	psycholog social work
-organizational psychology	organiz psycholog	7	psychology & social work	psycholog social work
-social psychology	social psycholog	17	psychology & social work	psycholog social work
-human services	human servic	324	psychology & social work	psycholog social work
-social work	social work	709	psychology & social work	psycholog social work
+psychology	psycholog	14002	social science	social
+educational psychology	educ psycholog	38	social science	social
+clinical psychology	clinic psycholog	55	social science	social
+counseling	counsel	795	social science	social
+industrial psychology	industri psycholog	26	social science	social
+organizational psychology	organiz psycholog	7	social science	social
+social psychology	social psycholog	17	social science	social
+human services	human servic	324	social science	social
+social work	social work	709	social science	social
 economics	econom	1155	social science	social
 criminology	criminolog	190	social science	social
 geography	geographi	226	social science	social

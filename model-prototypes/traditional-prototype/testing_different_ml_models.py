@@ -52,7 +52,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 # ```
 # major_category            PREDICTED   ACTUAL
 # business                  11.8%       16.4%
-# psychology & social work  11.6%       22.8%
+# social science  11.6%       22.8%
 # Sum of Squared Differences: 234.57
 
 # 0.568 - Hist Gradient Boosting Machines Top-3 test Accuracy
@@ -64,7 +64,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 # ```
 # major_category            PREDICTED   ACTUAL
 # business                  17.9%       16.4%
-# psychology & social work  19.5%       22.8%
+# social science  19.5%       22.8%
 # Sum of Squared Differences: 34.24
 
 # 0.606 - Hist Gradient Boosting Machines Top-3 test Accuracy
