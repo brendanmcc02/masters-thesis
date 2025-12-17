@@ -213,19 +213,19 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
 
 
 FUZZY_MATCH_THRESHOLD = 85  # obtained mostly from vibes and trial/error, negligible performance increase comparing 80/85/90
-def fuzzy_match(text, college_majors_and_categories, major_to_major_category_dict):
-    maxScore = 0
+def get_fuzzy_college_major_category_match(text, preprocessed_college_majors_and_major_categories, preprocessed_major_to_major_category_dict):
+    max_score = 0
     maxText = ""
 
-    for collegeMajorOrCategory in college_majors_and_categories:
-        score = fuzz.ratio(text, collegeMajorOrCategory)
+    for college_major_or_major_category in preprocessed_college_majors_and_major_categories:
+        score = fuzz.ratio(text, college_major_or_major_category)
 
-        if score >= FUZZY_MATCH_THRESHOLD and score > maxScore:
-            maxScore = score
-            if collegeMajorOrCategory in major_to_major_category_dict:
-                maxText = major_to_major_category_dict[collegeMajorOrCategory]
+        if score >= FUZZY_MATCH_THRESHOLD and score > max_score:
+            max_score = score
+            if college_major_or_major_category in preprocessed_major_to_major_category_dict:
+                maxText = preprocessed_major_to_major_category_dict[college_major_or_major_category]
             else:
-                maxText = collegeMajorOrCategory
+                maxText = college_major_or_major_category
 
     return maxText
 
@@ -235,15 +235,15 @@ def reverse_college_major_category_preprocessing(df, unique_college_major_catego
     for unique_college_major_category in unique_college_major_categories:
         reverse_preprocessed_college_major_category_dict[preprocess_text(unique_college_major_category)] = unique_college_major_category
 
-    df['major_category'] = df['major_category'].map(reverse_preprocessed_college_major_category_dict).fillna(df['major_category'])
+    df['college_major_category'] = df['college_major_category'].map(reverse_preprocessed_college_major_category_dict).fillna(df['college_major_category'])
 
-    df = df.sort_values(by=['major_category'])
+    df = df.sort_values(by=['college_major_category'])
 
     return df
 
 RIASEC_TYPES = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
 def get_aggregated_college_major_categories_df(df, holland_code_columns, HOLLAND_CODE_PREFIXES):
-    aggregated_major_categories_df = df.groupby('major_category')[holland_code_columns].mean().reset_index()
+    aggregated_major_categories_df = df.groupby('college_major_category')[holland_code_columns].mean().reset_index()
 
     MAX_QUESTION_VALUE = 4
     for prefix in HOLLAND_CODE_PREFIXES:
@@ -252,7 +252,7 @@ def get_aggregated_college_major_categories_df(df, holland_code_columns, HOLLAND
         if score_cols:
             aggregated_major_categories_df[prefix] = round((aggregated_major_categories_df[score_cols].mean(axis=1) / MAX_QUESTION_VALUE), 4) # normalize
 
-    aggregated_major_categories_df = aggregated_major_categories_df[['major_category']+HOLLAND_CODE_PREFIXES]
+    aggregated_major_categories_df = aggregated_major_categories_df[['college_major_category']+HOLLAND_CODE_PREFIXES]
     aggregated_major_categories_df = aggregated_major_categories_df.rename(columns={'R':RIASEC_TYPES[0], 'I':RIASEC_TYPES[1], 'A':RIASEC_TYPES[2], 'S':RIASEC_TYPES[3], 'E':RIASEC_TYPES[4], 'C':RIASEC_TYPES[5]}) 
 
     return aggregated_major_categories_df
