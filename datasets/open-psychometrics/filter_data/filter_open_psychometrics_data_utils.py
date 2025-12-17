@@ -148,12 +148,12 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'llb': 'law',
     'jd': 'law',
     'bsw': 'social work',
+    'msw': 'social work',
     'mpa': 'public administration',
     'mph': 'public health',
     'md': 'medicine',
     'dnp': 'nursing',
     'aud': 'audiology',
-    'msw': 'social work',
     'comp': 'computer',
     'econ': 'economics',
     'lit': 'literature',
@@ -205,7 +205,7 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'vet': 'veterinarian',
     'veterinary medicine': 'veterinarian',
     'veterinary': 'veterinarian',
-    'animal': 'veterinarian', # animation and animal share the same stem, so just make animation something else
+    'animal': 'veterinarian', # animation and animal share the same stem, so make animal something else
     'liberal studies': 'liberal arts',
     'speech language pathology': 'speech pathology',
     'speech therapy': 'speech pathology',
