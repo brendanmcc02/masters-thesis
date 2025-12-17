@@ -123,6 +123,3 @@ college_majors_and_major_categories_df = college_majors_and_major_categories_df[
                                                                                  'college_major_category', 
                                                                                  'college_major_category_preprocessed']] # re-order columns
 college_majors_and_major_categories_df.to_csv('college_majors_and_major_categories.tsv', sep='\t', index=False)
-
-# aggregated_major_categories_df = get_aggregated_college_major_categories_df(clean_df, holland_code_columns, HOLLAND_CODE_PREFIXES)
-# aggregated_major_categories_df.to_csv("../clean_aggregated_riasec_college_major_categories.tsv", sep='\t', index=False)
