@@ -53,8 +53,8 @@ college_majors_and_major_categories_df = pd.read_csv("college_majors_and_major_c
 print("exact college major category match")
 
 unique_college_major_categories = college_majors_and_major_categories_df["college_major_category"].unique()
-college_majors_and_major_categories_df['college_major_category'] = college_majors_and_major_categories_df['college_major_category'].apply(preprocess_text)
-unique_college_major_categories_preprocessed = college_majors_and_major_categories_df["college_major_category"].unique()
+college_majors_and_major_categories_df['college_major_category_preprocessed'] = college_majors_and_major_categories_df['college_major_category'].apply(preprocess_text)
+unique_college_major_categories_preprocessed = college_majors_and_major_categories_df["college_major_category_preprocessed"].unique()
 college_major_categories_preprocessed = set(unique_college_major_categories_preprocessed.tolist())
 is_exact_match_college_major_category = df['college_major_preprocessed'].isin(college_major_categories_preprocessed)
 
@@ -82,7 +82,7 @@ is_defined_college_major = dirty_df['college_major_preprocessed'].isin(college_m
 clean_df_to_append = dirty_df[is_defined_college_major].copy()
 dirty_df = dirty_df[~is_defined_college_major].copy()
 
-preprocessed_major_to_major_category_dict = college_majors_and_major_categories_df.set_index('college_major_preprocessed')['college_major_category'].to_dict()
+preprocessed_major_to_major_category_dict = college_majors_and_major_categories_df.set_index('college_major_preprocessed')['college_major_category_preprocessed'].to_dict()
 
 clean_df_to_append['college_major_category'] = clean_df_to_append['college_major_preprocessed'].map(preprocessed_major_to_major_category_dict).fillna(clean_df_to_append['college_major_category'])
 clean_df = pd.concat([clean_df, clean_df_to_append], ignore_index=True)
@@ -114,19 +114,20 @@ clean_df.to_csv("../clean_riasec_college_major_categories.tsv", sep='\t', index=
 dirty_df = dirty_df.sort_values(by=['college_major_preprocessed'])
 dirty_df.to_csv("dirty_riasec_college_majors.tsv", sep='\t', index=False)
 
-# college_major_preprocessed_counts = clean_df['college_major_preprocessed'].value_counts()
-# college_major_preprocessed_counts_df = college_major_preprocessed_counts.reset_index()
-# college_major_preprocessed_counts_df.columns = ['college_major', 'number_of_exact_college_major_matches']
+college_major_preprocessed_counts = clean_df['college_major_preprocessed'].value_counts()
+college_major_preprocessed_counts_df = college_major_preprocessed_counts.reset_index()
+college_major_preprocessed_counts_df.columns = ['college_major_preprocessed', 'number_of_exact_college_major_matches']
 
-# college_majors_and_major_categories_df = pd.merge(
-#     college_majors_and_major_categories_df,
-#     college_major_preprocessed_counts_df,
-#     on='college_major', # The column to join on
-#     how='left'          # Keep all rows from the left (target) DataFrame
-# )
+college_majors_and_major_categories_df = pd.merge(
+    college_majors_and_major_categories_df,
+    college_major_preprocessed_counts_df,
+    on='college_major_preprocessed', # The column to join on
+    how='left'          # Keep all rows from the left (target) DataFrame
+)
 
-# college_majors_and_major_categories_df['number_of_exact_college_major_matches'] = college_majors_and_major_categories_df['number_of_exact_college_major_matches'].fillna(0).astype(int)
-# college_majors_and_major_categories_df.to_csv('college_majors_and_major_categories.tsv', sep='\t', index=False)
+college_majors_and_major_categories_df['number_of_exact_college_major_matches'] = college_majors_and_major_categories_df['number_of_exact_college_major_matches'].fillna(0).astype(int)
+college_majors_and_major_categories_df = college_majors_and_major_categories_df[['college_major', 'college_major_preprocessed', 'number_of_exact_college_major_matches', 'college_major_category', 'college_major_category_preprocessed']] # re-order columns
+college_majors_and_major_categories_df.to_csv('college_majors_and_major_categories.tsv', sep='\t', index=False)
 
 # aggregated_major_categories_df = get_aggregated_college_major_categories_df(clean_df, holland_code_columns, HOLLAND_CODE_PREFIXES)
 # aggregated_major_categories_df.to_csv("../clean_aggregated_riasec_college_major_categories.tsv", sep='\t', index=False)
