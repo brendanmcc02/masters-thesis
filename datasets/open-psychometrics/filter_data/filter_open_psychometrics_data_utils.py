@@ -205,11 +205,12 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'vet': 'veterinarian',
     'veterinary medicine': 'veterinarian',
     'veterinary': 'veterinarian',
+    'animal': 'veterinarian', # animation and animal share the same stem, so just make animation something else
     'liberal studies': 'liberal arts',
     'speech language pathology': 'speech pathology',
     'speech therapy': 'speech pathology',
     'dietetics': 'nutrition sciences',
-    'computer programming': 'programming'
+    'computer programming': 'programming',
 }
 
 

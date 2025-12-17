@@ -25,7 +25,7 @@ feature_columns = [ 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8',
                     'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8']
 
 X = dataset[feature_columns]
-y = dataset['major_category']
+y = dataset['college_major_category']
 
 # encode the output variable as numerical values
 label_encoder = LabelEncoder()
@@ -92,7 +92,7 @@ y_predicted_most_frequent = most_frequent_baseline_model.predict(X_test)
 
 # proportions
 print("\n# EVALUATION")
-college_major_categories = dataset['major_category'].unique()
+college_major_categories = dataset['college_major_category'].unique()
 
 predicted_college_major_counts = defaultdict(int)
 for pred in y_predicted_test_hist_gradient_boosting_machines:

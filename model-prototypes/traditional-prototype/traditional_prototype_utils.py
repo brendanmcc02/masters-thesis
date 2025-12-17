@@ -11,28 +11,27 @@ from sklearn.preprocessing import LabelEncoder
 import json
 import pandas as pd
 
-NUMBER_OF_RIASEC_CATEGORIES = 6
-NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY = 8
-NUMBER_OF_COLLEGE_MAJOR_CATEGORIES = 15
-VECTOR_REPRESENTATION_DIMENSION_SIZE = NUMBER_OF_RIASEC_CATEGORIES + NUMBER_OF_COLLEGE_MAJOR_CATEGORIES + 1 # + 1 for points
+RIASEC_CATEGORIES = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprising', 'Conventional']
+college_majors_and_major_categories_df = pd.read_csv("../../datasets/open-psychometrics/filter_data/college_majors_and_major_categories.tsv", sep='\t', low_memory=False)
+COLLEGE_MAJOR_CATEGORIES = college_majors_and_major_categories_df["college_major_category"].unique().tolist()
+VECTOR_REPRESENTATION_DIMENSION_SIZE = len(RIASEC_CATEGORIES) + len(COLLEGE_MAJOR_CATEGORIES) + 1 # + 1 for points
 
-POINTS_VECTOR_INDEX = 6
+POINTS_VECTOR_INDEX = len(RIASEC_CATEGORIES)
 STARTING_COLLEGE_MAJOR_CATEGORY_VECTOR_INDEX = POINTS_VECTOR_INDEX + 1
 
 MIN_POINTS = 0 # global variables, will be modified
 MAX_POINTS = 0 # global variables, will be modified
 
-MAX_RIASEC_QUESTION_VALUE = 4.0 # assuming 0-4, not 1-5!
-RIASEC_CATEGORIES = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprising', 'Conventional']
-# TODO load these in from filtered_college_majors_usa_2012.csv - DRY!
-COLLEGE_MAJOR_CATEGORIES = ['agriculture', 'arts', 'life science', 'business', 'communications & journalism', 'computers & mathematics', 'education', 'engineering', 'health', 'humanities', 'industrial arts & consumer services', 'law', 'physical sciences', 'psychology & social work', 'social science']
+NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY = 8
 
-leaving_cert_SUBJECTS_TO_RIASEC_MAP = {
+MAX_RIASEC_QUESTION_VALUE = 4.0 # assuming 0-4, not 1-5!
+
+LEAVING_CERT_SUBJECTS_TO_RIASEC_MAP = {
                             # practical
                             "Construction Studies": ["Realistic"], 
                             "Engineering": ["Realistic", "Investigative"], 
                             "Technology": ["Realistic", "Investigative"], 
-                            # sciences
+                            # natural and formal sciences
                             "Agricultural Science": ["Investigative"], 
                             "Applied Maths": ["Investigative"], 
                             "Biology": ["Investigative"], 
@@ -125,7 +124,7 @@ def get_weighted_categories_model(should_retrain_model):
     clean_riasec_college_major_categories = pd.read_csv("../../datasets/open-psychometrics/clean_riasec_college_major_categories.tsv", sep='\t')
     X = clean_riasec_college_major_categories[RIASEC_DATASET_FEATURE_COLUMNS]
     label_encoder = LabelEncoder()
-    y = label_encoder.fit_transform(clean_riasec_college_major_categories['major_category'])
+    y = label_encoder.fit_transform(clean_riasec_college_major_categories['college_major_category'])
 
     saved_model_filename = "saved_model.joblib"
     if should_retrain_model:
@@ -174,7 +173,7 @@ def get_simplified_user_riasec_vector(user_riasec_vector, leaving_cert_subjects_
 
 def factor_leaving_cert_subjects_into_riasec(riasec_category_vectors, leaving_cert_subjects_preferences):
     for subject in leaving_cert_subjects_preferences:
-        subject_interests = leaving_cert_SUBJECTS_TO_RIASEC_MAP[subject]
+        subject_interests = LEAVING_CERT_SUBJECTS_TO_RIASEC_MAP[subject]
 
         for interest in subject_interests:
             riasec_category_vectors[RIASEC_CATEGORIES.index(interest)].append(leaving_cert_subjects_preferences[subject])
@@ -244,5 +243,3 @@ def get_top_k_recommendations(filtered_cao_courses, user_riasec_vector, user_col
     user_vector = np.concatenate((simplified_user_riasec_vector, user_points_vector, user_categories_vector), axis=0)
 
     return get_top_k_results(filtered_cao_courses, user_vector, k)
-
-
