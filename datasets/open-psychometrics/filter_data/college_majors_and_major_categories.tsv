@@ -1,226 +1,226 @@
 college_major	college_major_preprocessed	number_of_exact_college_major_matches	college_major_category	college_major_category_preprocessed
 agriculture production	agricultur product	0	agriculture	agricultur
 agriculture management	agricultur manag	0	agriculture	agricultur
-agricultural economics	agricultur econom	0	agriculture	agricultur
-agricultural science	agricultur	0	agriculture	agricultur
-animal science	anim	0	agriculture	agricultur
-food science	food	0	agriculture	agricultur
-plant science	plant	0	agriculture	agricultur
-agronomy	agronomi	0	agriculture	agricultur
-soil science	soil	0	agriculture	agricultur
-forestry	forestri	0	agriculture	agricultur
-fine arts	fine art	0	arts	art
+agricultural economics	agricultur econom	6	agriculture	agricultur
+agricultural science	agricultur	93	agriculture	agricultur
+animal science	anim	151	agriculture	agricultur
+food science	food	46	agriculture	agricultur
+plant science	plant	4	agriculture	agricultur
+agronomy	agronomi	15	agriculture	agricultur
+soil science	soil	3	agriculture	agricultur
+forestry	forestri	23	agriculture	agricultur
+fine arts	fine art	240	arts	art
 drama	drama	43	arts	art
 theater	theater	49	arts	art
 music	music	491	arts	art
-visual arts	visual art	0	arts	art
-performing arts	perform art	0	arts	art
-commercial art	commerci art	0	arts	art
+visual arts	visual art	37	arts	art
+performing arts	perform art	32	arts	art
+commercial art	commerci art	3	arts	art
 design	design	345	arts	art
 graphic design	graphic design	280	arts	art
 interior design	interior design	94	arts	art
-film studies	film	0	arts	art
-photography	photographi	0	arts	art
-studio arts	studio art	0	arts	art
-environmental science	environment	0	life science	life
-biology	biolog	0	life science	life
-biochemical science	biochem	0	life science	life
-botany	botani	0	life science	life
-molecular biology	molecular biolog	0	life science	life
-ecology	ecolog	0	life science	life
-genetics	genet	0	life science	life
-microbiology	microbiolog	0	life science	life
-pharmacology	pharmacolog	0	life science	life
-physiology	physiolog	0	life science	life
-exercise science	exercis	0	life science	life
-physical therapy	physic therapi	0	life science	life
-biomedical science	biomed	0	life science	life
-kinesiology	kinesiolog	0	life science	life
+film studies	film	144	arts	art
+photography	photographi	97	arts	art
+studio arts	studio art	43	arts	art
+environmental science	environment	236	life science	life
+biology	biolog	2215	life science	life
+biochemical science	biochem	11	life science	life
+botany	botani	18	life science	life
+molecular biology	molecular biolog	25	life science	life
+ecology	ecolog	25	life science	life
+genetics	genet	24	life science	life
+microbiology	microbiolog	91	life science	life
+pharmacology	pharmacolog	22	life science	life
+physiology	physiolog	62	life science	life
+exercise science	exercis	149	life science	life
+physical therapy	physic therapi	124	life science	life
+biomedical science	biomed	148	life science	life
+kinesiology	kinesiolog	281	life science	life
 sport	sport	103	life science	life
-zoology	zoolog	0	life science	life
-neuroscience	neurosci	0	life science	life
-cognitive science	cognit	0	life science	life
-biopsychology	biopsycholog	0	life science	life
-administration	administr	0	business	busi
-business administration	busi administr	0	business	busi
-medical administration	medicin administr	0	business	busi
-accounting	account	0	business	busi
-actuarial science	actuari	0	business	busi
-management	manag	0	business	busi
-business management	busi manag	0	business	busi
-sports management	sport manag	0	business	busi
-operations management	oper manag	0	business	busi
-logistics	logist	0	business	busi
-e-commerce	commerc	0	business	busi
-marketing	market	0	business	busi
-marketing research	market research	0	business	busi
-finance	financ	0	business	busi
-human resources management	human resourc manag	0	business	busi
-human resources	human resourc	0	business	busi
+zoology	zoolog	73	life science	life
+neuroscience	neurosci	141	life science	life
+cognitive science	cognit	28	life science	life
+biopsychology	biopsycholog	12	life science	life
+administration	administr	100	business	busi
+business administration	busi administr	931	business	busi
+medical administration	medicin administr	12	business	busi
+accounting	account	1639	business	busi
+actuarial science	actuari	60	business	busi
+management	manag	916	business	busi
+business management	busi manag	758	business	busi
+sports management	sport manag	89	business	busi
+operations management	oper manag	13	business	busi
+logistics	logist	36	business	busi
+e-commerce	commerc	289	business	busi
+marketing	market	928	business	busi
+marketing research	market research	2	business	busi
+finance	financ	798	business	busi
+human resources management	human resourc manag	232	business	busi
+human resources	human resourc	423	business	busi
 personnel management	personnel manag	0	business	busi
-international business	intern busi	0	business	busi
-hospitality management	hospit manag	0	business	busi
-management information systems 	manag inform system	0	business	busi
-journalism	journal	0	communications	communic
-mass media	media	0	communications	communic
-advertising	advertis	0	communications	communic
-public relations	public relat	0	communications	communic
+international business	intern busi	139	business	busi
+hospitality management	hospit manag	84	business	busi
+management information systems 	manag inform system	28	business	busi
+journalism	journal	378	communications	communic
+mass media	media	128	communications	communic
+advertising	advertis	89	communications	communic
+public relations	public relat	84	communications	communic
 communication technology	communic technolog	0	computers & mathematics	comput mathemat
-information systems	inform system	0	computers & mathematics	comput mathemat
-information technology	inform technolog	0	computers & mathematics	comput mathemat
-computer systems	comput system	0	computers & mathematics	comput mathemat
-programming	program	0	computers & mathematics	comput mathemat
-data processing	data process	0	computers & mathematics	comput mathemat
-computer science	comput	0	computers & mathematics	comput mathemat
-software engineering	softwar engin	0	computers & mathematics	comput mathemat
-information science	inform	0	computers & mathematics	comput mathemat
-computer networking	comput network	0	computers & mathematics	comput mathemat
-telecommunications	telecommun	0	computers & mathematics	comput mathemat
-mathematics	mathemat	0	computers & mathematics	comput mathemat
-statistics	statist	0	computers & mathematics	comput mathemat
-decision science	decis	0	computers & mathematics	comput mathemat
-teaching	teach	0	education	educ
-educational administration	educ administr	0	education	educ
-elementary education	elementari educ	0	education	educ
-adult education	adult educ	0	education	educ
-mathematics education	mathemat educ	0	education	educ
-physical education	physic educ	0	education	educ
-health education	health educ	0	education	educ
-early childhood education	childhood educ	0	education	educ
-science education	educ	0	education	educ
-secondary education	secondari educ	0	education	educ
-special education	special educ	0	education	educ
-history education	histori educ	0	education	educ
-social science education	social educ	0	education	educ
-language education	languag educ	0	education	educ
+information systems	inform system	81	computers & mathematics	comput mathemat
+information technology	inform technolog	562	computers & mathematics	comput mathemat
+computer systems	comput system	6	computers & mathematics	comput mathemat
+programming	program	58	computers & mathematics	comput mathemat
+data processing	data process	1	computers & mathematics	comput mathemat
+computer science	comput	1484	computers & mathematics	comput mathemat
+software engineering	softwar engin	134	computers & mathematics	comput mathemat
+information science	inform	26	computers & mathematics	comput mathemat
+computer networking	comput network	24	computers & mathematics	comput mathemat
+telecommunications	telecommun	17	computers & mathematics	comput mathemat
+mathematics	mathemat	911	computers & mathematics	comput mathemat
+statistics	statist	79	computers & mathematics	comput mathemat
+decision science	decis	2	computers & mathematics	comput mathemat
+teaching	teach	190	education	educ
+educational administration	educ administr	8	education	educ
+elementary education	elementari educ	164	education	educ
+adult education	adult educ	16	education	educ
+mathematics education	mathemat educ	19	education	educ
+physical education	physic educ	83	education	educ
+health education	health educ	9	education	educ
+early childhood education	childhood educ	173	education	educ
+science education	educ	2080	education	educ
+secondary education	secondari educ	19	education	educ
+special education	special educ	85	education	educ
+history education	histori educ	17	education	educ
+social science education	social educ	9	education	educ
+language education	languag educ	13	education	educ
 drama education	drama educ	0	education	educ
-music education	music educ	0	education	educ
-art education	art educ	0	education	educ
-library science	librari	0	education	educ
-architecture	architectur	0	engineering	engin
-aerospace engineering	aerospac engin	0	engineering	engin
-aeronautical engineering	aeronaut engin	0	engineering	engin
-agricultural engineering	agricultur engin	0	engineering	engin
-biological engineering	biolog engin	0	engineering	engin
-architectural engineering	architectur engin	0	engineering	engin
-biomedical engineering	biomed engin	0	engineering	engin
-chemical engineering	chemic engin	0	engineering	engin
-civil engineering	civil engin	0	engineering	engin
-computer engineering	comput engin	0	engineering	engin
-electrical engineering	electr engin	0	engineering	engin
-environmental engineering	environment engin	0	engineering	engin
-geological engineering	geolog engin	0	engineering	engin
-geophysical engineering	geophys engin	0	engineering	engin
-industrial engineering	industri engin	0	engineering	engin
-manufacturing engineering	manufactur engin	0	engineering	engin
-materials engineering	materi engin	0	engineering	engin
-materials science	materi	0	engineering	engin
-mechanical engineering	mechan engin	0	engineering	engin
-metallurgical engineering	metallurg engin	0	engineering	engin
-mining engineering	mine engin	0	engineering	engin
+music education	music educ	88	education	educ
+art education	art educ	34	education	educ
+library science	librari	37	education	educ
+architecture	architectur	551	engineering	engin
+aerospace engineering	aerospac engin	79	engineering	engin
+aeronautical engineering	aeronaut engin	50	engineering	engin
+agricultural engineering	agricultur engin	11	engineering	engin
+biological engineering	biolog engin	17	engineering	engin
+architectural engineering	architectur engin	22	engineering	engin
+biomedical engineering	biomed engin	103	engineering	engin
+chemical engineering	chemic engin	429	engineering	engin
+civil engineering	civil engin	1134	engineering	engin
+computer engineering	comput engin	336	engineering	engin
+electrical engineering	electr engin	536	engineering	engin
+environmental engineering	environment engin	55	engineering	engin
+geological engineering	geolog engin	7	engineering	engin
+geophysical engineering	geophys engin	2	engineering	engin
+industrial engineering	industri engin	124	engineering	engin
+manufacturing engineering	manufactur engin	15	engineering	engin
+materials engineering	materi engin	29	engineering	engin
+materials science	materi	23	engineering	engin
+mechanical engineering	mechan engin	810	engineering	engin
+metallurgical engineering	metallurg engin	8	engineering	engin
+mining engineering	mine engin	15	engineering	engin
 mineral engineering	miner engin	0	engineering	engin
-naval architecture	naval architectur	0	engineering	engin
-marine engineering	marin engin	0	engineering	engin
-nuclear engineering	nuclear engin	0	engineering	engin
-petroleum engineering	petroleum engin	0	engineering	engin
-engineering technology	engin technolog	0	engineering	engin
-engineering management	engin manag	0	engineering	engin
-industrial management	industri manag	0	engineering	engin
-medicine	medicin	0	health	health
+naval architecture	naval architectur	4	engineering	engin
+marine engineering	marin engin	23	engineering	engin
+nuclear engineering	nuclear engin	13	engineering	engin
+petroleum engineering	petroleum engin	20	engineering	engin
+engineering technology	engin technolog	22	engineering	engin
+engineering management	engin manag	7	engineering	engin
+industrial management	industri manag	6	engineering	engin
+medicine	medicin	1356	health	health
 veterinarian	veterinarian	133	health	health
-veterinarian technology	veterinarian technolog	0	health	health
-nursing	nurs	0	health	health
-midwifery	midwiferi	0	health	health
-dentistry	dentistri	0	health	health
-dental hygiene	dentistri hygien	0	health	health
-dental technology	dentistri technolog	0	health	health
-nutrition science	nutrit	0	health	health
-health services	health servic	0	health	health
-speech pathology	speech patholog	0	health	health
-health administration	health administr	0	health	health
-medical assisting	medicin assist	0	health	health
-pharmacy	pharmaci	0	health	health
-community health	communiti health	0	health	health
+veterinarian technology	veterinarian technolog	16	health	health
+nursing	nurs	2485	health	health
+midwifery	midwiferi	8	health	health
+dentistry	dentistri	127	health	health
+dental hygiene	dentistri hygien	40	health	health
+dental technology	dentistri technolog	1	health	health
+nutrition science	nutrit	162	health	health
+health services	health servic	11	health	health
+speech pathology	speech patholog	74	health	health
+health administration	health administr	15	health	health
+medical assisting	medicin assist	87	health	health
+pharmacy	pharmaci	283	health	health
+community health	communiti health	17	health	health
 public health	public health	152	health	health
-occupational therapy	occup therapi	0	health	health
+occupational therapy	occup therapi	106	health	health
 area ethnic studies	area ethnic	0	humanities	human
-civilization studies	civil	0	humanities	human
-comparative literature	compar literatur	0	humanities	human
-linguistics 	linguist	0	humanities	human
-foreign languages	languag	0	humanities	human
+civilization studies	civil	31	humanities	human
+comparative literature	compar literatur	12	humanities	human
+linguistics 	linguist	215	humanities	human
+foreign languages	languag	601	humanities	human
 english	english	3253	humanities	human
-english literature	english literatur	0	humanities	human
-literature	literatur	0	humanities	human
+english literature	english literatur	109	humanities	human
+literature	literatur	126	humanities	human
 composition	composit	0	humanities	human
-rhetoric	rhetor	0	humanities	human
-liberal arts	liber art	0	humanities	human
-intercultural studies	intercultur	0	humanities	human
-international studies	intern	0	humanities	human
-philosophy	philosophi	0	humanities	human
-religious studies	religi	0	humanities	human
-theology	theolog	0	humanities	human
+rhetoric	rhetor	5	humanities	human
+liberal arts	liber art	409	humanities	human
+intercultural studies	intercultur	4	humanities	human
+international studies	intern	77	humanities	human
+philosophy	philosophi	435	humanities	human
+religious studies	religi	38	humanities	human
+theology	theolog	114	humanities	human
 religious vocations	religi vocat	0	humanities	human
-anthropology	anthropolog	0	humanities	human
-archeology	archeolog	0	humanities	human
-art history	art histori	0	humanities	human
-art criticism	art critic	0	humanities	human
-history	histori	0	humanities	human
+anthropology	anthropolog	309	humanities	human
+archeology	archeolog	3	humanities	human
+art history	art histori	122	humanities	human
+art criticism	art critic	1	humanities	human
+history	histori	977	humanities	human
 industrial arts	industri art	0	industrial arts & consumer services	industri art consum servic
-industrial design	industri design	0	industrial arts & consumer services	industri art consum servic
-consumer services	consum servic	0	industrial arts & consumer services	industri art consum servic
-cosmetology	cosmetolog	0	industrial arts & consumer services	industri art consum servic
-culinary arts	culinari art	0	industrial arts & consumer services	industri art consum servic
-family science	famili	0	industrial arts & consumer services	industri art consum servic
-consumer science	consum	0	industrial arts & consumer services	industri art consum servic
-military science	militari	0	industrial arts & consumer services	industri art consum servic
-recreation management	recreat manag	0	industrial arts & consumer services	industri art consum servic
-leisure studies	leisur	0	industrial arts & consumer services	industri art consum servic
+industrial design	industri design	42	industrial arts & consumer services	industri art consum servic
+consumer services	consum servic	1	industrial arts & consumer services	industri art consum servic
+cosmetology	cosmetolog	33	industrial arts & consumer services	industri art consum servic
+culinary arts	culinari art	86	industrial arts & consumer services	industri art consum servic
+family science	famili	40	industrial arts & consumer services	industri art consum servic
+consumer science	consum	1	industrial arts & consumer services	industri art consum servic
+military science	militari	10	industrial arts & consumer services	industri art consum servic
+recreation management	recreat manag	8	industrial arts & consumer services	industri art consum servic
+leisure studies	leisur	3	industrial arts & consumer services	industri art consum servic
 construction services	construct servic	0	industrial arts & consumer services	industri art consum servic
-electrical technology	electr technolog	0	industrial arts & consumer services	industri art consum servic
+electrical technology	electr technolog	2	industrial arts & consumer services	industri art consum servic
 electrical production	electr product	0	industrial arts & consumer services	industri art consum servic
-mechanical technology	mechan technolog	0	industrial arts & consumer services	industri art consum servic
+mechanical technology	mechan technolog	2	industrial arts & consumer services	industri art consum servic
 mechanical production	mechan product	0	industrial arts & consumer services	industri art consum servic
 precision technology	precis technolog	0	industrial arts & consumer services	industri art consum servic
 precision production	precis product	0	industrial arts & consumer services	industri art consum servic
 transportation technology	transport technolog	0	industrial arts & consumer services	industri art consum servic
-transportation science	transport	0	industrial arts & consumer services	industri art consum servic
-hospitality	hospit	0	industrial arts & consumer services	industri art consum servic
+transportation science	transport	6	industrial arts & consumer services	industri art consum servic
+hospitality	hospit	144	industrial arts & consumer services	industri art consum servic
 tourism	tourism	124	industrial arts & consumer services	industri art consum servic
-court reporting	court report	0	law	law
-legal studies	legal	0	law	law
-paralegal studies	paraleg	0	law	law
-criminal justice	crimin justic	0	law	law
-fire protection	fire protect	0	law	law
-public administration	public administr	0	law	law
-public policy	public polici	0	law	law
-astronomy	astronomi	0	physical science	physic
-astrophysics	astrophys	0	physical science	physic
-atmospheric science	atmospher	0	physical science	physic
-meteorology	meteorolog	0	physical science	physic
-chemistry	chemistri	0	physical science	physic
-geology	geolog	0	physical science	physic
-earth science	earth	0	physical science	physic
-geoscience	geoscienc	0	physical science	physic
-oceanography	oceanographi	0	physical science	physic
-physics	physic	0	physical science	physic
+court reporting	court report	1	law	law
+legal studies	legal	55	law	law
+paralegal studies	paraleg	72	law	law
+criminal justice	crimin justic	936	law	law
+fire protection	fire protect	2	law	law
+public administration	public administr	71	law	law
+public policy	public polici	26	law	law
+astronomy	astronomi	38	physical science	physic
+astrophysics	astrophys	20	physical science	physic
+atmospheric science	atmospher	2	physical science	physic
+meteorology	meteorolog	11	physical science	physic
+chemistry	chemistri	595	physical science	physic
+geology	geolog	148	physical science	physic
+earth science	earth	15	physical science	physic
+geoscience	geoscienc	4	physical science	physic
+oceanography	oceanographi	5	physical science	physic
+physics	physic	502	physical science	physic
 nuclear technology	nuclear technolog	0	physical science	physic
-industrial technology	industri technolog	0	physical science	physic
-radiology	radiolog	0	physical science	physic
-biological technology	biolog technolog	0	physical science	physic
-psychology	psycholog	0	psychology & social work	psycholog social work
-educational psychology	educ psycholog	0	psychology & social work	psycholog social work
-clinical psychology	clinic psycholog	0	psychology & social work	psycholog social work
-counseling	counsel	0	psychology & social work	psycholog social work
-industrial psychology	industri psycholog	0	psychology & social work	psycholog social work
-organizational psychology	organiz psycholog	0	psychology & social work	psycholog social work
-social psychology	social psycholog	0	psychology & social work	psycholog social work
-human services	human servic	0	psychology & social work	psycholog social work
+industrial technology	industri technolog	14	physical science	physic
+radiology	radiolog	55	physical science	physic
+biological technology	biolog technolog	1	physical science	physic
+psychology	psycholog	14002	psychology & social work	psycholog social work
+educational psychology	educ psycholog	38	psychology & social work	psycholog social work
+clinical psychology	clinic psycholog	55	psychology & social work	psycholog social work
+counseling	counsel	795	psychology & social work	psycholog social work
+industrial psychology	industri psycholog	26	psychology & social work	psycholog social work
+organizational psychology	organiz psycholog	7	psychology & social work	psycholog social work
+social psychology	social psycholog	17	psychology & social work	psycholog social work
+human services	human servic	324	psychology & social work	psycholog social work
 community organization	communiti organ	0	psychology & social work	psycholog social work
 social work	social work	709	psychology & social work	psycholog social work
-economics	econom	0	social science	social
-criminology	criminolog	0	social science	social
-geography	geographi	0	social science	social
-international relations	intern relat	0	social science	social
-political science	polit	0	social science	social
-government	govern	0	social science	social
-sociology	sociolog	0	social science	social
+economics	econom	1155	social science	social
+criminology	criminolog	190	social science	social
+geography	geographi	226	social science	social
+international relations	intern relat	243	social science	social
+political science	polit	876	social science	social
+government	govern	17	social science	social
+sociology	sociolog	922	social science	social
