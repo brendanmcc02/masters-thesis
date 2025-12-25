@@ -26,6 +26,7 @@ NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY = 8
 
 MAX_RIASEC_QUESTION_VALUE = 4.0 # assuming 0-4, not 1-5!
 
+# consider factoring this into categories?
 LEAVING_CERT_SUBJECTS_TO_RIASEC_MAP = {
                             # practical
                             "Construction Studies": ["Realistic"], 

@@ -12,6 +12,7 @@ R5	Operate a grinding machine in a factory
 R6	Fix a broken faucet
 R7	Assemble products in a factory
 R8	Install flooring in houses
+
 I1	Study the structure of the human body
 I2	Study animal behavior
 I3	Do research on plants or animals
@@ -20,6 +21,7 @@ I5	Conduct biological research
 I6	Study whales and other types of marine life
 I7	Work in a biology lab
 I8	Make a map of the bottom of an ocean
+
 A1	Conduct a musical choir
 A2	Direct a play
 A3	Design artwork for magazines
@@ -28,6 +30,7 @@ A5	Write books or plays
 A6	Play a musical instrument
 A7	Perform stunts for a movie or television show
 A8	Design sets for plays
+
 S1	Give career guidance to people
 S2	Do volunteer work at a non-profit organization
 S3	Help people who have problems with drugs or alcohol
@@ -36,6 +39,7 @@ S5	Help people with family-related problems
 S6	Supervise the activities of children at a camp
 S7	Teach children how to read
 S8	Help elderly people with their daily activities
+
 E1	Sell restaurant franchises to individuals
 E2	Sell merchandise at a department store
 E3	Manage the operations of a hotel
@@ -44,6 +48,7 @@ E5	Manage a department within a large company
 E6	Manage a clothing store
 E7	Sell houses
 E8	Run a toy store
+
 C1	Generate the monthly payroll checks for an office
 C2	Inventory supplies using a hand-held computer
 C3	Use a computer program to generate customer bills

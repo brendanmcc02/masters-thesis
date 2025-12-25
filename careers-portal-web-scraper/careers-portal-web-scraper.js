@@ -10,7 +10,7 @@ async function main() {
     const url = 'https://careersportal.ie/courses/coursefinder?types_in=2';
     let courses = [];
 
-    const browser = await pptr.launch({ headless: true, defaultViewport: null, args: ['--start-maximized', '--window-size=1920,1080', '--no-sandbox', '--disable-setuid-sandbox'] });
+    const browser = await pptr.launch({ headless: false, defaultViewport: null, args: ['--start-maximized', '--window-size=1920,1080', '--no-sandbox', '--disable-setuid-sandbox'] });
     const page = await browser.newPage();
     await page.setViewport({width: 1920, height: 1080});
     await page.goto(url, { waitUntil: 'networkidle0' });
