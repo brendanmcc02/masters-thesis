@@ -26,7 +26,6 @@ NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY = 8
 
 MAX_RIASEC_QUESTION_VALUE = 4.0 # assuming 0-4, not 1-5!
 
-# consider factoring this into categories?
 LEAVING_CERT_SUBJECTS_TO_RIASEC_MAP = {
                             # practical
                             "Construction Studies": ["Realistic"], 
@@ -79,9 +78,12 @@ LEAVING_CERT_SUBJECTS_TO_RIASEC_MAP = {
                             "Economics": ["Investigative", "Enterprising"]
                             }
 
-RIASEC_DATASET_FEATURE_COLUMNS = [ 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8', 'I1', 'I2', 'I3', 'I4', 'I5', 'I6', 'I7', 'I8', 
-                                   'A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8', 
-                                   'E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8', 'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8']
+RIASEC_DATASET_FEATURE_COLUMNS = [ 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8', 
+                                   'I1', 'I2', 'I3', 'I4', 'I5', 'I6', 'I7', 'I8', 
+                                   'A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 
+                                   'S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8', 
+                                   'E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8', 
+                                   'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8']
 
 def get_min_points():
     # some courses have null points, so there's no need to calculate the min
