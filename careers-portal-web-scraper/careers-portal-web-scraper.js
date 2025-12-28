@@ -288,7 +288,7 @@ function getRegion(collegeName) {
             return "Dublin";
         case "Dublin Business School - DBS":
             return "Dublin";
-        case "Dublin City University - DCU":
+        case "Dublin City University":
             return "Dublin";
         case "Griffith College Dublin":
             return "Dublin";
@@ -304,13 +304,13 @@ function getRegion(collegeName) {
             return "Dublin";
         case "National College of Ireland - NCI":
             return "Dublin";
-        case "RCSI University of Medicine and Health Sciences":
+        case "Royal College of Surgeons in Ireland":
             return "Dublin";
         case "Setanta College":
             return "Dublin";
-        case "Trinity College Dublin - TCD":
+        case "Trinity College Dublin":
             return "Dublin";
-        case "University College Dublin - UCD":
+        case "University College Dublin":
             return "Dublin";
         case "TU Dublin - Tallaght":
             return "Dublin";
