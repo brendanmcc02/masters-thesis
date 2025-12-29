@@ -97,23 +97,27 @@ mining engineering	mine engin	15	engineering	engin
 naval architecture	naval architectur	4	engineering	engin
 nuclear engineering	nuclear engin	13	engineering	engin
 petroleum engineering	petroleum engin	20	engineering	engin
-community health	communiti health	17	health	health
-dental hygiene	dentistri hygien	40	health	health
-dental technology	dentistri technolog	1	health	health
-dentistry	dentistri	127	health	health
-health administration	health administr	15	health	health
-health services	health servic	11	health	health
-medical assisting	medicin assist	87	health	health
-medicine	medicin	1356	health	health
-midwifery	midwiferi	8	health	health
-nursing	nurs	2485	health	health
-nutrition science	nutrit	162	health	health
-occupational therapy	occup therapi	106	health	health
-pharmacy	pharmaci	283	health	health
-public health	public health	152	health	health
-speech pathology	speech patholog	74	health	health
-veterinarian	veterinarian	218	health	health
-veterinarian technology	veterinarian technolog	16	health	health
+kinesiology	kinesiolog	281	healthcare	healthcare
+community health	communiti health	17	healthcare	healthcare
+dental hygiene	dentistri hygien	40	healthcare	healthcare
+dental technology	dentistri technolog	1	healthcare	healthcare
+dentistry	dentistri	127	healthcare	healthcare
+health administration	healthcare administr	15	healthcare	healthcare
+health services	healthcare servic	11	healthcare	healthcare
+medical assisting	medicin assist	87	healthcare	healthcare
+medicine	medicin	1356	healthcare	healthcare
+midwifery	midwiferi	8	healthcare	healthcare
+nursing	nurs	2485	healthcare	healthcare
+nutrition science	nutrit	162	healthcare	healthcare
+occupational therapy	occup therapi	106	healthcare	healthcare
+pharmacy	pharmaci	283	healthcare	healthcare
+public health	public health	152	healthcare	healthcare
+speech pathology	speech patholog	74	healthcare	healthcare
+veterinarian	veterinarian	218	healthcare	healthcare
+veterinarian technology	veterinarian technolog	16	healthcare	healthcare
+physical therapy	physic therapi	124	healthcare	healthcare
+physiology	physiolog	62	healthcare	healthcare
+sport	sport	103	healthcare	healthcare
 anthropology	anthropolog	309	humanities	human
 archeology	archeolog	3	humanities	human
 area ethnic studies	area ethnic	0	humanities	human
@@ -174,14 +178,10 @@ exercise science	exercis	149	life science	life
 food science	food	46	life science	life
 forestry	forestri	23	life science	life
 genetics	genet	24	life science	life
-kinesiology	kinesiolog	281	life science	life
 microbiology	microbiolog	91	life science	life
 molecular biology	molecular biolog	25	life science	life
 neuroscience	neurosci	141	life science	life
 pharmacology	pharmacolog	22	life science	life
-physical therapy	physic therapi	124	life science	life
-physiology	physiolog	62	life science	life
-sport	sport	103	life science	life
 zoology	zoolog	73	life science	life
 astronomy	astronomi	38	physical science	physic
 astrophysics	astrophys	20	physical science	physic

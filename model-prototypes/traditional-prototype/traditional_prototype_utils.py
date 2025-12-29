@@ -11,7 +11,7 @@ from sklearn.preprocessing import LabelEncoder
 import json
 import pandas as pd
 
-RIASEC_CATEGORIES = ['Realistic', 'Investigative', 'Artistic', 'Social', 'Enterprising', 'Conventional']
+RIASEC_CATEGORIES = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
 college_majors_and_major_categories_df = pd.read_csv("../../datasets/open-psychometrics/filter_data/college_majors_and_major_categories.tsv", sep='\t', low_memory=False)
 COLLEGE_MAJOR_CATEGORIES = college_majors_and_major_categories_df["college_major_category"].unique().tolist()
 VECTOR_REPRESENTATION_DIMENSION_SIZE = len(RIASEC_CATEGORIES) + len(COLLEGE_MAJOR_CATEGORIES) + 1 # + 1 for points
@@ -26,56 +26,67 @@ NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY = 8
 
 MAX_RIASEC_QUESTION_VALUE = 4.0 # assuming 0-4, not 1-5!
 
-LEAVING_CERT_SUBJECTS_TO_RIASEC_MAP = {
+class LeavingCertSubject:
+    riasec_types = []
+    college_major_categories = []
+
+    def __init__(self, riasec_types, college_major_categories):
+        self.riasec_types = riasec_types
+        self.categories = college_major_categories
+
+LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP = {
                             # practical
-                            "Construction Studies": ["Realistic"], 
-                            "Engineering": ["Realistic", "Investigative"], 
-                            "Technology": ["Realistic", "Investigative"], 
-                            # natural and formal sciences
-                            "Agricultural Science": ["Investigative"], 
-                            "Applied Maths": ["Investigative"], 
-                            "Biology": ["Investigative"], 
-                            "Chemistry": ["Investigative"], 
-                            "Mathematics": ["Investigative"], 
-                            "Physics": ["Investigative"], 
-                            "Physics and Chemistry": ["Investigative"], 
-                            "Computer Science": ["Investigative"], 
+                            "Construction Studies": LeavingCertSubject(["realistic"], ["engineering", "industrial arts & consumer services"]),
+                            "Engineering": LeavingCertSubject(["realistic", "investigative"], ["engineering"]),
+                            "Technology": LeavingCertSubject(["realistic", "investigative"], ["computers & mathematics", "engineering"]),
+                            # natural sciences
+                            "Agricultural Science": LeavingCertSubject(["investigative"], ["life science"]),
+                            "Biology": LeavingCertSubject(["investigative"], ["life science", "healthcare"]),
+                            "Chemistry": LeavingCertSubject(["investigative"], ["physical science"]),
+                            "Physics": LeavingCertSubject(["investigative"], ["physical science"]),
+                            "Physics and Chemistry": LeavingCertSubject(["investigative"], ["physical science"]),
+                            # formal sciences
+                            "Applied Maths": LeavingCertSubject(["investigative"], ["computers & mathematics"]),
+                            "Computer Science": LeavingCertSubject(["investigative"], ["computers & mathematics"]),
+                            "Mathematics": LeavingCertSubject(["investigative"], ["computers & mathematics"]),
                             # arts
-                            "Art": ["Artistic"], 
-                            "Drama, Film and Theatre Studies": ["Artistic"], 
-                            "Music": ["Artistic"], 
-                            "Design and Communication Graphics": ["Investigative", "Artistic"], 
+                            "Art": LeavingCertSubject(["artistic"], ["arts"]),
+                            "Drama, Film and Theatre Studies": LeavingCertSubject(["artistic"], ["arts"]),
+                            "Music": LeavingCertSubject(["artistic"], ["arts"]),
+                            "Design and Communication Graphics": LeavingCertSubject(["artistic", "investigative", "realistic"], ["arts", "engineering"]), # architecture is "engineering"
+                            # languages
+                            "Arabic": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "French": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "Irish": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "German": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "Ukrainian": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "Italian": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "Japanese": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "Latin": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "Russian": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "Spanish": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "Mandarin-Chinese": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "Polish": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "Lithuanian": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "Portuguese": LeavingCertSubject(["artistic"], ["humanities"]),
                             # humanities
-                            "Arabic": ["Artistic"], 
-                            "Classical Studies": ["Artistic"], 
-                            "English": ["Artistic"], 
-                            "French": ["Artistic"], 
-                            "Irish": ["Artistic"], 
-                            "German": ["Artistic"], 
-                            "Hebrew Studies": ["Artistic"], 
-                            "History": ["Artistic"], 
-                            "Ukrainian": ["Artistic"], 
-                            "Italian": ["Artistic"], 
-                            "Japanese": ["Artistic"], 
-                            "Latin": ["Artistic"], 
-                            "Russian": ["Artistic"], 
-                            "Spanish": ["Artistic"], 
-                            "Ancient Greek": ["Artistic"], 
-                            "Mandarin-Chinese": ["Artistic"], 
-                            "Polish": ["Artistic"], 
-                            "Lithuanian": ["Artistic"], 
-                            "Portuguese": ["Artistic"],
+                            "Ancient Greek": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "Classical Studies": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "English": LeavingCertSubject(["artistic"], ["humanities", "communication"]),
+                            "Hebrew Studies": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "History": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "Religious Education": LeavingCertSubject(["artistic"], ["humanities"]), 
                             # social sciences
-                            "Geography": ["Investigative", "Social"], 
-                            "Religious Education": ["Investigative", "Social"], 
-                            "Physical Education": ["Realistic", "Social"], 
-                            "Politics and Society": ["Investigative", "Social", "Enterprising"], 
-                            "Climate Action and Sustainable Development": ["Social"], 
-                            "Home Economics": ["Realistic", "Social", "Conventional"],
+                            "Geography": LeavingCertSubject(["investigative", "social"], ["physical science", "social science"]), 
+                            "Politics and Society": LeavingCertSubject(["investigative", "social", "enterprising"], ["law", "social science"]), 
+                            "Climate Action and Sustainable Development": LeavingCertSubject(["social"], ["law", "social science"]), 
                             # business
-                            "Accounting": ["Conventional"], 
-                            "Business": ["Enterprising", "Conventional"], 
-                            "Economics": ["Investigative", "Enterprising"]
+                            "Accounting": LeavingCertSubject(["conventional", "enterprising"], ["business"]), 
+                            "Business": LeavingCertSubject(["conventional", "enterprising"], ["business", "law"]),
+                            "Economics": LeavingCertSubject(["investigative"], ["business", "social science"]),
+                            # misc
+                            "Physical Education": LeavingCertSubject(["realistic", "social"], ["healthcare"]),
+                            "Home Economics": LeavingCertSubject(["realistic", "social"], ["industrial arts & consumer services"]),
                             }
 
 RIASEC_DATASET_FEATURE_COLUMNS = [ 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8', 
@@ -176,7 +187,7 @@ def get_simplified_user_riasec_vector(user_riasec_vector, leaving_cert_subjects_
 
 def factor_leaving_cert_subjects_into_riasec(riasec_category_vectors, leaving_cert_subjects_preferences):
     for subject in leaving_cert_subjects_preferences:
-        subject_interests = LEAVING_CERT_SUBJECTS_TO_RIASEC_MAP[subject]
+        subject_interests = LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP[subject]
 
         for interest in subject_interests:
             riasec_category_vectors[RIASEC_CATEGORIES.index(interest)].append(leaving_cert_subjects_preferences[subject])
@@ -229,11 +240,6 @@ def get_filtered_cao_courses(user_college_course_preferences):
 
     return filtered_cao_courses
 
-def print_stringified_category_vector(category_vector):
-    for i in range(len(category_vector)):
-        print(COLLEGE_MAJOR_CATEGORIES[i] + ": " + str(round(category_vector[i], 2)))
-    print("\n")
-
 def get_top_k_recommendations(filtered_cao_courses, user_riasec_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, k, should_retrain_model):
     weighted_categories_model = get_weighted_categories_model(should_retrain_model)
     user_categories_vector = get_weighted_categories_vector(user_riasec_vector, weighted_categories_model)
@@ -246,3 +252,8 @@ def get_top_k_recommendations(filtered_cao_courses, user_riasec_vector, user_col
     user_vector = np.concatenate((simplified_user_riasec_vector, user_points_vector, user_categories_vector), axis=0)
 
     return get_top_k_results(filtered_cao_courses, user_vector, k)
+
+def print_stringified_category_vector(category_vector):
+    for i in range(len(category_vector)):
+        print(COLLEGE_MAJOR_CATEGORIES[i] + ": " + str(round(category_vector[i], 2)))
+    print("\n")
