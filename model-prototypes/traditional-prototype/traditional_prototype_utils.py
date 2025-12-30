@@ -14,7 +14,7 @@ import pandas as pd
 RIASEC_INTERESTS = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
 college_majors_and_major_categories_df = pd.read_csv("../../datasets/open-psychometrics/filter_data/college_majors_and_major_categories.tsv", sep='\t', low_memory=False)
 COLLEGE_MAJOR_CATEGORIES = college_majors_and_major_categories_df["college_major_category"].unique().tolist()
-VECTOR_REPRESENTATION_DIMENSION_SIZE = len(RIASEC_INTERESTS) + len(COLLEGE_MAJOR_CATEGORIES) + 1 # + 1 for points
+VECTORIZED_REPRESENTATION_DIMENSION_SIZE = len(RIASEC_INTERESTS) + len(COLLEGE_MAJOR_CATEGORIES) + 1 # + 1 for points
 
 POINTS_VECTOR_INDEX = len(RIASEC_INTERESTS)
 STARTING_COLLEGE_MAJOR_CATEGORY_VECTOR_INDEX = POINTS_VECTOR_INDEX + 1
@@ -252,24 +252,23 @@ def get_max_points(cao_courses):
 
     return max_points
 
-def add_vectorized_course_as_attribute(course, min_points, max_points):
-    course['vector_representation'] = get_vectorized_representation(course, min_points, max_points)
+def add_vectorized_college_course_as_attribute(course, min_points, max_points):
+    course['vectorized_representation'] = get_vectorized_college_course_representation(course, min_points, max_points)
 
-def get_vectorized_representation(course, min_points, max_points):
-    vectorized_representation = np.zeros(VECTOR_REPRESENTATION_DIMENSION_SIZE)
+def get_vectorized_college_course_representation(college_course, min_points, max_points):
+    vectorized_representation = np.zeros(VECTORIZED_REPRESENTATION_DIMENSION_SIZE)
 
-    for interest in course['interests']:
-        vectorized_representation[RIASEC_INTERESTS.index(interest)] = 1.0
+    for interest in college_course['interests']:
+        distributed_interest_weight = 1.0 / np.sqrt(len(college_course['interests']))
+        vectorized_representation[RIASEC_INTERESTS.index(interest)] = distributed_interest_weight
 
-    vectorized_representation[POINTS_VECTOR_INDEX] = get_normalized_points_vector(course['points'], min_points, max_points)
+    vectorized_representation[POINTS_VECTOR_INDEX] = get_normalized_points_vector(college_course['points'], min_points, max_points)
 
-    one_hot_encode(course, vectorized_representation)
+    for category in college_course['categories']:
+        distributed_category_weight = 1.0 / np.sqrt(len(college_course['categories']))
+        vectorized_representation[STARTING_COLLEGE_MAJOR_CATEGORY_VECTOR_INDEX + COLLEGE_MAJOR_CATEGORIES.index(category)] = distributed_category_weight
 
     return vectorized_representation
-
-def one_hot_encode(course, vectorized_representation):
-    for category in course['categories']:
-        vectorized_representation[STARTING_COLLEGE_MAJOR_CATEGORY_VECTOR_INDEX + COLLEGE_MAJOR_CATEGORIES.index(category)] = 1.0
 
 def get_normalized_vector(vector):
     maxValue = 0.0
@@ -287,7 +286,7 @@ def get_normalized_vector(vector):
 def get_top_k_results(cao_courses, user_vector, k):
     cached_user_vector_magnitude = np.linalg.norm(user_vector)
     for course in cao_courses:
-        course["similarity"] = get_cosine_similarity(user_vector, cached_user_vector_magnitude, course["vector_representation"])
+        course["similarity"] = get_cosine_similarity(user_vector, cached_user_vector_magnitude, course["vectorized_representation"])
 
     results = sorted(
         cao_courses,
@@ -321,7 +320,7 @@ def get_filtered_cao_courses(user_college_course_preferences):
     MAX_POINTS = get_max_points(filtered_cao_courses)
 
     for course in filtered_cao_courses:
-        add_vectorized_course_as_attribute(course, MIN_POINTS, MAX_POINTS)
+        add_vectorized_college_course_as_attribute(course, MIN_POINTS, MAX_POINTS)
 
     return filtered_cao_courses
 

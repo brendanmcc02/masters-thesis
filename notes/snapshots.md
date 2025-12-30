@@ -178,3 +178,13 @@ I think this is where the LLM comes in, and we can ask a student **why** they li
 # December
 
 how do we integrate natural language? integrate LLM effectively with the ML RS?
+
+## working on prototype
+
+* how do we phrase the question:
+```
+rate 0-4 how much you would enjoy/find the following interesting:
+OR
+rate 0-4 how much you would enjoy/find the following interesting to study
+(e.g. if you love acting, but don't want to study/make a career out of it, do not rate acting highly)
+```
