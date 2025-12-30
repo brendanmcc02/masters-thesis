@@ -105,15 +105,32 @@ RIASEC_DATASET_FEATURE_COLUMNS = [ 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8
                                    'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8']
 
 def get_top_k_recommendations(filtered_cao_courses, user_riasec_questions_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, k, should_reuse_trained_open_psychometrics_model):
+    user_vector = get_user_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences, user_college_course_preferences)
+
+    cached_user_vector_magnitude = np.linalg.norm(user_vector)
+    for course in filtered_cao_courses:
+        course["similarity"] = get_cosine_similarity(user_vector, cached_user_vector_magnitude, course["vectorized_representation"])
+
+    results = sorted(
+        filtered_cao_courses,
+        key=lambda x: x["similarity"],
+        reverse=True
+    )
+
+    unique_college_course_results = get_unique_college_course_results(results)
+
+    top_k_recommendations = unique_college_course_results[0:k]
+
+    return filtered_cao_courses
+
+def get_user_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences, user_college_course_preferences):
     user_categories_vector = get_user_categories_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences)
 
     user_points_vector = get_normalized_points_vector(user_college_course_preferences["expected_points"], MIN_POINTS, MAX_POINTS)
 
     user_riasec_vector = get_user_riasec_vector(user_riasec_questions_vector, user_leaving_cert_subject_preferences)
 
-    user_vector = np.concatenate((user_riasec_vector, user_points_vector, user_categories_vector), axis=0)
-
-    return get_top_k_results(filtered_cao_courses, user_vector, k)
+    return np.concatenate((user_riasec_vector, user_points_vector, user_categories_vector), axis=0)
 
 def get_user_categories_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences):
     open_psychometrics_model = get_open_psychometrics_model(should_reuse_trained_open_psychometrics_model)
@@ -282,23 +299,6 @@ def get_normalized_vector(vector):
         vector[i] = (vector[i] - minValue) / (maxValue - minValue)
 
     return vector
-
-def get_top_k_results(cao_courses, user_vector, k):
-    cached_user_vector_magnitude = np.linalg.norm(user_vector)
-    for course in cao_courses:
-        course["similarity"] = get_cosine_similarity(user_vector, cached_user_vector_magnitude, course["vectorized_representation"])
-
-    results = sorted(
-        cao_courses,
-        key=lambda x: x["similarity"],
-        reverse=True
-    )
-
-    results = get_unique_college_course_results(results)
-
-    top_k_results = results[0:k]
-
-    return top_k_results
 
 def get_cosine_similarity(user_vector, cached_user_vector_magnitude, course_vector):
     return np.dot(user_vector, course_vector) / (cached_user_vector_magnitude * np.linalg.norm(course_vector))
