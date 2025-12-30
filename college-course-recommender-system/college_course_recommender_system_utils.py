@@ -22,6 +22,7 @@ STARTING_COLLEGE_MAJOR_CATEGORY_VECTOR_INDEX = POINTS_VECTOR_INDEX + 1
 MIN_POINTS = 0 # global variables, will be modified
 MAX_POINTS = 0 # global variables, will be modified
 
+NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS = 20
 NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY = 8
 MAX_RIASEC_QUESTION_VALUE = 4.0 # assuming 0-4, not 1-5!
 
@@ -97,14 +98,14 @@ LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP = {
                             }
 
 
-RIASEC_DATASET_FEATURE_COLUMNS = [ 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8', 
-                                   'I1', 'I2', 'I3', 'I4', 'I5', 'I6', 'I7', 'I8', 
-                                   'A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 
-                                   'S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8', 
-                                   'E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8', 
-                                   'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8']
+RIASEC_DATASET_FEATURE_COLUMNS = ['R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8',
+                                  'I1', 'I2', 'I3', 'I4', 'I5', 'I6', 'I7', 'I8',
+                                  'A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8',
+                                  'S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7', 'S8',
+                                  'E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8',
+                                  'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8']
 
-def get_top_k_recommendations(filtered_cao_courses, user_riasec_questions_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, k, should_reuse_trained_open_psychometrics_model):
+def get_college_course_recommendations(filtered_cao_courses, user_riasec_questions_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, should_reuse_trained_open_psychometrics_model):
     user_vector = get_user_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences, user_college_course_preferences)
 
     cached_user_vector_magnitude = np.linalg.norm(user_vector)
@@ -119,9 +120,11 @@ def get_top_k_recommendations(filtered_cao_courses, user_riasec_questions_vector
 
     unique_college_course_results = get_unique_college_course_results(results)
 
-    top_k_recommendations = unique_college_course_results[0:k]
+    college_course_recommendations = []
 
-    return top_k_recommendations
+    college_course_recommendations = unique_college_course_results[0:NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS]
+
+    return college_course_recommendations
 
 def get_user_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences, user_college_course_preferences):
     user_categories_vector = get_user_categories_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences)
