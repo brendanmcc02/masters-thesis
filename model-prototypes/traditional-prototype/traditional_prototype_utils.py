@@ -31,7 +31,7 @@ FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP = {4: 1.0,
                                       2: 0.25, 
                                       1: 0.001, # let this be non-zero so it penalises the interest/category - otherwise it gets counted as NaN and isn't factored into the Open psychometrics model/data!
                                       0: 0.001} # let this be non-zero so it penalises the interest/category - otherwise it gets counted as NaN and isn't factored into the Open psychometrics model/data!
-LEAVING_CERT_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT = 1.3
+CUSTOM_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT = 1.3
 
 class LeavingCertSubject:
     riasec_interests = []
@@ -124,7 +124,7 @@ def get_user_categories_vector(should_reuse_trained_open_psychometrics_model, us
 
     user_categories_vector = get_combined_college_major_category_vectors(user_open_psychometrics_college_major_categories_vector, user_leaving_cert_college_major_categories_vector)
 
-    print_stringified_category_vector(user_categories_vector)
+    print_stringified_college_major_categories_vector(user_categories_vector)
 
     return user_categories_vector
 
@@ -136,6 +136,8 @@ def get_open_psychometrics_model(should_reuse_trained_open_psychometrics_model):
 
     saved_model_filename = "saved_model.joblib"
     if should_reuse_trained_open_psychometrics_model:
+        model = joblib.load(saved_model_filename)
+    else:
         model = HistGradientBoostingClassifier(
             class_weight='balanced',
             l2_regularization=1.0,
@@ -144,8 +146,6 @@ def get_open_psychometrics_model(should_reuse_trained_open_psychometrics_model):
 
         model.fit(X, y)
         joblib.dump(model, saved_model_filename)
-    else:
-        model = joblib.load(saved_model_filename)
 
     return model
 
@@ -161,16 +161,16 @@ def get_user_leaving_cert_college_major_categories_vector(user_leaving_cert_subj
 
     for subject in user_leaving_cert_subject_preferences:
         for college_major_category in LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP[subject].college_major_categories:
-            modify_user_leaving_cert_vector(user_leaving_cert_college_major_categories_vector, user_leaving_cert_subject_preferences[subject], college_major_category)
+            add_weighted_preference_to_user_vector(user_leaving_cert_college_major_categories_vector, user_leaving_cert_subject_preferences[subject], college_major_category, COLLEGE_MAJOR_CATEGORIES, len(LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP[subject].college_major_categories))
 
     return get_normalized_user_leaving_cert_vector(user_leaving_cert_college_major_categories_vector)
 
-def modify_user_leaving_cert_vector(user_leaving_cert_vector, leaving_cert_subject_preference, riasec_interest_or_college_major_category, riasec_interests_or_college_major_categories):
-    weighted_subject_preference = FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP[leaving_cert_subject_preference]
+def add_weighted_preference_to_user_vector(user_vector, five_point_likert_scale_preference_value, riasec_interest_or_college_major_category, all_riasec_interests_or_college_major_categories, number_of_covered_riasec_interests_or_college_major_categories):
+    weighted_preference = FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP[five_point_likert_scale_preference_value]
     # distribute the weight for multi-interest/category subjects
-    distributed_weighted_subject_preference = weighted_subject_preference / np.sqrt(len(riasec_interests_or_college_major_categories))
-    index_to_access = riasec_interests_or_college_major_categories.index(riasec_interest_or_college_major_category)
-    user_leaving_cert_vector[index_to_access] += distributed_weighted_subject_preference
+    distributed_weighted_preference = weighted_preference / np.sqrt(number_of_covered_riasec_interests_or_college_major_categories)
+    index_to_access = all_riasec_interests_or_college_major_categories.index(riasec_interest_or_college_major_category)
+    user_vector[index_to_access] += distributed_weighted_preference
 
 def get_normalized_user_leaving_cert_vector(user_leaving_cert_vector):
     for i in range(len(user_leaving_cert_vector)):
@@ -179,15 +179,17 @@ def get_normalized_user_leaving_cert_vector(user_leaving_cert_vector):
             # this is under the assumption that a rating of '0' (strongly dislike) has a non-zero weight!
             user_leaving_cert_vector[i] = np.nan 
         else:
-            user_leaving_cert_vector[i] = custom_normalized_sigmoid_function(user_leaving_cert_vector[i], LEAVING_CERT_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT)
+            user_leaving_cert_vector[i] = custom_normalized_sigmoid_function(user_leaving_cert_vector[i])
 
     return user_leaving_cert_vector
 
-def custom_normalized_sigmoid_function(value, normalized_sigmoid_function_tuning_constant):
-    return 1 - np.exp(-normalized_sigmoid_function_tuning_constant * value)
+def custom_normalized_sigmoid_function(value):
+    return 1 - np.exp(-CUSTOM_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT * value)
 
 # TODO
 def get_combined_college_major_category_vectors(user_open_psychometrics_college_major_categories_vector, user_leaving_cert_college_major_categories_vector):
+    # mean between the two?
+    # or just max()?
     return np.zeros(0)
 
 def get_normalized_points_vector(points, min_points, max_points):
@@ -196,32 +198,38 @@ def get_normalized_points_vector(points, min_points, max_points):
     
     return np.array([(points - min_points) / (max_points - min_points)])
 
-# TODO
-def get_user_riasec_vector(user_open_psychometrics_questions_vector, leaving_cert_subject_preferences):
+def get_user_riasec_vector(user_open_psychometrics_questions_vector, user_leaving_cert_subject_preferences):
     user_riasec_vector = np.zeros(len(RIASEC_INTERESTS))
 
-    user_leaving_cert_riasec_vector = get_user_leaving_cert_riasec_vector(leaving_cert_subject_preferences)
+    user_riasec_vector = get_summed_open_psychometrics_preferences_to_user_riasec_vector(user_riasec_vector, user_open_psychometrics_questions_vector)
 
-    user_open_psychometrics_riasec_vector = get_user_open_psychometrics_riasec_vector(user_open_psychometrics_questions_vector)
+    print("OP:")
+    print_stringified_riasec_vector(user_riasec_vector)
+
+    user_riasec_vector = get_summed_leaving_cert_subject_preferences_to_user_riasec_vector(user_riasec_vector, user_leaving_cert_subject_preferences)
+
+    print("LC:")
+    print_stringified_riasec_vector(user_riasec_vector)
+
+    for i in range(len(user_riasec_vector)):
+        user_riasec_vector[i] = custom_normalized_sigmoid_function(user_riasec_vector[i])
+
+    print_stringified_riasec_vector(user_riasec_vector)
 
     return user_riasec_vector
 
-def get_user_leaving_cert_riasec_vector(user_leaving_cert_subject_preferences):
-    user_leaving_cert_riasec_vector = np.zeros(len(RIASEC_INTERESTS))
-
+def get_summed_leaving_cert_subject_preferences_to_user_riasec_vector(user_riasec_vector, user_leaving_cert_subject_preferences):
     for subject in user_leaving_cert_subject_preferences:
         for riasec_interest in LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP[subject].riasec_interests:
-            modify_user_leaving_cert_vector(user_leaving_cert_riasec_vector, user_leaving_cert_subject_preferences[subject], riasec_interest)
+            add_weighted_preference_to_user_vector(user_riasec_vector, user_leaving_cert_subject_preferences[subject], riasec_interest, RIASEC_INTERESTS, len(LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP[subject].riasec_interests))
 
-    return get_normalized_user_leaving_cert_vector(user_leaving_cert_riasec_vector)
+    return user_riasec_vector
 
-def get_user_open_psychometrics_riasec_vector(user_open_psychometrics_questions_vector):
-    riasec_category_vectors= []
-    # reduce 48 -> 6 dimensions
-    for i in range(0, len(user_riasec_vector), NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY):
-        riasec_category_vectors.append(user_riasec_vector[i:i+NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY])
+def get_summed_open_psychometrics_preferences_to_user_riasec_vector(user_riasec_vector, user_open_psychometrics_questions_vector):
+    for i in range(len(user_open_psychometrics_questions_vector)):
+        user_riasec_vector[i//NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY] += FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP[user_open_psychometrics_questions_vector[i]]
 
-    return np.array(simplified_user_riasec_vector, dtype='float32')
+    return user_riasec_vector
 
 def get_min_points():
     # some courses have null points, so there's no need to calculate the min
@@ -309,7 +317,12 @@ def get_filtered_cao_courses(user_college_course_preferences):
 
     return filtered_cao_courses
 
-def print_stringified_category_vector(category_vector):
-    for i in range(len(category_vector)):
-        print(COLLEGE_MAJOR_CATEGORIES[i] + ": " + str(round(category_vector[i], 2)))
+def print_stringified_college_major_categories_vector(college_major_categories_vector):
+    for i in range(len(college_major_categories_vector)):
+        print(COLLEGE_MAJOR_CATEGORIES[i] + ": " + str(round(college_major_categories_vector[i], 2)))
+    print("\n")
+
+def print_stringified_riasec_vector(riasec_vector):
+    for i in range(len(riasec_vector)):
+        print(RIASEC_INTERESTS[i] + ": " + str(round(riasec_vector[i], 2)))
     print("\n")
