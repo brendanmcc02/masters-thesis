@@ -23,15 +23,14 @@ MIN_POINTS = 0 # global variables, will be modified
 MAX_POINTS = 0 # global variables, will be modified
 
 NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY = 8
-
 MAX_RIASEC_QUESTION_VALUE = 4.0 # assuming 0-4, not 1-5!
 
 FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP = {4: 1.0,
-                                      3: 0.5, 
-                                      2: 0.25, 
+                                      3: 0.25, 
+                                      2: 0.01, 
                                       1: 0.001, # let this be non-zero so it penalises the interest/category - otherwise it gets counted as NaN and isn't factored into the Open psychometrics model/data!
                                       0: 0.001} # let this be non-zero so it penalises the interest/category - otherwise it gets counted as NaN and isn't factored into the Open psychometrics model/data!
-CUSTOM_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT = 1.3
+CUSTOM_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT = 1.0
 
 class LeavingCertSubject:
     riasec_interests = []
