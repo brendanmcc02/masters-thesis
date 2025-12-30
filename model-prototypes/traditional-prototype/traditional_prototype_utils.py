@@ -175,7 +175,7 @@ def get_normalized_user_leaving_cert_vector(user_leaving_cert_vector):
     for i in range(len(user_leaving_cert_vector)):
         if user_leaving_cert_vector[i] == 0.0:
             # we don't want to penalise interests/college major categories which have no data:
-            # this is under the assumption that a rating of '0' (strongly dislike) has a non-zero weight!
+            # this is under the assumption that a rating of '0' or '1' (strong/soft dislike) has a non-zero weight!
             user_leaving_cert_vector[i] = np.nan 
         else:
             user_leaving_cert_vector[i] = custom_normalized_sigmoid_function(user_leaving_cert_vector[i])
@@ -185,11 +185,20 @@ def get_normalized_user_leaving_cert_vector(user_leaving_cert_vector):
 def custom_normalized_sigmoid_function(value):
     return 1 - np.exp(-CUSTOM_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT * value)
 
-# TODO
 def get_combined_college_major_category_vectors(user_open_psychometrics_college_major_categories_vector, user_leaving_cert_college_major_categories_vector):
-    # mean between the two?
-    # or just max()?
-    return np.zeros(0)
+    user_college_major_category_vector = np.zeros(len(COLLEGE_MAJOR_CATEGORIES))
+    
+    for i in range(len(user_leaving_cert_college_major_categories_vector)):
+
+        if np.isnan(user_leaving_cert_college_major_categories_vector[i]):
+            user_college_major_category_vector[i] = user_open_psychometrics_college_major_categories_vector[i]
+        else:
+            # mean
+            user_college_major_category_vector[i] = (user_open_psychometrics_college_major_categories_vector[i] + user_leaving_cert_college_major_categories_vector[i]) / 2.0
+            # max
+            # user_college_major_category_vector[i] = max(user_open_psychometrics_college_major_categories_vector[i], user_leaving_cert_college_major_categories_vector[i])
+
+    return user_college_major_category_vector
 
 def get_normalized_points_vector(points, min_points, max_points):
     if not points:
@@ -317,11 +326,13 @@ def get_filtered_cao_courses(user_college_course_preferences):
     return filtered_cao_courses
 
 def print_stringified_college_major_categories_vector(college_major_categories_vector):
+    print("College Major Categories:\n")
     for i in range(len(college_major_categories_vector)):
         print(COLLEGE_MAJOR_CATEGORIES[i] + ": " + str(round(college_major_categories_vector[i], 2)))
     print("\n")
 
 def print_stringified_riasec_vector(riasec_vector):
+    print("RIASEC Interests:\n")
     for i in range(len(riasec_vector)):
         print(RIASEC_INTERESTS[i] + ": " + str(round(riasec_vector[i], 2)))
     print("\n")
