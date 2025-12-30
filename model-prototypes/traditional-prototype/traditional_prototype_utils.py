@@ -327,11 +327,9 @@ def get_filtered_cao_courses(user_college_course_preferences):
 def print_stringified_college_major_categories_vector(college_major_categories_vector):
     print("College Major Categories:\n")
     for i in range(len(college_major_categories_vector)):
-        print(COLLEGE_MAJOR_CATEGORIES[i] + ": " + str(round(college_major_categories_vector[i], 2)))
-    print("\n")
+        print(COLLEGE_MAJOR_CATEGORIES[i] + ": " + str(round(college_major_categories_vector[i], 2)) + ("\n" if i == len(college_major_categories_vector)-1 else ""))
 
 def print_stringified_riasec_vector(riasec_vector):
     print("RIASEC Interests:\n")
     for i in range(len(riasec_vector)):
-        print(RIASEC_INTERESTS[i] + ": " + str(round(riasec_vector[i], 2)))
-    print("\n")
+        print(RIASEC_INTERESTS[i] + ": " + str(round(riasec_vector[i], 2)) + ("\n" if i == len(riasec_vector)-1 else ""))
