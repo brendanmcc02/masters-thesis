@@ -202,13 +202,13 @@ def get_user_riasec_vector(user_open_psychometrics_questions_vector, user_leavin
 
     user_riasec_vector = get_summed_open_psychometrics_preferences_to_user_riasec_vector(user_riasec_vector, user_open_psychometrics_questions_vector)
 
-    print("OP:")
-    print_stringified_riasec_vector(user_riasec_vector)
+    # print("OP raw sums:")
+    # print_stringified_riasec_vector(user_riasec_vector)
 
     user_riasec_vector = get_summed_leaving_cert_subject_preferences_to_user_riasec_vector(user_riasec_vector, user_leaving_cert_subject_preferences)
 
-    print("LC:")
-    print_stringified_riasec_vector(user_riasec_vector)
+    # print("OP + LC raw sums:")
+    # print_stringified_riasec_vector(user_riasec_vector)
 
     for i in range(len(user_riasec_vector)):
         user_riasec_vector[i] = custom_normalized_sigmoid_function(user_riasec_vector[i])
