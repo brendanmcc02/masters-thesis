@@ -114,6 +114,7 @@ pharmacy	pharmaci	283	healthcare	healthcar
 physical therapy	physic therapi	124	healthcare	healthcar
 physiology	physiolog	62	healthcare	healthcar
 public health	public health	152	healthcare	healthcar
+social work	social work	709	healthcare	healthcar
 speech pathology	speech patholog	74	healthcare	healthcar
 sport	sport	103	healthcare	healthcar
 veterinarian	veterinarian	218	healthcare	healthcar
@@ -210,5 +211,4 @@ organizational psychology	organiz psycholog	7	social science	social
 political science	polit	876	social science	social
 psychology	psycholog	14002	social science	social
 social psychology	social psycholog	17	social science	social
-social work	social work	709	social science	social
 sociology	sociolog	922	social science	social

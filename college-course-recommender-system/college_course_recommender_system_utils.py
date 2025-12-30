@@ -12,7 +12,7 @@ import json
 import pandas as pd
 
 RIASEC_INTERESTS = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
-college_majors_and_major_categories_df = pd.read_csv("../../datasets/open-psychometrics/filter_data/college_majors_and_major_categories.tsv", sep='\t', low_memory=False)
+college_majors_and_major_categories_df = pd.read_csv("../datasets/open-psychometrics/filter_data/college_majors_and_major_categories.tsv", sep='\t', low_memory=False)
 COLLEGE_MAJOR_CATEGORIES = college_majors_and_major_categories_df["college_major_category"].unique().tolist()
 VECTORIZED_REPRESENTATION_DIMENSION_SIZE = len(RIASEC_INTERESTS) + len(COLLEGE_MAJOR_CATEGORIES) + 1 # + 1 for points
 
@@ -128,7 +128,7 @@ def get_user_categories_vector(should_reuse_trained_open_psychometrics_model, us
     return user_categories_vector
 
 def get_open_psychometrics_model(should_reuse_trained_open_psychometrics_model):
-    clean_riasec_college_major_categories = pd.read_csv("../../datasets/open-psychometrics/clean_riasec_college_major_categories.tsv", sep='\t')
+    clean_riasec_college_major_categories = pd.read_csv("../datasets/open-psychometrics/clean_riasec_college_major_categories.tsv", sep='\t')
     X = clean_riasec_college_major_categories[RIASEC_DATASET_FEATURE_COLUMNS]
     label_encoder = LabelEncoder()
     y = label_encoder.fit_transform(clean_riasec_college_major_categories['college_major_category'])
@@ -303,7 +303,7 @@ def get_cosine_similarity(user_vector, cached_user_vector_magnitude, course_vect
 # TODO what about courses with portfolios that have excessive points?
 # no one would get recommended courses over 625 points
 def get_filtered_cao_courses(user_college_course_preferences):
-    with open("../../datasets/cao-college-courses/cao-college-courses.json", 'r', encoding='utf-8') as f: 
+    with open("../datasets/cao-college-courses/cao-college-courses.json", 'r', encoding='utf-8') as f: 
         cao_courses = json.load(f)
 
     filtered_cao_courses = []

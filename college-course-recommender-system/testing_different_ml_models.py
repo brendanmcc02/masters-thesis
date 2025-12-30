@@ -15,7 +15,7 @@ def print_top_1_accuracy_metric(y_actual, model_name, train_or_test_label, y_pre
 
 number_of_top_k = 3
 
-dataset = pd.read_csv("../../datasets/open-psychometrics/clean_riasec_college_major_categories.tsv", sep='\t')
+dataset = pd.read_csv("../datasets/open-psychometrics/clean_riasec_college_major_categories.tsv", sep='\t')
 
 feature_columns = [ 'R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8',
                     'I1', 'I2', 'I3', 'I4', 'I5', 'I6', 'I7', 'I8', 
