@@ -121,7 +121,7 @@ def get_top_k_recommendations(filtered_cao_courses, user_riasec_questions_vector
 
     top_k_recommendations = unique_college_course_results[0:k]
 
-    return filtered_cao_courses
+    return top_k_recommendations
 
 def get_user_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences, user_college_course_preferences):
     user_categories_vector = get_user_categories_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences)
