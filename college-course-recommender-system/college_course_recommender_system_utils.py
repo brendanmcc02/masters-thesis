@@ -1,4 +1,4 @@
-# ignores warnings
+# ignore sklearn warnings
 def warn(*args, **kwargs):
     pass
 import warnings
@@ -28,8 +28,8 @@ MAX_RIASEC_QUESTION_VALUE = 4.0 # assuming 0-4, not 1-5!
 FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP = {4: 1.0,
                                       3: 0.25, 
                                       2: 0.01, 
-                                      1: 0.001, # let this be non-zero so it penalises the interest/category - otherwise it gets counted as NaN and isn't factored into the Open psychometrics model/data!
-                                      0: 0.001} # let this be non-zero so it penalises the interest/category - otherwise it gets counted as NaN and isn't factored into the Open psychometrics model/data!
+                                      1: 0.001, # let this be non-zero so it penalises the interest/category - otherwise it gets counted as NaN and isn't factored into the open psychometrics model/data!
+                                      0: 0.001} # let this be non-zero so it penalises the interest/category - otherwise it gets counted as NaN and isn't factored into the open psychometrics model/data!
 CUSTOM_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT = 1.0
 
 class LeavingCertSubject:
@@ -293,12 +293,26 @@ def get_top_k_results(cao_courses, user_vector, k):
         key=lambda x: x["similarity"],
         reverse=True
     )
+
+    results = get_unique_college_course_results(results)
+
     top_k_results = results[0:k]
 
     return top_k_results
 
 def get_cosine_similarity(user_vector, cached_user_vector_magnitude, course_vector):
     return np.dot(user_vector, course_vector) / (cached_user_vector_magnitude * np.linalg.norm(course_vector))
+
+def get_unique_college_course_results(college_course_results):
+    college_course_titles = set()
+    unique_college_course_results = []
+
+    for college_course in college_course_results:
+        if college_course['title'] not in college_course_titles:
+            college_course_titles.add(college_course['title'])
+            unique_college_course_results.append(college_course)
+
+    return unique_college_course_results
 
 # TODO what about courses with portfolios that have excessive points?
 # no one would get recommended courses over 625 points
