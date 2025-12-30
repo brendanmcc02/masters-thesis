@@ -183,21 +183,21 @@ async function getInterest(interestsHandle) {
 
     switch (interest) {
         case "Realist":
-            return "Realistic";
-        case "Investigative":
+            return "realistic";
+        case "investigative":
             return interest;
         case "Creative":
-            return "Artistic";
-        case "Social":
+            return "artistic";
+        case "social":
             return interest;
-        case "Enterprising":
+        case "enterprising":
             return interest;
         case "Administrative":
-            return "Conventional";
+            return "conventional";
         case "Naturalist":
-            return "Realistic";
+            return "realistic";
         case "Linguistic":
-            return "Artistic";
+            return "artistic";
         default:
             console.log("INTEREST DOESN'T MATCH!!!: " + interest);
             return ("INTEREST DOESN'T MATCH!!!: " + interest);
