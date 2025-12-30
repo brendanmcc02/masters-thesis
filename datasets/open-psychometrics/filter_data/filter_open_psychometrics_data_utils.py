@@ -35,6 +35,8 @@ def get_stop_words():
     stop_words.add("advanced")
     stop_words.add("emphasis")
     stop_words.add("applied")
+    stop_words.add("theory")
+    stop_words.add("theoretical")
     stop_words.add("associate")
     stop_words.add("associates")
     stop_words.add("university")
@@ -90,6 +92,7 @@ def get_stop_words():
     stop_words.add("field")
     stop_words.add("early")
     stop_words.add("middle")
+    stop_words.add("higher")
     stop_words.add("e") # e for electronic e.g. e-commerce
 
     return stop_words

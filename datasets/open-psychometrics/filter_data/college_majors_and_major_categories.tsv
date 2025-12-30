@@ -2,11 +2,11 @@ college_major	college_major_preprocessed	number_of_exact_college_major_matches	c
 commercial art	commerci art	3	arts	art
 design	design	345	arts	art
 drama	drama	43	arts	art
-film studies	film	144	arts	art
+film studies	film	146	arts	art
 fine arts	fine art	240	arts	art
 graphic design	graphic design	280	arts	art
 interior design	interior design	94	arts	art
-music	music	491	arts	art
+music	music	494	arts	art
 performing arts	perform art	32	arts	art
 photography	photographi	97	arts	art
 studio arts	studio art	43	arts	art
@@ -45,7 +45,7 @@ decision science	decis	2	computers & mathematics	comput mathemat
 information science	inform	26	computers & mathematics	comput mathemat
 information systems	inform system	81	computers & mathematics	comput mathemat
 information technology	inform technolog	562	computers & mathematics	comput mathemat
-mathematics	mathemat	911	computers & mathematics	comput mathemat
+mathematics	mathemat	912	computers & mathematics	comput mathemat
 programming	program	58	computers & mathematics	comput mathemat
 software engineering	softwar engin	134	computers & mathematics	comput mathemat
 statistics	statist	79	computers & mathematics	comput mathemat
@@ -54,7 +54,7 @@ adult education	adult educ	16	education	educ
 art education	art educ	34	education	educ
 drama education	drama educ	0	education	educ
 early childhood education	childhood educ	173	education	educ
-educational administration	educ administr	8	education	educ
+educational administration	educ administr	15	education	educ
 elementary education	elementari educ	164	education	educ
 health education	health educ	9	education	educ
 history education	histori educ	17	education	educ
@@ -63,7 +63,7 @@ library science	librari	37	education	educ
 mathematics education	mathemat educ	19	education	educ
 music education	music educ	88	education	educ
 physical education	physic educ	83	education	educ
-science education	educ	2080	education	educ
+science education	educ	2092	education	educ
 secondary education	secondari educ	19	education	educ
 social science education	social educ	9	education	educ
 special education	special educ	85	education	educ
@@ -195,7 +195,7 @@ industrial technology	industri technolog	14	physical science	physic
 meteorology	meteorolog	11	physical science	physic
 nuclear technology	nuclear technolog	0	physical science	physic
 oceanography	oceanographi	5	physical science	physic
-physics	physic	502	physical science	physic
+physics	physic	505	physical science	physic
 radiology	radiolog	55	physical science	physic
 clinical psychology	clinic psycholog	55	social science	social
 counseling	counsel	795	social science	social
@@ -208,7 +208,7 @@ human services	human servic	324	social science	social
 industrial psychology	industri psycholog	26	social science	social
 international relations	intern relat	243	social science	social
 organizational psychology	organiz psycholog	7	social science	social
-political science	polit	876	social science	social
+political science	polit	878	social science	social
 psychology	psycholog	14002	social science	social
 social psychology	social psycholog	17	social science	social
 sociology	sociolog	922	social science	social
