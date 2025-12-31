@@ -269,12 +269,12 @@ def is_new_college_course_recommendation(college_course_to_check, previously_rec
 def is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     return previously_recommended_college_course['preprocessed_title'] == college_course_to_check['preprocessed_title']
 
+SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art"] # nursing?
 def is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     tokenized_college_course_title_words = previously_recommended_college_course['preprocessed_title'].split(' ')
 
     for token in tokenized_college_course_title_words:
-        # ensures other engineering courses don't compete!
-        if token != "engin" and token in college_course_to_check['preprocessed_title']:
+        if token not in SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES and token in college_course_to_check['preprocessed_title']:
             return True
 
     return False

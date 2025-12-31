@@ -658,7 +658,7 @@
     {
         "id": "DN250",
         "title": "Agri-Environmental Sciences - Agricultural Science",
-        "preprocessed_title": "agricultur environment agricultur",
+        "preprocessed_title": "agricultur environment",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -949,7 +949,7 @@
     {
         "id": "DN250",
         "title": "Agricultural Systems Technology - Agricultural Science",
-        "preprocessed_title": "agricultur system technolog agricultur",
+        "preprocessed_title": "agricultur system technolog",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -1275,7 +1275,7 @@
     {
         "id": "TR112",
         "title": "Ancient History and Archaeology/History",
-        "preprocessed_title": "ancient histori archaeolog histori",
+        "preprocessed_title": "ancient histori archaeolog",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -1293,7 +1293,7 @@
     {
         "id": "TR113",
         "title": "Ancient History and Archaeology/History of Art and Architecture",
-        "preprocessed_title": "ancient histori archaeolog histori art architectur",
+        "preprocessed_title": "ancient histori archaeolog art architectur",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -1313,7 +1313,7 @@
     {
         "id": "TR114",
         "title": "Ancient History and Archaeology/Modern Language",
-        "preprocessed_title": "ancient histori archaeolog modern languag",
+        "preprocessed_title": "ancient histori archaeolog languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -2047,7 +2047,7 @@
     {
         "id": "PC404",
         "title": "Applied Social Studies - Professional Social Care",
-        "preprocessed_title": "social profession social care",
+        "preprocessed_title": "social care",
         "college": "Carlow College",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -2067,7 +2067,7 @@
     {
         "id": "SE917",
         "title": "Applied Social Studies in Professional Social Care",
-        "preprocessed_title": "social profession social care",
+        "preprocessed_title": "social care",
         "college": "SETU Wexford Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -2086,7 +2086,7 @@
     {
         "id": "TU791",
         "title": "Applied Social Studies in Social Care",
-        "preprocessed_title": "social social care",
+        "preprocessed_title": "social care",
         "college": "TU Dublin - Blanchardstown",
         "region": "Dublin",
         "duration": "3 Years",
@@ -2105,7 +2105,7 @@
     {
         "id": "TU991",
         "title": "Applied Social Studies in Social Care",
-        "preprocessed_title": "social social care",
+        "preprocessed_title": "social care",
         "college": "TU Dublin - Blanchardstown",
         "region": "Dublin",
         "duration": "4 Years",
@@ -2124,7 +2124,7 @@
     {
         "id": "US782",
         "title": "Applied Social Studies in Social Care",
-        "preprocessed_title": "social social care",
+        "preprocessed_title": "social care",
         "college": "TUS Midlands",
         "region": "Munster",
         "duration": "3 years",
@@ -2204,7 +2204,7 @@
     {
         "id": "US784",
         "title": "Applied Sports Science with Sport and Exercise Nutrition",
-        "preprocessed_title": "sport sport exercis nutrit",
+        "preprocessed_title": "sport exercis nutrit",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "3 Years",
@@ -2225,7 +2225,7 @@
     {
         "id": "US961",
         "title": "Applied Sports Science with Sport and Exercise Nutrition",
-        "preprocessed_title": "sport sport exercis nutrit",
+        "preprocessed_title": "sport exercis nutrit",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
@@ -3925,7 +3925,7 @@
     {
         "id": "CK101",
         "title": "Arts - History of Art",
-        "preprocessed_title": "art histori art",
+        "preprocessed_title": "art histori",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
@@ -4359,7 +4359,7 @@
     {
         "id": "GY101",
         "title": "Arts - Modern Irish Culture Studies (Literature and Music)",
-        "preprocessed_title": "art modern irish cultur literatur music",
+        "preprocessed_title": "art irish cultur literatur music",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
@@ -5291,7 +5291,7 @@
     {
         "id": "LM031",
         "title": "Arts (Professional Pathways)",
-        "preprocessed_title": "art profession pathway",
+        "preprocessed_title": "art pathway",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -5688,7 +5688,7 @@
     {
         "id": "DC117",
         "title": "Aviation Management / Aviation Management with Pilot Studies",
-        "preprocessed_title": "aviat manag aviat manag pilot",
+        "preprocessed_title": "aviat manag pilot",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -7404,7 +7404,7 @@
     {
         "id": "TU787 INB",
         "title": "Business (General Entry) - International Business",
-        "preprocessed_title": "busi intern busi",
+        "preprocessed_title": "busi intern",
         "college": "TU Dublin - Tallaght",
         "region": "Dublin",
         "duration": "3 Years",
@@ -7425,7 +7425,7 @@
     {
         "id": "TU932 INB",
         "title": "Business (General Entry) - International Business",
-        "preprocessed_title": "busi intern busi",
+        "preprocessed_title": "busi intern",
         "college": "TU Dublin - Tallaght",
         "region": "Dublin",
         "duration": "4 Years",
@@ -7524,7 +7524,7 @@
     {
         "id": "TU902 BUS",
         "title": "Business (General Entry) \u2013 Business",
-        "preprocessed_title": "busi \u2013 busi",
+        "preprocessed_title": "busi \u2013",
         "college": "TU Dublin - Blanchardstown",
         "region": "Dublin",
         "duration": "4 Years",
@@ -7562,7 +7562,7 @@
     {
         "id": "TU902 INB",
         "title": "Business (General Entry) \u2013 International Business",
-        "preprocessed_title": "busi \u2013 intern busi",
+        "preprocessed_title": "busi \u2013 intern",
         "college": "TU Dublin - Blanchardstown",
         "region": "Dublin",
         "duration": "4 Years",
@@ -7583,7 +7583,7 @@
     {
         "id": "TU772 INB",
         "title": "Business (General Entry) \u2013 International Business",
-        "preprocessed_title": "busi \u2013 intern busi",
+        "preprocessed_title": "busi \u2013 intern",
         "college": "TU Dublin - Blanchardstown",
         "region": "Dublin",
         "duration": "3 Years",
@@ -7604,7 +7604,7 @@
     {
         "id": "TU678 FIN",
         "title": "Business (General Entry): Business & Finance",
-        "preprocessed_title": "busi busi financ",
+        "preprocessed_title": "busi financ",
         "college": "TU Dublin - Aungier Street",
         "region": "Dublin",
         "duration": "2 Years",
@@ -7623,7 +7623,7 @@
     {
         "id": "TU678 MGT",
         "title": "Business (General Entry): Business Management",
-        "preprocessed_title": "busi busi manag",
+        "preprocessed_title": "busi manag",
         "college": "TU Dublin - Aungier Street",
         "region": "Dublin",
         "duration": "2 Years",
@@ -9405,7 +9405,7 @@
     {
         "id": "TU852",
         "title": "Chemical Sciences with Medicinal Chemistry",
-        "preprocessed_title": "chemic medicin chemic",
+        "preprocessed_title": "chemic medicin",
         "college": "TU Dublin - Grangegorman",
         "region": "Dublin",
         "duration": "4 Years",
@@ -9444,7 +9444,7 @@
     {
         "id": "CK712",
         "title": "Children's and General Nursing (Integrated)",
-        "preprocessed_title": "children 's nurs integr",
+        "preprocessed_title": "children 's nurs",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
@@ -9464,7 +9464,7 @@
     {
         "id": "DC218",
         "title": "Children's and General Nursing (Integrated)",
-        "preprocessed_title": "children 's nurs integr",
+        "preprocessed_title": "children 's nurs",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4.5 Years",
@@ -9484,7 +9484,7 @@
     {
         "id": "DN451",
         "title": "Children's and General Nursing (Integrated)",
-        "preprocessed_title": "children 's nurs integr",
+        "preprocessed_title": "children 's nurs",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -9504,7 +9504,7 @@
     {
         "id": "TR911",
         "title": "Children's and General Nursing (Integrated)",
-        "preprocessed_title": "children 's nurs integr",
+        "preprocessed_title": "children 's nurs",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -9957,7 +9957,7 @@
     {
         "id": "TR177",
         "title": "Classical Civilisation/Modern Language",
-        "preprocessed_title": "classic civilis modern languag",
+        "preprocessed_title": "classic civilis languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -10016,7 +10016,7 @@
     {
         "id": "TR239",
         "title": "Classical Languages/Modern Language",
-        "preprocessed_title": "classic languag modern languag",
+        "preprocessed_title": "classic languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -10477,7 +10477,7 @@
     {
         "id": "TU961",
         "title": "Commercial Modern Music",
-        "preprocessed_title": "commerci modern music",
+        "preprocessed_title": "commerci music",
         "college": "TU Dublin - Grangegorman",
         "region": "Dublin",
         "duration": "4 Years",
@@ -10496,7 +10496,7 @@
     {
         "id": "TU961",
         "title": "Commercial Modern Music",
-        "preprocessed_title": "commerci modern music",
+        "preprocessed_title": "commerci music",
         "college": "BIMM Institute Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -10553,7 +10553,7 @@
     {
         "id": "DC200",
         "title": "Common Entry into Engineering (Undenominated Entry)",
-        "preprocessed_title": "engin undenomin",
+        "preprocessed_title": "engin",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -10714,7 +10714,7 @@
     {
         "id": "MH116",
         "title": "Community and Youth Work - Full-time",
-        "preprocessed_title": "communiti youth work full time",
+        "preprocessed_title": "communiti youth work",
         "college": "Maynooth University",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -10769,7 +10769,7 @@
     {
         "id": "DN700 CSS",
         "title": "Computational Social Science - Social Sciences",
-        "preprocessed_title": "comput social social",
+        "preprocessed_title": "comput social",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -10788,7 +10788,7 @@
     {
         "id": "MH603",
         "title": "Computational Thinking (Computer Science, Maths & Philosophy)",
-        "preprocessed_title": "comput think comput mathemat philosophi",
+        "preprocessed_title": "comput think mathemat philosophi",
         "college": "Maynooth University",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 years",
@@ -11573,7 +11573,7 @@
     {
         "id": "DB502",
         "title": "Computing - Data Analytics and Big Data",
-        "preprocessed_title": "comput data analyt big data",
+        "preprocessed_title": "comput data analyt big",
         "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "4 Years",
@@ -12026,7 +12026,7 @@
     {
         "id": "AU242",
         "title": "Construction (Architectural Tech or Construction Mgt)",
-        "preprocessed_title": "construct architectur technolog construct mgt",
+        "preprocessed_title": "construct architectur technolog mgt",
         "college": "ATU Donegal",
         "region": "Ulster",
         "duration": "3 Years",
@@ -13100,7 +13100,7 @@
     {
         "id": "AU429",
         "title": "Culinary Arts Professional Chef",
-        "preprocessed_title": "culinari art profession chef",
+        "preprocessed_title": "culinari art chef",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "2 Years",
@@ -14193,7 +14193,7 @@
     {
         "id": "TR323",
         "title": "Drama Studies/Modern Language",
-        "preprocessed_title": "drama modern languag",
+        "preprocessed_title": "drama languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -14250,7 +14250,7 @@
     {
         "id": "TR022",
         "title": "Early and Modern Irish",
-        "preprocessed_title": "modern irish",
+        "preprocessed_title": "irish",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -15018,7 +15018,7 @@
     {
         "id": "TR208",
         "title": "Economics/Modern Language",
-        "preprocessed_title": "econom modern languag",
+        "preprocessed_title": "econom languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -15078,7 +15078,7 @@
     {
         "id": "DC001",
         "title": "Education - Early Childhood Education",
-        "preprocessed_title": "educ childhood educ",
+        "preprocessed_title": "educ childhood",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -15358,7 +15358,7 @@
     {
         "id": "DN760 EGA",
         "title": "Education (Education and Gaeilge)",
-        "preprocessed_title": "educ educ gaeilg",
+        "preprocessed_title": "educ gaeilg",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -15378,7 +15378,7 @@
     {
         "id": "DN760 EML",
         "title": "Education (Education and Modern Languages)",
-        "preprocessed_title": "educ educ modern languag",
+        "preprocessed_title": "educ languag",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -15398,7 +15398,7 @@
     {
         "id": "DN760 EGM",
         "title": "Education (Education, Gaeilge and Modern Languages)",
-        "preprocessed_title": "educ educ gaeilg modern languag",
+        "preprocessed_title": "educ gaeilg languag",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -15599,7 +15599,7 @@
     {
         "id": "AU988",
         "title": "Education, Home Economics - with concurrent Teacher Education",
-        "preprocessed_title": "educ home econom concurr teach educ",
+        "preprocessed_title": "educ home econom teach",
         "college": "ATU Sligo St. Angelas",
         "region": "Connacht",
         "duration": "4 Years",
@@ -15619,7 +15619,7 @@
     {
         "id": "AU985",
         "title": "Education, Home Economics and Biology - with concurrent Teacher Education",
-        "preprocessed_title": "educ home econom biolog concurr teach educ",
+        "preprocessed_title": "educ home econom biolog teach",
         "college": "ATU Sligo St. Angelas",
         "region": "Connacht",
         "duration": "4 Years",
@@ -15662,7 +15662,7 @@
     {
         "id": "AU987",
         "title": "Education, Home Economics and Irish - with concurrent Teacher Education",
-        "preprocessed_title": "educ home econom irish concurr teach educ",
+        "preprocessed_title": "educ home econom irish teach",
         "college": "ATU Sligo St. Angelas",
         "region": "Connacht",
         "duration": "4 Years",
@@ -15683,7 +15683,7 @@
     {
         "id": "AU986",
         "title": "Education, Home Economics and Religious Education - with concurrent Teacher Education",
-        "preprocessed_title": "educ home econom religi educ concurr teach educ",
+        "preprocessed_title": "educ home econom religi teach",
         "college": "ATU Sligo St. Angelas",
         "region": "Connacht",
         "duration": "4 Years",
@@ -16169,7 +16169,7 @@
     {
         "id": "TU726",
         "title": "Electronic Engineering and Engineering Software (General Entry)",
-        "preprocessed_title": "electron engin engin softwar",
+        "preprocessed_title": "electron engin softwar",
         "college": "TU Dublin - Tallaght",
         "region": "Dublin",
         "duration": "3 Years",
@@ -16189,7 +16189,7 @@
     {
         "id": "TU829",
         "title": "Electronic Engineering and Engineering Software (General Entry)",
-        "preprocessed_title": "electron engin engin softwar",
+        "preprocessed_title": "electron engin softwar",
         "college": "TU Dublin - Tallaght",
         "region": "Dublin",
         "duration": "4 Years",
@@ -16367,7 +16367,7 @@
     {
         "id": "DK744",
         "title": "Engineering - Civil Engineering",
-        "preprocessed_title": "engin civil engin",
+        "preprocessed_title": "engin civil",
         "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -16423,7 +16423,7 @@
     {
         "id": "DK742",
         "title": "Engineering - Mechanical Engineering",
-        "preprocessed_title": "engin mechan engin",
+        "preprocessed_title": "engin mechan",
         "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -16442,7 +16442,7 @@
     {
         "id": "CK600 CSE",
         "title": "Engineering (Civil Structural & Environmental Engineering)",
-        "preprocessed_title": "engin civil structur environment engin",
+        "preprocessed_title": "engin civil structur environment",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
@@ -16462,7 +16462,7 @@
     {
         "id": "AU549",
         "title": "Engineering (Common entry to - Agricultural, Biomedical, Energy, Manufacturing and/or Mechanical Engineering)",
-        "preprocessed_title": "engin agricultur biomed energi manufactur mechan engin",
+        "preprocessed_title": "engin agricultur biomed energi manufactur mechan",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "1 Year",
@@ -16481,7 +16481,7 @@
     {
         "id": "AU649",
         "title": "Engineering (Common entry to - Agricultural, Biomedical, Energy, Manufacturing and/or Mechanical Engineering)",
-        "preprocessed_title": "engin agricultur biomed energi manufactur mechan engin",
+        "preprocessed_title": "engin agricultur biomed energi manufactur mechan",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "1 Year",
@@ -16633,7 +16633,7 @@
     {
         "id": "CK600 EEE",
         "title": "Engineering (Electrical & Electronic Engineering)",
-        "preprocessed_title": "engin electr electron engin",
+        "preprocessed_title": "engin electr electron",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
@@ -16652,7 +16652,7 @@
     {
         "id": "CK600 NRG",
         "title": "Engineering (Energy Engineering)",
-        "preprocessed_title": "engin energi engin",
+        "preprocessed_title": "engin energi",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
@@ -16746,7 +16746,7 @@
     {
         "id": "CK600 PCE",
         "title": "Engineering (Process and Chemical Engineering)",
-        "preprocessed_title": "engin process chemic engin",
+        "preprocessed_title": "engin process chemic",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
@@ -16785,7 +16785,7 @@
     {
         "id": "GY401",
         "title": "Engineering (Undenominated)",
-        "preprocessed_title": "engin undenomin",
+        "preprocessed_title": "engin",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
@@ -17078,7 +17078,7 @@
     {
         "id": "TR277",
         "title": "English Literature/Modern Language",
-        "preprocessed_title": "english literatur modern languag",
+        "preprocessed_title": "english literatur languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -18077,7 +18077,7 @@
     {
         "id": "TR324",
         "title": "Film Studies/Modern Language",
-        "preprocessed_title": "film modern languag",
+        "preprocessed_title": "film languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -18382,7 +18382,7 @@
     {
         "id": "AD104",
         "title": "Fine Art & Applied Art",
-        "preprocessed_title": "fine art art",
+        "preprocessed_title": "fine art",
         "college": "National College of Art and Design - NCAD",
         "region": "Dublin",
         "duration": "3 - 4 Years",
@@ -18832,7 +18832,7 @@
     {
         "id": "TR667",
         "title": "French/Modern Language",
-        "preprocessed_title": "languag modern languag",
+        "preprocessed_title": "languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -19580,7 +19580,7 @@
     {
         "id": "TR326",
         "title": "Geography/Modern Language",
-        "preprocessed_title": "geographi modern languag",
+        "preprocessed_title": "geographi languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -19658,7 +19658,7 @@
     {
         "id": "TR668",
         "title": "German/Modern Language",
-        "preprocessed_title": "languag modern languag",
+        "preprocessed_title": "languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -20083,7 +20083,7 @@
     {
         "id": "AD102",
         "title": "Graphic Design and Moving Image Design",
-        "preprocessed_title": "graphic design move imag design",
+        "preprocessed_title": "graphic design move imag",
         "college": "National College of Art and Design - NCAD",
         "region": "Dublin",
         "duration": "3 - 4 Years",
@@ -20102,7 +20102,7 @@
     {
         "id": "LM094",
         "title": "Graphics and Construction Technology with concurrent Teacher Education",
-        "preprocessed_title": "graphic construct technolog concurr teach educ",
+        "preprocessed_title": "graphic construct technolog teach educ",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -20124,7 +20124,7 @@
     {
         "id": "LM095",
         "title": "Graphics, Engineering and Technology with concurrent Teacher Education",
-        "preprocessed_title": "graphic engin technolog concurr teach educ",
+        "preprocessed_title": "graphic engin technolog teach educ",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -20604,7 +20604,7 @@
     {
         "id": "TR455",
         "title": "History of Art and Architecture/Modern Language",
-        "preprocessed_title": "histori art architectur modern languag",
+        "preprocessed_title": "histori art architectur languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -20643,7 +20643,7 @@
     {
         "id": "TR443",
         "title": "History/History of Art and Architecture",
-        "preprocessed_title": "histori histori art architectur",
+        "preprocessed_title": "histori art architectur",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -20663,7 +20663,7 @@
     {
         "id": "TR447",
         "title": "History/Modern Language",
-        "preprocessed_title": "histori modern languag",
+        "preprocessed_title": "histori languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -21141,7 +21141,7 @@
     {
         "id": "TU870",
         "title": "Human Nutrition and Dietetics",
-        "preprocessed_title": "human nutrit nutrit",
+        "preprocessed_title": "human nutrit",
         "college": "TU Dublin - Grangegorman",
         "region": "Dublin",
         "duration": "4 Years",
@@ -21161,7 +21161,7 @@
     {
         "id": "TU870",
         "title": "Human Nutrition and Dietetics",
-        "preprocessed_title": "human nutrit nutrit",
+        "preprocessed_title": "human nutrit",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -22355,7 +22355,7 @@
     {
         "id": "TR669",
         "title": "Irish/Modern Language",
-        "preprocessed_title": "irish modern languag",
+        "preprocessed_title": "irish languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -22394,7 +22394,7 @@
     {
         "id": "TR670",
         "title": "Italian/Modern Language",
-        "preprocessed_title": "languag modern languag",
+        "preprocessed_title": "languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -23000,7 +23000,7 @@
     {
         "id": "LM091",
         "title": "Languages with concurrent Teacher Education",
-        "preprocessed_title": "languag concurr teach educ",
+        "preprocessed_title": "languag teach educ",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -23210,7 +23210,7 @@
     {
         "id": "GC419",
         "title": "Law - Commerical Law",
-        "preprocessed_title": "law commer law",
+        "preprocessed_title": "law commer",
         "college": "Griffith College Dublin",
         "region": "Dublin",
         "duration": "3 Years",
@@ -23290,7 +23290,7 @@
     {
         "id": "TU918",
         "title": "Law (LL.B.)",
-        "preprocessed_title": "law law",
+        "preprocessed_title": "law",
         "college": "TU Dublin - Grangegorman",
         "region": "Dublin",
         "duration": "3 Years",
@@ -23311,7 +23311,7 @@
     {
         "id": "SE405",
         "title": "Law (LL.B)",
-        "preprocessed_title": "law law",
+        "preprocessed_title": "law",
         "college": "SETU Carlow Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -23332,7 +23332,7 @@
     {
         "id": "TU917",
         "title": "Law (LLB) with a Language",
-        "preprocessed_title": "law law languag",
+        "preprocessed_title": "law languag",
         "college": "TU Dublin - Grangegorman",
         "region": "Dublin",
         "duration": "4 Years",
@@ -23760,7 +23760,7 @@
     {
         "id": "DN600 LFL",
         "title": "Law with French Law",
-        "preprocessed_title": "law languag law",
+        "preprocessed_title": "law languag",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -24047,7 +24047,7 @@
     {
         "id": "TR588",
         "title": "Linguistics/Modern Language",
-        "preprocessed_title": "linguist modern languag",
+        "preprocessed_title": "linguist languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -24340,7 +24340,7 @@
     {
         "id": "DB518",
         "title": "Marketing (Digital Marketing)",
-        "preprocessed_title": "market digit market",
+        "preprocessed_title": "market digit",
         "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
@@ -24766,7 +24766,7 @@
     {
         "id": "LM097",
         "title": "Mathematics and Computer Science with concurrent Teacher Education",
-        "preprocessed_title": "mathemat comput concurr teach educ",
+        "preprocessed_title": "mathemat comput teach educ",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -24824,7 +24824,7 @@
     {
         "id": "TR597",
         "title": "Mathematics/Modern Language",
-        "preprocessed_title": "mathemat modern languag",
+        "preprocessed_title": "mathemat languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -26063,7 +26063,7 @@
     {
         "id": "TR548",
         "title": "Middle Eastern, Jewish and Islamic Civilisations/Classical Civilisation",
-        "preprocessed_title": "eastern jewish islam civilis classic civilis",
+        "preprocessed_title": "eastern jewish islam civilis classic",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -26120,7 +26120,7 @@
     {
         "id": "TR563",
         "title": "Middle Eastern, Jewish and Islamic Civilisations/Modern Language",
-        "preprocessed_title": "eastern jewish islam civilis modern languag",
+        "preprocessed_title": "eastern jewish islam civilis languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -26334,7 +26334,7 @@
     {
         "id": "TR757",
         "title": "Modern Language/Social Policy",
-        "preprocessed_title": "modern languag social polici",
+        "preprocessed_title": "languag social polici",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -26354,7 +26354,7 @@
     {
         "id": "DN541",
         "title": "Modern Languages",
-        "preprocessed_title": "modern languag",
+        "preprocessed_title": "languag",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -26836,7 +26836,7 @@
     {
         "id": "TR636",
         "title": "Music/Modern Language",
-        "preprocessed_title": "music modern languag",
+        "preprocessed_title": "music languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -28113,7 +28113,7 @@
     {
         "id": "TR639",
         "title": "Philosophy/Modern Language",
-        "preprocessed_title": "philosophi modern languag",
+        "preprocessed_title": "philosophi languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -28336,7 +28336,7 @@
     {
         "id": "LM090",
         "title": "Physical Education with concurrent Teacher Education",
-        "preprocessed_title": "physic educ concurr teach educ",
+        "preprocessed_title": "physic educ teach",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -28695,7 +28695,7 @@
     {
         "id": "TU879",
         "title": "Physics with Medical Physics and Bioengineering",
-        "preprocessed_title": "physic medicin physic bioengin",
+        "preprocessed_title": "physic medicin bioengin",
         "college": "TU Dublin - Grangegorman",
         "region": "Dublin",
         "duration": "4 Years",
@@ -29009,7 +29009,7 @@
     {
         "id": "DC013",
         "title": "Post Primary Teacher Education - Gaeilge and French, German or Spanish",
-        "preprocessed_title": "post primari teach educ gaeilg languag languag languag",
+        "preprocessed_title": "post primari teach educ gaeilg languag",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -29029,7 +29029,7 @@
     {
         "id": "DC010",
         "title": "Post Primary Teacher Education - Religious Education and English",
-        "preprocessed_title": "post primari teach educ religi educ english",
+        "preprocessed_title": "post primari teach educ religi english",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -29049,7 +29049,7 @@
     {
         "id": "DC011",
         "title": "Post Primary Teacher Education - Religious Education and History",
-        "preprocessed_title": "post primari teach educ religi educ histori",
+        "preprocessed_title": "post primari teach educ religi histori",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -29068,7 +29068,7 @@
     {
         "id": "DC012",
         "title": "Post Primary Teacher Education - Religious Education and Music",
-        "preprocessed_title": "post primari teach educ religi educ music",
+        "preprocessed_title": "post primari teach educ religi music",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -29268,7 +29268,7 @@
     {
         "id": "SE926",
         "title": "Professional Social Care Practice",
-        "preprocessed_title": "profession social care practic",
+        "preprocessed_title": "social care practic",
         "college": "SETU Carlow Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -29287,7 +29287,7 @@
     {
         "id": "SE918",
         "title": "Professional Social Care Practice",
-        "preprocessed_title": "profession social care practic",
+        "preprocessed_title": "social care practic",
         "college": "SETU Carlow Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -30368,7 +30368,7 @@
     {
         "id": "TR666",
         "title": "Religion/Modern Language",
-        "preprocessed_title": "religion modern languag",
+        "preprocessed_title": "religion languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -30486,7 +30486,7 @@
     {
         "id": "TR671",
         "title": "Russian/Modern Language",
-        "preprocessed_title": "languag modern languag",
+        "preprocessed_title": "languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -30738,7 +30738,7 @@
     {
         "id": "AU556",
         "title": "Science - Undenominated",
-        "preprocessed_title": "undenomin",
+        "preprocessed_title": "",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "3 Years",
@@ -30757,7 +30757,7 @@
     {
         "id": "AU656",
         "title": "Science - Undenominated",
-        "preprocessed_title": "undenomin",
+        "preprocessed_title": "",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "4 Years",
@@ -31036,7 +31036,7 @@
     {
         "id": "LM092",
         "title": "Science with concurrent Teacher Education (Biology with Phy or Chem or Ag Sc)",
-        "preprocessed_title": "concurr teach educ biolog phi chemic agricultur sc",
+        "preprocessed_title": "teach educ biolog phi chemic agricultur sc",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -31057,7 +31057,7 @@
     {
         "id": "LM096",
         "title": "Science with concurrent Teacher Education (Physical Sciences with Chem & Phy)",
-        "preprocessed_title": "concurr teach educ physic chemic phi",
+        "preprocessed_title": "teach educ physic chemic phi",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -31414,7 +31414,7 @@
     {
         "id": "DN700 TSC",
         "title": "Social Justice (Social Sciences Two Subject Combination)",
-        "preprocessed_title": "social justic social",
+        "preprocessed_title": "social justic",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -31669,7 +31669,7 @@
     {
         "id": "TR084",
         "title": "Social Studies (Social Work)",
-        "preprocessed_title": "social social work",
+        "preprocessed_title": "social work",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -31767,7 +31767,7 @@
     {
         "id": "TR756",
         "title": "Sociology/Modern Language",
-        "preprocessed_title": "sociolog modern languag",
+        "preprocessed_title": "sociolog languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -32176,7 +32176,7 @@
     {
         "id": "TR672",
         "title": "Spanish/Modern Language",
-        "preprocessed_title": "languag modern languag",
+        "preprocessed_title": "languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -33167,7 +33167,7 @@
     {
         "id": "DK882",
         "title": "Sustainable Agriculture/Agri-Food Production",
-        "preprocessed_title": "sustain agricultur agricultur food product",
+        "preprocessed_title": "sustain agricultur food product",
         "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",

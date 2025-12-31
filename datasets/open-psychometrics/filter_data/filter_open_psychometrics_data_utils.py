@@ -97,6 +97,8 @@ def get_stop_words():
     stop_words.add("middle")
     stop_words.add("higher")
     stop_words.add("e") # e for electronic e.g. e-commerce
+    stop_words.add("professional")
+    stop_words.add("modern")
     
     # for cao-college-courses title preprocessing
     stop_words.add("common")
@@ -105,6 +107,11 @@ def get_stop_words():
     stop_words.add("two")
     stop_words.add("includes")
     stop_words.add("preference")
+    stop_words.add("full")
+    stop_words.add("time")
+    stop_words.add("concurrent")
+    stop_words.add("undenominated")
+    stop_words.add("integrated")
 
     return stop_words
 
@@ -172,6 +179,7 @@ COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP = {
     'bcomm': 'business',
     'bed': 'education',
     'teacher': 'teaching',
+    'teaching': 'education',
     'beng': 'engineering',
     'ee': 'electrical engineering',
     'eee': 'electrical engineering',
