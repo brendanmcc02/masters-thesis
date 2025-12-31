@@ -26,6 +26,7 @@ def get_stop_words():
     stop_words.add("double")
     stop_words.add("dual")
     stop_words.add("studies")
+    stop_words.add("studying")
     stop_words.add("concentration")
     stop_words.add("honor")
     stop_words.add("honour")
@@ -105,7 +106,11 @@ def preprocess_text(text):
     text = re.sub(r'[\.\?=!£#`¬\*]', '', text) # remove numbers and symbols
     text = re.sub(r'\d+', '', text) # remove numbers
 
-    for abbreviation, expanded_college_major in college_major_abbreviations_acronyms_and_substitutions_map.items():
+    # don't put this in `COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP`, because that would expand out tokens
+    if text == "science":
+        text = "physical science"
+
+    for abbreviation, expanded_college_major in COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP.items():
         pattern = r'\b' + re.escape(abbreviation) + r'\b'
         text = re.sub(pattern, expanded_college_major, text)
 
@@ -121,7 +126,7 @@ def preprocess_text(text):
     return ' '.join(cleaned_tokens)
 
 
-college_major_abbreviations_acronyms_and_substitutions_map = {
+COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP = {
     'cpa': 'accounting',
     'ba': 'arts',
     'ma': 'arts',
@@ -145,6 +150,7 @@ college_major_abbreviations_acronyms_and_substitutions_map = {
     'mcom': 'business',
     'bcomm': 'business',
     'bed': 'education',
+    'teacher': 'teaching',
     'beng': 'engineering',
     'ee': 'electrical engineering',
     'eee': 'electrical engineering',
