@@ -19,7 +19,7 @@
     {
         "id": "CK202",
         "title": "Accounting",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -145,7 +145,7 @@
     {
         "id": "DB521",
         "title": "Accounting and Finance",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -181,7 +181,7 @@
     {
         "id": "DK810",
         "title": "Accounting and Finance",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -289,7 +289,7 @@
     {
         "id": "NC022",
         "title": "Accounting and Finance",
-        "college": "National College of Ireland - NCI",
+        "college": "National College of Ireland",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -530,7 +530,7 @@
     {
         "id": "LM077",
         "title": "Aeronautical Engineering",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -789,7 +789,7 @@
     {
         "id": "CK412",
         "title": "Agricultural Science",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -1479,7 +1479,7 @@
     {
         "id": "CK123",
         "title": "Anthropology",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3-4 Years",
         "nfqLevel": 8,
@@ -1609,7 +1609,7 @@
     {
         "id": "CK212",
         "title": "Applied Economics (through Transformational Learning)",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -1698,7 +1698,7 @@
     {
         "id": "LM044",
         "title": "Applied Languages",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -1792,7 +1792,7 @@
     {
         "id": "CK120",
         "title": "Applied Psychology",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -2168,7 +2168,7 @@
     {
         "id": "DK866",
         "title": "Applied Youth Work (NSETS Endorsed)",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -2353,7 +2353,7 @@
     {
         "id": "DK831",
         "title": "Architectural Technology",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -2374,7 +2374,7 @@
     {
         "id": "DK731",
         "title": "Architectural Technology",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -2500,7 +2500,7 @@
     {
         "id": "LM099",
         "title": "Architecture",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "5 Years",
         "nfqLevel": 8,
@@ -2542,7 +2542,7 @@
     {
         "id": "CK606",
         "title": "Architecture",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -2686,7 +2686,7 @@
     {
         "id": "LM174",
         "title": "Artificial Intelligence and Machine Learning",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4/5 Years",
         "nfqLevel": 8,
@@ -2723,7 +2723,7 @@
     {
         "id": "DK861",
         "title": "Arts",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -2780,7 +2780,7 @@
     {
         "id": "GY101",
         "title": "Arts - Ancient Classics",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -2816,7 +2816,7 @@
     {
         "id": "CK101",
         "title": "Arts - Archaeology",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -2835,7 +2835,7 @@
     {
         "id": "GY101",
         "title": "Arts - Archaeology",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -2854,7 +2854,7 @@
     {
         "id": "CK101",
         "title": "Arts - Asian Studies",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -2872,7 +2872,7 @@
     {
         "id": "CK101",
         "title": "Arts - Bealoideas",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -2946,7 +2946,7 @@
     {
         "id": "CK101",
         "title": "Arts - Celtic Civilisation",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -2964,7 +2964,7 @@
     {
         "id": "GY101",
         "title": "Arts - Celtic Civilisation",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -2981,7 +2981,7 @@
     {
         "id": "CK101",
         "title": "Arts - Chinese Studies",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3036,7 +3036,7 @@
     {
         "id": "CK101",
         "title": "Arts - Computer Science",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3090,7 +3090,7 @@
     {
         "id": "LM002",
         "title": "Arts - Digital Culture and Communications",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -3109,7 +3109,7 @@
     {
         "id": "CK101",
         "title": "Arts - Economics",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3127,7 +3127,7 @@
     {
         "id": "GY101",
         "title": "Arts - Economics",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3162,7 +3162,7 @@
     {
         "id": "LM002",
         "title": "Arts - Economics",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -3180,7 +3180,7 @@
     {
         "id": "CK101",
         "title": "Arts - English",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3199,7 +3199,7 @@
     {
         "id": "GY101",
         "title": "Arts - English",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -3250,7 +3250,7 @@
     {
         "id": "LM002",
         "title": "Arts - English",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -3267,7 +3267,7 @@
     {
         "id": "CK101",
         "title": "Arts - European Studies",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3306,7 +3306,7 @@
     {
         "id": "CK101",
         "title": "Arts - Folklore",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3324,7 +3324,7 @@
     {
         "id": "CK101",
         "title": "Arts - French",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3341,7 +3341,7 @@
     {
         "id": "GY101",
         "title": "Arts - French",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -3392,7 +3392,7 @@
     {
         "id": "LM002",
         "title": "Arts - French",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -3409,7 +3409,7 @@
     {
         "id": "LM002",
         "title": "Arts - Gaeilge",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -3426,7 +3426,7 @@
     {
         "id": "CK101",
         "title": "Arts - Gaeilge/Irish",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3461,7 +3461,7 @@
     {
         "id": "CK101",
         "title": "Arts - Geography",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3479,7 +3479,7 @@
     {
         "id": "GY101",
         "title": "Arts - Geography",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -3515,7 +3515,7 @@
     {
         "id": "LM002",
         "title": "Arts - Geography",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -3533,7 +3533,7 @@
     {
         "id": "CK101",
         "title": "Arts - German",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3550,7 +3550,7 @@
     {
         "id": "GY101",
         "title": "Arts - German",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -3584,7 +3584,7 @@
     {
         "id": "LM002",
         "title": "Arts - German",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -3601,7 +3601,7 @@
     {
         "id": "GY101",
         "title": "Arts - Global Media",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3-4 Years",
         "nfqLevel": 8,
@@ -3620,7 +3620,7 @@
     {
         "id": "CK101",
         "title": "Arts - Greek",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3637,7 +3637,7 @@
     {
         "id": "CK101",
         "title": "Arts - Greek and Roman Civilisation",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3655,7 +3655,7 @@
     {
         "id": "CK101",
         "title": "Arts - History",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3672,7 +3672,7 @@
     {
         "id": "GY101",
         "title": "Arts - History",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -3706,7 +3706,7 @@
     {
         "id": "LM002",
         "title": "Arts - History",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -3723,7 +3723,7 @@
     {
         "id": "CK101",
         "title": "Arts - History of Art",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3741,7 +3741,7 @@
     {
         "id": "GY101",
         "title": "Arts - Information Technology",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3778,7 +3778,7 @@
     {
         "id": "GY101",
         "title": "Arts - Irish",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -3829,7 +3829,7 @@
     {
         "id": "CK101",
         "title": "Arts - Italian",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3846,7 +3846,7 @@
     {
         "id": "GY101",
         "title": "Arts - Italian",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -3863,7 +3863,7 @@
     {
         "id": "CK101",
         "title": "Arts - Latin",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3899,7 +3899,7 @@
     {
         "id": "GY101",
         "title": "Arts - Law",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -3937,7 +3937,7 @@
     {
         "id": "GY101",
         "title": "Arts - L\u00e9ann an Aistri\u00fach\u00e1in",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -3955,7 +3955,7 @@
     {
         "id": "GY101",
         "title": "Arts - L\u00e9ann na Cumars\u00e1ide",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -3973,7 +3973,7 @@
     {
         "id": "LM002",
         "title": "Arts - Linguistics with TESOL",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4011,7 +4011,7 @@
     {
         "id": "CK101",
         "title": "Arts - Mathematical Studies",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -4045,7 +4045,7 @@
     {
         "id": "GY101",
         "title": "Arts - Mathematics",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -4062,7 +4062,7 @@
     {
         "id": "LM002",
         "title": "Arts - Mathematics",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4134,7 +4134,7 @@
     {
         "id": "GY101",
         "title": "Arts - Modern Irish Culture Studies (Literature and Music)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -4170,7 +4170,7 @@
     {
         "id": "CK104",
         "title": "Arts - Music (BMus or International Pathway)",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -4187,7 +4187,7 @@
     {
         "id": "LM002",
         "title": "Arts - Music and Dance",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4224,7 +4224,7 @@
     {
         "id": "GY101",
         "title": "Arts - Performance and Screen Studies",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -4243,7 +4243,7 @@
     {
         "id": "CK101",
         "title": "Arts - Philosophy",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -4261,7 +4261,7 @@
     {
         "id": "GY101",
         "title": "Arts - Philosophy",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -4297,7 +4297,7 @@
     {
         "id": "CK101",
         "title": "Arts - Politics",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -4333,7 +4333,7 @@
     {
         "id": "LM002",
         "title": "Arts - Politics and International Relations",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4351,7 +4351,7 @@
     {
         "id": "CK101",
         "title": "Arts - Portuguese",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -4386,7 +4386,7 @@
     {
         "id": "GY101",
         "title": "Arts - Psychology",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -4404,7 +4404,7 @@
     {
         "id": "LM002",
         "title": "Arts - Psychology",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4440,7 +4440,7 @@
     {
         "id": "LM002",
         "title": "Arts - Public Administration and Leadership",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4460,7 +4460,7 @@
     {
         "id": "CK101",
         "title": "Arts - Religions and Global Diversity",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -4495,7 +4495,7 @@
     {
         "id": "GY101",
         "title": "Arts - Sociological and Political Studies",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -4513,7 +4513,7 @@
     {
         "id": "CK101",
         "title": "Arts - Sociology",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -4564,7 +4564,7 @@
     {
         "id": "LM002",
         "title": "Arts - Sociology",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4581,7 +4581,7 @@
     {
         "id": "CK101",
         "title": "Arts - Spanish",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -4598,7 +4598,7 @@
     {
         "id": "GY101",
         "title": "Arts - Spanish",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -4649,7 +4649,7 @@
     {
         "id": "LM002",
         "title": "Arts - Spanish",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4684,7 +4684,7 @@
     {
         "id": "CK101",
         "title": "Arts - Studies in Music",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -4720,7 +4720,7 @@
     {
         "id": "GY137",
         "title": "Arts (Child, Youth and Family: Policy and Practice)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4739,7 +4739,7 @@
     {
         "id": "GY110 ACS",
         "title": "Arts (Children\u2019s Studies)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4758,7 +4758,7 @@
     {
         "id": "GY118",
         "title": "Arts (Drama, Theatre and Performance Studies)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4776,7 +4776,7 @@
     {
         "id": "GY111",
         "title": "Arts (English and Creative Writing)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4794,7 +4794,7 @@
     {
         "id": "GY127",
         "title": "Arts (Film and Digital Media)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4814,7 +4814,7 @@
     {
         "id": "GY129",
         "title": "Arts (Global Experience)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4832,7 +4832,7 @@
     {
         "id": "GY128",
         "title": "Arts (Global Languages)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4851,7 +4851,7 @@
     {
         "id": "GY135",
         "title": "Arts (Global Media)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4869,7 +4869,7 @@
     {
         "id": "GY105",
         "title": "Arts (History)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -4961,7 +4961,7 @@
     {
         "id": "GY119",
         "title": "Arts (Journalism)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -4981,7 +4981,7 @@
     {
         "id": "GY109",
         "title": "Arts (Mathematics and Education)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -5000,7 +5000,7 @@
     {
         "id": "GY130",
         "title": "Arts (Music)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -5017,7 +5017,7 @@
     {
         "id": "LM031",
         "title": "Arts (Professional Pathways)",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -5056,7 +5056,7 @@
     {
         "id": "CK108",
         "title": "Arts International",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -5093,7 +5093,7 @@
     {
         "id": "GY110 AWC",
         "title": "Arts with Childrens Studies",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -5112,7 +5112,7 @@
     {
         "id": "GY113",
         "title": "Arts with Human Rights",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -5228,7 +5228,7 @@
     {
         "id": "DK865",
         "title": "Audio and Music Production",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -5245,7 +5245,7 @@
     {
         "id": "DK768",
         "title": "Audio and Music Production",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -5262,7 +5262,7 @@
     {
         "id": "DB510",
         "title": "Audio Production & Music Project Management",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -5565,7 +5565,7 @@
     {
         "id": "CK402",
         "title": "Biological and Chemical Sciences",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -5583,7 +5583,7 @@
     {
         "id": "LM123",
         "title": "Biological and Chemical Sciences (Common Entry)",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -5653,7 +5653,7 @@
     {
         "id": "CK404",
         "title": "Biological, Environmental and Geological Sciences",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -5787,7 +5787,7 @@
     {
         "id": "GY408",
         "title": "Biomedical Engineering",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -5864,7 +5864,7 @@
     {
         "id": "GY303",
         "title": "Biomedical Science",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -5900,7 +5900,7 @@
     {
         "id": "MT871",
         "title": "Biomedical Science",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -5991,7 +5991,7 @@
     {
         "id": "GY318",
         "title": "Biopharmaceutical Chemistry",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -6084,7 +6084,7 @@
     {
         "id": "GY304",
         "title": "Biotechnology",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -6274,7 +6274,7 @@
     {
         "id": "DK830",
         "title": "Building Surveying",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -6293,7 +6293,7 @@
     {
         "id": "DK730",
         "title": "Building Surveying",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -6424,7 +6424,7 @@
     {
         "id": "NC103",
         "title": "Business",
-        "college": "National College of Ireland - NCI",
+        "college": "National College of Ireland",
         "region": "Dublin",
         "duration": "2 Years",
         "nfqLevel": 6,
@@ -6496,7 +6496,7 @@
     {
         "id": "NC009",
         "title": "Business",
-        "college": "National College of Ireland - NCI",
+        "college": "National College of Ireland",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -6822,7 +6822,7 @@
     {
         "id": "DB526",
         "title": "Business (Cloud Computing)",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -7285,7 +7285,7 @@
     {
         "id": "DB524",
         "title": "Business (Information Systems)",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -7342,7 +7342,7 @@
     {
         "id": "DB569",
         "title": "Business (Psychology)",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -7643,7 +7643,7 @@
     {
         "id": "DK710",
         "title": "Business and Management",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -7697,7 +7697,7 @@
     {
         "id": "DK711",
         "title": "Business and Technology",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -7736,7 +7736,7 @@
     {
         "id": "DB572",
         "title": "Business in Accounting",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -7754,7 +7754,7 @@
     {
         "id": "DB574",
         "title": "Business in Information Technology",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -7773,7 +7773,7 @@
     {
         "id": "DB573",
         "title": "Business in Marketing",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -7831,7 +7831,7 @@
     {
         "id": "CK203",
         "title": "Business Information Systems",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -7871,7 +7871,7 @@
     {
         "id": "GY206",
         "title": "Business Information Systems",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -8006,7 +8006,7 @@
     {
         "id": "DB512",
         "title": "Business Studies",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -8024,7 +8024,7 @@
     {
         "id": "DB571",
         "title": "Business Studies",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -8060,7 +8060,7 @@
     {
         "id": "LM050 BBS",
         "title": "Business Studies",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -8078,7 +8078,7 @@
     {
         "id": "DK816",
         "title": "Business Studies",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -8191,7 +8191,7 @@
     {
         "id": "DB515",
         "title": "Business Studies (Human Resource Management)",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -8209,7 +8209,7 @@
     {
         "id": "DB514",
         "title": "Business Studies (Law)",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -8228,7 +8228,7 @@
     {
         "id": "LM050 NPF",
         "title": "Business Studies (No Preference)",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -8483,7 +8483,7 @@
     {
         "id": "LM050 BSF",
         "title": "Business Studies with French",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -8503,7 +8503,7 @@
     {
         "id": "LM050 BSG",
         "title": "Business Studies with German",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -8523,7 +8523,7 @@
     {
         "id": "LM050 BSJ",
         "title": "Business Studies with Japanese",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -8543,7 +8543,7 @@
     {
         "id": "LM050 BSB or BSA",
         "title": "Business Studies with Spanish",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -8737,7 +8737,7 @@
     {
         "id": "DK802",
         "title": "Business with Management",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -8814,7 +8814,7 @@
     {
         "id": "LM115",
         "title": "Chemical and Biochemical Engineering",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -8871,7 +8871,7 @@
     {
         "id": "CK406",
         "title": "Chemical Sciences",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -8960,7 +8960,7 @@
     {
         "id": "CK712",
         "title": "Children's and General Nursing (Integrated)",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -9093,7 +9093,7 @@
     {
         "id": "GY402",
         "title": "Civil Engineering",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -9252,7 +9252,7 @@
     {
         "id": "DK846",
         "title": "Civil Engineering",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -9730,7 +9730,7 @@
     {
         "id": "CK201",
         "title": "Commerce",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -9765,7 +9765,7 @@
     {
         "id": "GY201",
         "title": "Commerce",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -9784,7 +9784,7 @@
     {
         "id": "GY207",
         "title": "Commerce - Accounting",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -9822,7 +9822,7 @@
     {
         "id": "GY208",
         "title": "Commerce (Gaeilge)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -9842,7 +9842,7 @@
     {
         "id": "GY209",
         "title": "Commerce (Global Experience)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 years",
         "nfqLevel": 8,
@@ -9861,7 +9861,7 @@
     {
         "id": "GY202",
         "title": "Commerce (International) With French",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -9881,7 +9881,7 @@
     {
         "id": "GY203",
         "title": "Commerce (International) With German",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -9901,7 +9901,7 @@
     {
         "id": "GY204",
         "title": "Commerce (International) With Spanish",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -9978,7 +9978,7 @@
     {
         "id": "LM027",
         "title": "Common and Civil Law",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -10202,7 +10202,7 @@
     {
         "id": "DK767",
         "title": "Community Youth Work",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -10460,7 +10460,7 @@
     {
         "id": "CK401",
         "title": "Computer Science",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -10562,7 +10562,7 @@
     {
         "id": "LM121",
         "title": "Computer Science (Common Entry)",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -10630,7 +10630,7 @@
     {
         "id": "GY350",
         "title": "Computer Science and Information Technology",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -10774,7 +10774,7 @@
     {
         "id": "NC003",
         "title": "Computing",
-        "college": "National College of Ireland - NCI",
+        "college": "National College of Ireland",
         "region": "Dublin",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -10791,7 +10791,7 @@
     {
         "id": "NC102",
         "title": "Computing",
-        "college": "National College of Ireland - NCI",
+        "college": "National College of Ireland",
         "region": "Dublin",
         "duration": "2 Years",
         "nfqLevel": 6,
@@ -10859,7 +10859,7 @@
     {
         "id": "DK721",
         "title": "Computing",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -10894,7 +10894,7 @@
     {
         "id": "DB500",
         "title": "Computing",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -10980,7 +10980,7 @@
     {
         "id": "DB502",
         "title": "Computing - Data Analytics and Big Data",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -11085,7 +11085,7 @@
     {
         "id": "DB503",
         "title": "Computing (Software Development)",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -11195,7 +11195,7 @@
     {
         "id": "DK820",
         "title": "Computing in Games Development",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -11252,7 +11252,7 @@
     {
         "id": "DK821",
         "title": "Computing in Software Development",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -11337,7 +11337,7 @@
     {
         "id": "DK824",
         "title": "Computing Systems and Operations",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -11354,7 +11354,7 @@
     {
         "id": "DK723",
         "title": "Computing Systems and Operations",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -11513,7 +11513,7 @@
     {
         "id": "DK832",
         "title": "Construction Management",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -11535,7 +11535,7 @@
     {
         "id": "DK732",
         "title": "Construction Management",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -11663,7 +11663,7 @@
     {
         "id": "LM082",
         "title": "Construction Management and Engineering",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -11742,7 +11742,7 @@
     {
         "id": "LM133",
         "title": "Contemporary Dance",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -12060,7 +12060,7 @@
     {
         "id": "DK769",
         "title": "Creative Media",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -12078,7 +12078,7 @@
     {
         "id": "DK863",
         "title": "Creative Media",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -12132,7 +12132,7 @@
     {
         "id": "LM028",
         "title": "Criminal Justice",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 years",
         "nfqLevel": 8,
@@ -12189,7 +12189,7 @@
     {
         "id": "CK113",
         "title": "Criminology (4 yrs for International Pathway)",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 - 4 years",
         "nfqLevel": 8,
@@ -12308,7 +12308,7 @@
     {
         "id": "DK753",
         "title": "Culinary Arts",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -12607,7 +12607,7 @@
     {
         "id": "NC105",
         "title": "Data Science",
-        "college": "National College of Ireland - NCI",
+        "college": "National College of Ireland",
         "region": "Dublin",
         "duration": "2 Years",
         "nfqLevel": 6,
@@ -12641,7 +12641,7 @@
     {
         "id": "NC025",
         "title": "Data Science",
-        "college": "National College of Ireland - NCI",
+        "college": "National College of Ireland",
         "region": "Dublin",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -12659,7 +12659,7 @@
     {
         "id": "CK411",
         "title": "Data Science and Analytics",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -12819,7 +12819,7 @@
     {
         "id": "CK702",
         "title": "Dentistry",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "5 Years",
         "nfqLevel": 8,
@@ -13109,7 +13109,7 @@
     {
         "id": "CK118",
         "title": "Digital Humanities and Information Technology",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 - 4 years",
         "nfqLevel": 8,
@@ -13241,7 +13241,7 @@
     {
         "id": "DK818",
         "title": "Digital Marketing & Strategic Communication",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -13260,7 +13260,7 @@
     {
         "id": "DK712",
         "title": "Digital Marketing and Public Relations",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -13792,7 +13792,7 @@
     {
         "id": "NC030",
         "title": "Early Childhood Education and Care",
-        "college": "National College of Ireland - NCI",
+        "college": "National College of Ireland",
         "region": "Dublin",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -13936,7 +13936,7 @@
     {
         "id": "DK876",
         "title": "Early Childhood Studies",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -13990,7 +13990,7 @@
     {
         "id": "CK111",
         "title": "Early Years and Childhood Studies",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -14044,7 +14044,7 @@
     {
         "id": "GY314",
         "title": "Earth and Ocean Sciences",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -14325,7 +14325,7 @@
     {
         "id": "CK124",
         "title": "Education - Gaeilge",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -14533,7 +14533,7 @@
     {
         "id": "GY133",
         "title": "Education (Computer Science and Mathematical Studies)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -14978,7 +14978,7 @@
     {
         "id": "DK845",
         "title": "Electrical & Electronic Engineering",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -15014,7 +15014,7 @@
     {
         "id": "GY414",
         "title": "Electrical and Electronic Engineering",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -15123,7 +15123,7 @@
     {
         "id": "LM126",
         "title": "Electrical Engineering",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4-5 Years",
         "nfqLevel": 8,
@@ -15177,7 +15177,7 @@
     {
         "id": "LM118",
         "title": "Electronic and Computer Engineering",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -15215,7 +15215,7 @@
     {
         "id": "GY406",
         "title": "Electronic and Computing Engineering",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -15475,7 +15475,7 @@
     {
         "id": "GY413",
         "title": "Energy Systems Engineering",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -15512,7 +15512,7 @@
     {
         "id": "CK600 NPF",
         "title": "Engineering",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -15530,7 +15530,7 @@
     {
         "id": "DK744",
         "title": "Engineering - Civil Engineering",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -15548,7 +15548,7 @@
     {
         "id": "DK740",
         "title": "Engineering - Electrical and Electronic Systems",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -15583,7 +15583,7 @@
     {
         "id": "DK742",
         "title": "Engineering - Mechanical Engineering",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -15601,7 +15601,7 @@
     {
         "id": "CK600 CSE",
         "title": "Engineering (Civil Structural & Environmental Engineering)",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -15710,7 +15710,7 @@
     {
         "id": "LM116",
         "title": "Engineering (Common Entry)",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -15745,7 +15745,7 @@
     {
         "id": "DK843",
         "title": "Engineering (Common Entry)",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -15782,7 +15782,7 @@
     {
         "id": "CK600 EEE",
         "title": "Engineering (Electrical & Electronic Engineering)",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -15800,7 +15800,7 @@
     {
         "id": "CK600 NRG",
         "title": "Engineering (Energy Engineering)",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -15889,7 +15889,7 @@
     {
         "id": "CK600 PCE",
         "title": "Engineering (Process and Chemical Engineering)",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -15926,7 +15926,7 @@
     {
         "id": "GY401",
         "title": "Engineering (Undenominated)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -16002,7 +16002,7 @@
     {
         "id": "CK109",
         "title": "English (4 yrs for International Pathway)",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -16422,7 +16422,7 @@
     {
         "id": "GY308",
         "title": "Environmental Science",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -16441,7 +16441,7 @@
     {
         "id": "LM066",
         "title": "Environmental Science",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -16556,7 +16556,7 @@
     {
         "id": "LM093",
         "title": "Equine Science",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -16574,7 +16574,7 @@
     {
         "id": "LM180",
         "title": "Equine Science",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "2 Years",
         "nfqLevel": 6,
@@ -16592,7 +16592,7 @@
     {
         "id": "LM040",
         "title": "European Studies",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -16648,7 +16648,7 @@
     {
         "id": "DK752",
         "title": "Event Management",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -16705,7 +16705,7 @@
     {
         "id": "DK852",
         "title": "Event Management with Marketing",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -16743,7 +16743,7 @@
     {
         "id": "LM105",
         "title": "Exercise & Health Fitness Management",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -16967,7 +16967,7 @@
     {
         "id": "DB576",
         "title": "Film and Creative Media",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -16985,7 +16985,7 @@
     {
         "id": "DB567",
         "title": "Film and Creative Media",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -17039,7 +17039,7 @@
     {
         "id": "CK105",
         "title": "Film and Screen Media (4 yrs for International Pathway)",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -17057,7 +17057,7 @@
     {
         "id": "DK864",
         "title": "Film and Television Production",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -17279,7 +17279,7 @@
     {
         "id": "CK204",
         "title": "Finance",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -17333,7 +17333,7 @@
     {
         "id": "LM058",
         "title": "Financial Mathematics",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -17352,7 +17352,7 @@
     {
         "id": "GY309",
         "title": "Financial Mathematics and Economics",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -17551,7 +17551,7 @@
     {
         "id": "CK213",
         "title": "Food Marketing and Entrepreneurship",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -17570,7 +17570,7 @@
     {
         "id": "CK505",
         "title": "Food Science",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -17646,7 +17646,7 @@
     {
         "id": "LM068",
         "title": "Food Science and Health",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -17979,7 +17979,7 @@
     {
         "id": "GY136",
         "title": "Gaeilge agus L\u00e9ann an Aistri\u00fach\u00e1in",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -18144,7 +18144,7 @@
     {
         "id": "CK710",
         "title": "General Nursing",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -18163,7 +18163,7 @@
     {
         "id": "DK870",
         "title": "General Nursing",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -18201,7 +18201,7 @@
     {
         "id": "LM150",
         "title": "General Nursing",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -18314,7 +18314,7 @@
     {
         "id": "GY515",
         "title": "General Nursing",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -18390,7 +18390,7 @@
     {
         "id": "CK405",
         "title": "Genetics",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -18425,7 +18425,7 @@
     {
         "id": "GY321",
         "title": "Genetics and Genomics",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -18499,7 +18499,7 @@
     {
         "id": "GY134",
         "title": "Geography and Geosystems",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -18689,7 +18689,7 @@
     {
         "id": "DB520",
         "title": "Global Business",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -18831,7 +18831,7 @@
     {
         "id": "LM030",
         "title": "Global Politics",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -18891,7 +18891,7 @@
     {
         "id": "GY132",
         "title": "Government (Politics, Economics and Law)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -18911,7 +18911,7 @@
     {
         "id": "CK122",
         "title": "Government and Political Science",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -19074,7 +19074,7 @@
     {
         "id": "LM094",
         "title": "Graphics and Construction Technology with concurrent Teacher Education",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -19095,7 +19095,7 @@
     {
         "id": "LM095",
         "title": "Graphics, Engineering and Technology with concurrent Teacher Education",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -19154,7 +19154,7 @@
     {
         "id": "DK880",
         "title": "Health and Physical Activity",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -19846,7 +19846,7 @@
     {
         "id": "DK750",
         "title": "Hospitality Management",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -19966,7 +19966,7 @@
     {
         "id": "DK851",
         "title": "Hospitality Management with Business",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -20099,7 +20099,7 @@
     {
         "id": "NC005",
         "title": "Human Resource Management",
-        "college": "National College of Ireland - NCI",
+        "college": "National College of Ireland",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -20157,7 +20157,7 @@
     {
         "id": "LM175",
         "title": "Immersive Bioscience & Biotherapeutics",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 9,
@@ -20195,7 +20195,7 @@
     {
         "id": "LM173",
         "title": "Immersive Software Engineering",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -20400,7 +20400,7 @@
     {
         "id": "CK730",
         "title": "Intellectual Disability Nursing",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -20420,7 +20420,7 @@
     {
         "id": "DK872",
         "title": "Intellectual Disability Nursing",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -20440,7 +20440,7 @@
     {
         "id": "LM154",
         "title": "Intellectual Disability Nursing",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -20559,7 +20559,7 @@
     {
         "id": "LM113",
         "title": "Interaction Design",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -20785,7 +20785,7 @@
     {
         "id": "LM056",
         "title": "International Business",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -20845,7 +20845,7 @@
     {
         "id": "CK215",
         "title": "International Business (with Languages)",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -20866,7 +20866,7 @@
     {
         "id": "DK801",
         "title": "International Business and Digitisation",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -21122,7 +21122,7 @@
     {
         "id": "DK850",
         "title": "International Tourism Management",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -21162,7 +21162,7 @@
     {
         "id": "LM132",
         "title": "Irish Dance",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -21179,7 +21179,7 @@
     {
         "id": "LM131",
         "title": "Irish Music",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -21786,7 +21786,7 @@
     {
         "id": "LM039",
         "title": "Journalism and Digital Communication",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -21826,7 +21826,7 @@
     {
         "id": "LM091",
         "title": "Languages with concurrent Teacher Education",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -21884,7 +21884,7 @@
     {
         "id": "GY251",
         "title": "Law",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -21944,7 +21944,7 @@
     {
         "id": "DB568",
         "title": "Law",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -22161,7 +22161,7 @@
     {
         "id": "CK301",
         "title": "Law (Pathways)",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -22180,7 +22180,7 @@
     {
         "id": "GY250",
         "title": "Law & Business",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -22218,7 +22218,7 @@
     {
         "id": "LM020",
         "title": "Law and Accounting",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -22277,7 +22277,7 @@
     {
         "id": "CK307",
         "title": "Law and Business",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -22335,7 +22335,7 @@
     {
         "id": "LM032",
         "title": "Law and Cyber Security",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -22353,7 +22353,7 @@
     {
         "id": "CK302",
         "title": "Law and French",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -22413,7 +22413,7 @@
     {
         "id": "GY252",
         "title": "Law and Human Rights",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -22431,7 +22431,7 @@
     {
         "id": "CK304",
         "title": "Law and Irish",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -22490,7 +22490,7 @@
     {
         "id": "LM029",
         "title": "Law Plus",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -22669,7 +22669,7 @@
     {
         "id": "GY254",
         "title": "Law, Criminology and Criminal Justice",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -22986,7 +22986,7 @@
     {
         "id": "GY310",
         "title": "Marine Science",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -23005,7 +23005,7 @@
     {
         "id": "DB531",
         "title": "Marketing",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -23100,7 +23100,7 @@
     {
         "id": "DB518",
         "title": "Marketing (Digital Marketing)",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -23121,7 +23121,7 @@
     {
         "id": "DB517",
         "title": "Marketing (Event Management)",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -23221,7 +23221,7 @@
     {
         "id": "DK853",
         "title": "Marketing and International Tourism Management",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -23320,7 +23320,7 @@
     {
         "id": "NC020",
         "title": "Marketing Practice",
-        "college": "National College of Ireland - NCI",
+        "college": "National College of Ireland",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -23378,7 +23378,7 @@
     {
         "id": "GY319",
         "title": "Mathematical Science",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -23396,7 +23396,7 @@
     {
         "id": "CK407",
         "title": "Mathematical Sciences",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -23450,7 +23450,7 @@
     {
         "id": "LM124",
         "title": "Mathematics (Common Entry)",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -23505,7 +23505,7 @@
     {
         "id": "LM097",
         "title": "Mathematics and Computer Science with concurrent Teacher Education",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -23524,7 +23524,7 @@
     {
         "id": "DK823",
         "title": "Mathematics and Data Science",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -23782,7 +23782,7 @@
     {
         "id": "GY405",
         "title": "Mechanical Engineering",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -23908,7 +23908,7 @@
     {
         "id": "DK844",
         "title": "Mechanical Engineering",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -24243,7 +24243,7 @@
     {
         "id": "CK707",
         "title": "Medical and Health Sciences",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -24355,7 +24355,7 @@
     {
         "id": "CK701",
         "title": "Medicine",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "5 Years",
         "nfqLevel": 8,
@@ -24391,7 +24391,7 @@
     {
         "id": "GY501",
         "title": "Medicine",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "6 Years",
         "nfqLevel": 8,
@@ -24445,7 +24445,7 @@
     {
         "id": "LM301",
         "title": "Medicine",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "6 Years",
         "nfqLevel": 8,
@@ -24483,7 +24483,7 @@
     {
         "id": "CK720",
         "title": "Mental Health Nursing",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -24503,7 +24503,7 @@
     {
         "id": "DK874",
         "title": "Mental Health Nursing",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -24543,7 +24543,7 @@
     {
         "id": "GY516",
         "title": "Mental Health Nursing",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -24563,7 +24563,7 @@
     {
         "id": "LM152",
         "title": "Mental Health Nursing",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -24845,7 +24845,7 @@
     {
         "id": "CK740",
         "title": "Midwifery",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -24864,7 +24864,7 @@
     {
         "id": "DK877",
         "title": "Midwifery",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -24902,7 +24902,7 @@
     {
         "id": "GY517",
         "title": "Midwifery",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -24921,7 +24921,7 @@
     {
         "id": "LM156",
         "title": "Midwifery",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -25244,7 +25244,7 @@
     {
         "id": "DK792",
         "title": "Music and Performance Technologies",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -25263,7 +25263,7 @@
     {
         "id": "DK892",
         "title": "Music and Performance Technologies",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -25449,7 +25449,7 @@
     {
         "id": "LM114",
         "title": "Music, Media and Performance Technology",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -25542,7 +25542,7 @@
     {
         "id": "DK771",
         "title": "Musical Theatre",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -25560,7 +25560,7 @@
     {
         "id": "GY122",
         "title": "Na D\u00e1na (Cumars\u00e1id agus Gaeilge)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -25715,7 +25715,7 @@
     {
         "id": "DK888",
         "title": "Nutrition and Health",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -25792,7 +25792,7 @@
     {
         "id": "CK504",
         "title": "Nutritional Sciences",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -25811,7 +25811,7 @@
     {
         "id": "GY313",
         "title": "Occupational Health and Safety Management",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -25871,7 +25871,7 @@
     {
         "id": "CK704",
         "title": "Occupational Therapy",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -25891,7 +25891,7 @@
     {
         "id": "GY502",
         "title": "Occupational Therapy",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -25931,7 +25931,7 @@
     {
         "id": "LM104",
         "title": "Occupational Therapy",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -26007,7 +26007,7 @@
     {
         "id": "LM103",
         "title": "Paramedic Studies",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -26026,7 +26026,7 @@
     {
         "id": "CK708",
         "title": "Paramedicine",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -26360,7 +26360,7 @@
     {
         "id": "CK703",
         "title": "Pharmacy",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "5 Years",
         "nfqLevel": 9,
@@ -26420,7 +26420,7 @@
     {
         "id": "GY505",
         "title": "Pharmacy",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "5 Years",
         "nfqLevel": 8,
@@ -26894,7 +26894,7 @@
     {
         "id": "LM090",
         "title": "Physical Education with concurrent Teacher Education",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -26935,7 +26935,7 @@
     {
         "id": "CK125",
         "title": "Physical Education, Sports Studies and Arts",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -27005,7 +27005,7 @@
     {
         "id": "GY320",
         "title": "Physics",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -27022,7 +27022,7 @@
     {
         "id": "LM125",
         "title": "Physics (Common Entry)",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -27074,7 +27074,7 @@
     {
         "id": "CK408",
         "title": "Physics and Astrophysics",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -27292,7 +27292,7 @@
     {
         "id": "LM100",
         "title": "Physiotherapy",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -27387,7 +27387,7 @@
     {
         "id": "GY504",
         "title": "Podiatric Medicine",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -27740,7 +27740,7 @@
     {
         "id": "LM076",
         "title": "Product Design and Technology",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -27814,7 +27814,7 @@
     {
         "id": "GY410",
         "title": "Project and Construction Management",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -27893,7 +27893,7 @@
     {
         "id": "DB562",
         "title": "Psychology",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -27931,7 +27931,7 @@
     {
         "id": "GY104",
         "title": "Psychology",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -28006,7 +28006,7 @@
     {
         "id": "LM102",
         "title": "Psychology",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -28044,7 +28044,7 @@
     {
         "id": "NC010",
         "title": "Psychology",
-        "college": "National College of Ireland - NCI",
+        "college": "National College of Ireland",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -28194,7 +28194,7 @@
     {
         "id": "CK121",
         "title": "Psychology and Computing",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -28250,7 +28250,7 @@
     {
         "id": "LM038",
         "title": "Psychology and Sociology",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -28290,7 +28290,7 @@
     {
         "id": "CK706",
         "title": "Public Health Sciences",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -28482,7 +28482,7 @@
     {
         "id": "DK734",
         "title": "Quantity Surveying",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -28501,7 +28501,7 @@
     {
         "id": "DK834",
         "title": "Quantity Surveying",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -28952,7 +28952,7 @@
     {
         "id": "GY301",
         "title": "Science",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -29028,7 +29028,7 @@
     {
         "id": "DK781",
         "title": "Science - Bioscience",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -29137,7 +29137,7 @@
     {
         "id": "DK783",
         "title": "Science - Pharmaceutical    Science",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -29210,7 +29210,7 @@
     {
         "id": "GY322",
         "title": "Science (Agricultural Science)",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -29248,7 +29248,7 @@
     {
         "id": "DK883",
         "title": "Science (Common Entry with Award Options)",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -29437,7 +29437,7 @@
     {
         "id": "CK413",
         "title": "Science Education",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -29457,7 +29457,7 @@
     {
         "id": "LM092",
         "title": "Science with concurrent Teacher Education (Biology with Phy or Chem or Ag Sc)",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -29477,7 +29477,7 @@
     {
         "id": "LM096",
         "title": "Science with concurrent Teacher Education (Physical Sciences with Chem & Phy)",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -29645,7 +29645,7 @@
     {
         "id": "DK862",
         "title": "Social Care",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -29888,7 +29888,7 @@
     {
         "id": "CK102",
         "title": "Social Science",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -29906,7 +29906,7 @@
     {
         "id": "DB566",
         "title": "Social Science",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -29963,7 +29963,7 @@
     {
         "id": "GY123",
         "title": "Social Science",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -29982,7 +29982,7 @@
     {
         "id": "CK114",
         "title": "Social Science - Youth & Community Work",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -30000,7 +30000,7 @@
     {
         "id": "LM019",
         "title": "Social Sciences",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -30519,7 +30519,7 @@
     {
         "id": "DB534",
         "title": "Sound Engineering and Music Production",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 6,
@@ -30555,7 +30555,7 @@
     {
         "id": "CK705",
         "title": "Speech and Language Therapy",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -30574,7 +30574,7 @@
     {
         "id": "GY503",
         "title": "Speech and Language Therapy",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -30593,7 +30593,7 @@
     {
         "id": "LM106",
         "title": "Speech and Language Therapy",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -30710,7 +30710,7 @@
     {
         "id": "LM089",
         "title": "Sport and Exercise Sciences",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -30917,7 +30917,7 @@
     {
         "id": "DK763",
         "title": "Sport, Excercise and Enterprise",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -31291,7 +31291,7 @@
     {
         "id": "DK867",
         "title": "Sports, Exercise with Business",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -31442,7 +31442,7 @@
     {
         "id": "CK010",
         "title": "Sustainability",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -31463,7 +31463,7 @@
     {
         "id": "DB535",
         "title": "Sustainability Management",
-        "college": "Dublin Business School - DBS",
+        "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
         "nfqLevel": 8,
@@ -31481,7 +31481,7 @@
     {
         "id": "DK882",
         "title": "Sustainable Agriculture/Agri-Food Production",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -31579,7 +31579,7 @@
     {
         "id": "LM063",
         "title": "Technology Management",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -31672,7 +31672,7 @@
     {
         "id": "DK770",
         "title": "Theatre and Film Practice",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -31690,7 +31690,7 @@
     {
         "id": "CK112",
         "title": "Theatre and Performative Practices",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "3 - 4 Years",
         "nfqLevel": 8,
@@ -32125,7 +32125,7 @@
     {
         "id": "DK784",
         "title": "Veterinary Nursing",
-        "college": "Dundalk Institute of Technology - DKIT",
+        "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
         "nfqLevel": 7,
@@ -32349,7 +32349,7 @@
     {
         "id": "LM134",
         "title": "Voice",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -32384,7 +32384,7 @@
     {
         "id": "CK110",
         "title": "World Languages",
-        "college": "University College Cork - UCC",
+        "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -32401,7 +32401,7 @@
     {
         "id": "LM135",
         "title": "World Music",
-        "college": "University of Limerick - UL",
+        "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
         "nfqLevel": 8,
@@ -32471,7 +32471,7 @@
     {
         "id": "GY323",
         "title": "Zoology",
-        "college": "University of Galway - UG",
+        "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
         "nfqLevel": 8,

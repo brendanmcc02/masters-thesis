@@ -223,7 +223,7 @@ function getRegion(collegeName) {
         case "ATU Donegal":
             return "Ulster";
         
-        case "University College Cork - UCC":
+        case "University College Cork":
             return "Munster";
         case "MTU Cork Campus":
             return "Munster";
@@ -239,7 +239,7 @@ function getRegion(collegeName) {
             return "Munster";
         case "Griffith College Limerick":
             return "Munster";
-        case "University of Limerick - UL":
+        case "University of Limerick":
             return "Munster";
         case "SETU Waterford Campus":
             return "Munster";
@@ -252,7 +252,7 @@ function getRegion(collegeName) {
         
         case "Carlow College":
             return "Leinster (excluding Dublin)";
-        case "Dundalk Institute of Technology - DKIT":
+        case "Dundalk Institute of Technology":
             return "Leinster (excluding Dublin)";
         case "Maynooth University":
             return "Leinster (excluding Dublin)";
@@ -265,7 +265,7 @@ function getRegion(collegeName) {
 
         case "Galway Business School":
             return "Connacht";
-        case "University of Galway - UG":
+        case "University of Galway":
             return "Connacht";
         case "ATU Galway / Mayo":
             return "Connacht";
@@ -286,7 +286,7 @@ function getRegion(collegeName) {
             return "Dublin";
         case "Dorset College":
             return "Dublin";
-        case "Dublin Business School - DBS":
+        case "Dublin Business School":
             return "Dublin";
         case "Dublin City University":
             return "Dublin";
@@ -302,7 +302,7 @@ function getRegion(collegeName) {
             return "Dublin";
         case "National College of Art and Design - NCAD":
             return "Dublin";
-        case "National College of Ireland - NCI":
+        case "National College of Ireland":
             return "Dublin";
         case "Royal College of Surgeons in Ireland":
             return "Dublin";
