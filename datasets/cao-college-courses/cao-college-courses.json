@@ -14706,7 +14706,7 @@
     {
         "id": "MH003",
         "title": "Early Childhood Teaching and Learning",
-        "preprocessed_title": "childhood teach learn",
+        "preprocessed_title": "childhood educ learn",
         "college": "Maynooth University",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -15117,7 +15117,7 @@
     {
         "id": "CM001",
         "title": "Education - Primary Teaching",
-        "preprocessed_title": "educ primari teach",
+        "preprocessed_title": "educ primari",
         "college": "Marino Institute of Education",
         "region": "Dublin",
         "duration": "4 Years",
@@ -15135,7 +15135,7 @@
     {
         "id": "MI005",
         "title": "Education - Primary Teaching",
-        "preprocessed_title": "educ primari teach",
+        "preprocessed_title": "educ primari",
         "college": "Mary Immaculate College",
         "region": "Munster",
         "duration": "4 Years",
@@ -15153,7 +15153,7 @@
     {
         "id": "DC002",
         "title": "Education - Primary Teaching",
-        "preprocessed_title": "educ primari teach",
+        "preprocessed_title": "educ primari",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -15171,7 +15171,7 @@
     {
         "id": "DC004",
         "title": "Education - Primary Teaching",
-        "preprocessed_title": "educ primari teach",
+        "preprocessed_title": "educ primari",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 years",
@@ -15189,7 +15189,7 @@
     {
         "id": "CM002",
         "title": "Education - Primary Teaching - Gaeltacht Applicants",
-        "preprocessed_title": "educ primari teach gaeltacht applic",
+        "preprocessed_title": "educ primari gaeltacht applic",
         "college": "Marino Institute of Education",
         "region": "Dublin",
         "duration": "4 Years",
@@ -15207,7 +15207,7 @@
     {
         "id": "MI006",
         "title": "Education - Primary Teaching - Gaeltacht Applicants",
-        "preprocessed_title": "educ primari teach gaeltacht applic",
+        "preprocessed_title": "educ primari gaeltacht applic",
         "college": "Mary Immaculate College",
         "region": "Munster",
         "duration": "4 Years",
@@ -15225,7 +15225,7 @@
     {
         "id": "DC003",
         "title": "Education - Primary Teaching - Gaeltacht Applicants",
-        "preprocessed_title": "educ primari teach gaeltacht applic",
+        "preprocessed_title": "educ primari gaeltacht applic",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -15243,7 +15243,7 @@
     {
         "id": "MH002",
         "title": "Education - Primary Teaching - Gaeltacht Applicants",
-        "preprocessed_title": "educ primari teach gaeltacht applic",
+        "preprocessed_title": "educ primari gaeltacht applic",
         "college": "Maynooth University",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -15261,7 +15261,7 @@
     {
         "id": "MI004",
         "title": "Education - Primary Teaching - International",
-        "preprocessed_title": "educ primari teach intern",
+        "preprocessed_title": "educ primari intern",
         "college": "Mary Immaculate College",
         "region": "Munster",
         "duration": "4 Years",
@@ -15279,7 +15279,7 @@
     {
         "id": "MH001",
         "title": "Education - Primary Teaching",
-        "preprocessed_title": "educ primari teach",
+        "preprocessed_title": "educ primari",
         "college": "Maynooth University",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -15418,7 +15418,7 @@
     {
         "id": "AD202",
         "title": "Education and Art or Design (Second Level Teaching)",
-        "preprocessed_title": "educ art design second level teach",
+        "preprocessed_title": "educ art design second level",
         "college": "National College of Art and Design - NCAD",
         "region": "Dublin",
         "duration": "3 - 4 Years",
@@ -15438,7 +15438,7 @@
     {
         "id": "MI008",
         "title": "Education and Psychology - Primary Teaching",
-        "preprocessed_title": "educ psycholog primari teach",
+        "preprocessed_title": "educ psycholog primari",
         "college": "Mary Immaculate College",
         "region": "Munster",
         "duration": "4 Years",
@@ -15599,7 +15599,7 @@
     {
         "id": "AU988",
         "title": "Education, Home Economics - with concurrent Teacher Education",
-        "preprocessed_title": "educ home econom teach",
+        "preprocessed_title": "educ home econom",
         "college": "ATU Sligo St. Angelas",
         "region": "Connacht",
         "duration": "4 Years",
@@ -15619,7 +15619,7 @@
     {
         "id": "AU985",
         "title": "Education, Home Economics and Biology - with concurrent Teacher Education",
-        "preprocessed_title": "educ home econom biolog teach",
+        "preprocessed_title": "educ home econom biolog",
         "college": "ATU Sligo St. Angelas",
         "region": "Connacht",
         "duration": "4 Years",
@@ -15662,7 +15662,7 @@
     {
         "id": "AU987",
         "title": "Education, Home Economics and Irish - with concurrent Teacher Education",
-        "preprocessed_title": "educ home econom irish teach",
+        "preprocessed_title": "educ home econom irish",
         "college": "ATU Sligo St. Angelas",
         "region": "Connacht",
         "duration": "4 Years",
@@ -15683,7 +15683,7 @@
     {
         "id": "AU986",
         "title": "Education, Home Economics and Religious Education - with concurrent Teacher Education",
-        "preprocessed_title": "educ home econom religi teach",
+        "preprocessed_title": "educ home econom religi",
         "college": "ATU Sligo St. Angelas",
         "region": "Connacht",
         "duration": "4 Years",
@@ -20102,7 +20102,7 @@
     {
         "id": "LM094",
         "title": "Graphics and Construction Technology with concurrent Teacher Education",
-        "preprocessed_title": "graphic construct technolog teach educ",
+        "preprocessed_title": "graphic construct technolog educ",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -20124,7 +20124,7 @@
     {
         "id": "LM095",
         "title": "Graphics, Engineering and Technology with concurrent Teacher Education",
-        "preprocessed_title": "graphic engin technolog teach educ",
+        "preprocessed_title": "graphic engin technolog educ",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -23000,7 +23000,7 @@
     {
         "id": "LM091",
         "title": "Languages with concurrent Teacher Education",
-        "preprocessed_title": "languag teach educ",
+        "preprocessed_title": "languag educ",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -24766,7 +24766,7 @@
     {
         "id": "LM097",
         "title": "Mathematics and Computer Science with concurrent Teacher Education",
-        "preprocessed_title": "mathemat comput teach educ",
+        "preprocessed_title": "mathemat comput educ",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -28336,7 +28336,7 @@
     {
         "id": "LM090",
         "title": "Physical Education with concurrent Teacher Education",
-        "preprocessed_title": "physic educ teach",
+        "preprocessed_title": "physic educ",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -29009,7 +29009,7 @@
     {
         "id": "DC013",
         "title": "Post Primary Teacher Education - Gaeilge and French, German or Spanish",
-        "preprocessed_title": "post primari teach educ gaeilg languag",
+        "preprocessed_title": "post primari educ gaeilg languag",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -29029,7 +29029,7 @@
     {
         "id": "DC010",
         "title": "Post Primary Teacher Education - Religious Education and English",
-        "preprocessed_title": "post primari teach educ religi english",
+        "preprocessed_title": "post primari educ religi english",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -29049,7 +29049,7 @@
     {
         "id": "DC011",
         "title": "Post Primary Teacher Education - Religious Education and History",
-        "preprocessed_title": "post primari teach educ religi histori",
+        "preprocessed_title": "post primari educ religi histori",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -29068,7 +29068,7 @@
     {
         "id": "DC012",
         "title": "Post Primary Teacher Education - Religious Education and Music",
-        "preprocessed_title": "post primari teach educ religi music",
+        "preprocessed_title": "post primari educ religi music",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -29089,7 +29089,7 @@
     {
         "id": "DC015",
         "title": "Post Primary Teacher Education - Technology, Engineering and Graphics",
-        "preprocessed_title": "post primari teach educ technolog engin graphic",
+        "preprocessed_title": "post primari educ technolog engin graphic",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -30603,8 +30603,8 @@
     },
     {
         "id": "DN200",
-        "title": "Science - Chemistry (includes Medicinal / Sustainable / Biophysical)",
-        "preprocessed_title": "chemic medicin sustain biophys",
+        "title": "Science - Chemistry",
+        "preprocessed_title": "chemic",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -30661,7 +30661,7 @@
     {
         "id": "DN200",
         "title": "Science - Explore Multiple Streams",
-        "preprocessed_title": "explor stream",
+        "preprocessed_title": "physic",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -30679,8 +30679,8 @@
     },
     {
         "id": "DN200",
-        "title": "Science - Mathematics (includes Applied/Financial/Statistics & Data Science)",
-        "preprocessed_title": "mathemat financi statist data",
+        "title": "Science - Mathematics",
+        "preprocessed_title": "mathemat",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -30718,8 +30718,8 @@
     },
     {
         "id": "DN200",
-        "title": "Science - Physics (includes Theoretical / Astronomy & Space Science)",
-        "preprocessed_title": "physic astronomi space",
+        "title": "Science - Physics",
+        "preprocessed_title": "physic",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -30738,7 +30738,7 @@
     {
         "id": "AU556",
         "title": "Science - Undenominated",
-        "preprocessed_title": "",
+        "preprocessed_title": "physic",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "3 Years",
@@ -30757,7 +30757,7 @@
     {
         "id": "AU656",
         "title": "Science - Undenominated",
-        "preprocessed_title": "",
+        "preprocessed_title": "physic",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "4 Years",
@@ -30816,7 +30816,7 @@
     {
         "id": "DK883",
         "title": "Science (Common Entry with Award Options)",
-        "preprocessed_title": "award option",
+        "preprocessed_title": "physic",
         "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -31036,7 +31036,7 @@
     {
         "id": "LM092",
         "title": "Science with concurrent Teacher Education (Biology with Phy or Chem or Ag Sc)",
-        "preprocessed_title": "teach educ biolog phi chemic agricultur sc",
+        "preprocessed_title": "educ biolog phi chemic agricultur sc",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -31057,7 +31057,7 @@
     {
         "id": "LM096",
         "title": "Science with concurrent Teacher Education (Physical Sciences with Chem & Phy)",
-        "preprocessed_title": "teach educ physic chemic phi",
+        "preprocessed_title": "educ physic chemic phi",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",

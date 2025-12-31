@@ -269,7 +269,7 @@ def is_new_college_course_recommendation(college_course_to_check, previously_rec
 def is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     return previously_recommended_college_course['preprocessed_title'] == college_course_to_check['preprocessed_title']
 
-SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art"] # nursing?
+SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art"] # nurs?
 def is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     tokenized_college_course_title_words = previously_recommended_college_course['preprocessed_title'].split(' ')
 
@@ -403,6 +403,7 @@ def get_filtered_college_courses(user_college_course_preferences):
 
     return filtered_college_courses
 
+PREPROCESSED_COURSE_TITLE_EDGE_CASES = ['Science (General)', 'Science - Explore Multiple Streams', 'Science - Undenominated', 'Science - Common Entry', 'Science (Common Entry with Award Options)', 'Science (Common Entry)', 'Science (General Entry)']
 def preprocess_college_course_titles():
     with open(CAO_COLLEGE_COURSES_FILE_LOCATION, 'r', encoding='utf-8') as f: 
         college_courses = json.load(f)
@@ -410,10 +411,18 @@ def preprocess_college_course_titles():
     updated_college_courses = []
 
     for course in college_courses:
+        if course['title'] in PREPROCESSED_COURSE_TITLE_EDGE_CASES:
+            preprocessed_title = "physic"
+        else:
+            preprocessed_title = preprocess_text(course['title'])
+
+        if preprocessed_title == "":
+            print("Empty preprocessed college course title! - " + course['title'])
+
         updated_college_courses.append({
             "id": course['id'],
             "title": course['title'],
-            "preprocessed_title": preprocess_text(course['title']),
+            "preprocessed_title": preprocessed_title,
             "college": course['college'],
             "region": course['region'],
             "duration": course['duration'],

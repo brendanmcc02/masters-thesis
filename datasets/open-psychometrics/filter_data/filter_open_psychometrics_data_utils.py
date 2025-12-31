@@ -112,6 +112,10 @@ def get_stop_words():
     stop_words.add("concurrent")
     stop_words.add("undenominated")
     stop_words.add("integrated")
+    stop_words.add("explore")
+    stop_words.add("streams")
+    stop_words.add("award")
+    stop_words.add("options")
 
     return stop_words
 
@@ -128,12 +132,6 @@ def preprocess_text(text):
         text = re.sub(pattern, expanded_college_major, text)
 
     text = re.sub(r'[\(\)\{\}\[\]&/+,;:\\|\-]', ' ', text) # sub certain symbols for spaces
-
-    # manually remove 'common', 'general' and 'entry' stop words here:
-    # this edge case is for cao-college-courses.json course title preprocessing - "Science - General Entry" gets preprocessed as ""!
-    text = re.sub(r'\b' + re.escape("common") + r'\b', '', text)
-    text = re.sub(r'\b' + re.escape("general") + r'\b', '', text)
-    text = re.sub(r'\b' + re.escape("entry") + r'\b', '', text)
 
     text = text.strip()
 
