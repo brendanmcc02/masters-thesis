@@ -252,16 +252,16 @@ def add_new_college_course_recommendations(masked_college_major_category_course_
     number_of_new_courses_added = 0
 
     while number_of_new_courses_added < max_number_of_courses_recommended_per_category:
-        if is_new_college_course_recommendation(masked_college_major_category_course_recommendations_to_add[number_of_new_courses_added]['title'], previously_recommended_college_courses):
+        if is_new_college_course_recommendation(masked_college_major_category_course_recommendations_to_add[number_of_new_courses_added], previously_recommended_college_courses):
             previously_recommended_college_courses.append(masked_college_major_category_course_recommendations_to_add[number_of_new_courses_added])
             number_of_new_courses_added += 1
         else:
             del masked_college_major_category_course_recommendations_to_add[number_of_new_courses_added]
 
-def is_new_college_course_recommendation(college_course_title, previously_recommended_college_courses):
+def is_new_college_course_recommendation(college_course, previously_recommended_college_courses):
     for course in previously_recommended_college_courses:
-        if course['title'] == college_course_title:
-            print("Found unoriginal college course recommendation: " + college_course_title + ". " + course['college'] + ", " + course['title'] + " is already recommended.\n")
+        if course['title'] == college_course['title']:
+            print("Found unoriginal college course recommendation: " + college_course['title'] + " " + college_course['college'] + ". " + course['title'] + " " + course['college'] + " is already recommended.\n")
             return False
         
     return True
