@@ -4,7 +4,7 @@ user_college_course_preferences = { "nfq_levels": [8],
                                     "colleges": ["Trinity College Dublin",
                                                  "University College Dublin",
                                                  "Royal College of Surgeons in Ireland"],
-                                    "expected_points": 732}
+                                    "expected_points": 739}
 
 user_open_psychometrics_questions_vector = [0, 0, 0, 0, 0, 0, 0, 0, # R
                                             3, 3, 4, 4, 4, 3, 3, 2, # I
@@ -15,7 +15,7 @@ user_open_psychometrics_questions_vector = [0, 0, 0, 0, 0, 0, 0, 0, # R
 
 user_leaving_cert_subject_preferences = { 
                                 "Mathematics": 4,
-                                "English": 4,
+                                "English": 2,
                                 "Irish": 1,
                                 "Physics": 4,
                                 "Computer Science": 4,
@@ -23,10 +23,12 @@ user_leaving_cert_subject_preferences = {
                                 "German": 2
                                 }
 
-filtered_cao_courses = get_filtered_cao_courses(user_college_course_preferences)
+preprocess_college_course_titles()
 
-top_k_recommendations = get_top_k_recommendations(filtered_cao_courses, user_open_psychometrics_questions_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, k=20, should_reuse_trained_open_psychometrics_model=True)
+filtered_college_courses = get_filtered_college_courses(user_college_course_preferences)
+
+college_course_recommendations = get_college_course_recommendations(filtered_college_courses, user_open_psychometrics_questions_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, should_reuse_trained_open_psychometrics_model=False)
 
 print("College Course Recommendations:\n")
-for rec in top_k_recommendations:
+for rec in college_course_recommendations:
     print(rec["title"] + "\n" + rec["college"] + "\n" + str(rec["interests"]) + "\n" + str(rec["categories"]) + "\nPoints: " + str(rec["points"]) + "\nSimilarity: " + str(round(rec["similarity"]*100.0, 1)) + "%\n")

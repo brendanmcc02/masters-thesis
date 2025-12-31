@@ -33,7 +33,7 @@ operations management	oper manag	13	business	busi
 personnel management	personnel manag	0	business	busi
 sports management	sport manag	89	business	busi
 advertising	advertis	89	communications	communic
-journalism	journal	378	communications	communic
+journalism	journal	379	communications	communic
 mass media	media	128	communications	communic
 public relations	public relat	84	communications	communic
 communication technology	communic technolog	0	computers & mathematics	comput mathemat
@@ -67,7 +67,7 @@ science education	educ	2092	education	educ
 secondary education	secondari educ	19	education	educ
 social science education	social educ	9	education	educ
 special education	special educ	85	education	educ
-teaching	teach	190	education	educ
+teaching	teach	240	education	educ
 aeronautical engineering	aeronaut engin	50	engineering	engin
 aerospace engineering	aerospac engin	79	engineering	engin
 agricultural engineering	agricultur engin	11	engineering	engin
@@ -105,9 +105,9 @@ health administration	health administr	15	healthcare	healthcar
 health services	health servic	11	healthcare	healthcar
 kinesiology	kinesiolog	281	healthcare	healthcar
 medical assisting	medicin assist	87	healthcare	healthcar
-medicine	medicin	1356	healthcare	healthcar
+medicine	medicin	1357	healthcare	healthcar
 midwifery	midwiferi	8	healthcare	healthcar
-nursing	nurs	2485	healthcare	healthcar
+nursing	nurs	2486	healthcare	healthcar
 nutrition science	nutrit	162	healthcare	healthcar
 occupational therapy	occup therapi	106	healthcare	healthcar
 pharmacy	pharmaci	283	healthcare	healthcar
@@ -127,7 +127,7 @@ art history	art histori	122	humanities	human
 civilization studies	civil	31	humanities	human
 comparative literature	compar literatur	12	humanities	human
 composition	composit	0	humanities	human
-english	english	3253	humanities	human
+english	english	3254	humanities	human
 english literature	english literatur	109	humanities	human
 foreign languages	languag	601	humanities	human
 history	histori	977	humanities	human
@@ -168,13 +168,13 @@ public administration	public administr	71	law	law
 public policy	public polici	26	law	law
 agricultural science	agricultur	93	life science	life
 biochemical science	biochem	11	life science	life
-biology	biolog	2215	life science	life
+biology	biolog	2218	life science	life
 biomedical science	biomed	148	life science	life
 biopsychology	biopsycholog	12	life science	life
 botany	botani	18	life science	life
 cognitive science	cognit	28	life science	life
 ecology	ecolog	25	life science	life
-environmental science	environment	236	life science	life
+environmental science	environment	237	life science	life
 exercise science	exercis	149	life science	life
 food science	food	46	life science	life
 forestry	forestri	23	life science	life
@@ -195,7 +195,7 @@ industrial technology	industri technolog	14	physical science	physic
 meteorology	meteorolog	11	physical science	physic
 nuclear technology	nuclear technolog	0	physical science	physic
 oceanography	oceanographi	5	physical science	physic
-physics	physic	505	physical science	physic
+physics	physic	1108	physical science	physic
 radiology	radiolog	55	physical science	physic
 clinical psychology	clinic psycholog	55	social science	social
 counseling	counsel	795	social science	social
@@ -209,6 +209,6 @@ industrial psychology	industri psycholog	26	social science	social
 international relations	intern relat	243	social science	social
 organizational psychology	organiz psycholog	7	social science	social
 political science	polit	878	social science	social
-psychology	psycholog	14002	social science	social
+psychology	psycholog	14003	social science	social
 social psychology	social psycholog	17	social science	social
 sociology	sociolog	922	social science	social
