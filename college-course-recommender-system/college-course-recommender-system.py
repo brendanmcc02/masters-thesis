@@ -4,7 +4,7 @@ user_college_course_preferences = { "nfq_levels": [8],
                                     "colleges": ["Trinity College Dublin",
                                                  "University College Dublin",
                                                  "Royal College of Surgeons in Ireland"],
-                                    "expected_points": 732}
+                                    "expected_points": 739}
 
 user_open_psychometrics_questions_vector = [0, 0, 0, 0, 0, 0, 0, 0, # R
                                             3, 3, 4, 4, 4, 3, 3, 2, # I
@@ -15,7 +15,7 @@ user_open_psychometrics_questions_vector = [0, 0, 0, 0, 0, 0, 0, 0, # R
 
 user_leaving_cert_subject_preferences = { 
                                 "Mathematics": 4,
-                                "English": 4,
+                                "English": 2,
                                 "Irish": 1,
                                 "Physics": 4,
                                 "Computer Science": 4,
