@@ -31,4 +31,4 @@ college_course_recommendations = get_college_course_recommendations(filtered_col
 
 print("College Course Recommendations:\n")
 for rec in college_course_recommendations:
-    print(rec["title"] + "\n" + rec["preprocessed_title"] + "\n" + rec["college"] + "\n" + str(rec["interests"]) + "\n" + str(rec["categories"]) + "\nPoints: " + str(rec["points"]) + "\nSimilarity: " + str(round(rec["similarity"]*100.0, 1)) + "%\n")
+    print(rec["title"] + "\n" + rec["preprocessed_title"] + "\n" + rec["college"] + "\n" + str(rec["interests"]) + "\n" + str(rec["categories"]) + "\nPoints: " + str(rec["points"]) + "\nSimilarity: " + str(round(rec["similarity_score"]*100.0, 1)) + "%\n")

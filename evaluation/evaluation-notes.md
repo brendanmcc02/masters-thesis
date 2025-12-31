@@ -42,7 +42,7 @@
 
 ### objective diversity
 * could use a word embeddings model, e.g. BERT
-* and then use cosine similarity between the course titles, and that would be the "similarity" metric
+* and then use cosine similarity between the course titles, and that would be the "similarity_score" metric
 * measure the intra-list diversity using this similarity metric
 * that would be a measure of how different the courses itselves were, but diversity also includes differences in colleges, location
     * there are a few edge cases, e.g. if the person only picked one college or location, don't consider that in the metric

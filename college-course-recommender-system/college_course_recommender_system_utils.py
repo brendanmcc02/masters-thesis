@@ -227,11 +227,11 @@ def get_masked_college_major_category_course_recommendations(user_vector, colleg
     cached_masked_college_major_category_user_vector_magnitude = np.linalg.norm(masked_college_major_category_user_vector)
     
     for course in filtered_college_courses:
-        course["similarity"] = get_cosine_similarity(masked_college_major_category_user_vector, cached_masked_college_major_category_user_vector_magnitude, course["vectorized_representation"])
+        course["similarity_score"] = get_cosine_similarity(masked_college_major_category_user_vector, cached_masked_college_major_category_user_vector_magnitude, course["vectorized_representation"])
 
     masked_college_major_category_course_recommendations = sorted(
         filtered_college_courses,
-        key=lambda x: x["similarity"],
+        key=lambda x: x["similarity_score"],
         reverse=True
     )
 
