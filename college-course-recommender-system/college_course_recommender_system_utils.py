@@ -360,17 +360,6 @@ def get_normalized_vector(vector):
 def get_cosine_similarity(user_vector, cached_user_vector_magnitude, course_vector):
     return np.dot(user_vector, course_vector) / (cached_user_vector_magnitude * np.linalg.norm(course_vector))
 
-def get_unique_college_course_recommendations(college_course_recommendations):
-    college_course_titles = set()
-    unique_college_course_recommendations = []
-
-    for college_course in college_course_recommendations:
-        if college_course['title'] not in college_course_titles:
-            college_course_titles.add(college_course['title'])
-            unique_college_course_recommendations.append(college_course)
-
-    return unique_college_course_recommendations
-
 # TODO what about courses with portfolios that have excessive points?
 # no one would get recommended courses over 625 points
 def get_filtered_college_courses(user_college_course_preferences):
