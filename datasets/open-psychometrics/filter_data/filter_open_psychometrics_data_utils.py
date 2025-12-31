@@ -205,7 +205,7 @@ COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP = {
     'arch': 'architecture',
     'biomed': 'biomedical',
     'chem': 'chemical',
-    # 'chemistry': 'chemical',
+    'chemistry': 'chemical',
     'mech': 'mechanical',
     'env': 'environmental',
     'aero': 'aerospace',
