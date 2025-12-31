@@ -23,9 +23,9 @@ user_leaving_cert_subject_preferences = {
                                 "German": 2
                                 }
 
-filtered_cao_courses = get_filtered_cao_courses(user_college_course_preferences)
+filtered_college_courses = get_filtered_college_courses(user_college_course_preferences)
 
-college_course_recommendations = get_college_course_recommendations(filtered_cao_courses, user_open_psychometrics_questions_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, should_reuse_trained_open_psychometrics_model=True)
+college_course_recommendations = get_college_course_recommendations(filtered_college_courses, user_open_psychometrics_questions_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, should_reuse_trained_open_psychometrics_model=True)
 
 print("College Course Recommendations:\n")
 for rec in college_course_recommendations:

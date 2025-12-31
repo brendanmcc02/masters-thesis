@@ -105,14 +105,12 @@ RIASEC_DATASET_FEATURE_COLUMNS = ['R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8'
                                   'E1', 'E2', 'E3', 'E4', 'E5', 'E6', 'E7', 'E8',
                                   'C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8']
 
-def get_college_course_recommendations(filtered_cao_courses, user_riasec_questions_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, should_reuse_trained_open_psychometrics_model):
+def get_college_course_recommendations(filtered_college_courses, user_riasec_questions_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, should_reuse_trained_open_psychometrics_model):
     user_vector = get_user_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences, user_college_course_preferences)
 
-    college_course_recommendations = get_multiple_category_college_course_recommendations(user_vector, filtered_cao_courses, number_of_courses_recommended_per_category=5)
+    college_course_recommendations = get_multiple_category_college_course_recommendations(user_vector, filtered_college_courses, max_number_of_courses_recommended_per_category=5)
 
-    unique_college_course_recommendations = get_unique_college_course_recommendations(college_course_recommendations)
-
-    return unique_college_course_recommendations[0:NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS]
+    return college_course_recommendations[0:NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS]
 
 def get_user_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences, user_college_course_preferences):
     user_categories_vector = get_user_categories_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences)
@@ -193,32 +191,14 @@ def get_normalized_user_leaving_cert_vector(user_leaving_cert_vector):
 def custom_normalized_sigmoid_function(value):
     return 1 - np.exp(-CUSTOM_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT * value)
 
-def get_multiple_category_college_course_recommendations(user_vector, filtered_cao_courses, number_of_courses_recommended_per_category):
+def get_multiple_category_college_course_recommendations(user_vector, filtered_college_courses, max_number_of_courses_recommended_per_category):
     multiple_category_college_course_recommendations = []
     top_k_college_major_category_indexes = get_top_k_college_major_category_indexes(user_vector, k=3)
-    
-    previously_recommended_college_course_titles = set()
 
     for college_major_category_index in top_k_college_major_category_indexes:
-        masked_college_major_category_user_vector = get_masked_college_major_category_user_vector(user_vector, college_major_category_index)
-        cached_masked_college_major_category_user_vector_magnitude = np.linalg.norm(masked_college_major_category_user_vector)
-        
-        for course in filtered_cao_courses:
-            course["similarity"] = get_cosine_similarity(masked_college_major_category_user_vector, cached_masked_college_major_category_user_vector_magnitude, course["vectorized_representation"])
+        masked_college_major_category_course_recommendations = get_masked_college_major_category_course_recommendations(user_vector, college_major_category_index, filtered_college_courses)
 
-        college_course_recommendations = sorted(
-            filtered_cao_courses,
-            key=lambda x: x["similarity"],
-            reverse=True
-        )
-
-        unique_college_couse_recommendations = get_unique_college_course_recommendations(college_course_recommendations)
-
-        delete_previously_recommended_courses(unique_college_couse_recommendations, previously_recommended_college_course_titles)
-
-        for i in range(number_of_courses_recommended_per_category):
-            multiple_category_college_course_recommendations.append(unique_college_couse_recommendations[i])
-            previously_recommended_college_course_titles.add(course['title'])
+        add_new_college_course_recommendations(masked_college_major_category_course_recommendations, multiple_category_college_course_recommendations, max_number_of_courses_recommended_per_category)
 
     return multiple_category_college_course_recommendations
 
@@ -236,6 +216,21 @@ def get_top_k_college_major_category_indexes(user_vector, k):
 
     return top_college_major_category_indexes[0:k]
 
+def get_masked_college_major_category_course_recommendations(user_vector, college_major_category_index, filtered_college_courses):
+    masked_college_major_category_user_vector = get_masked_college_major_category_user_vector(user_vector, college_major_category_index)
+    cached_masked_college_major_category_user_vector_magnitude = np.linalg.norm(masked_college_major_category_user_vector)
+    
+    for course in filtered_college_courses:
+        course["similarity"] = get_cosine_similarity(masked_college_major_category_user_vector, cached_masked_college_major_category_user_vector_magnitude, course["vectorized_representation"])
+
+    masked_college_major_category_course_recommendations = sorted(
+        filtered_college_courses,
+        key=lambda x: x["similarity"],
+        reverse=True
+    )
+
+    return masked_college_major_category_course_recommendations
+
 def get_masked_college_major_category_user_vector(user_vector, college_major_category_index):
     masked_college_major_category_user_vector = user_vector.copy()
     
@@ -247,14 +242,22 @@ def get_masked_college_major_category_user_vector(user_vector, college_major_cat
 
     return masked_college_major_category_user_vector
 
-def delete_previously_recommended_courses(unique_college_couse_recommendations, previously_recommended_college_course_titles):
-    new_unique_college_couse_recommendations = []
+def add_new_college_course_recommendations(masked_college_major_category_course_recommendations_to_add, previously_recommended_college_courses, max_number_of_courses_recommended_per_category):
+    number_of_new_courses_added = 0
 
-    for i in range(len(unique_college_couse_recommendations)):
-        if unique_college_couse_recommendations[i]['title'] not in previously_recommended_college_course_titles:
-            new_unique_college_couse_recommendations.append(unique_college_couse_recommendations[i])
+    while number_of_new_courses_added < max_number_of_courses_recommended_per_category:
+        if is_new_college_course_recommendation(masked_college_major_category_course_recommendations_to_add[number_of_new_courses_added]['title'], previously_recommended_college_courses):
+            previously_recommended_college_courses.append(masked_college_major_category_course_recommendations_to_add[number_of_new_courses_added])
+            number_of_new_courses_added += 1
+        else:
+            del masked_college_major_category_course_recommendations_to_add[number_of_new_courses_added]
 
-    return new_unique_college_couse_recommendations
+def is_new_college_course_recommendation(college_course_title, previously_recommended_college_courses):
+    for course in previously_recommended_college_courses:
+        if course['title'] == college_course_title:
+            return False
+        
+    return True
 
 def get_combined_college_major_category_vectors(user_open_psychometrics_college_major_categories_vector, user_leaving_cert_college_major_categories_vector):
     user_college_major_category_vector = np.zeros(len(COLLEGE_MAJOR_CATEGORIES))
@@ -314,10 +317,10 @@ def get_min_points():
     # some courses have null points, so there's no need to calculate the min
     return 0.0
 
-def get_max_points(cao_courses):
+def get_max_points(college_courses):
     max_points = 0
 
-    for course in cao_courses:
+    for course in college_courses:
         if course['points']:
             max_points = max(max_points, course['points'])
 
@@ -370,34 +373,32 @@ def get_unique_college_course_recommendations(college_course_recommendations):
 
 # TODO what about courses with portfolios that have excessive points?
 # no one would get recommended courses over 625 points
-def get_filtered_cao_courses(user_college_course_preferences):
+def get_filtered_college_courses(user_college_course_preferences):
     with open("../datasets/cao-college-courses/cao-college-courses.json", 'r', encoding='utf-8') as f: 
-        cao_courses = json.load(f)
+        college_courses = json.load(f)
 
-    filtered_cao_courses = []
-    for course in cao_courses:
+    filtered_college_courses = []
+    for course in college_courses:
         if (course["nfqLevel"] in user_college_course_preferences["nfq_levels"] and 
             course["college"] in user_college_course_preferences["colleges"] and 
             course["points"] <= user_college_course_preferences["expected_points"]):
-            filtered_cao_courses.append(course)
+            filtered_college_courses.append(course)
 
     global MIN_POINTS
     global MAX_POINTS
 
     MIN_POINTS = get_min_points()
-    MAX_POINTS = get_max_points(filtered_cao_courses)
+    MAX_POINTS = get_max_points(filtered_college_courses)
 
-    for course in filtered_cao_courses:
+    for course in filtered_college_courses:
         add_vectorized_college_course_as_attribute(course, MIN_POINTS, MAX_POINTS)
 
-    return filtered_cao_courses
+    return filtered_college_courses
 
 def print_stringified_college_major_categories_vector(college_major_categories_vector):
-    print("College Major Categories:\n")
     for i in range(len(college_major_categories_vector)):
         print(COLLEGE_MAJOR_CATEGORIES[i] + ": " + str(round(college_major_categories_vector[i], 2)) + ("\n" if i == len(college_major_categories_vector)-1 else ""))
 
 def print_stringified_riasec_vector(riasec_vector):
-    print("RIASEC Interests:\n")
     for i in range(len(riasec_vector)):
         print(RIASEC_INTERESTS[i] + ": " + str(round(riasec_vector[i], 2)) + ("\n" if i == len(riasec_vector)-1 else ""))
