@@ -258,13 +258,26 @@ def add_new_college_course_recommendations(masked_college_major_category_course_
         else:
             del masked_college_major_category_course_recommendations_to_add[number_of_new_courses_added]
 
-def is_new_college_course_recommendation(college_course, previously_recommended_college_courses):
-    for course in previously_recommended_college_courses:
-        if course['preprocessed_title'] == college_course['preprocessed_title']:
-            print("Found unoriginal college course recommendation: " + college_course['title'] + ", " + college_course['college'] + ". " + course['title'] + ", " + course['college'] + " is already recommended.\n")
+def is_new_college_course_recommendation(college_course_to_check, previously_recommended_college_courses):
+    for previously_recommended_college_course in previously_recommended_college_courses:
+        if is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check) or is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
+            print("Found unoriginal college course recommendation: " + college_course_to_check['title'] + ", " + college_course_to_check['college'] + ". " + previously_recommended_college_course['title'] + ", " + previously_recommended_college_course['college'] + " is already recommended.\n")
             return False
         
     return True
+
+def is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
+    return previously_recommended_college_course['preprocessed_title'] == college_course_to_check['preprocessed_title']
+
+def is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
+    tokenized_college_course_title_words = previously_recommended_college_course['preprocessed_title'].split(' ')
+
+    for token in tokenized_college_course_title_words:
+        # ensures other engineering courses don't compete!
+        if token != "engin" and token in college_course_to_check['preprocessed_title']:
+            return True
+
+    return False
 
 def get_combined_college_major_category_vectors(user_open_psychometrics_college_major_categories_vector, user_leaving_cert_college_major_categories_vector):
     user_college_major_category_vector = np.zeros(len(COLLEGE_MAJOR_CATEGORIES))
@@ -274,10 +287,7 @@ def get_combined_college_major_category_vectors(user_open_psychometrics_college_
         if np.isnan(user_leaving_cert_college_major_categories_vector[i]):
             user_college_major_category_vector[i] = user_open_psychometrics_college_major_categories_vector[i]
         else:
-            # mean
             user_college_major_category_vector[i] = (user_open_psychometrics_college_major_categories_vector[i] + user_leaving_cert_college_major_categories_vector[i]) / 2.0
-            # max
-            # user_college_major_category_vector[i] = max(user_open_psychometrics_college_major_categories_vector[i], user_leaving_cert_college_major_categories_vector[i])
 
     return user_college_major_category_vector
 
@@ -292,13 +302,7 @@ def get_user_riasec_vector(user_open_psychometrics_questions_vector, user_leavin
 
     user_riasec_vector = get_summed_open_psychometrics_preferences_to_user_riasec_vector(user_riasec_vector, user_open_psychometrics_questions_vector)
 
-    # print("OP raw sums:")
-    # print_stringified_riasec_vector(user_riasec_vector)
-
     user_riasec_vector = get_summed_leaving_cert_subject_preferences_to_user_riasec_vector(user_riasec_vector, user_leaving_cert_subject_preferences)
-
-    # print("OP + LC raw sums:")
-    # print_stringified_riasec_vector(user_riasec_vector)
 
     for i in range(len(user_riasec_vector)):
         user_riasec_vector[i] = custom_normalized_sigmoid_function(user_riasec_vector[i])

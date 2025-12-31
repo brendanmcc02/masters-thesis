@@ -116,8 +116,6 @@ def preprocess_text(text):
     text = re.sub(r'[\.\?=!£#`¬\*]', '', text) # remove certain symbols
     text = re.sub(r'\d+', '', text) # remove numbers
 
-    
-
     for abbreviation, expanded_college_major in COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP.items():
         pattern = r'\b' + re.escape(abbreviation) + r'\b'
         text = re.sub(pattern, expanded_college_major, text)
@@ -142,7 +140,9 @@ def preprocess_text(text):
     for word in tokens:
         if word not in stop_words:
             stemmed_word = stemmer.stem(word)
-            cleaned_tokens.append(stemmed_word)
+
+            if stemmed_word not in cleaned_tokens:
+                cleaned_tokens.append(stemmed_word)
 
     return ' '.join(cleaned_tokens)
 

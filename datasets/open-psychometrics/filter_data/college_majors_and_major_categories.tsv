@@ -12,7 +12,7 @@ photography	photographi	97	arts	art
 studio arts	studio art	43	arts	art
 theater	theater	49	arts	art
 visual arts	visual art	37	arts	art
-accounting	account	1639	business	busi
+accounting	account	1640	business	busi
 actuarial science	actuari	60	business	busi
 administration	administr	100	business	busi
 business administration	busi administr	931	business	busi
@@ -44,14 +44,14 @@ data processing	data process	1	computers & mathematics	comput mathemat
 decision science	decis	2	computers & mathematics	comput mathemat
 information science	inform	26	computers & mathematics	comput mathemat
 information systems	inform system	81	computers & mathematics	comput mathemat
-information technology	inform technolog	562	computers & mathematics	comput mathemat
+information technology	inform technolog	564	computers & mathematics	comput mathemat
 mathematics	mathemat	912	computers & mathematics	comput mathemat
 programming	program	58	computers & mathematics	comput mathemat
 software engineering	softwar engin	134	computers & mathematics	comput mathemat
 statistics	statist	79	computers & mathematics	comput mathemat
 telecommunications	telecommun	17	computers & mathematics	comput mathemat
 adult education	adult educ	16	education	educ
-art education	art educ	34	education	educ
+art education	art educ	35	education	educ
 drama education	drama educ	0	education	educ
 early childhood education	childhood educ	173	education	educ
 educational administration	educ administr	15	education	educ
@@ -61,7 +61,7 @@ history education	histori educ	17	education	educ
 language education	languag educ	13	education	educ
 library science	librari	37	education	educ
 mathematics education	mathemat educ	19	education	educ
-music education	music educ	88	education	educ
+music education	music educ	89	education	educ
 physical education	physic educ	83	education	educ
 science education	educ	2092	education	educ
 secondary education	secondari educ	19	education	educ
@@ -71,14 +71,14 @@ teaching	teach	240	education	educ
 aeronautical engineering	aeronaut engin	50	engineering	engin
 aerospace engineering	aerospac engin	79	engineering	engin
 agricultural engineering	agricultur engin	11	engineering	engin
-architectural engineering	architectur engin	22	engineering	engin
+architectural engineering	architectur engin	23	engineering	engin
 architecture	architectur	551	engineering	engin
 biological engineering	biolog engin	17	engineering	engin
 biomedical engineering	biomed engin	103	engineering	engin
-chemical engineering	chemic engin	432	engineering	engin
+chemical engineering	chemic engin	433	engineering	engin
 civil engineering	civil engin	1134	engineering	engin
-computer engineering	comput engin	336	engineering	engin
-electrical engineering	electr engin	536	engineering	engin
+computer engineering	comput engin	337	engineering	engin
+electrical engineering	electr engin	537	engineering	engin
 engineering management	engin manag	7	engineering	engin
 engineering technology	engin technolog	22	engineering	engin
 environmental engineering	environment engin	55	engineering	engin
@@ -105,10 +105,10 @@ health administration	health administr	15	healthcare	healthcar
 health services	health servic	11	healthcare	healthcar
 kinesiology	kinesiolog	281	healthcare	healthcar
 medical assisting	medicin assist	87	healthcare	healthcar
-medicine	medicin	1357	healthcare	healthcar
+medicine	medicin	1369	healthcare	healthcar
 midwifery	midwiferi	8	healthcare	healthcar
 nursing	nurs	2486	healthcare	healthcar
-nutrition science	nutrit	162	healthcare	healthcar
+nutrition science	nutrit	170	healthcare	healthcar
 occupational therapy	occup therapi	106	healthcare	healthcar
 pharmacy	pharmaci	283	healthcare	healthcar
 physical therapy	physic therapi	124	healthcare	healthcar
@@ -117,23 +117,23 @@ public health	public health	152	healthcare	healthcar
 social work	social work	709	healthcare	healthcar
 speech pathology	speech patholog	74	healthcare	healthcar
 sport	sport	103	healthcare	healthcar
-veterinarian	veterinarian	218	healthcare	healthcar
+veterinarian	veterinarian	220	healthcare	healthcar
 veterinarian technology	veterinarian technolog	16	healthcare	healthcar
 anthropology	anthropolog	309	humanities	human
 archeology	archeolog	3	humanities	human
 area ethnic studies	area ethnic	0	humanities	human
 art criticism	art critic	1	humanities	human
-art history	art histori	122	humanities	human
+art history	art histori	128	humanities	human
 civilization studies	civil	31	humanities	human
 comparative literature	compar literatur	12	humanities	human
 composition	composit	0	humanities	human
 english	english	3254	humanities	human
-english literature	english literatur	109	humanities	human
-foreign languages	languag	601	humanities	human
+english literature	english literatur	110	humanities	human
+foreign languages	languag	633	humanities	human
 history	histori	977	humanities	human
 intercultural studies	intercultur	4	humanities	human
 international studies	intern	77	humanities	human
-liberal arts	liber art	409	humanities	human
+liberal arts	liber art	410	humanities	human
 linguistics 	linguist	215	humanities	human
 literature	literatur	126	humanities	human
 philosophy	philosophi	435	humanities	human
