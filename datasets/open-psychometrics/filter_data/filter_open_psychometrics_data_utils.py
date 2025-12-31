@@ -7,6 +7,8 @@ import re
 
 def get_stop_words():
     stop_words = set(stopwords.words('english'))
+
+    # domain-specific stop words
     stop_words.add("undergrad")
     stop_words.add("undergraduate")
     stop_words.add("postgrad")
@@ -95,6 +97,13 @@ def get_stop_words():
     stop_words.add("middle")
     stop_words.add("higher")
     stop_words.add("e") # e for electronic e.g. e-commerce
+    
+    # for cao-college-courses title preprocessing
+    stop_words.add("common")
+    stop_words.add("entry")
+    stop_words.add("combination")
+    stop_words.add("two")
+    stop_words.add("including")
 
     return stop_words
 
@@ -103,18 +112,29 @@ stemmer = SnowballStemmer("english")  # better results than porter stemmer
 
 def preprocess_text(text):
     text = text.lower()
-    text = re.sub(r'[\.\?=!£#`¬\*]', '', text) # remove numbers and symbols
+    text = re.sub(r'[\.\?=!£#`¬\*]', '', text) # remove certain symbols
     text = re.sub(r'\d+', '', text) # remove numbers
 
-    # don't put this in `COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP`, because that would expand out tokens
-    if text == "science":
-        text = "physical science"
+    
 
     for abbreviation, expanded_college_major in COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP.items():
         pattern = r'\b' + re.escape(abbreviation) + r'\b'
         text = re.sub(pattern, expanded_college_major, text)
 
-    text = re.sub(r'[\(\)\{\}\[\]&/+,;:\\|\-]', ' ', text)
+    text = re.sub(r'[\(\)\{\}\[\]&/+,;:\\|\-]', ' ', text) # sub certain symbols for spaces
+
+    # manually remove 'common', 'general' and 'entry' stop words here:
+    # this edge case is for cao-college-courses.json course title preprocessing - "Science - General Entry" gets preprocessed as ""!
+    text = re.sub(r'\b' + re.escape("common") + r'\b', '', text)
+    text = re.sub(r'\b' + re.escape("general") + r'\b', '', text)
+    text = re.sub(r'\b' + re.escape("entry") + r'\b', '', text)
+
+    text = text.strip()
+
+    # don't put this in `COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP`, because that would expand out tokens.
+    # FYI: "science" is a stop word!
+    if text == "science":
+        text = "physical science"
 
     tokens = word_tokenize(text)
     cleaned_tokens = []

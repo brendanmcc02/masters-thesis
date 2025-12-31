@@ -296,7 +296,7 @@ function getRegion(collegeName) {
             return "Dublin";
         case "ICD Business School":
             return "Dublin";
-        case "Institute of Art, Design and Technology Dun Laoghaire - IADT":
+        case "Institute of Art, Design and Technology Dun Laoghaire":
             return "Dublin";
         case "Marino Institute of Education":
             return "Dublin";

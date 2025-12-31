@@ -10,11 +10,17 @@ from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.preprocessing import LabelEncoder
 import json
 import pandas as pd
+import sys
+sys.path.append('../datasets/open-psychometrics/filter_data')
+from filter_open_psychometrics_data_utils import preprocess_text
+
+CAO_COLLEGE_COURSES_FILE_LOCATION = '../datasets/cao-college-courses/cao-college-courses.json'
 
 RIASEC_INTERESTS = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
 college_majors_and_major_categories_df = pd.read_csv("../datasets/open-psychometrics/filter_data/college_majors_and_major_categories.tsv", sep='\t', low_memory=False)
 COLLEGE_MAJOR_CATEGORIES = college_majors_and_major_categories_df["college_major_category"].unique().tolist()
-VECTORIZED_REPRESENTATION_DIMENSION_SIZE = len(RIASEC_INTERESTS) + len(COLLEGE_MAJOR_CATEGORIES) + 1 # + 1 for points
+POINTS_VECTOR_DIMENSION_SIZE = 1
+VECTORIZED_REPRESENTATION_DIMENSION_SIZE = len(RIASEC_INTERESTS) + POINTS_VECTOR_DIMENSION_SIZE + len(COLLEGE_MAJOR_CATEGORIES)
 
 POINTS_VECTOR_INDEX = len(RIASEC_INTERESTS)
 STARTING_COLLEGE_MAJOR_CATEGORY_VECTOR_INDEX = POINTS_VECTOR_INDEX + 1
@@ -255,6 +261,7 @@ def add_new_college_course_recommendations(masked_college_major_category_course_
 def is_new_college_course_recommendation(college_course_title, previously_recommended_college_courses):
     for course in previously_recommended_college_courses:
         if course['title'] == college_course_title:
+            print("Found unoriginal college course recommendation: " + college_course_title + ". " + course['college'] + ", " + course['title'] + " is already recommended.\n")
             return False
         
     return True
@@ -360,10 +367,18 @@ def get_normalized_vector(vector):
 def get_cosine_similarity(user_vector, cached_user_vector_magnitude, course_vector):
     return np.dot(user_vector, course_vector) / (cached_user_vector_magnitude * np.linalg.norm(course_vector))
 
+def print_stringified_college_major_categories_vector(college_major_categories_vector):
+    for i in range(len(college_major_categories_vector)):
+        print(COLLEGE_MAJOR_CATEGORIES[i] + ": " + str(round(college_major_categories_vector[i], 2)) + ("\n" if i == len(college_major_categories_vector)-1 else ""))
+
+def print_stringified_riasec_vector(riasec_vector):
+    for i in range(len(riasec_vector)):
+        print(RIASEC_INTERESTS[i] + ": " + str(round(riasec_vector[i], 2)) + ("\n" if i == len(riasec_vector)-1 else ""))
+
 # TODO what about courses with portfolios that have excessive points?
 # no one would get recommended courses over 625 points
 def get_filtered_college_courses(user_college_course_preferences):
-    with open("../datasets/cao-college-courses/cao-college-courses.json", 'r', encoding='utf-8') as f: 
+    with open(CAO_COLLEGE_COURSES_FILE_LOCATION, 'r', encoding='utf-8') as f: 
         college_courses = json.load(f)
 
     filtered_college_courses = []
@@ -384,10 +399,27 @@ def get_filtered_college_courses(user_college_course_preferences):
 
     return filtered_college_courses
 
-def print_stringified_college_major_categories_vector(college_major_categories_vector):
-    for i in range(len(college_major_categories_vector)):
-        print(COLLEGE_MAJOR_CATEGORIES[i] + ": " + str(round(college_major_categories_vector[i], 2)) + ("\n" if i == len(college_major_categories_vector)-1 else ""))
+def preprocess_college_course_titles():
+    with open(CAO_COLLEGE_COURSES_FILE_LOCATION, 'r', encoding='utf-8') as f: 
+        college_courses = json.load(f)
 
-def print_stringified_riasec_vector(riasec_vector):
-    for i in range(len(riasec_vector)):
-        print(RIASEC_INTERESTS[i] + ": " + str(round(riasec_vector[i], 2)) + ("\n" if i == len(riasec_vector)-1 else ""))
+    updated_college_courses = []
+
+    for course in college_courses:
+        updated_college_courses.append({
+            "id": course['id'],
+            "title": course['title'],
+            "preprocessed_title": preprocess_text(course['title']),
+            "college": course['college'],
+            "region": course['region'],
+            "duration": course['duration'],
+            "nfqLevel": int(course['nfqLevel']),
+            "points": int(course['points']) if course['points'] else None,
+            "isAdditionalPortfolioTestInterviewRequired": course['isAdditionalPortfolioTestInterviewRequired'],
+            "overview": course['overview'],
+            "interests": course['interests'],
+            "categories": course['categories'],
+        })
+
+    with open(CAO_COLLEGE_COURSES_FILE_LOCATION, "w") as outfile:
+        json.dump(updated_college_courses, outfile, indent=4)
