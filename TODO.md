@@ -9,3 +9,4 @@
         * if points > 625, then set points = 625
 - [ ] make all healthcare courses life science too? realistically, you'd have to study life science in the course so?
 - [ ] more sophisticated duplicate removal -> consider substring matches with tokens
+- [ ] find out the model's accuracy for each college major category - analyse the results - might need a confusion matrix or some shi idk bro

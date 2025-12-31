@@ -260,8 +260,8 @@ def add_new_college_course_recommendations(masked_college_major_category_course_
 
 def is_new_college_course_recommendation(college_course, previously_recommended_college_courses):
     for course in previously_recommended_college_courses:
-        if course['title'] == college_course['title']:
-            print("Found unoriginal college course recommendation: " + college_course['title'] + " " + college_course['college'] + ". " + course['title'] + " " + course['college'] + " is already recommended.\n")
+        if course['preprocessed_title'] == college_course['preprocessed_title']:
+            print("Found unoriginal college course recommendation: " + college_course['title'] + ", " + college_course['college'] + ". " + course['title'] + ", " + course['college'] + " is already recommended.\n")
             return False
         
     return True

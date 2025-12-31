@@ -103,7 +103,8 @@ def get_stop_words():
     stop_words.add("entry")
     stop_words.add("combination")
     stop_words.add("two")
-    stop_words.add("including")
+    stop_words.add("includes")
+    stop_words.add("preference")
 
     return stop_words
 
@@ -204,6 +205,7 @@ COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP = {
     'arch': 'architecture',
     'biomed': 'biomedical',
     'chem': 'chemical',
+    # 'chemistry': 'chemical',
     'mech': 'mechanical',
     'env': 'environmental',
     'aero': 'aerospace',

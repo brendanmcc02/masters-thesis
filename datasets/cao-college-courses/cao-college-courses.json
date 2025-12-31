@@ -850,7 +850,7 @@
     {
         "id": "DN250",
         "title": "Agricultural Science - No Preference",
-        "preprocessed_title": "agricultur prefer",
+        "preprocessed_title": "agricultur",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -8674,7 +8674,7 @@
     {
         "id": "LM050 NPF",
         "title": "Business Studies (No Preference)",
-        "preprocessed_title": "busi prefer",
+        "preprocessed_title": "busi",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -30604,7 +30604,7 @@
     {
         "id": "DN200",
         "title": "Science - Chemistry (includes Medicinal / Sustainable / Biophysical)",
-        "preprocessed_title": "chemistri includ medicin sustain biophys",
+        "preprocessed_title": "chemistri medicin sustain biophys",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -30680,7 +30680,7 @@
     {
         "id": "DN200",
         "title": "Science - Mathematics (includes Applied/Financial/Statistics & Data Science)",
-        "preprocessed_title": "mathemat includ financi statist data",
+        "preprocessed_title": "mathemat financi statist data",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -30719,7 +30719,7 @@
     {
         "id": "DN200",
         "title": "Science - Physics (includes Theoretical / Astronomy & Space Science)",
-        "preprocessed_title": "physic includ astronomi space",
+        "preprocessed_title": "physic astronomi space",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
