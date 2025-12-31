@@ -108,23 +108,11 @@ RIASEC_DATASET_FEATURE_COLUMNS = ['R1', 'R2', 'R3', 'R4', 'R5', 'R6', 'R7', 'R8'
 def get_college_course_recommendations(filtered_cao_courses, user_riasec_questions_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, should_reuse_trained_open_psychometrics_model):
     user_vector = get_user_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences, user_college_course_preferences)
 
-    cached_user_vector_magnitude = np.linalg.norm(user_vector)
-    for course in filtered_cao_courses:
-        course["similarity"] = get_cosine_similarity(user_vector, cached_user_vector_magnitude, course["vectorized_representation"])
+    college_course_recommendations = get_multiple_category_college_course_recommendations(user_vector, filtered_cao_courses)
 
-    results = sorted(
-        filtered_cao_courses,
-        key=lambda x: x["similarity"],
-        reverse=True
-    )
+    unique_college_course_recommendations = get_unique_college_course_recommendations(college_course_recommendations)
 
-    unique_college_course_results = get_unique_college_course_results(results)
-
-    college_course_recommendations = []
-
-    college_course_recommendations = unique_college_course_results[0:NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS]
-
-    return college_course_recommendations
+    return unique_college_course_recommendations[0:NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS]
 
 def get_user_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences, user_college_course_preferences):
     user_categories_vector = get_user_categories_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences)
@@ -204,6 +192,19 @@ def get_normalized_user_leaving_cert_vector(user_leaving_cert_vector):
 
 def custom_normalized_sigmoid_function(value):
     return 1 - np.exp(-CUSTOM_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT * value)
+
+def get_multiple_category_college_course_recommendations(user_vector, filtered_cao_courses):
+    cached_user_vector_magnitude = np.linalg.norm(user_vector)
+    for course in filtered_cao_courses:
+        course["similarity"] = get_cosine_similarity(user_vector, cached_user_vector_magnitude, course["vectorized_representation"])
+
+    college_couse_recommendations = sorted(
+        filtered_cao_courses,
+        key=lambda x: x["similarity"],
+        reverse=True
+    )
+
+    return college_couse_recommendations
 
 def get_combined_college_major_category_vectors(user_open_psychometrics_college_major_categories_vector, user_leaving_cert_college_major_categories_vector):
     user_college_major_category_vector = np.zeros(len(COLLEGE_MAJOR_CATEGORIES))
@@ -306,16 +307,16 @@ def get_normalized_vector(vector):
 def get_cosine_similarity(user_vector, cached_user_vector_magnitude, course_vector):
     return np.dot(user_vector, course_vector) / (cached_user_vector_magnitude * np.linalg.norm(course_vector))
 
-def get_unique_college_course_results(college_course_results):
+def get_unique_college_course_recommendations(college_course_recommendations):
     college_course_titles = set()
-    unique_college_course_results = []
+    unique_college_course_recommendations = []
 
-    for college_course in college_course_results:
+    for college_course in college_course_recommendations:
         if college_course['title'] not in college_course_titles:
             college_course_titles.add(college_course['title'])
-            unique_college_course_results.append(college_course)
+            unique_college_course_recommendations.append(college_course)
 
-    return unique_college_course_results
+    return unique_college_course_recommendations
 
 # TODO what about courses with portfolios that have excessive points?
 # no one would get recommended courses over 625 points
