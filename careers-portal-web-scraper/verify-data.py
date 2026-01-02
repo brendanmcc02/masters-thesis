@@ -130,3 +130,7 @@ for course in courses:
 # print("interests:\n")
 # for interests in interests:
 #     print(str(interests) + "\n")
+
+for course in courses:
+    if "healthcare" in course['categories'] and "life science" not in course['categories']:
+        print(course['title'])

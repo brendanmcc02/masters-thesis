@@ -1964,7 +1964,6 @@
             "artistic"
         ],
         "categories": [
-            "healthcare",
             "social science"
         ]
     },
@@ -13030,7 +13029,7 @@
         ],
         "categories": [
             "arts",
-            "healthcare",
+            "business",
             "industrial arts & consumer services"
         ]
     },
@@ -13522,7 +13521,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -13541,7 +13541,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -27789,6 +27790,7 @@
         ],
         "categories": [
             "healthcare",
+            "life science",
             "physical science"
         ]
     },
@@ -27810,7 +27812,8 @@
         ],
         "categories": [
             "healthcare",
-            "physical science"
+            "physical science",
+            "life science"
         ]
     },
     {
@@ -27831,7 +27834,8 @@
         ],
         "categories": [
             "healthcare",
-            "physical science"
+            "physical science",
+            "life science"
         ]
     },
     {
@@ -27852,7 +27856,8 @@
         ],
         "categories": [
             "healthcare",
-            "physical science"
+            "physical science",
+            "life science"
         ]
     },
     {
@@ -27872,7 +27877,8 @@
         ],
         "categories": [
             "healthcare",
-            "physical science"
+            "physical science",
+            "life science"
         ]
     },
     {
@@ -27891,7 +27897,8 @@
         ],
         "categories": [
             "healthcare",
-            "physical science"
+            "physical science",
+            "life science"
         ]
     },
     {
@@ -28750,7 +28757,8 @@
             "realistic"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -28770,7 +28778,8 @@
             "realistic"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -28790,7 +28799,8 @@
             "realistic"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -28810,7 +28820,8 @@
             "realistic"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -28829,7 +28840,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
