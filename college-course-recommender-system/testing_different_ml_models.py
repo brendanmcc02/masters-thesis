@@ -1,11 +1,13 @@
 import pandas as pd
-import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import top_k_accuracy_score, accuracy_score
 from sklearn.dummy import DummyClassifier
 from sklearn.ensemble import HistGradientBoostingClassifier
 from collections import defaultdict
+from sklearn.metrics import classification_report
+import matplotlib.pyplot as plt
+from sklearn.metrics import ConfusionMatrixDisplay
 
 def print_top_k_accuracy_metric(y_actual, model_name, number_of_top_k, train_or_test_label, y_predicted_class_probabilities):
     print(str(round(top_k_accuracy_score(y_actual, y_predicted_class_probabilities, k=number_of_top_k), 3)) + " - " + model_name + " Top-" + str(number_of_top_k) + " " + train_or_test_label + " Accuracy")
@@ -89,6 +91,21 @@ most_frequent_baseline_model = DummyClassifier(strategy='most_frequent')
 most_frequent_baseline_model.fit(X_train, y_train)
 y_predicted_class_probabilities_most_frequent = most_frequent_baseline_model.predict_proba(X_test)
 y_predicted_most_frequent = most_frequent_baseline_model.predict(X_test)
+
+# print("HBGM Classification Report")
+# report = classification_report(y_test, y_predicted_test_hist_gradient_boosting_machines)
+# print(report)
+
+fig, ax = plt.subplots(figsize=(12, 12))
+ConfusionMatrixDisplay.from_predictions(
+    y_test, 
+    y_predicted_test_hist_gradient_boosting_machines, 
+    ax=ax, 
+    cmap='Blues',
+    xticks_rotation='vertical'
+)
+plt.title("Confusion Matrix for College Major Categories")
+plt.show()
 
 # proportions
 print("\n# EVALUATION")
