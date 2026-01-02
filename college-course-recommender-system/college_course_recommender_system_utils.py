@@ -254,7 +254,7 @@ def add_new_college_course_recommendations(masked_college_major_category_course_
 
     while number_of_new_courses_added < max_number_of_courses_recommended_per_category:
         if is_new_college_course_recommendation(masked_college_major_category_course_recommendations_to_add[number_of_new_courses_added], previously_recommended_college_courses):
-            previously_recommended_college_courses.append(copy.deepcopy(masked_college_major_category_course_recommendations_to_add[number_of_new_courses_added]))
+            previously_recommended_college_courses.append(masked_college_major_category_course_recommendations_to_add[number_of_new_courses_added].copy())
             number_of_new_courses_added += 1
         else:
             del masked_college_major_category_course_recommendations_to_add[number_of_new_courses_added]
