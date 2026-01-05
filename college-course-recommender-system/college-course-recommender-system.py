@@ -4,7 +4,7 @@ user_college_course_preferences = { "nfq_levels": [8],
                                     "colleges": ["Trinity College Dublin",
                                                  "University College Dublin",
                                                  "Royal College of Surgeons in Ireland"],
-                                    "expected_points": 625}
+                                    "expected_points": 601}
 
 user_open_psychometrics_questions_vector = [0, 0, 0, 0, 0, 0, 0, 0, # R
                                             3, 3, 4, 4, 4, 3, 3, 2, # I
@@ -23,12 +23,12 @@ user_leaving_cert_subject_preferences = {
                                 "German": 2
                                 }
 
-preprocess_college_course_titles()
+college_course_recommendations = get_college_course_recommendations(user_open_psychometrics_questions_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, should_reuse_trained_open_psychometrics_model=True)
 
-filtered_college_courses = get_filtered_college_courses(user_college_course_preferences)
+baseline_college_course_recommendations = get_baseline_college_course_recommendations(user_college_course_preferences)
 
-college_course_recommendations = get_college_course_recommendations(filtered_college_courses, user_open_psychometrics_questions_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, should_reuse_trained_open_psychometrics_model=True)
+print("BASELINE COLLEGE COURSE RECOMMENDATIONS:\n")
+print_college_course_recommendations(baseline_college_course_recommendations)
 
 print("COLLEGE COURSE RECOMMENDATIONS:\n")
-for rec in college_course_recommendations:
-    print(rec["title"] + "\n" + rec["preprocessed_title"] + "\n" + rec["college"] + "\n" + str(rec["interests"]) + "\n" + str(rec["categories"]) + "\nPoints: " + str(rec["points"]) + "\nSimilarity: " + str(round(rec["similarity_score"]*100.0, 1)) + "%\n")
+print_college_course_recommendations(college_course_recommendations)

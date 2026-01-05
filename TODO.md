@@ -1,5 +1,6 @@
 # TODO
 
-- [ ] how many courses are we recommending, and how many for each category?
-- [ ] generate a baseline
-- [ ] test on different profiles and people
+- [x] generate a baseline
+- [ ] test on different local profiles
+- [ ] test on different people
+- [ ] create a usable interface
