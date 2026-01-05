@@ -26,8 +26,8 @@ VECTORIZED_REPRESENTATION_DIMENSION_SIZE = len(RIASEC_INTERESTS) + POINTS_VECTOR
 POINTS_VECTOR_INDEX = len(RIASEC_INTERESTS)
 STARTING_COLLEGE_MAJOR_CATEGORY_VECTOR_INDEX = POINTS_VECTOR_INDEX + 1
 
-MIN_POINTS = 0 # global variables, will be modified
-MAX_POINTS = 0 # global variables, will be modified
+MIN_COURSE_POINTS = 0
+MAX_COURSE_POINTS = 625
 
 NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS = 20
 NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY = 8
@@ -122,7 +122,7 @@ def get_college_course_recommendations(filtered_college_courses, user_riasec_que
 def get_user_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences, user_college_course_preferences):
     user_categories_vector = get_user_categories_vector(should_reuse_trained_open_psychometrics_model, user_riasec_questions_vector, user_leaving_cert_subject_preferences)
 
-    user_points_vector = get_normalized_points_vector(user_college_course_preferences["expected_points"], MIN_POINTS, MAX_POINTS)
+    user_points_vector = get_normalized_points_vector(user_college_course_preferences["expected_points"])
 
     user_riasec_vector = get_user_riasec_vector(user_riasec_questions_vector, user_leaving_cert_subject_preferences)
 
@@ -262,7 +262,7 @@ def add_new_college_course_recommendations(masked_college_major_category_course_
 def is_new_college_course_recommendation(college_course_to_check, previously_recommended_college_courses):
     for previously_recommended_college_course in previously_recommended_college_courses:
         if is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check) or is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
-            print("Found unoriginal college course recommendation: " + college_course_to_check['title'] + ", " + college_course_to_check['college'] + ". " + previously_recommended_college_course['title'] + ", " + previously_recommended_college_course['college'] + " is already recommended.\n")
+            print("Not recommending " + college_course_to_check['title'] + ", " + college_course_to_check['college'] + " because " + previously_recommended_college_course['title'] + ", " + previously_recommended_college_course['college'] + " is already recommended.\n")
             return False
         
     return True
@@ -270,7 +270,7 @@ def is_new_college_course_recommendation(college_course_to_check, previously_rec
 def is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     return previously_recommended_college_course['preprocessed_title'] == college_course_to_check['preprocessed_title']
 
-SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art"] # nurs?
+SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art"] # nurs? - atm, imo no
 def is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     tokenized_college_course_title_words = previously_recommended_college_course['preprocessed_title'].split(' ')
 
@@ -292,11 +292,16 @@ def get_combined_college_major_category_vectors(user_open_psychometrics_college_
 
     return user_college_major_category_vector
 
-def get_normalized_points_vector(points, min_points, max_points):
+def get_normalized_points_vector(points):
+    # some courses have null points i.e. no points information (they are new courses)
     if not points:
         points = 0.0
     
-    return np.array([(points - min_points) / (max_points - min_points)])
+    # somec courses are over 625 points (because of portfolios, interviews, etc.)
+    # so if the course exceeds 625 points, vectorize the course as if it had 625 points (keeps the normalisation between 0 and 625 points)
+    points = min(points, MAX_COURSE_POINTS)
+
+    return np.array([(points - MIN_COURSE_POINTS) / (MAX_COURSE_POINTS - MIN_COURSE_POINTS)])
 
 def get_user_riasec_vector(user_open_psychometrics_questions_vector, user_leaving_cert_subject_preferences):
     user_riasec_vector = np.zeros(len(RIASEC_INTERESTS))
@@ -325,30 +330,17 @@ def get_summed_open_psychometrics_preferences_to_user_riasec_vector(user_riasec_
 
     return user_riasec_vector
 
-def get_min_points():
-    # some courses have null points, so there's no need to calculate the min
-    return 0.0
+def add_vectorized_college_course_as_attribute(course):
+    course['vectorized_representation'] = get_vectorized_college_course_representation(course)
 
-def get_max_points(college_courses):
-    max_points = 0
-
-    for course in college_courses:
-        if course['points']:
-            max_points = max(max_points, course['points'])
-
-    return max_points
-
-def add_vectorized_college_course_as_attribute(course, min_points, max_points):
-    course['vectorized_representation'] = get_vectorized_college_course_representation(course, min_points, max_points)
-
-def get_vectorized_college_course_representation(college_course, min_points, max_points):
+def get_vectorized_college_course_representation(college_course):
     vectorized_representation = np.zeros(VECTORIZED_REPRESENTATION_DIMENSION_SIZE)
 
     for interest in college_course['interests']:
         distributed_interest_weight = 1.0 / np.sqrt(len(college_course['interests']))
         vectorized_representation[RIASEC_INTERESTS.index(interest)] = distributed_interest_weight
 
-    vectorized_representation[POINTS_VECTOR_INDEX] = get_normalized_points_vector(college_course['points'], min_points, max_points)
+    vectorized_representation[POINTS_VECTOR_INDEX] = get_normalized_points_vector(college_course['points'])
 
     for category in college_course['categories']:
         distributed_category_weight = 1.0 / np.sqrt(len(college_course['categories']))
@@ -380,29 +372,26 @@ def print_stringified_riasec_vector(riasec_vector):
     for i in range(len(riasec_vector)):
         print(RIASEC_INTERESTS[i] + ": " + str(round(riasec_vector[i], 2)) + ("\n" if i == len(riasec_vector)-1 else ""))
 
-# TODO what about courses with portfolios that have excessive points?
-# no one would get recommended courses over 625 points
 def get_filtered_college_courses(user_college_course_preferences):
     with open(CAO_COLLEGE_COURSES_FILE_LOCATION, 'r', encoding='utf-8') as f: 
         college_courses = json.load(f)
 
     filtered_college_courses = []
     for course in college_courses:
-        if (course["nfqLevel"] in user_college_course_preferences["nfq_levels"] and 
-            course["college"] in user_college_course_preferences["colleges"] and 
-            course["points"] <= user_college_course_preferences["expected_points"]):
+        if is_course_filtered(course, user_college_course_preferences):
             filtered_college_courses.append(course)
 
-    global MIN_POINTS
-    global MAX_POINTS
-
-    MIN_POINTS = get_min_points()
-    MAX_POINTS = get_max_points(filtered_college_courses)
-
     for course in filtered_college_courses:
-        add_vectorized_college_course_as_attribute(course, MIN_POINTS, MAX_POINTS)
+        add_vectorized_college_course_as_attribute(course)
 
     return filtered_college_courses
+
+def is_course_filtered(course, user_college_course_preferences):
+    # calculating a realistic/accurate min point calculation for courses that require portfolios/tests/interviews would take way too much manual labour (i think),
+    # so instead, if the course requires a portfolio, and satisfies the college and nfq level requirements, just add it to the filtered courses and it could be recommended to the user even if it falls outside of their points range
+    return (course["nfqLevel"] in user_college_course_preferences["nfq_levels"] and 
+            course["college"] in user_college_course_preferences["colleges"] and 
+            (course["points"] <= user_college_course_preferences["expected_points"] or course['isAdditionalPortfolioTestInterviewRequired']))
 
 PREPROCESSED_COURSE_TITLE_EDGE_CASES = ['Science (General)', 'Science - Explore Multiple Streams', 'Science - Undenominated', 'Science - Common Entry', 'Science (Common Entry with Award Options)', 'Science (Common Entry)', 'Science (General Entry)']
 def preprocess_college_course_titles():

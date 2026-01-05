@@ -4,6 +4,6 @@
     * more consistency
     * but then again it does a really good job ngl
     * my approach categorises courses into one category, but in most cases they can be multiple, e.g. medicine is healthcare & life science
-- [ ] figure out courses with portfolios
-    * or maybe just don't filter them out no matter what points the person puts?
-        * if points > 625, then set points = 625?
+- [ ] generate a baseline
+- [ ] how many courses are we recommending, and how many for each category?
+- [ ] test on different profiles and people

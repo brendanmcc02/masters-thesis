@@ -3,7 +3,7 @@ import json
 file = open("../datasets/cao-college-courses/cao-college-courses.json")
 courses = json.load(file)
 
-print("num courses: " + str(len(courses)) + "\n")
+# print("num courses: " + str(len(courses)) + "\n")
 
 # ids = set()
 # types = set()
@@ -132,5 +132,5 @@ for course in courses:
 #     print(str(interests) + "\n")
 
 for course in courses:
-    if "healthcare" in course['categories'] and "life science" not in course['categories']:
+    if course['points'] and course['points'] > 625:
         print(course['title'])
