@@ -30,6 +30,9 @@
     * after generating the recs, ask the user to mark any relevant courses
     * add these unique courses to their list of `n` courses
     * this becomes your `(all possibly relevant items)`
+    * I think 20 courses would be too much
+        * realistically, a CAO has only 10 courses for level 8, and then another 10 for level 6/7
+        * I think 10 courses might be more realistic
 
 ### F1 Score
 * could consider using f1 score to harmonise recall and precision?

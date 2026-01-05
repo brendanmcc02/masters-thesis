@@ -401,6 +401,7 @@ def preprocess_college_course_titles():
     updated_college_courses = []
 
     for course in college_courses:
+        # set general science courses to "physical sciences"
         if course['title'] in PREPROCESSED_COURSE_TITLE_EDGE_CASES:
             preprocessed_title = "physic"
         else:
