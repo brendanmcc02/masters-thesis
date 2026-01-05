@@ -6,31 +6,41 @@
 * in charu aggarwal's book, he mentions that users can make biased decisions when they are under the awareness they are being tested (chapter 7, book pg 227)
 
 # baseline
-* at first I was thinking of just doing a random course selection
-    * but that's a shit baseline ngl
-* a better one would just be sorted by points, which is a popularity measure (sort of)
+* sort by points
+    * points is set by **demand** which is a measure of popularity
+* random courses would not be an effective baseline imo
 * ~~what do we think about using ChatGPT?~~
     * I think 1 baseline is sufficient, we are already asking the users many questions and we don't want decision fatigue
 
-# RS metrics to evaluate/measure
+# [RS metrics to evaluate/measure](https://gemini.google.com/u/1/app/acae7b12e67f4cfa)
+
+* Ask the user: `"Please list up to 10 courses that you would realistically put in your CAO Application. You can list fewer than 10 courses if you wish.`
+* the user can put down identical courses, e.g. CS in TCD & CS in UCD
+* apply title pre-processing and **uniqueify** the list, this becomes: `user-generated-ground-truth`
+* but our RS can't recommend courses with identical titles, so:
+    * for example, if a user puts down just four CS courses, and the RS recommends 1 CS course, that would be 100% recall
 
 ## Relevance
 * for simplicity, I should just do binary relevance: thumbs up/down
     * anything more complicated would be unnecessary and lead to decision fatigue - don't over-engineer!
 
 ### Precision
-* use **precision:** `(number of relevant items)/(total number of recommended items)`
+* use **precision:** `(number of relevant recommended items)/(number-of-recommended-courses)`
+    * i.e. (num of relevant recs) / 10
+* consider using multiple precision metrics instead of just one, e.g.:
+    * `p@5`, `p@10`, etc.
 * precision also has it's limits, because you may not have large coverage, so that's where **recall** comes in
-* think about `p@5`, `p@10`, etc.
 
-### [Recall](https://gemini.google.com/u/1/app/acae7b12e67f4cfa)
-* `(number of recommended relevant items)/(all possibly relevant items)`
-* to calculate `(all possibly relevant items)`:
-    * ask user to pick out **10** courses they would realistically consider studying
-        * these courses would have to be unique (e.g. you can't put down three `"Computer Science"` courses)
-        * after generating the recs, ask the user to mark any relevant courses
-        * add these unique courses to their list of `n` courses
-        * this becomes your `(all possibly relevant items)`
+### Category-based Recall
+* it is "category-based recall" and not "recall" because courses are being considered as "categories"
+    * i.e. 4 "computer science" courses are put under 1 "computer science" category
+* recall should be divided by the number of ALL relevant recommendations: `all-relevant-courses`
+* this is not necessarily just `user-generated-ground-truth`
+    * they may get recs that they become unaware of
+    * people can have tunnel-vision on a specific course/strand
+* so, add any courses that the user marks as relevant to `user-generated-ground-truth`
+    * this becomes: `all-relevant-courses`
+* `(number of recommended items in 'user-generated-ground-truth')/(all-relevant-courses)`
 
 ### F1 Score
 * could consider using f1 score to harmonise recall and precision?
@@ -51,22 +61,26 @@
 ## novelty
 
 ### objective measurements
-* assuming we have a set of `known relevant items`, the formula is simply: `recs not in known relevant items/known relevant items`
-* this doesn't take into account the **relevance** of the recommendation!
-* you could have 100% novelty and rec dogshit, irrelevant courses
-* that's where [serendipity](#serendipity) comes in
+* the formula is simply: `recs not in user-generated-ground-truth/number-of-recommended-courses))`
+    * `number-of-recommended-courses` is **10** FYI
+* note: this doesn't take into account the **relevance/usefulness** of the recommendation!
+    * for example, you could have 100% novelty and rec dogshit, irrelevant courses
+    * that's where [serendipity](#serendipity) comes in
 
 ### subjective measurements
 * ask the user to rate 1-5 (likert) on a question: `"The recommended courses were not original or novel."`
 
 ## serendipity
 * novelty just measures the originality of the rec, not it's relevance/usefulness
-* serendipity measures **originality and relevance**
-* formula: `(recs that are not in known relevant items AND recs that are relevant)/known relevant items`
+* serendipity measures **originality AND relevance**
+* formula: `recs that are not in user-generated-ground-truth AND relevant recs) / number-of-recommended-courses`
+    * `number-of-recommended-courses` is **10** FYI
 
 ## trust
 * ask the user to rate 1-5 (likert) on the following question: `"I trust that the system recommended courses that are well-suited to my interests and preferences."`
 * could consider switching the question around (negatively-focused), so to ask the user if they don't trust the system
+* [gemini](https://gemini.google.com/u/1/app/acae7b12e67f4cfa) actually suggests keeping the question positive
+    * todo figure out why idk bro
 
 # guidance counsellors
 * owen suggested using a GC, and gemini thinks so too

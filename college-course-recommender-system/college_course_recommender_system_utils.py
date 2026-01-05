@@ -60,7 +60,7 @@ LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP = {
                             "Chemistry": LeavingCertSubject(["investigative"], ["physical science"]),
                             "Physics": LeavingCertSubject(["investigative"], ["physical science"]),
                             "Physics and Chemistry": LeavingCertSubject(["investigative"], ["physical science"]),
-                            # formal sciences
+                            # mathematical sciences
                             "Applied Mathematics": LeavingCertSubject(["investigative"], ["computers & mathematics"]),
                             "Computer Science": LeavingCertSubject(["investigative"], ["computers & mathematics"]),
                             "Mathematics": LeavingCertSubject(["investigative"], ["computers & mathematics"]),
@@ -270,7 +270,7 @@ def is_new_college_course_recommendation(college_course_to_check, previously_rec
 def is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     return previously_recommended_college_course['preprocessed_title'] == college_course_to_check['preprocessed_title']
 
-SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art", "public", "nurs"]
+SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art", "public", "nurs", "educ", "sport"]
 def is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     tokenized_college_course_title_words = previously_recommended_college_course['preprocessed_title'].split(' ')
 
@@ -393,7 +393,7 @@ def is_course_filtered(course, user_college_course_preferences):
             course["college"] in user_college_course_preferences["colleges"] and 
             (course["points"] <= user_college_course_preferences["expected_points"] or course['isAdditionalPortfolioTestInterviewRequired']))
 
-PREPROCESSED_COURSE_TITLE_EDGE_CASES = ['Science (General)', 'Science - Explore Multiple Streams', 'Science - Undenominated', 'Science - Common Entry', 'Science (Common Entry with Award Options)', 'Science (Common Entry)', 'Science (General Entry)']
+PREPROCESSED_SCIENCE_COURSE_TITLE_EDGE_CASES = ['Science (General)', 'Science - Explore Multiple Streams', 'Science - Undenominated', 'Science - Common Entry', 'Science (Common Entry with Award Options)', 'Science (Common Entry)', 'Science (General Entry)']
 def preprocess_college_course_titles():
     with open(CAO_COLLEGE_COURSES_FILE_LOCATION, 'r', encoding='utf-8') as f: 
         college_courses = json.load(f)
@@ -402,7 +402,7 @@ def preprocess_college_course_titles():
 
     for course in college_courses:
         # set general science courses to "physical sciences"
-        if course['title'] in PREPROCESSED_COURSE_TITLE_EDGE_CASES:
+        if course['title'] in PREPROCESSED_SCIENCE_COURSE_TITLE_EDGE_CASES:
             preprocessed_title = "physic"
         else:
             preprocessed_title = preprocess_text(course['title'])
