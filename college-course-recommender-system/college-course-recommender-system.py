@@ -118,7 +118,7 @@ user_leaving_cert_subject_preferences    = {"Mathematics": 3, # can re-phrase qu
 #                                 "Spanish": 2
 #                                 }
 
-college_course_recommendations = get_college_course_recommendations(user_open_psychometrics_questions_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, should_reuse_trained_open_psychometrics_model=False)
+college_course_recommendations = get_college_course_recommendations(user_open_psychometrics_questions_vector, user_college_course_preferences, user_leaving_cert_subject_preferences, should_reuse_trained_open_psychometrics_model=True)
 
 baseline_college_course_recommendations = get_baseline_college_course_recommendations(user_college_course_preferences)
 

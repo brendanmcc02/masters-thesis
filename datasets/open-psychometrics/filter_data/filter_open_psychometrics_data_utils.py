@@ -116,6 +116,7 @@ def get_stop_words():
     stop_words.add("streams")
     stop_words.add("award")
     stop_words.add("options")
+    stop_words.add("placement")
 
     return stop_words
 

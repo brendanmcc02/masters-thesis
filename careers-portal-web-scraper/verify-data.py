@@ -132,5 +132,5 @@ for course in courses:
 #     print(str(interests) + "\n")
 
 for course in courses:
-    if course['points'] and course['points'] > 625:
+    if 'arts' in course['title'].lower():
         print(course['title'])
