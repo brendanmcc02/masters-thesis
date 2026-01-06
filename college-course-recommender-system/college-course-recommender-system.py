@@ -75,7 +75,7 @@ user_leaving_cert_subject_preferences = {
                                 "German": 3
                                 }
 
-# # adam - TODO points
+# # adam
 # user_college_course_preferences = { "nfq_levels": [8],
 #                                     "colleges": ["Trinity College Dublin",
 #                                                  "University College Dublin",
@@ -101,7 +101,7 @@ user_leaving_cert_subject_preferences = {
 #                                 "Physical Education": 4
 #                                 }
 
-# # matthew - TODO points
+# # matthew
 # user_college_course_preferences = { "nfq_levels": [8],
 #                                     "colleges": ["Trinity College Dublin",
 #                                                  "University College Dublin",
