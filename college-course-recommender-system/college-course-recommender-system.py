@@ -39,13 +39,13 @@ user_open_psychometrics_questions_vector = [2, 0, 0, 2, 0, 0, 1, 0, # R
                                             0, 0, 2, 0, 2, 1, 1, 1, # E
                                             2, 0, 1, 2, 2, 3, 2, 2] # C
 
-user_leaving_cert_subject_preferences    = {"Mathematics": 3, 
-                               "English": 2, 
-                               "Irish": 2, 
+user_leaving_cert_subject_preferences    = {"Mathematics": 3, # can re-phrase question as "how much would you enjoy/find interesting studying this in college?"
+                               "English": 4, # can re-phrase question as "how much would you enjoy/find interesting studying this in college?"
+                               "Irish": 4, # can re-phrase question as "how much would you enjoy/find interesting studying this in college?"
                                "Business": 2, 
                                "Chemistry": 4, 
-                               "Biology": 3, 
-                               "German": 2
+                               "Biology": 3, # can re-phrase question as "how much would you enjoy/find interesting studying this in college?"
+                               "German": 4 # can re-phrase question as "how much would you enjoy/find interesting studying this in college?"
                                 }
 
 # # vivi
