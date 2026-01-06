@@ -1,14 +1,9 @@
 # TODO
 
 - [ ] test on different local profiles
-- [x] test on aysha
-- [x] test on vivi
-    * good results, really happy tbh
 - [ ] test on adam
+    * results are pretty shit ngl
 - [ ] test on matthew
-- [ ] revisit "hospitality"
-    * I don't think gemini understood it in the same way as the courses are categorised
-    * do we get rid of it? or create a different category?
 - [ ] think about points
     * should we even recommend courses outside a points range? aysha got recommended a 370 point course despite having 625
         * findmycollegecourse actually has a point range preference - should we add this as a preference too?
@@ -16,9 +11,10 @@
     * or do we remove the points dimension entirely, calculate the cosine sim, then multiply it by a normalised points difference value?
 - [ ] do I actually have to recommend 10 courses?
     * can I recommend more?
-    * think again about evaluation
+    * think again about the implications for evaluation
 - [ ] think about "joint honours" / "arts" courses with multi-options, can I deal with them in a smarter way?
     * or at the very least, review their RIASEC and categories, I'm a bit sus
+- [ ] create sport/athelic category? healthcare feels waaaay too broad
 - [ ] think about how to phrase LC subject question:
     * e.g. `*"On a scale of 0-4, how much would you enjoy (or how interesting would you find) studying this subject at college?"*`
 - [ ] think about how to phrase RIASEC question:
