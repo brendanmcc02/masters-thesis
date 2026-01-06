@@ -86,7 +86,7 @@ LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP = {
                             # humanities
                             "Ancient Greek": LeavingCertSubject(["artistic"], ["humanities"]),
                             "Classical Studies": LeavingCertSubject(["artistic"], ["humanities"]),
-                            "English": LeavingCertSubject(["artistic"], ["humanities", "communications"]),
+                            "English": LeavingCertSubject(["artistic"], ["humanities"]),
                             "Hebrew Studies": LeavingCertSubject(["artistic"], ["humanities"]),
                             "History": LeavingCertSubject(["artistic"], ["humanities"]),
                             "Religious Education": LeavingCertSubject(["artistic"], ["humanities"]), 

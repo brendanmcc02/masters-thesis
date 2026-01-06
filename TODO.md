@@ -1,9 +1,8 @@
 # TODO
 
-- [ ] test on different local profiles
-- [ ] test on adam
-    * results are pretty shit ngl
-- [ ] test on matthew
+- [ ] create sport/athelic category?
+- [ ] create languages category?
+- [ ] create social work/youth work?
 - [ ] think about points
     * should we even recommend courses outside a points range? aysha got recommended a 370 point course despite having 625
         * findmycollegecourse actually has a point range preference - should we add this as a preference too?
@@ -14,10 +13,27 @@
     * think again about the implications for evaluation
 - [ ] think about "joint honours" / "arts" courses with multi-options, can I deal with them in a smarter way?
     * or at the very least, review their RIASEC and categories, I'm a bit sus
-- [ ] create sport/athelic category? healthcare feels waaaay too broad
 - [ ] think about how to phrase LC subject question:
     * e.g. `*"On a scale of 0-4, how much would you enjoy (or how interesting would you find) studying this subject at college?"*`
 - [ ] think about how to phrase RIASEC question:
     * e.g. `"On a scale of 0-4, how much would you enjoy (or how interesting would you find) doing these activities as part of a college course?"`
     * **note:** there is a discrepancy here, because the original dataset was trained on the question: *"on a 1-5 scale of how much they would like to perform that task"*
 - [ ] create a usable interface
+
+```
+* sport category (physio, kinis, sport management, etc.) is in healthcare atm
+    * LC PE would hit this
+    * if they don't do LC PE, well tough shit you ain't getting recommended it bro
+    * there's one physio-related question in the dataset so I think this could work really well
+* social work/youth development etc is healthcare
+    * there are a lot of social work-related questions, I think the model could do a good job of predicting this & differentiating from med, nursing, etc.
+* create a languages category?
+    * humanities feels way too broad
+    * you have to consider there are 1-2 languages in the LC too, so there will be a good bit of data on this
+    * lots of courses have languages as an option, so this could really make sense actually
+    * e.g. if they love computers and german, german + cs would get recommended
+    * i would have to check the dataset pre-processing again tbh
+* could make the agriculture category again?
+    * there a few animal questions, but they are very "I" and have nothing to do with being hands-on with animals
+    * honestly i'm really skeptical about this and i don't see it being super useful ngl
+```
