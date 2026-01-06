@@ -15,7 +15,7 @@ COLLEGE_MAJOR_CATEGORIES = college_majors_and_major_categories_df["college_major
 
 LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP = {
                             # practical
-                            "Construction Studies": LeavingCertSubject(["realistic"], ["industrial arts & consumer services"]),
+                            "Construction Studies": LeavingCertSubject(["realistic"], ["hospitality"]),
                             "Engineering": LeavingCertSubject(["realistic", "investigative"], ["engineering"]),
                             "Technology": LeavingCertSubject(["realistic", "investigative"], ["computers & mathematics", "engineering"]),
                             # life sciences
@@ -66,7 +66,7 @@ LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP = {
                             "Economics": LeavingCertSubject(["investigative"], ["business", "social science"]),
                             # misc
                             "Physical Education": LeavingCertSubject(["realistic", "social"], ["healthcare"]),
-                            "Home Economics": LeavingCertSubject(["realistic", "social"], ["industrial arts & consumer services"]),
+                            "Home Economics": LeavingCertSubject(["realistic", "social"], ["hospitality"]),
                             }
 
 def get_user_leaving_cert_riasec_vector(user_leaving_cert_subject_preferences):

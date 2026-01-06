@@ -4,7 +4,6 @@ def warn(*args, **kwargs):
 import warnings
 warnings.warn = warn
 
-import copy
 import joblib
 import numpy as np
 from sklearn.ensemble import HistGradientBoostingClassifier
@@ -50,7 +49,7 @@ class LeavingCertSubject:
 
 LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP = {
                             # practical
-                            "Construction Studies": LeavingCertSubject(["realistic"], ["industrial arts & consumer services"]),
+                            "Construction Studies": LeavingCertSubject(["realistic"], ["engineering"]),
                             "Engineering": LeavingCertSubject(["realistic", "investigative"], ["engineering"]),
                             "Technology": LeavingCertSubject(["realistic", "investigative"], ["computers & mathematics", "engineering"]),
                             # life sciences
@@ -98,10 +97,10 @@ LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP = {
                             # business
                             "Accounting": LeavingCertSubject(["conventional", "enterprising"], ["business"]), 
                             "Business": LeavingCertSubject(["conventional", "enterprising"], ["business", "law"]),
-                            "Economics": LeavingCertSubject(["investigative"], ["business", "social science"]),
+                            "Economics": LeavingCertSubject(["investigative", "conventional"], ["business", "social science"]),
                             # misc
                             "Physical Education": LeavingCertSubject(["realistic", "social"], ["healthcare"]),
-                            "Home Economics": LeavingCertSubject(["realistic", "social"], ["industrial arts & consumer services"]),
+                            "Home Economics": LeavingCertSubject(["realistic", "social"], ["hospitality"]),
                             }
 
 

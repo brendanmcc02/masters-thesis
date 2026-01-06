@@ -9,6 +9,7 @@ interior design	interior design	94	arts	art
 music	music	496	arts	art
 performing arts	perform art	32	arts	art
 photography	photographi	97	arts	art
+product design	product design	21	arts	art
 studio arts	studio art	43	arts	art
 theater	theater	49	arts	art
 visual arts	visual art	37	arts	art
@@ -112,6 +113,8 @@ speech pathology	speech patholog	74	healthcare	healthcar
 sport	sport	103	healthcare	healthcar
 veterinarian	veterinarian	220	healthcare	healthcar
 veterinarian technology	veterinarian technolog	16	healthcare	healthcar
+culinary arts	culinari art	86	hospitality	hospit
+tourism	tourism	124	hospitality	hospit
 anthropology	anthropolog	309	humanities	human
 archeology	archeolog	3	humanities	human
 area ethnic studies	area ethnic	0	humanities	human
@@ -131,11 +134,6 @@ philosophy	philosophi	435	humanities	human
 religious studies	religi	38	humanities	human
 rhetoric	rhetor	5	humanities	human
 theology	theolog	114	humanities	human
-cosmetology	cosmetolog	33	industrial arts & consumer services	industri art consum servic
-culinary arts	culinari art	86	industrial arts & consumer services	industri art consum servic
-hospitality	hospit	144	industrial arts & consumer services	industri art consum servic
-industrial design	industri design	42	industrial arts & consumer services	industri art consum servic
-tourism	tourism	124	industrial arts & consumer services	industri art consum servic
 criminal justice	crimin justic	936	law	law
 legal studies	legal	55	law	law
 paralegal studies	paraleg	72	law	law
@@ -152,7 +150,6 @@ ecology	ecolog	25	life science	life
 environmental science	environment	237	life science	life
 exercise science	exercis	149	life science	life
 food science	food	46	life science	life
-forestry	forestri	23	life science	life
 genetics	genet	24	life science	life
 marine biology	marin biolog	46	life science	life
 microbiology	microbiolog	91	life science	life
