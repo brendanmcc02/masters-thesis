@@ -24,60 +24,65 @@ from college_course_recommender_system_utils import *
 #                                 "German": 2
 #                                 }
 
-# aysha
-# her recs suck ASS
-user_college_course_preferences = { "nfq_levels": [8],
-                                    "colleges": ["Trinity College Dublin",
-                                                 "University College Dublin",
-                                                 "Royal College of Surgeons in Ireland"],
-                                    "expected_points": 625}
-
-user_open_psychometrics_questions_vector = [2, 0, 0, 2, 0, 0, 1, 0, # R
-                                            4, 3, 3, 4, 3, 3, 2, 2, # I
-                                            0, 2, 3, 1, 3, 2, 0, 3, # A
-                                            4, 4, 4, 2, 4, 3, 4, 4, # S
-                                            0, 0, 2, 0, 2, 1, 1, 1, # E
-                                            2, 0, 1, 2, 2, 3, 2, 2] # C
-
-user_leaving_cert_subject_preferences    = {"Mathematics": 3, # can re-phrase question as "how much would you enjoy/find interesting studying this in college?"
-                               "English": 2, # can re-phrase question as "how much would you enjoy/find interesting studying this in college?"
-                               "Irish": 2, # can re-phrase question as "how much would you enjoy/find interesting studying this in college?"
-                               "Business": 2, 
-                               "Chemistry": 4, 
-                               "Biology": 3, # can re-phrase question as "how much would you enjoy/find interesting studying this in college?"
-                               "German": 2 # can re-phrase question as "how much would you enjoy/find interesting studying this in college?"
-                                }
-
-# # vivi
+# # aysha
 # user_college_course_preferences = { "nfq_levels": [8],
 #                                     "colleges": ["Trinity College Dublin",
 #                                                  "University College Dublin",
-#                                                  "Dublin City University"],
-#                                     "expected_points": 576}
+#                                                  "Royal College of Surgeons in Ireland"],
+#                                     "expected_points": 625}
 
-# user_open_psychometrics_questions_vector = [ 1, 2, 0, 2, 1, 3, 1, 2, # R
-#                        3, 3, 3, 1, 1, 1, 1, 1, # I
-#                        0, 0, 2, 2, 0, 2, 2, 0, # A
-#                        0, 2, 3, 3, 1, 1, 2, 0, # S
-#                        3, 1, 1, 2, 2, 1, 3, 0, # E
-#                        3, 0, 2, 1, 2, 4, 4, 3] # C
+# these questions were asked with "how much did you enjoy/intesting did you find these activites - NOT "how much would you enjoy/find interesting doing these activites as part of a college course?"
+# user_open_psychometrics_questions_vector = [2, 0, 0, 2, 0, 0, 1, 0, # R
+#                                             4, 3, 3, 4, 3, 3, 2, 2, # I
+#                                             0, 2, 3, 1, 3, 2, 0, 3, # A
+#                                             4, 4, 4, 2, 4, 3, 4, 4, # S
+#                                             0, 0, 2, 0, 2, 1, 1, 1, # E
+#                                             2, 0, 1, 2, 2, 3, 2, 2] # C
 
-# user_leaving_cert_subject_preferences = { 
-#                                 "Mathematics": 3, 
-#                                 "English": 1, 
-#                                 "Irish": 2, 
-#                                 "Economics": 3, 
-#                                 "Accounting": 4, 
-#                                 "Physics": 3, 
-#                                 "German": 3
+# these questions were asked with "how much did you enjoy/intesting did you find the subject - NOT "how much would you enjoy/find interesting studying this in college?"
+# user_leaving_cert_subject_preferences    = {"Mathematics": 3,
+#                                "English": 4, 
+#                                "Irish": 4, 
+#                                "Business": 2, 
+#                                "Chemistry": 4, 
+#                                "Biology": 3, 
+#                                "German": 4 
 #                                 }
+
+# vivi
+user_college_course_preferences = { "nfq_levels": [8],
+                                    "colleges": ["Trinity College Dublin",
+                                                 "University College Dublin",
+                                                 "Dublin City University"],
+                                    "expected_points": 576}
+
+# these questions were asked with "how much did you enjoy/intesting did you find these activites - NOT "how much would you enjoy/find interesting doing these activites as part of a college course?"
+user_open_psychometrics_questions_vector = [ 1, 2, 0, 2, 1, 3, 1, 2, # R
+                       3, 3, 3, 1, 1, 1, 1, 1, # I
+                       0, 0, 2, 2, 0, 2, 2, 0, # A
+                       0, 2, 3, 3, 1, 1, 2, 0, # S
+                       3, 1, 1, 2, 2, 1, 3, 0, # E
+                       3, 0, 2, 1, 2, 4, 4, 3] # C
+
+# these questions were asked with "how much did you enjoy/intesting did you find the subject - NOT "how much would you enjoy/find interesting studying this in college?"
+user_leaving_cert_subject_preferences = { 
+                                "Mathematics": 3, 
+                                "English": 1, 
+                                "Irish": 2, 
+                                "Economics": 3, 
+                                "Accounting": 4, 
+                                "Physics": 3, 
+                                "German": 3
+                                }
 
 # # adam - TODO points
 # user_college_course_preferences = { "nfq_levels": [8],
 #                                     "colleges": ["Trinity College Dublin",
 #                                                  "University College Dublin",
 #                                                  "Dublin City University"],
-#                                     "expected_points": 576}
+#                                     "expected_points": 509} - he got 509 in xmas, but can probably put a higher score to get slightly higher courses
+
+# these questions were asked with "how much did you enjoy/intesting did you find these activites - NOT "how much would you enjoy/find interesting doing these activites as part of a college course?"
 # user_open_psychometrics_questions_vector = [ 2, 2, 3, 3, 2, 2, 3, 2, # R
 #                        2, 0, 0, 1, 1, 0, 1, 2, # I
 #                        0, 0, 2, 0, 0, 0, 3, 0, # A
@@ -85,6 +90,7 @@ user_leaving_cert_subject_preferences    = {"Mathematics": 3, # can re-phrase qu
 #                        4, 3, 2, 2, 2, 3, 3, 0, # E
 #                        3, 0, 3, 1, 2, 3, 3, 2] # C
 
+# these questions were asked with "how much did you enjoy/intesting did you find the subject - NOT "how much would you enjoy/find interesting studying this in college?"
 # user_leaving_cert_subject_preferences = { 
 #                                 "Mathematics": 3, 
 #                                 "English": 2, 
@@ -100,7 +106,9 @@ user_leaving_cert_subject_preferences    = {"Mathematics": 3, # can re-phrase qu
 #                                     "colleges": ["Trinity College Dublin",
 #                                                  "University College Dublin",
 #                                                  "Dublin City University"],
-#                                     "expected_points": 576}
+#                                     "expected_points": 513} - he got 513 in xmas, but can probably put a higher score to get slightly higher courses
+
+# these questions were asked with "how much did you enjoy/intesting did you find these activites - NOT "how much would you enjoy/find interesting doing these activites as part of a college course?"
 # user_open_psychometrics_questions_vector = [ 2, 1, 2, 3, 3, 3, 2, 1, # R
 #                        1, 0, 0, 2, 1, 0, 0, 1, # I
 #                        0, 0, 0, 2, 0, 0, 4, 0, # A
@@ -108,6 +116,7 @@ user_leaving_cert_subject_preferences    = {"Mathematics": 3, # can re-phrase qu
 #                        3, 2, 2, 3, 3, 1, 4, 0, # E
 #                        0, 0, 2, 1, 0, 3, 3, 2] # C
 
+# these questions were asked with "how much did you enjoy/intesting did you find the subject - NOT "how much would you enjoy/find interesting studying this in college?"
 # user_leaving_cert_subject_preferences = { 
 #                                 "Mathematics": 2, 
 #                                 "English": 1, 
