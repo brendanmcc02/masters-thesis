@@ -2,7 +2,13 @@
 
 - [ ] test on different local profiles
 - [x] test on aysha
-- [ ] test on vivi
+- [x] test on vivi
+    * good results, really happy tbh
+- [ ] test on adam
+- [ ] test on matthew
+- [ ] revisit "industrial arts & consumer services"
+    * I don't think gemini understood it in the same way as the courses are categorised
+    * do we get rid of it? or create a different category?
 - [ ] think about points
     * should we even recommend courses outside a points range? aysha got recommended a 370 point course despite having 625
         * findmycollegecourse actually has a point range preference - should we add this as a preference too?
@@ -17,4 +23,3 @@
     * e.g. `"On a scale of 0-4, how much would you enjoy (or how interesting would you find) doing these activities as part of a college course?"`
     * **note:** there is a discrepancy here, because the original dataset was trained on the question: *"on a 1-5 scale of how much they would like to perform that task"*
 - [ ] create a usable interface
-    
