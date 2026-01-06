@@ -124,7 +124,7 @@ stemmer = SnowballStemmer("english")  # better results than porter stemmer
 
 def preprocess_text(text):
     text = text.lower()
-    text = re.sub(r'[\.\?=!£#`¬\*]', '', text) # remove certain symbols
+    text = re.sub(r'[\.\?=!£#\'`¬\*]', '', text) # remove certain symbols
     text = re.sub(r'\d+', '', text) # remove numbers
 
     for abbreviation, expanded_college_major in COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP.items():

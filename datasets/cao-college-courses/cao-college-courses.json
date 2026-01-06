@@ -4996,7 +4996,7 @@
     {
         "id": "GY110 ACS",
         "title": "Arts (Children's Studies)",
-        "preprocessed_title": "art children 's",
+        "preprocessed_title": "art children",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
@@ -9442,7 +9442,7 @@
     {
         "id": "CK712",
         "title": "Children's and General Nursing (Integrated)",
-        "preprocessed_title": "children 's nurs",
+        "preprocessed_title": "children nurs",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
@@ -9462,7 +9462,7 @@
     {
         "id": "DC218",
         "title": "Children's and General Nursing (Integrated)",
-        "preprocessed_title": "children 's nurs",
+        "preprocessed_title": "children nurs",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4.5 Years",
@@ -9482,7 +9482,7 @@
     {
         "id": "DN451",
         "title": "Children's and General Nursing (Integrated)",
-        "preprocessed_title": "children 's nurs",
+        "preprocessed_title": "children nurs",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -9502,7 +9502,7 @@
     {
         "id": "TR911",
         "title": "Children's and General Nursing (Integrated)",
-        "preprocessed_title": "children 's nurs",
+        "preprocessed_title": "children nurs",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -26207,7 +26207,8 @@
             "realistic"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -26227,7 +26228,8 @@
             "realistic"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -26247,7 +26249,8 @@
             "realistic"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -26267,7 +26270,8 @@
             "realistic"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -26287,7 +26291,8 @@
             "realistic"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -26307,7 +26312,8 @@
             "realistic"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {

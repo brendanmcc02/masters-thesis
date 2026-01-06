@@ -15,7 +15,7 @@ def print_top_k_accuracy_metric(y_actual, model_name, number_of_top_k, train_or_
 def print_top_1_accuracy_metric(y_actual, model_name, train_or_test_label, y_predicted):
     print(str(round(accuracy_score(y_actual, y_predicted), 3)) + " - " + model_name + " Top-1 " + train_or_test_label + " Accuracy")
 
-number_of_top_k = 3
+number_of_top_k = 4
 
 dataset = pd.read_csv("../datasets/open-psychometrics/clean_riasec_college_major_categories.tsv", sep='\t')
 
