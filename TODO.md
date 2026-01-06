@@ -37,3 +37,20 @@
     * there a few animal questions, but they are very "I" and have nothing to do with being hands-on with animals
     * honestly i'm really skeptical about this and i don't see it being super useful ngl
 ```
+
+what do I call the category? sport?
+
+sport sciences/therapy:
+* physical therapy
+* kinesiology
+* exercise science
+* sport science? is it called that idk
+
+sport itself (this would get covered if the category is called that)
+
+exercise
+
+sport management
+sport business or some shit idk what its called bro
+sport coaching (or just coach idk, figure out how to preprocess/capture this)
+sport performance or just performance idk

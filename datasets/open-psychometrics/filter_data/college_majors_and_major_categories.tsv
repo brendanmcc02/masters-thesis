@@ -106,7 +106,6 @@ nutrition science	nutrit	170	healthcare	healthcar
 occupational therapy	occup therapi	106	healthcare	healthcar
 pharmacy	pharmaci	283	healthcare	healthcar
 physical therapy	physic therapi	124	healthcare	healthcar
-physiology	physiolog	62	healthcare	healthcar
 public health	public health	152	healthcare	healthcar
 social work	social work	709	healthcare	healthcar
 speech pathology	speech patholog	74	healthcare	healthcar
@@ -140,6 +139,7 @@ paralegal studies	paraleg	72	law	law
 public administration	public administr	71	law	law
 public policy	public polici	26	law	law
 agricultural science	agricultur	93	life science	life
+physiology	physiolog	62	life science	life
 biochemical science	biochem	11	life science	life
 biology	biolog	2219	life science	life
 biomedical science	biomed	148	life science	life
