@@ -29,7 +29,6 @@ management	manag	916	business	busi
 management information systems 	manag inform system	28	business	busi
 marketing	market	928	business	busi
 operations management	oper manag	13	business	busi
-sports management	sport manag	89	business	busi
 advertising	advertis	89	communications	communic
 journalism	journal	379	communications	communic
 mass media	media	128	communications	communic
@@ -96,7 +95,6 @@ dentistry	dentistri	127	healthcare	healthcar
 health administration	health administr	15	healthcare	healthcar
 health services	health servic	11	healthcare	healthcar
 human services	human servic	324	healthcare	healthcar
-kinesiology	kinesiolog	281	healthcare	healthcar
 medical administration	medicin administr	12	healthcare	healthcar
 medical assisting	medicin assist	87	healthcare	healthcar
 medicine	medicin	1369	healthcare	healthcar
@@ -105,11 +103,9 @@ nursing	nurs	2487	healthcare	healthcar
 nutrition science	nutrit	170	healthcare	healthcar
 occupational therapy	occup therapi	106	healthcare	healthcar
 pharmacy	pharmaci	283	healthcare	healthcar
-physical therapy	physic therapi	124	healthcare	healthcar
 public health	public health	152	healthcare	healthcar
 social work	social work	709	healthcare	healthcar
 speech pathology	speech patholog	74	healthcare	healthcar
-sport	sport	103	healthcare	healthcar
 veterinarian	veterinarian	220	healthcare	healthcar
 veterinarian technology	veterinarian technolog	16	healthcare	healthcar
 culinary arts	culinari art	86	hospitality	hospit
@@ -139,7 +135,6 @@ paralegal studies	paraleg	72	law	law
 public administration	public administr	71	law	law
 public policy	public polici	26	law	law
 agricultural science	agricultur	93	life science	life
-physiology	physiolog	62	life science	life
 biochemical science	biochem	11	life science	life
 biology	biolog	2219	life science	life
 biomedical science	biomed	148	life science	life
@@ -148,7 +143,6 @@ botany	botani	18	life science	life
 cognitive science	cognit	28	life science	life
 ecology	ecolog	25	life science	life
 environmental science	environment	237	life science	life
-exercise science	exercis	149	life science	life
 food science	food	46	life science	life
 genetics	genet	24	life science	life
 marine biology	marin biolog	46	life science	life
@@ -156,6 +150,7 @@ microbiology	microbiolog	91	life science	life
 molecular biology	molecular biolog	25	life science	life
 neuroscience	neurosci	141	life science	life
 pharmacology	pharmacolog	22	life science	life
+physiology	physiolog	62	life science	life
 zoology	zoolog	73	life science	life
 astronomy	astronomi	38	physical science	physic
 astrophysics	astrophys	20	physical science	physic
@@ -183,3 +178,10 @@ political science	polit	878	social science	social
 psychology	psycholog	14003	social science	social
 social psychology	social psycholog	17	social science	social
 sociology	sociolog	922	social science	social
+exercise and sport science	exercis sport	12	sport	sport
+exercise physiology	exercis physiolog	13	sport	sport
+exercise science	exercis	149	sport	sport
+kinesiology	kinesiolog	281	sport	sport
+physical therapy	physic therapi	124	sport	sport
+sports management	sport manag	89	sport	sport
+sports medicine	sport medicin	28	sport	sport

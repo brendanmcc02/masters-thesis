@@ -3,6 +3,12 @@
 - [ ] create sport/athelic category?
 - [ ] create languages category?
 - [ ] create social work/youth work?
+- [ ] create psychology category? separate from social science?
+    * social science has good accuracy for correct predictions, but awful mis-predicts quite often
+    * how can we resolve this?
+- [ ] chemical sciences category? 
+    * might be too granular tbh
+    * skeptical about this ngl
 - [ ] think about points
     * should we even recommend courses outside a points range? aysha got recommended a 370 point course despite having 625
         * findmycollegecourse actually has a point range preference - should we add this as a preference too?
@@ -33,9 +39,11 @@
     * lots of courses have languages as an option, so this could really make sense actually
     * e.g. if they love computers and german, german + cs would get recommended
     * i would have to check the dataset pre-processing again tbh
-* could make the agriculture category again?
-    * there a few animal questions, but they are very "I" and have nothing to do with being hands-on with animals
-    * honestly i'm really skeptical about this and i don't see it being super useful ngl
+    * no similarly-worded question from the 48Q dataset, but there are humanity-related questions
+    * ngl LC subjects are the banker for this
+* psychology category?
+    * a lot of similarities with social science
+    * but it does have a bit more bio focus e.g. neuroscience, biological factors behind human behaviour and the mind
 ```
 
 what do I call the category? sport?
