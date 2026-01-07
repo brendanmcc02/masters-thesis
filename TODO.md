@@ -1,6 +1,13 @@
 # TODO
 
 - [ ] create languages category?
+    * Gaeilge!!!
+    * latin
+    * greek
+    * any other lang? idk ukrainian or some shit
+    * portuguese
+    * linguistics?
+    * speech or something idk
 - [ ] create social work/youth work?
 - [ ] create psychology category? separate from social science?
     * social science has good accuracy for correct predictions, but awful mis-predicts quite often

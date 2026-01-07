@@ -3114,7 +3114,7 @@
     {
         "id": "CK101",
         "title": "Arts - Chinese Studies",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art chines",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
@@ -3127,14 +3127,13 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
             "social science"
         ]
     },
     {
         "id": "MH101",
         "title": "Arts - Chinese Studies",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art chines",
         "college": "Maynooth University",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -3476,7 +3475,7 @@
     {
         "id": "CK101",
         "title": "Arts - French",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art french",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
@@ -3488,13 +3487,14 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
         "id": "GY101",
         "title": "Arts - French",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art french",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
@@ -3506,13 +3506,14 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
         "id": "MH101",
         "title": "Arts - French",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art french",
         "college": "Maynooth University",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -3524,13 +3525,14 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
         "id": "SE200",
         "title": "Arts - French",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art french",
         "college": "SETU Waterford Campus",
         "region": "Munster",
         "duration": "3 Years",
@@ -3542,13 +3544,14 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
         "id": "LM002",
         "title": "Arts - French",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art french",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -3560,7 +3563,7 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "foreign languages"
         ]
     },
     {
@@ -3578,7 +3581,8 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
@@ -3596,7 +3600,8 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
@@ -3697,7 +3702,7 @@
     {
         "id": "CK101",
         "title": "Arts - German",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art german",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
@@ -3709,14 +3714,13 @@
             "artistic"
         ],
         "categories": [
-            "foreign languages",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
         "id": "GY101",
         "title": "Arts - German",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art german",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
@@ -3728,14 +3732,13 @@
             "artistic"
         ],
         "categories": [
-            "foreign languages",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
         "id": "MH101",
         "title": "Arts - German",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art german",
         "college": "Maynooth University",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -3747,14 +3750,13 @@
             "artistic"
         ],
         "categories": [
-            "foreign languages",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
         "id": "LM002",
         "title": "Arts - German",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art german",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -3766,8 +3768,7 @@
             "artistic"
         ],
         "categories": [
-            "foreign languages",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
@@ -4015,7 +4016,7 @@
     {
         "id": "CK101",
         "title": "Arts - Italian",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art italian",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
@@ -4027,13 +4028,14 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
         "id": "GY101",
         "title": "Arts - Italian",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art italian",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
@@ -4045,13 +4047,14 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
         "id": "CK101",
         "title": "Arts - Latin",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art latin",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
@@ -4063,7 +4066,7 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "foreign languages"
         ]
     },
     {
@@ -4148,7 +4151,7 @@
     {
         "id": "GY101",
         "title": "Arts - L\u00e9ann na Cumars\u00e1ide",
-        "preprocessed_title": "art l\u00e9ann na cumars\u00e1id",
+        "preprocessed_title": "art l\u00e9ann cumars\u00e1id",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 Years",
@@ -4566,7 +4569,7 @@
     {
         "id": "CK101",
         "title": "Arts - Portuguese",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art portugues",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
@@ -4809,7 +4812,7 @@
     {
         "id": "CK101",
         "title": "Arts - Spanish",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art spanish",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
@@ -4821,13 +4824,13 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "foreign languages"
         ]
     },
     {
         "id": "GY101",
         "title": "Arts - Spanish",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art spanish",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
@@ -4839,13 +4842,13 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "foreign languages"
         ]
     },
     {
         "id": "MH101",
         "title": "Arts - Spanish",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art spanish",
         "college": "Maynooth University",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -4857,13 +4860,13 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "foreign languages"
         ]
     },
     {
         "id": "SE200",
         "title": "Arts - Spanish",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art spanish",
         "college": "SETU Waterford Campus",
         "region": "Munster",
         "duration": "3 Years",
@@ -4875,13 +4878,13 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "foreign languages"
         ]
     },
     {
         "id": "LM002",
         "title": "Arts - Spanish",
-        "preprocessed_title": "art languag",
+        "preprocessed_title": "art spanish",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -4893,7 +4896,7 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "foreign languages"
         ]
     },
     {
@@ -5015,7 +5018,7 @@
     {
         "id": "GY111",
         "title": "Arts (English and Creative Writing)",
-        "preprocessed_title": "art english creativ write",
+        "preprocessed_title": "art english write",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
@@ -5144,7 +5147,8 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
@@ -5323,7 +5327,7 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
+            "foreign languages",
             "social science"
         ]
     },
@@ -5705,7 +5709,7 @@
     {
         "id": "CM003",
         "title": "Baitsil\u00e9ir san Oideachas Tr\u00ed Mhe\u00e1n na Gaeilge (Bunmh\u00fainteoireacht)",
-        "preprocessed_title": "baitsil\u00e9ir san oideacha tr\u00ed mhe\u00e1n na gaeilg bunmh\u00fainteoireacht",
+        "preprocessed_title": "baitsil\u00e9ir san oideacha tr\u00ed mhe\u00e1n gaeilg bunmh\u00fainteoireacht",
         "college": "Marino Institute of Education",
         "region": "Dublin",
         "duration": "4 Years",
@@ -5725,7 +5729,7 @@
     {
         "id": "CM004",
         "title": "Baitsil\u00e9ir san Oideachas Tr\u00ed Mhe\u00e1n na Gaeilge (Bunmh\u00fainteoireacht) - Gaeltacht Applicants",
-        "preprocessed_title": "baitsil\u00e9ir san oideacha tr\u00ed mhe\u00e1n na gaeilg bunmh\u00fainteoireacht gaeltacht applic",
+        "preprocessed_title": "baitsil\u00e9ir san oideacha tr\u00ed mhe\u00e1n gaeilg bunmh\u00fainteoireacht gaeltacht applic",
         "college": "Marino Institute of Education",
         "region": "Dublin",
         "duration": "4 Years",
@@ -5997,7 +6001,7 @@
     {
         "id": "SE727",
         "title": "Biomedical Electronics",
-        "preprocessed_title": "biomed electron",
+        "preprocessed_title": "biomed electr engin",
         "college": "SETU Carlow Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -6017,7 +6021,7 @@
     {
         "id": "SE709",
         "title": "Biomedical Electronics",
-        "preprocessed_title": "biomed electron",
+        "preprocessed_title": "biomed electr engin",
         "college": "SETU Carlow Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -8660,7 +8664,7 @@
     {
         "id": "TR085",
         "title": "Business Studies and French",
-        "preprocessed_title": "busi languag",
+        "preprocessed_title": "busi french",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -8675,13 +8679,13 @@
         ],
         "categories": [
             "business",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
         "id": "TR086",
         "title": "Business Studies and German",
-        "preprocessed_title": "busi languag",
+        "preprocessed_title": "busi german",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -8723,7 +8727,7 @@
     {
         "id": "TR087",
         "title": "Business Studies and Russian",
-        "preprocessed_title": "busi languag",
+        "preprocessed_title": "busi russian",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -8744,7 +8748,7 @@
     {
         "id": "TR090",
         "title": "Business Studies and Spanish",
-        "preprocessed_title": "busi languag",
+        "preprocessed_title": "busi spanish",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -8907,7 +8911,7 @@
     {
         "id": "LM050 BSF",
         "title": "Business Studies with French",
-        "preprocessed_title": "busi languag",
+        "preprocessed_title": "busi french",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -8922,13 +8926,13 @@
         ],
         "categories": [
             "business",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
         "id": "LM050 BSG",
         "title": "Business Studies with German",
-        "preprocessed_title": "busi languag",
+        "preprocessed_title": "busi german",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -8949,7 +8953,7 @@
     {
         "id": "LM050 BSJ",
         "title": "Business Studies with Japanese",
-        "preprocessed_title": "busi languag",
+        "preprocessed_title": "busi japanes",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -8964,13 +8968,13 @@
         ],
         "categories": [
             "business",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
         "id": "LM050 BSB or BSA",
         "title": "Business Studies with Spanish",
-        "preprocessed_title": "busi languag",
+        "preprocessed_title": "busi spanish",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -8985,7 +8989,7 @@
         ],
         "categories": [
             "business",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
@@ -10298,7 +10302,7 @@
         ],
         "categories": [
             "business",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
@@ -10324,7 +10328,7 @@
     {
         "id": "GY202",
         "title": "Commerce (International) With French",
-        "preprocessed_title": "commerc intern languag",
+        "preprocessed_title": "commerc intern french",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
@@ -10339,13 +10343,13 @@
         ],
         "categories": [
             "business",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
         "id": "GY203",
         "title": "Commerce (International) With German",
-        "preprocessed_title": "commerc intern languag",
+        "preprocessed_title": "commerc intern german",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
@@ -10360,13 +10364,13 @@
         ],
         "categories": [
             "business",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
         "id": "GY204",
         "title": "Commerce (International) With Spanish",
-        "preprocessed_title": "commerc intern languag",
+        "preprocessed_title": "commerc intern spanish",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
@@ -10381,7 +10385,7 @@
         ],
         "categories": [
             "business",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
@@ -10401,9 +10405,8 @@
             "enterprising"
         ],
         "categories": [
-            "arts",
             "business",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
@@ -12387,7 +12390,7 @@
     {
         "id": "DN530",
         "title": "Creative and Cultural Industries - Humanities",
-        "preprocessed_title": "creativ cultur industri human",
+        "preprocessed_title": "cultur industri human",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -12407,7 +12410,7 @@
     {
         "id": "US807",
         "title": "Creative Broadcast & Film Production",
-        "preprocessed_title": "creativ broadcast film product",
+        "preprocessed_title": "broadcast film product",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
@@ -12427,7 +12430,7 @@
     {
         "id": "US702",
         "title": "Creative Broadcast and Film Production",
-        "preprocessed_title": "creativ broadcast film product",
+        "preprocessed_title": "broadcast film product",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "3 Years",
@@ -12447,7 +12450,7 @@
     {
         "id": "SE611",
         "title": "Creative Computing",
-        "preprocessed_title": "creativ comput",
+        "preprocessed_title": "comput",
         "college": "SETU Waterford Campus",
         "region": "Munster",
         "duration": "3 Years",
@@ -12467,7 +12470,7 @@
     {
         "id": "DL836",
         "title": "Creative Computing",
-        "preprocessed_title": "creativ comput",
+        "preprocessed_title": "comput",
         "college": "Institute of Art, Design and Technology Dun Laoghaire",
         "region": "Dublin",
         "duration": "4 Years",
@@ -12486,7 +12489,7 @@
     {
         "id": "SE605",
         "title": "Creative Computing",
-        "preprocessed_title": "creativ comput",
+        "preprocessed_title": "comput",
         "college": "SETU Waterford Campus",
         "region": "Munster",
         "duration": "4 Years",
@@ -12505,7 +12508,7 @@
     {
         "id": "AU821",
         "title": "Creative Design",
-        "preprocessed_title": "creativ design",
+        "preprocessed_title": "design",
         "college": "ATU Sligo",
         "region": "Connacht",
         "duration": "3 Years",
@@ -12525,7 +12528,7 @@
     {
         "id": "AU927",
         "title": "Creative Design",
-        "preprocessed_title": "creativ design",
+        "preprocessed_title": "design",
         "college": "ATU Sligo",
         "region": "Connacht",
         "duration": "4 Years",
@@ -12545,7 +12548,7 @@
     {
         "id": "MT824",
         "title": "Creative Digital Media",
-        "preprocessed_title": "creativ digit media",
+        "preprocessed_title": "digit media",
         "college": "MTU Cork Campus",
         "region": "Munster",
         "duration": "4 Years",
@@ -12564,7 +12567,7 @@
     {
         "id": "TU981",
         "title": "Creative Digital Media",
-        "preprocessed_title": "creativ digit media",
+        "preprocessed_title": "digit media",
         "college": "TU Dublin - Blanchardstown",
         "region": "Dublin",
         "duration": "4 Years",
@@ -12583,7 +12586,7 @@
     {
         "id": "TU796",
         "title": "Creative Digital Media",
-        "preprocessed_title": "creativ digit media",
+        "preprocessed_title": "digit media",
         "college": "TU Dublin - Blanchardstown",
         "region": "Dublin",
         "duration": "3 Years",
@@ -12602,7 +12605,7 @@
     {
         "id": "TU978",
         "title": "Creative Industries and Visual Culture",
-        "preprocessed_title": "creativ industri visual cultur",
+        "preprocessed_title": "industri visual cultur",
         "college": "TU Dublin - Grangegorman",
         "region": "Dublin",
         "duration": "3 Years",
@@ -12622,7 +12625,7 @@
     {
         "id": "DK769",
         "title": "Creative Media",
-        "preprocessed_title": "creativ media",
+        "preprocessed_title": "media",
         "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -12641,7 +12644,7 @@
     {
         "id": "DK863",
         "title": "Creative Media",
-        "preprocessed_title": "creativ media",
+        "preprocessed_title": "media",
         "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -12661,7 +12664,7 @@
     {
         "id": "DL838",
         "title": "Creative Music Production",
-        "preprocessed_title": "creativ music product",
+        "preprocessed_title": "music product",
         "college": "Institute of Art, Design and Technology Dun Laoghaire",
         "region": "Dublin",
         "duration": "4 Years",
@@ -12679,7 +12682,7 @@
     {
         "id": "MH111",
         "title": "Creative Writing and English",
-        "preprocessed_title": "creativ write english",
+        "preprocessed_title": "write english",
         "college": "Maynooth University",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -13015,7 +13018,7 @@
     {
         "id": "US931",
         "title": "Culinary Entrepreneurship",
-        "preprocessed_title": "culinari entrepreneurship",
+        "preprocessed_title": "culinari art entrepreneurship",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
@@ -13036,7 +13039,7 @@
     {
         "id": "MT655",
         "title": "Culinary Studies",
-        "preprocessed_title": "culinari",
+        "preprocessed_title": "culinari art",
         "college": "MTU Cork Campus",
         "region": "Munster",
         "duration": "2 Years",
@@ -16160,7 +16163,7 @@
     {
         "id": "TU714",
         "title": "Electronics and Communications Engineering",
-        "preprocessed_title": "electron communic engin",
+        "preprocessed_title": "electr engin communic",
         "college": "TU Dublin - Grangegorman",
         "region": "Dublin",
         "duration": "3 Years",
@@ -17046,7 +17049,7 @@
     {
         "id": "DN530",
         "title": "English with Creative Writing - Humanities",
-        "preprocessed_title": "english creativ write human",
+        "preprocessed_title": "english write human",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -17771,7 +17774,7 @@
     {
         "id": "DB576",
         "title": "Film and Creative Media",
-        "preprocessed_title": "film creativ media",
+        "preprocessed_title": "film media",
         "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
@@ -17790,7 +17793,7 @@
     {
         "id": "DB567",
         "title": "Film and Creative Media",
-        "preprocessed_title": "film creativ media",
+        "preprocessed_title": "film media",
         "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
@@ -18365,7 +18368,7 @@
     {
         "id": "DN250",
         "title": "Food Business with Chinese Studies - Agricultural Science",
-        "preprocessed_title": "food busi languag agricultur",
+        "preprocessed_title": "food busi chines agricultur",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -18380,7 +18383,7 @@
         ],
         "categories": [
             "business",
-            "humanities",
+            "foreign languages",
             "life science"
         ]
     },
@@ -18703,7 +18706,7 @@
     {
         "id": "MI002 FRE",
         "title": "French Studies - Arts",
-        "preprocessed_title": "languag art",
+        "preprocessed_title": "french art",
         "college": "Mary Immaculate College",
         "region": "Munster",
         "duration": "4 Years",
@@ -18715,13 +18718,14 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
         "id": "TR667",
         "title": "French/Modern Language",
-        "preprocessed_title": "languag",
+        "preprocessed_title": "french languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -18733,7 +18737,8 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
@@ -19540,7 +19545,7 @@
     {
         "id": "MI002 GER",
         "title": "German Studies - Arts",
-        "preprocessed_title": "languag art",
+        "preprocessed_title": "german art",
         "college": "Mary Immaculate College",
         "region": "Munster",
         "duration": "4 Years",
@@ -19552,13 +19557,14 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
         "id": "TR668",
         "title": "German/Modern Language",
-        "preprocessed_title": "languag",
+        "preprocessed_title": "german languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -19570,7 +19576,8 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
@@ -19675,7 +19682,7 @@
         ],
         "categories": [
             "business",
-            "humanities",
+            "foreign languages",
             "social science"
         ]
     },
@@ -21871,7 +21878,7 @@
         ],
         "categories": [
             "business",
-            "humanities",
+            "foreign languages",
             "social science"
         ]
     },
@@ -21913,7 +21920,7 @@
         ],
         "categories": [
             "business",
-            "humanities",
+            "foreign languages",
             "social science"
         ]
     },
@@ -21935,7 +21942,7 @@
         ],
         "categories": [
             "business",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
@@ -21956,7 +21963,7 @@
         ],
         "categories": [
             "business",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
@@ -21977,7 +21984,7 @@
         ],
         "categories": [
             "business",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
@@ -22284,7 +22291,7 @@
     {
         "id": "TR670",
         "title": "Italian/Modern Language",
-        "preprocessed_title": "languag",
+        "preprocessed_title": "italian languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -22296,7 +22303,8 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
@@ -22455,7 +22463,7 @@
     {
         "id": "DN520",
         "title": "Joint Honours - French",
-        "preprocessed_title": "languag",
+        "preprocessed_title": "french",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "3 Years",
@@ -22467,7 +22475,8 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
@@ -22493,7 +22502,7 @@
     {
         "id": "DN520",
         "title": "Joint Honours - German",
-        "preprocessed_title": "languag",
+        "preprocessed_title": "german",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "3 Years",
@@ -22505,7 +22514,8 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
@@ -22601,8 +22611,7 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
-            "social science"
+            "humanities"
         ]
     },
     {
@@ -22620,13 +22629,14 @@
             "artistic"
         ],
         "categories": [
+            "foreign languages",
             "humanities"
         ]
     },
     {
         "id": "DN520",
         "title": "Joint Honours - Italian",
-        "preprocessed_title": "languag",
+        "preprocessed_title": "italian",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "3 Years",
@@ -22638,13 +22648,14 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
         "id": "DN520",
         "title": "Joint Honours - Latin",
-        "preprocessed_title": "languag",
+        "preprocessed_title": "latin",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -22737,7 +22748,7 @@
     {
         "id": "DN520",
         "title": "Joint Honours - Portuguese",
-        "preprocessed_title": "languag",
+        "preprocessed_title": "portugues",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "3-4 Years",
@@ -22749,7 +22760,8 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
@@ -22773,7 +22785,7 @@
     {
         "id": "DN520",
         "title": "Joint Honours - Spanish",
-        "preprocessed_title": "languag",
+        "preprocessed_title": "spanish",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "3 Years",
@@ -22785,7 +22797,8 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
@@ -23444,7 +23457,7 @@
     {
         "id": "CK302",
         "title": "Law and French",
-        "preprocessed_title": "law languag",
+        "preprocessed_title": "law french",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
@@ -23458,14 +23471,14 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
+            "foreign languages",
             "law"
         ]
     },
     {
         "id": "TR018",
         "title": "Law and French",
-        "preprocessed_title": "law languag",
+        "preprocessed_title": "law french",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -23479,14 +23492,14 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
+            "foreign languages",
             "law"
         ]
     },
     {
         "id": "TR019",
         "title": "Law and German",
-        "preprocessed_title": "law languag",
+        "preprocessed_title": "law german",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -23500,7 +23513,7 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
+            "foreign languages",
             "law"
         ]
     },
@@ -23540,7 +23553,7 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
+            "foreign languages",
             "law"
         ]
     },
@@ -23561,7 +23574,7 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
+            "foreign languages",
             "law"
         ]
     },
@@ -23581,7 +23594,7 @@
             "enterprising"
         ],
         "categories": [
-            "humanities",
+            "foreign languages",
             "law"
         ]
     },
@@ -23650,7 +23663,7 @@
     {
         "id": "DN600 LFL",
         "title": "Law with French Law",
-        "preprocessed_title": "law languag",
+        "preprocessed_title": "law french",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -23664,7 +23677,7 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
+            "foreign languages",
             "law"
         ]
     },
@@ -23706,7 +23719,7 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
+            "foreign languages",
             "law"
         ]
     },
@@ -24794,7 +24807,7 @@
     {
         "id": "DC195",
         "title": "Mechanical & Manufacturing Engineering",
-        "preprocessed_title": "mechan manufactur engin",
+        "preprocessed_title": "mechan engin manufactur",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -24813,7 +24826,7 @@
     {
         "id": "SE712",
         "title": "Mechanical & Manufacturing Engineering",
-        "preprocessed_title": "mechan manufactur engin",
+        "preprocessed_title": "mechan engin manufactur",
         "college": "SETU Waterford Campus",
         "region": "Munster",
         "duration": "4 Years",
@@ -24832,7 +24845,7 @@
     {
         "id": "MT834",
         "title": "Mechanical and Manufacturing Engineering",
-        "preprocessed_title": "mechan manufactur engin",
+        "preprocessed_title": "mechan engin manufactur",
         "college": "MTU Kerry Campus",
         "region": "Munster",
         "duration": "4 Years",
@@ -24851,7 +24864,7 @@
     {
         "id": "US913",
         "title": "Mechanical and Polymer Engineering",
-        "preprocessed_title": "mechan polym engin",
+        "preprocessed_title": "mechan engin polym",
         "college": "TUS Midlands",
         "region": "Munster",
         "duration": "4 Years",
@@ -24871,7 +24884,7 @@
     {
         "id": "DC194",
         "title": "Mechanical and Sustainability Engineering",
-        "preprocessed_title": "mechan sustain engin",
+        "preprocessed_title": "mechan engin sustain",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -26834,7 +26847,7 @@
     {
         "id": "GY122",
         "title": "Na D\u00e1na (Cumars\u00e1id agus Gaeilge)",
-        "preprocessed_title": "na d\u00e1na cumars\u00e1id agus gaeilg",
+        "preprocessed_title": "d\u00e1na cumars\u00e1id agus gaeilg",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
@@ -28924,7 +28937,7 @@
     {
         "id": "DC013",
         "title": "Post Primary Teacher Education - Gaeilge and French, German or Spanish",
-        "preprocessed_title": "post primari educ gaeilg languag",
+        "preprocessed_title": "post primari educ gaeilg french german spanish",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -28938,7 +28951,7 @@
         ],
         "categories": [
             "education",
-            "humanities"
+            "foreign languages"
         ]
     },
     {
@@ -30386,7 +30399,7 @@
     {
         "id": "TR671",
         "title": "Russian/Modern Language",
-        "preprocessed_title": "languag",
+        "preprocessed_title": "russian languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -30398,7 +30411,8 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {
@@ -32076,7 +32090,7 @@
     {
         "id": "TR672",
         "title": "Spanish/Modern Language",
-        "preprocessed_title": "languag",
+        "preprocessed_title": "spanish languag",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -32088,7 +32102,8 @@
             "artistic"
         ],
         "categories": [
-            "humanities"
+            "humanities",
+            "foreign languages"
         ]
     },
     {

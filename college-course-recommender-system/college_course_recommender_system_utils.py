@@ -432,6 +432,7 @@ def preprocess_college_course_titles():
 def print_college_course_recommendations(college_course_recommendations):
     for rec in college_course_recommendations:
         print(rec["title"] + "\n" + rec["preprocessed_title"] + "\n" + rec["college"] + "\n" + str(rec["interests"]) + "\n" + str(rec["categories"]) + "\nPoints: " + str(rec["points"]) + "\nSimilarity: " + (str(round(rec["similarity_score"]*100.0, 1)) if "similarity_score" in rec else "-1") + "%\n")
+        print(rec['vectorized_representation'])
 
 def get_baseline_college_course_recommendations(user_college_course_preferences):
     filtered_college_courses = get_filtered_college_courses(user_college_course_preferences)
