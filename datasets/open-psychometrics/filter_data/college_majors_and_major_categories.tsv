@@ -121,7 +121,17 @@ civilization studies	civil	31	humanities	human
 comparative literature	compar literatur	12	humanities	human
 english	english	3254	humanities	human
 english literature	english literatur	110	humanities	human
-foreign languages	languag	656	humanities	human
+french			foreign languages	
+german			foreign languages	
+italian			foreign languages	
+spanish			foreign languages	
+korean			foreign languages	
+chinese			foreign languages	
+japanese			foreign languages	
+russian			foreign languages	
+portuguese			foreign languages	
+latin			foreign languages	
+english language			foreign languages	
 history	histori	977	humanities	human
 intercultural studies	intercultur	4	humanities	human
 international studies	intern	77	humanities	human
@@ -138,6 +148,7 @@ paralegal studies	paraleg	72	law	law
 public administration	public administr	71	law	law
 public policy	public polici	26	law	law
 agricultural science	agricultur	93	life science	life
+health science			life science	
 biochemical science	biochem	11	life science	life
 biology	biolog	2219	life science	life
 biomedical science	biomed	148	life science	life

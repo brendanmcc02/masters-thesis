@@ -1,6 +1,5 @@
 # TODO
 
-- [ ] loads of dirty riasec degrees that could be in hospitality - hotels, tourism, etc. just search up the dirty dataset
 - [ ] create languages category?
 - [ ] create social work/youth work?
 - [ ] create psychology category? separate from social science?
