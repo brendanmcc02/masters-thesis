@@ -1,6 +1,6 @@
 # TODO
 
-- [ ] create sport/athelic category?
+- [ ] loads of dirty riasec degrees that could be in hospitality - hotels, tourism, etc. just search up the dirty dataset
 - [ ] create languages category?
 - [ ] create social work/youth work?
 - [ ] create psychology category? separate from social science?
@@ -27,10 +27,6 @@
 - [ ] create a usable interface
 
 ```
-* sport category (physio, kinis, sport management, etc.) is in healthcare atm
-    * LC PE would hit this
-    * if they don't do LC PE, well tough shit you ain't getting recommended it bro
-    * there's one physio-related question in the dataset so I think this could work really well
 * social work/youth development etc is healthcare
     * there are a lot of social work-related questions, I think the model could do a good job of predicting this & differentiating from med, nursing, etc.
 * create a languages category?
@@ -45,20 +41,3 @@
     * a lot of similarities with social science
     * but it does have a bit more bio focus e.g. neuroscience, biological factors behind human behaviour and the mind
 ```
-
-what do I call the category? sport?
-
-sport sciences/therapy:
-* physical therapy
-* kinesiology
-* exercise science
-* sport science? is it called that idk
-
-sport itself (this would get covered if the category is called that)
-
-exercise
-
-sport management
-sport business or some shit idk what its called bro
-sport coaching (or just coach idk, figure out how to preprocess/capture this)
-sport performance or just performance idk

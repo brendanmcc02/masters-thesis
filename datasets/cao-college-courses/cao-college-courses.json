@@ -2151,7 +2151,7 @@
         ],
         "categories": [
             "computers & mathematics",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -2172,7 +2172,7 @@
         ],
         "categories": [
             "business",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -2192,7 +2192,7 @@
         ],
         "categories": [
             "computers & mathematics",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -2211,8 +2211,7 @@
             "social"
         ],
         "categories": [
-            "business",
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -2232,8 +2231,7 @@
             "social"
         ],
         "categories": [
-            "business",
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -2253,7 +2251,8 @@
             "social"
         ],
         "categories": [
-            "healthcare"
+            "sport",
+            "life science"
         ]
     },
     {
@@ -2272,9 +2271,8 @@
             "social"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "social science"
+            "sport",
+            "life science"
         ]
     },
     {
@@ -5421,7 +5419,8 @@
             "social"
         ],
         "categories": [
-            "healthcare"
+            "sport",
+            "life science"
         ]
     },
     {
@@ -5440,7 +5439,7 @@
             "social"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -5461,7 +5460,7 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -9001,7 +9000,7 @@
         ],
         "categories": [
             "business",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -9021,8 +9020,7 @@
         ],
         "categories": [
             "business",
-            "healthcare",
-            "law"
+            "sport"
         ]
     },
     {
@@ -9203,7 +9201,7 @@
         ],
         "categories": [
             "business",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -10138,8 +10136,7 @@
             "realistic"
         ],
         "categories": [
-            "business",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -10158,8 +10155,7 @@
             "realistic"
         ],
         "categories": [
-            "business",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -10179,7 +10175,7 @@
         ],
         "categories": [
             "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -17549,7 +17545,7 @@
             "realistic"
         ],
         "categories": [
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -17568,7 +17564,7 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -17589,7 +17585,7 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -20055,7 +20051,7 @@
             "realistic"
         ],
         "categories": [
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -20075,7 +20071,8 @@
             "realistic"
         ],
         "categories": [
-            "healthcare"
+            "life science",
+            "sport"
         ]
     },
     {
@@ -20095,7 +20092,7 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -20154,7 +20151,7 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -20175,7 +20172,7 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -20234,7 +20231,7 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -20276,7 +20273,7 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -20297,7 +20294,7 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -28128,7 +28125,7 @@
             "social"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -28149,7 +28146,8 @@
         ],
         "categories": [
             "education",
-            "healthcare"
+            "sport",
+            "business"
         ]
     },
     {
@@ -28171,7 +28169,7 @@
         "categories": [
             "business",
             "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -28192,7 +28190,7 @@
         ],
         "categories": [
             "education",
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -28214,7 +28212,7 @@
         "categories": [
             "business",
             "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -28235,7 +28233,7 @@
         "categories": [
             "business",
             "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -28256,7 +28254,7 @@
         ],
         "categories": [
             "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -28278,7 +28276,7 @@
         "categories": [
             "computers & mathematics",
             "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -28293,12 +28291,12 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Our Physical Education, Sports Studies and Arts degree is a dynamic course that aims to produce creative educators in physical education, sport and physical activity settings. As well as qualifying to teach physical education, students will also graduate in a chosen specialist arts subject from one of the following: English, Gaeilge/Irish, Mathematics, French, or History.",
         "interests": [
+            "realistic",
             "social"
         ],
         "categories": [
             "education",
-            "healthcare",
-            "humanities"
+            "sport"
         ]
     },
     {
@@ -28634,7 +28632,7 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -28655,7 +28653,7 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -28676,7 +28674,7 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -28697,7 +28695,7 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -28718,7 +28716,7 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -28738,7 +28736,7 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -30138,7 +30136,8 @@
             "social"
         ],
         "categories": [
-            "business"
+            "business",
+            "sport"
         ]
     },
     {
@@ -30158,7 +30157,7 @@
         ],
         "categories": [
             "business",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -30178,7 +30177,7 @@
         ],
         "categories": [
             "business",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32162,7 +32161,7 @@
         ],
         "categories": [
             "business",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32181,8 +32180,8 @@
             "social"
         ],
         "categories": [
-            "education",
-            "healthcare"
+            "sport",
+            "life science"
         ]
     },
     {
@@ -32202,8 +32201,7 @@
         ],
         "categories": [
             "business",
-            "healthcare",
-            "social science"
+            "sport"
         ]
     },
     {
@@ -32221,9 +32219,8 @@
             "social"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "social science"
+            "sport",
+            "life science"
         ]
     },
     {
@@ -32243,9 +32240,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "social science"
+            "sport",
+            "life science"
         ]
     },
     {
@@ -32265,9 +32261,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "physical science"
+            "sport",
+            "life science"
         ]
     },
     {
@@ -32287,9 +32282,8 @@
             "enterprising"
         ],
         "categories": [
-            "business",
-            "education",
-            "healthcare"
+            "sport",
+            "business"
         ]
     },
     {
@@ -32310,8 +32304,7 @@
         ],
         "categories": [
             "business",
-            "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32332,8 +32325,7 @@
         ],
         "categories": [
             "business",
-            "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32372,9 +32364,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "physical science"
+            "sport",
+            "life science"
         ]
     },
     {
@@ -32394,9 +32385,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "physical science"
+            "sport",
+            "life science"
         ]
     },
     {
@@ -32417,7 +32407,7 @@
         ],
         "categories": [
             "business",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32438,8 +32428,7 @@
         ],
         "categories": [
             "business",
-            "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32460,8 +32449,7 @@
         ],
         "categories": [
             "business",
-            "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32481,7 +32469,7 @@
         ],
         "categories": [
             "business",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32501,9 +32489,8 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "physical science"
+            "sport",
+            "life science"
         ]
     },
     {
@@ -32522,7 +32509,8 @@
             "conventional"
         ],
         "categories": [
-            "business"
+            "business",
+            "sport"
         ]
     },
     {
@@ -32541,8 +32529,7 @@
             "social"
         ],
         "categories": [
-            "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32561,9 +32548,7 @@
             "realistic"
         ],
         "categories": [
-            "education",
-            "healthcare",
-            "social science"
+            "sport"
         ]
     },
     {
@@ -32582,9 +32567,7 @@
             "realistic"
         ],
         "categories": [
-            "education",
-            "healthcare",
-            "physical science"
+            "sport"
         ]
     },
     {
@@ -32603,8 +32586,7 @@
             "realistic"
         ],
         "categories": [
-            "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32623,8 +32605,7 @@
             "investigative"
         ],
         "categories": [
-            "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32643,8 +32624,7 @@
             "investigative"
         ],
         "categories": [
-            "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32664,7 +32644,7 @@
         ],
         "categories": [
             "business",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32684,7 +32664,7 @@
         ],
         "categories": [
             "business",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32704,7 +32684,7 @@
         ],
         "categories": [
             "business",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32724,7 +32704,7 @@
         ],
         "categories": [
             "business",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32744,7 +32724,7 @@
         ],
         "categories": [
             "business",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32764,7 +32744,7 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -32785,9 +32765,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "physical science"
+            "sport",
+            "life science"
         ]
     },
     {
@@ -32807,9 +32786,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "physical science"
+            "sport",
+            "life science"
         ]
     },
     {
@@ -32828,7 +32806,7 @@
             "social"
         ],
         "categories": [
-            "healthcare",
+            "sport",
             "life science"
         ]
     },
@@ -32844,11 +32822,10 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "If you're thinking about a career in sport, a Sports Studies degree from the Technological University of Dublin will help you be the difference. We've integrated our academic courses with the University's world-class sports facilities to provide a unique and rewarding studying and sporting environment.",
         "interests": [
-            "social"
+            "realistic"
         ],
         "categories": [
-            "healthcare",
-            "social science"
+            "sport"
         ]
     },
     {
@@ -32868,8 +32845,7 @@
         ],
         "categories": [
             "business",
-            "healthcare",
-            "social science"
+            "sport"
         ]
     },
     {
@@ -32907,8 +32883,7 @@
             "social"
         ],
         "categories": [
-            "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32927,8 +32902,7 @@
             "social"
         ],
         "categories": [
-            "education",
-            "healthcare"
+            "sport"
         ]
     },
     {
@@ -32947,8 +32921,7 @@
             "social"
         ],
         "categories": [
-            "education",
-            "healthcare"
+            "sport"
         ]
     },
     {

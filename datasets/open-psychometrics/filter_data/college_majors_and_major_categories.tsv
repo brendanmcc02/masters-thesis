@@ -20,7 +20,6 @@ business administration	busi administr	931	business	busi
 business management	busi manag	758	business	busi
 e-commerce	commerc	289	business	busi
 finance	financ	798	business	busi
-hospitality management	hospit manag	84	business	busi
 human resources	human resourc	423	business	busi
 human resources management	human resourc manag	232	business	busi
 international business	intern busi	139	business	busi
@@ -110,6 +109,9 @@ veterinarian	veterinarian	220	healthcare	healthcar
 veterinarian technology	veterinarian technolog	16	healthcare	healthcar
 culinary arts	culinari art	86	hospitality	hospit
 tourism	tourism	124	hospitality	hospit
+hospitality management	hospit manag	84	hospitality	hospit
+event management			hospitality	hospit
+hotel management			hospitality	hospit
 anthropology	anthropolog	309	humanities	human
 archeology	archeolog	3	humanities	human
 area ethnic studies	area ethnic	0	humanities	human
