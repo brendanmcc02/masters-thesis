@@ -91,7 +91,7 @@ LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP = {
                             "History": LeavingCertSubject(["artistic"], ["humanities"]),
                             "Religious Education": LeavingCertSubject(["artistic"], ["humanities"]), 
                             # social sciences
-                            "Geography": LeavingCertSubject(["investigative", "social"], ["physical science", "social science"]), 
+                            "Geography": LeavingCertSubject(["investigative", "social"], ["physical science", "social science"]), # should this have social?
                             "Politics and Society": LeavingCertSubject(["investigative", "social", "enterprising"], ["law", "social science"]), 
                             "Climate Action and Sustainable Development": LeavingCertSubject(["social"], ["law", "social science"]), 
                             # business
