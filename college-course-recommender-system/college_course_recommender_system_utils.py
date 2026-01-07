@@ -98,9 +98,10 @@ LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP = {
                             "Accounting": LeavingCertSubject(["conventional", "enterprising"], ["business"]), 
                             "Business": LeavingCertSubject(["conventional", "enterprising"], ["business", "law"]),
                             "Economics": LeavingCertSubject(["investigative", "conventional"], ["business", "social science"]),
-                            # misc
-                            "Physical Education": LeavingCertSubject(["realistic", "social"], ["healthcare"]),
-                            "Home Economics": LeavingCertSubject(["realistic", "social"], ["hospitality"]),
+                            # sport
+                            "Physical Education": LeavingCertSubject(["realistic", "social"], ["sport"]), # should this have social?
+                            # hospitality
+                            "Home Economics": LeavingCertSubject(["realistic", "social"], ["hospitality"]) # should this have social?
                             }
 
 
@@ -270,7 +271,7 @@ def is_new_college_course_recommendation(college_course_to_check, previously_rec
 def is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     return previously_recommended_college_course['preprocessed_title'] == college_course_to_check['preprocessed_title']
 
-SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art", "public", "nurs", "educ", "sport"]
+SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art", "public", "nurs", "educ", "sport"] # business???
 def is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     tokenized_college_course_title_words = previously_recommended_college_course['preprocessed_title'].split(' ')
 
