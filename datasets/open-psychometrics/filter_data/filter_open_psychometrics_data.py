@@ -125,3 +125,17 @@ college_majors_and_major_categories_df = college_majors_and_major_categories_df[
 
 college_majors_and_major_categories_df = college_majors_and_major_categories_df.sort_values(by=['college_major_category', 'college_major'])
 college_majors_and_major_categories_df.to_csv('college_majors_and_major_categories.tsv', sep='\t', index=False)
+
+# get counts of most common uncaptured college majors in dirty dataset
+MIN_COLLEGE_MAJOR_PREPROCESSED_FREQUENCY = 50
+
+value_counts = dirty_df['college_major_preprocessed'].value_counts()
+
+frequent_values_series = value_counts[value_counts >= MIN_COLLEGE_MAJOR_PREPROCESSED_FREQUENCY]
+
+# turn the old index (the major name) into a column.
+frequent_dirty_college_major_preprocessed_df = frequent_values_series.reset_index()
+frequent_dirty_college_major_preprocessed_df.columns = ['college_major_preprocessed', 'count']
+frequent_dirty_college_major_preprocessed_df = frequent_dirty_college_major_preprocessed_df.sort_values(by='count', ascending=False)
+
+frequent_dirty_college_major_preprocessed_df.to_csv('frequent_dirty_college_major_preprocessed.tsv', sep='\t', index=False)

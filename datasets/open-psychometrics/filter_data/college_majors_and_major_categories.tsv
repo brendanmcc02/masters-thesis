@@ -1,24 +1,34 @@
 college_major	college_major_preprocessed	number_of_exact_college_major_matches	college_major_category	college_major_category_preprocessed
+acting	act	31	arts	art
+animation	anim	66	arts	art
+art and design	art design	41	arts	art
 commercial art	commerci art	3	arts	art
+dance	danc	57	arts	art
 design	design	345	arts	art
 drama	drama	43	arts	art
+fashion	fashion	47	arts	art
+fashion design	fashion design	69	arts	art
+fashion merchandising	fashion merchandis	64	arts	art
 film studies	film	146	arts	art
 fine arts	fine art	240	arts	art
 graphic design	graphic design	280	arts	art
 interior design	interior design	94	arts	art
 music	music	496	arts	art
-performing arts	perform art	32	arts	art
+performing arts	perform art	33	arts	art
 photography	photographi	97	arts	art
 product design	product design	21	arts	art
 studio arts	studio art	43	arts	art
 theater	theater	49	arts	art
 visual arts	visual art	37	arts	art
+writing	write	75	arts	art
 accounting	account	1640	business	busi
+accounting and finance	account financ	67	business	busi
 actuarial science	actuari	60	business	busi
 administration	administr	101	business	busi
-business administration	busi administr	931	business	busi
-business management	busi manag	758	business	busi
+business administration	busi administr	934	business	busi
+business management	busi manag	768	business	busi
 e-commerce	commerc	289	business	busi
+entrepreneurship	entrepreneurship	36	business	busi
 finance	financ	798	business	busi
 human resources	human resourc	423	business	busi
 human resources management	human resourc manag	232	business	busi
@@ -28,13 +38,15 @@ management	manag	916	business	busi
 management information systems 	manag inform system	28	business	busi
 marketing	market	928	business	busi
 operations management	oper manag	13	business	busi
-advertising	advertis	89	communications	communic
+advertising	advertis	91	communications	communic
 journalism	journal	379	communications	communic
-mass media	media	128	communications	communic
+mass media	media	133	communications	communic
 public relations	public relat	84	communications	communic
+computer information systems	comput inform system	46	computers & mathematics	comput mathemat
 computer networking	comput network	24	computers & mathematics	comput mathemat
-computer science	comput	1484	computers & mathematics	comput mathemat
+computer science	comput	1485	computers & mathematics	comput mathemat
 computer systems	comput system	6	computers & mathematics	comput mathemat
+cyber security	cyber secur	52	computers & mathematics	comput mathemat
 information science	inform	26	computers & mathematics	comput mathemat
 information systems	inform system	81	computers & mathematics	comput mathemat
 information technology	inform technolog	564	computers & mathematics	comput mathemat
@@ -44,18 +56,20 @@ software engineering	softwar engin	134	computers & mathematics	comput mathemat
 statistics	statist	79	computers & mathematics	comput mathemat
 telecommunications	telecommun	17	computers & mathematics	comput mathemat
 adult education	adult educ	16	education	educ
-art education	art educ	35	education	educ
+art education	art educ	36	education	educ
 drama education	drama educ	0	education	educ
 early childhood education	childhood educ	176	education	educ
 educational administration	educ administr	15	education	educ
 elementary education	elementari educ	167	education	educ
+english education	english educ	61	education	educ
 health education	health educ	9	education	educ
 history education	histori educ	20	education	educ
-language education	languag educ	17	education	educ
+language education	languag educ	4	education	educ
 library science	librari	37	education	educ
 mathematics education	mathemat educ	25	education	educ
 music education	music educ	93	education	educ
 physical education	physic educ	84	education	educ
+psychology education	psycholog educ	45	education	educ
 science education	educ	2341	education	educ
 secondary education	secondari educ	20	education	educ
 social science education	social educ	11	education	educ
@@ -65,12 +79,15 @@ aerospace engineering	aerospac engin	79	engineering	engin
 agricultural engineering	agricultur engin	11	engineering	engin
 architectural engineering	architectur engin	23	engineering	engin
 architecture	architectur	551	engineering	engin
+aviation studies	aviat	61	engineering	engin
 biological engineering	biolog engin	17	engineering	engin
 biomedical engineering	biomed engin	103	engineering	engin
+biotechnology	biotechnolog	97	engineering	engin
 chemical engineering	chemic engin	433	engineering	engin
 civil engineering	civil engin	1134	engineering	engin
 computer engineering	comput engin	337	engineering	engin
-electrical engineering	electr engin	537	engineering	engin
+construction studies	construct	30	engineering	engin
+electrical engineering	electr engin	674	engineering	engin
 engineering management	engin manag	7	engineering	engin
 engineering technology	engin technolog	22	engineering	engin
 environmental engineering	environment engin	55	engineering	engin
@@ -82,11 +99,26 @@ manufacturing engineering	manufactur engin	15	engineering	engin
 marine engineering	marin engin	23	engineering	engin
 materials engineering	materi engin	29	engineering	engin
 materials science	materi	23	engineering	engin
-mechanical engineering	mechan engin	810	engineering	engin
+mechanical engineering	mechan engin	837	engineering	engin
 metallurgical engineering	metallurg engin	8	engineering	engin
 mining engineering	mine engin	15	engineering	engin
 nuclear engineering	nuclear engin	13	engineering	engin
 petroleum engineering	petroleum engin	20	engineering	engin
+chinese	chines	46	foreign languages	languag
+english language	english languag	11	foreign languages	languag
+french	french	124	foreign languages	languag
+german	german	51	foreign languages	languag
+greek	greek	2	foreign languages	languag
+italian	italian	11	foreign languages	languag
+japanese	japanes	55	foreign languages	languag
+korean	korean	7	foreign languages	languag
+latin	latin	2	foreign languages	languag
+linguistics 	linguist	215	foreign languages	languag
+portuguese	portugues	4	foreign languages	languag
+russian	russian	18	foreign languages	languag
+spanish	spanish	125	foreign languages	languag
+translation	translat	56	foreign languages	languag
+communication disorders	communic disord	66	healthcare	healthcar
 community health	communiti health	17	healthcare	healthcar
 dental hygiene	dentistri hygien	40	healthcare	healthcar
 dental technology	dentistri technolog	1	healthcare	healthcar
@@ -94,9 +126,11 @@ dentistry	dentistri	127	healthcare	healthcar
 health administration	health administr	15	healthcare	healthcar
 health services	health servic	11	healthcare	healthcar
 human services	human servic	324	healthcare	healthcar
+medic	medic	46	healthcare	healthcar
 medical administration	medicin administr	12	healthcare	healthcar
 medical assisting	medicin assist	87	healthcare	healthcar
 medicine	medicin	1369	healthcare	healthcar
+medicine technology	medicin technolog	60	healthcare	healthcar
 midwifery	midwiferi	8	healthcare	healthcar
 nursing	nurs	2487	healthcare	healthcar
 nutrition science	nutrit	170	healthcare	healthcar
@@ -107,7 +141,7 @@ social work	social work	709	healthcare	healthcar
 speech pathology	speech patholog	74	healthcare	healthcar
 veterinarian	veterinarian	220	healthcare	healthcar
 veterinarian technology	veterinarian technolog	16	healthcare	healthcar
-culinary arts	culinari art	86	hospitality	hospit
+culinary arts	culinari art	163	hospitality	hospit
 event management	event manag	20	hospitality	hospit
 hospitality management	hospit manag	84	hospitality	hospit
 hotel management	hotel manag	43	hospitality	hospit
@@ -118,15 +152,14 @@ archeology	archeolog	3	humanities	human
 area ethnic studies	area ethnic	0	humanities	human
 art history	art histori	128	humanities	human
 civilization studies	civil	31	humanities	human
+classical studies	classic	55	humanities	human
 comparative literature	compar literatur	12	humanities	human
 english	english	3254	humanities	human
 english literature	english literatur	110	humanities	human
-foreign languages	languag	656	humanities	human
 history	histori	977	humanities	human
 intercultural studies	intercultur	4	humanities	human
 international studies	intern	77	humanities	human
 liberal arts	liber art	411	humanities	human
-linguistics 	linguist	215	humanities	human
 literature	literatur	126	humanities	human
 philosophy	philosophi	435	humanities	human
 religious studies	religi	38	humanities	human
@@ -138,7 +171,7 @@ paralegal studies	paraleg	72	law	law
 public administration	public administr	71	law	law
 public policy	public polici	26	law	law
 agricultural science	agricultur	93	life science	life
-biochemical science	biochem	11	life science	life
+biochemistry	biochemistri	269	life science	life
 biology	biolog	2219	life science	life
 biomedical science	biomed	148	life science	life
 biopsychology	biopsycholog	12	life science	life
@@ -148,6 +181,8 @@ ecology	ecolog	25	life science	life
 environmental science	environment	237	life science	life
 food science	food	46	life science	life
 genetics	genet	24	life science	life
+health science	health	392	life science	life
+horticulture	horticultur	32	life science	life
 marine biology	marin biolog	46	life science	life
 microbiology	microbiolog	91	life science	life
 molecular biology	molecular biolog	25	life science	life
@@ -160,27 +195,35 @@ astrophysics	astrophys	20	physical science	physic
 atmospheric science	atmospher	2	physical science	physic
 chemistry	chemic	599	physical science	physic
 earth science	earth	15	physical science	physic
+forensic science	forens	84	physical science	physic
 geology	geolog	148	physical science	physic
 geoscience	geoscienc	4	physical science	physic
 industrial technology	industri technolog	14	physical science	physic
 meteorology	meteorolog	11	physical science	physic
 physics	physic	1102	physical science	physic
 radiology	radiolog	55	physical science	physic
+behavioral science	behavior	57	social science	social
+child development	child develop	78	social science	social
 clinical psychology	clinic psycholog	55	social science	social
 counseling	counsel	803	social science	social
+counseling psychology	counsel psycholog	50	social science	social
 criminology	criminolog	190	social science	social
 economics	econom	1155	social science	social
 educational psychology	educ psycholog	38	social science	social
 family science	famili	40	social science	social
 geography	geographi	226	social science	social
 government	govern	17	social science	social
+human development	human develop	86	social science	social
 industrial psychology	industri psycholog	26	social science	social
 international relations	intern relat	243	social science	social
+mental health counseling	mental health counsel	48	social science	social
 organizational psychology	organiz psycholog	7	social science	social
 political science	polit	878	social science	social
 psychology	psycholog	14003	social science	social
+rehabilitation services	rehabilit servic	78	social science	social
 social psychology	social psycholog	17	social science	social
 sociology	sociolog	922	social science	social
+athletic training	athlet train	53	sport	sport
 exercise and sport science	exercis sport	12	sport	sport
 exercise physiology	exercis physiolog	13	sport	sport
 exercise science	exercis	149	sport	sport

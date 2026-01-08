@@ -104,12 +104,19 @@ ConfusionMatrixDisplay.from_predictions(
     cmap='Blues',
     xticks_rotation='vertical'
 )
+
+college_major_categories = dataset['college_major_category'].unique()
+stringified_college_major_categories_with_indexes = ""
+for i in range(len(college_major_categories)):
+    stringified_college_major_categories_with_indexes += str(i) + "-" + college_major_categories[i] + ", "
+
 plt.title("Confusion Matrix for College Major Categories")
+plt.suptitle(stringified_college_major_categories_with_indexes, fontsize=7)
 plt.show()
 
 # proportions
 print("\n# EVALUATION")
-college_major_categories = dataset['college_major_category'].unique()
+
 
 predicted_college_major_counts = defaultdict(int)
 for pred in y_predicted_test_hist_gradient_boosting_machines:

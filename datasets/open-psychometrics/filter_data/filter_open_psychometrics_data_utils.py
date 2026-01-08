@@ -99,6 +99,10 @@ def get_stop_words():
     stop_words.add("e") # e for electronic e.g. e-commerce
     stop_words.add("professional")
     stop_words.add("modern")
+    stop_words.add("nil")
+    stop_words.add("na")
+    stop_words.add("attended")
+    stop_words.add("creative")
     
     # for cao-college-courses title preprocessing
     stop_words.add("common")
@@ -176,6 +180,7 @@ COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP = {
     'bcom': 'business',
     'mcom': 'business',
     'bcomm': 'business',
+    'buisness': 'business', # common mis-spelling; fuzzywuzzy somehow doesn't catch it idk
     'bed': 'education',
     'teacher': 'teaching',
     'teaching': 'education',
@@ -224,16 +229,6 @@ COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP = {
     'hrd': 'human resource development',
     'pr': 'public relations',
     'gen': 'general',
-    'french': 'foreign language',
-    'german': 'foreign language',
-    'italian': 'foreign language',
-    'spanish': 'foreign language',
-    'korean': 'foreign language',
-    'chinese': 'foreign language',
-    'japanese': 'foreign language',
-    'russian': 'foreign language',
-    'portuguese': 'foreign language',
-    'latin': 'foreign language',
     'premed': 'medicine',
     'med': 'medicine',
     'medical': 'medicine',
@@ -249,6 +244,9 @@ COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP = {
     'speech therapy': 'speech pathology',
     'dietetics': 'nutrition science',
     'computer programming': 'programming',
+    'culinary': 'culinary arts', # some people just wrote 'culinary' so this would expand it out - duplicates words are removed FYI!
+    'electronics': 'electrical engineering',
+    'mechanical': 'mechanical engineering', # some people just wrote 'mechanical' so this would expand it out - duplicates words are removed FYI!
 }
 
 

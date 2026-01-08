@@ -69,20 +69,20 @@ LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP = {
                             "Music": LeavingCertSubject(["artistic"], ["arts"]),
                             "Design and Communication Graphics": LeavingCertSubject(["artistic", "investigative", "realistic"], ["arts", "engineering"]),
                             # languages
-                            "Arabic": LeavingCertSubject(["artistic"], ["humanities"]),
-                            "French": LeavingCertSubject(["artistic"], ["humanities"]),
-                            "Irish": LeavingCertSubject(["artistic"], ["humanities"]),
-                            "German": LeavingCertSubject(["artistic"], ["humanities"]),
-                            "Ukrainian": LeavingCertSubject(["artistic"], ["humanities"]),
-                            "Italian": LeavingCertSubject(["artistic"], ["humanities"]),
-                            "Japanese": LeavingCertSubject(["artistic"], ["humanities"]),
-                            "Latin": LeavingCertSubject(["artistic"], ["humanities"]),
-                            "Russian": LeavingCertSubject(["artistic"], ["humanities"]),
-                            "Spanish": LeavingCertSubject(["artistic"], ["humanities"]),
-                            "Mandarin-Chinese": LeavingCertSubject(["artistic"], ["humanities"]),
-                            "Polish": LeavingCertSubject(["artistic"], ["humanities"]),
-                            "Lithuanian": LeavingCertSubject(["artistic"], ["humanities"]),
-                            "Portuguese": LeavingCertSubject(["artistic"], ["humanities"]),
+                            "Arabic": LeavingCertSubject(["artistic"], ["foreign languages"]),
+                            "French": LeavingCertSubject(["artistic"], ["foreign languages"]),
+                            "Irish": LeavingCertSubject(["artistic"], ["foreign languages"]),
+                            "German": LeavingCertSubject(["artistic"], ["foreign languages"]),
+                            "Ukrainian": LeavingCertSubject(["artistic"], ["foreign languages"]),
+                            "Italian": LeavingCertSubject(["artistic"], ["foreign languages"]),
+                            "Japanese": LeavingCertSubject(["artistic"], ["foreign languages"]),
+                            "Latin": LeavingCertSubject(["artistic"], ["foreign languages"]),
+                            "Russian": LeavingCertSubject(["artistic"], ["foreign languages"]),
+                            "Spanish": LeavingCertSubject(["artistic"], ["foreign languages"]),
+                            "Mandarin-Chinese": LeavingCertSubject(["artistic"], ["foreign languages"]),
+                            "Polish": LeavingCertSubject(["artistic"], ["foreign languages"]),
+                            "Lithuanian": LeavingCertSubject(["artistic"], ["foreign languages"]),
+                            "Portuguese": LeavingCertSubject(["artistic"], ["foreign languages"]),
                             # humanities
                             "Ancient Greek": LeavingCertSubject(["artistic"], ["humanities"]),
                             "Classical Studies": LeavingCertSubject(["artistic"], ["humanities"]),
@@ -91,7 +91,7 @@ LEAVING_CERT_SUBJECTS_RIASEC_AND_CATEGORIES_MAP = {
                             "History": LeavingCertSubject(["artistic"], ["humanities"]),
                             "Religious Education": LeavingCertSubject(["artistic"], ["humanities"]), 
                             # social sciences
-                            "Geography": LeavingCertSubject(["investigative", "social"], ["physical science", "social science"]), 
+                            "Geography": LeavingCertSubject(["investigative", "social"], ["physical science", "social science"]), # should this have social?
                             "Politics and Society": LeavingCertSubject(["investigative", "social", "enterprising"], ["law", "social science"]), 
                             "Climate Action and Sustainable Development": LeavingCertSubject(["social"], ["law", "social science"]), 
                             # business
@@ -432,6 +432,7 @@ def preprocess_college_course_titles():
 def print_college_course_recommendations(college_course_recommendations):
     for rec in college_course_recommendations:
         print(rec["title"] + "\n" + rec["preprocessed_title"] + "\n" + rec["college"] + "\n" + str(rec["interests"]) + "\n" + str(rec["categories"]) + "\nPoints: " + str(rec["points"]) + "\nSimilarity: " + (str(round(rec["similarity_score"]*100.0, 1)) if "similarity_score" in rec else "-1") + "%\n")
+        print(rec['vectorized_representation'])
 
 def get_baseline_college_course_recommendations(user_college_course_preferences):
     filtered_college_courses = get_filtered_college_courses(user_college_course_preferences)
