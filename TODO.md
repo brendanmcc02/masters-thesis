@@ -1,20 +1,14 @@
 # TODO
 
-- [ ] create languages category?
-    * Gaeilge!!!
-    * latin
-    * greek
-    * any other lang? idk ukrainian or some shit
-    * portuguese
-    * linguistics?
-    * speech or something idk
 - [ ] create social work/youth work?
+    * communication disorders, etc
 - [ ] create psychology category? separate from social science?
     * social science has good accuracy for correct predictions, but awful mis-predicts quite often
     * how can we resolve this?
 - [ ] chemical sciences category? 
     * might be too granular tbh
     * skeptical about this ngl
+- [ ] when clustering/masking categories, also cluster/mask their relevenat interests
 - [ ] think about points
     * should we even recommend courses outside a points range? aysha got recommended a 370 point course despite having 625
         * findmycollegecourse actually has a point range preference - should we add this as a preference too?

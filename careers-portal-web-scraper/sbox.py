@@ -4,7 +4,7 @@ file = open("../datasets/cao-college-courses/cao-college-courses.json")
 courses = json.load(file)
 
 for course in courses:
-    for lang in ["German", "French", "International", "Polish", "Russian", "Spanish", "Italian", "Japanese", "Chinese", "Korean"]:
+    for lang in ["Modern Language"]:
         if lang in course['title']:
             if "humanities" in course['categories']:
                 idx = course['categories'].index("humanities")
