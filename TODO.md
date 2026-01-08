@@ -56,3 +56,15 @@ Poor performance on:
     * I wonder if doing some adjustments here could drastically improve model performance?
         * e.g. downsampling
 
+
+Social Science:
+
+* theoretical social science: interest in human behaviour - mostly 'I' and 'A':
+    * psych - could downsample this?
+    * econ
+    * sociology
+    * geography
+* applied social science - mostly 'R' and 'S':
+    * counseling
+    * social work
+    * rehabilitation
