@@ -166,6 +166,9 @@ religious studies	religi	38	humanities	human
 rhetoric	rhetor	5	humanities	human
 theology	theolog	114	humanities	human
 criminal justice	crimin justic	936	law	law
+government	govern	17	law	law
+political science	polit	878	law	law
+international relations	intern relat	243	law	law
 legal studies	legal	55	law	law
 paralegal studies	paraleg	72	law	law
 public administration	public administr	71	law	law
@@ -212,13 +215,10 @@ economics	econom	1155	social science	social
 educational psychology	educ psycholog	38	social science	social
 family science	famili	40	social science	social
 geography	geographi	226	social science	social
-government	govern	17	social science	social
 human development	human develop	86	social science	social
 industrial psychology	industri psycholog	26	social science	social
-international relations	intern relat	243	social science	social
 mental health counseling	mental health counsel	48	social science	social
 organizational psychology	organiz psycholog	7	social science	social
-political science	polit	878	social science	social
 psychology	psycholog	14003	social science	social
 rehabilitation services	rehabilit servic	78	social science	social
 social psychology	social psycholog	17	social science	social

@@ -6,7 +6,7 @@
     * social science has good accuracy for correct predictions, but awful mis-predicts quite often
     * how can we resolve this?
     * what if i downsample psych?
-- [ ] when clustering/masking categories, also cluster/mask their relevenat interests
+- [ ] when clustering/masking categories, also cluster/mask their relevant interests
 - [ ] think about points
     * should we even recommend courses outside a points range? aysha got recommended a 370 point course despite having 625
         * findmycollegecourse actually has a point range preference - should we add this as a preference too?
@@ -51,7 +51,7 @@ Poor performance on:
 * physical science
     * not the best, but that's because there are no physical science questions
     * but LC subjects compensate for this
-* amazing performance on social science
+* solid accuracy on social science
     * but it also predicts other categories **a lot**
     * I wonder if doing some adjustments here could drastically improve model performance?
         * e.g. downsampling
