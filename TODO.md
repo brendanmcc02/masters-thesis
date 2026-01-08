@@ -1,6 +1,5 @@
 # TODO
 
-- [ ] BHHS re-classification for cao dataset
 - [ ] cao re-classification for econ (add business maybe?)
 - [ ] what do i do about psych
     * what if i downsample psych?
