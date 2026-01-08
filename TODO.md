@@ -1,10 +1,9 @@
 # TODO
 
+- [ ] BHHS re-classification for cao dataset
+- [ ] cao re-classification for econ (add business maybe?)
 - [ ] what do i do about psych
     * what if i downsample psych?
-- [ ] should econ be classed as business?
-    * model classifies "social science" as business a lot more
-    * also kinda makes more sense ngl
 - [ ] should i downsample business?
 - [ ] when clustering/masking categories, also cluster/mask their relevant interests
 - [ ] think about points
@@ -22,43 +21,6 @@
 - [ ] think about how to phrase RIASEC question:
     * e.g. `"On a scale of 0-4, how much would you enjoy (or how interesting would you find) doing these activities as part of a college course?"`
     * **note:** there is a discrepancy here, because the original dataset was trained on the question: *"on a 1-5 scale of how much they would like to perform that task"*
+- [ ] instead of LC subjects, what about straight up asking them questions like in the 48Q?
+    * could take inspiration from fmcc, fill in the gaps (e.g. law, foreign languages, social sciences, communications, hospitality, humanities, physical/chemical sciences)
 - [ ] create a usable interface
-
-```
-* social work/youth development etc is healthcare
-    * there are a lot of social work-related questions, I think the model could do a good job of predicting this & differentiating from med, nursing, etc.
-* create a languages category?
-    * humanities feels way too broad
-    * you have to consider there are 1-2 languages in the LC too, so there will be a good bit of data on this
-    * lots of courses have languages as an option, so this could really make sense actually
-    * e.g. if they love computers and german, german + cs would get recommended
-    * i would have to check the dataset pre-processing again tbh
-    * no similarly-worded question from the 48Q dataset, but there are humanity-related questions
-    * ngl LC subjects are the banker for this
-* psychology category?
-    * a lot of similarities with social science
-    * but it does have a bit more bio focus e.g. neuroscience, biological factors behind human behaviour and the mind
-```
-
-Analysis of the dataset:
-
-Poor performance on:
-* foreign languages
-    * but there are LC subjects to compensate for this, so I don't think it's a huge issue
-* law
-    * 3 LC subjects on it - business, politics and climate action
-    * so this can compensate for it
-* physical science
-    * not the best, but that's because there are no physical science questions
-    * but LC subjects compensate for this
-* solid accuracy on social science
-    * but it also predicts other categories **a lot**
-    * I wonder if doing some adjustments here could drastically improve model performance?
-        * e.g. downsampling
-
-
-Social Science:
-
-```tsv
-
-```
