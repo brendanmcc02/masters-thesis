@@ -167,6 +167,7 @@ rhetoric	rhetor	5	humanities	human
 theology	theolog	114	humanities	human
 criminal justice	crimin justic	936	law	law
 government	govern	17	law	law
+criminology	criminolog	190	law	law
 political science	polit	878	law	law
 international relations	intern relat	243	law	law
 legal studies	legal	55	law	law
@@ -210,7 +211,6 @@ child development	child develop	78	social science	social
 clinical psychology	clinic psycholog	55	social science	social
 counseling	counsel	803	social science	social
 counseling psychology	counsel psycholog	50	social science	social
-criminology	criminolog	190	social science	social
 economics	econom	1155	social science	social
 educational psychology	educ psycholog	38	social science	social
 family science	famili	40	social science	social
