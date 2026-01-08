@@ -5,9 +5,7 @@
 - [ ] create psychology category? separate from social science?
     * social science has good accuracy for correct predictions, but awful mis-predicts quite often
     * how can we resolve this?
-- [ ] chemical sciences category? 
-    * might be too granular tbh
-    * skeptical about this ngl
+    * what if i downsample psych?
 - [ ] when clustering/masking categories, also cluster/mask their relevenat interests
 - [ ] think about points
     * should we even recommend courses outside a points range? aysha got recommended a 370 point course despite having 625
@@ -41,3 +39,20 @@
     * a lot of similarities with social science
     * but it does have a bit more bio focus e.g. neuroscience, biological factors behind human behaviour and the mind
 ```
+
+Analysis of the dataset:
+
+Poor performance on:
+* foreign languages
+    * but there are LC subjects to compensate for this, so I don't think it's a huge issue
+* law
+    * 3 LC subjects on it - business, politics and climate action
+    * so this can compensate for it
+* physical science
+    * not the best, but that's because there are no physical science questions
+    * but LC subjects compensate for this
+* amazing performance on social science
+    * but it also predicts other categories **a lot**
+    * I wonder if doing some adjustments here could drastically improve model performance?
+        * e.g. downsampling
+
