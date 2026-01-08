@@ -30,6 +30,7 @@ human development	human develop	86	behavioural health and human services	behavio
 human services	human servic	324	behavioural health and human services	behaviour health human servic
 mental health counseling	mental health counsel	48	behavioural health and human services	behaviour health human servic
 occupational therapy	occup therapi	106	behavioural health and human services	behaviour health human servic
+psychology	psycholog	14003	behavioural health and human services	behaviour health human servic
 rehabilitation services	rehabilit servic	78	behavioural health and human services	behaviour health human servic
 social work	social work	709	behavioural health and human services	behaviour health human servic
 speech pathology	speech patholog	74	behavioural health and human services	behaviour health human servic
@@ -40,6 +41,7 @@ administration	administr	101	business	busi
 business administration	busi administr	934	business	busi
 business management	busi manag	768	business	busi
 e-commerce	commerc	289	business	busi
+economics	econom	1155	business	busi
 entrepreneurship	entrepreneurship	36	business	busi
 finance	financ	798	business	busi
 human resources	human resourc	423	business	busi
@@ -69,7 +71,6 @@ statistics	statist	79	computers & mathematics	comput mathemat
 telecommunications	telecommun	17	computers & mathematics	comput mathemat
 adult education	adult educ	16	education	educ
 art education	art educ	36	education	educ
-drama education	drama educ	0	education	educ
 early childhood education	childhood educ	176	education	educ
 educational administration	educ administr	15	education	educ
 elementary education	elementari educ	167	education	educ
@@ -212,9 +213,7 @@ meteorology	meteorolog	11	physical science	physic
 physics	physic	1102	physical science	physic
 radiology	radiolog	55	physical science	physic
 behavioral science	behavior	57	social science	social
-economics	econom	1155	social science	social
 geography	geographi	226	social science	social
-psychology	psycholog	14003	social science	social
 sociology	sociolog	922	social science	social
 athletic training	athlet train	53	sport	sport
 exercise and sport science	exercis sport	12	sport	sport

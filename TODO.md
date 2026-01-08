@@ -1,11 +1,11 @@
 # TODO
 
-- [ ] create social work/youth work?
-    * communication disorders, etc
-- [ ] create psychology category? separate from social science?
-    * social science has good accuracy for correct predictions, but awful mis-predicts quite often
-    * how can we resolve this?
+- [ ] what do i do about psych
     * what if i downsample psych?
+- [ ] should econ be classed as business?
+    * model classifies "social science" as business a lot more
+    * also kinda makes more sense ngl
+- [ ] should i downsample business?
 - [ ] when clustering/masking categories, also cluster/mask their relevant interests
 - [ ] think about points
     * should we even recommend courses outside a points range? aysha got recommended a 370 point course despite having 625
@@ -59,12 +59,6 @@ Poor performance on:
 
 Social Science:
 
-* theoretical social science: interest in human behaviour - mostly 'I' and 'A':
-    * psych - could downsample this?
-    * econ
-    * sociology
-    * geography
-* applied social science - mostly 'R' and 'S':
-    * counseling
-    * social work
-    * rehabilitation
+```tsv
+
+```
