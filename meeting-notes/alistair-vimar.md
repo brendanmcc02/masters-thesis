@@ -4,7 +4,7 @@ he had every course and every criteria
 
 starts quiz/interests first -> 150 questions
 * validating your interest in the different categories
-* ~20 categories
+* 23 categories
 * sys gives you a score
 * 6-8 questions per category, v little -> v high
 * gets score for each category

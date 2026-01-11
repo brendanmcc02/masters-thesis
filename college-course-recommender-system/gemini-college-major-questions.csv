@@ -1,41 +1,4 @@
-# TODO
-
-- [ ] cao re-classification for econ (add business maybe?)
-- [ ] what do i do about psych
-    * what if i downsample psych?
-- [ ] should i downsample business?
-- [ ] when clustering/masking categories, also cluster/mask their relevant interests
-- [ ] think about points
-    * should we even recommend courses outside a points range? aysha got recommended a 370 point course despite having 625
-        * findmycollegecourse actually has a point range preference - should we add this as a preference too?
-    * should the points dimension be a number between 0 and 625? instead of 0-1.0?
-    * or do we remove the points dimension entirely, calculate the cosine sim, then multiply it by a normalised points difference value?
-- [ ] do I actually have to recommend 10 courses?
-    * can I recommend more?
-    * think again about the implications for evaluation
-- [ ] think about "joint honours" / "arts" courses with multi-options, can I deal with them in a smarter way?
-    * or at the very least, review their RIASEC and categories, I'm a bit sus
-- [ ] think about how to phrase LC subject question:
-    * e.g. `*"On a scale of 0-4, how much would you enjoy (or how interesting would you find) studying this subject at college?"*`
-- [ ] think about how to phrase RIASEC question:
-    * e.g. `"On a scale of 0-4, how much would you enjoy (or how interesting would you find) doing these activities as part of a college course?"`
-    * **note:** there is a discrepancy here, because the original dataset was trained on the question: *"on a 1-5 scale of how much they would like to perform that task"*
-- [ ] instead of LC subjects, what about straight up asking them questions like in the 48Q?
-    * could take inspiration from fmcc, fill in the gaps (e.g. law, foreign languages, social sciences, communications, hospitality, humanities, physical/chemical sciences)
-- [ ] create a usable interface
-
-* Using Donnchadh's questions would require work on the `cao-college-courses.json` dataset
-    * would need to re-categorise many courses
-    * doable, probably 2-3 days of work
-* I could also just keep working with my categorisation
-    * the **way** in which we achieve the RIASEC and category interests would be different
-    * but the recommendation algorithm would still need more work and thought
-
-OP dataset + LC is not exhaustive for categories -> very limiting
-I think it does a good job of getting a RIASEC insight, but not for categories
-
-```csv
-College Major,Category,RIASEC,Task-Based Question
+college_major,college_major_category,riasec,question
 Acting,Arts,A,Perform a character role in a stage production or film.
 Animation,Arts,A,Create digital characters and movement for a 3D film.
 Art and Design,Arts,A,Develop a visual brand identity for a new lifestyle product.
@@ -259,28 +222,3 @@ Kinesiology,Sport,I,Study the mechanics of body movements.
 Physical Therapy,Sport,S,Guide patients through exercises to regain mobility.
 Sports Management,Sport,E,Handle the business and marketing side of a sports team.
 Sports Medicine,Sport,I,Provide medical care tailored to athletes and active people.
-```
-
-```
-my 10 UNIQUE courses:
-
-tcd cs
-tcd math
-ucd econ fi
-tcd tp
-tcd dent
-rcsi med
-ucd vet med
-ucd arch
-tcd psych
-ucd actuarial financial studies
-
-my 2026 CAO:
-tcd cs
-ucd cs
-
-my 2020 CAO:
-tcd cs
-ucd cs
-tud cs
-```
