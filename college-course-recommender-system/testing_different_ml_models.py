@@ -5,7 +5,6 @@ from sklearn.metrics import top_k_accuracy_score, accuracy_score
 from sklearn.dummy import DummyClassifier
 from sklearn.ensemble import HistGradientBoostingClassifier
 from collections import defaultdict
-from sklearn.metrics import classification_report
 import matplotlib.pyplot as plt
 from sklearn.metrics import ConfusionMatrixDisplay
 
@@ -92,28 +91,6 @@ most_frequent_baseline_model.fit(X_train, y_train)
 y_predicted_class_probabilities_most_frequent = most_frequent_baseline_model.predict_proba(X_test)
 y_predicted_most_frequent = most_frequent_baseline_model.predict(X_test)
 
-# print("HBGM Classification Report")
-# report = classification_report(y_test, y_predicted_test_hist_gradient_boosting_machines)
-# print(report)
-
-fig, ax = plt.subplots(figsize=(12, 12))
-ConfusionMatrixDisplay.from_predictions(
-    y_test, 
-    y_predicted_test_hist_gradient_boosting_machines, 
-    ax=ax, 
-    cmap='Blues',
-    xticks_rotation='vertical'
-)
-
-college_major_categories = dataset['college_major_category'].unique()
-stringified_college_major_categories_with_indexes = ""
-for i in range(len(college_major_categories)):
-    stringified_college_major_categories_with_indexes += str(i) + "-" + college_major_categories[i] + ", "
-
-plt.title("Confusion Matrix for College Major Categories")
-plt.suptitle(stringified_college_major_categories_with_indexes, fontsize=7)
-plt.show()
-
 # proportions
 print("\n# EVALUATION")
 
@@ -129,6 +106,7 @@ for college_major_category in y_test:
 
 print("\n## PROPORTIONS")
 print("CATEGORY    PREDICTED    ACTUAL")
+college_major_categories = dataset['college_major_category'].unique()
 sum_of_squared_differences = 0.0
 for j in range(len(college_major_categories)):
     actual_proportion = round((test_college_major_category_counts[j] / len(y_test)) * 100, 1)
@@ -145,6 +123,23 @@ print_top_k_accuracy_metric(y_train, "Hist Gradient Boosting Machines", number_o
 print_top_1_accuracy_metric(y_test, "Hist Gradient Boosting Machines", "test", y_predicted_test_hist_gradient_boosting_machines)
 print_top_1_accuracy_metric(y_train, "Hist Gradient Boosting Machines", "train", y_predicted_train_hist_gradient_boosting_machines)
 # print_top_1_accuracy_metric(y_test, "Most Frequent Baseline", "test", y_predicted_most_frequent)
+
+fig, ax = plt.subplots(figsize=(12, 12))
+ConfusionMatrixDisplay.from_predictions(
+    y_test, 
+    y_predicted_test_hist_gradient_boosting_machines, 
+    ax=ax, 
+    cmap='Blues',
+    xticks_rotation='vertical'
+)
+
+stringified_college_major_categories_with_indexes = ""
+for i in range(len(college_major_categories)):
+    stringified_college_major_categories_with_indexes += str(i) + "-" + college_major_categories[i] + ", "
+
+plt.title("Confusion Matrix for College Major Categories")
+plt.suptitle(stringified_college_major_categories_with_indexes, fontsize=6)
+plt.show()
 
 # 0-2 LIKERT SCALE (0-4 has better performance)
 # 0.629 - Logistic Regression Test Accuracy

@@ -1,3 +1,8 @@
-from filter_open_psychometrics_data_utils import preprocess_text
+import pandas as pd
 
-print(str(preprocess_text("don't do that")))
+df = pd.read_csv("ratings.csv", low_memory=False)
+
+cols = ["Name", "Year", "Rating"]
+df = df[cols].copy()
+
+df.to_csv("ratings.csv", index=False)

@@ -21,6 +21,19 @@ studio arts	studio art	43	arts	art
 theater	theater	49	arts	art
 visual arts	visual art	37	arts	art
 writing	write	75	arts	art
+child development	child develop	78	behavioural health and human services	behaviour health human servic
+clinical psychology	clinic psycholog	55	behavioural health and human services	behaviour health human servic
+communication disorders	communic disord	66	behavioural health and human services	behaviour health human servic
+counseling	counsel	803	behavioural health and human services	behaviour health human servic
+family science	famili	40	behavioural health and human services	behaviour health human servic
+human development	human develop	86	behavioural health and human services	behaviour health human servic
+human services	human servic	324	behavioural health and human services	behaviour health human servic
+mental health counseling	mental health counsel	48	behavioural health and human services	behaviour health human servic
+occupational therapy	occup therapi	106	behavioural health and human services	behaviour health human servic
+psychology	psycholog	14003	behavioural health and human services	behaviour health human servic
+rehabilitation services	rehabilit servic	78	behavioural health and human services	behaviour health human servic
+social work	social work	709	behavioural health and human services	behaviour health human servic
+speech pathology	speech patholog	74	behavioural health and human services	behaviour health human servic
 accounting	account	1640	business	busi
 accounting and finance	account financ	67	business	busi
 actuarial science	actuari	60	business	busi
@@ -28,6 +41,7 @@ administration	administr	101	business	busi
 business administration	busi administr	934	business	busi
 business management	busi manag	768	business	busi
 e-commerce	commerc	289	business	busi
+economics	econom	1155	business	busi
 entrepreneurship	entrepreneurship	36	business	busi
 finance	financ	798	business	busi
 human resources	human resourc	423	business	busi
@@ -57,7 +71,6 @@ statistics	statist	79	computers & mathematics	comput mathemat
 telecommunications	telecommun	17	computers & mathematics	comput mathemat
 adult education	adult educ	16	education	educ
 art education	art educ	36	education	educ
-drama education	drama educ	0	education	educ
 early childhood education	childhood educ	176	education	educ
 educational administration	educ administr	15	education	educ
 elementary education	elementari educ	167	education	educ
@@ -118,14 +131,12 @@ portuguese	portugues	4	foreign languages	languag
 russian	russian	18	foreign languages	languag
 spanish	spanish	125	foreign languages	languag
 translation	translat	56	foreign languages	languag
-communication disorders	communic disord	66	healthcare	healthcar
 community health	communiti health	17	healthcare	healthcar
 dental hygiene	dentistri hygien	40	healthcare	healthcar
 dental technology	dentistri technolog	1	healthcare	healthcar
 dentistry	dentistri	127	healthcare	healthcar
 health administration	health administr	15	healthcare	healthcar
 health services	health servic	11	healthcare	healthcar
-human services	human servic	324	healthcare	healthcar
 medic	medic	46	healthcare	healthcar
 medical administration	medicin administr	12	healthcare	healthcar
 medical assisting	medicin assist	87	healthcare	healthcar
@@ -134,11 +145,8 @@ medicine technology	medicin technolog	60	healthcare	healthcar
 midwifery	midwiferi	8	healthcare	healthcar
 nursing	nurs	2487	healthcare	healthcar
 nutrition science	nutrit	170	healthcare	healthcar
-occupational therapy	occup therapi	106	healthcare	healthcar
 pharmacy	pharmaci	283	healthcare	healthcar
 public health	public health	152	healthcare	healthcar
-social work	social work	709	healthcare	healthcar
-speech pathology	speech patholog	74	healthcare	healthcar
 veterinarian	veterinarian	220	healthcare	healthcar
 veterinarian technology	veterinarian technolog	16	healthcare	healthcar
 culinary arts	culinari art	163	hospitality	hospit
@@ -148,8 +156,6 @@ hotel management	hotel manag	43	hospitality	hospit
 tourism	tourism	124	hospitality	hospit
 tourism management	tourism manag	25	hospitality	hospit
 anthropology	anthropolog	309	humanities	human
-archeology	archeolog	3	humanities	human
-area ethnic studies	area ethnic	0	humanities	human
 art history	art histori	128	humanities	human
 civilization studies	civil	31	humanities	human
 classical studies	classic	55	humanities	human
@@ -166,12 +172,12 @@ religious studies	religi	38	humanities	human
 rhetoric	rhetor	5	humanities	human
 theology	theolog	114	humanities	human
 criminal justice	crimin justic	936	law	law
-government	govern	17	law	law
 criminology	criminolog	190	law	law
-political science	polit	878	law	law
+government	govern	17	law	law
 international relations	intern relat	243	law	law
 legal studies	legal	55	law	law
 paralegal studies	paraleg	72	law	law
+political science	polit	878	law	law
 public administration	public administr	71	law	law
 public policy	public polici	26	law	law
 agricultural science	agricultur	93	life science	life
@@ -207,21 +213,7 @@ meteorology	meteorolog	11	physical science	physic
 physics	physic	1102	physical science	physic
 radiology	radiolog	55	physical science	physic
 behavioral science	behavior	57	social science	social
-child development	child develop	78	social science	social
-clinical psychology	clinic psycholog	55	social science	social
-counseling	counsel	803	social science	social
-counseling psychology	counsel psycholog	50	social science	social
-economics	econom	1155	social science	social
-educational psychology	educ psycholog	38	social science	social
-family science	famili	40	social science	social
 geography	geographi	226	social science	social
-human development	human develop	86	social science	social
-industrial psychology	industri psycholog	26	social science	social
-mental health counseling	mental health counsel	48	social science	social
-organizational psychology	organiz psycholog	7	social science	social
-psychology	psycholog	14003	social science	social
-rehabilitation services	rehabilit servic	78	social science	social
-social psychology	social psycholog	17	social science	social
 sociology	sociolog	922	social science	social
 athletic training	athlet train	53	sport	sport
 exercise and sport science	exercis sport	12	sport	sport
