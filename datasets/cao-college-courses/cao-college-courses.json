@@ -470,7 +470,7 @@
         ],
         "categories": [
             "business",
-            "computers"
+            "mathematics"
         ]
     },
     {
@@ -491,7 +491,7 @@
         ],
         "categories": [
             "business",
-            "computers"
+            "mathematics"
         ]
     },
     {
@@ -1136,8 +1136,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -1458,8 +1458,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -1478,8 +1478,8 @@
             "enterprising"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -1497,8 +1497,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -1516,8 +1516,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -1535,8 +1535,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -1554,8 +1554,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -3150,8 +3150,8 @@
             "enterprising"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -3492,8 +3492,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -3511,8 +3511,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -3530,8 +3530,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -3549,8 +3549,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -3586,8 +3586,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -3605,8 +3605,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -3791,8 +3791,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
             "communications",
+            "creative arts",
             "social science"
         ]
     },
@@ -3811,8 +3811,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -3979,8 +3979,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -3998,8 +3998,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -4017,8 +4017,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -4036,8 +4036,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -4055,8 +4055,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -4171,8 +4171,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -4209,7 +4209,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "physical science"
         ]
     },
@@ -4228,7 +4228,7 @@
             "investigative"
         ],
         "categories": [
-            "computers"
+            "mathematics"
         ]
     },
     {
@@ -4246,7 +4246,7 @@
             "investigative"
         ],
         "categories": [
-            "computers"
+            "mathematics"
         ]
     },
     {
@@ -4264,7 +4264,7 @@
             "investigative"
         ],
         "categories": [
-            "computers"
+            "mathematics"
         ]
     },
     {
@@ -4282,7 +4282,7 @@
             "investigative"
         ],
         "categories": [
-            "computers"
+            "mathematics"
         ]
     },
     {
@@ -4300,7 +4300,7 @@
             "investigative"
         ],
         "categories": [
-            "computers"
+            "mathematics"
         ]
     },
     {
@@ -4319,8 +4319,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
             "communications",
+            "creative arts",
             "social science"
         ]
     },
@@ -4358,8 +4358,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -4433,8 +4433,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -4453,8 +4453,8 @@
             "social"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -4586,8 +4586,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -5059,9 +5059,9 @@
             "social"
         ],
         "categories": [
-            "creative arts",
             "communications",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -5116,8 +5116,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -5154,8 +5154,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -5235,8 +5235,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -5255,8 +5255,8 @@
             "social"
         ],
         "categories": [
-            "computers",
-            "education"
+            "education",
+            "mathematics"
         ]
     },
     {
@@ -5353,8 +5353,8 @@
             "enterprising"
         ],
         "categories": [
-            "creative arts",
-            "business"
+            "business",
+            "creative arts"
         ]
     },
     {
@@ -5548,8 +5548,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "business"
+            "business",
+            "creative arts"
         ]
     },
     {
@@ -9952,8 +9952,8 @@
             "investigative"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -10428,8 +10428,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "business"
+            "business",
+            "creative arts"
         ]
     },
     {
@@ -10447,8 +10447,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "business"
+            "business",
+            "creative arts"
         ]
     },
     {
@@ -10486,7 +10486,7 @@
         ],
         "categories": [
             "business",
-            "computers"
+            "mathematics"
         ]
     },
     {
@@ -10527,8 +10527,8 @@
             "enterprising"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -10548,8 +10548,8 @@
             "enterprising"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -10609,8 +10609,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -10742,8 +10742,8 @@
             "investigative"
         ],
         "categories": [
-            "computers",
-            "humanities"
+            "humanities",
+            "mathematics"
         ]
     },
     {
@@ -10876,8 +10876,8 @@
             "enterprising"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -10896,8 +10896,8 @@
             "enterprising"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -10916,8 +10916,8 @@
             "enterprising"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -11416,8 +11416,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -11656,8 +11656,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -11676,8 +11676,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -11754,8 +11754,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -11774,8 +11774,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -11794,8 +11794,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -12327,9 +12327,9 @@
             "enterprising"
         ],
         "categories": [
-            "creative arts",
             "business",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -12348,9 +12348,9 @@
             "enterprising"
         ],
         "categories": [
-            "creative arts",
             "business",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -12407,8 +12407,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
             "business",
+            "creative arts",
             "humanities"
         ]
     },
@@ -12428,8 +12428,8 @@
             "social"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -12448,8 +12448,8 @@
             "social"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -12468,8 +12468,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -12487,8 +12487,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -12506,8 +12506,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -12565,8 +12565,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -12584,8 +12584,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -12603,8 +12603,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -12622,8 +12622,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
             "business",
+            "creative arts",
             "social science"
         ]
     },
@@ -12642,8 +12642,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -12661,8 +12661,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
             "communications",
+            "creative arts",
             "social science"
         ]
     },
@@ -13475,8 +13475,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "business"
+            "business",
+            "creative arts"
         ]
     },
     {
@@ -13494,8 +13494,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -13531,8 +13531,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -13609,8 +13609,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -13628,8 +13628,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -14161,8 +14161,8 @@
             "investigative"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -14829,7 +14829,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "social science"
         ]
     },
@@ -14909,7 +14909,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "social science"
         ]
     },
@@ -15228,8 +15228,8 @@
             "social"
         ],
         "categories": [
-            "computers",
-            "education"
+            "education",
+            "mathematics"
         ]
     },
     {
@@ -15491,8 +15491,8 @@
         ],
         "categories": [
             "education",
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -15575,8 +15575,8 @@
         ],
         "categories": [
             "education",
-            "languages",
-            "hospitality"
+            "hospitality",
+            "languages"
         ]
     },
     {
@@ -15617,8 +15617,8 @@
         ],
         "categories": [
             "business",
-            "computers",
-            "education"
+            "education",
+            "mathematics"
         ]
     },
     {
@@ -15638,9 +15638,9 @@
             "social"
         ],
         "categories": [
-            "computers",
             "education",
-            "languages"
+            "languages",
+            "mathematics"
         ]
     },
     {
@@ -16893,8 +16893,8 @@
             "social"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -17087,8 +17087,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
             "communications",
+            "creative arts",
             "humanities"
         ]
     },
@@ -17716,8 +17716,8 @@
             "enterprising"
         ],
         "categories": [
-            "creative arts",
-            "business"
+            "business",
+            "creative arts"
         ]
     },
     {
@@ -17735,8 +17735,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -17754,8 +17754,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -17773,8 +17773,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -17792,8 +17792,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -17811,8 +17811,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -17830,8 +17830,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -17849,8 +17849,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -17868,8 +17868,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -17887,8 +17887,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -17907,8 +17907,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
             "communications",
+            "creative arts",
             "humanities"
         ]
     },
@@ -17927,8 +17927,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
             "communications",
+            "creative arts",
             "humanities"
         ]
     },
@@ -17947,8 +17947,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
             "communications",
+            "creative arts",
             "humanities"
         ]
     },
@@ -17967,8 +17967,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
             "communications",
+            "creative arts",
             "humanities"
         ]
     },
@@ -17987,8 +17987,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
             "communications",
+            "creative arts",
             "languages"
         ]
     },
@@ -18007,8 +18007,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -18026,8 +18026,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -18045,8 +18045,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -18064,8 +18064,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -18083,8 +18083,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -18102,8 +18102,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -18180,7 +18180,7 @@
         ],
         "categories": [
             "business",
-            "computers"
+            "mathematics"
         ]
     },
     {
@@ -18201,7 +18201,7 @@
         ],
         "categories": [
             "business",
-            "computers",
+            "mathematics",
             "social science"
         ]
     },
@@ -18724,8 +18724,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -18874,8 +18874,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -18893,8 +18893,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -18912,8 +18912,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -18931,8 +18931,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -18950,8 +18950,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -19561,8 +19561,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -19871,8 +19871,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -19890,8 +19890,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -19909,8 +19909,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -19928,8 +19928,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -19947,8 +19947,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -19966,8 +19966,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -19985,8 +19985,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -20004,8 +20004,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -21136,8 +21136,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -21176,8 +21176,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -21559,8 +21559,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -21579,8 +21579,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -22322,8 +22322,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "business"
+            "business",
+            "creative arts"
         ]
     },
     {
@@ -22456,8 +22456,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -22475,8 +22475,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -22514,8 +22514,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -22629,8 +22629,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -22648,8 +22648,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -22704,7 +22704,7 @@
             "investigative"
         ],
         "categories": [
-            "computers"
+            "mathematics"
         ]
     },
     {
@@ -22759,8 +22759,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -22796,8 +22796,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -22934,8 +22934,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -23959,8 +23959,8 @@
             "investigative"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -24525,7 +24525,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "physical science"
         ]
     },
@@ -24544,7 +24544,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "physical science"
         ]
     },
@@ -24563,7 +24563,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "physical science"
         ]
     },
@@ -24582,7 +24582,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "physical science"
         ]
     },
@@ -24601,7 +24601,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "physical science"
         ]
     },
@@ -24620,7 +24620,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "social science"
         ]
     },
@@ -24640,8 +24640,8 @@
             "social"
         ],
         "categories": [
-            "computers",
-            "education"
+            "education",
+            "mathematics"
         ]
     },
     {
@@ -24660,8 +24660,8 @@
             "social"
         ],
         "categories": [
-            "computers",
-            "education"
+            "education",
+            "mathematics"
         ]
     },
     {
@@ -24679,7 +24679,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "physical science"
         ]
     },
@@ -24698,7 +24698,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "physical science"
         ]
     },
@@ -24718,8 +24718,8 @@
             "investigative"
         ],
         "categories": [
-            "computers",
-            "languages"
+            "languages",
+            "mathematics"
         ]
     },
     {
@@ -24739,7 +24739,7 @@
         ],
         "categories": [
             "creative arts",
-            "computers"
+            "mathematics"
         ]
     },
     {
@@ -24758,8 +24758,8 @@
             "investigative"
         ],
         "categories": [
-            "computers",
-            "humanities"
+            "humanities",
+            "mathematics"
         ]
     },
     {
@@ -24778,8 +24778,8 @@
             "social"
         ],
         "categories": [
-            "computers",
-            "education"
+            "education",
+            "mathematics"
         ]
     },
     {
@@ -25375,8 +25375,8 @@
             "enterprising"
         ],
         "categories": [
-            "creative arts",
             "communications",
+            "creative arts",
             "social science"
         ]
     },
@@ -25396,9 +25396,9 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
             "communications",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -25417,8 +25417,8 @@
             "social"
         ],
         "categories": [
-            "creative arts",
             "communications",
+            "creative arts",
             "social science"
         ]
     },
@@ -25904,8 +25904,8 @@
             "social"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -25924,8 +25924,8 @@
             "investigative"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -25981,8 +25981,8 @@
             "artistic"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -26316,9 +26316,9 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
             "communications",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -26336,8 +26336,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -26356,8 +26356,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
             "computers",
+            "creative arts",
             "physical science"
         ]
     },
@@ -26505,8 +26505,8 @@
             "realistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -26525,8 +26525,8 @@
             "realistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -26584,8 +26584,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "business"
+            "business",
+            "creative arts"
         ]
     },
     {
@@ -26603,8 +26603,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "business"
+            "business",
+            "creative arts"
         ]
     },
     {
@@ -26682,8 +26682,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -26721,9 +26721,9 @@
             "realistic"
         ],
         "categories": [
-            "creative arts",
             "communications",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -26839,8 +26839,8 @@
             "social"
         ],
         "categories": [
-            "languages",
-            "humanities"
+            "humanities",
+            "languages"
         ]
     },
     {
@@ -26899,8 +26899,8 @@
             "social"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -28061,8 +28061,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -28080,8 +28080,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -28099,8 +28099,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -28268,8 +28268,8 @@
             "social"
         ],
         "categories": [
-            "computers",
             "education",
+            "mathematics",
             "sport"
         ]
     },
@@ -29662,7 +29662,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "social science"
         ]
     },
@@ -30593,7 +30593,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "physical science"
         ]
     },
@@ -30908,8 +30908,8 @@
             "social"
         ],
         "categories": [
-            "computers",
             "education",
+            "mathematics",
             "physical science"
         ]
     },
@@ -31010,8 +31010,8 @@
             "social"
         ],
         "categories": [
-            "computers",
             "education",
+            "mathematics",
             "physical science"
         ]
     },
@@ -31563,8 +31563,8 @@
             "social"
         ],
         "categories": [
-            "creative arts",
             "communications",
+            "creative arts",
             "law",
             "social science"
         ]
@@ -31802,8 +31802,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -31822,8 +31822,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -32015,8 +32015,8 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -33172,8 +33172,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -33248,8 +33248,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -33267,8 +33267,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "business"
+            "business",
+            "creative arts"
         ]
     },
     {
@@ -33361,7 +33361,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "physical science"
         ]
     },
@@ -33583,8 +33583,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -33602,8 +33602,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -33819,8 +33819,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -33838,8 +33838,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -33857,8 +33857,8 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "communications"
+            "communications",
+            "creative arts"
         ]
     },
     {
@@ -33896,9 +33896,9 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
             "communications",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -33916,9 +33916,9 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
             "communications",
-            "computers"
+            "computers",
+            "creative arts"
         ]
     },
     {
@@ -33937,8 +33937,8 @@
             "enterprising"
         ],
         "categories": [
-            "creative arts",
-            "business"
+            "business",
+            "creative arts"
         ]
     },
     {

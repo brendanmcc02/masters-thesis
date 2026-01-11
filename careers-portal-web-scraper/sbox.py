@@ -4,8 +4,10 @@ file = open("../datasets/cao-college-courses/cao-college-courses.json")
 courses = json.load(file)
 
 for course in courses:
-    if "psychology" in course['title'].lower() and "behavioural health and human services" in course['categories'] and "social science" in course['categories']:
-        print(course['title'])
+    # title = course['title'].lower()
+    # if "math" in title or "actuar" in title:
+    #     course['categories'].remove("computers")
+    #     course['categories'].append("mathematics")
 
     course["categories"] = sorted(list(set(course["categories"])))
     course["interests"] = sorted(list(set(course["interests"])))
