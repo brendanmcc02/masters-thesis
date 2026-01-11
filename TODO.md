@@ -1,13 +1,20 @@
 # TODO
 
 ## new approach
-- [ ] cao course reclassification for donnchadh's categories!
+
+### cao course re-classification
+- [ ] separate math from ICT
+- [ ] separate chemical sciences from physical sciences
+- [ ] agriculture
+- [ ] architecture & construction
+- [ ] environment
+- [ ] manufacturing & processing
+- [ ] separate BHHS with personal services and welfare
+
 - [ ] need to readjust weights
     * category weights look good imo
     * riasec interests are so overinflated
         * or maybe the question classifies them poorly, idk
-
-
 - [ ] when clustering/masking categories, also cluster/mask their relevant interests
 - [ ] think about points
     * should we even recommend courses outside a points range? aysha got recommended a 370 point course despite having 625
