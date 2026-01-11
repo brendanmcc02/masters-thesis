@@ -1458,7 +1458,6 @@
             "artistic"
         ],
         "categories": [
-            "computers",
             "creative arts"
         ]
     },
@@ -1478,7 +1477,6 @@
             "enterprising"
         ],
         "categories": [
-            "computers",
             "creative arts"
         ]
     },
@@ -1497,7 +1495,6 @@
             "artistic"
         ],
         "categories": [
-            "computers",
             "creative arts"
         ]
     },
@@ -1516,7 +1513,6 @@
             "artistic"
         ],
         "categories": [
-            "computers",
             "creative arts"
         ]
     },
@@ -1535,7 +1531,6 @@
             "artistic"
         ],
         "categories": [
-            "computers",
             "creative arts"
         ]
     },
@@ -1554,7 +1549,6 @@
             "artistic"
         ],
         "categories": [
-            "computers",
             "creative arts"
         ]
     },
@@ -4433,7 +4427,6 @@
             "investigative"
         ],
         "categories": [
-            "computers",
             "creative arts"
         ]
     },
@@ -4923,7 +4916,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "social science"
         ]
     },
@@ -5060,7 +5053,6 @@
         ],
         "categories": [
             "communications",
-            "computers",
             "creative arts"
         ]
     },
@@ -10505,9 +10497,7 @@
             "realistic"
         ],
         "categories": [
-            "computers",
-            "engineering",
-            "life science"
+            "engineering"
         ]
     },
     {
@@ -22815,7 +22805,7 @@
             "investigative"
         ],
         "categories": [
-            "computers"
+            "mathematics"
         ]
     },
     {
@@ -29807,7 +29797,8 @@
         ],
         "categories": [
             "business",
-            "computers"
+            "computers",
+            "mathematics"
         ]
     },
     {
@@ -32873,7 +32864,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "social science"
         ]
     },
@@ -33342,7 +33333,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "mathematics",
             "physical science"
         ]
     },
