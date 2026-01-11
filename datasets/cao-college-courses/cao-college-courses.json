@@ -7500,7 +7500,7 @@
     {
         "id": "TU902 BUS",
         "title": "Business (General Entry) - Business",
-        "preprocessed_title": "busi -",
+        "preprocessed_title": "busi",
         "college": "TU Dublin - Blanchardstown",
         "region": "Dublin",
         "duration": "4 Years",
@@ -7519,7 +7519,7 @@
     {
         "id": "TU772 GEN",
         "title": "Business (General Entry) - General Entry",
-        "preprocessed_title": "busi -",
+        "preprocessed_title": "busi",
         "college": "TU Dublin - Blanchardstown",
         "region": "Dublin",
         "duration": "3 Years",
@@ -7538,7 +7538,7 @@
     {
         "id": "TU902 INB",
         "title": "Business (General Entry) - International Business",
-        "preprocessed_title": "busi - intern",
+        "preprocessed_title": "busi intern",
         "college": "TU Dublin - Blanchardstown",
         "region": "Dublin",
         "duration": "4 Years",
@@ -7559,7 +7559,7 @@
     {
         "id": "TU772 INB",
         "title": "Business (General Entry) - International Business",
-        "preprocessed_title": "busi - intern",
+        "preprocessed_title": "busi intern",
         "college": "TU Dublin - Blanchardstown",
         "region": "Dublin",
         "duration": "3 Years",

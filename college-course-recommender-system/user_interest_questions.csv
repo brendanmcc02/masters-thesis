@@ -1,0 +1,133 @@
+college_course_category,question,riasec_interest
+Agriculture,Managing crop production and harvesting,realistic
+Agriculture,Operating farm tractors and machinery,realistic
+Agriculture,Selling agricultural products to markets,enterprising
+Agriculture,Caring for livestock and farm animals,realistic
+Agriculture,Implementing sustainable farming practices,realistic
+Agriculture,Managing the finances of an agricultural business,enterprising
+Architecture and Construction,Designing the aesthetic look of a new building,artistic
+Architecture and Construction,Overseeing a construction site and crew,enterprising
+Architecture and Construction,Creating detailed architectural drawings,artistic
+Architecture and Construction,Calculating material requirements for a build,realistic
+Architecture and Construction,Planning urban landscapes and spaces,artistic
+Architecture and Construction,Managing construction project timelines,enterprising
+Biological and Related Sciences,Examining cells and bacteria under a microscope,investigative
+Biological and Related Sciences,Studying genetic codes and DNA,investigative
+Biological and Related Sciences,Dissecting biological specimens for study,realistic
+Biological and Related Sciences,Researching the evolution of living organisms,investigative
+Biological and Related Sciences,Conducting field research on local wildlife,investigative
+Biological and Related Sciences,Analyzing biological samples in a lab,investigative
+Business and Information,Developing marketing strategies for products,enterprising
+Business and Information,Managing company finances and budgets,conventional
+Business and Information,Leading a team of employees to meet goals,enterprising
+Business and Information,Analyzing market trends and competition,investigative
+Business and Information,Organizing business records and data,conventional
+Business and Information,Pitching new business ideas to investors,enterprising
+Chemical Science,Conducting experiments in a chemistry laboratory,investigative
+Chemical Science,Analyzing the chemical composition of substances,investigative
+Chemical Science,Studying molecular structures and reactions,investigative
+Chemical Science,Mixing chemical compounds to create new solutions,realistic
+Chemical Science,Using laboratory equipment to test samples,realistic
+Chemical Science,Researching the properties of organic matter,investigative
+Creative Arts,"Painting, drawing, or sculpting",artistic
+Creative Arts,Composing or performing music,artistic
+Creative Arts,Acting in a theatre or film production,artistic
+Creative Arts,Designing graphic visuals and illustrations,artistic
+Creative Arts,"Writing fiction, poetry, or scripts",artistic
+Creative Arts,Creating digital art or animation,artistic
+Education,Teaching a class of students new concepts,social
+Education,Designing lesson plans and educational activities,social
+Education,Tutoring students who need extra help,social
+Education,Managing classroom behavior and dynamics,social
+Education,Mentoring young people to achieve their goals,social
+Education,Explaining complex ideas in simple ways,social
+Engineering and Engineering Trades,Designing mechanical systems and machines,investigative
+Engineering and Engineering Trades,Building prototypes of new products,realistic
+Engineering and Engineering Trades,Troubleshooting technical faults in machinery,realistic
+Engineering and Engineering Trades,Applying physics principles to structural designs,investigative
+Engineering and Engineering Trades,Drafting technical blueprints for construction,realistic
+Engineering and Engineering Trades,Testing materials for strength and durability,realistic
+Environment,Analyzing soil or water samples for pollution,investigative
+Environment,Working outdoors to conserve natural habitats,realistic
+Environment,Researching climate change data and trends,investigative
+Environment,Planting trees or restoring ecosystems,realistic
+Environment,Assessing the environmental impact of projects,investigative
+Environment,Monitoring wildlife populations in the field,investigative
+Health,Diagnosing patient illnesses and conditions,investigative
+Health,Providing direct care and comfort to patients,social
+Health,Performing medical procedures or surgeries,realistic
+Health,Explaining treatment plans to patients,social
+Health,Studying human anatomy and physiology,investigative
+Health,Assisting people with physical rehabilitation,social
+Humanities,Analyzing themes in literature and texts,investigative
+Humanities,Writing creative essays or stories,artistic
+Humanities,Researching historical events and figures,investigative
+Humanities,Discussing philosophical theories and ethics,investigative
+Humanities,Critiquing works of art or culture,artistic
+Humanities,Studying the history of ancient civilizations,investigative
+ICT,Writing computer code for software applications,investigative
+ICT,Designing secure computer networks,investigative
+ICT,Troubleshooting hardware or software issues,realistic
+ICT,Managing large databases of information,conventional
+ICT,Developing algorithms to automate tasks,investigative
+ICT,Protecting computer systems from cyber attacks,investigative
+Journalism and Information,Writing news articles or feature stories,artistic
+Journalism and Information,Interviewing public figures for information,enterprising
+Journalism and Information,Investigating facts to uncover a story,investigative
+Journalism and Information,Editing video or audio content for media,artistic
+Journalism and Information,Presenting news on camera or radio,artistic
+Journalism and Information,Researching sources for a documentary,investigative
+Languages,Translating texts from one language to another,artistic
+Languages,Conversing fluently in a foreign language,social
+Languages,Studying the culture and history of other countries,investigative
+Languages,Interpreting for people who speak different languages,social
+Languages,Reading foreign literature in its original form,artistic
+Languages,Teaching a language to non-native speakers,social
+Law,Arguing a case or debating a point of view,enterprising
+Law,Researching legal precedents and statutes,investigative
+Law,Negotiating contracts or settlements,enterprising
+Law,Analyzing evidence to build a legal argument,investigative
+Law,Advocating for the rights of a client,enterprising
+Law,Interpreting complex government regulations,conventional
+Manufacturing and Processing,Operating heavy industrial machinery,realistic
+Manufacturing and Processing,Monitoring production lines for efficiency,conventional
+Manufacturing and Processing,Assembling electronic or mechanical components,realistic
+Manufacturing and Processing,Ensuring quality control in a factory setting,conventional
+Manufacturing and Processing,Programming automated manufacturing robots,realistic
+Manufacturing and Processing,Managing inventory and supply chain logistics,conventional
+Mathematics and Statistics,Using mathematical formulas to solve complex problems,investigative
+Mathematics and Statistics,Analyzing large datasets to find patterns,investigative
+Mathematics and Statistics,Developing statistical models to predict future trends,investigative
+Mathematics and Statistics,Calculated probabilities for risk assessment,investigative
+Mathematics and Statistics,Organizing numerical data with high precision,conventional
+Mathematics and Statistics,Using logic to prove mathematical theories,investigative
+Personal Services,Planning and organizing large events,enterprising
+Personal Services,Managing the operations of a hotel,enterprising
+Personal Services,Serving customers in a hospitality setting,social
+Personal Services,Cooking in a professional kitchen,realistic
+Personal Services,Organizing travel itineraries for clients,conventional
+Personal Services,Directing service staff in a restaurant,enterprising
+Physical Science,Studying the fundamental laws of physics,investigative
+Physical Science,Observing astronomical events and data,investigative
+Physical Science,Researching renewable energy sources,investigative
+Physical Science,Calculating forces and motion in physical systems,investigative
+Physical Science,Conducting laboratory tests on matter and energy,investigative
+Physical Science,Analyzing geological samples from the earth,investigative
+Social and Behavioural Sciences,Analyzing patterns in human behavior,investigative
+Social and Behavioural Sciences,Counseling individuals through personal difficulties,social
+Social and Behavioural Sciences,Researching societal trends and demographics,investigative
+Social and Behavioural Sciences,Conducting psychological experiments or studies,investigative
+Social and Behavioural Sciences,Mediating conflicts between individuals or groups,social
+Social and Behavioural Sciences,Studying the development of the human mind,investigative
+Sports and related courses,Designing exercise programs for athletes,social
+Sports and related courses,Coaching a sports team to improve performance,social
+Sports and related courses,Analyzing the biomechanics of human movement,investigative
+Sports and related courses,Managing a sports facility or gym,enterprising
+Sports and related courses,Training to achieve peak physical fitness,realistic
+Sports and related courses,Rehabilitating sports-related injuries,realistic
+Welfare,Helping vulnerable people access support services,social
+Welfare,Organizing community outreach programs,social
+Welfare,Advocating for social justice and equality,social
+Welfare,Providing emotional support to those in crisis,social
+Welfare,Assessing the needs of families or individuals,social
+Welfare,Coordinating care with other social workers,social
