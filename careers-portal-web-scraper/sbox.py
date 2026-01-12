@@ -7,17 +7,10 @@ for course in courses:
     title = course['title'].lower()
     ow = course["overview"].lower()
 
-    if "psychology" in title:
+    if "nursing" in title and ("intellectual" in title or "mental health" in title):
         if "behavioural health and human services" in course["categories"]:
             course["categories"].remove("behavioural health and human services")
-        
-        course["categories"].append("social science")
-        # course["categories"] = []
-        
-        # if "engineer" in title:
-        #     course["categories"].append("engineering")
-
-        # course["categories"].append("manufacturing and processing")
+            course["categories"].append("social science")
 
     course["categories"] = sorted(list(set(course["categories"])))
     course["interests"] = sorted(list(set(course["interests"])))
