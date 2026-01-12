@@ -3,10 +3,10 @@
 ## new approach
 
 ### cao course re-classification
-- [ ] religion - some are social science? should be humanities
 - [ ] environment - sustainablity, etc.
 - [ ] manufacturing & processing
 - [ ] separate BHHS with personal services and welfare
+- [ ] social science is a bit of a mess ngl
 
 
 - [ ] need to readjust weights
