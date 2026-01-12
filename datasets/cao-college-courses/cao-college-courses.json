@@ -844,8 +844,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "At UCC we guarantee a comprehensive agricultural education; building from a foundation of fundamental sciences, developing core knowledge, instilling best practice applications using the very latest tools and technologies, and interrogating the business that is dairying.",
         "interests": [
-            "realistic",
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "agriculture",
@@ -1377,7 +1377,8 @@
             "realistic"
         ],
         "categories": [
-            "agriculture"
+            "agriculture",
+            "life science"
         ]
     },
     {
@@ -1415,7 +1416,8 @@
             "realistic"
         ],
         "categories": [
-            "agriculture"
+            "agriculture",
+            "life science"
         ]
     },
     {
@@ -1434,7 +1436,8 @@
             "realistic"
         ],
         "categories": [
-            "agriculture"
+            "agriculture",
+            "life science"
         ]
     },
     {
@@ -12804,8 +12807,8 @@
             "realistic"
         ],
         "categories": [
-            "life science",
-            "agriculture"
+            "agriculture",
+            "life science"
         ]
     },
     {
@@ -17346,8 +17349,7 @@
             "realistic"
         ],
         "categories": [
-            "business",
-            "life science"
+            "agriculture"
         ]
     },
     {
@@ -17365,8 +17367,7 @@
             "realistic"
         ],
         "categories": [
-            "business",
-            "life science"
+            "agriculture"
         ]
     },
     {

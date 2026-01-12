@@ -3,7 +3,6 @@
 ## new approach
 
 ### cao course re-classification
-- [ ] agriculture - horticulture, plants, crops, animal
 - [ ] architecture & construction
 - [ ] environment - sustainablity, etc.
 - [ ] manufacturing & processing
