@@ -1155,8 +1155,7 @@
             "investigative"
         ],
         "categories": [
-            "life science",
-            "physical science"
+            "chemical science"
         ]
     },
     {
@@ -1175,8 +1174,7 @@
             "realistic"
         ],
         "categories": [
-            "life science",
-            "physical science"
+            "chemical science"
         ]
     },
     {
@@ -1194,7 +1192,7 @@
             "investigative"
         ],
         "categories": [
-            "physical science"
+            "chemical science"
         ]
     },
     {
@@ -1213,7 +1211,7 @@
         ],
         "categories": [
             "life science",
-            "physical science"
+            "chemical science"
         ]
     },
     {
@@ -1232,7 +1230,7 @@
         ],
         "categories": [
             "life science",
-            "physical science"
+            "chemical science"
         ]
     },
     {
@@ -5858,8 +5856,8 @@
             "investigative"
         ],
         "categories": [
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -5877,9 +5875,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -5897,7 +5894,8 @@
             "investigative"
         ],
         "categories": [
-            "life science"
+            "life science",
+            "physical science"
         ]
     },
     {
@@ -6306,9 +6304,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -9247,9 +9244,9 @@
             "investigative"
         ],
         "categories": [
-            "engineering",
+            "chemical science",
             "life science",
-            "physical science"
+            "engineering"
         ]
     },
     {
@@ -9267,9 +9264,9 @@
             "investigative"
         ],
         "categories": [
+            "chemical science",
             "engineering",
-            "life science",
-            "physical science"
+            "life science"
         ]
     },
     {
@@ -9287,9 +9284,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -9307,9 +9303,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -9327,7 +9322,7 @@
             "investigative"
         ],
         "categories": [
-            "physical science"
+            "chemical science"
         ]
     },
     {
@@ -9345,7 +9340,7 @@
             "investigative"
         ],
         "categories": [
-            "physical science"
+            "chemical science"
         ]
     },
     {
@@ -9363,8 +9358,7 @@
             "investigative"
         ],
         "categories": [
-            "life science",
-            "physical science"
+            "chemical science"
         ]
     },
     {
@@ -9382,8 +9376,7 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
-            "physical science"
+            "chemical science"
         ]
     },
     {
@@ -9402,8 +9395,8 @@
             "realistic"
         ],
         "categories": [
-            "computers",
-            "physical science"
+            "chemical science",
+            "computers"
         ]
     },
     {
@@ -16648,8 +16641,8 @@
             "realistic"
         ],
         "categories": [
-            "engineering",
-            "physical science"
+            "chemical science",
+            "engineering"
         ]
     },
     {
@@ -25524,8 +25517,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -27366,9 +27359,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -27386,7 +27378,6 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
             "life science",
             "physical science"
         ]
@@ -27406,7 +27397,6 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -30446,8 +30436,8 @@
             "realistic"
         ],
         "categories": [
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -30505,7 +30495,7 @@
             "investigative"
         ],
         "categories": [
-            "physical science"
+            "chemical science"
         ]
     },
     {
@@ -30938,9 +30928,9 @@
             "social"
         ],
         "categories": [
+            "chemical science",
             "education",
-            "life science",
-            "physical science"
+            "life science"
         ]
     },
     {
@@ -30959,6 +30949,7 @@
             "social"
         ],
         "categories": [
+            "chemical science",
             "education",
             "physical science"
         ]
