@@ -608,6 +608,7 @@
             "realistic"
         ],
         "categories": [
+            "agriculture",
             "life science"
         ]
     },
@@ -628,8 +629,8 @@
             "realistic"
         ],
         "categories": [
-            "business",
-            "life science"
+            "agriculture",
+            "business"
         ]
     },
     {
@@ -649,8 +650,8 @@
             "realistic"
         ],
         "categories": [
-            "business",
-            "life science"
+            "agriculture",
+            "business"
         ]
     },
     {
@@ -669,6 +670,7 @@
             "realistic"
         ],
         "categories": [
+            "agriculture",
             "life science"
         ]
     },
@@ -688,8 +690,8 @@
             "realistic"
         ],
         "categories": [
-            "engineering",
-            "life science"
+            "agriculture",
+            "engineering"
         ]
     },
     {
@@ -708,8 +710,8 @@
             "realistic"
         ],
         "categories": [
-            "engineering",
-            "life science"
+            "agriculture",
+            "engineering"
         ]
     },
     {
@@ -727,8 +729,8 @@
             "realistic"
         ],
         "categories": [
-            "engineering",
-            "life science"
+            "agriculture",
+            "engineering"
         ]
     },
     {
@@ -747,8 +749,8 @@
             "realistic"
         ],
         "categories": [
-            "engineering",
-            "life science"
+            "agriculture",
+            "engineering"
         ]
     },
     {
@@ -766,8 +768,8 @@
             "realistic"
         ],
         "categories": [
-            "engineering",
-            "life science"
+            "agriculture",
+            "engineering"
         ]
     },
     {
@@ -786,6 +788,7 @@
             "realistic"
         ],
         "categories": [
+            "agriculture",
             "life science"
         ]
     },
@@ -805,6 +808,7 @@
             "realistic"
         ],
         "categories": [
+            "agriculture",
             "life science"
         ]
     },
@@ -824,6 +828,7 @@
             "realistic"
         ],
         "categories": [
+            "agriculture",
             "life science"
         ]
     },
@@ -839,9 +844,11 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "At UCC we guarantee a comprehensive agricultural education; building from a foundation of fundamental sciences, developing core knowledge, instilling best practice applications using the very latest tools and technologies, and interrogating the business that is dairying.",
         "interests": [
-            "realistic"
+            "realistic",
+            "investigative"
         ],
         "categories": [
+            "agriculture",
             "life science"
         ]
     },
@@ -861,6 +868,7 @@
             "realistic"
         ],
         "categories": [
+            "agriculture",
             "life science"
         ]
     },
@@ -881,6 +889,7 @@
             "realistic"
         ],
         "categories": [
+            "agriculture",
             "life science"
         ]
     },
@@ -901,6 +910,7 @@
             "realistic"
         ],
         "categories": [
+            "agriculture",
             "life science"
         ]
     },
@@ -920,8 +930,8 @@
             "realistic"
         ],
         "categories": [
-            "engineering",
-            "life science"
+            "agriculture",
+            "engineering"
         ]
     },
     {
@@ -940,8 +950,8 @@
             "realistic"
         ],
         "categories": [
-            "engineering",
-            "life science"
+            "agriculture",
+            "engineering"
         ]
     },
     {
@@ -960,9 +970,9 @@
             "realistic"
         ],
         "categories": [
+            "agriculture",
             "computers",
-            "engineering",
-            "life science"
+            "engineering"
         ]
     },
     {
@@ -980,8 +990,8 @@
             "realistic"
         ],
         "categories": [
-            "business",
-            "life science"
+            "agriculture",
+            "business"
         ]
     },
     {
@@ -1000,8 +1010,8 @@
             "realistic"
         ],
         "categories": [
-            "business",
-            "life science"
+            "agriculture",
+            "business"
         ]
     },
     {
@@ -1019,8 +1029,8 @@
             "realistic"
         ],
         "categories": [
-            "business",
-            "life science"
+            "agriculture",
+            "business"
         ]
     },
     {
@@ -1039,6 +1049,8 @@
             "realistic"
         ],
         "categories": [
+            "agriculture",
+            "business",
             "life science"
         ]
     },
@@ -1058,6 +1070,8 @@
             "realistic"
         ],
         "categories": [
+            "agriculture",
+            "business",
             "life science"
         ]
     },
@@ -1077,7 +1091,8 @@
             "realistic"
         ],
         "categories": [
-            "life science"
+            "agriculture",
+            "business"
         ]
     },
     {
@@ -1097,8 +1112,8 @@
             "realistic"
         ],
         "categories": [
-            "business",
-            "life science"
+            "agriculture",
+            "business"
         ]
     },
     {
@@ -1362,7 +1377,7 @@
             "realistic"
         ],
         "categories": [
-            "life science"
+            "agriculture"
         ]
     },
     {
@@ -1400,7 +1415,7 @@
             "realistic"
         ],
         "categories": [
-            "life science"
+            "agriculture"
         ]
     },
     {
@@ -1419,7 +1434,7 @@
             "realistic"
         ],
         "categories": [
-            "life science"
+            "agriculture"
         ]
     },
     {
@@ -5982,8 +5997,8 @@
             "investigative"
         ],
         "categories": [
-            "life science",
-            "engineering"
+            "engineering",
+            "life science"
         ]
     },
     {
@@ -6465,10 +6480,10 @@
             "realistic"
         ],
         "categories": [
+            "chemical science",
             "computers",
             "engineering",
-            "life science",
-            "chemical science"
+            "life science"
         ]
     },
     {
@@ -12789,7 +12804,8 @@
             "realistic"
         ],
         "categories": [
-            "life science"
+            "life science",
+            "agriculture"
         ]
     },
     {
@@ -13125,8 +13141,8 @@
             "realistic"
         ],
         "categories": [
-            "business",
-            "life science"
+            "agriculture",
+            "business"
         ]
     },
     {
@@ -18316,8 +18332,8 @@
             "realistic"
         ],
         "categories": [
-            "business",
-            "life science"
+            "agriculture",
+            "business"
         ]
     },
     {
@@ -18357,9 +18373,9 @@
             "realistic"
         ],
         "categories": [
+            "agriculture",
             "business",
-            "languages",
-            "life science"
+            "languages"
         ]
     },
     {
@@ -18675,7 +18691,7 @@
             "realistic"
         ],
         "categories": [
-            "life science"
+            "agriculture"
         ]
     },
     {
@@ -20703,7 +20719,7 @@
             "realistic"
         ],
         "categories": [
-            "life science"
+            "agriculture"
         ]
     },
     {
@@ -20721,7 +20737,7 @@
             "realistic"
         ],
         "categories": [
-            "life science"
+            "agriculture"
         ]
     },
     {
@@ -20739,7 +20755,7 @@
             "realistic"
         ],
         "categories": [
-            "life science"
+            "agriculture"
         ]
     },
     {
@@ -20757,7 +20773,7 @@
             "realistic"
         ],
         "categories": [
-            "life science"
+            "agriculture"
         ]
     },
     {
@@ -28593,8 +28609,8 @@
             "social"
         ],
         "categories": [
-            "life science",
             "healthcare",
+            "life science",
             "sport"
         ]
     },
@@ -28615,8 +28631,8 @@
             "social"
         ],
         "categories": [
-            "life science",
             "healthcare",
+            "life science",
             "sport"
         ]
     },
@@ -28637,8 +28653,8 @@
             "social"
         ],
         "categories": [
-            "life science",
             "healthcare",
+            "life science",
             "sport"
         ]
     },
@@ -28659,8 +28675,8 @@
             "social"
         ],
         "categories": [
-            "life science",
             "healthcare",
+            "life science",
             "sport"
         ]
     },
@@ -28680,8 +28696,8 @@
             "social"
         ],
         "categories": [
-            "life science",
             "healthcare",
+            "life science",
             "sport"
         ]
     },
@@ -29655,8 +29671,8 @@
             "social"
         ],
         "categories": [
-            "life science",
-            "communications"
+            "communications",
+            "life science"
         ]
     },
     {
@@ -29675,8 +29691,8 @@
             "social"
         ],
         "categories": [
-            "life science",
-            "communications"
+            "communications",
+            "life science"
         ]
     },
     {
@@ -29696,8 +29712,8 @@
             "social"
         ],
         "categories": [
-            "life science",
-            "communications"
+            "communications",
+            "life science"
         ]
     },
     {
@@ -30642,6 +30658,7 @@
             "realistic"
         ],
         "categories": [
+            "agriculture",
             "life science"
         ]
     },
@@ -33006,9 +33023,8 @@
             "realistic"
         ],
         "categories": [
-            "business",
-            "life science",
-            "physical science"
+            "agriculture",
+            "business"
         ]
     },
     {
@@ -33069,8 +33085,8 @@
             "realistic"
         ],
         "categories": [
-            "business",
-            "life science"
+            "agriculture",
+            "business"
         ]
     },
     {
@@ -33090,8 +33106,8 @@
             "realistic"
         ],
         "categories": [
-            "business",
-            "life science"
+            "agriculture",
+            "business"
         ]
     },
     {

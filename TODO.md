@@ -3,9 +3,9 @@
 ## new approach
 
 ### cao course re-classification
-- [ ] agriculture
+- [ ] agriculture - horticulture, plants, crops, animal
 - [ ] architecture & construction
-- [ ] environment
+- [ ] environment - sustainablity, etc.
 - [ ] manufacturing & processing
 - [ ] separate BHHS with personal services and welfare
 
