@@ -3,9 +3,9 @@
 ## new approach
 
 ### cao course re-classification
-- [ ] social science is a bit of a mess ngl
+- [ ] what are the categories for political science? social science/law? i feel like law makes more sense tbh
 - [ ] veterinary - should we add the category?
-- [ ] environment - env sci, sustainablity, conservation etc. - **tbh i'm not so sure about this, is it worth it considering we already have agriculture?**
+- [ ] environment - env sci, sustainablity, conservation, climate, etc.
 - [ ] is manufacturing and processing worth it?
 
 - [ ] need to readjust weights
@@ -23,6 +23,7 @@
     * think again about the implications for evaluation
 - [ ] think about "joint honours" / "arts" courses with multi-options, can I deal with them in a smarter way?
     * or at the very least, review their RIASEC and categories, I'm a bit sus
+    * there's also some "heritage" course
 - [ ] think about how to phrase the question:
     * e.g. `*"On a scale of 0-4, how much would you enjoy (or how interesting would you find) studying this subject at college?"*`
 - [ ] create a usable interface

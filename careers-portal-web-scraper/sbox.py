@@ -7,10 +7,7 @@ for course in courses:
     title = course['title'].lower()
     ow = course["overview"].lower()
 
-    # if "social science" in course["categories"]:
-    #     print(title)
-
-    if "economics" in title and "social science" in course["categories"] and "business" in course["categories"]:
+    if "social science" in course["categories"]:
         print(title)
 
     course["categories"] = sorted(list(set(course["categories"])))
