@@ -20,6 +20,7 @@
 * Journalism and Information (Courses related to journalism, communication, and media studies)
 * Creative Arts (Artistic fields like Fine Arts, Music, Theatre)
 * Personal Services (Covers hospitality, event management, and sports leisure)
+* Sports and related courses (Covers sports science, management, and coaching)
 
 
 * I could just ask donnchadh for his list of questions?
@@ -28,4 +29,5 @@
 
 
 * ~~Veterinary (Animal healthcare and welfare, veterinary medicine, and nursing)~~
-    * merging this with health* Sports and related courses (Covers sports science, management, and coaching)
+    * vet categories are "realistic" instead of social
+    * 

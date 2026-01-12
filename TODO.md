@@ -3,11 +3,10 @@
 ## new approach
 
 ### cao course re-classification
-- [ ] environment - sustainablity, etc.
-- [ ] manufacturing & processing
 - [ ] separate BHHS with personal services and welfare
+- [ ] veterinary should we add the category?
 - [ ] social science is a bit of a mess ngl
-
+- [ ] environment - env sci, sustainablity, conservation etc. - **tbh i'm not so sure about this, is it worth it considering we already have agriculture?**
 
 - [ ] need to readjust weights
     * category weights look good imo

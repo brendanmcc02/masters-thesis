@@ -7,8 +7,14 @@ for course in courses:
     title = course['title'].lower()
     ow = course["overview"].lower()
 
-    if "religio" in title and "social science" in course["categories"]:
+    if ("manufactur" in title or "automation" in title or "process" in title or "industrial" in title or "production" in title or "materials" in title) and "manufacturing and processing" not in course["categories"]:
         print(title)
+        # course["categories"] = []
+        
+        # if "engineer" in title:
+        #     course["categories"].append("engineering")
+
+        # course["categories"].append("manufacturing and processing")
 
     course["categories"] = sorted(list(set(course["categories"])))
     course["interests"] = sorted(list(set(course["interests"])))
