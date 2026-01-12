@@ -6,9 +6,8 @@ courses = json.load(file)
 for course in courses:
     title = course['title'].lower()
 
-    if ("pharma" in title) and "physical science" in course['categories']:
-        course["categories"].remove("physical science")
-        course["categories"].append("chemical science")
+    if ("chem" in course['overview'].lower()) and "chemical science" not in course['categories']:
+        print(title)
 
     course["categories"] = sorted(list(set(course["categories"])))
     course["interests"] = sorted(list(set(course["interests"])))

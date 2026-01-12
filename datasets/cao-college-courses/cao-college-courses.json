@@ -1155,7 +1155,8 @@
             "investigative"
         ],
         "categories": [
-            "chemical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -1646,7 +1647,6 @@
         ],
         "categories": [
             "chemical science",
-            "healthcare",
             "life science"
         ]
     },
@@ -6479,8 +6479,7 @@
             "realistic"
         ],
         "categories": [
-            "computers",
-            "healthcare",
+            "chemical science",
             "life science"
         ]
     },
@@ -18554,8 +18553,8 @@
         ],
         "categories": [
             "chemical science",
-            "healthcare",
-            "law"
+            "law",
+            "life science"
         ]
     },
     {
@@ -20956,7 +20955,7 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
+            "chemical science",
             "life science"
         ]
     },
@@ -26257,7 +26256,7 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
+            "chemical science",
             "life science"
         ]
     },
@@ -27396,8 +27395,8 @@
             "investigative"
         ],
         "categories": [
-            "life science",
-            "chemical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -27415,9 +27414,9 @@
             "investigative"
         ],
         "categories": [
-            "life science",
             "chemical science",
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -30386,7 +30385,7 @@
             "investigative"
         ],
         "categories": [
-            "computers",
+            "chemical science",
             "life science",
             "physical science"
         ]
@@ -30582,7 +30581,6 @@
         ],
         "categories": [
             "chemical science",
-            "healthcare",
             "life science"
         ]
     },
@@ -30620,6 +30618,7 @@
             "investigative"
         ],
         "categories": [
+            "chemical science",
             "life science",
             "physical science"
         ]
@@ -30639,6 +30638,7 @@
             "investigative"
         ],
         "categories": [
+            "chemical science",
             "life science",
             "physical science"
         ]
@@ -30659,8 +30659,7 @@
             "realistic"
         ],
         "categories": [
-            "life science",
-            "physical science"
+            "life science"
         ]
     },
     {
@@ -30699,8 +30698,8 @@
             "realistic"
         ],
         "categories": [
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -30719,8 +30718,8 @@
             "realistic"
         ],
         "categories": [
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -30738,6 +30737,7 @@
             "investigative"
         ],
         "categories": [
+            "chemical science",
             "life science",
             "physical science"
         ]
@@ -30757,6 +30757,7 @@
             "investigative"
         ],
         "categories": [
+            "chemical science",
             "life science",
             "physical science"
         ]
@@ -30776,6 +30777,7 @@
             "investigative"
         ],
         "categories": [
+            "chemical science",
             "life science",
             "physical science"
         ]
@@ -30796,7 +30798,7 @@
             "realistic"
         ],
         "categories": [
-            "computers",
+            "chemical science",
             "life science",
             "physical science"
         ]
@@ -30816,6 +30818,7 @@
             "investigative"
         ],
         "categories": [
+            "chemical science",
             "life science",
             "physical science"
         ]
@@ -30835,6 +30838,7 @@
             "investigative"
         ],
         "categories": [
+            "chemical science",
             "life science",
             "physical science"
         ]
@@ -30855,7 +30859,6 @@
             "social"
         ],
         "categories": [
-            "computers",
             "education",
             "life science",
             "physical science"
@@ -30877,6 +30880,7 @@
             "social"
         ],
         "categories": [
+            "chemical science",
             "education",
             "mathematics",
             "physical science"
