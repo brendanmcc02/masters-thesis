@@ -13164,9 +13164,8 @@
             "investigative"
         ],
         "categories": [
-            "business",
             "computers",
-            "social science"
+            "mathematics"
         ]
     },
     {
@@ -13184,7 +13183,8 @@
             "investigative"
         ],
         "categories": [
-            "computers"
+            "computers",
+            "mathematics"
         ]
     },
     {
@@ -13202,7 +13202,8 @@
             "investigative"
         ],
         "categories": [
-            "computers"
+            "computers",
+            "mathematics"
         ]
     },
     {
@@ -13220,8 +13221,8 @@
             "investigative"
         ],
         "categories": [
-            "business",
-            "computers"
+            "computers",
+            "mathematics"
         ]
     },
     {
@@ -13239,7 +13240,8 @@
             "investigative"
         ],
         "categories": [
-            "computers"
+            "computers",
+            "mathematics"
         ]
     },
     {
@@ -13599,7 +13601,6 @@
             "investigative"
         ],
         "categories": [
-            "computers",
             "creative arts"
         ]
     },
@@ -13618,7 +13619,6 @@
             "artistic"
         ],
         "categories": [
-            "computers",
             "creative arts"
         ]
     },
@@ -19330,7 +19330,6 @@
             "investigative"
         ],
         "categories": [
-            "computers",
             "life science"
         ]
     },
@@ -25387,7 +25386,6 @@
         ],
         "categories": [
             "communications",
-            "computers",
             "creative arts"
         ]
     },
@@ -26307,7 +26305,6 @@
         ],
         "categories": [
             "communications",
-            "computers",
             "creative arts"
         ]
     },
@@ -33887,8 +33884,6 @@
             "artistic"
         ],
         "categories": [
-            "communications",
-            "computers",
             "creative arts"
         ]
     },
@@ -33907,8 +33902,6 @@
             "artistic"
         ],
         "categories": [
-            "communications",
-            "computers",
             "creative arts"
         ]
     },

@@ -3,7 +3,6 @@
 ## new approach
 
 ### cao course re-classification
-- [ ] separate math from ICT
 - [ ] separate chemical sciences from physical sciences
 - [ ] agriculture
 - [ ] architecture & construction
