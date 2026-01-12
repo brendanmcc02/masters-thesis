@@ -7,8 +7,11 @@ for course in courses:
     title = course['title'].lower()
     ow = course["overview"].lower()
 
-    if ("manufactur" in title or "automation" in title or "process" in title or "industrial" in title or "production" in title or "materials" in title) and "manufacturing and processing" not in course["categories"]:
-        print(title)
+    if "psychology" in title:
+        if "behavioural health and human services" in course["categories"]:
+            course["categories"].remove("behavioural health and human services")
+        
+        course["categories"].append("social science")
         # course["categories"] = []
         
         # if "engineer" in title:
