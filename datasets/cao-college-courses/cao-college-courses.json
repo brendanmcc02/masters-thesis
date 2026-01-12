@@ -511,7 +511,6 @@
         ],
         "categories": [
             "engineering",
-            "healthcare",
             "life science"
         ]
     },
@@ -1382,7 +1381,6 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -1587,7 +1585,6 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -1814,7 +1811,6 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -1834,7 +1830,6 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -5837,7 +5832,6 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -5970,7 +5964,6 @@
         ],
         "categories": [
             "computers",
-            "healthcare",
             "life science"
         ]
     },
@@ -5989,8 +5982,8 @@
             "investigative"
         ],
         "categories": [
-            "engineering",
-            "healthcare"
+            "life science",
+            "engineering"
         ]
     },
     {
@@ -6010,7 +6003,7 @@
         ],
         "categories": [
             "engineering",
-            "healthcare"
+            "life science"
         ]
     },
     {
@@ -6030,7 +6023,7 @@
         ],
         "categories": [
             "engineering",
-            "healthcare"
+            "life science"
         ]
     },
     {
@@ -6050,7 +6043,6 @@
         ],
         "categories": [
             "engineering",
-            "healthcare",
             "life science"
         ]
     },
@@ -6071,7 +6063,6 @@
         ],
         "categories": [
             "engineering",
-            "healthcare",
             "life science"
         ]
     },
@@ -6092,7 +6083,7 @@
         ],
         "categories": [
             "engineering",
-            "healthcare"
+            "life science"
         ]
     },
     {
@@ -6112,7 +6103,6 @@
         ],
         "categories": [
             "engineering",
-            "healthcare",
             "life science"
         ]
     },
@@ -6133,7 +6123,7 @@
         ],
         "categories": [
             "engineering",
-            "healthcare"
+            "life science"
         ]
     },
     {
@@ -6153,7 +6143,7 @@
         ],
         "categories": [
             "engineering",
-            "healthcare"
+            "life science"
         ]
     },
     {
@@ -6171,7 +6161,6 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -6190,7 +6179,6 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -6209,7 +6197,6 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -6228,7 +6215,6 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -6247,7 +6233,6 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -6266,7 +6251,6 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -6285,7 +6269,6 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -6324,7 +6307,6 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -6363,7 +6345,7 @@
         ],
         "categories": [
             "computers",
-            "healthcare",
+            "engineering",
             "life science"
         ]
     },
@@ -6382,7 +6364,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
+            "computers",
+            "engineering",
             "life science"
         ]
     },
@@ -6401,7 +6384,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
+            "computers",
+            "engineering",
             "life science"
         ]
     },
@@ -6420,7 +6404,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
+            "computers",
+            "engineering",
             "life science"
         ]
     },
@@ -6439,7 +6424,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
+            "computers",
+            "engineering",
             "life science"
         ]
     },
@@ -6458,8 +6444,8 @@
             "investigative"
         ],
         "categories": [
+            "computers",
             "engineering",
-            "healthcare",
             "life science"
         ]
     },
@@ -6479,8 +6465,10 @@
             "realistic"
         ],
         "categories": [
-            "chemical science",
-            "life science"
+            "computers",
+            "engineering",
+            "life science",
+            "chemical science"
         ]
     },
     {
@@ -14103,8 +14091,8 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -21136,7 +21124,6 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -25416,7 +25403,6 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -25435,7 +25421,6 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
             "life science",
             "physical science"
         ]
@@ -25455,7 +25440,6 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
             "life science",
             "physical science"
         ]
@@ -26960,7 +26944,6 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -26980,7 +26963,6 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -26996,11 +26978,9 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This course is designed to meet the need for scientists with technical competency in the design, development, production, analysis and upgrading of products that are involved in the maintenance, restoration and promotion of human health and wellbeing.\nGraduates will be able to apply their understanding of human nutrition and its role in health and disease to various sectors of the food and health industry and identify and address nutrition-related problems in individuals and populations.",
         "interests": [
-            "investigative",
-            "social"
+            "investigative"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -27019,7 +26999,6 @@
             "investigative"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -27061,7 +27040,6 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
             "life science"
         ]
     },
@@ -27243,8 +27221,7 @@
         ],
         "categories": [
             "education",
-            "healthcare",
-            "life science"
+            "sport"
         ]
     },
     {
@@ -27264,7 +27241,7 @@
         ],
         "categories": [
             "education",
-            "life science"
+            "sport"
         ]
     },
     {
@@ -27284,7 +27261,8 @@
             "social"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -27303,7 +27281,8 @@
             "social"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -28495,7 +28474,7 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
+            "life science",
             "physical science"
         ]
     },
@@ -28573,7 +28552,7 @@
         ],
         "categories": [
             "engineering",
-            "healthcare",
+            "life science",
             "physical science"
         ]
     },
@@ -28615,6 +28594,7 @@
         ],
         "categories": [
             "life science",
+            "healthcare",
             "sport"
         ]
     },
@@ -28636,6 +28616,7 @@
         ],
         "categories": [
             "life science",
+            "healthcare",
             "sport"
         ]
     },
@@ -28657,6 +28638,7 @@
         ],
         "categories": [
             "life science",
+            "healthcare",
             "sport"
         ]
     },
@@ -28678,6 +28660,7 @@
         ],
         "categories": [
             "life science",
+            "healthcare",
             "sport"
         ]
     },
@@ -28698,6 +28681,7 @@
         ],
         "categories": [
             "life science",
+            "healthcare",
             "sport"
         ]
     },
@@ -28738,7 +28722,8 @@
             "social"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -29670,9 +29655,8 @@
             "social"
         ],
         "categories": [
-            "healthcare",
             "life science",
-            "social science"
+            "communications"
         ]
     },
     {
@@ -29691,8 +29675,8 @@
             "social"
         ],
         "categories": [
-            "healthcare",
-            "social science"
+            "life science",
+            "communications"
         ]
     },
     {
@@ -29712,9 +29696,8 @@
             "social"
         ],
         "categories": [
-            "healthcare",
             "life science",
-            "social science"
+            "communications"
         ]
     },
     {

@@ -16,8 +16,6 @@
 * Agriculture (Focus on food production, farming technology, and sustainable practices)
 * Business and Information (Management, finance, and marketing strategies)
 * Welfare (Focuses on social care and community support roles)
-* ~~Veterinary (Animal healthcare and welfare, veterinary medicine, and nursing)~~
-    * merging this with health* Sports and related courses (Covers sports science, management, and coaching)
 * Languages (Focus on foreign languages and cultural understanding)
 * Journalism and Information (Courses related to journalism, communication, and media studies)
 * Creative Arts (Artistic fields like Fine Arts, Music, Theatre)
@@ -27,3 +25,7 @@
 * I could just ask donnchadh for his list of questions?
     * additionally to the questions, also gather an idea for a RIASEC score
     * I do like his level of granularity with distinctions
+
+
+* ~~Veterinary (Animal healthcare and welfare, veterinary medicine, and nursing)~~
+    * merging this with health* Sports and related courses (Covers sports science, management, and coaching)

@@ -8,7 +8,7 @@
 - [ ] environment
 - [ ] manufacturing & processing
 - [ ] separate BHHS with personal services and welfare
-- [ ] healthcare should be clinical/patient-focused, gemini classed many lab courses e.g. pharmaceutical sciences as health - or maybe it is? idk
+
 
 - [ ] need to readjust weights
     * category weights look good imo
