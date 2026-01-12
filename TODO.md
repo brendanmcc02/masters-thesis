@@ -3,7 +3,7 @@
 ## new approach
 
 ### cao course re-classification
-- [ ] architecture & construction
+- [ ] religion - some are social science? should be humanities
 - [ ] environment - sustainablity, etc.
 - [ ] manufacturing & processing
 - [ ] separate BHHS with personal services and welfare

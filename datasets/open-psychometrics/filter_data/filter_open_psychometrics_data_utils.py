@@ -121,6 +121,7 @@ def get_stop_words():
     stop_words.add("award")
     stop_words.add("options")
     stop_words.add("placement")
+    stop_words.add("portfolio")
 
     return stop_words
 
