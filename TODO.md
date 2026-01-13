@@ -3,13 +3,16 @@
 ## new approach
 
 ### cao course re-classification
-- [ ] veterinary - should we add the category?
-- [ ] environment - env sci, sustainablity, conservation, climate, etc.
 - [ ] is manufacturing and processing worth it?
+- [ ] check if "science" in name but not investigative quality
+- [ ] check for eng in name but not eng category
+- [ ] revise the gemini questions, i think some of them have different intentions or ideas of what kinds of courses or qualities their looking for
+    * e.g. "environment" should reflect the social policy/sustainability focus, and also the climate/env eng/science investigative part
+    * similar with agriculture
 
 - [ ] need to readjust weights
     * category weights look good imo
-    * riasec interests are so overinflated
+    * riasec interests are quite overinflated
         * or maybe the question classifies them poorly, idk
 - [ ] when clustering/masking categories, also cluster/mask their relevant interests
 - [ ] think about points
@@ -23,8 +26,10 @@
 - [ ] think about "joint honours" / "arts" courses with multi-options, can I deal with them in a smarter way?
     * or at the very least, review their RIASEC and categories, I'm a bit sus
     * there's also some "heritage" course
+    * also `*science - *`* UCD courses there are loads!
+    * general science courses
 - [ ] think about how to phrase the question:
-    * e.g. `*"On a scale of 0-4, how much would you enjoy (or how interesting would you find) studying this subject at college?"*`
+    * e.g. `*"On a scale of 0-4, how much would you enjoy (or how interesting would you find) doing this activity for work or study?"*`
 - [ ] create a usable interface
 
 ```
@@ -50,3 +55,10 @@ tcd cs
 ucd cs
 tud cs
 ```
+
+
+sustainability - social science/law
+
+
+my problem is that "environment" is really broad - it could be social policy/advocate focused (social science/law), or scientific (e.g. env eng/sci)
+i guess i could merge it with the relevant category, that's what i did with agri anyways (e.g. agri + science, agri + business)
