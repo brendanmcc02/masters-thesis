@@ -27,6 +27,7 @@
     * general science courses
 - [ ] think about how to phrase the question:
     * e.g. `*"On a scale of 0-4, how much would you enjoy (or how interesting would you find) doing this activity for work or study?"*`
+- [ ] work with only level 8?
 - [ ] create a usable interface
 
 ```

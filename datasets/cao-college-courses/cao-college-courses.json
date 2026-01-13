@@ -4963,7 +4963,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "NUI Galway offers three exciting programmes dedicated to Children's and Youth Studies, an interdisciplinary area, which examines the social, cultural, legal, psychological and historical discourses shaping the lives of children and youth today. The three programmes have been designed to provide graduates with different skill sets and academic knowledge.\nIt is important to familiarise yourself with the differences between these programmes and make an informed choice about which one best suits your aspirations.",
         "interests": [
-            "conventional",
             "social"
         ],
         "categories": [
@@ -23719,7 +23718,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The study of law provides students with an education that is relevant to a wide range of employment opportunities because law regulates all aspects of life. Legal studies are not just for students who want to become solicitors or barristers.",
         "interests": [
-            "conventional",
             "enterprising",
             "investigative"
         ],
@@ -23739,7 +23737,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Knowledge of the law and the legal system is important for people in many walks of life. Many professionals need to understand what the legal system is, how it works and how it assists people in asserting their rights. Legal Studies provides the professional and scholarly skills necessary for a general understanding of the law as well as for law-related careers, public service or further graduate level study.",
         "interests": [
-            "conventional",
             "enterprising",
             "investigative"
         ],
@@ -26111,7 +26108,8 @@
         "overview": "Social Policy Social Policy entails the study of those social relations shaping human welfare and wellbeing and analysis of the means by which governments achieve citizen's well-being through the formation of policies, provision of services and responding to social issues and problems. As a course of undergraduate study Social Policy fits with a commitment to advance the cause of a just, pluralistic and sustainable society.Modern Language\nStudents combine this subject with a language of their choice",
         "interests": [
             "artistic",
-            "investigative"
+            "investigative",
+            "social"
         ],
         "categories": [
             "languages",
@@ -31172,7 +31170,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The subject of Social Justice draws on a range of academic disciplines in order to advance understanding of issues such as inequality, discrimination and human rights abuses. It will appeal to those who would like to acquire the knowledge and skills to understand and challenge injustice and help bring about social change.",
         "interests": [
-            "conventional",
             "investigative",
             "social"
         ],
@@ -31192,7 +31189,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The Bachelor of Social Science (BSocSc) at University College Dublin is the premier honours degree of its kind in Ireland. It is the standard qualification for those working in policy making and social services and recently celebrated its fiftieth anniversary. If you are interested in exploring how societies, communities and families work and wish to make a difference to the world, affect cultural change, contribute to public service or corporate responsibility, then this course is for you",
         "interests": [
-            "investigative"
+            "investigative",
+            "social"
         ],
         "categories": [
             "law",
@@ -31679,7 +31677,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Cloud computing can be defined as the unification of devices, operating systems, data and storage into a single system. This honours degree (level 8) is designed to provide the education and training required to prepare you for a career in software design, focusing specifically on Artificial intelligence and cloud computing. The course introduces the student to various concepts of software design in the common first year. This is expanded further in second year and the first semester third year with a greater specialisation in the implementation and testing of web and cloud-based software solutions using the latest technologies.",
         "interests": [
-            "artistic",
             "investigative"
         ],
         "categories": [
@@ -31698,7 +31695,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Cloud Computing can be defined as the unification of devices, operating systems, data and storage into a single system. This award is designed to provide the education and training required to prepare you for a career in software design, focusing specifically on Cloud Computing. Cloud Computing has been referred to as \"climate change for IT\" with a significant growth in employment opportunities in this area.",
         "interests": [
-            "artistic",
             "investigative"
         ],
         "categories": [
@@ -33477,7 +33473,8 @@
         "overview": "This course will educate you to the best international standards in veterinary medicine and is accredited nationally by the Veterinary Council of Ireland (VCI), by the European Association of Establishments for Veterinary Education (EAEVE) and is one of only 6 veterinary schools in Europe currently accredited by the American Veterinary Medical Association (AVMA). The veterinary profession is concerned with the promotion of the health and welfare of animals of special importance to society. This involves the care of healthy and sick animals, the prevention, recognition, control and treatment of their diseases and of diseases transmitted from animals to man, and the welfare and productivity of livestock.",
         "interests": [
             "investigative",
-            "realistic"
+            "realistic",
+            "social"
         ],
         "categories": [
             "healthcare",
@@ -33497,7 +33494,8 @@
         "overview": "This five-year programme will consist of three phases: foundation, clinical and professional. The foundation and clinical phases, will provide students with an in-depth understanding of the relevant, underpinning scientific and clinical concepts and related industry context via a Scaffolded Active Learning style curriculum, to motivate students to learn in an active, collaborative manner. The final professional phase of the MVB programme employs a fully distributed model of clinical education.",
         "interests": [
             "investigative",
-            "realistic"
+            "realistic",
+            "social"
         ],
         "categories": [
             "healthcare",
@@ -33517,7 +33515,8 @@
         "overview": "This programme is designed to produce highly skilled, confident, and well-rounded veterinary graduates equipped to work effectively in Irish veterinary practice where they will play an essential role in safeguarding animal health, public health, and safeguarding Ireland's food-producing economy.",
         "interests": [
             "investigative",
-            "realistic"
+            "realistic",
+            "social"
         ],
         "categories": [
             "healthcare",
@@ -33537,7 +33536,8 @@
         "overview": "Veterinary nursing is an exciting, diverse and challenging career. It is a job that requires a person to have exceptional communication skills, empathy, logical quick thinking and problem-solving ability.",
         "interests": [
             "investigative",
-            "realistic"
+            "realistic",
+            "social"
         ],
         "categories": [
             "healthcare",
@@ -33557,7 +33557,8 @@
         "overview": "This course is designed to give students the knowledge and skills to make a significant contribution to animal health and welfare. Students will get to experience a wide range of areas, including anatomy and physiology of domestic animals, fluid therapy, medical and surgical nursing care, laboratory testing, veterinary diagnostics and therapeutics, office management and client communication. All relevant practical competencies will be covered in relation to dogs, cats, horses, farm animals and exotic species.",
         "interests": [
             "investigative",
-            "realistic"
+            "realistic",
+            "social"
         ],
         "categories": [
             "healthcare",
@@ -33577,7 +33578,8 @@
         "overview": "The degree provides the graduate with not only a sound academic foundation but also the practical skills and competencies with which to build a solid career as a professional veterinary nurse. Students receive a high-quality education through lectures, tutorials and practical classes, as well as off-site work experience. The curriculum reflects the demands on the Irish veterinary nurse in practice by incorporating teaching on small animal (including exotics), farm animal and equine nursing.",
         "interests": [
             "investigative",
-            "realistic"
+            "realistic",
+            "social"
         ],
         "categories": [
             "healthcare",
@@ -33597,7 +33599,8 @@
         "overview": "The Bachelor of Science in Veterinary Nursing in the Kerry Campus of MTU will prepare learners to become a competent and accountable veterinary nurse. This programme has a strong educational basis, integrated with professional skills to equip graduates for a career in the field of Veterinary Nursing.",
         "interests": [
             "investigative",
-            "realistic"
+            "realistic",
+            "social"
         ],
         "categories": [
             "healthcare",
@@ -33617,7 +33620,8 @@
         "overview": "Our Bachelor of Science in Veterinary Nursing is a three-year course that will prepare you for a career in the veterinary field. You'll be qualified to work closely with veterinary surgeons in diagnosing and treating animals suffering from a range of medical issues.",
         "interests": [
             "investigative",
-            "realistic"
+            "realistic",
+            "social"
         ],
         "categories": [
             "healthcare",
