@@ -1,5 +1,3 @@
-
-
 #```get riasec makeup of each category - could apply this as a mask to the user's riasec profile?
 import json
 
@@ -11,13 +9,16 @@ r_i = ["realistic", "investigative", "artistic", "social", "enterprising", "conv
 
 for course in courses:
     title = course["title"].lower()
+
+    if "healthcare" not in course["categories"] and "life science" in course["categories"]:
+        print(title)
+
     for cat in course["categories"]:
         if cat not in categories_dict:
             categories_dict[cat] = [0] * 6
 
         for inte in course["interests"]:
             categories_dict[cat][r_i.index(inte)] += 1
-
 
 for k, v in categories_dict.items():
     norm = [round(float(i)/max(v), 2) for i in v]

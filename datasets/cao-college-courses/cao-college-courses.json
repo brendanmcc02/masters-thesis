@@ -465,7 +465,6 @@
         "overview": "Studying UCD Actuarial & Financial Studies (BAFS) degree requires a multidisciplinary education in fields such as mathematics, economics, finance, statistics, risk management and professionalism. It takes a combination of strong analytical skills, business knowledge and understanding of human behaviour to design and manage programmes that control risk and guarantee sufficient funds for the insurance and pension sectors. Actuaries have traditionally worked mostly in the insurance and pensions industries but are increasingly moving into wider fields, where they can employ their range of skills. The course also opens up options to work in finance, investment and trading.",
         "interests": [
             "conventional",
-            "enterprising",
             "investigative"
         ],
         "categories": [
@@ -486,7 +485,6 @@
         "overview": "Actuarial Mathematics could be the perfect course for you. It's accredited by the Institute and Faculty of Actuaries, UK, meaning you may be exempt from some of the exams needed to qualify as an actuary in Ireland and the UK.\nBefore you embark on learning essential actuarial knowledge and theories, you'll be given solid mathematical training. In your first two years, you'll study the fundamental mathematical principles that underpin the actuarial and financial models covered in later years. You'll also study computer programming, economics and accounting.",
         "interests": [
             "conventional",
-            "enterprising",
             "investigative"
         ],
         "categories": [
@@ -1089,8 +1087,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This programme provides you with the range of specialised skills ideal for employment in the agriculture and environmental sectors. Strong emphasis is placed on sustainability in agriculture and the environment. The programme consists of modules in Agriculture, Environmental Management and Agri-business.",
         "interests": [
-            "investigative",
-            "realistic"
+            "enterprising"
         ],
         "categories": [
             "agriculture",
@@ -1110,9 +1107,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This programme provides you with the range of specialised skills ideal for employment in the agriculture and environmental sectors. Strong emphasis is placed on sustainability in agriculture and the environment. The programme consists of modules in Agriculture, Environmental Management and Agri-business. Graduates of the programme can expect to gain employment in a range of areas including farming, agri-foods, environmental management and consultancy, applied ecology and agri-business. This programme is highly practical, with a mixture of lectures, field work, laboratory practicals and Information Technology.",
         "interests": [
-            "enterprising",
-            "investigative",
-            "realistic"
+            "enterprising"
         ],
         "categories": [
             "agriculture",
@@ -1792,7 +1787,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The BA in Applied Language and Translation Studies (ALTS) is a unique degree that aims to prepare a new generation of translators and language professionals for global career opportunities. You will study two foreign languages with exciting combinations that include Chinese, French, German, Japanese and Spanish. Plus this dynamic degree allows you to explore the principles behind language, culture, translation and intercultural communication.",
         "interests": [
-            "artistic"
+            "artistic",
+            "conventional"
         ],
         "categories": [
             "languages"
@@ -5532,8 +5528,7 @@
             "realistic"
         ],
         "categories": [
-            "engineering",
-            "manufacturing and processing"
+            "engineering"
         ]
     },
     {
@@ -5552,8 +5547,7 @@
             "realistic"
         ],
         "categories": [
-            "engineering",
-            "manufacturing and processing"
+            "engineering"
         ]
     },
     {
@@ -21178,11 +21172,11 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This is a multidisciplinary four-year engineering programme. It has an excellent graduate employment rate and provides graduates with a range of practical skills and competences in areas such as: Electro-Mechanical, Electronics, PLCs, SCADA, Control and Instrumentation, Industrial Networks, Data Modelling, Motion Control, Robotics and Software Engineering.",
         "interests": [
-            "realistic"
+            "realistic",
+            "investigative"
         ],
         "categories": [
-            "engineering",
-            "manufacturing and processing"
+            "engineering"
         ]
     },
     {
@@ -21201,8 +21195,7 @@
             "realistic"
         ],
         "categories": [
-            "engineering",
-            "manufacturing and processing"
+            "engineering"
         ]
     },
     {
@@ -23895,11 +23888,11 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Engineering discipline are manufacturing technology and design for manufacture combined with business and enterprise management. In this course, you'll acquire the right mix of technical, managerial and communication skills that will equip you for a wide range of careers in a broad spectrum of industries.",
         "interests": [
+            "realistic",
             "investigative"
         ],
         "categories": [
-            "engineering",
-            "manufacturing and processing"
+            "engineering"
         ]
     },
     {
@@ -23918,8 +23911,7 @@
             "realistic"
         ],
         "categories": [
-            "engineering",
-            "manufacturing and processing"
+            "engineering"
         ]
     },
     {
@@ -23934,11 +23926,11 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This programme will deliver high quality manufacturing engineering graduates to support the local, national, and international manufacturing and service industries. It will provide the opportunity for prospective students to gain transferable knowledge and skills in order to develop rewarding and progressive careers.",
         "interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
-            "engineering",
-            "manufacturing and processing"
+            "engineering"
         ]
     },
     {
@@ -24678,8 +24670,7 @@
             "realistic"
         ],
         "categories": [
-            "engineering",
-            "manufacturing and processing"
+            "engineering"
         ]
     },
     {
@@ -24698,8 +24689,7 @@
             "realistic"
         ],
         "categories": [
-            "engineering",
-            "manufacturing and processing"
+            "engineering"
         ]
     },
     {
@@ -24718,8 +24708,7 @@
             "realistic"
         ],
         "categories": [
-            "engineering",
-            "manufacturing and processing"
+            "engineering"
         ]
     },
     {
@@ -27880,6 +27869,7 @@
             "investigative"
         ],
         "categories": [
+            "humanities",
             "languages"
         ]
     },
@@ -28613,8 +28603,7 @@
             "realistic"
         ],
         "categories": [
-            "environment",
-            "social science"
+            "environment"
         ]
     },
     {
@@ -32823,12 +32812,10 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Sustainability is the great challenge of our time. It is enshrined in the Sustainable Development Goals and achieving it will require an integrated approach to the protection of the Earth and its inhabitants. This programme combines the economic, environmental and social dimensions of sustainability, enabling specialisation in one of those dimensions complemented by knowledge and skills from the others. Core modules provide a global perspective on sustainability and include interdisciplinary research, a professional placement, field work in Ireland and Europe and guest lectures from leading researchers, advocates and practitioners.",
         "interests": [
-            "investigative",
-            "realistic"
+            "investigative"
         ],
         "categories": [
-            "environment",
-            "law"
+            "environment"
         ]
     },
     {
@@ -32843,12 +32830,10 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This BSc in Sustainability aims to provide students with a comprehensive understanding of sustainability challenges, integrating interdisciplinary perspectives across environmental, social and economic dimensions. It aims to equip students with the skills and competences to work with diverse stakeholders and teams to bring about change within industry, society and government towards sustainability, within local and global contexts.Sustainability, Science and Climate Action | Sustainability, Society and Culture | Sustainable Business and Circular Economy.",
         "interests": [
-            "investigative",
-            "realistic"
+            "investigative"
         ],
         "categories": [
-            "environment",
-            "law"
+            "environment"
         ]
     },
     {
@@ -32863,12 +32848,11 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The BA (Hons) in Sustainability Management programme aims to provide learners with the knowledge, skills, and mindset necessary to address global sustainability challenges, as well as creating and maintaining sustainable operations in the public, commercial and not-for-profit sectors.",
         "interests": [
-            "realistic"
+            "enterprising"
         ],
         "categories": [
             "business",
-            "environment",
-            "life science"
+            "environment"
         ]
     },
     {

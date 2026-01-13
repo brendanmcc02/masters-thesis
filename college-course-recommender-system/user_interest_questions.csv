@@ -1,20 +1,20 @@
 college_course_category,question,riasec_interest
-agriculture,Managing crop production and harvesting,realistic
-agriculture,Operating farm tractors and machinery,realistic
+agriculture,Researching plant genetics to develop climate-resilient crop varieties,investigative
+agriculture,Analyzing soil chemistry to optimize nutrient cycling and ecosystem health,investigative
 agriculture,Selling agricultural products to markets,enterprising
 agriculture,Caring for livestock and farm animals,realistic
 agriculture,Implementing sustainable farming practices,realistic
 agriculture,Managing the finances of an agricultural business,enterprising
+architecture and construction,Using 3D scanners to map out the dimensions of a building,realistic
+architecture and construction,Building scale models to test how much weight a roof can hold,realistic
+architecture and construction,Researching how different materials affect a building's temperature,investigative
 architecture and construction,Designing the aesthetic look of a new building,artistic
-architecture and construction,Overseeing a construction site and crew,enterprising
-architecture and construction,Creating detailed architectural drawings,artistic
-architecture and construction,Calculating material requirements for a build,realistic
-architecture and construction,Planning urban landscapes and spaces,artistic
-architecture and construction,Managing construction project timelines,enterprising
+architecture and construction,Leading meetings with contractors to keep a project on schedule,enterprising
+architecture and construction,Estimating costs for building materials,conventional
 business,Developing marketing strategies for products,enterprising
 business,Managing company finances and budgets,conventional
 business,Leading a team of employees to meet goals,enterprising
-business,Analyzing market trends and competition,investigative
+business,Organizing business logistics and supply chains,conventional
 business,Organizing business records and data,conventional
 business,Pitching new business ideas to investors,enterprising
 chemical science,Conducting experiments in a chemistry laboratory,investigative
@@ -23,18 +23,18 @@ chemical science,Studying molecular structures and reactions,investigative
 chemical science,Mixing chemical compounds to create new solutions,realistic
 chemical science,Using laboratory equipment to test samples,realistic
 chemical science,Researching the properties of organic matter,investigative
-computers,Writing computer code for software applications,investigative
+computers,Writing computer code for software applications,realistic
 computers,Designing secure computer networks,investigative
 computers,Troubleshooting hardware or software issues,realistic
 computers,Managing large databases of information,conventional
 computers,Developing algorithms to automate tasks,investigative
 computers,Protecting computer systems from cyber attacks,investigative
+communications,Creating social media campaigns to convince people to buy a product,enterprising
+communications,Presenting brand ideas to clients to help grow their business,enterprising
+communications,Designing eye-catching layouts for digital magazines and websites,artistic
 communications,Writing news articles or feature stories,artistic
-communications,Interviewing public figures for information,enterprising
-communications,Investigating facts to uncover a story,investigative
 communications,Editing video or audio content for media,artistic
-communications,Presenting news on camera or radio,artistic
-communications,Researching sources for a documentary,investigative
+communications,Fact-checking information to make sure a news story is 100% true,investigative
 creative arts,"Painting, drawing, or sculpting",artistic
 creative arts,Composing or performing music,artistic
 creative arts,Acting in a theatre or film production,artistic
@@ -52,18 +52,18 @@ engineering,Building prototypes of new products,realistic
 engineering,Troubleshooting technical faults in machinery,realistic
 engineering,Applying physics principles to structural designs,investigative
 engineering,Drafting technical blueprints for construction,realistic
-engineering,Testing materials for strength and durability,realistic
-environment,Analyzing soil or water samples for pollution,investigative
-environment,Working outdoors to conserve natural habitats,realistic
-environment,Researching climate change data and trends,investigative
-environment,Planting trees or restoring ecosystems,realistic
-environment,Assessing the environmental impact of projects,investigative
-environment,Monitoring wildlife populations in the field,investigative
+engineering,Testing ways to make batteries last longer,investigative
+environment,Restoring natural habitats by planting trees and clearing land,realistic
+environment,Using drones and GPS tools to map out protected forest areas,realistic
+environment,Testing water samples in a lab to find and track pollution,investigative
+environment,Analyzing satellite data to track changes in global temperatures,investigative
+environment,Persuading companies to switch to plastic-free packaging,enterprising
+environment,Managing a green energy project to sell solar power to the public,enterprising
 healthcare,Diagnosing patient illnesses and conditions,investigative
+healthcare,Studying human anatomy and physiology,investigative
 healthcare,Providing direct care and comfort to patients,social
 healthcare,Performing medical procedures or surgeries,realistic
-healthcare,Explaining treatment plans to patients,social
-healthcare,Studying human anatomy and physiology,investigative
+healthcare,Operating an X-ray machine to get images,realistic
 healthcare,Assisting people with physical rehabilitation,social
 hospitality,Planning and organizing large events,enterprising
 hospitality,Managing the operations of a hotel,enterprising
@@ -73,41 +73,35 @@ hospitality,Organizing travel itineraries for clients,conventional
 hospitality,Directing service staff in a restaurant,enterprising
 humanities,Analyzing themes in literature and texts,investigative
 humanities,Writing creative essays or stories,artistic
-humanities,Researching historical events and figures,investigative
-humanities,Discussing philosophical theories and ethics,investigative
+humanities,Designing museum displays to tell stories about the past,artistic
+humanities,Learning about philosophical ideas,investigative
 humanities,Critiquing works of art or culture,artistic
 humanities,Studying the history of ancient civilizations,investigative
-languages,Translating texts from one language to another,artistic
+languages,Learning about the grammar structures of a language,conventional
 languages,Conversing fluently in a foreign language,social
-languages,Studying the culture and history of other countries,investigative
+languages,Studying the culture and history of other countries,artistic
 languages,Interpreting for people who speak different languages,social
 languages,Reading foreign literature in its original form,artistic
 languages,Teaching a language to non-native speakers,social
-law,Arguing a case or debating a point of view,enterprising
-law,Researching legal precedents and statutes,investigative
-law,Negotiating contracts or settlements,enterprising
 law,Analyzing evidence to build a legal argument,investigative
-law,Advocating for the rights of a client,enterprising
+law,Researching legal precedents and statutes,investigative
 law,Interpreting complex government regulations,conventional
+law,Arguing a case or debating a point of view,enterprising
+law,Negotiating contracts or settlements,enterprising
+law,Researching how new government policies affect different communities,investigative
 life science,Examining cells and bacteria under a microscope,investigative
-life science,Studying genetic codes and DNA,investigative
+life science,Researching genetic codes and DNA,investigative
 life science,Dissecting biological specimens for study,realistic
 life science,Researching the evolution of living organisms,investigative
-life science,Conducting field research on local wildlife,investigative
+life science,Conducting field research on local wildlife,realistic
 life science,Analyzing biological samples in a lab,investigative
-manufacturing and processing,Operating heavy industrial machinery,realistic
-manufacturing and processing,Monitoring production lines for efficiency,conventional
-manufacturing and processing,Assembling electronic or mechanical components,realistic
-manufacturing and processing,Ensuring quality control in a factory setting,conventional
-manufacturing and processing,Programming automated manufacturing robots,realistic
-manufacturing and processing,Managing inventory and supply chain logistics,conventional
-mathematics,Using mathematical formulas to solve complex problems,investigative,
+mathematics,Using mathematics to solve complex problems,investigative,
 mathematics,Analyzing large datasets to find patterns,investigative
-mathematics,Developing statistical models to predict future trends,investigative,NOT NEEDED?
-mathematics,Calculated probabilities for risk assessment,investigative
-mathematics,Organizing numerical data with high precision,conventional,FLAG
+mathematics,Developing statistical models to predict future trends,investigative
+mathematics,Calculate probabilities for risk assessment,investigative
+mathematics,Using statistics to model the uncertainty of a problem,investigative
 mathematics,Using logic to prove mathematical theories,investigative
-physical science,Studying the fundamental laws of physics,investigative
+physical science,Applying the fundamental laws of physics to solve a problem,investigative
 physical science,Observing astronomical events and data,investigative
 physical science,Researching renewable energy sources,investigative
 physical science,Calculating forces and motion in physical systems,investigative

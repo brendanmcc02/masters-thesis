@@ -7,11 +7,17 @@
     * e.g. "environment" should reflect the social policy/sustainability focus, and also the climate/env eng/science investigative part
     * similar with agriculture
 
+- [ ] work with only level 8?
+- [ ] work with only dublin courses?
+    * PoC?
 - [ ] need to readjust weights
     * category weights look good imo
     * riasec interests are quite overinflated
         * or maybe the question classifies them poorly, idk
 - [ ] when clustering/masking categories, also cluster/mask their relevant interests
+    * don't cluster for:
+        1. education
+        2. languages
 - [ ] think about points
     * should we even recommend courses outside a points range? aysha got recommended a 370 point course despite having 625
         * findmycollegecourse actually has a point range preference - should we add this as a preference too?
@@ -27,7 +33,7 @@
     * general science courses
 - [ ] think about how to phrase the question:
     * e.g. `*"On a scale of 0-4, how much would you enjoy (or how interesting would you find) doing this activity for work or study?"*`
-- [ ] work with only level 8?
+
 - [ ] create a usable interface
 
 ```
