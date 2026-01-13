@@ -65,6 +65,12 @@ healthcare,Performing medical procedures or surgeries,realistic
 healthcare,Explaining treatment plans to patients,social
 healthcare,Studying human anatomy and physiology,investigative
 healthcare,Assisting people with physical rehabilitation,social
+hospitality,Planning and organizing large events,enterprising
+hospitality,Managing the operations of a hotel,enterprising
+hospitality,Serving customers in a hospitality setting,social
+hospitality,Cooking in a professional kitchen,realistic
+hospitality,Organizing travel itineraries for clients,conventional
+hospitality,Directing service staff in a restaurant,enterprising
 humanities,Analyzing themes in literature and texts,investigative
 humanities,Writing creative essays or stories,artistic
 humanities,Researching historical events and figures,investigative
@@ -95,18 +101,12 @@ manufacturing and processing,Assembling electronic or mechanical components,real
 manufacturing and processing,Ensuring quality control in a factory setting,conventional
 manufacturing and processing,Programming automated manufacturing robots,realistic
 manufacturing and processing,Managing inventory and supply chain logistics,conventional
-mathematics,Using mathematical formulas to solve complex problems,investigative
+mathematics,Using mathematical formulas to solve complex problems,investigative,
 mathematics,Analyzing large datasets to find patterns,investigative
-mathematics,Developing statistical models to predict future trends,investigative
+mathematics,Developing statistical models to predict future trends,investigative,NOT NEEDED?
 mathematics,Calculated probabilities for risk assessment,investigative
-mathematics,Organizing numerical data with high precision,conventional
+mathematics,Organizing numerical data with high precision,conventional,FLAG
 mathematics,Using logic to prove mathematical theories,investigative
-hospitality,Planning and organizing large events,enterprising
-hospitality,Managing the operations of a hotel,enterprising
-hospitality,Serving customers in a hospitality setting,social
-hospitality,Cooking in a professional kitchen,realistic
-hospitality,Organizing travel itineraries for clients,conventional
-hospitality,Directing service staff in a restaurant,enterprising
 physical science,Studying the fundamental laws of physics,investigative
 physical science,Observing astronomical events and data,investigative
 physical science,Researching renewable energy sources,investigative
