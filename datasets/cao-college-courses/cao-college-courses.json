@@ -1981,7 +1981,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The overall aim is to develop reflective and ethically-aware practitioners with the capacity to build professional relationships, in partnership with vulnerable individuals and groups who experience marginalisation, disadvantage or special needs.",
         "interests": [
-            "investigative",
             "social"
         ],
         "categories": [
@@ -2000,7 +1999,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Social care is a dynamic, challenging and ever-changing career, reflecting and responding to the needs of those who are most in danger of poverty and social exclusion, and/or who find themselves at the margins of society.\nSocial care workers work with children, young people, adults, families, individuals with disabilities, asylum seekers, and/or with people experiencing challenges such as homeless, addiction, mental health difficulties to name just a few. During your study, you will learn about psychology, sociology, law, addiction, trauma, racism, culture and more, to understand and critically evaluate society and apply your knowledge to social care practice.",
         "interests": [
-            "investigative",
             "social"
         ],
         "categories": [
@@ -2019,7 +2017,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The BA Applied Social Care degree is designed to enable graduates to make the world a better place for everyone, by empowering and enabling people, and by correcting the social injustices that exist in today's society.Our graduates understand the inherent structures of inequality and the impact they have on human rights and society in general. We ensure students have the capacity and skills they need to support and care for vulnerable, excluded and oppressed people within society.This course has CORU recognition.",
         "interests": [
-            "investigative",
             "social"
         ],
         "categories": [
@@ -2038,7 +2035,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The BA (Hons) Applied Social Care degree is designed to enable graduates to make the world a better place for everyone, by empowering and enabling people, and by correcting the social injustices that exist in today's society. You will learn about the multiple causes of social oppression and ways of working with people with a variety of needs so they can be healthy, resilient and free contributors to a caring society.This course has CORU recognition.",
         "interests": [
-            "investigative",
             "social"
         ],
         "categories": [
@@ -2077,7 +2073,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This course prepares graduates to work in social care providing support and assistance to vulnerable people in the community and in residential services. For example, social care workers gain employment working with groups such as children and young people at risk and/or who have been neglected and abused, people with disabilities and older people.",
         "interests": [
-            "investigative",
             "social"
         ],
         "categories": [
@@ -2096,7 +2091,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "In this course, you'll learn about your own strengths and the most effective ways to work with people using social care services. You'll develop strong interpersonal skills, empathy, reflection, effective communication skills, and the ability to work in a team.\nSubjects include psychology, sociology, disability studies, social institutions, promoting health and well-being, social policy for social care, cultural diversity, legal studies, sociology and the family, and personal and professional development.",
         "interests": [
-            "investigative",
             "social"
         ],
         "categories": [
@@ -2115,7 +2109,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "In this course, you'll learn about your own strengths and the most effective ways to work with people using social care services. You'll develop strong interpersonal skills, empathy, reflection, effective communication skills, and the ability to work in a team.",
         "interests": [
-            "investigative",
             "social"
         ],
         "categories": [
@@ -2134,7 +2127,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This course, which offers a wide variety of learning opportunities. Students will acquire the knowledge and skills to support society's most vulnerable children, young people or adults who for a variety of reasons may require support and assistance. We aim to deliver best practice in our teaching to support students to become competent, confident and professional social care workers.",
         "interests": [
-            "investigative",
             "social"
         ],
         "categories": [
@@ -2884,8 +2876,7 @@
             "enterprising"
         ],
         "categories": [
-            "business",
-            "humanities"
+            "business"
         ]
     },
     {
@@ -10066,7 +10057,7 @@
             "investigative"
         ],
         "categories": [
-            "welfare"
+            "healthcare"
         ]
     },
     {
@@ -13100,11 +13091,13 @@
         "overview": "This degree is designed to equip future leaders of the dairy industry with the scientific, technical and business skills needed to succeed in this exciting industry. The first two years provide a strong foundation in business, science, mathematics, and technology-related modules, followed by relevant applied sciences, business, and communication modules.",
         "interests": [
             "enterprising",
+            "investigative",
             "realistic"
         ],
         "categories": [
             "agriculture",
-            "business"
+            "business",
+            "life science"
         ]
     },
     {
@@ -18618,7 +18611,7 @@
             "realistic"
         ],
         "categories": [
-            "life science"
+            "agriculture"
         ]
     },
     {
@@ -18636,7 +18629,7 @@
             "realistic"
         ],
         "categories": [
-            "life science"
+            "agriculture"
         ]
     },
     {
@@ -20343,7 +20336,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "History is the pursuit of how we got here and the stories that we tell ourselves to explain the past. Working from ordinary to extraordinary, local to global, fact to fiction, you'll develop critical thinking, argument and analysis skills that lie at the heart of careers in media, government, culture and education.",
         "interests": [
-            "artistic",
             "investigative"
         ],
         "categories": [
@@ -22862,7 +22854,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Students in this course will acquire highly transferable skills attractive to a wide range of businesses, both inside and outside of law, including banking, the civil service, media and other related disciplines.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -22882,7 +22873,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Law regulates all aspects of society: from marriage and parenting to corporate governance or international relations between countries. To study law is to become aware of one's legal rights and responsibilities in a variety of contexts, as well as to acquire knowledge and the research, writing and advocacy skills that enable one to argue both sides of a complex situation and devise a pragmatic, client-focused solution.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -22902,7 +22892,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The law degree will appeal to you if you are interested in society and how it works, and with the broader question of the regulation of inter-personal relationships. A general interest in history and political developments, will be an advantage, as the law is deeply linked to its historical and political context.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -22922,7 +22911,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The Bachelor of Laws (Hons) (LL.B.) is a full-time four-year programme that is both challenging and stimulating. As well as providing a broad based legal education, our law degree equips students with analytical, problem-solving, communication and research skills.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -22942,7 +22930,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The Bachelor of Laws (Hons) is recognised by the Honorable Society of King's Inns and the Law Society of Ireland. Studying law at undergraduate level has an appeal to any student considering a career in the legal profession. A Bachelor of Laws degree provides a firm foundation for students wishing to qualify as a solicitor or barrister.The study of law improves and develops the student's power of reasoning, clarity of thought and the ability to analyse and express complicated ideas.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -22962,7 +22949,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Specialise in a single major law programme over four years, opening up excellent employment prospects in both law and non-law careers. Acquire a thorough grounding in the fundamental areas of legal study and a broad range of specialist modules like Transnational Litigation, Civil Liberties, and Criminology. Enhance employability by developing your faculties for argument, reasoning and for the analysis of complicated ideas.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -22982,7 +22968,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This degree aims to prepare students for the modern world of work and legal practice. Few traditional law degrees offer students the opportunity to learn law as well as how to run a legal business. Our lecturing staff have experience of this which allows them to actually apply theory in real-life contexts, such as real-life legal clinics, work placements and mock court cases. Interpersonal skills are almost as important as qualification in predicting success in the modern business world. This course will develop these skills to a high level, in addition to practical business management and legal skills like advocacy and legal research.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -23002,7 +22987,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Few traditional law degrees offer students the opportunity to learn law as well as how to run a legal business. Interpersonal skills are almost as important as qualification in predicting success in the modern business world. This course will develop these skills to a high level, in addition to practical business management and legal skills like advocacy and legal research.\nTraditional core subjects are complemented by the opportunity to take advanced classes in a range of electives that reflect the challenges faced in the modern world, like legal technology, climate change, white collar crime and human rights law. Students will also have the opportunity to learn core business skills like entrepreneurship and management.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -23022,7 +23006,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The LL.B. is three years in length. Students will study core subjects and pick additional subjects (\"electives\"), allowing them to tailor their degree to their interests and needs. This allows the student to focus on key areas in which they are interested, such as criminal law, human rights law, or corporate law.",
         "interests": [
-            "investigative"
+            "investigative",
+            "enterprising"
         ],
         "categories": [
             "business",
@@ -23041,6 +23026,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This Programme is for school leavers as well as mature learners who wish to attain a specialised Law degree in the area of Criminal Justice. The programme develops within learners critical, analytical, research and communications skills in both an academic and clinical context and fosters learners' ability to work effectively whether as a team member or independently. As learners progress over three years, they build on their knowledge of core legal subjects to attain increasing specialization in their chosen field, including a number of elective module options.",
         "interests": [
+            "enterprising",
             "investigative"
         ],
         "categories": [
@@ -23059,7 +23045,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The UCD Bachelor of Civil Law (BCL) degree enjoys a proud history and an established reputation at home and abroad. The BCL degree allows you to immerse yourself in the study of law, to engage with a range of interesting legal perspectives and to acquire a profound understanding of how law works in theory and in practice.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -23079,7 +23064,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "A law degree such as this 3 year honours LLB degree is a versatile qualification providing an excellent foundation for a wide variety of careers. This accredited degree covers all of the essential core law modules together with new and emerging areas of legal study. In addition to the essential core law modules, this degree has a particular focus on clinical or practical modules such as Mooting, Alternative Dispute Resolution, Legal Practice Skills, Street Law and a Work Placement, together with topical areas including employment law, human rights and media and communications law.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -23099,7 +23083,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Many LLB graduates pursue a career as a solicitor or a barrister, but these professions are not the only option. The analytical and problem-solving skills developed in a law degree are valuable in a range of businesses. Law graduates also find employment in the civil and public service, as well as the NGO sector, where their legal knowledge and critical thinking skills are particularly useful.\nCertain subjects are considered essential to the study of law, such as Contract Law, Property Law, Criminal Law and European Union law.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -23119,7 +23102,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The LLB is a traditional law degree offering a curriculum of core and elective law subjects. Students are encouraged and supported in acquiring skills in legal analysis, legal research and written and oral communication. The course seeks to impart a sound understanding of law and the intellectual foundation necessary to prepare for a career as a legal professional.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -23139,8 +23121,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The Bachelor of Laws (LLB) with a language combines a full Irish law degree with the study of the law, language and culture of one of three European countries: France, Germany or Spain. Students learn about legal rules and systems, why they exist, how they have developed and how they relate to social and economic goals. Whilst the focus is on Irish law, students will obtain a grounding in the law and legal system of one other European country.",
         "interests": [
-            "artistic",
-            "enterprising"
+            "enterprising",
+            "investigative"
         ],
         "categories": [
             "languages",
@@ -23320,9 +23302,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Students acquire a thorough grounding in the fundamental areas of legal study: including foundational legal principles; legal systems; and the role of Irish, European, and international law. By studying Criminology, students examine the causes of crime and society's reaction to criminality. Unique interdisciplinary programme with perspectives from sociology, psychology and economics, as well as law.",
         "interests": [
-            "conventional",
             "enterprising",
-            "social"
+            "investigative"
         ],
         "categories": [
             "law",
@@ -23360,7 +23341,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "BCL (Law and French) allows you to study law and French at the same time in a joint honours degree. You can then become a lawyer with specific linguistic skills. Most of our graduates combine these two sets of skills and become lawyers with a unique linguistic ability. They often go on to work abroad in international or EU firms and institutions.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -23381,7 +23361,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The Law and French degree programme offers a unique opportunity to study core and specialised legal modules but also the language, culture and political systems of France. Students must undertake an Erasmus year in France, exposing them to the law of that legal system.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -23402,7 +23381,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The Law and German degree programme offer a unique opportunity to study core and specialised legal modules but also the language, culture and political systems of Germany. Students must undertake an Erasmus year in Germany, exposing them to the law of that legal system.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -23423,7 +23401,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The four-year Bachelor of Civil Law (Human Rights) is an innovative and unique programme - the first of its kind in Ireland. It offers students the opportunity to combine a full undergraduate law programme with the study of human rights.",
         "interests": [
-            "conventional"
+            "enterprising",
+            "investigative"
         ],
         "categories": [
             "law"
@@ -23441,7 +23420,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The BCL (Law and Irish) degree will introduce you to a variety of diverse and stimulating topics combining the best aspects of a law degree together with study of the Irish language, literature, culture and institutions. It will also develop your analytical and interpretative skills.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -23462,7 +23440,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Students undertake all of the required modules needed for Law and a full suite of modules in their chosen European language. Graduates of this programme will develop a strong capacity for analytical and critical thinking as well as strong linguistic skills and a keen sense of cultural awareness.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -23483,8 +23460,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The BCL/Ma\u00eetrise is one of two French Law Courses offered by Sutherland School of Law, the other being the BCL (Law with French Law) on the previous page. All students interested in the French Law Courses enter the BCL (Law with French Law) degree in first year. Both degrees offer the exciting opportunity for immersion in two of the world's major legal systems, the common law and the civil law. A deep knowledge of civil law is invaluable to graduates who choose to pursue careers with organisations of the European Union or have ambitions to work in international law firms.",
         "interests": [
-            "conventional",
-            "enterprising"
+            "enterprising",
+            "investigative"
         ],
         "categories": [
             "languages",
@@ -23522,9 +23499,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This degree will teach you all about the criminal justice system and the law. The programme allows you to study the core law subjects alongside subjects such as crime, criminology, legal practice, understanding conflict and different perspectives within the criminal justice system from victims to criminals/defendants, as well as support services and lawyers.",
         "interests": [
-            "conventional",
             "enterprising",
-            "social"
+            "investigative"
         ],
         "categories": [
             "law"
@@ -23542,7 +23518,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This course allows you to obtain a highly respected degree in law, whilst simultaneously acquiring a broad knowledge of economics. Certain areas of law (e.g. competition regulation and intellectual property) are heavily influenced by economic theory. BCL (Law with Economics) graduates are uniquely equipped to understand these regulatory frameworks in all of their conceptual complexity.\nOn this degree, you'll embark on a feld of cross-disciplinary study which is intellectually very demanding, but also tremendously enriching and of immense practical importance.",
         "interests": [
-            "conventional",
             "enterprising",
             "investigative"
         ],
@@ -23563,7 +23538,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Law with French Law is one of two French Law Courses offered by Sutherland School of Law, the other being the dual degree - the BCL/Ma\u00eetrise (more information on the following page). All students interested in the French Law Courses enter the BCL (Law with French Law) in first year.\nBoth degrees offer the exciting opportunity for immersion in two of the world's major legal systems. Student will learn about the common law system, practised in Ireland and the UK (and in some form, in most of the English-speaking world) and the civil law system which is used throughout Europe.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -23584,9 +23558,9 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "There's a natural affnity between the disciplines of law and history. Each is shaped by the other. Important historical events are often interlinked with contemporary legal structures. Legal reform may be prompted by the defning events of the past.\nThis course allows you to acquire a highly respected degree in law, whilst also pursuing a passion for history and acquiring a deeper understanding of past events that have shaped our current legal system.",
         "interests": [
+            "artistic",
             "enterprising",
-            "investigative",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities",
@@ -23605,7 +23579,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The BCL (Law with Irish) course allows undergraduate law students to access a cohesive set of Irish language modules which are relevant to the study and practice of law. This programme offers you the opportunity to acquire a highly respected BCL degree, whilst additionally deepening your competence in the Irish language in the context of law.\nYour Irish language communication skills will be developed by the resources provided by a modern multi-media language laboratory (An Teanglann) and the advanced language skills training in L\u00e1rionad de Bhaldraithe.",
         "interests": [
-            "artistic",
             "enterprising",
             "investigative"
         ],
@@ -23647,7 +23620,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Law and politics are inextricably linked by the legislative process. This course allows you to obtain a highly respected law degree, whilst also acquiring a deeper understanding of political theory and the political process. Many UCD law graduates have progressed to political careers. Others have become high-profle political commentators.",
         "interests": [
-            "conventional",
             "enterprising",
             "investigative"
         ],
@@ -23668,8 +23640,7 @@
         "overview": "The BCL with Social Justice course, the frst of its kind in Ireland, combines the study of Law with rigorous analysis of social injustice, its causes and remedies. It will appeal to students who are interested in issues of equality, diversity and disadvantage, and who want to look in-depth at the social context in which law operates.\nOn completion, you'll be uniquely equipped to offer a critical perspective on issues such as the adequacy of our criminal justice system, the legal treatment of women and minority groups, and the underlying causes of social and economic injustice.",
         "interests": [
             "enterprising",
-            "investigative",
-            "social"
+            "investigative"
         ],
         "categories": [
             "law"
@@ -29071,7 +29042,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Social care professionals provide vital support, advocacy and care to some of the most vulnerable and marginalised groups in society including people with disabilities, children and families at risk, asylum seekers, people with addiction, mental health issues and the elderly.\nThis course provides graduates with the skills and expertise to work in the social care profession and work across this diverse sector, in fields such as residential care, disability and community-based services.",
         "interests": [
-            "investigative",
             "social"
         ],
         "categories": [
@@ -29090,7 +29060,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Social care professionals provide vital support, advocacy and care to some of the most vulnerable and marginalised groups in society including: people with disabilities, children and families at risk, asylum seekers, people with addiction, mental health issues and the elderly.\nThe course provides graduates with the skills and expertise to work in the social care profession and work across this diverse sector, in fields such as residential care, disability and community-based services.",
         "interests": [
-            "investigative",
             "social"
         ],
         "categories": [
@@ -32862,8 +32831,8 @@
             "realistic"
         ],
         "categories": [
-            "law",
-            "environment"
+            "environment",
+            "law"
         ]
     },
     {
@@ -32882,8 +32851,8 @@
             "realistic"
         ],
         "categories": [
-            "law",
-            "environment"
+            "environment",
+            "law"
         ]
     },
     {

@@ -3,9 +3,6 @@
 ## new approach
 
 ### cao course re-classification
-- [ ] is manufacturing and processing worth it?
-- [ ] check if "science" in name but not investigative quality
-- [ ] check for eng in name but not eng category
 - [ ] revise the gemini questions, i think some of them have different intentions or ideas of what kinds of courses or qualities their looking for
     * e.g. "environment" should reflect the social policy/sustainability focus, and also the climate/env eng/science investigative part
     * similar with agriculture

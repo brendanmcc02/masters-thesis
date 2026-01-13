@@ -10,7 +10,6 @@
 * education (Teaching and education methods for schools and special education)
 * law (Courses on legal systems, human rights, and constitutional law)
 * manufacturing and processing (Courses on industrial production, materials, and automation)
-    * honestly not too sold on this ngl, feels too granular and could probably be grouped into eng or something similar
 * architecture and construction (Building design, engineering, and construction management)
 * environment (Environmental science, conservation, and sustainability)
 * humanities (Cultural and historical studies, including literature and philosophy)
