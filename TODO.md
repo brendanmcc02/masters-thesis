@@ -3,7 +3,6 @@
 ## new approach
 
 ### cao course re-classification
-- [ ] what are the categories for political science? social science/law? i feel like law makes more sense tbh
 - [ ] veterinary - should we add the category?
 - [ ] environment - env sci, sustainablity, conservation, climate, etc.
 - [ ] is manufacturing and processing worth it?
