@@ -9,7 +9,6 @@
 * life science (Exploring biotechnology, genetics, and life sciences)
 * education (Teaching and education methods for schools and special education)
 * law (Courses on legal systems, human rights, and constitutional law)
-* manufacturing and processing (Courses on industrial production, materials, and automation)
 * architecture and construction (Building design, engineering, and construction management)
 * environment (Environmental science, conservation, and sustainability)
 * humanities (Cultural and historical studies, including literature and philosophy)
@@ -23,11 +22,7 @@
 * sports (Covers sports science, management, and coaching)
 
 
-* I could just ask donnchadh for his list of questions?
-    * additionally to the questions, also gather an idea for a RIASEC score
-    * I do like his level of granularity with distinctions
-
-
+* ~~manufacturing and processing (Courses on industrial production, materials, and automation)~~
 * ~~Veterinary (Animal healthcare and welfare, veterinary medicine, and nursing)~~
     * vet categories are "realistic" instead of social
     * 
