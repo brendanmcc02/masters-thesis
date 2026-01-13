@@ -11,12 +11,6 @@ architecture and construction,Creating detailed architectural drawings,artistic
 architecture and construction,Calculating material requirements for a build,realistic
 architecture and construction,Planning urban landscapes and spaces,artistic
 architecture and construction,Managing construction project timelines,enterprising
-life science,Examining cells and bacteria under a microscope,investigative
-life science,Studying genetic codes and DNA,investigative
-life science,Dissecting biological specimens for study,realistic
-life science,Researching the evolution of living organisms,investigative
-life science,Conducting field research on local wildlife,investigative
-life science,Analyzing biological samples in a lab,investigative
 business,Developing marketing strategies for products,enterprising
 business,Managing company finances and budgets,conventional
 business,Leading a team of employees to meet goals,enterprising
@@ -29,6 +23,18 @@ chemical science,Studying molecular structures and reactions,investigative
 chemical science,Mixing chemical compounds to create new solutions,realistic
 chemical science,Using laboratory equipment to test samples,realistic
 chemical science,Researching the properties of organic matter,investigative
+computers,Writing computer code for software applications,investigative
+computers,Designing secure computer networks,investigative
+computers,Troubleshooting hardware or software issues,realistic
+computers,Managing large databases of information,conventional
+computers,Developing algorithms to automate tasks,investigative
+computers,Protecting computer systems from cyber attacks,investigative
+communications,Writing news articles or feature stories,artistic
+communications,Interviewing public figures for information,enterprising
+communications,Investigating facts to uncover a story,investigative
+communications,Editing video or audio content for media,artistic
+communications,Presenting news on camera or radio,artistic
+communications,Researching sources for a documentary,investigative
 creative arts,"Painting, drawing, or sculpting",artistic
 creative arts,Composing or performing music,artistic
 creative arts,Acting in a theatre or film production,artistic
@@ -65,18 +71,6 @@ humanities,Researching historical events and figures,investigative
 humanities,Discussing philosophical theories and ethics,investigative
 humanities,Critiquing works of art or culture,artistic
 humanities,Studying the history of ancient civilizations,investigative
-computers,Writing computer code for software applications,investigative
-computers,Designing secure computer networks,investigative
-computers,Troubleshooting hardware or software issues,realistic
-computers,Managing large databases of information,conventional
-computers,Developing algorithms to automate tasks,investigative
-computers,Protecting computer systems from cyber attacks,investigative
-communications,Writing news articles or feature stories,artistic
-communications,Interviewing public figures for information,enterprising
-communications,Investigating facts to uncover a story,investigative
-communications,Editing video or audio content for media,artistic
-communications,Presenting news on camera or radio,artistic
-communications,Researching sources for a documentary,investigative
 languages,Translating texts from one language to another,artistic
 languages,Conversing fluently in a foreign language,social
 languages,Studying the culture and history of other countries,investigative
@@ -89,6 +83,12 @@ law,Negotiating contracts or settlements,enterprising
 law,Analyzing evidence to build a legal argument,investigative
 law,Advocating for the rights of a client,enterprising
 law,Interpreting complex government regulations,conventional
+life science,Examining cells and bacteria under a microscope,investigative
+life science,Studying genetic codes and DNA,investigative
+life science,Dissecting biological specimens for study,realistic
+life science,Researching the evolution of living organisms,investigative
+life science,Conducting field research on local wildlife,investigative
+life science,Analyzing biological samples in a lab,investigative
 manufacturing and processing,Operating heavy industrial machinery,realistic
 manufacturing and processing,Monitoring production lines for efficiency,conventional
 manufacturing and processing,Assembling electronic or mechanical components,realistic

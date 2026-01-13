@@ -9817,8 +9817,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The study of Classical Civilisation is concerned with the literature, thought and culture of Ancient Greece and Rome. Through the examination and contextualisation of literary works and the analysis of the main aspects of ancient history and art, you will develop a thorough knowledge of the classical world and a critical approach to Greek and Roman literature. All texts are studied in translation and no knowledge of Greek or Latin is required, but there are opportunities to study the languages at an introductory level.",
         "interests": [
-            "conventional",
-            "investigative"
+            "artistic"
         ],
         "categories": [
             "humanities"
@@ -13356,6 +13355,7 @@
         "overview": "Dentistry provides a rewarding career in the provision of oral health care and is satisfying not only in terms of performing high-standard clinical procedures but also in terms of social interaction. The dentist also fulfills an important function in educating patients regarding their oral care.",
         "interests": [
             "investigative",
+            "realistic",
             "social"
         ],
         "categories": [
@@ -13376,7 +13376,8 @@
         "overview": "Early patient contact commencing in Year 1 is one of the most important characteristics of this innovative degree programme. These early patient encounters play an important role in developing students' clinical communication and teamworking skills, and understanding the ethos of patient-centred care. Additionally, Years 1 and 2 of the programme lay down the scientific and technical foundations upon which the later, more clinically-intensive years of the course are built. By the end of the second year of study, students will have been introduced to the evidence-based core clinical and technical skills required of modern dentistry and will have developed competence in many aspects of dental care.",
         "interests": [
             "investigative",
-            "realistic"
+            "realistic",
+            "social"
         ],
         "categories": [
             "healthcare",
@@ -26928,7 +26929,6 @@
         ],
         "categories": [
             "business",
-            "healthcare",
             "life science"
         ]
     },
