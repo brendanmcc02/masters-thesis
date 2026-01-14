@@ -4,13 +4,6 @@
 
 ### cao course re-classification
 - [ ] revise the gemini questions, i think some of them have different intentions or ideas of what kinds of courses or qualities their looking for
-- [ ] check for adjacent areas:
-    * business, law, agri
-    * computers, math, eng, arch & construction
-    * sport, life science, healthcare, welfare, education, social science
-    * any others?
-    * agri and environment?
-    * chem sci, phys sci, eng
 - [ ] all data science/analytics should be math!
 
 - [ ] wording of questions is actually **really influential**
