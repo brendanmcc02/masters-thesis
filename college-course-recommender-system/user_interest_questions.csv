@@ -17,12 +17,12 @@ business,Pitch innovative business ideas to investors,enterprising
 business,Organize company budgets and financial reports,conventional
 business,Maintain accurate business records and data,conventional
 business,Coordinate complex logistics and supply chains,conventional
-chemical science,Investigate chemical reactions in a laboratory,investigative
-chemical science,Analyze the chemical composition of substances,investigative
-chemical science,Research how different molecules react together,investigative
+chemical science,Research how proteins change to fight specific diseases,investigative
+chemical science,Discover how new drugs interact with human cells,investigative
+chemical science,Research how catalysts speed up chemical reactions,investigative
+chemical science,Analyze unknown substances to find their chemical makeup,investigative
+chemical science,Mix raw ingredients to create skincare products,realistic
 chemical science,Mix chemical compounds to create new products,realistic
-chemical science,Operate lab equipment to measure reagents,realistic
-chemical science,Evaluate the properties of organic matter,investigative
 computers,Assemble and configure high-performance servers,realistic
 computers,Design a software application to handle millions of users,investigative
 computers,Fix hardware problems found in error logs,realistic
@@ -91,10 +91,10 @@ law,Argue a case or debate a point of law,enterprising
 law,Negotiate legal contracts and settlements,enterprising
 life science,Investigate how bacteria react to medicine,investigative
 life science,Analyze genetic sequences and DNA samples,investigative
-life science,Dissect biological specimens for research,realistic
+life science,Evaluate biological samples in a lab setting,investigative,make more specific
 life science,Research how different living organisms evolved,investigative
+life science,Dissect biological specimens for research,realistic
 life science,Conduct field research on local wildlife,realistic
-life science,Evaluate biological samples in a lab setting,investigative
 mathematics,Apply advanced math to solve complex problems,investigative
 mathematics,Evaluate large sets of data to find patterns,investigative
 mathematics,Design mathematical models to predict trends,investigative
