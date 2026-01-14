@@ -2983,7 +2983,7 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
+            "languages",
             "humanities"
         ]
     },
@@ -11431,7 +11431,8 @@
             "investigative"
         ],
         "categories": [
-            "computers"
+            "computers",
+            "mathematics"
         ]
     },
     {
@@ -11638,7 +11639,7 @@
             "investigative"
         ],
         "categories": [
-            "business",
+            "mathematics",
             "computers"
         ]
     },
@@ -13174,7 +13175,8 @@
             "investigative"
         ],
         "categories": [
-            "computers"
+            "computers",
+            "mathematics"
         ]
     },
     {
@@ -24503,6 +24505,7 @@
             "investigative"
         ],
         "categories": [
+            "computers",
             "mathematics"
         ]
     },
@@ -28347,6 +28350,7 @@
         ],
         "categories": [
             "computers",
+            "mathematics",
             "physical science"
         ]
     },
@@ -28366,6 +28370,7 @@
         ],
         "categories": [
             "computers",
+            "mathematics",
             "physical science"
         ]
     },

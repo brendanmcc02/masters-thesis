@@ -2,15 +2,6 @@
 
 ## new approach
 
-### cao course re-classification
-- [ ] revise the gemini questions, i think some of them have different intentions or ideas of what kinds of courses or qualities their looking for
-- [ ] all data science/analytics should be math!
-
-- [ ] wording of questions is actually **really influential**
-    * do I make it more generic or specific?
-    * generic might be a bit more boring/safe answers
-    * specific is high risk/high reward
-
 - [ ] ~~work with only level 8?~~
     * might not be worth it anymore ngl, idk
 - [ ] ~~work with only dublin courses?~~
