@@ -12,6 +12,7 @@
     * agri and environment?
     * chem sci, phys sci, eng
 - [ ] check creative arts is diverse and relatively exhaustive
+- [ ] make it more pop and exciting! build a mini airplane, shit like that
 
 - [ ] forensic science has law?
 

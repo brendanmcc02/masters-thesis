@@ -29,12 +29,12 @@ computers,Fix hardware problems found in error logs,realistic
 computers,Organize and manage large databases of information,conventional
 computers,Optimize a computer program to run more efficiently,investigative
 computers,Develop the code for a search engine,investigative
-communications,Manage digital campaigns to help sell products,enterprising
-communications,Pitch brand strategies to corporate clients,enterprising
-communications,Create visual layouts for digital magazines,artistic
-communications,Write news articles and professional stories,artistic
-communications,Edit high-quality video or audio content,artistic
-communications,Investigate news stories to ensure 100% truth,investigative
+communications,Build a viral social media campaign for a brand,enterprising
+communications,Pitch a creative vision to launch a new product,enterprising
+communications,Design the logo and visual identity for a music festival,artistic
+communications,Write an opinion piece for a respected newspaper,artistic
+communications,Direct a short film for a company's marketing campaign,artistic
+communications,Investigate an article to ensure 100% truth,investigative
 creative arts,"Paint, draw, or sculpt original artworks",artistic
 creative arts,Design graphic visuals and illustrations,artistic,film?
 creative arts,Compose or perform original musical pieces,artistic
@@ -101,7 +101,7 @@ mathematics,Design mathematical models to predict trends,investigative
 mathematics,Use probability to calculate financial risks,investigative
 mathematics,Model the statistical uncertainty of problems,investigative
 mathematics,Use formal logic to prove math theories,investigative
-physical science,Analyze the physics of planetary motion,investigative
+physical science,Learn the physics behind planetary motion,investigative
 physical science,Research new ways to create clean energy,investigative
 physical science,Calculate force and motion in physics systems,investigative
 physical science,Analyze seismic waves to map the Earth's core,investigative
@@ -109,7 +109,7 @@ physical science,Run laboratory tests on matter and energy,realistic
 physical science,Use technical tools to collect rock samples,realistic
 social science,Analyze patterns in human behavior and culture,investigative
 social science,Counsel people through personal difficulties,social
-social science,Research societal trends in demographics,investigative
+social science,Research societal trends in demographics,investigative,similar to another question
 social science,Investigate how humans make economic decisions,investigative,another one on econ perhaps?
 social science,Mediate and resolve conflicts between groups,social
 social science,Study the development of the human mind,investigative
