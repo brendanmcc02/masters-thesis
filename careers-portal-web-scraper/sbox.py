@@ -10,7 +10,7 @@ r_i = ["realistic", "investigative", "artistic", "social", "enterprising", "conv
 for course in courses:
     title = course["title"].lower()
 
-    if "healthcare" not in course["categories"] and "life science" in course["categories"]:
+    if "agriculture" in course["categories"]:
         print(title)
 
     for cat in course["categories"]:
@@ -20,6 +20,7 @@ for course in courses:
         for inte in course["interests"]:
             categories_dict[cat][r_i.index(inte)] += 1
 
+print("\n")
 for k, v in categories_dict.items():
     norm = [round(float(i)/max(v), 2) for i in v]
 

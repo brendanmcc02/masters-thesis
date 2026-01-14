@@ -4,8 +4,9 @@
 
 ### cao course re-classification
 - [ ] revise the gemini questions, i think some of them have different intentions or ideas of what kinds of courses or qualities their looking for
-    * e.g. "environment" should reflect the social policy/sustainability focus, and also the climate/env eng/science investigative part
-    * similar with agriculture
+- [ ] look at the wording - actually really important!
+    * analyze, investigate, diagnose, design(?) -> investigative
+    * realistic -> action words!
 
 - [ ] work with only level 8?
 - [ ] work with only dublin courses?
@@ -60,9 +61,3 @@ ucd cs
 tud cs
 ```
 
-
-sustainability - social science/law
-
-
-my problem is that "environment" is really broad - it could be social policy/advocate focused (social science/law), or scientific (e.g. env eng/sci)
-i guess i could merge it with the relevant category, that's what i did with agri anyways (e.g. agri + science, agri + business)
