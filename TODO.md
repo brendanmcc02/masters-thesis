@@ -11,9 +11,11 @@
     * any others?
     * agri and environment?
     * chem sci, phys sci, eng
-- [ ] check creative arts is diverse and relatively exhaustive
-- [ ] make it more pop and exciting! build a mini airplane, shit like that
 
+- [ ] wording of questions is actually **really influential**
+    * do I make it more generic or specific?
+    * generic might be a bit more boring/safe answers
+    * specific is high risk/high reward
 - [ ] forensic science has law?
 
 - [ ] ~~work with only level 8?~~
