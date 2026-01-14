@@ -8,13 +8,16 @@
     * analyze, investigate, diagnose, design(?) -> investigative
     * realistic -> action words!
 
-- [ ] work with only level 8?
-- [ ] work with only dublin courses?
+- [ ] business has marketing overlap despite quite a lot of communications questions?
+
+- [ ] ~~work with only level 8?~~
+    * might not be worth it anymore ngl, idk
+- [ ] ~~work with only dublin courses?~~
+    * might not be worth it anymore ngl, idk
     * PoC?
 - [ ] need to readjust weights
     * category weights look good imo
     * riasec interests are quite overinflated
-        * or maybe the question classifies them poorly, idk
 - [ ] when clustering/masking categories, also cluster/mask their relevant interests
     * don't cluster for:
         1. education
