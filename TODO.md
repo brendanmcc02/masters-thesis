@@ -4,11 +4,16 @@
 
 ### cao course re-classification
 - [ ] revise the gemini questions, i think some of them have different intentions or ideas of what kinds of courses or qualities their looking for
-- [ ] look at the wording - actually really important!
-    * analyze, investigate, diagnose, design(?) -> investigative
-    * realistic -> action words!
+- [ ] check for adjacent areas:
+    * business, law, agri
+    * computers, math, eng, arch & construction
+    * sport, life science, healthcare, welfare, education, social science
+    * any others?
+    * agri and environment?
+    * chem sci, phys sci, eng
+- [ ] check creative arts is diverse and relatively exhaustive
 
-- [ ] business has marketing overlap despite quite a lot of communications questions?
+- [ ] forensic science has law?
 
 - [ ] ~~work with only level 8?~~
     * might not be worth it anymore ngl, idk

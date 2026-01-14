@@ -18604,7 +18604,7 @@
             "realistic"
         ],
         "categories": [
-            "agriculture"
+            "environment"
         ]
     },
     {
@@ -18622,7 +18622,7 @@
             "realistic"
         ],
         "categories": [
-            "agriculture"
+            "environment"
         ]
     },
     {
@@ -18640,7 +18640,8 @@
             "realistic"
         ],
         "categories": [
-            "agriculture"
+            "agriculture",
+            "environment"
         ]
     },
     {
