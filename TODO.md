@@ -11,12 +11,12 @@
     * any others?
     * agri and environment?
     * chem sci, phys sci, eng
+- [ ] all data science/analytics should be math!
 
 - [ ] wording of questions is actually **really influential**
     * do I make it more generic or specific?
     * generic might be a bit more boring/safe answers
     * specific is high risk/high reward
-- [ ] forensic science has law?
 
 - [ ] ~~work with only level 8?~~
     * might not be worth it anymore ngl, idk
@@ -71,3 +71,8 @@ tcd cs
 ucd cs
 tud cs
 ```
+
+geoscience/geophysics/earth science
+physics
+forensic science
+radiation therapy

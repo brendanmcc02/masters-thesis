@@ -5766,7 +5766,7 @@
         ],
         "categories": [
             "life science",
-            "physical science"
+            "chemical science"
         ]
     },
     {
@@ -5785,7 +5785,7 @@
         ],
         "categories": [
             "life science",
-            "physical science"
+            "chemical science"
         ]
     },
     {
@@ -13898,7 +13898,6 @@
             "realistic"
         ],
         "categories": [
-            "law",
             "life science",
             "physical science"
         ]
@@ -13919,7 +13918,6 @@
             "realistic"
         ],
         "categories": [
-            "law",
             "life science",
             "physical science"
         ]
@@ -18364,8 +18362,8 @@
             "realistic"
         ],
         "categories": [
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -18384,8 +18382,8 @@
             "realistic"
         ],
         "categories": [
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -18404,8 +18402,8 @@
             "realistic"
         ],
         "categories": [
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -18424,8 +18422,8 @@
             "realistic"
         ],
         "categories": [
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -18444,9 +18442,8 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -18465,9 +18462,8 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -18486,9 +18482,8 @@
             "realistic"
         ],
         "categories": [
-            "healthcare",
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -18507,7 +18502,6 @@
         ],
         "categories": [
             "chemical science",
-            "law",
             "life science"
         ]
     },
@@ -18527,7 +18521,6 @@
         ],
         "categories": [
             "chemical science",
-            "law",
             "life science"
         ]
     },
@@ -18546,9 +18539,8 @@
             "investigative"
         ],
         "categories": [
-            "law",
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -18566,9 +18558,8 @@
             "investigative"
         ],
         "categories": [
-            "law",
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -18586,8 +18577,8 @@
             "investigative"
         ],
         "categories": [
-            "law",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -18908,8 +18899,8 @@
         ],
         "categories": [
             "hospitality",
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -18928,8 +18919,8 @@
         ],
         "categories": [
             "hospitality",
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -24398,8 +24389,7 @@
             "investigative"
         ],
         "categories": [
-            "mathematics",
-            "physical science"
+            "mathematics"
         ]
     },
     {
@@ -24417,8 +24407,7 @@
             "investigative"
         ],
         "categories": [
-            "mathematics",
-            "physical science"
+            "mathematics"
         ]
     },
     {
@@ -24436,8 +24425,7 @@
             "investigative"
         ],
         "categories": [
-            "mathematics",
-            "physical science"
+            "mathematics"
         ]
     },
     {
@@ -24455,8 +24443,7 @@
             "investigative"
         ],
         "categories": [
-            "mathematics",
-            "physical science"
+            "mathematics"
         ]
     },
     {
@@ -24474,8 +24461,7 @@
             "investigative"
         ],
         "categories": [
-            "mathematics",
-            "physical science"
+            "mathematics"
         ]
     },
     {
@@ -24493,8 +24479,7 @@
             "investigative"
         ],
         "categories": [
-            "mathematics",
-            "social science"
+            "mathematics"
         ]
     },
     {
@@ -24552,8 +24537,7 @@
             "investigative"
         ],
         "categories": [
-            "mathematics",
-            "physical science"
+            "mathematics"
         ]
     },
     {
@@ -24571,8 +24555,7 @@
             "investigative"
         ],
         "categories": [
-            "mathematics",
-            "physical science"
+            "mathematics"
         ]
     },
     {
@@ -25307,6 +25290,7 @@
             "investigative"
         ],
         "categories": [
+            "chemical science",
             "life science"
         ]
     },
@@ -25325,8 +25309,8 @@
             "investigative"
         ],
         "categories": [
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -25344,8 +25328,8 @@
             "investigative"
         ],
         "categories": [
-            "life science",
-            "physical science"
+            "chemical science",
+            "life science"
         ]
     },
     {
@@ -30328,7 +30312,7 @@
         ],
         "categories": [
             "life science",
-            "physical science"
+            "chemical science"
         ]
     },
     {
