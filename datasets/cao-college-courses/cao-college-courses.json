@@ -2812,8 +2812,7 @@
             "social"
         ],
         "categories": [
-            "humanities",
-            "social science"
+            "humanities"
         ]
     },
     {
@@ -2832,8 +2831,7 @@
             "social"
         ],
         "categories": [
-            "humanities",
-            "social science"
+            "humanities"
         ]
     },
     {
@@ -2852,8 +2850,7 @@
         ],
         "categories": [
             "creative arts",
-            "humanities",
-            "social science"
+            "humanities"
         ]
     },
     {
@@ -2968,8 +2965,7 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
-            "social science"
+            "humanities"
         ]
     },
     {
@@ -3102,8 +3098,7 @@
             "investigative"
         ],
         "categories": [
-            "languages",
-            "social science"
+            "languages"
         ]
     },
     {
@@ -3441,7 +3436,7 @@
         ],
         "categories": [
             "humanities",
-            "social science"
+            "creative arts"
         ]
     },
     {
@@ -3591,8 +3586,7 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
-            "social science"
+            "humanities"
         ]
     },
     {
@@ -3758,9 +3752,7 @@
             "artistic"
         ],
         "categories": [
-            "communications",
-            "creative arts",
-            "social science"
+            "communications"
         ]
     },
     {
@@ -3926,9 +3918,8 @@
             "investigative"
         ],
         "categories": [
-            "law",
-            "life science",
-            "social science"
+            "environment",
+            "law"
         ]
     },
     {
@@ -4060,8 +4051,7 @@
             "investigative"
         ],
         "categories": [
-            "law",
-            "social science"
+            "law"
         ]
     },
     {
@@ -4080,8 +4070,7 @@
             "investigative"
         ],
         "categories": [
-            "law",
-            "social science"
+            "law"
         ]
     },
     {
@@ -4100,8 +4089,7 @@
             "investigative"
         ],
         "categories": [
-            "law",
-            "social science"
+            "law"
         ]
     },
     {
@@ -4287,8 +4275,7 @@
         ],
         "categories": [
             "communications",
-            "creative arts",
-            "social science"
+            "creative arts"
         ]
     },
     {
@@ -4380,8 +4367,7 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "social science"
+            "creative arts"
         ]
     },
     {
@@ -4649,8 +4635,7 @@
         ],
         "categories": [
             "business",
-            "law",
-            "social science"
+            "law"
         ]
     },
     {
@@ -4885,8 +4870,7 @@
             "investigative"
         ],
         "categories": [
-            "mathematics",
-            "social science"
+            "mathematics"
         ]
     },
     {
@@ -4904,8 +4888,7 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "social science"
+            "creative arts"
         ]
     },
     {
@@ -5039,8 +5022,7 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
-            "social science"
+            "humanities"
         ]
     },
     {
@@ -5095,8 +5077,7 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
-            "social science"
+            "humanities"
         ]
     },
     {
@@ -5134,9 +5115,7 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
-            "law",
-            "social science"
+            "law"
         ]
     },
     {
@@ -5173,9 +5152,7 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
-            "law",
-            "social science"
+            "law"
         ]
     },
     {
@@ -5273,9 +5250,8 @@
             "investigative"
         ],
         "categories": [
-            "education",
-            "humanities",
-            "social science"
+            "creative arts",
+            "humanities"
         ]
     },
     {
@@ -5295,7 +5271,7 @@
         ],
         "categories": [
             "languages",
-            "social science"
+            "humanities"
         ]
     },
     {
@@ -5351,8 +5327,7 @@
             "investigative"
         ],
         "categories": [
-            "law",
-            "social science"
+            "law"
         ]
     },
     {
@@ -5371,10 +5346,7 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
-            "humanities",
-            "life science",
-            "social science"
+            "humanities"
         ]
     },
     {
@@ -19307,7 +19279,6 @@
             "social"
         ],
         "categories": [
-            "physical science",
             "social science"
         ]
     },
@@ -20248,9 +20219,7 @@
             "social"
         ],
         "categories": [
-            "humanities",
-            "life science",
-            "social science"
+            "humanities"
         ]
     },
     {
@@ -20269,9 +20238,7 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
-            "life science",
-            "social science"
+            "humanities"
         ]
     },
     {
@@ -23745,8 +23712,7 @@
             "investigative"
         ],
         "categories": [
-            "humanities",
-            "social science"
+            "humanities"
         ]
     },
     {
@@ -24206,7 +24172,7 @@
         ],
         "categories": [
             "business",
-            "social science"
+            "communications"
         ]
     },
     {
@@ -31186,7 +31152,6 @@
             "investigative"
         ],
         "categories": [
-            "business",
             "law",
             "social science"
         ]
