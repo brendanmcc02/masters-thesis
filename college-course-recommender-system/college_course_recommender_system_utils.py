@@ -98,10 +98,9 @@ def get_college_course_recommendations(user_interest_questions_results_vector, u
     user_vector = get_user_vector(user_interest_questions_results_vector, user_college_course_preferences)
 
     college_course_recommendations = []
-    top_k_college_course_category_indexes = get_top_k_college_course_category_indexes(user_vector, k=NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND)
+    top_college_course_category_indexes = get_top_college_course_category_indexes(user_vector)
 
-    
-    for college_course_category_index in top_k_college_course_category_indexes:
+    for college_course_category_index in top_college_course_category_indexes:
         masked_college_course_category_course_recommendations = get_masked_college_course_category_course_recommendations(user_vector, college_course_category_index, filtered_college_courses)
 
         add_new_college_course_recommendations(masked_college_course_category_course_recommendations, college_course_recommendations)
@@ -111,13 +110,13 @@ def get_college_course_recommendations(user_interest_questions_results_vector, u
 def get_user_vector(user_interest_questions_results_vector, user_college_course_preferences):
     user_riasec_vector = get_user_riasec_vector(user_interest_questions_results_vector)
 
-    user_categories_vector = get_user_categories_vector(user_interest_questions_results_vector)
-
     user_points_vector = get_normalized_points_vector(user_college_course_preferences["expected_points"])
+
+    user_categories_vector = get_user_college_course_categories_vector(user_interest_questions_results_vector)
 
     return np.concatenate((user_riasec_vector, user_points_vector, user_categories_vector), axis=0)
 
-def get_user_categories_vector(user_riasec_questions_vector):
+def get_user_college_course_categories_vector(user_riasec_questions_vector):
     user_categories_vector = np.zeros(len(COLLEGE_COURSE_CATEGORIES))
 
     for i in range(len(user_riasec_questions_vector)):
@@ -141,7 +140,7 @@ def add_weighted_preference_to_user_vector(user_vector, five_point_likert_scale_
 def custom_normalized_sigmoid_function(value, tuning_constant):
     return 1 - np.exp(-tuning_constant * value)
 
-def get_top_k_college_course_category_indexes(user_vector, k):
+def get_top_college_course_category_indexes(user_vector):
     top_college_course_categories = {}
 
     for i in range(STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX, len(user_vector)):
@@ -153,10 +152,11 @@ def get_top_k_college_course_category_indexes(user_vector, k):
             reverse=True
         )
 
-    return top_college_course_category_indexes[0:k]
+    return top_college_course_category_indexes[0:NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND]
 
 def get_masked_college_course_category_course_recommendations(user_vector, college_course_category_index, filtered_college_courses):
     masked_college_course_category_user_vector = get_masked_college_course_category_user_vector(user_vector, college_course_category_index)
+    print(str(COLLEGE_COURSE_CATEGORIES[college_course_category_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX]) + str(masked_college_course_category_user_vector)) # TODO TEMP
     cached_masked_college_course_category_user_vector_magnitude = np.linalg.norm(masked_college_course_category_user_vector)
     
     for course in filtered_college_courses:
@@ -176,22 +176,21 @@ def get_masked_college_course_category_user_vector(user_vector, college_course_c
     masked_riasec_interests_for_college_course_category = get_masked_riasec_interests_for_college_course_category(college_course_category_index)
 
     for i in range(0, POINTS_VECTOR_INDEX):
-        if RIASEC_INTERESTS.index(i) in masked_riasec_interests_for_college_course_category:
+        if RIASEC_INTERESTS[i] in masked_riasec_interests_for_college_course_category:
             masked_college_course_category_user_vector[i] = user_vector[i]
         else:
             masked_college_course_category_user_vector[i] = 0.0
 
-
     for i in range(STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX, len(user_vector)):
         if i == college_course_category_index:
-            masked_college_course_category_user_vector[i] = 1.0 # or = user_vector[i] ?
+            masked_college_course_category_user_vector[i] = user_vector[i]
         else:
             masked_college_course_category_user_vector[i] = 0.0
 
     return masked_college_course_category_user_vector
 
 def get_masked_riasec_interests_for_college_course_category(college_course_category_index):
-    college_course_category = COLLEGE_COURSE_CATEGORIES.index(college_course_category_index)
+    college_course_category = COLLEGE_COURSE_CATEGORIES[college_course_category_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX]
 
     match college_course_category:
         case "agriculture":
@@ -209,7 +208,7 @@ def get_masked_riasec_interests_for_college_course_category(college_course_categ
         case "creative arts":
             return ["realistic", "investigative", "artistic"]
         case "education":
-            # we want to return education courses that all of their interests
+            # we want to return education courses that matches all of their interests
             return RIASEC_INTERESTS
         case "engineering":
             return ["realistic", "investigative"]
@@ -233,11 +232,11 @@ def get_masked_riasec_interests_for_college_course_category(college_course_categ
         case "physical science":
             return ["realistic", "investigative"]
         case "social science":
-            return ["investigative", "social"] # A?
+            return ["investigative", "social"]
         case "sport":
-            return ["realistic", "investigative", "social", "enterprising", "conventional"]
+            return ["realistic", "investigative", "social", "enterprising"]
         case "welfare":
-            return ["social", "investigative"] # I?
+            return ["social"]
         case _:
             print("Error! Unrecognised college_course_category!" + college_course_category + college_course_category_index)
             return []
@@ -296,8 +295,6 @@ def get_user_riasec_vector(user_interest_questions_results_vector):
     for i in range(len(user_interest_questions_results_vector)):
         user_riasec_vector_index = RIASEC_INTERESTS.index(USER_INTEREST_QUESTIONS_RIASEC_INTERESTS[i])
         user_riasec_vector[user_riasec_vector_index] += FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP[user_interest_questions_results_vector[i]]
-
-    print_stringified_riasec_vector(user_riasec_vector)
 
     for i in range(len(user_riasec_vector)):
         user_riasec_vector[i] = custom_normalized_sigmoid_function(user_riasec_vector[i], RIASEC_INTEREST_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT)

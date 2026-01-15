@@ -2374,7 +2374,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "If you study Archaeology, you will see the world, time and the human condition in an entirely new way. Archaeology is a uniquely multidisciplinary subject, using all sources of evidence from the past, from ancient manuscripts to the scientific analysis of plants, animals and materials.\nThrough undertaking Archaeology as a degree, you will learn how to assess, explain and make connections between different types of evidence that will allow you to develop a deeper understanding about the past.\nStudents will also develop practical skills valued by employers, such as report writing, teamwork, presentation, communication and analytical skills.",
         "interests": [
-            "artistic",
             "investigative",
             "realistic"
         ],
@@ -11048,7 +11047,7 @@
     {
         "id": "CK113",
         "title": "Criminology (4 yrs for International Pathway)",
-        "preprocessed_title": "criminolog yrs intern pathway",
+        "preprocessed_title": "criminolog intern",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 - 4 years",
@@ -15290,7 +15289,7 @@
     {
         "id": "CK109",
         "title": "English (4 yrs for International Pathway)",
-        "preprocessed_title": "english yrs intern pathway",
+        "preprocessed_title": "english intern",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 - 4 Years",
@@ -15426,7 +15425,7 @@
     {
         "id": "TR276",
         "title": "English Literature/Drama Studies  (Restricted)",
-        "preprocessed_title": "english literatur drama restrict",
+        "preprocessed_title": "english literatur drama",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -16399,7 +16398,7 @@
     {
         "id": "CK105",
         "title": "Film and Screen Media (4 yrs for International Pathway)",
-        "preprocessed_title": "film screen media yrs intern pathway",
+        "preprocessed_title": "film screen media intern",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 - 4 Years",
@@ -16595,7 +16594,7 @@
     {
         "id": "DL858",
         "title": "Film: Pathfinder Joint International Programme (Belgium)",
-        "preprocessed_title": "film pathfind intern programm belgium",
+        "preprocessed_title": "film intern programm belgium",
         "college": "Institute of Art, Design and Technology Dun Laoghaire",
         "region": "Dublin",
         "duration": "3 Years",
@@ -16614,7 +16613,7 @@
     {
         "id": "DL860",
         "title": "Film: Pathfinder Joint International Programme (Bulgaria)",
-        "preprocessed_title": "film pathfind intern programm bulgaria",
+        "preprocessed_title": "film intern programm bulgaria",
         "college": "Institute of Art, Design and Technology Dun Laoghaire",
         "region": "Dublin",
         "duration": "3 Years",
@@ -16633,7 +16632,7 @@
     {
         "id": "DL857",
         "title": "Film: Pathfinder Joint International Programme (Ireland)",
-        "preprocessed_title": "film pathfind intern programm ireland",
+        "preprocessed_title": "film intern programm ireland",
         "college": "Institute of Art, Design and Technology Dun Laoghaire",
         "region": "Dublin",
         "duration": "3 Years",
@@ -16652,7 +16651,7 @@
     {
         "id": "DL859",
         "title": "Film: Pathfinder Joint International Programme (Portugal)",
-        "preprocessed_title": "film pathfind intern programm portug",
+        "preprocessed_title": "film intern programm portug",
         "college": "Institute of Art, Design and Technology Dun Laoghaire",
         "region": "Dublin",
         "duration": "3 Years",
@@ -18108,8 +18107,8 @@
             "investigative"
         ],
         "categories": [
-            "life science",
-            "social science"
+            "social science",
+            "physical science"
         ]
     },
     {
@@ -18127,8 +18126,8 @@
             "investigative"
         ],
         "categories": [
-            "life science",
-            "social science"
+            "social science",
+            "physical science"
         ]
     },
     {
@@ -18146,8 +18145,8 @@
             "investigative"
         ],
         "categories": [
-            "life science",
-            "social science"
+            "social science",
+            "physical science"
         ]
     },
     {
@@ -18165,8 +18164,8 @@
             "investigative"
         ],
         "categories": [
-            "life science",
-            "social science"
+            "social science",
+            "physical science"
         ]
     },
     {
@@ -18181,11 +18180,11 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Geography is the only discipline that combines the study of both the natural and social worlds, and their interaction, and is key to solving global problems such as climate change, poverty, migration, urbanisation and environmental management.\nBy studying Geography in UCD, you will understand the context in which environmental, socio-cultural and politico-economic decision-making takes place and develop skills that prepare you for the workplaces and societies of tomorrow.",
         "interests": [
-            "investigative",
-            "social"
+            "investigative"
         ],
         "categories": [
-            "social science"
+            "social science",
+            "physical science"
         ]
     },
     {
@@ -18200,8 +18199,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Geography involves the study of subjects such as the impact of societies on the quality of the environment; geographical approaches to the study of world population;  climate change; migration; the relationship between culture, landscape transformation and politics. No prior knowledge of geography is assumed.Geography can be studied as a Joint Major or Minor subject through DN520 or DN700, or as part of selected courses in DN700.",
         "interests": [
-            "investigative",
-            "realistic"
+            "investigative"
         ],
         "categories": [
             "physical science",
@@ -18239,8 +18237,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Geography and Geoscience is the study of our planet and the people that live on it. This multi-disciplinary programme is designed by leading research scientists in response to critical challenges facing the Earth system and humanity in the 21st century. It integrates knowledge from the physical, chemical, biological and social sciences to develop novel insights into Earth system function and human-environment interactions.",
         "interests": [
-            "investigative",
-            "realistic"
+            "investigative"
         ],
         "categories": [
             "physical science",
@@ -18259,8 +18256,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "There is a growing demand for a work force literate in the scientific and geographic protocols used to advance environmental issues such as climate change, energy use, sustainable development, and policy. This new degree course will allow you to become an expert in many decision-making fields that now rely on a fundamental understanding of how human activities depend upon natural systems, through the interpretation of the scientific, spatial, and economic aspects of geographic principles and processes.",
         "interests": [
-            "investigative",
-            "realistic"
+            "investigative"
         ],
         "categories": [
             "physical science",
@@ -18279,13 +18275,12 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This programme combines the study of the Geography, Landscape and Adventure. Graduates will be empowered to promote careful use and management of an increasingly threatened natural world and to educate others in wise use and sustainable practice.\nGraduates will be well placed to manage the different and sometimes conflicting interests between rural land uses such as farming, tourism, outdoor recreation, nature conservation, forestry, and alternative energy solutions.",
         "interests": [
-            "investigative",
             "realistic",
             "social"
         ],
         "categories": [
             "education",
-            "life science",
+            "physical science",
             "social science"
         ]
     },
@@ -19593,7 +19588,7 @@
     {
         "id": "TR485",
         "title": "History of Art and Architecture/Drama Studies  (Restricted)",
-        "preprocessed_title": "histori art architectur drama restrict",
+        "preprocessed_title": "histori art architectur drama",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -25682,7 +25677,7 @@
     {
         "id": "CK104",
         "title": "Music (BMus or International Pathway)",
-        "preprocessed_title": "music bmus intern pathway",
+        "preprocessed_title": "music bmus intern",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 - 4 Years",
