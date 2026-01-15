@@ -26,7 +26,8 @@ FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP = {4: 1.0,
                                       2: 0.01, 
                                       1: 0.001, # let this be non-zero so it penalises the interest/category - otherwise it gets counted as NaN and isn't factored into the open psychometrics model/data!
                                       0: 0.001} # let this be non-zero so it penalises the interest/category - otherwise it gets counted as NaN and isn't factored into the open psychometrics model/data!
-CUSTOM_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT = 1.0
+RIASEC_INTEREST_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT = 0.5
+COLLEGE_COURSE_CATEGORY_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT = 1.0
 
 def get_college_course_categories():
     df = pd.read_csv(USER_INTEREST_QUESTIONS_DATASET_FILEPATH)
@@ -40,14 +41,14 @@ def get_user_interest_questions_college_course_categories():
 
     college_course_categories = df['college_course_category'].tolist()
     
-    return sorted(college_course_categories)
+    return college_course_categories
 
 def get_user_interest_questions_riasec_interests():
     df = pd.read_csv(USER_INTEREST_QUESTIONS_DATASET_FILEPATH)
 
     riasec_interests = df['riasec_interest'].tolist()
     
-    return sorted(riasec_interests)
+    return riasec_interests
 
 
 COLLEGE_COURSE_CATEGORIES = get_college_course_categories()
@@ -91,9 +92,9 @@ def get_user_categories_vector(user_riasec_questions_vector):
         user_categories_vector[user_categories_vector_index] += FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP[user_riasec_questions_vector[i]]
 
     for i in range(len(user_categories_vector)):
-        user_categories_vector[i] = custom_normalized_sigmoid_function(user_categories_vector[i])
+        user_categories_vector[i] = custom_normalized_sigmoid_function(user_categories_vector[i], COLLEGE_COURSE_CATEGORY_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT)
 
-    print_stringified_college_course_categories_vector(user_categories_vector)
+    # print_stringified_college_course_categories_vector(user_categories_vector)
 
     return user_categories_vector
 
@@ -104,8 +105,8 @@ def add_weighted_preference_to_user_vector(user_vector, five_point_likert_scale_
     index_to_access = all_riasec_interests_or_college_course_categories.index(riasec_interest_or_college_course_category)
     user_vector[index_to_access] += distributed_weighted_preference
 
-def custom_normalized_sigmoid_function(value):
-    return 1 - np.exp(-CUSTOM_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT * value)
+def custom_normalized_sigmoid_function(value, tuning_constant):
+    return 1 - np.exp(-tuning_constant * value)
 
 def get_top_k_college_course_category_indexes(user_vector, k):
     top_college_course_categories = {}
@@ -160,7 +161,8 @@ def add_new_college_course_recommendations(masked_college_course_category_course
 def is_new_college_course_recommendation(college_course_to_check, previously_recommended_college_courses):
     for previously_recommended_college_course in previously_recommended_college_courses:
         if is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check) or is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
-            print("Not recommending " + college_course_to_check['title'] + ", " + college_course_to_check['college'] + " because " + previously_recommended_college_course['title'] + ", " + previously_recommended_college_course['college'] + " is already recommended.\n")
+            # print("Not recommending " + college_course_to_check['title'] + ", " + college_course_to_check['college'] + " because " + previously_recommended_college_course['title'] + ", " + previously_recommended_college_course['college'] + " is already recommended.\n")
+            # TODO temp!!!  
             return False
         
     return True
@@ -189,15 +191,17 @@ def get_normalized_points_vector(points):
 
     return np.array([(points - MIN_COURSE_POINTS) / (MAX_COURSE_POINTS - MIN_COURSE_POINTS)])
 
-def get_user_riasec_vector(user_riasec_questions_vector):
+def get_user_riasec_vector(user_interest_questions_results_vector):
     user_riasec_vector = np.zeros(len(RIASEC_INTERESTS))
 
-    for i in range(len(user_riasec_questions_vector)):
-        user_categories_vector_index = RIASEC_INTERESTS.index(USER_INTEREST_QUESTIONS_RIASEC_INTERESTS[i])
-        user_riasec_vector[user_categories_vector_index] += FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP[user_riasec_questions_vector[i]]
+    for i in range(len(user_interest_questions_results_vector)):
+        user_riasec_vector_index = RIASEC_INTERESTS.index(USER_INTEREST_QUESTIONS_RIASEC_INTERESTS[i])
+        user_riasec_vector[user_riasec_vector_index] += FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP[user_interest_questions_results_vector[i]]
+
+    print_stringified_riasec_vector(user_riasec_vector)
 
     for i in range(len(user_riasec_vector)):
-        user_riasec_vector[i] = custom_normalized_sigmoid_function(user_riasec_vector[i])
+        user_riasec_vector[i] = custom_normalized_sigmoid_function(user_riasec_vector[i], RIASEC_INTEREST_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT)
 
     print_stringified_riasec_vector(user_riasec_vector)
 
