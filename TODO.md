@@ -1,9 +1,12 @@
 # TODO
 
+- [ ] education courses should not be counted as duplicates
+- [ ] limit number of recs for different courses
 - [ ] when clustering/masking categories, also cluster/mask their relevant interests
     * don't cluster for:
         1. education
         2. languages
+- [ ] what about masking adjacent categories?
 - [ ] is it necessary to distribute the weight for multi-category courses?
 - [ ] think about points
     * should we even recommend courses outside a points range? aysha got recommended a 370 point course despite having 625

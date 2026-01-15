@@ -17,9 +17,9 @@ STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX = POINTS_VECTOR_INDEX + 1
 MIN_COURSE_POINTS = 0
 MAX_COURSE_POINTS = 625
 
-NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS = 20
-NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY = 8
-MAX_RIASEC_QUESTION_VALUE = 4.0 # assuming 0-4, not 1-5!
+NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND = 5
+NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY = 4
+NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS = NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND * NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY
 
 FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP = {4: 1.0,
                                       3: 0.25, 
@@ -98,13 +98,13 @@ def get_college_course_recommendations(user_interest_questions_results_vector, u
     user_vector = get_user_vector(user_interest_questions_results_vector, user_college_course_preferences)
 
     college_course_recommendations = []
-    top_k_college_course_category_indexes = get_top_k_college_course_category_indexes(user_vector, k=4)
+    top_k_college_course_category_indexes = get_top_k_college_course_category_indexes(user_vector, k=NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND)
 
-    max_number_of_courses_recommended_per_category = 5
+    
     for college_course_category_index in top_k_college_course_category_indexes:
         masked_college_course_category_course_recommendations = get_masked_college_course_category_course_recommendations(user_vector, college_course_category_index, filtered_college_courses)
 
-        add_new_college_course_recommendations(masked_college_course_category_course_recommendations, college_course_recommendations, max_number_of_courses_recommended_per_category)
+        add_new_college_course_recommendations(masked_college_course_category_course_recommendations, college_course_recommendations)
 
     return college_course_recommendations[0:NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS]
 
@@ -181,10 +181,10 @@ def get_masked_college_course_category_user_vector(user_vector, college_course_c
 
     return masked_college_course_category_user_vector
 
-def add_new_college_course_recommendations(masked_college_course_category_course_recommendations_to_add, previously_recommended_college_courses, max_number_of_courses_recommended_per_category):
+def add_new_college_course_recommendations(masked_college_course_category_course_recommendations_to_add, previously_recommended_college_courses):
     number_of_new_courses_added = 0
 
-    while number_of_new_courses_added < max_number_of_courses_recommended_per_category:
+    while number_of_new_courses_added < NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY:
         if is_new_college_course_recommendation(masked_college_course_category_course_recommendations_to_add[number_of_new_courses_added], previously_recommended_college_courses):
             previously_recommended_college_courses.append(masked_college_course_category_course_recommendations_to_add[number_of_new_courses_added].copy())
             number_of_new_courses_added += 1

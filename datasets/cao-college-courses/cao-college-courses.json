@@ -3181,81 +3181,6 @@
         ]
     },
     {
-        "id": "DC293",
-        "title": "Arts (Joint Honours) International Languages",
-        "preprocessed_title": "art intern languag",
-        "college": "Dublin City University",
-        "region": "Dublin",
-        "duration": "3 - 4 Years",
-        "nfqLevel": 8,
-        "points": 360,
-        "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "You'll acquire proficiency in your chosen language (French, German, Spanish) and learn about culture, film, literary traditions and intercultural communication. Students choose one other subject from: Gaeilge or Politics. You'll have the option to take a year abroad, extending your degree to four years and graduating with a Bachelor of Arts (Joint Honours) International. Internship YearYou can opt to apply for a year-long INTRA work placement in Year Three. This programme will prepare you for a variety of careers and also provides a foundation for postgraduate study.",
-        "interests": [
-            "artistic"
-        ],
-        "categories": [
-            "humanities",
-            "languages"
-        ]
-    },
-    {
-        "id": "DC292",
-        "title": "Arts (Joint Honours) Law",
-        "preprocessed_title": "art law",
-        "college": "Dublin City University",
-        "region": "Dublin",
-        "duration": "3 Years",
-        "nfqLevel": 8,
-        "points": 398,
-        "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "The course will allow you to study all 8 of the core modules examined in the entrance exams to the Law Society as a trainee solicitor. These are constitutional law, contract law, criminal law, property law, equity and trusts, European Union law, tort law, and company law. Choosing the law stream on the Bachelor of Arts at DCU will allow you to explore the key foundations of law while also studying another discipline. This will provide you with an interdisciplinary education, covering many important areas of law while also choosing from History, International Languages or Media Studies. You'll have the option to take a year abroad, extending your degree to four years and graduating with a Bachelor of Arts (Joint Honours) International.",
-        "interests": [
-            "enterprising",
-            "investigative"
-        ],
-        "categories": [
-            "law"
-        ]
-    },
-    {
-        "id": "DC291",
-        "title": "Arts (Joint Honours) Media Studies",
-        "preprocessed_title": "art media",
-        "college": "Dublin City University",
-        "region": "Dublin",
-        "duration": "3 - 4 Years",
-        "nfqLevel": 8,
-        "points": 358,
-        "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "Media Studies graduates generally have excellent communication, analytical and team-working skills - skills that are in high demand in the knowledge economy. These graduates are likely to find employment in a range of commercial, state, and non-governmental organisations, and they will have a competitive advantage in careers like advertising, marketing, public relations, advocacy and international development. Students choose one other subject from: English, International Languages or Politics. You'll have the option to take a year abroad, extending your degree to four years and graduating with a Bachelor of Arts (Joint Honours) International. Internship Year You can opt to apply for a year-long INTRA work placement in Year Three.This programme will prepare you for a variety of careers and also provides a foundation for postgraduate study.",
-        "interests": [
-            "artistic"
-        ],
-        "categories": [
-            "communications",
-            "humanities"
-        ]
-    },
-    {
-        "id": "DC295",
-        "title": "Arts (Joint Honours) Politics",
-        "preprocessed_title": "art polit",
-        "college": "Dublin City University",
-        "region": "Dublin",
-        "duration": "3 Years",
-        "nfqLevel": 8,
-        "points": 387,
-        "isAdditionalPortfolioTestInterviewRequired": false,
-        "overview": "Politics is an ideal subject for people interested in issues such as public policy; human rights; international development; and conflict, security and peacebuilding. It prepares graduates for a wide range of careers such as policy analysts, researchers and/or programme officers in national and international governmental organisations (GOs) and non-governmental organisations (NGOs), and International affairs. Graduates may also choose to work in multilateral agencies such as the European Union, the United Nations or the World Bank. Or they may choose to enter politics directly at local, national and international levels. Students choose one other subject from: Geography, History, Law, World Religions and Theology.You'll have the option to take a year abroad, extending your degree to four years and graduating with a Bachelor of Arts (Joint Honours) International. Internship YearYou can opt to apply for a year-long INTRA work placement in Year Three. This programme will prepare you for a variety of careers and also provides a foundation for postgraduate study.",
-        "interests": [
-            "investigative"
-        ],
-        "categories": [
-            "law"
-        ]
-    },
-    {
         "id": "GY119",
         "title": "Arts (Journalism)",
         "preprocessed_title": "art journal",
@@ -21321,6 +21246,25 @@
         ]
     },
     {
+        "id": "DC293",
+        "title": "International Languages",
+        "preprocessed_title": "art intern languag",
+        "college": "Dublin City University",
+        "region": "Dublin",
+        "duration": "3 - 4 Years",
+        "nfqLevel": 8,
+        "points": 360,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "You'll acquire proficiency in your chosen language (French, German, Spanish) and learn about culture, film, literary traditions and intercultural communication. Students choose one other subject from: Gaeilge or Politics. You'll have the option to take a year abroad, extending your degree to four years and graduating with a Bachelor of Arts (Joint Honours) International. Internship YearYou can opt to apply for a year-long INTRA work placement in Year Three. This programme will prepare you for a variety of careers and also provides a foundation for postgraduate study.",
+        "interests": [
+            "artistic"
+        ],
+        "categories": [
+            "humanities",
+            "languages"
+        ]
+    },
+    {
         "id": "DC231",
         "title": "International Relations",
         "preprocessed_title": "intern relat",
@@ -21873,6 +21817,25 @@
         ],
         "categories": [
             "humanities"
+        ]
+    },
+    {
+        "id": "DC292",
+        "title": "Law",
+        "preprocessed_title": "art law",
+        "college": "Dublin City University",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 398,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "The course will allow you to study all 8 of the core modules examined in the entrance exams to the Law Society as a trainee solicitor. These are constitutional law, contract law, criminal law, property law, equity and trusts, European Union law, tort law, and company law. Choosing the law stream on the Bachelor of Arts at DCU will allow you to explore the key foundations of law while also studying another discipline. This will provide you with an interdisciplinary education, covering many important areas of law while also choosing from History, International Languages or Media Studies. You'll have the option to take a year abroad, extending your degree to four years and graduating with a Bachelor of Arts (Joint Honours) International.",
+        "interests": [
+            "enterprising",
+            "investigative"
+        ],
+        "categories": [
+            "law"
         ]
     },
     {
@@ -24580,6 +24543,24 @@
         "categories": [
             "communications",
             "creative arts"
+        ]
+    },
+    {
+        "id": "DC291",
+        "title": "Media Studies",
+        "preprocessed_title": "art media",
+        "college": "Dublin City University",
+        "region": "Dublin",
+        "duration": "3 - 4 Years",
+        "nfqLevel": 8,
+        "points": 358,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Media Studies graduates generally have excellent communication, analytical and team-working skills - skills that are in high demand in the knowledge economy. These graduates are likely to find employment in a range of commercial, state, and non-governmental organisations, and they will have a competitive advantage in careers like advertising, marketing, public relations, advocacy and international development. Students choose one other subject from: English, International Languages or Politics. You'll have the option to take a year abroad, extending your degree to four years and graduating with a Bachelor of Arts (Joint Honours) International. Internship Year You can opt to apply for a year-long INTRA work placement in Year Three.This programme will prepare you for a variety of careers and also provides a foundation for postgraduate study.",
+        "interests": [
+            "artistic"
+        ],
+        "categories": [
+            "communications"
         ]
     },
     {
@@ -28236,6 +28217,24 @@
         "overview": "Political Science\nIf you are interested in having an in-depth knowledge of public affairs, developing critical and much sought after research skills and if your career interests lie in journalism, public service, teaching, public policy, international organisation and/or business then Political Science may be for you\nLaw\nThe law degree will appeal to you if you are interested in society and how it works, how we regulate the relationships between people. Given the wide range of legal modules, the degree attracts students with a broad range of interests. Those interested in politics are attracted to subjects such as constitutional law.",
         "interests": [
             "investigative"
+        ],
+        "categories": [
+            "law"
+        ]
+    },
+    {
+        "id": "DC295",
+        "title": "Politics",
+        "preprocessed_title": "art polit",
+        "college": "Dublin City University",
+        "region": "Dublin",
+        "duration": "3 Years",
+        "nfqLevel": 8,
+        "points": 387,
+        "isAdditionalPortfolioTestInterviewRequired": false,
+        "overview": "Politics is an ideal subject for people interested in issues such as public policy; human rights; international development; and conflict, security and peacebuilding. It prepares graduates for a wide range of careers such as policy analysts, researchers and/or programme officers in national and international governmental organisations (GOs) and non-governmental organisations (NGOs), and International affairs. Graduates may also choose to work in multilateral agencies such as the European Union, the United Nations or the World Bank. Or they may choose to enter politics directly at local, national and international levels. Students choose one other subject from: Geography, History, Law, World Religions and Theology.You'll have the option to take a year abroad, extending your degree to four years and graduating with a Bachelor of Arts (Joint Honours) International. Internship YearYou can opt to apply for a year-long INTRA work placement in Year Three. This programme will prepare you for a variety of careers and also provides a foundation for postgraduate study.",
+        "interests": [
+            "enterprising"
         ],
         "categories": [
             "law"
