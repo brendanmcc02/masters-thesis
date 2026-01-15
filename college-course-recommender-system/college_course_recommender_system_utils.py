@@ -203,7 +203,7 @@ def get_masked_riasec_interests_for_college_course_category(college_course_categ
         case "chemical science":
             return ["realistic", "investigative"]
         case "computers":
-            return ["realistic", "investigative", "conventional"]
+            return ["realistic", "investigative", "artistic", "enterprising", "conventional"]
         case "communications":
             return ["investigative", "artistic", "enterprising"]
         case "creative arts":
@@ -216,7 +216,7 @@ def get_masked_riasec_interests_for_college_course_category(college_course_categ
         case "environment":
             return ["realistic", "investigative", "enterprising"]
         case "healthcare":
-            return ["realistic", "investigative", "social"]
+            return ["realistic", "investigative", "social", "conventional"] # C for pharmacy technician
         case "hospitality":
             return ["realistic", "artistic", "social", "enterprising", "conventional"]
         case "humanities":
