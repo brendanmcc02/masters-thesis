@@ -17,7 +17,7 @@ STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX = POINTS_VECTOR_INDEX + 1
 MIN_COURSE_POINTS = 0
 MAX_COURSE_POINTS = 625
 
-NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS = 10
+NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS = 20
 NUMBER_OF_QUESTIONS_PER_RIASEC_CATEGORY = 8
 MAX_RIASEC_QUESTION_VALUE = 4.0 # assuming 0-4, not 1-5!
 
@@ -50,6 +50,42 @@ def get_user_interest_questions_riasec_interests():
     
     return riasec_interests
 
+PREPROCESSED_SCIENCE_COURSE_TITLE_EDGE_CASES = ['Science (General)', 'Science - Explore Multiple Streams', 'Science - Undenominated', 'Science - Common Entry', 'Science (Common Entry with Award Options)', 'Science (Common Entry)', 'Science (General Entry)']
+def preprocess_college_course_titles():
+    with open(CAO_COLLEGE_COURSES_FILE_LOCATION, 'r', encoding='utf-8') as f: 
+        college_courses = json.load(f)
+
+    updated_college_courses = []
+
+    for course in college_courses:
+        # set general science courses to "physical sciences"
+        if course['title'] in PREPROCESSED_SCIENCE_COURSE_TITLE_EDGE_CASES:
+            preprocessed_title = "physic"
+        else:
+            preprocessed_title = preprocess_text(course['title'])
+
+        if preprocessed_title == "":
+            print("Empty preprocessed college course title! - " + course['title'])
+
+        updated_college_courses.append({
+            "id": course['id'],
+            "title": course['title'],
+            "preprocessed_title": preprocessed_title,
+            "college": course['college'],
+            "region": course['region'],
+            "duration": course['duration'],
+            "nfqLevel": int(course['nfqLevel']),
+            "points": int(course['points']) if course['points'] else None,
+            "isAdditionalPortfolioTestInterviewRequired": course['isAdditionalPortfolioTestInterviewRequired'],
+            "overview": course['overview'],
+            "interests": course['interests'],
+            "categories": course['categories'],
+        })
+
+    with open(CAO_COLLEGE_COURSES_FILE_LOCATION, "w") as outfile:
+        json.dump(updated_college_courses, outfile, indent=4)
+
+preprocess_college_course_titles()
 
 COLLEGE_COURSE_CATEGORIES = get_college_course_categories()
 USER_INTEREST_QUESTIONS_COLLEGE_COURSE_CATEGORIES = get_user_interest_questions_college_course_categories()
@@ -57,8 +93,6 @@ USER_INTEREST_QUESTIONS_RIASEC_INTERESTS = get_user_interest_questions_riasec_in
 VECTORIZED_REPRESENTATION_DIMENSION_SIZE = len(RIASEC_INTERESTS) + POINTS_VECTOR_DIMENSION_SIZE + len(COLLEGE_COURSE_CATEGORIES)
 
 def get_college_course_recommendations(user_interest_questions_results_vector, user_college_course_preferences):
-    preprocess_college_course_titles()
-
     filtered_college_courses = get_filtered_college_courses(user_college_course_preferences)
 
     user_vector = get_user_vector(user_interest_questions_results_vector, user_college_course_preferences)
@@ -66,12 +100,11 @@ def get_college_course_recommendations(user_interest_questions_results_vector, u
     college_course_recommendations = []
     top_k_college_course_category_indexes = get_top_k_college_course_category_indexes(user_vector, k=4)
 
-    max_number_of_courses_recommended_per_category = 4
+    max_number_of_courses_recommended_per_category = 5
     for college_course_category_index in top_k_college_course_category_indexes:
         masked_college_course_category_course_recommendations = get_masked_college_course_category_course_recommendations(user_vector, college_course_category_index, filtered_college_courses)
 
         add_new_college_course_recommendations(masked_college_course_category_course_recommendations, college_course_recommendations, max_number_of_courses_recommended_per_category)
-        max_number_of_courses_recommended_per_category -= 1 # recommened 4 courses for the top category, then 3 courses for the next category, then 2, then 1
 
     return college_course_recommendations[0:NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS]
 
@@ -94,7 +127,7 @@ def get_user_categories_vector(user_riasec_questions_vector):
     for i in range(len(user_categories_vector)):
         user_categories_vector[i] = custom_normalized_sigmoid_function(user_categories_vector[i], COLLEGE_COURSE_CATEGORY_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT)
 
-    # print_stringified_college_course_categories_vector(user_categories_vector)
+    print_stringified_college_course_categories_vector(user_categories_vector)
 
     return user_categories_vector
 
@@ -161,8 +194,7 @@ def add_new_college_course_recommendations(masked_college_course_category_course
 def is_new_college_course_recommendation(college_course_to_check, previously_recommended_college_courses):
     for previously_recommended_college_course in previously_recommended_college_courses:
         if is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check) or is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
-            # print("Not recommending " + college_course_to_check['title'] + ", " + college_course_to_check['college'] + " because " + previously_recommended_college_course['title'] + ", " + previously_recommended_college_course['college'] + " is already recommended.\n")
-            # TODO temp!!!  
+            print("Not recommending " + college_course_to_check['title'] + ", " + college_course_to_check['college'] + " because " + previously_recommended_college_course['title'] + ", " + previously_recommended_college_course['college'] + " is already recommended.\n")
             return False
         
     return True
@@ -170,7 +202,7 @@ def is_new_college_course_recommendation(college_course_to_check, previously_rec
 def is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     return previously_recommended_college_course['preprocessed_title'] == college_course_to_check['preprocessed_title']
 
-SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art", "public", "nurs", "educ", "sport"] # business???
+SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art", "public", "nurs", "educ", "sport", "architectur"] # business???
 def is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     tokenized_college_course_title_words = previously_recommended_college_course['preprocessed_title'].split(' ')
 
@@ -256,41 +288,6 @@ def is_course_filtered(course, user_college_course_preferences):
     return (course["nfqLevel"] in user_college_course_preferences["nfq_levels"] and 
             course["college"] in user_college_course_preferences["colleges"] and 
             (course["points"] <= user_college_course_preferences["expected_points"] or course['isAdditionalPortfolioTestInterviewRequired']))
-
-PREPROCESSED_SCIENCE_COURSE_TITLE_EDGE_CASES = ['Science (General)', 'Science - Explore Multiple Streams', 'Science - Undenominated', 'Science - Common Entry', 'Science (Common Entry with Award Options)', 'Science (Common Entry)', 'Science (General Entry)']
-def preprocess_college_course_titles():
-    with open(CAO_COLLEGE_COURSES_FILE_LOCATION, 'r', encoding='utf-8') as f: 
-        college_courses = json.load(f)
-
-    updated_college_courses = []
-
-    for course in college_courses:
-        # set general science courses to "physical sciences"
-        if course['title'] in PREPROCESSED_SCIENCE_COURSE_TITLE_EDGE_CASES:
-            preprocessed_title = "physic"
-        else:
-            preprocessed_title = preprocess_text(course['title'])
-
-        if preprocessed_title == "":
-            print("Empty preprocessed college course title! - " + course['title'])
-
-        updated_college_courses.append({
-            "id": course['id'],
-            "title": course['title'],
-            "preprocessed_title": preprocessed_title,
-            "college": course['college'],
-            "region": course['region'],
-            "duration": course['duration'],
-            "nfqLevel": int(course['nfqLevel']),
-            "points": int(course['points']) if course['points'] else None,
-            "isAdditionalPortfolioTestInterviewRequired": course['isAdditionalPortfolioTestInterviewRequired'],
-            "overview": course['overview'],
-            "interests": course['interests'],
-            "categories": course['categories'],
-        })
-
-    with open(CAO_COLLEGE_COURSES_FILE_LOCATION, "w") as outfile:
-        json.dump(updated_college_courses, outfile, indent=4)
 
 def print_college_course_recommendations(college_course_recommendations):
     for rec in college_course_recommendations:

@@ -19,28 +19,29 @@
 * apply title pre-processing and **uniqueify** the list, this becomes: `user-generated-ground-truth`
 * but our RS can't recommend courses with identical titles, so:
     * for example, if a user puts down just four CS courses, and the RS recommends 1 CS course, that would be 100% recall
+* If a course with an identical name but different college gets recommended, that should count as a hit in my opinion
 
 ## Relevance
-* for simplicity, I should just do binary relevance: thumbs up/down
-    * anything more complicated would be unnecessary and lead to decision fatigue - don't over-engineer!
+* for simplicity, I should just do binary relevance:
+* anything more complicated would be unnecessary and lead to decision fatigue - don't over-engineer!
+* `*I would realistically consider studying this course.*` and `*I would realistically not consider studying this course.*`
+    * or something else?
 
-### Precision
-* use **precision:** `(number of relevant recommended items)/(number-of-recommended-courses)`
+## Precision
+* use **precision:** `(# RELEVANT recommended items)/(number-of-recommended-items)`
     * i.e. (num of relevant recs) / 10
 * consider using multiple precision metrics instead of just one, e.g.:
     * `p@5`, `p@10`, etc.
 * precision also has it's limits, because you may not have large coverage, so that's where **recall** comes in
 
-### Category-based Recall
-* it is "category-based recall" and not "recall" because courses are being considered as "categories"
-    * i.e. 4 "computer science" courses are put under 1 "computer science" category
+## Recall
 * recall should be divided by the number of ALL relevant recommendations: `all-relevant-courses`
 * this is not necessarily just `user-generated-ground-truth`
     * they may get recs that they become unaware of
     * people can have tunnel-vision on a specific course/strand
-* so, add any courses that the user marks as relevant to `user-generated-ground-truth`
-    * this becomes: `all-relevant-courses`
-* `(number of recommended items in 'user-generated-ground-truth')/(all-relevant-courses)`
+* so, add any courses that the user marks as relevant to `user-generated-ground-truth` should get added to `all-relevant-courses`:
+    * `all-relevant-courses = user-generated-ground-truth + relevant recs`
+* **Recall formula:** `(# RELEVANT recommended courses)/(all-relevant-courses)`
 
 ### F1 Score
 * could consider using f1 score to harmonise recall and precision?
