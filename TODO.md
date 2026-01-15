@@ -1,11 +1,13 @@
 # TODO
 
-- [ ] education courses should not be counted as duplicates
-- [ ] limit number of recs for different courses
 - [ ] when clustering/masking categories, also cluster/mask their relevant interests
     * don't cluster for:
         1. education
         2. languages
+- [ ] how many courses are being recommended?
+- [ ] limit number of recs for different categories?
+    * e.g. architecture 3, maths 3?
+    * it depends how many courses get recommended though so idk
 - [ ] what about masking adjacent categories?
 - [ ] is it necessary to distribute the weight for multi-category courses?
 - [ ] think about points
@@ -30,30 +32,15 @@
     * PoC?
 
 ```
-my 10 UNIQUE courses:
-
-tcd cs
-tcd math
-ucd econ fi
-tcd tp
-tcd dent
-rcsi med
-ucd vet med
-ucd arch
-tcd psych
-ucd actuarial financial studies
-
-my 2026 CAO:
-tcd cs
-ucd cs
-
 my 2020 CAO:
+
+check email!
+?
 tcd cs
 ucd cs
 tud cs
+tcd math
+tcd tp
+actuarial and finance
+msiss
 ```
-
-
-20
-
-8 + 6 + 4 + 2

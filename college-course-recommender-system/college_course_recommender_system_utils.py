@@ -193,11 +193,14 @@ def add_new_college_course_recommendations(masked_college_course_category_course
 
 def is_new_college_course_recommendation(college_course_to_check, previously_recommended_college_courses):
     for previously_recommended_college_course in previously_recommended_college_courses:
-        if is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check) or is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
+        if is_college_course_duplicate(previously_recommended_college_course, college_course_to_check):
             print("Not recommending " + college_course_to_check['title'] + ", " + college_course_to_check['college'] + " because " + previously_recommended_college_course['title'] + ", " + previously_recommended_college_course['college'] + " is already recommended.\n")
             return False
         
     return True
+
+def is_college_course_duplicate(previously_recommended_college_course, college_course_to_check):
+    return is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check) or is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check)
 
 def is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     return previously_recommended_college_course['preprocessed_title'] == college_course_to_check['preprocessed_title']
@@ -207,10 +210,13 @@ def is_substring_match_with_preprocessed_college_course_title(previously_recomme
     tokenized_college_course_title_words = previously_recommended_college_course['preprocessed_title'].split(' ')
 
     for token in tokenized_college_course_title_words:
-        if token not in SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES and token in college_course_to_check['preprocessed_title']:
+        if token not in SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES and token in college_course_to_check['preprocessed_title'] and are_both_college_courses_education_or_non_education(previously_recommended_college_course, college_course_to_check):
             return True
 
     return False
+
+def are_both_college_courses_education_or_non_education(previously_recommended_college_course, college_course_to_check):
+    return ("education" in previously_recommended_college_course["categories"]) == ("education" in college_course_to_check["categories"])
 
 def get_normalized_points_vector(points):
     # some courses have null points i.e. no points information (they are new courses)
