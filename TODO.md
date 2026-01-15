@@ -1,25 +1,20 @@
 # TODO
 
-- [ ] when clustering/masking categories, also cluster/mask their relevant interests
+- [ ] when masking categories, also mask their relevant interests
     * don't cluster for:
         1. education
         2. languages
-- [ ] how many courses are being recommended?
-- [ ] limit number of recs for different categories?
-    * e.g. architecture 3, maths 3?
-    * it depends how many courses get recommended though so idk
 - [ ] what about masking adjacent categories?
-- [ ] is it necessary to distribute the weight for multi-category courses?
+- [ ] is it necessary to distribute the weight for multi-category/interest courses?
+- [ ] how many courses are being recommended?
+    * I think 20 (5 categories and 4 courses each) is really solid
+- [ ] what should happen if recs get exhausted for a category?
+    * add them to "reserves", then do a 6th category
 - [ ] think about points
     * should we even recommend courses outside a points range? aysha got recommended a 370 point course despite having 625
         * findmycollegecourse actually has a point range preference - should we add this as a preference too?
     * should the points dimension be a number between 0 and 625? instead of 0-1.0?
     * or do we remove the points dimension entirely, calculate the cosine sim, then multiply it by a normalised points difference value?
-- [ ] think about "joint honours" / "arts" courses with multi-options, can I deal with them in a smarter way?
-    * or at the very least, review their RIASEC and categories, I'm a bit sus
-    * there's also some "heritage" course
-    * also `*science - *`* UCD courses there are loads!
-    * general science courses
 - [ ] think about how to phrase the question:
     * e.g. `*"On a scale of 0-4, how much would you enjoy (or how interesting would you find) doing this activity for work or study?"*`
         * I actually think this might not be a good idea, a 17 year-old might have no idea what they'd like doing in a work or study context

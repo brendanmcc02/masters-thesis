@@ -173,13 +173,74 @@ def get_masked_college_course_category_course_recommendations(user_vector, colle
 def get_masked_college_course_category_user_vector(user_vector, college_course_category_index):
     masked_college_course_category_user_vector = user_vector.copy()
     
+    masked_riasec_interests_for_college_course_category = get_masked_riasec_interests_for_college_course_category(college_course_category_index)
+
+    for i in range(0, POINTS_VECTOR_INDEX):
+        if RIASEC_INTERESTS.index(i) in masked_riasec_interests_for_college_course_category:
+            masked_college_course_category_user_vector[i] = user_vector[i]
+        else:
+            masked_college_course_category_user_vector[i] = 0.0
+
+
     for i in range(STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX, len(user_vector)):
         if i == college_course_category_index:
-            masked_college_course_category_user_vector[i] = 1.0
+            masked_college_course_category_user_vector[i] = 1.0 # or = user_vector[i] ?
         else:
             masked_college_course_category_user_vector[i] = 0.0
 
     return masked_college_course_category_user_vector
+
+def get_masked_riasec_interests_for_college_course_category(college_course_category_index):
+    college_course_category = COLLEGE_COURSE_CATEGORIES.index(college_course_category_index)
+
+    match college_course_category:
+        case "agriculture":
+            return ["realistic", "investigative", "enterprising", "conventional"]
+        case "architecture and construction":
+            return ["realistic", "investigative", "artistic", "enterprising", "conventional"]
+        case "business":
+            return ["enterprising", "conventional"]
+        case "chemical science":
+            return ["realistic", "investigative"]
+        case "computers":
+            return ["realistic", "investigative", "conventional"]
+        case "communications":
+            return ["investigative", "artistic", "enterprising"]
+        case "creative arts":
+            return ["realistic", "investigative", "artistic"]
+        case "education":
+            # we want to return education courses that all of their interests
+            return RIASEC_INTERESTS
+        case "engineering":
+            return ["realistic", "investigative"]
+        case "environment":
+            return ["realistic", "investigative", "enterprising"]
+        case "healthcare":
+            return ["realistic", "investigative", "social"]
+        case "hospitality":
+            return ["realistic", "artistic", "social", "enterprising", "conventional"]
+        case "humanities":
+            return ["investigative", "artistic"]
+        case "languages":
+            # we also want courses that have languages as an option, e.g. Business with German, Computer Science and Linguistics
+            return RIASEC_INTERESTS
+        case "law":
+            return ["investigative", "social", "enterprising", "conventional"]
+        case "life science":
+            return ["realistic", "investigative"]
+        case "mathematics":
+            return ["investigative", "conventional"]
+        case "physical science":
+            return ["realistic", "investigative"]
+        case "social science":
+            return ["investigative", "social"] # A?
+        case "sport":
+            return ["realistic", "investigative", "social", "enterprising", "conventional"]
+        case "welfare":
+            return ["social", "investigative"] # I?
+        case _:
+            print("Error! Unrecognised college_course_category!" + college_course_category + college_course_category_index)
+            return []
 
 def add_new_college_course_recommendations(masked_college_course_category_course_recommendations_to_add, previously_recommended_college_courses):
     number_of_new_courses_added = 0

@@ -122,6 +122,10 @@ def get_stop_words():
     stop_words.add("options")
     stop_words.add("placement")
     stop_words.add("portfolio")
+    stop_words.add("yrs")
+    stop_words.add("pathway")
+    stop_words.add("pathfinder")
+    stop_words.add("restricted")
 
     return stop_words
 

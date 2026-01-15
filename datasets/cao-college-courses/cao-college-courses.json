@@ -1278,8 +1278,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Ancient and Medieval History and Culture concentrates on the period c. 2000 BC to c. 1500 AD. It explores the changes in society, politics, religious practices, and art and architecture that have helped to shape the world we live in.\nOver the four years of the programme you will explore topics including the development of different systems of government (from democracy in ancient Greece to monarchy and empire in the Middle Ages), the formation of Europe, ancient and medieval belief systems and religious practices (from the pantheon of ancient deities to the dominance of Christianity), the development of the legal system, and the role of warfare in bringing about change.",
         "interests": [
-            "conventional",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -1297,7 +1296,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The study of Ancient Classics\u2014including authors such as Homer, Herodotus, Plato, Aristotle, Cicero, Virgil, Horace, Ovid\u2014has been a central part of humanities education and a shaping influence on Western culture since the Middle Ages, through the Renaissance and down to modern times.",
         "interests": [
-            "artistic",
             "investigative"
         ],
         "categories": [
@@ -1335,7 +1333,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "You will study the Greek and Roman worlds by working with historical and literary documents alongside the material remains of ancient sites and artefacts. All material is studied in translation and no knowledge of Greek or Latin is required, but there are opportunities to take introductory modules in the languages.",
         "interests": [
-            "artistic"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -1353,11 +1351,9 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Ancient History and Archaeology are both concerned with understanding social, political and cultural experience in the past. This course offers you the opportunity to range across these two broad disciplines. You will study the Greek and Roman worlds by working with historical and literary documents alongside the material remains of ancient sites and artefacts. All material is studied in translation and no knowledge of Greek or Latin is required, but there are opportunities to take introductory modules in the languages.",
         "interests": [
-            "artistic",
-            "social"
+            "investigative"
         ],
         "categories": [
-            "creative arts",
             "humanities"
         ]
     },
@@ -1373,7 +1369,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Ancient History and Archaeology are both concerned with understanding social, political and cultural experience in the past. This course offers you the opportunity to range across these two broad disciplines. You will study the Greek and Roman worlds by working with historical and literary documents alongside the material remains of ancient sites and artefacts. All material is studied in translation and no knowledge of Greek or Latin is required, but there are opportunities to take introductory modules in the languages.",
         "interests": [
-            "artistic"
+            "investigative"
         ],
         "categories": [
             "humanities",
@@ -1392,7 +1388,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Ancient History and Archaeology are both concerned with understanding social, political and cultural experience in the past. This course offers you the opportunity to range across these two broad disciplines. You will study the Greek and Roman worlds by working with historical and literary documents alongside the material remains of ancient sites and artefacts. All material is studied in translation and no knowledge of Greek or Latin is required, but there are opportunities to take introductory modules in the languages.",
         "interests": [
-            "artistic"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -2965,8 +2961,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The Bachelor of Arts is a four-year, full-time, honours degree (Level 8). At MIC the programme is flexible and wide-ranging. Students study four different major subjects in First Year and focus on two of these in Second Year, which they will then continue to study to degree level as joint honours.\nYou can study a combination of subjects from familiar Arts subjects such as English, French, German or History, to newer subjects such as Drama & Theatre Studies, Media & Communication Studies, Psychology or the newest addition to the programme, Business Studies. In Third Year, you will have opportunities to work, to travel, and to study abroad as part of the Off-Campus Programme.",
         "interests": [
-            "investigative",
-            "social"
+            "artistic"
         ],
         "categories": [
             "humanities"
@@ -2984,8 +2979,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This course offers a multifaceted exploration of the human experience through various Arts disciplines. It provides students with a rich foundation in subjects such as history, archaeology, politics, literature and drama while fostering critical thinking, creativity, and cultural appreciation. Through the study of historical contexts, cultural and social theories, and practical skills, students develop a deep understanding of humanity.",
         "interests": [
-            "investigative",
-            "social"
+            "artistic"
         ],
         "categories": [
             "humanities"
@@ -3099,8 +3093,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This course provides a comprehensive grounding in the theory and history of film and digital media as well as training in film practice, screenwriting, and digital development and design. Students become familiar with industry standard tools and techniques, in addition to developing the fundamentals for creative professional practice in applied art and design.",
         "interests": [
-            "artistic",
-            "social"
+            "artistic"
         ],
         "categories": [
             "communications",
@@ -8823,7 +8816,6 @@
         "overview": "This new degree addresses current demands for expertise in the fast-changing world of communication. The programme emphasises the importance of English for effective communication. Through the study of English, fundamental skills are acquired and enhanced which are then transferable to either teaching or communications in the multimedia environment.",
         "interests": [
             "artistic",
-            "conventional",
             "enterprising"
         ],
         "categories": [
@@ -10697,8 +10689,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "his skills-based programme offers students an exciting opportunity to explore the world of the film and broadcast media industry, covering a range of disciplines across film and TV production, visual effects, editing, radio production, screenwriting, mobile journalism, Art Direction, audio mixing, photography, event production as well as broadcast technologies across a range of new and traditional media platforms.\nThis Level 8 Programme culminates in a student capstone media production project offering students the opportunity to exhibit work to the public and industry at the annual LSAD Graduate show.",
         "interests": [
-            "artistic",
-            "social"
+            "artistic"
         ],
         "categories": [
             "communications",
@@ -10717,8 +10708,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This skills-based programme offers students an exciting opportunity to explore the world of the film and broadcast media industry, covering a range of disciplines across film and TV production, visual effects, editing, radio production, screenwriting, mobile journalism, Art Direction, audio mixing, photography, event production as well as broadcast technologies across a range of new and traditional media platforms.",
         "interests": [
-            "artistic",
-            "social"
+            "artistic"
         ],
         "categories": [
             "communications",
@@ -12375,12 +12365,10 @@
         "isAdditionalPortfolioTestInterviewRequired": true,
         "overview": "Theatre Studies encompass all the arts that make up the live experience we call theatre - including costume, lighting, sound, devising, directing, design, dramaturgy and playwriting. We also study the meaning behind theatre, analysing culture and politics, space and place, the presence of audience and performers, and the use of digital technology.",
         "interests": [
-            "artistic",
-            "social"
+            "artistic"
         ],
         "categories": [
-            "creative arts",
-            "humanities"
+            "creative arts"
         ]
     },
     {
@@ -12398,8 +12386,7 @@
             "artistic"
         ],
         "categories": [
-            "creative arts",
-            "humanities"
+            "creative arts"
         ]
     },
     {
@@ -12415,7 +12402,7 @@
         "overview": "What is Drama?Drama exists on and off the stage. Theatre happens in our everyday life. It is the basis for story-telling and other forms of performance within the creative arts. It has its origins in sacred ritual and remains central today as part of our sensemaking as we negotiate our place in the world.\nWhat is Middle Eastern, Jewish and Islamic Civilisations? The cultures and societies of the Middle East have been deeply influential in shaping European and western values. In spite of this, the region and its peoples are often misunderstood and represented. Middle Eastern, Jewish and Islamic Civilisations is the study of the historical origins as well as contemporary culture of a wide range of societies of the region, providing you with an insight into the contemporary Middle East and to the challenges of diversity and multiculturalism in an increasingly globalised world.",
         "interests": [
             "artistic",
-            "social"
+            "investigative"
         ],
         "categories": [
             "creative arts",
@@ -15202,7 +15189,6 @@
             "investigative"
         ],
         "categories": [
-            "creative arts",
             "humanities"
         ]
     },
@@ -15218,6 +15204,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "In studying English you explore a wide range of literature from the Renaissance, through the to Romantic Poetry and Modern and Postmodern culture. You cover the main literary genres: fiction, drama and poetry.As part of an Arts degree, this subject is one of three subjects you choose in first year. In second and third year you continue with two of the subjects taken in First Arts. It may be possible to take an extra year studying abroad.",
         "interests": [
+            "artistic",
             "investigative"
         ],
         "categories": [
@@ -15236,6 +15223,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "As a student of English, you will learn about different literary forms, the conditions that shape writing, from history and geography to questions of gender, race, and class. You will also learn how literary texts enable us to understand our own complex world, along with Different approaches to and theories of literature, and much more.",
         "interests": [
+            "artistic",
             "investigative"
         ],
         "categories": [
@@ -15254,6 +15242,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The Bachelor of Arts (Honours) makes available to you a wide range of Humanities and Social Science subjects in a course that is comparable to Arts degrees nationally and worldwide.Students of the course are encouraged to see the world anew through the study of subjects such as English Literature, Sociology, Irish and other Modern European Languages, Religious Studies, Psychology and others and, over a three year period, not only to develop expertise in two subjects areas but to develop a questioning and creative approach to the modern world.\nNB The individual subject option is not required on CAO application - it is chosen at college registration",
         "interests": [
+            "artistic",
             "investigative"
         ],
         "categories": [
@@ -15272,6 +15261,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Our English programme enables you to develop critical thinking skills through an appreciation of the wide world of literature in English, and by analysing the social and historical contexts through which that literature emerged. You will learn about the art of writing and shaping narrative by exploring literary genres and history from the 700s on. You choose electives to suit your own interests, in Irish, British, American, and world literatures, and in gender and sexuality studies among other specialist topics.",
         "interests": [
+            "artistic",
             "investigative"
         ],
         "categories": [
@@ -15290,7 +15280,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Study English at UCD if you are an enthusiastic reader, writer and thinker who loves literature. Strengthen your understanding of narrative, poetic and dramatic forms. Enlarge your critical vocabulary and historical awareness. Explore how the study of literature intersects with questions of gender, politics and cultural theory. Learn how to research a topic, evaluate evidence and present your ideas in a cogent, elegant fashion.",
         "interests": [
-            "artistic"
+            "artistic",
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -15328,7 +15319,7 @@
         "overview": "The B.A. (Honours) in English and History is a 4 Year Level 8 Programme. It offers students the opportunity to read the greatest works of literature in English alongside the most important and influential events in Irish, European and world history.\nStudents on this programme develop a deep knowledge of literature in English and history, and more generally, advanced understandings of human society and culture at the local, regional and global level.\nThe structure of the programme gives students a solid foundation in both English literature and History in Years 1 and 2, before allowing them to specialise in either English or History, or to keep a balance between the subjects in Years 3 and 4.\nThe programme equips students with the essential tools needed for the 21st century by nourishing critical thinking, developing communication skills and fostering creativity. It also prepares graduates for life after college by teaching them employability skills through special career skills and career practice modules.",
         "interests": [
             "artistic",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -15386,8 +15377,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "English is of central importance as a means of communication in the fields of commerce, media, law, science and technology. Having the ability to speak and write fluently and accurately in English is clearly an asset to anyone who wishes to follow a career in any of these fields. \nThe English programme at MIC will enable you to develop critical and analytical skills through an appreciation of the English language and its literature, as well as through the study of the social, cultural and historical contexts in which that literature was produced.",
         "interests": [
-            "conventional",
-            "social"
+            "artistic",
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -15406,7 +15397,7 @@
         "overview": "You will study texts ranging from the Old English, medieval and early modern periods to the nineteenth and through to the twenty-first century - writing which extends across national boundaries and regions, from British to Irish to American to World Literature, and covering multiple genres. You will explore literary production, value and impact - how fiction, poetry and drama are inspired, shaped, released and received in particular historical and cultural contexts. You will learn how the meanings of literary texts change and renew across time and space.",
         "interests": [
             "artistic",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -15425,7 +15416,7 @@
         "overview": "English Literature\nEnglish Literature covers a broad range of literatures written in the English language, from Chaucer to the present day. The aim of the course is to help students acquire a thorough knowledge of the history of differing literatures while also enabling them to develop a sophisticated critical consciousness and an awareness of critical and cultural theory.\nClassical Languages\nThe study of Classical Languages is concerned with the language, literature and thought of either Ancient Greece or Ancient Rome. You will choose to study either Greek or Latin. Through the reading of literature in the original language and the examination of key aspects of ancient history, you will develop a thorough knowledge of the classical world and a critical approach to textual and material culture.",
         "interests": [
             "artistic",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities",
@@ -15444,8 +15435,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "English LiteratureEnglish Literature covers a broad range of literatures written in the English language, from Chaucer to the present day. The aim of the course is to help students acquire a thorough knowledge of the history of differing literatures while also enabling them to develop a sophisticated critical consciousness and an awareness of critical and cultural theory. \nDrama Studies The degree explores the relationship between the theory and practice of Drama and Theatre to discover how and why they work. The strong developmental emphasis of the courses requires a particular blend of practical and academic skills. I",
         "interests": [
-            "artistic",
-            "social"
+            "artistic"
         ],
         "categories": [
             "creative arts",
@@ -15465,7 +15455,7 @@
         "overview": "English LiteratureEnglish Literature covers a broad range of literatures written in the English language, from Chaucer to the present day. The aim of the course is to help students acquire a thorough knowledge of the history of differing literatures while also enabling them to develop a sophisticated critical consciousness and an awareness of critical and cultural theory.\nHistoryThe History programme combines the strength of a broad-based programme in the first two years, introducing all students to the sheer diversity of historical studies, with the freedom to explore areas of particular interest to individual students in the final two years. The first and second years provide a range of modules covering medieval and modern periods, including Irish, European, and American history, as well as some modules exploring the skills and methods which historians use, and the kinds of debates in which historians engage.",
         "interests": [
             "artistic",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -15484,7 +15474,7 @@
         "overview": "English LiteratureEnglish Literature covers a broad range of literatures written in the English language, from Chaucer to the present day. The aim of the course is to help students acquire a thorough knowledge of the history of differing literatures while also enabling them to develop a sophisticated critical consciousness and an awareness of critical and cultural theory.\nHistory of Art and ArchitectureHistory of Art and Architecture is about the study of images, objects and buildings. It is unique in developing high levels of visual literacy applicable to a range of career pathways. It explores why works of art look the way they do and seeks to discover what they say about the societies that created them. It develops skills in visual analysis, critical assessment, and communication.",
         "interests": [
             "artistic",
-            "social"
+            "investigative"
         ],
         "categories": [
             "creative arts",
@@ -15504,7 +15494,7 @@
         "overview": "English Literature (Joint Honours)\nEnglish Literature covers a broad range of literatures written in the English language, from Chaucer to the present day. The aim of the course is to help students acquire a sense of the development of literatures in English over time and space and a rich array of critical techniques and questions.\nWhat is Middle Eastern, Jewish and Islamic Civilisations\nMiddle Eastern, Jewish and Islamic Civilisations is the study of the historical origins as well as contemporary culture of a wide range of societies of the region, providing you with an insight into the contemporary Middle East and to the challenges of diversity and multiculturalism in an increasingly globalised world.",
         "interests": [
             "artistic",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -15523,9 +15513,10 @@
         "overview": "English LiteratureEnglish Literature covers a broad range of literatures written in the English language, from Chaucer to the present day. The aim of the course is to help students acquire a thorough knowledge of the history of differing literatures while also enabling them to develop a sophisticated critical consciousness and an awareness of critical and cultural theory.Studying two languages at Trinity will enable you to develop your skills to a level where you can communicate confidently and competently on virtually any subject and in every situation. You will gain deeper familiarity through the study of their literature, culture, history and politics, and you will gain competencies in understanding and successfully navigating cultural differences.Students combine this subject with their choice of French, German, Irish, Russian or Spanish.",
         "interests": [
             "artistic",
-            "social"
+            "investigative"
         ],
         "categories": [
+            "humanities",
             "languages"
         ]
     },
@@ -15542,7 +15533,7 @@
         "overview": "English LiteratureEnglish Literature covers a broad range of literatures written in the English language, from Chaucer to the present day. The aim of the course is to help students acquire a thorough knowledge of the history of differing literatures while also enabling them to develop a sophisticated critical consciousness and an awareness of critical and cultural theory. \nPhilosophyThis course offers the opportunity to engage in depth with questions of metaphysics (about the fundamental nature of reality), epistemology (the theory of knowledge), ethics (theories of right and wrong), political philosophy (the nature of the just state), philosophy of religion (reasoning about God), philosophy of mind (questions about thought, language and reason) and various other areas.",
         "interests": [
             "artistic",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -15561,6 +15552,7 @@
         "overview": "English LiteratureEnglish Literature covers a broad range of literatures written in the English language, from Chaucer to the present day. The aim of the course is to help students acquire a thorough knowledge of the history of differing literatures while also enabling them to develop a sophisticated critical consciousness and an awareness of critical and cultural theory. \nSociologyIf you want to understand the social changes taking place in the world today, and you are curious about people and society, then Sociology is for you. You will also gain the ability to understand topical issues and to present and communicate information and thoughts coherently. In addition, you will learn invaluable analytical, communication, research and presentation skills - transferable skills which can be applied to a wide range of careers and postgraduate programmes.",
         "interests": [
             "artistic",
+            "investigative",
             "social"
         ],
         "categories": [
@@ -15581,7 +15573,7 @@
         "overview": "The study of English is concerned with the history and practices of writing in English and encompasses literary works spanning English, Anglo-Irish, American and post-colonial cultures. It aims to develop a thorough knowledge of the history of these literatures while also enabling students to develop a sophisticated critical consciousness and an awareness of critical and cultural theory.",
         "interests": [
             "artistic",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -15599,8 +15591,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "If your interest in literature extends to an ambition to write creatively, this degree programme will support that ambition through classes, workshops, and seminars dedicated to the development of your creative talent. In the final year, you will work on - and complete to high standard - a substantial writing project. To help you reach this standard, you will be advised and directed by one of the supervisors on the Creative Writing or English team.",
         "interests": [
-            "artistic",
-            "social"
+            "artistic"
         ],
         "categories": [
             "creative arts",
@@ -15619,10 +15610,10 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Study English, Drama and Film if you are interested in the relationships between literature, drama, film, and media cultures. Refine your critical engagement with a wide variety of texts and cultures, in different genres and media, and across different national and historical locations.\nConsider the role of cultural representation across a diverse range of genres, forms and time periods in shaping community and societal structures and beliefs. Explore how the study of English, Drama and Film intersects with questions of gender, race, and identity. Become a critical and creative thinker.",
         "interests": [
-            "artistic"
+            "artistic",
+            "investigative"
         ],
         "categories": [
-            "communications",
             "creative arts",
             "humanities"
         ]
@@ -18332,8 +18323,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Geography Geography is the study of Earth's landscapes, peoples, places and environments. Fundamentally it is about the world in which we live. Geography offers a 21st century education by uniquely bridging the social sciences (human geography) with the natural sciences (physical geography). Human geography focuses on understanding the dynamics of cultures, societies and economies, while physical geography focuses on understanding the dynamics of physical landscapes. \nHistory\nThe History modules at Trinity allow you to study a remarkable range of types of history - whether cultural or political history, military or social history, environmental history or the history of ideas - from the early Middle Ages to the very recent past.",
         "interests": [
-            "investigative",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities",
@@ -19337,7 +19327,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The BA (Honours) in Heritage Studies has an applied focus and is interdisciplinary in nature - linking heritage with history, geography, archaeology, tourism, genealogy, museum studies, folklore, literature, planning, computing, digital media, business and languages. This programme is particularly appropriate for students wishing to acquire a broader knowledge and understanding of the built, cultural and natural heritages of Ireland, Europe and the wider world.\nIt will also provide you with an understanding of the role that heritage resource management plays in the safeguarding of archaeological and historic sites, national monuments, architecture, artefacts, archives, cultural landscapes and identities, habitats, flora and fauna.",
         "interests": [
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -19355,7 +19345,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This two-year Higher Certificate in Heritage Studies at GMIT Galway campus provides students with a broad-based knowledge and understanding of the built, cultural, natural, and digital heritages of Ireland and Europe.\nHeritage involves the practical application and use of the past in the present - in heritage tourism, visitor attractions, museum exhibitions, public history, community archaeology, conservation/restoration projects, festivals, reenactments, commemorations, national identities, genealogy, film, TV, radio, libraries, archives, and creative digitalisation.",
         "interests": [
-            "conventional",
             "investigative"
         ],
         "categories": [
@@ -19596,7 +19585,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "History of Art and Architecture is about the study of images, objects and buildings. It is unique in developing high levels of visual literacy applicable to a range of career pathways.\nIt explores why works of art look the way they do and seeks to discover what they say about the societies that created them. It develops skills in visual analysis, critical assessment, and communication.",
         "interests": [
-            "artistic"
+            "investigative"
         ],
         "categories": [
             "creative arts",
@@ -19616,7 +19605,7 @@
         "overview": "History of Art and ArchitectureHistory of Art and Architecture is about the study of images, objects and buildings. It is unique in developing high levels of visual literacy applicable to a range of career pathways. It explores why works of art look the way they do and seeks to discover what they say about the societies that created them. It develops skills in visual analysis, critical assessment, and communication. Drama Studies (Restricted)The degree explores the relationship between the theory and practice of Drama and Theatre to discover how and why they work. The strong developmental emphasis of the courses requires a particular blend of practical and academic skills. In addition to a high level of analytical ability and creativity you will need to possess resourcefulness and self-motivation",
         "interests": [
             "artistic",
-            "social"
+            "investigative"
         ],
         "categories": [
             "creative arts",
@@ -19635,10 +19624,10 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "History of Art and ArchitectureHistory of Art and Architecture is about the study of images, objects and buildings. It is unique in developing high levels of visual literacy applicable to a range of career pathways. It explores why works of art look the way they do and seeks to discover what they say about the societies that created them. It develops skills in visual analysis, critical assessment, and communication. Students combine this subject with their choice of French, Italian or Spanish.",
         "interests": [
-            "artistic"
+            "investigative"
         ],
         "categories": [
-            "creative arts",
+            "humanities",
             "languages"
         ]
     },
@@ -19654,11 +19643,9 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "History of Art and ArchitectureHistory of Art and Architecture is about the study of images, objects and buildings. It is unique in developing high levels of visual literacy applicable to a range of career pathways. It explores why works of art look the way they do and seeks to discover what they say about the societies that created them. It develops skills in visual analysis, critical assessment, and communication. \nPhilosophyThis course offers the opportunity to engage in depth with questions of metaphysics (about the fundamental nature of reality), epistemology (the theory of knowledge), ethics (theories of right and wrong), political philosophy (the nature of the just state), philosophy of religion (reasoning about God), philosophy of mind (questions about thought, language and reason) and various other areas.",
         "interests": [
-            "artistic",
             "investigative"
         ],
         "categories": [
-            "creative arts",
             "humanities"
         ]
     },
@@ -19678,7 +19665,6 @@
             "social"
         ],
         "categories": [
-            "creative arts",
             "humanities"
         ]
     },
@@ -19694,9 +19680,10 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "History The History programme combines the strength of a broad-based programme in the first two years, introducing all students to the sheer diversity of historical studies, with the freedom to explore areas of particular interest to individual students in the final two years. A range of modules covering medieval and modern periods, including Irish, European, and American history, as well as some modules exploring the skills and methods which historians use, and the kinds of debates in which historians engage.\nThere is the opportunity to concentrate on those parts of history which interest you most, and above all in the final year dissertation, an independent research project which very many students find the most rewarding part of their whole degree programme.\nStudents combine this subject with their choice of German, Irish, Russian or Spanish.",
         "interests": [
-            "artistic"
+            "investigative"
         ],
         "categories": [
+            "humanities",
             "languages"
         ]
     },
@@ -19712,9 +19699,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "HistoryThe History programme combines the strength of a broad-based programme in the first two years, introducing all students to the sheer diversity of historical studies, with the freedom to explore areas of particular interest to individual students in the final two years.\nPhilosophyThis course offers the opportunity to engage in depth with questions of metaphysics (about the fundamental nature of reality), epistemology (the theory of knowledge), ethics (theories of right and wrong), political philosophy (the nature of the just state), philosophy of religion (reasoning about God), philosophy of mind (questions about thought, language and reason) and various other areas.",
         "interests": [
-            "artistic",
-            "investigative",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -19751,7 +19736,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Religion\nThis course offers you a choice of three possible directions of study after your first year. The first is a broad-based study of Religion and Theology, the second a specialisation in the Cultural Study of Religion, and the third in Christian Theology. Within the Cultural Study of Religion, you have the opportunity to explore the monotheistic religions of Judaism, Christianity and Islam, the religions of Asia and Africa, as well new atheistic and religious movements.\nIf you choose to specialise in Theology, you can investigate the development of Christian self-understanding in a number of different modes, including denominational, multidenominational and ecumenical aspects.\nHistory\nThe History programme introduces students to the diversity of historical studies, such as medieval and modern periods, including Irish, European, and American history, as well as some modules exploring the skills and methods which historians use, and the kinds of debates in which historians engage.",
         "interests": [
-            "artistic"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -24575,8 +24560,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "In our Media Studies degree students will study the principles and practices of audio-visual production and interactive web authoring, how to research and analyse media cultures, genres and industries, and the role of media in society and politics.Students engage in independent and group projects to develop their media practice and have a flexible range of optional modules to expand their critical understanding.",
         "interests": [
-            "artistic",
-            "social"
+            "artistic"
         ],
         "categories": [
             "communications",
@@ -25098,8 +25082,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This degree programme combines the study of languages with the history, politics, cultures and religions of Europe, the Middle East and North Africa. You will gain in-depth knowledge of the current debates about the cultures, histories and religious affairs of the societies of the Middle East and their relationships with Europe.\nThe course is designed to provide you with skills and knowledge in two languages and their regional histories and cultures. Students choose one of Arabic, Hebrew, and Turkish and one from French, Spanish, German, Italian, Russian and Polish.",
         "interests": [
-            "artistic",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities",
@@ -25118,7 +25101,6 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Middle Eastern, Jewish & Islamic Civilisations\nJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world.\nLinguistics\nLinguistics often appeals to students who are curious about language as one of the most fascinating aspects of human knowledge and behaviour. Perhaps you are interested in accents, dialects, or slang, or you are a good learner of languages, or you are intrigued by how language changes over time, or you wonder how humans manage to learn and produce language.",
         "interests": [
-            "artistic",
             "investigative"
         ],
         "categories": [
@@ -25138,7 +25120,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Middle Eastern, Jewish and Islamic Civilisations\nJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world.\nAncient History and Archaeology\nYou will study the Greek and Roman worlds by working with historical and literary documents alongside the material remains of ancient sites and artefacts. All material is studied in translation and no knowledge of Greek or Latin is required, but there are opportunities to take introductory modules in the languages.",
         "interests": [
-            "artistic"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -25156,7 +25138,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Middle Eastern, Jewish and Islamic Civilisations\nJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world.\nClassical Civilisation\nThe study of Classical Civilisation is concerned with the literature, thought and culture of Ancient Greece and Rome. Through the examination and contextualisation of literary works and the analysis of the main aspects of ancient history and art, you will develop a thorough knowledge of the classical world and a critical approach to Greek and Roman literature. All texts are studied in translation and no knowledge of Greek or Latin is required, but there are opportunities to study the languages at an introductory level.",
         "interests": [
-            "artistic"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -25174,7 +25156,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Middle Eastern, Jewish and Islamic CivilisationsJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world. Trinity is the only university in Ireland that offers a course in Jewish and Islamic civilisations. It attracts students of social and cultural diversity from Ireland and abroad. \nClassical LanguagesThe study of Classical Languages is concerned with the language, literature and thought of either Ancient Greece or Ancient Rome. You will choose to study either Greek or Latin. Through the reading of literature in the original language and the examination of key aspects of ancient history, you will develop a thorough knowledge of the classical world and a critical approach to textual and material culture.",
         "interests": [
-            "artistic"
+            "investigative"
         ],
         "categories": [
             "humanities",
@@ -25193,7 +25175,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Middle Eastern, Jewish and Islamic CivilisationsJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world.\nHistoryThe History programme combines the strength of a broad-based programme in the first two years, introducing all students to the sheer diversity of historical studies, with the freedom to explore areas of particular interest to individual students in the final two years.",
         "interests": [
-            "artistic"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -25211,7 +25193,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Jewish and Islamic CivilisationsJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world.\nStudents combine this subject with their choice of French, Italian, Irish or Spanish.",
         "interests": [
-            "artistic"
+            "investigative"
         ],
         "categories": [
             "humanities",
@@ -25230,7 +25212,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Middle Eastern, Jewish and Islamic CivilisationsJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world.\nMusic \nStudying music will allow you to engage with a range of traditions to acquire a profound understanding of how music works in theory and in creative practice.",
         "interests": [
-            "artistic"
+            "artistic",
+            "investigative"
         ],
         "categories": [
             "creative arts",
@@ -25249,7 +25232,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Middle Eastern, Jewish and Islamic CivilisationsJudaism and Islam have been deeply influential in the development of European, Middle Eastern, North African and North American societies. Jewish and Islamic Civilisations is the study of their historical origins and cultures, providing students with an insight into the challenges of diversity and multiculturalism in an increasingly globalised world.ReligionThis course explores theories of religion, the monotheistic religions of Judaism, Christianity and Islam, the religions of Asia and Africa, movements such as New Atheism, New Religious Movements and the interaction between religion and politics, science, or art.",
         "interests": [
-            "artistic"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -26197,8 +26180,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "A mix of theory and practice, this programme explores the development of media and its evolution in the digital age. You will develop your creative media production skills in camera, sound, editing and writing; your digital skills in photoshop, illustrator and adobe programmes; and your critical thinking in Film Studies, Media Studies, Journalism and Cultural Theory modules.",
         "interests": [
-            "artistic",
-            "social"
+            "artistic"
         ],
         "categories": [
             "communications",
@@ -26640,8 +26622,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This programme presents two internationally recognised academic disciplines\u2014Performance Studies and Screen Studies\u2014and draws them together to create a unique subject that involves the lecture-based study of drama, film, television, social media, sporting events and sports media, gaming, streaming platforms, political activism, and more.",
         "interests": [
-            "artistic",
-            "social"
+            "artistic"
         ],
         "categories": [
             "communications",
@@ -27378,9 +27359,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Philosophy, Political Science, Economics and Sociology (PPES), offers a coherent and integrated introduction to the study of social sciences and philosophy. It brings together some of the most important approaches to understanding society and, in doing so, develops skills for a range of future careers and activities.",
         "interests": [
-            "conventional",
-            "investigative",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities",
@@ -27400,9 +27379,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "PPE provides a broad and deep understanding of how a society works, and indeed how international society works. It examines the complex economic and political forces in play, the problems of measuring and assessing the health of society, and the principles of justice that should guide political decision-making to improve society.\nPPE will teach students how to read beyond media headlines, and where to find more information about the hot policy questions of the day, in national and international contexts.",
         "interests": [
-            "conventional",
-            "investigative",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities",
@@ -27442,9 +27419,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "PhilosophyThis course offers the opportunity to engage in depth with questions of metaphysics (about the fundamental nature of reality), epistemology (the theory of knowledge), ethics (theories of right and wrong), political philosophy (the nature of the just state), philosophy of religion (reasoning about God), philosophy of mind (questions about thought, language and reason) and various other areas.SociologyIf you want to understand the social changes taking place in the world today, and you are curious about people and society, then Sociology is for you. You will also gain the ability to understand topical issues and to present and communicate information and thoughts coherently.",
         "interests": [
-            "artistic",
-            "investigative",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities",
@@ -29820,7 +29795,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This course encourages and enables students to engage Religion plays a significant role in diverse cultural, social and political contexts. Religious world-views, values and symbols play a critical role in shaping cultural norms, traditions and practices. This is the case both in religiously plural contexts, as well as those dominated by particular traditions.",
         "interests": [
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -29838,7 +29813,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "World Religions and TheologyThis course explores theories of religion, the monotheistic religions of Judaism, Christianity and Islam, the religions of Asia and Africa, movements such as New Atheism, New Religious Movements and the interaction between religion and politics, science, or art. Classical CivilisationThe study of Classical Civilisation is concerned with the literature, thought and culture of Ancient Greece and Rome. Through the examination and contextualisation of literary works and the analysis of the main aspects of ancient history and art, you will develop a thorough knowledge of the classical world and a critical approach to Greek and Roman literature.",
         "interests": [
-            "artistic"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -29856,7 +29831,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "World Religions and TheologyThis course explores theories of religion, the monotheistic religions of Judaism, Christianity and Islam, the religions of Asia and Africa, movements such as New Atheism, New Religious Movements and the interaction between religion and politics, science, or art. \nEnglish Literature\nEnglish Literature covers a broad range of literatures written in the English language, from Chaucer to the present day. The aim of the course is to help students acquire a thorough knowledge of the history of differing literatures while also enabling them to develop a sophisticated critical consciousness and an awareness of critical and cultural theory.",
         "interests": [
-            "artistic"
+            "artistic",
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -29874,8 +29850,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "World Religions and TheologyThis course explores theories of religion, the monotheistic religions of Judaism, Christianity and Islam, the religions of Asia and Africa, movements such as New Atheism, New Religious Movements and the interaction between religion and politics, science, or art. \nHistory of Art and ArchitectureHistory of Art and Architecture is about the study of images, objects and buildings. It is unique in developing high levels of visual literacy applicable to a range of career pathways. It explores why works of art look the way they do and seeks to discover what they say about the societies that created them. It develops skills in visual analysis, critical assessment, and communication.",
         "interests": [
-            "artistic",
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -29893,7 +29868,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This course explores theories of religion, the monotheistic religions of Judaism, Christianity and Islam, the religions of Asia and Africa, movements such as New Atheism, New Religious Movements and the interaction between religion and politics, science, or art.Students combine this subject with their choice of French, German, Italian or Russian.",
         "interests": [
-            "artistic"
+            "investigative"
         ],
         "categories": [
             "humanities",
@@ -33061,7 +33036,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The BTh is an immersion into the Christian intellectual tradition. Academically rigorous and intellectually engaging, this three-year full time degree provides students with a holistic formation in theology, especially within the Catholic theological tradition.\nLearners delve into all major theological subdisciplines, including but not limited to the study of Scripture, moral theology or ethics, and systematic theology. Students receive a grounding in philosophy, languages, and the history of Christian thought and culture.",
         "interests": [
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -33069,8 +33044,8 @@
     },
     {
         "id": "MI002 TRS",
-        "title": "Theology & Religious Studies - Arts",
-        "preprocessed_title": "theolog religi art",
+        "title": "Theology & Religious Studies",
+        "preprocessed_title": "theolog religi",
         "college": "Mary Immaculate College",
         "region": "Munster",
         "duration": "4 Years",
@@ -33079,7 +33054,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The Department of Theology & Religious Studies offers a wide-ranging perspective on the phenomenon of religion, and Christianity in particular. It does so by drawing on a great number of sub-disciplines, such as philosophy, history, literary criticism, sociology, the study of art, and so forth.\nTheology & Religious Studies at MIC covers a wide range of topics including world religions, the world of the Bible, Christology, moral theology and critical issues in modern religion.",
         "interests": [
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities"
@@ -33097,7 +33072,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This course provides a solid intellectual foundation in Theology in conjunction with one or two other Arts subjects. A scholarly discipline in the liberal arts, Theology offers the space and skills necessary for asking about, exploring and reflecting on the ultimate questions of existence and life.",
         "interests": [
-            "social"
+            "investigative"
         ],
         "categories": [
             "humanities"

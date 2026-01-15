@@ -10,7 +10,7 @@ r_i = ["realistic", "investigative", "artistic", "social", "enterprising", "conv
 for course in courses:
     title = course["title"].lower()
 
-    if len(course["categories"]) == 1 and "life science" in course["categories"]:
+    if "humanities" in course["categories"] and "social" in course["interests"]:
         print(title)
 
     for cat in course["categories"]:
