@@ -2,11 +2,6 @@
 
 ## new approach
 
-- [ ] ~~work with only level 8?~~
-    * might not be worth it anymore ngl, idk
-- [ ] ~~work with only dublin courses?~~
-    * might not be worth it anymore ngl, idk
-    * PoC?
 - [ ] need to readjust weights
     * category weights look good imo
     * riasec interests are quite overinflated
@@ -14,6 +9,7 @@
     * don't cluster for:
         1. education
         2. languages
+    * might not be necessary to distribute the weight for multi-category courses with this!
 - [ ] think about points
     * should we even recommend courses outside a points range? aysha got recommended a 370 point course despite having 625
         * findmycollegecourse actually has a point range preference - should we add this as a preference too?
@@ -29,8 +25,12 @@
     * general science courses
 - [ ] think about how to phrase the question:
     * e.g. `*"On a scale of 0-4, how much would you enjoy (or how interesting would you find) doing this activity for work or study?"*`
-
 - [ ] create a usable interface
+- [ ] ~~work with only level 8?~~
+    * might not be worth it anymore ngl, idk
+- [ ] ~~work with only dublin courses?~~
+    * might not be worth it anymore ngl, idk
+    * PoC?
 
 ```
 my 10 UNIQUE courses:
@@ -55,8 +55,3 @@ tcd cs
 ucd cs
 tud cs
 ```
-
-geoscience/geophysics/earth science
-physics
-forensic science
-radiation therapy

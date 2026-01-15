@@ -16,5 +16,5 @@ college_course_recommendations = get_college_course_recommendations(user_interes
 # print("BASELINE COLLEGE COURSE RECOMMENDATIONS:\n")
 # print_college_course_recommendations(baseline_college_course_recommendations)
 
-# print("COLLEGE COURSE RECOMMENDATIONS:\n")
-# print_college_course_recommendations(college_course_recommendations)
+print("COLLEGE COURSE RECOMMENDATIONS:\n")
+print_college_course_recommendations(college_course_recommendations)

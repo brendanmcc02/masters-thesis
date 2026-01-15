@@ -9344,7 +9344,8 @@
             "social"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -9364,7 +9365,8 @@
             "social"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -9384,7 +9386,8 @@
             "social"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -9404,7 +9407,8 @@
             "social"
         ],
         "categories": [
-            "healthcare"
+            "healthcare",
+            "life science"
         ]
     },
     {
@@ -19789,7 +19793,7 @@
     {
         "id": "GC462",
         "title": "Graphic Communication Design (portfolio)",
-        "preprocessed_title": "graphic communic design portfolio",
+        "preprocessed_title": "graphic communic design",
         "college": "Griffith College Dublin",
         "region": "Dublin",
         "duration": "3 Years",
@@ -33665,7 +33669,7 @@
     {
         "id": "US810",
         "title": "Visual Effects for Film, TV and Animation Portfolio",
-        "preprocessed_title": "visual effect film tv anim portfolio",
+        "preprocessed_title": "visual effect film tv anim",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",

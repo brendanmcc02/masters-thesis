@@ -58,7 +58,7 @@ VECTORIZED_REPRESENTATION_DIMENSION_SIZE = len(RIASEC_INTERESTS) + POINTS_VECTOR
 def get_college_course_recommendations(user_interest_questions_results_vector, user_college_course_preferences):
     preprocess_college_course_titles()
 
-    # filtered_college_courses = get_filtered_college_courses(user_college_course_preferences)
+    filtered_college_courses = get_filtered_college_courses(user_college_course_preferences)
 
     user_vector = get_user_vector(user_interest_questions_results_vector, user_college_course_preferences)
 
@@ -221,19 +221,6 @@ def get_vectorized_college_course_representation(college_course):
 
     return vectorized_representation
 
-def get_normalized_vector(vector):
-    maxValue = 0.0
-    minValue = 1.0
-
-    for val in vector:
-        maxValue = max(maxValue, val)
-        minValue = min(minValue, val)
-
-    for i in range(len(vector)):
-        vector[i] = (vector[i] - minValue) / (maxValue - minValue)
-
-    return vector
-
 def get_cosine_similarity(user_vector, cached_user_vector_magnitude, course_vector):
     return np.dot(user_vector, course_vector) / (cached_user_vector_magnitude * np.linalg.norm(course_vector))
 
@@ -304,7 +291,7 @@ def preprocess_college_course_titles():
 def print_college_course_recommendations(college_course_recommendations):
     for rec in college_course_recommendations:
         print(rec["title"] + "\n" + rec["preprocessed_title"] + "\n" + rec["college"] + "\n" + str(rec["interests"]) + "\n" + str(rec["categories"]) + "\nPoints: " + str(rec["points"]) + "\nSimilarity: " + (str(round(rec["similarity_score"]*100.0, 1)) if "similarity_score" in rec else "-1") + "%\n")
-        print(rec['vectorized_representation'])
+        # print(rec['vectorized_representation'])
 
 def get_baseline_college_course_recommendations(user_college_course_preferences):
     filtered_college_courses = get_filtered_college_courses(user_college_course_preferences)
