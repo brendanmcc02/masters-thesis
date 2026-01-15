@@ -1,0 +1,127 @@
+college_course_category,question,riasec_interest
+agriculture,Handle and care for livestock on a farm,realistic
+agriculture,Repair and maintain high-tech farm machinery,realistic
+agriculture,Research plant genetics for better crop yields,investigative
+agriculture,Analyze soil chemistry to improve land health,investigative
+agriculture,Sell agricultural products at a market to farmers,enterprising
+agriculture,Organize and track the financial accounts of a farm,conventional
+architecture and construction,Draft technical drawings of building joints,realistic
+architecture and construction,Build scale models to test structural strength,realistic
+architecture and construction,Analyze how new building materials affect temperature,investigative
+architecture and construction,Design the aesthetic look of a new building,artistic
+architecture and construction,Lead site meetings to keep projects on track,enterprising
+architecture and construction,Check that building plans follow all safety laws,conventional
+business,Negotiate with suppliers to lower business costs,enterprising
+business,Manage a sales team to exceed revenue targets,enterprising
+business,Pitch innovative business ideas to investors,enterprising
+business,Organize company budgets and financial reports,conventional
+business,Maintain accurate business records and data,conventional
+business,Coordinate complex logistics and supply chains,conventional
+chemical science,Research how proteins change to fight specific diseases,investigative
+chemical science,Discover how new drugs interact with human cells,investigative
+chemical science,Research how catalysts speed up chemical reactions,investigative
+chemical science,Analyze unknown substances to find their chemical makeup,investigative
+chemical science,Mix raw ingredients to create skincare products,realistic
+chemical science,Mix chemical compounds to create new products,realistic
+computers,Assemble and configure high-performance servers,realistic
+computers,Design a software application to handle millions of users,investigative
+computers,Fix hardware problems found in error logs,realistic
+computers,Organize and manage large databases of information,conventional
+computers,Optimize a computer program to run more efficiently,investigative
+computers,Develop the code for a search engine,investigative
+communications,Build a viral social media campaign for a brand,enterprising
+communications,Pitch a creative vision to launch a new product,enterprising
+communications,Design the logo and visual identity for a music festival,artistic
+communications,Write an opinion piece for a respected newspaper,artistic
+communications,Direct a short film for a company's marketing campaign,artistic
+communications,Investigate an article to ensure 100% truth,investigative
+creative arts,Create original paintings or drawings for exhibition,artistic
+creative arts,Choreograph and perform expressive dance routines,artistic
+creative arts,Compose and perform an original piece of music,artistic
+creative arts,Perform lead roles in professional theatre or film,artistic
+creative arts,Write original stories or poetry,artistic
+creative arts,Hand-craft original ceramic or pottery artworks,realistic
+education,Create original lesson plans and activities for a class,artistic
+education,Teach new concepts to a class of students,social
+education,Tutor students who need specialized support,social
+education,Manage classroom behavior and group dynamics,social
+education,Mentor young people to reach their potential,social
+education,Explain complex theories in very simple ways,social
+engineering,Analyze thermal data to improve engine efficiency,investigative
+engineering,Analyze brain signals to control robotic limbs,investigative
+engineering,Analyze airflow patterns to reduce aircraft drag,investigative
+engineering,Build a mini airplane with electrical motors,realistic
+engineering,Fix technical faults in industrial machinery,realistic
+engineering,Build and calibrate electronic medical devices,realistic
+environment,Restore natural habitats by planting trees,realistic
+environment,Build solar-powered water filtration systems,realistic
+environment,Research new laws to reward companies for lowering carbon,investigative
+environment,Analyze water samples to track the spread of microplastics,investigative
+environment,Encourage firms to use sustainable packaging,enterprising
+environment,Lead a campaign to convince a city to go carbon neutral,enterprising
+healthcare,Evaluate a patient's symptoms to diagnose illnesses,investigative
+healthcare,Research the biological mechanisms of the human body,investigative
+healthcare,Provide direct care to sick patients,social
+healthcare,Assist patients with physical rehabilitation,social
+healthcare,Perform clinical procedures or surgeries,realistic
+healthcare,Operate X-ray or MRI machines for imaging,realistic
+hospitality,Manage and coordinate large-scale events,enterprising
+hospitality,Lead the daily operations of a hotel,enterprising
+hospitality,Serve and help guests in a luxury setting,social
+hospitality,Cook and prepare food in a professional kitchen,realistic
+hospitality,Organize detailed travel plans for clients,conventional
+hospitality,Direct and lead staff in a busy restaurant,enterprising
+humanities,Analyze themes in classic literature and art,investigative
+humanities,Write creative essays on culture or history,artistic
+humanities,Design museum exhibits to tell history stories,artistic
+humanities,Investigate different philosophical ideas,investigative
+humanities,Critique and review modern works of art,artistic
+humanities,Research how ancient civilizations lived,investigative
+languages,Analyze the grammatical structure of languages,investigative
+languages,Speak fluently in a foreign language,social
+languages,Create a cultural guide based on local traditions,artistic
+languages,Translate for people in professional settings,social
+languages,Engage with foreign literature in their original language,artistic
+languages,Teach a language to non-native speakers,social
+law,Research past legal cases and government acts,investigative
+law,Analyze evidence to build a legal argument,investigative
+law,Argue a case in court to defend a client's rights,enterprising
+law,Organize a campaign to advocate for human rights,enterprising
+law,Help refugees apply for legal protection and asylum,social
+law,Check that legal documents follow official regulations,conventional
+life science,Investigate how bacteria react to medicine,investigative
+life science,Analyze genetic sequences and DNA samples,investigative
+life science,Study how different nutrients affect human metabolism,investigative
+life science,Research the decline of coral reefs,investigative
+life science,Dissect biological specimens in a lab,realistic
+life science,Conduct field research on local wildlife,realistic
+mathematics,Prove a mathematical theorem using formal logic,investigative
+mathematics,Research the hidden patterns within prime numbers,investigative
+mathematics,Analyze economic data to predict interest rates,investigative
+mathematics,Design algorithms to recommend movies to users,investigative
+mathematics,Predict sports results using statistics,investigative
+mathematics,Analyze crash data to estimate car insurance prices,investigative
+physical science,Learn the physics behind planetary motion,investigative
+physical science,Research new ways to create clean energy,investigative
+physical science,Calculate force and motion in physics systems,investigative
+physical science,Analyze seismic waves to map the Earth's core,investigative
+physical science,Run laboratory tests on matter and energy,realistic
+physical science,Use technical tools to collect rock samples,realistic
+social science,Analyze how rising prices change the way people spend money,investigative
+social science,Study the development of the human mind,investigative
+social science,Research societal trends in demographics,investigative
+social science,Analyze patterns in human behavior and culture,investigative
+social science,Analyze the personality traits of people who commit crimes,investigative
+social science,Counsel people to help them overcome personal challenges,social
+sport,Teach healthy nutrition habits to athletes,social
+sport,Coach a sports team to improve performance,social
+sport,Analyze the biomechanics of body movement,investigative
+sport,Lead the operations of a sports club,enterprising
+sport,Help athletes recover from physical injuries,realistic
+sport,Demonstrate and teach new exercise routines,realistic
+welfare,Help vulnerable people access vital support,social
+welfare,Organize outreach programs for the community,social
+welfare,Advocate for social justice and equality,social
+welfare,Provide emotional support to people in crisis,social
+welfare,Assess if families need extra social support,social
+welfare,Plan creative activities to help kids develop,social

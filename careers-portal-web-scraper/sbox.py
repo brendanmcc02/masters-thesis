@@ -1,14 +1,30 @@
+#```get riasec makeup of each category - could apply this as a mask to the user's riasec profile?
 import json
 
 file = open("../datasets/cao-college-courses/cao-college-courses.json")
 courses = json.load(file)
 
+categories_dict = {}
+r_i = ["realistic", "investigative", "artistic", "social", "enterprising", "conventional"]
+
 for course in courses:
-    if "psychology" in course['title'].lower() and "behavioural health and human services" in course['categories'] and "social science" in course['categories']:
-        print(course['title'])
+    title = course["title"].lower()
 
-    course["categories"] = sorted(list(set(course["categories"])))
-    course["interests"] = sorted(list(set(course["interests"])))
+    if len(course["categories"]) == 1 and "life science" in course["categories"]:
+        print(title)
 
-with open("../datasets/cao-college-courses/cao-college-courses.json", "w") as outfile:
-    json.dump(courses, outfile, indent=4)
+    for cat in course["categories"]:
+        if cat not in categories_dict:
+            categories_dict[cat] = [0] * 6
+
+        for inte in course["interests"]:
+            categories_dict[cat][r_i.index(inte)] += 1
+
+print("\n")
+for k, v in categories_dict.items():
+    norm = [round(float(i)/max(v), 2) for i in v]
+
+    print(k + ": " + str(norm))
+
+# with open("../datasets/cao-college-courses/cao-college-courses.json", "w") as outfile:
+#     json.dump(courses, outfile, indent=4)
