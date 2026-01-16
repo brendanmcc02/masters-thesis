@@ -2,7 +2,6 @@ from fuzzywuzzy import fuzz
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
-from collections import defaultdict
 import re
 
 def get_stop_words():
@@ -299,18 +298,3 @@ def get_aggregated_college_major_categories_df(df, holland_code_columns, HOLLAND
     aggregated_major_categories_df = aggregated_major_categories_df.rename(columns={'R':RIASEC_TYPES[0], 'I':RIASEC_TYPES[1], 'A':RIASEC_TYPES[2], 'S':RIASEC_TYPES[3], 'E':RIASEC_TYPES[4], 'C':RIASEC_TYPES[5]}) 
 
     return aggregated_major_categories_df
-
-# # commenting out because this surprisingly reduces HGBM model performance by ~0.02
-# def get_most_frequently_occuring_college_major_category_with_substring_match(column_value, college_majors, major_to_major_category_dict):
-#     college_major_categories_counts = defaultdict(int)
-#     for major in college_majors:
-#         category = major_to_major_category_dict[major]
-
-#         if major in column_value:
-#             college_major_categories_counts[category] += 1
-
-#     if len(college_major_categories_counts) > 0:
-#         sorted_college_major_categories = sorted(college_major_categories_counts, key=college_major_categories_counts.get, reverse=True)
-#         return sorted_college_major_categories[0] # just return the most frequently occuring college major category
-    
-#     return ""
