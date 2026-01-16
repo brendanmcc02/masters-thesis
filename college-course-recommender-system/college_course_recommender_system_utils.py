@@ -24,8 +24,8 @@ NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS = MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATE
 FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP = {4: 1.0,
                                       3: 0.25, 
                                       2: 0.01, 
-                                      1: 0.001, # let this be non-zero so it penalises the interest/category - otherwise it gets counted as NaN and isn't factored into the open psychometrics model/data!
-                                      0: 0.001} # let this be non-zero so it penalises the interest/category - otherwise it gets counted as NaN and isn't factored into the open psychometrics model/data!
+                                      1: 0,
+                                      0: 0}
 RIASEC_INTEREST_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT = 0.5
 COLLEGE_COURSE_CATEGORY_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT = 1.0
 
@@ -75,10 +75,10 @@ def preprocess_college_course_titles():
             "region": course['region'],
             "duration": course['duration'],
             "nfqLevel": int(course['nfqLevel']),
-            "points": int(course['points']) if course['points'] else None,
+            "points": int(course['points']),
             "isAdditionalPortfolioTestInterviewRequired": course['isAdditionalPortfolioTestInterviewRequired'],
             "overview": course['overview'],
-            "riasec_interests": course['interests'],
+            "riasec_interests": course["riasec_interests"],
             "categories": course['categories'],
         })
 
@@ -101,7 +101,8 @@ def get_college_course_recommendations(user_interest_questions_results_vector, u
     top_college_course_category_indexes = get_top_college_course_category_indexes(user_vector)
 
     for college_course_category_index in top_college_course_category_indexes:
-        masked_college_course_category_course_recommendations = get_masked_college_course_category_course_recommendations(user_vector, college_course_category_index, filtered_college_courses)
+        filtered_college_course_category_courses = get_filtered_college_course_category_courses(filtered_college_courses, college_course_category_index)
+        masked_college_course_category_course_recommendations = get_masked_college_course_category_course_recommendations(user_vector, college_course_category_index, filtered_college_course_category_courses)
 
         add_new_college_course_recommendations(masked_college_course_category_course_recommendations, college_course_recommendations)
 
@@ -153,6 +154,19 @@ def get_top_college_course_category_indexes(user_vector):
         )
 
     return top_college_course_category_indexes[0:MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND]
+
+def get_filtered_college_course_category_courses(filtered_college_courses, college_course_category_index):
+    filtered_college_course_category_courses = []
+    college_course_category_to_filter_by = COLLEGE_COURSE_CATEGORIES[college_course_category_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX]
+
+    for course in filtered_college_courses:
+        if college_course_category_to_filter_by in course["categories"]:
+           filtered_college_course_category_courses.append(course.copy()) 
+
+    print(college_course_category_to_filter_by)
+    print(len(filtered_college_course_category_courses))
+
+    return filtered_college_course_category_courses
 
 def get_masked_college_course_category_course_recommendations(user_vector, college_course_category_index, filtered_college_courses):
     masked_college_course_category_user_vector = get_masked_college_course_category_user_vector(user_vector, college_course_category_index)
@@ -244,6 +258,7 @@ def get_masked_riasec_interests_for_college_course_category(college_course_categ
 def add_new_college_course_recommendations(masked_college_course_category_course_recommendations_to_add, previously_recommended_college_courses):
     number_of_new_courses_added = 0
 
+    # TODO change this logic, not sure if deleting is smart
     while number_of_new_courses_added < MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY:
         if is_new_college_course_recommendation(masked_college_course_category_course_recommendations_to_add[number_of_new_courses_added], previously_recommended_college_courses):
             previously_recommended_college_courses.append(masked_college_course_category_course_recommendations_to_add[number_of_new_courses_added].copy())
@@ -279,10 +294,6 @@ def are_both_college_courses_education_or_non_education(previously_recommended_c
     return ("education" in previously_recommended_college_course["categories"]) == ("education" in college_course_to_check["categories"])
 
 def get_normalized_points_vector(points):
-    # some courses have null points i.e. no points information (they are new courses)
-    if not points:
-        points = 0.0
-    
     # somec courses are over 625 points (because of portfolios, interviews, etc.)
     # so if the course exceeds 625 points, vectorize the course as if it had 625 points (keeps the normalisation between 0 and 625 points)
     points = min(points, MAX_COURSE_POINTS)
@@ -309,8 +320,8 @@ def add_vectorized_college_course_as_attribute(course):
 def get_vectorized_college_course_representation(college_course):
     vectorized_representation = np.zeros(VECTORIZED_REPRESENTATION_DIMENSION_SIZE)
 
-    for interest in college_course['interests']:
-        distributed_interest_weight = 1.0 / np.sqrt(len(college_course['interests']))
+    for interest in college_course["riasec_interests"]:
+        distributed_interest_weight = 1.0 / np.sqrt(len(college_course["riasec_interests"]))
         vectorized_representation[RIASEC_INTERESTS.index(interest)] = distributed_interest_weight
 
     vectorized_representation[POINTS_VECTOR_INDEX] = get_normalized_points_vector(college_course['points'])

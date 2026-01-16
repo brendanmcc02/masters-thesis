@@ -1,9 +1,16 @@
 from college_course_recommender_system_utils import *
 
 user_college_course_preferences = { "nfq_levels": [8],
-                                    "colleges": ["Trinity College Dublin",
-                                                 "University College Dublin",
-                                                 "Royal College of Surgeons in Ireland"],
+                                    "colleges": [
+                                                "Trinity College Dublin",
+                                                "University College Dublin",
+                                                "Royal College of Surgeons in Ireland",
+                                                "Dublin City University",
+                                                "TU Dublin - Grangegorman",
+                                                "TU Dublin - Bolton Street",
+                                                "Maynooth University",
+                                                "Marino Institute of Education"
+                                        ],
                                     "expected_points": 625}
 
 user_interest_questions_results_df = pd.read_csv("user_interest_questions_results.csv")

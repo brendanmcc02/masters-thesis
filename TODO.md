@@ -1,8 +1,8 @@
 # TODO
 
-- [ ] for category-filtering, exclusively take courses **only** from that category, ensures other categories don't get recommended when it gets exhausted
 - [ ] if recs get exhausted for a category, do a 6th category
 - [ ] education - don't mask other categories
+    * actually maybe just mask the top_college_course_category indexes
     * but ensure it's an education rec!
 - [ ] interactive binary relevance
 - [ ] get evaluation metrics
