@@ -4,7 +4,14 @@ user_college_course_preferences = { "nfq_levels": [8],
                                     "colleges": [
                                                 "Trinity College Dublin",
                                                 "University College Dublin",
-                                                "Royal College of Surgeons in Ireland"
+                                                "Royal College of Surgeons in Ireland",
+                                                "Dublin City University",
+                                                "Maynooth University",
+                                                "TU Dublin - Grangegorman",
+                                                "TU Dublin - Bolton Street",
+                                                "TU Dublin - Aungier Street",
+                                                "TU Dublin - Tallaght",
+                                                "TU Dublin - Blanchardstown"
                                         ],
                                     "expected_points": 625}
 

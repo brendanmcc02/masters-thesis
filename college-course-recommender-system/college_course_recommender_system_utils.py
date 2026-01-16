@@ -183,24 +183,35 @@ def get_masked_college_course_category_course_recommendations(user_vector, colle
 
 def get_masked_college_course_category_user_vector(user_vector, college_course_category_index):
     masked_college_course_category_user_vector = user_vector.copy()
-    
-    masked_riasec_interests_for_college_course_category = get_masked_riasec_interests_for_college_course_category(college_course_category_index)
 
-    for i in range(0, POINTS_VECTOR_INDEX):
-        if RIASEC_INTERESTS[i] in masked_riasec_interests_for_college_course_category:
-            masked_college_course_category_user_vector[i] = user_vector[i]
-        else:
-            masked_college_course_category_user_vector[i] = 0.0
+    mask_riasec_interests_in_user_vector_for_college_course_category(college_course_category_index, masked_college_course_category_user_vector)
 
-    for i in range(STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX, len(user_vector)):
-        if i == college_course_category_index:
-            masked_college_course_category_user_vector[i] = user_vector[i]
-        else:
-            masked_college_course_category_user_vector[i] = 0.0
+    mask_college_course_categories_in_user_vector(college_course_category_index, masked_college_course_category_user_vector)
+
+    print(COLLEGE_COURSE_CATEGORIES.index(college_course_category_index) + str(masked_college_course_category_user_vector))
 
     return masked_college_course_category_user_vector
 
-def get_masked_riasec_interests_for_college_course_category(college_course_category_index):
+def mask_riasec_interests_in_user_vector_for_college_course_category(college_course_category_index, masked_college_course_category_user_vector):
+    masked_riasec_interests_for_college_course_category = get_riasec_interests_for_college_course_category(college_course_category_index)
+
+    for i in range(0, POINTS_VECTOR_INDEX):
+        if RIASEC_INTERESTS[i] not in masked_riasec_interests_for_college_course_category:
+            masked_college_course_category_user_vector[i] = 0.0
+
+def mask_college_course_categories_in_user_vector(college_course_category_index, masked_college_course_category_user_vector):
+    # education is a special case
+    # we want to recommend education courses that match their categories
+    # e.g. interest in math + education = maths teacher
+    # e.g. interest in business + education = business teacher
+    if college_course_category_index == COLLEGE_COURSE_CATEGORIES.index("education"):
+        return
+
+    for i in range(STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX, len(masked_college_course_category_user_vector)):
+        if i != college_course_category_index:
+            masked_college_course_category_user_vector[i] = 0.0
+
+def get_riasec_interests_for_college_course_category(college_course_category_index):
     college_course_category = COLLEGE_COURSE_CATEGORIES[college_course_category_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX]
 
     match college_course_category:
@@ -219,7 +230,9 @@ def get_masked_riasec_interests_for_college_course_category(college_course_categ
         case "creative arts":
             return ["realistic", "investigative", "artistic"]
         case "education":
-            # we want to return education courses that matches all of their interests
+            # education is a unique case where we want to recommend education courses that match their riasec makeup, so we don't want to mask anything
+            # e.g. strong affininty towards A + education = arts teacher
+            # e.g. strong affininty towards I + education = maths/science teacher
             return RIASEC_INTERESTS
         case "engineering":
             return ["realistic", "investigative"]
