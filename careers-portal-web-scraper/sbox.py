@@ -5,12 +5,7 @@ user_college_course_preferences = { "nfq_levels": [8],
                                     "colleges": [
                                                 "Trinity College Dublin",
                                                 "University College Dublin",
-                                                "Royal College of Surgeons in Ireland",
-                                                "Dublin City University",
-                                                "TU Dublin - Grangegorman",
-                                                "TU Dublin - Bolton Street",
-                                                "Maynooth University",
-                                                "Marino Institute of Education"
+                                                "Royal College of Surgeons in Ireland"
                                         ],
                                     "expected_points": 625}
 
@@ -24,7 +19,7 @@ r = 0
 for course in courses:
     title = course["title"].lower()
 
-    if "humanities" in course["categories"] and course["college"] in user_college_course_preferences["colleges"] and (course["points"] <= user_college_course_preferences["expected_points"] or course["isAdditionalPortfolioTestInterviewRequired"]) and course["nfqLevel"] in user_college_course_preferences["nfq_levels"]:
+    if "computers" in course["categories"] and course["college"] in user_college_course_preferences["colleges"] and (course["points"] <= user_college_course_preferences["expected_points"] or course["isAdditionalPortfolioTestInterviewRequired"]) and course["nfqLevel"] in user_college_course_preferences["nfq_levels"]:
         r += 1
 
 

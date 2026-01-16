@@ -1,9 +1,9 @@
 # TODO
 
-- [ ] if recs get exhausted for a category, do a 6th category
 - [ ] education - don't mask other categories
     * actually maybe just mask the top_college_course_category indexes
     * but ensure it's an education rec!
+- [ ] sort the results by cosine similarity % instead?
 - [ ] interactive binary relevance
 - [ ] get evaluation metrics
 - [ ] create a usable interface

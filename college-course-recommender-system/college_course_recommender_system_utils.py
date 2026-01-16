@@ -104,9 +104,9 @@ def get_college_course_recommendations(user_interest_questions_results_vector, u
         filtered_college_course_category_courses = get_filtered_college_course_category_courses(filtered_college_courses, college_course_category_index)
         masked_college_course_category_course_recommendations = get_masked_college_course_category_course_recommendations(user_vector, college_course_category_index, filtered_college_course_category_courses)
 
-        add_new_college_course_recommendations(masked_college_course_category_course_recommendations, college_course_recommendations)
+        add_unique_college_course_recommendations(masked_college_course_category_course_recommendations, college_course_recommendations)
 
-    return college_course_recommendations[0:NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS]
+    return college_course_recommendations
 
 def get_user_vector(user_interest_questions_results_vector, user_college_course_preferences):
     user_riasec_vector = get_user_riasec_vector(user_interest_questions_results_vector)
@@ -153,7 +153,7 @@ def get_top_college_course_category_indexes(user_vector):
             reverse=True
         )
 
-    return top_college_course_category_indexes[0:MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND]
+    return top_college_course_category_indexes
 
 def get_filtered_college_course_category_courses(filtered_college_courses, college_course_category_index):
     filtered_college_course_category_courses = []
@@ -161,16 +161,13 @@ def get_filtered_college_course_category_courses(filtered_college_courses, colle
 
     for course in filtered_college_courses:
         if college_course_category_to_filter_by in course["categories"]:
-           filtered_college_course_category_courses.append(course.copy()) 
-
-    print(college_course_category_to_filter_by)
-    print(len(filtered_college_course_category_courses))
+           filtered_college_course_category_courses.append(course.copy())
 
     return filtered_college_course_category_courses
 
 def get_masked_college_course_category_course_recommendations(user_vector, college_course_category_index, filtered_college_courses):
     masked_college_course_category_user_vector = get_masked_college_course_category_user_vector(user_vector, college_course_category_index)
-    print(str(COLLEGE_COURSE_CATEGORIES[college_course_category_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX]) + str(masked_college_course_category_user_vector)) # TODO TEMP
+
     cached_masked_college_course_category_user_vector_magnitude = np.linalg.norm(masked_college_course_category_user_vector)
     
     for course in filtered_college_courses:
@@ -255,18 +252,18 @@ def get_masked_riasec_interests_for_college_course_category(college_course_categ
             print("Error! Unrecognised college_course_category!" + college_course_category + college_course_category_index)
             return []
 
-def add_new_college_course_recommendations(masked_college_course_category_course_recommendations_to_add, previously_recommended_college_courses):
-    number_of_new_courses_added = 0
+def add_unique_college_course_recommendations(masked_college_course_category_course_recommendations_to_add, previously_recommended_college_courses):
+    number_of_unique_courses_added = 0
 
-    # TODO change this logic, not sure if deleting is smart
-    while number_of_new_courses_added < MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY:
-        if is_new_college_course_recommendation(masked_college_course_category_course_recommendations_to_add[number_of_new_courses_added], previously_recommended_college_courses):
-            previously_recommended_college_courses.append(masked_college_course_category_course_recommendations_to_add[number_of_new_courses_added].copy())
-            number_of_new_courses_added += 1
-        else:
-            del masked_college_course_category_course_recommendations_to_add[number_of_new_courses_added]
+    for i in range(len(masked_college_course_category_course_recommendations_to_add)):
+        if number_of_unique_courses_added == MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY or len(previously_recommended_college_courses) == NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS:
+            return
 
-def is_new_college_course_recommendation(college_course_to_check, previously_recommended_college_courses):
+        if is_unique_college_course_recommendation(masked_college_course_category_course_recommendations_to_add[i], previously_recommended_college_courses):
+            previously_recommended_college_courses.append(masked_college_course_category_course_recommendations_to_add[i].copy())
+            number_of_unique_courses_added += 1
+
+def is_unique_college_course_recommendation(college_course_to_check, previously_recommended_college_courses):
     for previously_recommended_college_course in previously_recommended_college_courses:
         if is_college_course_duplicate(previously_recommended_college_course, college_course_to_check):
             print("Not recommending " + college_course_to_check['title'] + ", " + college_course_to_check['college'] + " because " + previously_recommended_college_course['title'] + ", " + previously_recommended_college_course['college'] + " is already recommended.\n")
@@ -380,7 +377,8 @@ def get_baseline_college_course_recommendations(user_college_course_preferences)
 
     unique_baseline_college_course_recommendations = []
 
-    add_new_college_course_recommendations(baseline_college_course_recommendations, unique_baseline_college_course_recommendations, NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS)
+    for _ in range(MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND):
+        add_unique_college_course_recommendations(baseline_college_course_recommendations, unique_baseline_college_course_recommendations)
 
     return unique_baseline_college_course_recommendations
 
