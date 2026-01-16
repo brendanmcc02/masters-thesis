@@ -3,7 +3,7 @@
 - [ ] education - don't mask other categories
     * actually maybe just mask the top_college_course_category indexes
     * but ensure it's an education rec!
-- [ ] sort the results by cosine similarity % instead?
+- [ ] ask donnchadh for feedback on questions?
 - [ ] interactive binary relevance
 - [ ] get evaluation metrics
 - [ ] create a usable interface

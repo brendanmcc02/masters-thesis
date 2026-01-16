@@ -98,11 +98,14 @@ def get_college_course_recommendations(user_interest_questions_results_vector, u
     user_vector = get_user_vector(user_interest_questions_results_vector, user_college_course_preferences)
 
     college_course_recommendations = []
-    top_college_course_category_indexes = get_top_college_course_category_indexes(user_vector)
+    top_college_course_category_user_vector_indexes = get_top_college_course_category_user_vector_indexes(user_vector)
 
-    for college_course_category_index in top_college_course_category_indexes:
-        filtered_college_course_category_courses = get_filtered_college_course_category_courses(filtered_college_courses, college_course_category_index)
-        masked_college_course_category_course_recommendations = get_masked_college_course_category_course_recommendations(user_vector, college_course_category_index, filtered_college_course_category_courses)
+    for college_course_category_user_vector_index in top_college_course_category_user_vector_indexes:
+        if len(college_course_recommendations) == NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS:
+            return college_course_recommendations
+        
+        filtered_college_course_category_courses = get_filtered_college_course_category_courses(filtered_college_courses, college_course_category_user_vector_index)
+        masked_college_course_category_course_recommendations = get_masked_college_course_category_course_recommendations(user_vector, college_course_category_user_vector_index, filtered_college_course_category_courses)
 
         add_unique_college_course_recommendations(masked_college_course_category_course_recommendations, college_course_recommendations)
 
@@ -141,23 +144,23 @@ def add_weighted_preference_to_user_vector(user_vector, five_point_likert_scale_
 def custom_normalized_sigmoid_function(value, tuning_constant):
     return 1 - np.exp(-tuning_constant * value)
 
-def get_top_college_course_category_indexes(user_vector):
+def get_top_college_course_category_user_vector_indexes(user_vector):
     top_college_course_categories = {}
 
     for i in range(STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX, len(user_vector)):
         top_college_course_categories[i] = user_vector[i]
 
-    top_college_course_category_indexes = sorted(
+    top_college_course_category_user_vector_indexes = sorted(
             top_college_course_categories, 
             key=top_college_course_categories.get, 
             reverse=True
         )
 
-    return top_college_course_category_indexes
+    return top_college_course_category_user_vector_indexes
 
-def get_filtered_college_course_category_courses(filtered_college_courses, college_course_category_index):
+def get_filtered_college_course_category_courses(filtered_college_courses, college_course_category_user_vector_index):
     filtered_college_course_category_courses = []
-    college_course_category_to_filter_by = COLLEGE_COURSE_CATEGORIES[college_course_category_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX]
+    college_course_category_to_filter_by = COLLEGE_COURSE_CATEGORIES[college_course_category_user_vector_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX]
 
     for course in filtered_college_courses:
         if college_course_category_to_filter_by in course["categories"]:
@@ -165,8 +168,8 @@ def get_filtered_college_course_category_courses(filtered_college_courses, colle
 
     return filtered_college_course_category_courses
 
-def get_masked_college_course_category_course_recommendations(user_vector, college_course_category_index, filtered_college_courses):
-    masked_college_course_category_user_vector = get_masked_college_course_category_user_vector(user_vector, college_course_category_index)
+def get_masked_college_course_category_course_recommendations(user_vector, college_course_category_user_vector_index, filtered_college_courses):
+    masked_college_course_category_user_vector = get_masked_college_course_category_user_vector(user_vector, college_course_category_user_vector_index)
 
     cached_masked_college_course_category_user_vector_magnitude = np.linalg.norm(masked_college_course_category_user_vector)
     
@@ -181,38 +184,38 @@ def get_masked_college_course_category_course_recommendations(user_vector, colle
 
     return masked_college_course_category_course_recommendations
 
-def get_masked_college_course_category_user_vector(user_vector, college_course_category_index):
+def get_masked_college_course_category_user_vector(user_vector, college_course_category_user_vector_index):
     masked_college_course_category_user_vector = user_vector.copy()
 
-    mask_riasec_interests_in_user_vector_for_college_course_category(college_course_category_index, masked_college_course_category_user_vector)
+    mask_riasec_interests_in_user_vector_for_college_course_category(college_course_category_user_vector_index, masked_college_course_category_user_vector)
 
-    mask_college_course_categories_in_user_vector(college_course_category_index, masked_college_course_category_user_vector)
+    mask_college_course_categories_in_user_vector(college_course_category_user_vector_index, masked_college_course_category_user_vector)
 
-    print(COLLEGE_COURSE_CATEGORIES.index(college_course_category_index) + str(masked_college_course_category_user_vector))
+    print(COLLEGE_COURSE_CATEGORIES[college_course_category_user_vector_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX] + str(masked_college_course_category_user_vector))
 
     return masked_college_course_category_user_vector
 
-def mask_riasec_interests_in_user_vector_for_college_course_category(college_course_category_index, masked_college_course_category_user_vector):
-    masked_riasec_interests_for_college_course_category = get_riasec_interests_for_college_course_category(college_course_category_index)
+def mask_riasec_interests_in_user_vector_for_college_course_category(college_course_category_user_vector_index, masked_college_course_category_user_vector):
+    masked_riasec_interests_for_college_course_category = get_riasec_interests_for_college_course_category(college_course_category_user_vector_index)
 
     for i in range(0, POINTS_VECTOR_INDEX):
         if RIASEC_INTERESTS[i] not in masked_riasec_interests_for_college_course_category:
             masked_college_course_category_user_vector[i] = 0.0
 
-def mask_college_course_categories_in_user_vector(college_course_category_index, masked_college_course_category_user_vector):
+def mask_college_course_categories_in_user_vector(college_course_category_user_vector_index, masked_college_course_category_user_vector):
     # education is a special case
     # we want to recommend education courses that match their categories
     # e.g. interest in math + education = maths teacher
     # e.g. interest in business + education = business teacher
-    if college_course_category_index == COLLEGE_COURSE_CATEGORIES.index("education"):
+    if (college_course_category_user_vector_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX) == COLLEGE_COURSE_CATEGORIES.index("education"):
         return
 
     for i in range(STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX, len(masked_college_course_category_user_vector)):
-        if i != college_course_category_index:
+        if i != college_course_category_user_vector_index:
             masked_college_course_category_user_vector[i] = 0.0
 
-def get_riasec_interests_for_college_course_category(college_course_category_index):
-    college_course_category = COLLEGE_COURSE_CATEGORIES[college_course_category_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX]
+def get_riasec_interests_for_college_course_category(college_course_category_user_vector_index):
+    college_course_category = COLLEGE_COURSE_CATEGORIES[college_course_category_user_vector_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX]
 
     match college_course_category:
         case "agriculture":
@@ -262,7 +265,7 @@ def get_riasec_interests_for_college_course_category(college_course_category_ind
         case "welfare":
             return ["social"]
         case _:
-            print("Error! Unrecognised college_course_category!" + college_course_category + college_course_category_index)
+            print("Error! Unrecognised college_course_category!" + college_course_category + college_course_category_user_vector_index)
             return []
 
 def add_unique_college_course_recommendations(masked_college_course_category_course_recommendations_to_add, previously_recommended_college_courses):
