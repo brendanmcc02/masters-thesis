@@ -5,18 +5,13 @@ user_college_course_preferences = { "nfq_levels": [8],
                                                 "Trinity College Dublin",
                                                 "University College Dublin",
                                                 "Royal College of Surgeons in Ireland",
-                                                "Dublin City University",
-                                                "Maynooth University",
-                                                "TU Dublin - Grangegorman",
-                                                "TU Dublin - Bolton Street",
-                                                "TU Dublin - Aungier Street",
-                                                "TU Dublin - Tallaght",
-                                                "TU Dublin - Blanchardstown"
+                                                "University College Cork",
+                                                "University of Galway"
                                         ],
-                                    "expected_points": 625}
+                                    "expected_points": 601}
 
 user_interest_questions_results_df = pd.read_csv("user_interest_questions_results.csv")
-user_interest_questions_results_vector = get_user_interest_questions_results_df("brendan", user_interest_questions_results_df)
+user_interest_questions_results_vector = get_user_interest_questions_results_df("lalith", user_interest_questions_results_df)
 
 # baseline_college_course_recommendations = get_baseline_college_course_recommendations(user_college_course_preferences)
 
