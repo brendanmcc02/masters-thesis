@@ -17,9 +17,9 @@ STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX = POINTS_VECTOR_INDEX + 1
 MIN_COURSE_POINTS = 0
 MAX_COURSE_POINTS = 625
 
-NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND = 5
-NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY = 4
-NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS = NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND * NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY
+MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND = 5
+MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY = 4
+NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS = MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND * MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY
 
 FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP = {4: 1.0,
                                       3: 0.25, 
@@ -78,7 +78,7 @@ def preprocess_college_course_titles():
             "points": int(course['points']) if course['points'] else None,
             "isAdditionalPortfolioTestInterviewRequired": course['isAdditionalPortfolioTestInterviewRequired'],
             "overview": course['overview'],
-            "interests": course['interests'],
+            "riasec_interests": course['interests'],
             "categories": course['categories'],
         })
 
@@ -152,7 +152,7 @@ def get_top_college_course_category_indexes(user_vector):
             reverse=True
         )
 
-    return top_college_course_category_indexes[0:NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND]
+    return top_college_course_category_indexes[0:MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND]
 
 def get_masked_college_course_category_course_recommendations(user_vector, college_course_category_index, filtered_college_courses):
     masked_college_course_category_user_vector = get_masked_college_course_category_user_vector(user_vector, college_course_category_index)
@@ -244,7 +244,7 @@ def get_masked_riasec_interests_for_college_course_category(college_course_categ
 def add_new_college_course_recommendations(masked_college_course_category_course_recommendations_to_add, previously_recommended_college_courses):
     number_of_new_courses_added = 0
 
-    while number_of_new_courses_added < NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY:
+    while number_of_new_courses_added < MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY:
         if is_new_college_course_recommendation(masked_college_course_category_course_recommendations_to_add[number_of_new_courses_added], previously_recommended_college_courses):
             previously_recommended_college_courses.append(masked_college_course_category_course_recommendations_to_add[number_of_new_courses_added].copy())
             number_of_new_courses_added += 1
@@ -355,7 +355,7 @@ def is_course_filtered(course, user_college_course_preferences):
 
 def print_college_course_recommendations(college_course_recommendations):
     for rec in college_course_recommendations:
-        print(rec["title"] + "\n" + rec["preprocessed_title"] + "\n" + rec["college"] + "\n" + str(rec["interests"]) + "\n" + str(rec["categories"]) + "\nPoints: " + str(rec["points"]) + "\nSimilarity: " + (str(round(rec["similarity_score"]*100.0, 1)) if "similarity_score" in rec else "-1") + "%\n")
+        print(rec["title"] + "\n" + rec["preprocessed_title"] + "\n" + rec["college"] + "\n" + str(rec["riasec_interests"]) + "\n" + str(rec["categories"]) + "\nPoints: " + str(rec["points"]) + "\nSimilarity: " + (str(round(rec["similarity_score"]*100.0, 1)) if "similarity_score" in rec else "-1") + "%\n")
         # print(rec['vectorized_representation'])
 
 def get_baseline_college_course_recommendations(user_college_course_preferences):
