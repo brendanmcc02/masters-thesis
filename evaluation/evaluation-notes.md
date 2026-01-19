@@ -60,16 +60,11 @@
     * there are a few edge cases, e.g. if the person only picked one college or location, don't consider that in the metric
 
 ## novelty
-
-### objective measurements
 * the formula is simply: `recs not in user-generated-ground-truth/number-of-recommended-courses))`
     * `number-of-recommended-courses` is **10** FYI
 * note: this doesn't take into account the **relevance/usefulness** of the recommendation!
     * for example, you could have 100% novelty and rec dogshit, irrelevant courses
-    * that's where [serendipity](#serendipity) comes in
-
-### subjective measurements
-* ask the user to rate 1-5 (likert) on a question: `"The recommended courses were not original or novel."`
+    * that's where [serendipity](#serendipity) comes inasurement would be better
 
 ## serendipity
 * novelty just measures the originality of the rec, not it's relevance/usefulness
