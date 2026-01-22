@@ -1397,7 +1397,7 @@
     {
         "id": "DN250",
         "title": "Animal and Crop Production - Agricultural Science",
-        "preprocessed_title": "veterinarian crop product agricultur",
+        "preprocessed_title": "anim crop product agricultur",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -1417,7 +1417,7 @@
     {
         "id": "MT781",
         "title": "Animal Bioscience",
-        "preprocessed_title": "veterinarian bioscienc",
+        "preprocessed_title": "anim bioscienc",
         "college": "MTU Kerry Campus",
         "region": "Munster",
         "duration": "3 Years",
@@ -1436,7 +1436,7 @@
     {
         "id": "DN250",
         "title": "Animal Science - Agricultural Science",
-        "preprocessed_title": "veterinarian agricultur",
+        "preprocessed_title": "anim agricultur",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -1456,7 +1456,7 @@
     {
         "id": "DN250",
         "title": "Animal Science - Equine - Agricultural Science",
-        "preprocessed_title": "veterinarian equin agricultur",
+        "preprocessed_title": "anim equin agricultur",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -3757,7 +3757,7 @@
     {
         "id": "DC232",
         "title": "BCL (Law and Society)",
-        "preprocessed_title": "bcl law societi",
+        "preprocessed_title": "civil law societi",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "3 Years",
@@ -4026,7 +4026,7 @@
     {
         "id": "SE727",
         "title": "Biomedical Electronics",
-        "preprocessed_title": "biomed electr engin",
+        "preprocessed_title": "biomed electron",
         "college": "SETU Carlow Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -4046,7 +4046,7 @@
     {
         "id": "SE709",
         "title": "Biomedical Electronics",
-        "preprocessed_title": "biomed electr engin",
+        "preprocessed_title": "biomed electron",
         "college": "SETU Carlow Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -11046,8 +11046,8 @@
     },
     {
         "id": "CK113",
-        "title": "Criminology (4 yrs for International Pathway)",
-        "preprocessed_title": "criminolog intern",
+        "title": "Criminology",
+        "preprocessed_title": "criminolog",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 - 4 years",
@@ -11305,7 +11305,7 @@
     {
         "id": "US931",
         "title": "Culinary Entrepreneurship",
-        "preprocessed_title": "culinari art entrepreneurship",
+        "preprocessed_title": "culinari entrepreneurship",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
@@ -11326,7 +11326,7 @@
     {
         "id": "MT655",
         "title": "Culinary Studies",
-        "preprocessed_title": "culinari art",
+        "preprocessed_title": "culinari",
         "college": "MTU Cork Campus",
         "region": "Munster",
         "duration": "2 Years",
@@ -14580,7 +14580,7 @@
     {
         "id": "TU714",
         "title": "Electronics and Communications Engineering",
-        "preprocessed_title": "electr engin communic",
+        "preprocessed_title": "electron communic engin",
         "college": "TU Dublin - Grangegorman",
         "region": "Dublin",
         "duration": "3 Years",
@@ -15289,8 +15289,8 @@
     },
     {
         "id": "CK109",
-        "title": "English (4 yrs for International Pathway)",
-        "preprocessed_title": "english intern",
+        "title": "English",
+        "preprocessed_title": "english",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 - 4 Years",
@@ -16398,8 +16398,8 @@
     },
     {
         "id": "CK105",
-        "title": "Film and Screen Media (4 yrs for International Pathway)",
-        "preprocessed_title": "film screen media intern",
+        "title": "Film and Screen Media",
+        "preprocessed_title": "film screen media",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 - 4 Years",
@@ -19190,7 +19190,7 @@
     {
         "id": "AU172",
         "title": "Health Science with Dietetics Studies",
-        "preprocessed_title": "health nutrit",
+        "preprocessed_title": "health dietet",
         "college": "ATU Donegal",
         "region": "Ulster",
         "duration": "2 Years",
@@ -20133,7 +20133,7 @@
     {
         "id": "TU870",
         "title": "Human Nutrition and Dietetics",
-        "preprocessed_title": "human nutrit",
+        "preprocessed_title": "human nutrit dietet",
         "college": "TU Dublin - Grangegorman",
         "region": "Dublin",
         "duration": "4 Years",
@@ -20153,7 +20153,7 @@
     {
         "id": "TU870",
         "title": "Human Nutrition and Dietetics",
-        "preprocessed_title": "human nutrit",
+        "preprocessed_title": "human nutrit dietet",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -22087,7 +22087,7 @@
     {
         "id": "DN600 BCL",
         "title": "Law (BCL)",
-        "preprocessed_title": "law bcl",
+        "preprocessed_title": "law civil",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -22482,7 +22482,7 @@
     {
         "id": "DN600",
         "title": "Law Dual Degree - BCL/Maitrise",
-        "preprocessed_title": "law bcl maitris",
+        "preprocessed_title": "law civil",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -23909,7 +23909,7 @@
     {
         "id": "DC195",
         "title": "Mechanical & Manufacturing Engineering",
-        "preprocessed_title": "mechan engin manufactur",
+        "preprocessed_title": "mechan manufactur engin",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -23928,7 +23928,7 @@
     {
         "id": "SE712",
         "title": "Mechanical & Manufacturing Engineering",
-        "preprocessed_title": "mechan engin manufactur",
+        "preprocessed_title": "mechan manufactur engin",
         "college": "SETU Waterford Campus",
         "region": "Munster",
         "duration": "4 Years",
@@ -23947,7 +23947,7 @@
     {
         "id": "MT834",
         "title": "Mechanical and Manufacturing Engineering",
-        "preprocessed_title": "mechan engin manufactur",
+        "preprocessed_title": "mechan manufactur engin",
         "college": "MTU Kerry Campus",
         "region": "Munster",
         "duration": "4 Years",
@@ -23966,7 +23966,7 @@
     {
         "id": "US913",
         "title": "Mechanical and Polymer Engineering",
-        "preprocessed_title": "mechan engin polym",
+        "preprocessed_title": "mechan polym engin",
         "college": "TUS Midlands",
         "region": "Munster",
         "duration": "4 Years",
@@ -23986,7 +23986,7 @@
     {
         "id": "DC194",
         "title": "Mechanical and Sustainability Engineering",
-        "preprocessed_title": "mechan engin sustain",
+        "preprocessed_title": "mechan sustain engin",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -24583,7 +24583,7 @@
     {
         "id": "CK707",
         "title": "Medical and Health Sciences",
-        "preprocessed_title": "medicin health",
+        "preprocessed_title": "medic health",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
@@ -24602,7 +24602,7 @@
     {
         "id": "TU867",
         "title": "Medical Science",
-        "preprocessed_title": "medicin",
+        "preprocessed_title": "medic",
         "college": "TU Dublin - Grangegorman",
         "region": "Dublin",
         "duration": "4 Years",
@@ -24621,7 +24621,7 @@
     {
         "id": "AU671",
         "title": "Medical Science",
-        "preprocessed_title": "medicin",
+        "preprocessed_title": "medic",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "4 Years",
@@ -24640,7 +24640,7 @@
     {
         "id": "US735",
         "title": "Medical Technology",
-        "preprocessed_title": "medicin technolog",
+        "preprocessed_title": "medic technolog",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "3 years",
@@ -24660,7 +24660,7 @@
     {
         "id": "US869",
         "title": "Medical Technology",
-        "preprocessed_title": "medicin technolog",
+        "preprocessed_title": "medic technolog",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
@@ -25683,8 +25683,8 @@
     },
     {
         "id": "CK104",
-        "title": "Music (BMus or International Pathway)",
-        "preprocessed_title": "music bmus intern",
+        "title": "Music",
+        "preprocessed_title": "music",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 - 4 Years",
@@ -27980,7 +27980,7 @@
     {
         "id": "TU879",
         "title": "Physics with Medical Physics and Bioengineering",
-        "preprocessed_title": "physic medicin bioengin",
+        "preprocessed_title": "physic medic bioengin",
         "college": "TU Dublin - Grangegorman",
         "region": "Dublin",
         "duration": "4 Years",
@@ -30401,7 +30401,7 @@
     {
         "id": "LM092",
         "title": "Science with concurrent Teacher Education (Biology with Phy or Chem or Ag Sc)",
-        "preprocessed_title": "educ biolog phi chemic agricultur sc",
+        "preprocessed_title": "educ biolog physic chemic agricultur sc",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -30422,7 +30422,7 @@
     {
         "id": "LM096",
         "title": "Science with concurrent Teacher Education (Physical Sciences with Chem & Phy)",
-        "preprocessed_title": "educ physic chemic phi",
+        "preprocessed_title": "educ physic chemic",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -33347,7 +33347,7 @@
     {
         "id": "MT881",
         "title": "Veterinary Bioscience",
-        "preprocessed_title": "veterinarian bioscienc",
+        "preprocessed_title": "veterinari bioscienc",
         "college": "MTU Kerry Campus",
         "region": "Munster",
         "duration": "4 Years",
@@ -33367,7 +33367,7 @@
     {
         "id": "DN300",
         "title": "Veterinary Medicine",
-        "preprocessed_title": "veterinarian",
+        "preprocessed_title": "veterinari medicin",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "5 Years",
@@ -33388,7 +33388,7 @@
     {
         "id": "SE526",
         "title": "Veterinary Medicine",
-        "preprocessed_title": "veterinarian",
+        "preprocessed_title": "veterinari medicin",
         "college": "SETU Waterford Campus",
         "region": "Munster",
         "duration": "5 Years",
@@ -33409,7 +33409,7 @@
     {
         "id": "AU375",
         "title": "Veterinary Medicine and Surgery",
-        "preprocessed_title": "veterinarian surgeri",
+        "preprocessed_title": "veterinari medicin surgeri",
         "college": "ATU Donegal",
         "region": "Ulster",
         "duration": "5 Years",
@@ -33430,7 +33430,7 @@
     {
         "id": "US738",
         "title": "Veterinary Nursing",
-        "preprocessed_title": "veterinarian nurs",
+        "preprocessed_title": "veterinari nurs",
         "college": "TUS Midlands",
         "region": "Munster",
         "duration": "3 Years",
@@ -33451,7 +33451,7 @@
     {
         "id": "DK784",
         "title": "Veterinary Nursing",
-        "preprocessed_title": "veterinarian nurs",
+        "preprocessed_title": "veterinari nurs",
         "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -33472,7 +33472,7 @@
     {
         "id": "DN310",
         "title": "Veterinary Nursing",
-        "preprocessed_title": "veterinarian nurs",
+        "preprocessed_title": "veterinari nurs",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -33493,7 +33493,7 @@
     {
         "id": "MT784",
         "title": "Veterinary Nursing",
-        "preprocessed_title": "veterinarian nurs",
+        "preprocessed_title": "veterinari nurs",
         "college": "MTU Kerry Campus",
         "region": "Munster",
         "duration": "3 Years",
@@ -33514,7 +33514,7 @@
     {
         "id": "AU271",
         "title": "Veterinary Nursing",
-        "preprocessed_title": "veterinarian nurs",
+        "preprocessed_title": "veterinari nurs",
         "college": "ATU Donegal",
         "region": "Ulster",
         "duration": "3 Years",
