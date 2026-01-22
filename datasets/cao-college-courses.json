@@ -8936,7 +8936,7 @@
     },
     {
         "id": "DN700 CSS",
-        "title": "Computational Social Science - Social Sciences",
+        "title": "Computational Social Science",
         "preprocessed_title": "comput social",
         "college": "University College Dublin",
         "region": "Dublin",
@@ -13228,8 +13228,8 @@
     },
     {
         "id": "DN700 EMS",
-        "title": "Economics, Mathematics & Statistics - Social Sciences",
-        "preprocessed_title": "econom mathemat statist social",
+        "title": "Economics, Mathematics & Statistics",
+        "preprocessed_title": "econom mathemat statist",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -27357,8 +27357,8 @@
     },
     {
         "id": "DN700 PPE",
-        "title": "Philosophy, Politics and Economics - Social Sciences",
-        "preprocessed_title": "philosophi polit econom social",
+        "title": "Philosophy, Politics and Economics",
+        "preprocessed_title": "philosophi polit econom",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",

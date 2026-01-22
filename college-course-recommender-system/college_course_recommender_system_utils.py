@@ -2,7 +2,17 @@ import numpy as np
 import json
 import pandas as pd
 from college_course_title_nlp_utils import *
-# from google import genai
+from google import genai
+import os
+from dotenv import load_dotenv
+import re
+
+load_dotenv()
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_CLIENT = genai.Client(api_key=GEMINI_API_KEY)
+
+IS_DEBUG=True
 
 CAO_COLLEGE_COURSES_FILE_LOCATION = '../datasets/cao-college-courses.json'
 USER_INTEREST_QUESTIONS_DATASET_FILEPATH = "user_interest_questions.csv"
@@ -101,6 +111,7 @@ def get_college_course_recommendations(user_interest_questions_results_vector, u
 
     for college_course_category_user_vector_index in top_college_course_category_user_vector_indexes:
         if len(college_course_recommendations) == NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS:
+            add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector)
             return college_course_recommendations
         
         filtered_college_course_category_courses = get_filtered_college_course_category_courses(filtered_college_courses, college_course_category_user_vector_index)
@@ -108,7 +119,7 @@ def get_college_course_recommendations(user_interest_questions_results_vector, u
 
         add_unique_college_course_recommendations(masked_college_course_category_course_recommendations, college_course_recommendations)
 
-    college_course_recommendations = get_justifications_for_college_course_recommendations(college_course_recommendations, user_vector)
+    add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector)
 
     return college_course_recommendations
 
@@ -131,7 +142,8 @@ def get_user_college_course_categories_vector(user_riasec_questions_vector):
     for i in range(len(user_categories_vector)):
         user_categories_vector[i] = custom_normalized_sigmoid_function(user_categories_vector[i], COLLEGE_COURSE_CATEGORY_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT)
 
-    print(get_stringified_college_course_categories_vector(user_categories_vector))
+    if IS_DEBUG:
+        print(get_stringified_college_course_categories_vector(user_categories_vector))
 
     return user_categories_vector
 
@@ -185,7 +197,8 @@ def get_masked_college_course_category_user_vector(user_vector, college_course_c
 
     mask_college_course_categories_in_user_vector(college_course_category_user_vector_index, masked_college_course_category_user_vector, top_college_course_category_user_vector_indexes)
 
-    print(COLLEGE_COURSE_CATEGORIES[college_course_category_user_vector_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX] + str(masked_college_course_category_user_vector))
+    if IS_DEBUG:
+        print(COLLEGE_COURSE_CATEGORIES[college_course_category_user_vector_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX] + str(masked_college_course_category_user_vector))
 
     return masked_college_course_category_user_vector
 
@@ -278,7 +291,9 @@ def add_unique_college_course_recommendations(masked_college_course_category_cou
 def is_unique_college_course_recommendation(college_course_to_check, previously_recommended_college_courses):
     for previously_recommended_college_course in previously_recommended_college_courses:
         if is_college_course_duplicate(previously_recommended_college_course, college_course_to_check):
-            print("Not recommending " + college_course_to_check['title'] + " " + college_course_to_check['id'] + " because " + previously_recommended_college_course['title'] + " " + previously_recommended_college_course['id'] + " is already recommended.\n")
+            if IS_DEBUG:
+                print("Not recommending " + college_course_to_check['title'] + " " + college_course_to_check['id'] + " because " + previously_recommended_college_course['title'] + " " + previously_recommended_college_course['id'] + " is already recommended.\n")
+
             return False
         
     return True
@@ -289,7 +304,7 @@ def is_college_course_duplicate(previously_recommended_college_course, college_c
 def is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     return previously_recommended_college_course['preprocessed_title'] == college_course_to_check['preprocessed_title']
 
-SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art", "public", "educ", "sport", "architectur", "intern", "medicin"]
+SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art", "public", "educ", "sport", "architectur", "intern", "medicin", "comput"]
 def is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     tokenized_college_course_title_words = previously_recommended_college_course['preprocessed_title'].split(' ')
 
@@ -319,7 +334,8 @@ def get_user_riasec_vector(user_interest_questions_results_vector):
     for i in range(len(user_riasec_vector)):
         user_riasec_vector[i] = custom_normalized_sigmoid_function(user_riasec_vector[i], RIASEC_INTEREST_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT)
 
-    print(get_stringified_riasec_vector(user_riasec_vector))
+    if IS_DEBUG:
+        print(get_stringified_riasec_vector(user_riasec_vector))
 
     return user_riasec_vector
 
@@ -378,21 +394,33 @@ def is_course_filtered(course, user_college_course_preferences):
             course["college"] in user_college_course_preferences["colleges"] and 
             (course["points"] <= user_college_course_preferences["expected_points"] or course['isAdditionalPortfolioTestInterviewRequired']))
 
-def print_college_course_recommendations(college_course_recommendations):
-    for rec in college_course_recommendations:
-        # print(rec["recommendation_justification"])
-        print(rec["title"])
-        print(rec["preprocessed_title"])
-        print(rec["college"])
-        print(str(rec["riasec_interests"]))
-        print(str(rec["categories"]))
-        print("Points: " + str(rec["points"]))
-        print("Similarity: " + (str(round(rec["similarity_score"]*100.0, 1)) if "similarity_score" in rec else "-1") + "%")
-        # print(rec["overview"])
-        print(rec['vectorized_representation'])
-        print("") # newline
+def get_stringified_college_course_recommendations(college_course_recommendations):
+    stringified_college_course_recommendations = ""
 
-def get_baseline_college_course_recommendations(user_college_course_preferences):
+    for i in range(len(college_course_recommendations)):
+        stringified_college_course_recommendations += str(i+1) + ".\n"
+        stringified_college_course_recommendations += "Title: " + college_course_recommendations[i]["title"] + "\n"
+
+        if IS_DEBUG:
+            stringified_college_course_recommendations += "Preprocessed title: " + college_course_recommendations[i]["preprocessed_title"] + "\n"
+
+        stringified_college_course_recommendations += "College: " + college_course_recommendations[i]["college"] + "\n"
+        stringified_college_course_recommendations += "RIASEC Interests: " + get_stringified_interests_or_categories(college_course_recommendations[i]["riasec_interests"]) + "\n"
+        stringified_college_course_recommendations += "Categories: " + get_stringified_interests_or_categories(college_course_recommendations[i]["categories"]) + "\n"
+        stringified_college_course_recommendations += "Points: " + str(college_course_recommendations[i]["points"]) + "\n"
+        stringified_college_course_recommendations += "Similarity: " + (str(round(college_course_recommendations[i]["similarity_score"]*100.0, 1)) if "similarity_score" in college_course_recommendations[i] else "-1") + "%" + "\n"
+        stringified_college_course_recommendations += "Overview: " + college_course_recommendations[i]["overview"] + "\n"
+        if IS_DEBUG:
+            stringified_college_course_recommendations += "Vectorized Representation: " + str(college_course_recommendations[i]['vectorized_representation']) + "\n"
+        
+        if "recommendation_justification" in college_course_recommendations[i]:
+            stringified_college_course_recommendations += "Why we recommended this: " + college_course_recommendations[i]['recommendation_justification'] + "\n"
+        
+        stringified_college_course_recommendations += "\n\n"
+
+    return stringified_college_course_recommendations
+
+def get_baseline_college_course_recommendations(user_interest_questions_results_vector, user_college_course_preferences):
     filtered_college_courses = get_filtered_college_courses(user_college_course_preferences)
 
     baseline_college_course_recommendations = sorted(
@@ -406,6 +434,10 @@ def get_baseline_college_course_recommendations(user_college_course_preferences)
     for _ in range(MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND):
         add_unique_college_course_recommendations(baseline_college_course_recommendations, unique_baseline_college_course_recommendations)
 
+    user_vector = get_user_vector(user_interest_questions_results_vector, user_college_course_preferences)
+
+    add_justifications_for_college_course_recommendations(unique_baseline_college_course_recommendations, user_vector)
+
     return unique_baseline_college_course_recommendations
 
 def get_user_interest_questions_results_df(user_name, user_interest_questions_results_df):
@@ -415,16 +447,63 @@ def get_user_interest_questions_results_df(user_name, user_interest_questions_re
 
     return user_row.drop(columns=['name']).values[0]
 
-def get_justifications_for_college_course_recommendations(college_course_recommendations, user_vector):
-    # gemini_client = genai.Client()
-    # prompt = ("Act as an expert in Guidance Counseling for Irish College Courses. I am creating a Recommender System for Irish College Courses. The user of the recommender system has just completed a quiz to gather their RIASEC interests, and their interests towards different college course categories (e.g. healthcare). Each value is normalised between 0.0 and 1.0, and here are the results of the quiz: " )
+def add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector):
+    prompt = get_gemini_prompt(college_course_recommendations, user_vector)
 
-    # response = gemini_client.models.generate_content(
-    #     model="gemini-3-flash-preview",
-    #     contents=prompt
-    # )
-    
-    # response.text
+    response = GEMINI_CLIENT.models.generate_content(
+        model="gemini-3-flash-preview",
+        contents=prompt
+    )
 
-    return college_course_recommendations
+    parsed_college_course_justifications = get_parsed_college_course_justifications(response.text)
 
+    if len(parsed_college_course_justifications) != len(college_course_recommendations):
+        print("parsing error!")
+        print("len parse" + str(len(parsed_college_course_justifications)))
+        print("len recs" + str(len(college_course_recommendations)))
+
+    for i in range(len(parsed_college_course_justifications)):
+        college_course_recommendations[i]["recommendation_justification"] = parsed_college_course_justifications[i]
+
+def get_gemini_prompt(college_course_recommendations, user_vector):
+    gemini_prompt = "Act as an expert in Guidance Counseling for Irish College Courses. I am creating a Recommender System for Irish College Courses. You will have 2 pieces of information about the user:\n1. Their RIASEC makeup - each value is normalised between 0.0 and 1.0. \n2. Their college course category interest scores - each value is also normalised between 0.0 and 1.0. These scores represent their interests towards different areas of study.\n\nThe user of this Recommender System has the the following information:\n\n"
+
+    gemini_prompt += "User RIASEC Interest Scores:\n\n" + get_stringified_riasec_vector(user_vector[0:len(RIASEC_INTERESTS)])
+
+    gemini_prompt += "User College Course Category Interest Scores:\n\n" + get_stringified_college_course_categories_vector(user_vector[STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX:])
+
+    gemini_prompt += "And here are the college courses that were recommended to the user:\n\n" + get_stringified_college_course_recommendations(college_course_recommendations)
+
+    gemini_prompt += "\nI would like you to generate a justification for each recommendation. The justification for each recommendation should be no longer than 30 words. Please do not directly cite any raw score values in your written justification, as the user cannot see this. Please use the name of the course in your justification, and use the title of the course instead of saying \"this course\", etc.. I would like your output to strictly follow the format provided below - do not add any additional text, as I will parse your response:\nSample Output:\n```\n1. With a maximum Investigative score, your profile aligns strongly with Mathematics, which demands the high-level logical reasoning, analytical depth, and complex problem-solving skills you naturally possess.\n2. Computer Science suits your Investigative nature and technical interests, offering a perfect outlet for your strong analytical capabilities through software engineering, programming, and developing innovative technological solutions.\n3. Dental Science uniquely balances your highest traits; it requires the intellectual rigor of an investigator, the social empathy for patient care, and the realistic coordination for clinical procedures.\n4. etc.\n```"
+
+    return gemini_prompt
+
+def get_parsed_college_course_justifications(response_text):
+    parsed_college_course_justifications = re.split(r'[1-2]?[0-9]{1}\. ', response_text)
+
+    parsed_college_course_justifications.pop(0)
+
+    for i in range(len(parsed_college_course_justifications)):
+        parsed_college_course_justifications[i] = parsed_college_course_justifications[i].strip()
+
+    return parsed_college_course_justifications
+
+def get_stringified_interests_or_categories(interests_or_categories):
+    stringified_interests_or_categories = ""
+
+    for i in range(len(interests_or_categories)):
+        if i > 0:
+            stringified_interests_or_categories += ", "
+
+        interest_or_category_to_add = interests_or_categories[i]
+
+        split_interest_or_category_to_add = interest_or_category_to_add.split()
+
+        for j in range(len(split_interest_or_category_to_add)):
+            split_interest_or_category_to_add[j] = split_interest_or_category_to_add[j].capitalize()
+
+        interest_or_category_to_add = ' '.join(split_interest_or_category_to_add)
+
+        stringified_interests_or_categories += interest_or_category_to_add
+
+    return stringified_interests_or_categories

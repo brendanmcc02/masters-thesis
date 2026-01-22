@@ -1,6 +1,6 @@
 # TODO
 
-- [ ] LLM to justify the recs?
+- [ ] similarity score for baseline recs
 - [ ] figure out quiz for testing
 - [ ] visual interface
 - [ ] evaluation metrics
