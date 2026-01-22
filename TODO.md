@@ -1,10 +1,13 @@
 # TODO
 
-- [ ] seems to be a bug with med not getting recommended?
-    * or idk ayshas recs are weird, why are all healthcare courses the same sim score despite different points?
-- [ ] figure out question!
-    * ask donnchadh
-    * ask adam and matthew
+- [ ] **ask owen**
+    * can i recommend 30 courses?
+- [ ] rephrase activities in light of new question (not studying, but "work" activities")
+    * donnchadh hasn't repsonded question
+- [ ] figure out quiz
+- [ ] visual interface
+- [ ] LLM to justify the recs?
+    * or maybe not, just put in limitations
 - [ ] evaluation
 
 
@@ -24,7 +27,7 @@ On a scale of 1 to 5 where 1 = Strongly Disagree and 5 = Strongly Agree, how muc
 
 **I would like to do this activity for a living.**
 
-*For example, if you love an activity as a hobby (e.g. Music), but do not want to study and work in that field, you should give the activity a low score (e.g. 1 or 2).*
+*For example, if you love an activity as a hobby (e.g. Music), but do not want to work in that field, you should give the activity a low score (e.g. 1 or 2).*
 ```
 
 # Google Form

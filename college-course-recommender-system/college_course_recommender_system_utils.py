@@ -1,11 +1,9 @@
 import numpy as np
 import json
 import pandas as pd
-import sys
-sys.path.append('../datasets/open-psychometrics/filter_data')
-from filter_open_psychometrics_data_utils import preprocess_text
+from college_course_title_nlp_utils import *
 
-CAO_COLLEGE_COURSES_FILE_LOCATION = '../datasets/cao-college-courses/cao-college-courses.json'
+CAO_COLLEGE_COURSES_FILE_LOCATION = '../datasets/cao-college-courses.json'
 USER_INTEREST_QUESTIONS_DATASET_FILEPATH = "user_interest_questions.csv"
 
 RIASEC_INTERESTS = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']

@@ -1,6 +1,6 @@
 import json
 
-file = open("../datasets/cao-college-courses/cao-college-courses.json")
+file = open("../datasets/cao-college-courses.json")
 courses = json.load(file)
 
 # print("num courses: " + str(len(courses)) + "\n")

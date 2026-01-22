@@ -936,7 +936,7 @@
     {
         "id": "SE732",
         "title": "Agricultural Systems Engineering",
-        "preprocessed_title": "agricultur system engin",
+        "preprocessed_title": "agricultur engin",
         "college": "SETU Carlow Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -956,7 +956,7 @@
     {
         "id": "SE733",
         "title": "Agricultural Systems Engineering",
-        "preprocessed_title": "agricultur system engin",
+        "preprocessed_title": "agricultur engin",
         "college": "SETU Carlow Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -976,7 +976,7 @@
     {
         "id": "DN250",
         "title": "Agricultural Systems Technology - Agricultural Science",
-        "preprocessed_title": "agricultur system technolog",
+        "preprocessed_title": "agricultur technolog",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -1137,7 +1137,7 @@
     {
         "id": "SE729",
         "title": "Aircraft Systems",
-        "preprocessed_title": "aircraft system",
+        "preprocessed_title": "aircraft",
         "college": "SETU Carlow Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -5688,7 +5688,7 @@
     {
         "id": "DB524",
         "title": "Business (Information Systems)",
-        "preprocessed_title": "busi inform system",
+        "preprocessed_title": "busi inform",
         "college": "Dublin Business School",
         "region": "Dublin",
         "duration": "3 Years",
@@ -6301,7 +6301,7 @@
     {
         "id": "TU913",
         "title": "Business Information Systems",
-        "preprocessed_title": "busi inform system",
+        "preprocessed_title": "busi inform",
         "college": "TU Dublin - Blanchardstown",
         "region": "Dublin",
         "duration": "4 Years",
@@ -6321,7 +6321,7 @@
     {
         "id": "CK203",
         "title": "Business Information Systems",
-        "preprocessed_title": "busi inform system",
+        "preprocessed_title": "busi inform",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
@@ -6342,7 +6342,7 @@
     {
         "id": "MT944",
         "title": "Business Information Systems",
-        "preprocessed_title": "busi inform system",
+        "preprocessed_title": "busi inform",
         "college": "MTU Cork Campus",
         "region": "Munster",
         "duration": "4 Years",
@@ -6363,7 +6363,7 @@
     {
         "id": "GY206",
         "title": "Business Information Systems",
-        "preprocessed_title": "busi inform system",
+        "preprocessed_title": "busi inform",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
@@ -6384,7 +6384,7 @@
     {
         "id": "SE413",
         "title": "Business Information Systems",
-        "preprocessed_title": "busi inform system",
+        "preprocessed_title": "busi inform",
         "college": "SETU Waterford Campus",
         "region": "Munster",
         "duration": "4 Years",
@@ -6405,7 +6405,7 @@
     {
         "id": "AU502",
         "title": "Business Information Systems",
-        "preprocessed_title": "busi inform system",
+        "preprocessed_title": "busi inform",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "3 Years",
@@ -6426,7 +6426,7 @@
     {
         "id": "AU602",
         "title": "Business Information Systems",
-        "preprocessed_title": "busi inform system",
+        "preprocessed_title": "busi inform",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "4 Years",
@@ -9033,7 +9033,7 @@
     {
         "id": "TU807",
         "title": "Computer Engineering in Mobile Systems",
-        "preprocessed_title": "comput engin mobil system",
+        "preprocessed_title": "comput engin mobil",
         "college": "TU Dublin - Blanchardstown",
         "region": "Dublin",
         "duration": "4 Years",
@@ -9502,7 +9502,7 @@
     {
         "id": "MT802",
         "title": "Computer Systems",
-        "preprocessed_title": "comput system",
+        "preprocessed_title": "comput",
         "college": "MTU Cork Campus",
         "region": "Munster",
         "duration": "4 Years",
@@ -9522,7 +9522,7 @@
     {
         "id": "MT706",
         "title": "Computer Systems and Networking",
-        "preprocessed_title": "comput system network",
+        "preprocessed_title": "comput network",
         "college": "MTU Kerry Campus",
         "region": "Munster",
         "duration": "3 Years",
@@ -10155,7 +10155,7 @@
     {
         "id": "DK824",
         "title": "Computing Systems and Operations",
-        "preprocessed_title": "comput system oper",
+        "preprocessed_title": "comput oper",
         "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -10173,7 +10173,7 @@
     {
         "id": "DK723",
         "title": "Computing Systems and Operations",
-        "preprocessed_title": "comput system oper",
+        "preprocessed_title": "comput oper",
         "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -14520,7 +14520,7 @@
     {
         "id": "US751",
         "title": "Electronic Engineering with Computer Systems",
-        "preprocessed_title": "electron engin comput system",
+        "preprocessed_title": "electron engin comput",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "3 Years",
@@ -14540,7 +14540,7 @@
     {
         "id": "US903",
         "title": "Electronic Engineering with Computer Systems",
-        "preprocessed_title": "electron engin comput system",
+        "preprocessed_title": "electron engin comput",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
@@ -14560,7 +14560,7 @@
     {
         "id": "SE708",
         "title": "Electronic Systems",
-        "preprocessed_title": "electron system",
+        "preprocessed_title": "electron",
         "college": "SETU Carlow Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -14620,7 +14620,7 @@
     {
         "id": "GY413",
         "title": "Energy Systems Engineering",
-        "preprocessed_title": "energi system engin",
+        "preprocessed_title": "energi engin",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
@@ -15059,7 +15059,7 @@
     {
         "id": "DK740",
         "title": "Engineering - Electrical and Electronic Systems",
-        "preprocessed_title": "engin electr electron system",
+        "preprocessed_title": "engin electr electron",
         "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -20330,7 +20330,7 @@
     {
         "id": "US902",
         "title": "Industrial Automation & Robotic Systems",
-        "preprocessed_title": "industri autom robot system",
+        "preprocessed_title": "industri autom robot",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
@@ -20349,7 +20349,7 @@
     {
         "id": "US753",
         "title": "Industrial Automation and Robotic Systems",
-        "preprocessed_title": "industri autom robot system",
+        "preprocessed_title": "industri autom robot",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "3 Years",
@@ -22971,7 +22971,7 @@
     {
         "id": "TR034",
         "title": "Management Science and Information Systems Studies",
-        "preprocessed_title": "manag inform system",
+        "preprocessed_title": "manag inform",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -23457,7 +23457,7 @@
     {
         "id": "AU302",
         "title": "Marketing with Online Technologies",
-        "preprocessed_title": "market onlin technolog",
+        "preprocessed_title": "market technolog",
         "college": "ATU Donegal",
         "region": "Ulster",
         "duration": "3 Years",
@@ -29940,7 +29940,7 @@
     {
         "id": "SE728",
         "title": "Robotics and Automated Systems",
-        "preprocessed_title": "robot autom system",
+        "preprocessed_title": "robot autom",
         "college": "SETU Carlow Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -29960,7 +29960,7 @@
     {
         "id": "SE710",
         "title": "Robotics and Automated Systems",
-        "preprocessed_title": "robot autom system",
+        "preprocessed_title": "robot autom",
         "college": "SETU Carlow Campus",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -31586,7 +31586,7 @@
     {
         "id": "SE610",
         "title": "Software Systems Development",
-        "preprocessed_title": "softwar system develop",
+        "preprocessed_title": "softwar develop",
         "college": "SETU Waterford Campus",
         "region": "Munster",
         "duration": "3 Years",
@@ -31604,7 +31604,7 @@
     {
         "id": "SE604",
         "title": "Software Systems Development",
-        "preprocessed_title": "softwar system develop",
+        "preprocessed_title": "softwar develop",
         "college": "SETU Waterford Campus",
         "region": "Munster",
         "duration": "4 Years",
@@ -33778,7 +33778,7 @@
     {
         "id": "AU930",
         "title": "Writing and Literature - Online",
-        "preprocessed_title": "write literatur onlin",
+        "preprocessed_title": "write literatur",
         "college": "ATU Sligo",
         "region": "Connacht",
         "duration": "3 Years",
