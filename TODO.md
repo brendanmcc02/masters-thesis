@@ -1,5 +1,7 @@
 # TODO
 
+- [ ] seems to be a bug with med not getting recommended?
+    * or idk ayshas recs are weird, why are all healthcare courses the same sim score despite different points?
 - [ ] figure out question!
     * ask donnchadh
     * ask adam and matthew

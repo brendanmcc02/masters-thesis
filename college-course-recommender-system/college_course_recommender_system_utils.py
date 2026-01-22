@@ -284,7 +284,7 @@ def add_unique_college_course_recommendations(masked_college_course_category_cou
 def is_unique_college_course_recommendation(college_course_to_check, previously_recommended_college_courses):
     for previously_recommended_college_course in previously_recommended_college_courses:
         if is_college_course_duplicate(previously_recommended_college_course, college_course_to_check):
-            print("Not recommending " + college_course_to_check['title'] + ", " + college_course_to_check['college'] + " because " + previously_recommended_college_course['title'] + ", " + previously_recommended_college_course['college'] + " is already recommended.\n")
+            print("Not recommending " + college_course_to_check['title'] + ", " + college_course_to_check['id'] + " because " + previously_recommended_college_course['title'] + ", " + previously_recommended_college_course['id'] + " is already recommended.\n")
             return False
         
     return True
@@ -382,7 +382,7 @@ def is_course_filtered(course, user_college_course_preferences):
 def print_college_course_recommendations(college_course_recommendations):
     for rec in college_course_recommendations:
         print(rec["title"] + "\n" + rec["preprocessed_title"] + "\n" + rec["college"] + "\n" + str(rec["riasec_interests"]) + "\n" + str(rec["categories"]) + "\nPoints: " + str(rec["points"]) + "\nSimilarity: " + (str(round(rec["similarity_score"]*100.0, 1)) if "similarity_score" in rec else "-1") + "%\n")
-        # print(rec['vectorized_representation'])
+        print(rec['vectorized_representation'])
 
 def get_baseline_college_course_recommendations(user_college_course_preferences):
     filtered_college_courses = get_filtered_college_courses(user_college_course_preferences)
