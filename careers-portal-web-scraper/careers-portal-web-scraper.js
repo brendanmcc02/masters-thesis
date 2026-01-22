@@ -122,7 +122,7 @@ async function main() {
             await sleepForMs(7500);
         }
 
-        fs.writeFileSync("../datasets/cao-college-courses/cao-college-courses.json", JSON.stringify(courses, null, 4));
+        fs.writeFileSync("../datasets/cao-college-courses.json", JSON.stringify(courses, null, 4));
 
         prevTitle = await getHandleTextFromSelector(courseHandles[0], "a.font-display.font-bold.text-skin-fill-primary.leading-tight.my-1.hover\\:text-skin-fill-secondary.hover\\:underline");
 

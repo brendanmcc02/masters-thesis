@@ -10,14 +10,17 @@ user_college_course_preferences = { "nfq_levels": [8],
                                     "expected_points": 625}
 
 
-file = open("../datasets/cao-college-courses/cao-college-courses.json")
+file = open("../datasets/cao-college-courses.json")
 courses = json.load(file)
 
 categories_dict = {}
 r_i = ["realistic", "investigative", "artistic", "social", "enterprising", "conventional"]
 r = 0
-# for course in courses:
-    # title = course["title"].lower()
+for course in courses:
+    title = course["title"].lower()
+
+    if "healthcare" in course["categories"] and "realistic" in course["riasec_interests"]:
+        print(title)
 
     # if "computers" in course["categories"] and course["college"] in user_college_course_preferences["colleges"] and (course["points"] <= user_college_course_preferences["expected_points"] or course["isAdditionalPortfolioTestInterviewRequired"]) and course["nfqLevel"] in user_college_course_preferences["nfq_levels"]:
     #     r += 1
@@ -39,5 +42,5 @@ r = 0
 
 #     print(k + ": " + str(norm))
 
-# with open("../datasets/cao-college-courses/cao-college-courses.json", "w") as outfile:
+# with open("../datasets/cao-college-courses.json", "w") as outfile:
 #     json.dump(courses, outfile, indent=4)

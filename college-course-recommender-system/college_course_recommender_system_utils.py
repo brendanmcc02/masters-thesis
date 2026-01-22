@@ -1,11 +1,9 @@
 import numpy as np
 import json
 import pandas as pd
-import sys
-sys.path.append('../datasets/open-psychometrics/filter_data')
-from filter_open_psychometrics_data_utils import preprocess_text
+from college_course_title_nlp_utils import *
 
-CAO_COLLEGE_COURSES_FILE_LOCATION = '../datasets/cao-college-courses/cao-college-courses.json'
+CAO_COLLEGE_COURSES_FILE_LOCATION = '../datasets/cao-college-courses.json'
 USER_INTEREST_QUESTIONS_DATASET_FILEPATH = "user_interest_questions.csv"
 
 RIASEC_INTERESTS = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
@@ -133,13 +131,6 @@ def get_user_college_course_categories_vector(user_riasec_questions_vector):
     print_stringified_college_course_categories_vector(user_categories_vector)
 
     return user_categories_vector
-
-def add_weighted_preference_to_user_vector(user_vector, five_point_likert_scale_preference_value, riasec_interest_or_college_course_category, all_riasec_interests_or_college_course_categories, number_of_covered_riasec_interests_or_college_course_categories):
-    weighted_preference = FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP[five_point_likert_scale_preference_value]
-    # distribute the weight for multi-interest/category subjects
-    distributed_weighted_preference = weighted_preference / np.sqrt(number_of_covered_riasec_interests_or_college_course_categories)
-    index_to_access = all_riasec_interests_or_college_course_categories.index(riasec_interest_or_college_course_category)
-    user_vector[index_to_access] += distributed_weighted_preference
 
 def custom_normalized_sigmoid_function(value, tuning_constant):
     return 1 - np.exp(-tuning_constant * value)
@@ -284,7 +275,7 @@ def add_unique_college_course_recommendations(masked_college_course_category_cou
 def is_unique_college_course_recommendation(college_course_to_check, previously_recommended_college_courses):
     for previously_recommended_college_course in previously_recommended_college_courses:
         if is_college_course_duplicate(previously_recommended_college_course, college_course_to_check):
-            print("Not recommending " + college_course_to_check['title'] + ", " + college_course_to_check['id'] + " because " + previously_recommended_college_course['title'] + ", " + previously_recommended_college_course['id'] + " is already recommended.\n")
+            print("Not recommending " + college_course_to_check['title'] + " " + college_course_to_check['id'] + " because " + previously_recommended_college_course['title'] + " " + previously_recommended_college_course['id'] + " is already recommended.\n")
             return False
         
     return True
@@ -295,7 +286,7 @@ def is_college_course_duplicate(previously_recommended_college_course, college_c
 def is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     return previously_recommended_college_course['preprocessed_title'] == college_course_to_check['preprocessed_title']
 
-SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art", "public", "educ", "sport", "architectur"] # business???
+SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art", "public", "educ", "sport", "architectur", "intern", "medicin"]
 def is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     tokenized_college_course_title_words = previously_recommended_college_course['preprocessed_title'].split(' ')
 
@@ -336,14 +327,12 @@ def get_vectorized_college_course_representation(college_course):
     vectorized_representation = np.zeros(VECTORIZED_REPRESENTATION_DIMENSION_SIZE)
 
     for interest in college_course["riasec_interests"]:
-        distributed_interest_weight = 1.0 / np.sqrt(len(college_course["riasec_interests"]))
-        vectorized_representation[RIASEC_INTERESTS.index(interest)] = distributed_interest_weight
+        vectorized_representation[RIASEC_INTERESTS.index(interest)] = 1.0
 
     vectorized_representation[POINTS_VECTOR_INDEX] = get_normalized_points_vector(college_course['points'])
 
     for category in college_course['categories']:
-        distributed_category_weight = 1.0 / np.sqrt(len(college_course['categories']))
-        vectorized_representation[STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX + COLLEGE_COURSE_CATEGORIES.index(category)] = distributed_category_weight
+        vectorized_representation[STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX + COLLEGE_COURSE_CATEGORIES.index(category)] = 1.0
 
     return vectorized_representation
 
@@ -381,8 +370,16 @@ def is_course_filtered(course, user_college_course_preferences):
 
 def print_college_course_recommendations(college_course_recommendations):
     for rec in college_course_recommendations:
-        print(rec["title"] + "\n" + rec["preprocessed_title"] + "\n" + rec["college"] + "\n" + str(rec["riasec_interests"]) + "\n" + str(rec["categories"]) + "\nPoints: " + str(rec["points"]) + "\nSimilarity: " + (str(round(rec["similarity_score"]*100.0, 1)) if "similarity_score" in rec else "-1") + "%\n")
+        print(rec["title"])
+        print(rec["preprocessed_title"])
+        print(rec["college"])
+        print(str(rec["riasec_interests"]))
+        print(str(rec["categories"]))
+        print("Points: " + str(rec["points"]))
+        print("Similarity: " + (str(round(rec["similarity_score"]*100.0, 1)) if "similarity_score" in rec else "-1") + "%")
+        print(rec["overview"])
         print(rec['vectorized_representation'])
+        print("") # newline
 
 def get_baseline_college_course_recommendations(user_college_course_preferences):
     filtered_college_courses = get_filtered_college_courses(user_college_course_preferences)

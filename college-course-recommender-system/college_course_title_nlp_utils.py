@@ -125,6 +125,10 @@ def get_stop_words():
     stop_words.add("pathway")
     stop_words.add("pathfinder")
     stop_words.add("restricted")
+    stop_words.add("maitrise")
+    stop_words.add("online")
+    stop_words.add("systems")
+    stop_words.add("system")
 
     return stop_words
 
@@ -162,139 +166,23 @@ def preprocess_text(text):
 
 
 COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP = {
-    'cpa': 'accounting',
-    'ba': 'arts',
-    'ma': 'arts',
-    'aa': 'arts',
-    'bfa': 'fine arts',
-    'mfa': 'fine arts',
-    'bs': 'science',
-    'ms': 'science',
-    'bsc': 'science',
-    'msc': 'science',
-    'as': 'science',
-    'sci': 'science',
-    'mlis': 'library science',
-    'aas': 'applied science',
-    'math': 'mathematics',
     'maths': 'mathematics',
-    'cs': 'computer science',
-    'bba': 'business',
-    'mba': 'business',
-    'bcom': 'business',
-    'mcom': 'business',
-    'bcomm': 'business',
-    'buisness': 'business', # common mis-spelling; fuzzywuzzy somehow doesn't catch it idk
-    'bed': 'education',
     'teacher': 'teaching',
     'teaching': 'education',
-    'beng': 'engineering',
-    'ee': 'electrical engineering',
-    'eee': 'electrical engineering',
-    'llb': 'law',
-    'jd': 'law',
-    'bsw': 'social work',
-    'msw': 'social work',
-    'mpa': 'public administration',
-    'mph': 'public health',
-    'md': 'medicine',
-    'dnp': 'nursing',
-    'aud': 'audiology',
-    'comp': 'computer',
-    'econ': 'economics',
-    'lit': 'literature',
-    'poli': 'political',
-    'pol': 'political',
-    'polsci': 'political science',
     'pharmaceutical': 'pharmacy',
-    'psych': 'psychology',
-    'tech': 'technology',
     'technician': 'technology',
-    'info': 'information',
-    'it': 'information technology',
-    'eng': 'engineering',
     'admin': 'administration',
-    'ag': 'agriculture',
-    'agri': 'agriculture',
     'bio': 'biological',
-    'biochem': 'biochemical',
-    'arch': 'architecture',
-    'biomed': 'biomedical',
-    'chem': 'chemical',
+    'phy': 'physics',
+    'chem': 'chemistry',
     'chemistry': 'chemical',
-    'mech': 'mechanical',
-    'env': 'environmental',
-    'aero': 'aerospace',
-    'ed': 'education',
-    'telecomms': 'telecommunications',
-    'telecomm': 'telecommunications',
-    'hr': 'human resources',
-    'hrm': 'human resource management',
-    'hrd': 'human resource development',
-    'pr': 'public relations',
-    'gen': 'general',
-    'premed': 'medicine',
-    'med': 'medicine',
-    'medical': 'medicine',
-    'doctor': 'medicine',
     'dentist': 'dentistry',
     'dental': 'dentistry',
-    'vet': 'veterinarian',
-    'veterinary medicine': 'veterinarian',
-    'veterinary': 'veterinarian',
-    'animal': 'veterinarian', # animation and animal share the same stem, so make animal something else
-    'liberal studies': 'liberal arts',
-    'speech language pathology': 'speech pathology',
-    'speech therapy': 'speech pathology',
-    'dietetics': 'nutrition science',
-    'computer programming': 'programming',
-    'culinary': 'culinary arts', # some people just wrote 'culinary' so this would expand it out - duplicates words are removed FYI!
-    'electronics': 'electrical engineering',
-    'mechanical': 'mechanical engineering', # some people just wrote 'mechanical' so this would expand it out - duplicates words are removed FYI!
+    'agri': 'agriculture',
+    'ag': 'agriculture',
+    'hrm': 'human resource management',
+    'it': 'information technology',
+    'tech': 'technology',
+    'llb': 'law',
+    'bcl': 'civil law'
 }
-
-
-FUZZY_MATCH_THRESHOLD = 85  # obtained mostly from vibes and trial/error, negligible performance increase comparing 80/85/90
-def get_fuzzy_college_major_category_match(text, preprocessed_college_majors_and_major_categories, preprocessed_major_to_major_category_dict):
-    max_score = 0
-    maxText = ""
-
-    for college_major_or_major_category in preprocessed_college_majors_and_major_categories:
-        score = fuzz.ratio(text, college_major_or_major_category)
-
-        if score >= FUZZY_MATCH_THRESHOLD and score > max_score:
-            max_score = score
-            if college_major_or_major_category in preprocessed_major_to_major_category_dict:
-                maxText = preprocessed_major_to_major_category_dict[college_major_or_major_category]
-            else:
-                maxText = college_major_or_major_category
-
-    return maxText
-
-
-def reverse_college_major_category_preprocessing(df, unique_college_major_categories):
-    reverse_preprocessed_college_major_category_dict = {}
-    for unique_college_major_category in unique_college_major_categories:
-        reverse_preprocessed_college_major_category_dict[preprocess_text(unique_college_major_category)] = unique_college_major_category
-
-    df['college_major_category'] = df['college_major_category'].map(reverse_preprocessed_college_major_category_dict).fillna(df['college_major_category'])
-
-    df = df.sort_values(by=['college_major_category'])
-
-    return df
-
-RIASEC_TYPES = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
-def get_aggregated_college_major_categories_df(df, holland_code_columns, HOLLAND_CODE_PREFIXES):
-    aggregated_major_categories_df = df.groupby('college_major_category')[holland_code_columns].mean().reset_index()
-
-    MAX_QUESTION_VALUE = 4
-    for prefix in HOLLAND_CODE_PREFIXES:
-        score_cols = [col for col in aggregated_major_categories_df.columns if col.startswith(prefix) and col[1:].isdigit()]
-        
-        if score_cols:
-            aggregated_major_categories_df[prefix] = round((aggregated_major_categories_df[score_cols].mean(axis=1) / MAX_QUESTION_VALUE), 4) # normalize
-
-    aggregated_major_categories_df = aggregated_major_categories_df[['college_major_category']+HOLLAND_CODE_PREFIXES]
-    aggregated_major_categories_df = aggregated_major_categories_df.rename(columns={'R':RIASEC_TYPES[0], 'I':RIASEC_TYPES[1], 'A':RIASEC_TYPES[2], 'S':RIASEC_TYPES[3], 'E':RIASEC_TYPES[4], 'C':RIASEC_TYPES[5]}) 
-
-    return aggregated_major_categories_df
