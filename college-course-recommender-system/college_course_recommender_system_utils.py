@@ -2,6 +2,7 @@ import numpy as np
 import json
 import pandas as pd
 from college_course_title_nlp_utils import *
+# from google import genai
 
 CAO_COLLEGE_COURSES_FILE_LOCATION = '../datasets/cao-college-courses.json'
 USER_INTEREST_QUESTIONS_DATASET_FILEPATH = "user_interest_questions.csv"
@@ -107,6 +108,8 @@ def get_college_course_recommendations(user_interest_questions_results_vector, u
 
         add_unique_college_course_recommendations(masked_college_course_category_course_recommendations, college_course_recommendations)
 
+    college_course_recommendations = get_justifications_for_college_course_recommendations(college_course_recommendations, user_vector)
+
     return college_course_recommendations
 
 def get_user_vector(user_interest_questions_results_vector, user_college_course_preferences):
@@ -128,7 +131,7 @@ def get_user_college_course_categories_vector(user_riasec_questions_vector):
     for i in range(len(user_categories_vector)):
         user_categories_vector[i] = custom_normalized_sigmoid_function(user_categories_vector[i], COLLEGE_COURSE_CATEGORY_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT)
 
-    print_stringified_college_course_categories_vector(user_categories_vector)
+    print(get_stringified_college_course_categories_vector(user_categories_vector))
 
     return user_categories_vector
 
@@ -316,7 +319,7 @@ def get_user_riasec_vector(user_interest_questions_results_vector):
     for i in range(len(user_riasec_vector)):
         user_riasec_vector[i] = custom_normalized_sigmoid_function(user_riasec_vector[i], RIASEC_INTEREST_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT)
 
-    print_stringified_riasec_vector(user_riasec_vector)
+    print(get_stringified_riasec_vector(user_riasec_vector))
 
     return user_riasec_vector
 
@@ -329,7 +332,7 @@ def get_vectorized_college_course_representation(college_course):
     for interest in college_course["riasec_interests"]:
         vectorized_representation[RIASEC_INTERESTS.index(interest)] = 1.0
 
-    vectorized_representation[POINTS_VECTOR_INDEX] = get_normalized_points_vector(college_course['points'])
+    vectorized_representation[POINTS_VECTOR_INDEX] = get_normalized_points_vector(college_course['points'])[0]
 
     for category in college_course['categories']:
         vectorized_representation[STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX + COLLEGE_COURSE_CATEGORIES.index(category)] = 1.0
@@ -339,13 +342,20 @@ def get_vectorized_college_course_representation(college_course):
 def get_cosine_similarity(user_vector, cached_user_vector_magnitude, course_vector):
     return np.dot(user_vector, course_vector) / (cached_user_vector_magnitude * np.linalg.norm(course_vector))
 
-def print_stringified_college_course_categories_vector(college_course_categories_vector):
+def get_stringified_college_course_categories_vector(college_course_categories_vector):
+    stringified_college_course_categories_vector = ""
     for i in range(len(college_course_categories_vector)):
-        print(COLLEGE_COURSE_CATEGORIES[i] + ": " + str(round(college_course_categories_vector[i], 2)) + ("\n" if i == len(college_course_categories_vector)-1 else ""))
+        stringified_college_course_categories_vector += COLLEGE_COURSE_CATEGORIES[i] + ": " + str(round(college_course_categories_vector[i], 2)) + "\n" + ("\n" if i == len(college_course_categories_vector)-1 else "")
 
-def print_stringified_riasec_vector(riasec_vector):
+    return stringified_college_course_categories_vector
+
+def get_stringified_riasec_vector(riasec_vector):
+    stringified_riasec_vector = ""
+
     for i in range(len(riasec_vector)):
-        print(RIASEC_INTERESTS[i] + ": " + str(round(riasec_vector[i], 2)) + ("\n" if i == len(riasec_vector)-1 else ""))
+        stringified_riasec_vector += RIASEC_INTERESTS[i] + ": " + str(round(riasec_vector[i], 2)) + "\n" + ("\n" if i == len(riasec_vector)-1 else "")
+
+    return stringified_riasec_vector
 
 def get_filtered_college_courses(user_college_course_preferences):
     with open(CAO_COLLEGE_COURSES_FILE_LOCATION, 'r', encoding='utf-8') as f: 
@@ -370,6 +380,7 @@ def is_course_filtered(course, user_college_course_preferences):
 
 def print_college_course_recommendations(college_course_recommendations):
     for rec in college_course_recommendations:
+        # print(rec["recommendation_justification"])
         print(rec["title"])
         print(rec["preprocessed_title"])
         print(rec["college"])
@@ -377,7 +388,7 @@ def print_college_course_recommendations(college_course_recommendations):
         print(str(rec["categories"]))
         print("Points: " + str(rec["points"]))
         print("Similarity: " + (str(round(rec["similarity_score"]*100.0, 1)) if "similarity_score" in rec else "-1") + "%")
-        print(rec["overview"])
+        # print(rec["overview"])
         print(rec['vectorized_representation'])
         print("") # newline
 
@@ -403,3 +414,17 @@ def get_user_interest_questions_results_df(user_name, user_interest_questions_re
     ]
 
     return user_row.drop(columns=['name']).values[0]
+
+def get_justifications_for_college_course_recommendations(college_course_recommendations, user_vector):
+    # gemini_client = genai.Client()
+    # prompt = ("Act as an expert in Guidance Counseling for Irish College Courses. I am creating a Recommender System for Irish College Courses. The user of the recommender system has just completed a quiz to gather their RIASEC interests, and their interests towards different college course categories (e.g. healthcare). Each value is normalised between 0.0 and 1.0, and here are the results of the quiz: " )
+
+    # response = gemini_client.models.generate_content(
+    #     model="gemini-3-flash-preview",
+    #     contents=prompt
+    # )
+    
+    # response.text
+
+    return college_course_recommendations
+
