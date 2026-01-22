@@ -1,14 +1,10 @@
 # TODO
 
-- [ ] **ask owen**
-    * can i recommend 30 courses?
-- [ ] rephrase activities in light of new question (not studying, but "work" activities")
-    * donnchadh hasn't repsonded question
-- [ ] figure out quiz
-- [ ] visual interface
 - [ ] LLM to justify the recs?
-    * or maybe not, just put in limitations
-- [ ] evaluation
+- [ ] figure out quiz for testing
+- [ ] visual interface
+- [ ] evaluation metrics
+- [ ] **ask owen** - can i recommend 30 courses?
 
 
 ## Advantages

@@ -370,7 +370,14 @@ def is_course_filtered(course, user_college_course_preferences):
 
 def print_college_course_recommendations(college_course_recommendations):
     for rec in college_course_recommendations:
-        print(rec["title"] + "\n" + rec["preprocessed_title"] + "\n" + rec["college"] + "\n" + str(rec["riasec_interests"]) + "\n" + str(rec["categories"]) + "\nPoints: " + str(rec["points"]) + "\nSimilarity: " + (str(round(rec["similarity_score"]*100.0, 1)) if "similarity_score" in rec else "-1") + "%")
+        print(rec["title"])
+        print(rec["preprocessed_title"])
+        print(rec["college"])
+        print(str(rec["riasec_interests"]))
+        print(str(rec["categories"]))
+        print("Points: " + str(rec["points"]))
+        print("Similarity: " + (str(round(rec["similarity_score"]*100.0, 1)) if "similarity_score" in rec else "-1") + "%")
+        print(rec["overview"])
         print(rec['vectorized_representation'])
         print("") # newline
 
