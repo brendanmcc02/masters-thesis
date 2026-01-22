@@ -6,8 +6,6 @@
 - [ ] evaluation
 
 
-# Option 1
-
 ## Advantages
 * "like" is very subjective, and that's intentional - this puts it in the hands of the user
 * they may like the activity because it's:
@@ -19,37 +17,12 @@
     * good work/life balance
     * they're good at it
 
-## Concerns or potential disadvantages
-* the **and for a living** is a double-edged sword
-    * it's good for people who want to create a career that is more direct from the degree
-        * e.g. CS for software engineering, med for physician, etc.
-    * but it's a bit ignorant of the fact that not all degrees link directly to careers
-        * e.g. maths/physics then work in finance/insurance
-        * e.g. psych/social science then work in HR
-    * but at 17 you don't really have knowledge beyond what happens after grad, so I think "and for a living" is still a pretty good marker
-
-```md
+```
 On a scale of 1 to 5 where 1 = Strongly Disagree and 5 = Strongly Agree, how much would you agree with the following statement?
 
-**I would like to study this activity for a college course and for a living.**
-
-*what about **related college course**?*
-*study or do?*
+**I would like to do this activity for a living.**
 
 *For example, if you love an activity as a hobby (e.g. Music), but do not want to study and work in that field, you should give the activity a low score (e.g. 1 or 2).*
-```
-
-# Option 2
-* Sam made a good point and I agree - this does limit and reduce the nuance behind a college course decision
-* it's not just something you find interesting or enjoyable
-* could be because you're good at it
-* or you like the status/job that comes with it, etc.
-    * e.g. me with vet med
-* i think option 1 is much better
-```
-On a scale of 1 to 5 where 1 = Hate and 5 = Love, how enjoyable or interesting would you find studying a college course that involves this activity?
-
-For example, if you love music as a hobby, but don't want to study music at college, you should give a low score to an activity like "Compose and perform an original piece of music".
 ```
 
 # Google Form
