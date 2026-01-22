@@ -435,8 +435,12 @@ def get_baseline_college_course_recommendations(user_interest_questions_results_
         add_unique_college_course_recommendations(baseline_college_course_recommendations, unique_baseline_college_course_recommendations)
 
     user_vector = get_user_vector(user_interest_questions_results_vector, user_college_course_preferences)
+    cached_user_vector_magnitude = np.linalg.norm(user_vector)
 
     add_justifications_for_college_course_recommendations(unique_baseline_college_course_recommendations, user_vector)
+
+    for course in unique_baseline_college_course_recommendations:
+        course["similarity_score"] = get_cosine_similarity(user_vector, cached_user_vector_magnitude, course["vectorized_representation"])
 
     return unique_baseline_college_course_recommendations
 
