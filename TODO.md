@@ -1,6 +1,5 @@
 # TODO
 
-- [ ] LLM to justify the recs?
 - [ ] figure out quiz for testing
 - [ ] visual interface
 - [ ] evaluation metrics

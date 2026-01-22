@@ -2,6 +2,7 @@ from fuzzywuzzy import fuzz
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
+
 import re
 
 def get_stop_words():
