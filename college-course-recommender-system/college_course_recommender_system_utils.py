@@ -399,7 +399,7 @@ def get_stringified_college_course_recommendations(college_course_recommendation
 
     for i in range(len(college_course_recommendations)):
         stringified_college_course_recommendations += str(i+1) + ".\n"
-        stringified_college_course_recommendations += "Title: " + college_course_recommendations[i]["title"] + "\n"
+        stringified_college_course_recommendations += "ID & Title: " + college_course_recommendations[i]["id"] + " " + college_course_recommendations[i]["title"] + "\n"
 
         if IS_DEBUG:
             stringified_college_course_recommendations += "Preprocessed title: " + college_course_recommendations[i]["preprocessed_title"] + "\n"

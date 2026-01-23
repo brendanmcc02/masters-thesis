@@ -61,5 +61,3 @@ etc.
 ## Evaluation Questions
 * Perceived/subjective Diversity x2 for recs A and B
 * Perceived/subjective Trust x2 for recs A and B
-
-
