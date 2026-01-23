@@ -16,6 +16,11 @@ IS_DEBUG=True
 
 CAO_COLLEGE_COURSES_FILE_LOCATION = '../datasets/cao-college-courses.json'
 USER_INTEREST_QUESTIONS_DATASET_FILEPATH = "user_interest_questions.csv"
+SURVEY_PART_1_RESPONSES_DATASET_LOCATION = "survey-part-1-responses.tsv"
+SURVEY_PART_1_RESPONSES_DATASET_NFQ_LEVELS_COLUMN_NAME = "NFQ Levels"
+SURVEY_PART_1_RESPONSES_DATASET_EXPECTED_LEAVING_CERT_POINTS_COLUMN_NAME = "Expected Leaving Cert Points"
+SURVEY_PART_1_RESPONSES_DATASET_COLLEGES_STARTING_COLUMN_NAME = "Colleges - "
+SURVEY_PART_2_RESPONSES_DATASET_LOCATION = "survey-part-2-responses.tsv"
 
 RIASEC_INTERESTS = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
 POINTS_VECTOR_DIMENSION_SIZE = 1
@@ -30,11 +35,11 @@ MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND = 5
 MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY = 4
 NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS = MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND * MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY
 
-FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP = {4: 1.0,
-                                      3: 0.25, 
-                                      2: 0.01, 
-                                      1: 0,
-                                      0: 0}
+FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP = {5: 1.0,
+                                      4: 0.25, 
+                                      3: 0.01, 
+                                      2: 0,
+                                      1: 0}
 RIASEC_INTEREST_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT = 0.5
 COLLEGE_COURSE_CATEGORY_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT = 1.0
 
@@ -58,6 +63,13 @@ def get_user_interest_questions_riasec_interests():
     riasec_interests = df['riasec_interest'].tolist()
     
     return riasec_interests
+
+def get_user_interest_activities():
+    df = pd.read_csv(USER_INTEREST_QUESTIONS_DATASET_FILEPATH)
+
+    activities = df['activity'].str.lower().tolist()
+
+    return activities
 
 PREPROCESSED_SCIENCE_COURSE_TITLE_EDGE_CASES = ['Science (General)', 'Science - Explore Multiple Streams', 'Science - Undenominated', 'Science - Common Entry', 'Science (Common Entry with Award Options)', 'Science (Common Entry)', 'Science (General Entry)']
 def preprocess_college_course_titles():
@@ -444,14 +456,12 @@ def get_baseline_college_course_recommendations(user_interest_questions_results_
 
     return unique_baseline_college_course_recommendations
 
-def get_user_interest_questions_results_df(user_name, user_interest_questions_results_df):
-    user_row = user_interest_questions_results_df.loc[
-        user_interest_questions_results_df['name'] == user_name
-    ]
-
-    return user_row.drop(columns=['name']).values[0]
-
 def add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector):
+    if not IS_DEBUG:
+        for i in range(len(parsed_college_course_justifications)):
+            college_course_recommendations[i]["recommendation_justification"] = ""
+            return
+
     prompt = get_gemini_prompt(college_course_recommendations, user_vector)
 
     response = GEMINI_CLIENT.models.generate_content(
@@ -511,3 +521,74 @@ def get_stringified_interests_or_categories(interests_or_categories):
         stringified_interests_or_categories += interest_or_category_to_add
 
     return stringified_interests_or_categories
+
+def get_user_data():
+    df = pd.read_csv(SURVEY_PART_1_RESPONSES_DATASET_LOCATION, sep='\t')
+
+    df = df.fillna("")
+
+    df.pop("Timestamp")
+
+    # just get the last row (latest entry)
+    return df.iloc[-1]
+
+def get_user_colleges(user_data):
+    user_colleges = ""
+
+    for column_name, value in user_data.items():
+        if column_name.startswith(SURVEY_PART_1_RESPONSES_DATASET_COLLEGES_STARTING_COLUMN_NAME) and value != "":
+            user_colleges += str(value) + ", "
+
+    if user_colleges[-1] == " ":
+        user_colleges = user_colleges[0:len(user_colleges)-2]
+
+    return user_colleges.split(", ")
+
+def get_user_college_course_preferences(user_data):
+    user_college_course_preferences = {"nfq_levels": [], "colleges": [], "expected_points": 0}
+
+    nfq_levels = get_user_nfq_levels(user_data[SURVEY_PART_1_RESPONSES_DATASET_NFQ_LEVELS_COLUMN_NAME])
+    expected_points = get_user_expected_leaving_cert_points(str(user_data[SURVEY_PART_1_RESPONSES_DATASET_EXPECTED_LEAVING_CERT_POINTS_COLUMN_NAME]))
+    colleges = get_user_colleges(user_data)
+
+    user_college_course_preferences["nfq_levels"] = nfq_levels
+    user_college_course_preferences["expected_points"] = expected_points
+    user_college_course_preferences["colleges"] = colleges
+
+    return user_college_course_preferences
+
+def get_user_nfq_levels(raw_nfq_levels):
+    raw_nfq_levels = raw_nfq_levels.replace("Level ", "")
+
+    nfq_levels = raw_nfq_levels.split(", ")
+
+    for i in range(len(nfq_levels)):
+        nfq_levels[i] = int(nfq_levels[i])
+
+    return nfq_levels
+
+def get_user_expected_leaving_cert_points(raw_leaving_cert_points):
+    raw_leaving_cert_points = re.findall(r'\d+', raw_leaving_cert_points)
+
+    return int(raw_leaving_cert_points[0])
+
+def get_user_interest_questions_results_vector(user_data):
+    user_data = user_data.drop([SURVEY_PART_1_RESPONSES_DATASET_NFQ_LEVELS_COLUMN_NAME, SURVEY_PART_1_RESPONSES_DATASET_EXPECTED_LEAVING_CERT_POINTS_COLUMN_NAME])
+    columns_to_remove = [column for column in user_data.index if column.startswith(SURVEY_PART_1_RESPONSES_DATASET_COLLEGES_STARTING_COLUMN_NAME)]
+    user_data = user_data.drop(columns_to_remove)
+
+    user_interest_activities = get_user_interest_activities()
+    user_interest_questions_results_vector = np.zeros(len(user_interest_activities))
+
+    for column_name, value in user_data.items():
+        column_name = column_name.lower()
+
+        index_to_access = user_interest_activities.index(column_name)
+        user_interest_questions_results_vector[index_to_access] = int(value) - 1
+
+    for i in range(len(user_interest_questions_results_vector)):
+        if user_interest_questions_results_vector[i] not in [1, 2, 3, 4, 5]:
+            print("missing activity! " + str(user_interest_activities[i]))
+
+    return user_interest_questions_results_vector
+
