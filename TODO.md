@@ -1,10 +1,13 @@
 # TODO
 
-- [ ] figure out quiz for testing
+- [ ] load user college course preferences using .tsv
+- [ ] get_user_vector using .tsv (different format)
+- [ ] figure out quiz workflow for testing
 - [ ] visual interface
 - [ ] evaluation metrics
+- [ ] load user cao college courses using .tsv
 - [ ] **ask owen** - can i recommend 30 courses?
-
+- [ ] who is the second reader
 
 ## Advantages
 * "like" is very subjective, and that's intentional - this puts it in the hands of the user
