@@ -1,9 +1,9 @@
 # TODO
 
-- [ ] figure out quiz workflow for testing
-- [ ] visual interface
+- [ ] finish adding 126 questions to google form quiz
+- [ ] prettify output - use markdown maybe?
+- [ ] load in part-2 tsv
 - [ ] evaluation metrics
-- [ ] load user cao college courses using .tsv
 - [ ] **ask owen** - can i recommend 30 courses?
 - [ ] who is the second reader
 
