@@ -1,6 +1,5 @@
 # TODO
 
-- [ ] get_user_vector using .tsv (different format)
 - [ ] figure out quiz workflow for testing
 - [ ] visual interface
 - [ ] evaluation metrics
