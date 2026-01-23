@@ -1,16 +1,11 @@
 from college_course_recommender_system_utils import *
 import random as rd
 
-user_college_course_preferences = { "nfq_levels": [8],
-                                    "colleges": [
-                                                "Trinity College Dublin",
-                                                "University College Dublin",
-                                                "Royal College of Surgeons in Ireland"
-                                        ],
-                                    "expected_points": 625}
+user_data = get_user_data()
 
-user_interest_questions_results_df = pd.read_csv("user_interest_questions_results.csv")
-user_interest_questions_results_vector = get_user_interest_questions_results_df("brendan", user_interest_questions_results_df)
+user_college_course_preferences = get_user_college_course_preferences(user_data)
+
+user_interest_questions_results_vector = get_user_interest_questions_results_vector(user_data)
 
 baseline_college_course_recommendations = get_baseline_college_course_recommendations(user_interest_questions_results_vector, user_college_course_preferences)
 
