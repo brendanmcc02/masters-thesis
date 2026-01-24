@@ -21,6 +21,7 @@ SURVEY_PART_1_RESPONSES_DATASET_NFQ_LEVELS_COLUMN_NAME = "NFQ Levels"
 SURVEY_PART_1_RESPONSES_DATASET_EXPECTED_LEAVING_CERT_POINTS_COLUMN_NAME = "Expected Leaving Cert Points"
 SURVEY_PART_1_RESPONSES_DATASET_COLLEGES_STARTING_COLUMN_NAME = "Colleges - "
 SURVEY_PART_2_RESPONSES_DATASET_LOCATION = "survey-part-2-responses.tsv"
+USER_COLLEGE_COURSE_RECOMMENDATIONS_DATASET_FILEPATH = "user-college-course-recommendations.tsv"
 
 RIASEC_INTERESTS = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
 POINTS_VECTOR_DIMENSION_SIZE = 1
@@ -522,15 +523,15 @@ def get_stringified_interests_or_categories(interests_or_categories):
 
     return stringified_interests_or_categories
 
-def get_user_data():
+def get_user_data_and_timestamp():
     df = pd.read_csv(SURVEY_PART_1_RESPONSES_DATASET_LOCATION, sep='\t')
 
     df = df.fillna("")
 
-    df.pop("Timestamp")
+    timestamp = df.pop("Timestamp")
 
     # just get the last row (latest entry)
-    return df.iloc[-1]
+    return df.iloc[-1], timestamp
 
 def get_user_colleges(user_data):
     user_colleges = ""

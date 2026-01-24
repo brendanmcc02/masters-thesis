@@ -1,6 +1,5 @@
 # TODO
 
-- [ ] finish adding 126 questions to google form quiz
 - [ ] prettify output - use markdown maybe?
 - [ ] load in part-2 tsv
 - [ ] evaluation metrics
