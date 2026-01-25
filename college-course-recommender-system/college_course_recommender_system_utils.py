@@ -7,6 +7,7 @@ from google import genai
 import os
 from dotenv import load_dotenv
 import re
+import random as rd
 
 load_dotenv()
 
@@ -410,27 +411,29 @@ def is_course_filtered(course, user_college_course_preferences):
             course["college"] in user_college_course_preferences["colleges"] and 
             (course["points"] <= user_college_course_preferences["expected_points"] or course['isAdditionalPortfolioTestInterviewRequired']))
 
-def get_stringified_college_course_recommendations(college_course_recommendations):
+def get_stringified_markdown_college_course_recommendations(college_course_recommendations):
     stringified_college_course_recommendations = ""
 
     for i in range(len(college_course_recommendations)):
-        stringified_college_course_recommendations += str(i+1) + ".\n"
-        stringified_college_course_recommendations += "ID & Title: " + college_course_recommendations[i]["id"] + " " + college_course_recommendations[i]["title"] + "\n"
+        stringified_college_course_recommendations += "* **" + str(i+1) + ". " + college_course_recommendations[i]["id"] + " " + college_course_recommendations[i]["title"] + "**\n"
 
-        if IS_DEBUG:
-            stringified_college_course_recommendations += "Preprocessed title: " + college_course_recommendations[i]["preprocessed_title"] + "\n"
+        # if IS_DEBUG:
+        #     stringified_college_course_recommendations += "    * Preprocessed title: " + college_course_recommendations[i]["preprocessed_title"] + "\n"
 
-        stringified_college_course_recommendations += "College: " + college_course_recommendations[i]["college"] + "\n"
-        stringified_college_course_recommendations += "RIASEC Interests: " + get_stringified_interests_or_categories(college_course_recommendations[i]["riasec_interests"]) + "\n"
-        stringified_college_course_recommendations += "Categories: " + get_stringified_interests_or_categories(college_course_recommendations[i]["categories"]) + "\n"
-        stringified_college_course_recommendations += "Points: " + str(college_course_recommendations[i]["points"]) + "\n"
-        stringified_college_course_recommendations += "Similarity: " + (str(round(college_course_recommendations[i]["similarity_score"]*100.0, 1)) if "similarity_score" in college_course_recommendations[i] else "-1") + "%" + "\n"
-        stringified_college_course_recommendations += "Overview: " + college_course_recommendations[i]["overview"] + "\n"
-        if IS_DEBUG:
-            stringified_college_course_recommendations += "Vectorized Representation: " + str(college_course_recommendations[i]['vectorized_representation']) + "\n"
+        stringified_college_course_recommendations += "    * " + college_course_recommendations[i]["college"] + "\n"
+
+        # if not IS_DEBUG:
+        #     stringified_college_course_recommendations += "    * RIASEC Interests: " + get_stringified_interests_or_categories(college_course_recommendations[i]["riasec_interests"]) + "\n"
+        #     stringified_college_course_recommendations += "    * Categories: " + get_stringified_interests_or_categories(college_course_recommendations[i]["categories"]) + "\n"
+
+        stringified_college_course_recommendations += "    * **" + str(college_course_recommendations[i]["points"]) + "** points\n"
+        stringified_college_course_recommendations += "    * **" + str(round(college_course_recommendations[i]["similarity_score"]*100.0, 1)) + "%** similarity\n"
+        stringified_college_course_recommendations += "    * **Overview:** " + college_course_recommendations[i]["overview"] + "\n"
+
+        # if IS_DEBUG:
+        #     stringified_college_course_recommendations += "    * Vectorized Representation: " + str(college_course_recommendations[i]['vectorized_representation']) + "\n"
         
-        if "recommendation_justification" in college_course_recommendations[i]:
-            stringified_college_course_recommendations += "Why we recommended this: " + college_course_recommendations[i]['recommendation_justification'] + "\n"
+        stringified_college_course_recommendations += "    * **Why we recommended this:** " + college_course_recommendations[i]['recommendation_justification'] + "\n"
         
         stringified_college_course_recommendations += "\n\n"
 
@@ -598,7 +601,7 @@ def get_user_interest_questions_results_vector(user_data):
 
     return user_interest_questions_results_vector
 
-def write_user_college_course_recommendations(user_timestamp, actual_college_course_recommendations, baseline_college_course_recommendations):
+def write_user_college_course_recommendations_to_csv(user_timestamp, actual_college_course_recommendations, baseline_college_course_recommendations):
     user_college_course_recommendations_results = [user_timestamp]
 
     for i in range(MAX_NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS):
@@ -622,3 +625,16 @@ def write_user_college_course_recommendations(user_timestamp, actual_college_cou
     with open(USER_COLLEGE_COURSE_RECOMMENDATIONS_DATASET_FILEPATH, 'a', newline='') as file:
         writer = csv.writer(file, delimiter='\t')
         writer.writerow(user_college_course_recommendations_results)
+
+def write_user_college_course_recommendations_to_markdown(baseline_college_course_recommendations, actual_college_course_recommendations):
+    markdown_output = ""
+    recommendation_sets = [baseline_college_course_recommendations, actual_college_course_recommendations]
+
+    rd.shuffle(recommendation_sets)
+
+    for i in range(len(recommendation_sets)):
+        markdown_output += "# RECOMMENDATION SET " + str(i+1) + "\n\n"
+        markdown_output += get_stringified_markdown_college_course_recommendations(recommendation_sets[i])
+
+    with open("user-college-course-recommendations.md", "w") as file:
+        file.write(markdown_output)
