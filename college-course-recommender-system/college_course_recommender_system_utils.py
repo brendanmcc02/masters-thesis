@@ -1,6 +1,7 @@
 import numpy as np
 import json
 import pandas as pd
+import csv
 from college_course_title_nlp_utils import *
 from google import genai
 import os
@@ -9,10 +10,12 @@ import re
 
 load_dotenv()
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-GEMINI_CLIENT = genai.Client(api_key=GEMINI_API_KEY)
-
 IS_DEBUG=True
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+if not IS_DEBUG:
+    GEMINI_CLIENT = genai.Client(api_key=GEMINI_API_KEY)
+
 
 CAO_COLLEGE_COURSES_FILE_LOCATION = '../datasets/cao-college-courses.json'
 USER_INTEREST_QUESTIONS_DATASET_FILEPATH = "user_interest_questions.csv"
@@ -21,6 +24,7 @@ SURVEY_PART_1_RESPONSES_DATASET_NFQ_LEVELS_COLUMN_NAME = "NFQ Levels"
 SURVEY_PART_1_RESPONSES_DATASET_EXPECTED_LEAVING_CERT_POINTS_COLUMN_NAME = "Expected Leaving Cert Points"
 SURVEY_PART_1_RESPONSES_DATASET_COLLEGES_STARTING_COLUMN_NAME = "Colleges - "
 SURVEY_PART_2_RESPONSES_DATASET_LOCATION = "survey-part-2-responses.tsv"
+USER_COLLEGE_COURSE_RECOMMENDATIONS_DATASET_FILEPATH = "user-college-course-recommendations.tsv"
 
 RIASEC_INTERESTS = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
 POINTS_VECTOR_DIMENSION_SIZE = 1
@@ -33,7 +37,7 @@ MAX_COURSE_POINTS = 625
 
 MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND = 5
 MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY = 4
-NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS = MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND * MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY
+MAX_NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS = MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND * MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY
 
 FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP = {5: 1.0,
                                       4: 0.25, 
@@ -122,7 +126,7 @@ def get_college_course_recommendations(user_interest_questions_results_vector, u
     top_college_course_category_user_vector_indexes = get_top_college_course_category_user_vector_indexes(user_vector)
 
     for college_course_category_user_vector_index in top_college_course_category_user_vector_indexes:
-        if len(college_course_recommendations) == NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS:
+        if len(college_course_recommendations) == MAX_NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS:
             add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector)
             return college_course_recommendations
         
@@ -293,7 +297,7 @@ def add_unique_college_course_recommendations(masked_college_course_category_cou
     number_of_unique_courses_added = 0
 
     for i in range(len(masked_college_course_category_course_recommendations_to_add)):
-        if number_of_unique_courses_added == MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY or len(previously_recommended_college_courses) == NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS:
+        if number_of_unique_courses_added == MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY or len(previously_recommended_college_courses) == MAX_NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS:
             return
 
         if is_unique_college_course_recommendation(masked_college_course_category_course_recommendations_to_add[i], previously_recommended_college_courses):
@@ -457,10 +461,11 @@ def get_baseline_college_course_recommendations(user_interest_questions_results_
     return unique_baseline_college_course_recommendations
 
 def add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector):
-    if not IS_DEBUG:
-        for i in range(len(parsed_college_course_justifications)):
+    if IS_DEBUG:
+        for i in range(len(college_course_recommendations)):
             college_course_recommendations[i]["recommendation_justification"] = ""
-            return
+        
+        return
 
     prompt = get_gemini_prompt(college_course_recommendations, user_vector)
 
@@ -522,15 +527,16 @@ def get_stringified_interests_or_categories(interests_or_categories):
 
     return stringified_interests_or_categories
 
-def get_user_data():
+def get_user_data_and_timestamp():
     df = pd.read_csv(SURVEY_PART_1_RESPONSES_DATASET_LOCATION, sep='\t')
 
     df = df.fillna("")
 
+    # just get the last row (latest entry)
+    timestamp = df.iloc[-1]["Timestamp"]
     df.pop("Timestamp")
 
-    # just get the last row (latest entry)
-    return df.iloc[-1]
+    return df.iloc[-1], timestamp
 
 def get_user_colleges(user_data):
     user_colleges = ""
@@ -584,7 +590,7 @@ def get_user_interest_questions_results_vector(user_data):
         column_name = column_name.lower()
 
         index_to_access = user_interest_activities.index(column_name)
-        user_interest_questions_results_vector[index_to_access] = int(value) - 1
+        user_interest_questions_results_vector[index_to_access] = int(value)
 
     for i in range(len(user_interest_questions_results_vector)):
         if user_interest_questions_results_vector[i] not in [1, 2, 3, 4, 5]:
@@ -592,3 +598,27 @@ def get_user_interest_questions_results_vector(user_data):
 
     return user_interest_questions_results_vector
 
+def write_user_college_course_recommendations(user_timestamp, actual_college_course_recommendations, baseline_college_course_recommendations):
+    user_college_course_recommendations_results = [user_timestamp]
+
+    for i in range(MAX_NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS):
+        if i < len(actual_college_course_recommendations):
+            course_id_and_title = "" + actual_college_course_recommendations[i]["id"] + " " + actual_college_course_recommendations[i]["title"]
+        else:
+            course_id_and_title = ""
+
+        user_college_course_recommendations_results.append(course_id_and_title)
+
+    for i in range(MAX_NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS):
+        if i < len(baseline_college_course_recommendations):
+            course_id_and_title = "" + baseline_college_course_recommendations[i]["id"] + " " + baseline_college_course_recommendations[i]["title"]
+        else:
+            course_id_and_title = ""
+
+        user_college_course_recommendations_results.append(course_id_and_title)
+
+    print(str(user_college_course_recommendations_results))
+
+    with open(USER_COLLEGE_COURSE_RECOMMENDATIONS_DATASET_FILEPATH, 'a', newline='') as file:
+        writer = csv.writer(file, delimiter='\t')
+        writer.writerow(user_college_course_recommendations_results)
