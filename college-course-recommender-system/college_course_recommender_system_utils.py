@@ -460,10 +460,11 @@ def get_baseline_college_course_recommendations(user_interest_questions_results_
     return unique_baseline_college_course_recommendations
 
 def add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector):
-    if not IS_DEBUG:
+    if IS_DEBUG:
         for i in range(len(college_course_recommendations)):
             college_course_recommendations[i]["recommendation_justification"] = ""
-            return
+        
+        return
 
     prompt = get_gemini_prompt(college_course_recommendations, user_vector)
 
