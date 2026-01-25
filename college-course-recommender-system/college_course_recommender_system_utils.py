@@ -9,10 +9,12 @@ import re
 
 load_dotenv()
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-GEMINI_CLIENT = genai.Client(api_key=GEMINI_API_KEY)
-
 IS_DEBUG=True
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+if not IS_DEBUG:
+    GEMINI_CLIENT = genai.Client(api_key=GEMINI_API_KEY)
+
 
 CAO_COLLEGE_COURSES_FILE_LOCATION = '../datasets/cao-college-courses.json'
 USER_INTEREST_QUESTIONS_DATASET_FILEPATH = "user_interest_questions.csv"
@@ -459,7 +461,7 @@ def get_baseline_college_course_recommendations(user_interest_questions_results_
 
 def add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector):
     if not IS_DEBUG:
-        for i in range(len(parsed_college_course_justifications)):
+        for i in range(len(college_course_recommendations)):
             college_course_recommendations[i]["recommendation_justification"] = ""
             return
 
@@ -585,7 +587,7 @@ def get_user_interest_questions_results_vector(user_data):
         column_name = column_name.lower()
 
         index_to_access = user_interest_activities.index(column_name)
-        user_interest_questions_results_vector[index_to_access] = int(value) - 1
+        user_interest_questions_results_vector[index_to_access] = int(value)
 
     for i in range(len(user_interest_questions_results_vector)):
         if user_interest_questions_results_vector[i] not in [1, 2, 3, 4, 5]:
@@ -593,3 +595,19 @@ def get_user_interest_questions_results_vector(user_data):
 
     return user_interest_questions_results_vector
 
+def write_user_college_course_recommendations(user_timestamp, actual_college_course_recommendations, baseline_college_course_recommendations):
+    user_college_course_recommendations_results_df = pd.read_csv(USER_COLLEGE_COURSE_RECOMMENDATIONS_DATASET_FILEPATH, sep='\t')
+
+    user_college_course_recommendations_results = [user_timestamp]
+
+    for i in range(len(actual_college_course_recommendations)):
+        course_id_and_title = "" + actual_college_course_recommendations[i]["id"] + " " + actual_college_course_recommendations[i]["title"]
+        user_college_course_recommendations_results.append(course_id_and_title)
+
+    for i in range(len(baseline_college_course_recommendations)):
+        course_id_and_title = "" + baseline_college_course_recommendations[i]["id"] + " " + baseline_college_course_recommendations[i]["title"]
+        user_college_course_recommendations_results.append(course_id_and_title)
+
+    user_college_course_recommendations_results_df.loc[-1] = user_college_course_recommendations_results
+
+    user_college_course_recommendations_results_df.to_csv(sep='\t')
