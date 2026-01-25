@@ -1,10 +1,7 @@
 # TODO
 
-- [ ] get_user_vector using .tsv (different format)
-- [ ] figure out quiz workflow for testing
-- [ ] visual interface
+- [ ] prettify output - use markdown maybe?
 - [ ] evaluation metrics
-- [ ] load user cao college courses using .tsv
 - [ ] **ask owen** - can i recommend 30 courses?
 - [ ] who is the second reader
 
