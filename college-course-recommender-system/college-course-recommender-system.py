@@ -11,12 +11,6 @@ baseline_college_course_recommendations = get_baseline_college_course_recommenda
 
 actual_college_course_recommendations = get_college_course_recommendations(user_interest_questions_results_vector, user_college_course_preferences)
 
-write_user_college_course_recommendations(user_timestamp, actual_college_course_recommendations, baseline_college_course_recommendations)
+write_user_college_course_recommendations_to_csv(user_timestamp, actual_college_course_recommendations, baseline_college_course_recommendations)
 
-recommendation_sets = [baseline_college_course_recommendations, actual_college_course_recommendations]
-
-rd.shuffle(recommendation_sets)
-
-for i in range(len(recommendation_sets)):
-    print("\nRECOMMENDATION SET " + str(i+1) + ": \n")
-    print(get_stringified_college_course_recommendations(recommendation_sets[i]))
+write_user_college_course_recommendations_to_markdown(baseline_college_course_recommendations, actual_college_course_recommendations)
