@@ -613,31 +613,6 @@ def get_user_interest_questions_results_vector(user_data):
 
     return user_interest_questions_results_vector
 
-def write_user_college_course_recommendations_to_csv(user_timestamp_1, actual_college_course_recommendations, baseline_college_course_recommendations):
-    user_college_course_recommendations_results = [user_timestamp_1]
-
-    for i in range(MAX_NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS):
-        if i < len(actual_college_course_recommendations):
-            course_id_and_title = "" + actual_college_course_recommendations[i]["id"] + " " + actual_college_course_recommendations[i]["title"]
-        else:
-            course_id_and_title = ""
-
-        user_college_course_recommendations_results.append(course_id_and_title)
-
-    for i in range(MAX_NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS):
-        if i < len(baseline_college_course_recommendations):
-            course_id_and_title = "" + baseline_college_course_recommendations[i]["id"] + " " + baseline_college_course_recommendations[i]["title"]
-        else:
-            course_id_and_title = ""
-
-        user_college_course_recommendations_results.append(course_id_and_title)
-
-    print(str(user_college_course_recommendations_results))
-
-    with open(USER_COLLEGE_COURSE_RECOMMENDATIONS_DATASET_FILEPATH, 'a', newline='') as file:
-        writer = csv.writer(file, delimiter='\t')
-        writer.writerow(user_college_course_recommendations_results)
-
 def write_user_college_course_recommendations_to_markdown(actual_college_course_recommendations, baseline_college_course_recommendations):
     markdown_output = ""
     recommendation_sets = [actual_college_course_recommendations, baseline_college_course_recommendations]
@@ -649,6 +624,72 @@ def write_user_college_course_recommendations_to_markdown(actual_college_course_
     with open("user-college-course-recommendations.md", "w") as file:
         file.write(markdown_output)
 
-def write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_2):
+def write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_2, actual_college_course_recommendations, baseline_college_course_recommendations):
+    user_ground_truth_courses = get_user_ground_truth_courses(user_data_part_2)
+
+    actual_relevant_college_courses = get_relevant_college_courses(user_data_part_2, SURVEY_PART_2_RESPONSES_DATASET_RECOMMENDATION_SET_1_RELEVANCE_COLUMN_NAME, actual_college_course_recommendations)
+    baseline_relevant_college_courses = get_relevant_college_courses(user_data_part_2, SURVEY_PART_2_RESPONSES_DATASET_RECOMMENDATION_SET_2_RELEVANCE_COLUMN_NAME, baseline_college_course_recommendations)
+
+    actual_diversity_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_DIVERSITY_SET_1_COLUMN_NAME]
+    baseline_diversity_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_DIVERSITY_SET_2_COLUMN_NAME]
+
+    actual_trust_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_1_COLUMN_NAME]
+    baseline_trust_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_2_COLUMN_NAME]
+
+    # TODO need to get:
+    # * 
+
+    actual_precision = get_precision(len(), len(actual_college_course_recommendations))
+    baseline_precision = get_precision()
+
+    actual_recall = get_recall()
+    baseline_recall = get_recall()
+
+    actual_f1_score = get_f1_score(actual_precision, actual_recall)
+    baseline_f1_score = get_f1_score(baseline_precision, baseline_recall)
+
+    actual_novelty = get_novelty(user_ground_truth_courses, actual_college_course_recommendations)
+    baseline_novelty = get_novelty(user_ground_truth_courses, baseline_college_course_recommendations)
+
+    actual_serendipity = get_serendipity()
+    baseline_serendipity = get_serendipity()
+
+    # user_evaluations.to_csv("user-evaluations.tsv", sep='\t')
+    # with open(, "w") as file:
+    #     file.write(markdown_output)
+
+def get_user_ground_truth_courses(user_data_part_2):
+    raw_courses = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_GROUND_TRUTH_COLLEGE_COURSE_COLUMN_NAME]
+
+    courses = re.split(r'\d\. +', raw_courses)
+    courses.pop(0)
+
+    for i in range(len(courses)):
+        courses[i] = courses[i].strip()
+
+    return courses
+
+def get_relevant_college_courses(user_data_part_2, column_name, college_course_recommendations):
+    relevant_college_courses_indices = re.findall(r'\d+', user_data_part_2[column_name])
+
+    relevant_college_courses = []
+
+    for i in relevant_college_courses_indices:
+        relevant_college_courses.append(college_course_recommendations[i])
+
+    return relevant_college_courses
+
+def get_precision(num_relevant_recommended_items, num_actual_college_course_recommendations):
+    return num_relevant_recommended_items / num_actual_college_course_recommendations
+
+def get_recall():
     pass
-    # TODO
+
+def get_f1_score(precision, recall):
+    return 2.0 * ((precision * recall) / (precision + recall))
+
+def get_novelty():
+    pass
+
+def get_serendipity():
+    pass
