@@ -20,10 +20,22 @@ if not IS_DEBUG:
 CAO_COLLEGE_COURSES_FILE_LOCATION = '../datasets/cao-college-courses.json'
 USER_INTEREST_QUESTIONS_DATASET_FILEPATH = "user_interest_questions.csv"
 SURVEY_PART_1_RESPONSES_DATASET_LOCATION = "survey-part-1-responses.tsv"
+SURVEY_PART_2_RESPONSES_DATASET_LOCATION = "survey-part-2-responses.tsv"
+
+# Column names
 SURVEY_PART_1_RESPONSES_DATASET_NFQ_LEVELS_COLUMN_NAME = "NFQ Levels"
 SURVEY_PART_1_RESPONSES_DATASET_EXPECTED_LEAVING_CERT_POINTS_COLUMN_NAME = "Expected Leaving Cert Points"
 SURVEY_PART_1_RESPONSES_DATASET_COLLEGES_STARTING_COLUMN_NAME = "Colleges - "
-SURVEY_PART_2_RESPONSES_DATASET_LOCATION = "survey-part-2-responses.tsv"
+SURVEY_PART_2_RESPONSES_DATASET_GROUND_TRUTH_COLLEGE_COURSE_COLUMN_NAME = "Please list the courses (Level 8) on your CAO Application."
+RECOMMENDATION_SET_1_PREAMBLE = "[RECOMMENDATION SET 1] "
+RECOMMENDATION_SET_2_PREAMBLE = "[RECOMMENDATION SET 2] "
+SURVEY_PART_2_RESPONSES_DATASET_RECOMMENDATION_SET_1_RELEVANCE_COLUMN_NAME = RECOMMENDATION_SET_1_PREAMBLE + "Please take some time to look at your college course Recommendations."
+SURVEY_PART_2_RESPONSES_DATASET_RECOMMENDATION_SET_2_RELEVANCE_COLUMN_NAME = RECOMMENDATION_SET_2_PREAMBLE + "Please take some time to look at your college course Recommendations."
+SURVEY_PART_2_RESPONSES_DATASET_DIVERSITY_SET_1_COLUMN_NAME = RECOMMENDATION_SET_1_PREAMBLE + "How much would you agree with the following statement?  The courses recommended from set 1 offered a diverse variety of choices (e.g. different fields of study, colleges, etc.)"
+SURVEY_PART_2_RESPONSES_DATASET_DIVERSITY_SET_2_COLUMN_NAME = RECOMMENDATION_SET_2_PREAMBLE + "How much would you agree with the following statement?  The courses recommended from set 2 offered a diverse variety of choices (e.g. different fields of study, colleges, etc.)"
+SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_1_COLUMN_NAME = RECOMMENDATION_SET_1_PREAMBLE + "How much would you agree with the following statement?  I trust that the system recommended courses from set 1 that are well-suited to my interests and preferences."
+SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_2_COLUMN_NAME = RECOMMENDATION_SET_2_PREAMBLE + "How much would you agree with the following statement?  I trust that the system recommended courses from set 2 that are well-suited to my interests and preferences."
+
 USER_COLLEGE_COURSE_RECOMMENDATIONS_DATASET_FILEPATH = "user-college-course-recommendations.tsv"
 
 RIASEC_INTERESTS = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
@@ -530,8 +542,8 @@ def get_stringified_interests_or_categories(interests_or_categories):
 
     return stringified_interests_or_categories
 
-def get_user_data_and_timestamp():
-    df = pd.read_csv(SURVEY_PART_1_RESPONSES_DATASET_LOCATION, sep='\t')
+def get_user_data_and_timestamp(survey_part_x_responses_dataset_location):
+    df = pd.read_csv(survey_part_x_responses_dataset_location, sep='\t')
 
     df = df.fillna("")
 
@@ -601,8 +613,8 @@ def get_user_interest_questions_results_vector(user_data):
 
     return user_interest_questions_results_vector
 
-def write_user_college_course_recommendations_to_csv(user_timestamp, actual_college_course_recommendations, baseline_college_course_recommendations):
-    user_college_course_recommendations_results = [user_timestamp]
+def write_user_college_course_recommendations_to_csv(user_timestamp_1, actual_college_course_recommendations, baseline_college_course_recommendations):
+    user_college_course_recommendations_results = [user_timestamp_1]
 
     for i in range(MAX_NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS):
         if i < len(actual_college_course_recommendations):
@@ -636,3 +648,7 @@ def write_user_college_course_recommendations_to_markdown(actual_college_course_
 
     with open("user-college-course-recommendations.md", "w") as file:
         file.write(markdown_output)
+
+def write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_2):
+    pass
+    # TODO

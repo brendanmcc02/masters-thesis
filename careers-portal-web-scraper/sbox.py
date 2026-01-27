@@ -1,4 +1,3 @@
-#```get riasec makeup of each category - could apply this as a mask to the user's riasec profile?
 import json
 from collections import defaultdict
 
