@@ -8,10 +8,5 @@ courses = json.load(file)
 ids = set()
 reps = defaultdict(int)
 for course in courses:
-    if course["id"] in ids:
-        reps[course["id"]] += 1
-    else:
-        ids.add(course["id"])
-
-for k in reps.keys():
-    print(str(k) + ": " + str(reps[k]))
+    if len(course["id"]) != 5:
+        print(course["id"])

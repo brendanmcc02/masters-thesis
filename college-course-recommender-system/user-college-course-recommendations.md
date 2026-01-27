@@ -1,6 +1,7 @@
 # RECOMMENDATION SET 1
 
 * **1. TR031 Mathematics**
+    * Preprocessed title: mathemat
     * Trinity College Dublin
     * **578** points
     * **96.5%** similarity
@@ -9,6 +10,7 @@
 
 
 * **2. DN520 Statistics**
+    * Preprocessed title: statist
     * University College Dublin
     * **420** points
     * **95.3%** similarity
@@ -17,6 +19,7 @@
 
 
 * **3. TR035 Theoretical Physics**
+    * Preprocessed title: physic
     * Trinity College Dublin
     * **566** points
     * **82.9%** similarity
@@ -25,6 +28,7 @@
 
 
 * **4. DN200 Science, Mathematics & Education**
+    * Preprocessed title: mathemat educ
     * University College Dublin
     * **544** points
     * **66.7%** similarity
@@ -33,6 +37,7 @@
 
 
 * **5. DN201 Computer Science**
+    * Preprocessed title: comput
     * University College Dublin
     * **540** points
     * **90.1%** similarity
@@ -41,6 +46,7 @@
 
 
 * **6. DN700 CSS Computational Social Science**
+    * Preprocessed title: comput social
     * University College Dublin
     * **490** points
     * **76.4%** similarity
@@ -49,6 +55,7 @@
 
 
 * **7. DN250 Agricultural Systems Technology - Agricultural Science**
+    * Preprocessed title: agricultur technolog
     * University College Dublin
     * **431** points
     * **74.6%** similarity
@@ -57,6 +64,7 @@
 
 
 * **8. TR197 Computer Science/Economics**
+    * Preprocessed title: comput econom
     * Trinity College Dublin
     * **554** points
     * **72.8%** similarity
@@ -65,6 +73,7 @@
 
 
 * **9. TR009 Music Education**
+    * Preprocessed title: music educ
     * Trinity College Dublin
     * **656** points
     * **46.6%** similarity
@@ -73,6 +82,7 @@
 
 
 * **10. DN760 EGA Education (Education and Gaeilge)**
+    * Preprocessed title: educ gaeilg
     * University College Dublin
     * **442** points
     * **44.4%** similarity
@@ -81,6 +91,7 @@
 
 
 * **11. DN760 EML Education (Education and Modern Languages)**
+    * Preprocessed title: educ languag
     * University College Dublin
     * **442** points
     * **44.4%** similarity
@@ -89,6 +100,7 @@
 
 
 * **12. DN400 Medicine**
+    * Preprocessed title: medicin
     * University College Dublin
     * **738** points
     * **88.0%** similarity
@@ -97,6 +109,7 @@
 
 
 * **13. DN300 Veterinary Medicine**
+    * Preprocessed title: veterinari medicin
     * University College Dublin
     * **589** points
     * **87.7%** similarity
@@ -105,6 +118,7 @@
 
 
 * **14. TR054 Occupational Therapy**
+    * Preprocessed title: occup therapi
     * Trinity College Dublin
     * **543** points
     * **87.3%** similarity
@@ -113,6 +127,7 @@
 
 
 * **15. TR911 Children's and General Nursing (Integrated)**
+    * Preprocessed title: children nurs
     * Trinity College Dublin
     * **520** points
     * **87.1%** similarity
@@ -121,6 +136,7 @@
 
 
 * **16. TR060 Biological and Biomedical Sciences**
+    * Preprocessed title: biolog biomed
     * Trinity College Dublin
     * **554** points
     * **98.4%** similarity
@@ -129,6 +145,7 @@
 
 
 * **17. DN262 Human Nutrition**
+    * Preprocessed title: human nutrit
     * University College Dublin
     * **530** points
     * **87.1%** similarity
@@ -137,6 +154,7 @@
 
 
 * **18. RC006 Advanced Therapeutic Technologies**
+    * Preprocessed title: therapeut technolog
     * Royal College of Surgeons in Ireland
     * **476** points
     * **86.3%** similarity
@@ -145,6 +163,7 @@
 
 
 * **19. DN261 Food Science**
+    * Preprocessed title: food
     * University College Dublin
     * **466** points
     * **86.1%** similarity
@@ -153,6 +172,7 @@
 
 
 * **20. TR006 Psychology**
+    * Preprocessed title: psycholog
     * Trinity College Dublin
     * **577** points
     * **97.5%** similarity
@@ -163,6 +183,7 @@
 # RECOMMENDATION SET 2
 
 * **1. TR051 Medicine**
+    * Preprocessed title: medicin
     * Trinity College Dublin
     * **739** points
     * **73.0%** similarity
@@ -171,6 +192,7 @@
 
 
 * **2. TR009 Music Education**
+    * Preprocessed title: music educ
     * Trinity College Dublin
     * **656** points
     * **44.1%** similarity
@@ -179,6 +201,7 @@
 
 
 * **3. TR072 Pharmacy**
+    * Preprocessed title: pharmaci
     * Trinity College Dublin
     * **601** points
     * **69.6%** similarity
@@ -187,6 +210,7 @@
 
 
 * **4. DN440 Biomedical, Health and Life Sciences**
+    * Preprocessed title: biomed health life
     * University College Dublin
     * **589** points
     * **55.4%** similarity
@@ -195,6 +219,7 @@
 
 
 * **5. TR018 Law and French**
+    * Preprocessed title: law french
     * Trinity College Dublin
     * **589** points
     * **37.1%** similarity
@@ -203,6 +228,7 @@
 
 
 * **6. DN300 Veterinary Medicine**
+    * Preprocessed title: veterinari medicin
     * University College Dublin
     * **589** points
     * **72.9%** similarity
@@ -211,6 +237,7 @@
 
 
 * **7. TR015 Philosophy, Political Science, Economics and Sociology**
+    * Preprocessed title: philosophi polit econom sociolog
     * Trinity College Dublin
     * **581** points
     * **43.2%** similarity
@@ -219,6 +246,7 @@
 
 
 * **8. TR031 Mathematics**
+    * Preprocessed title: mathemat
     * Trinity College Dublin
     * **578** points
     * **57.3%** similarity
@@ -227,6 +255,7 @@
 
 
 * **9. DN420 Physiotherapy**
+    * Preprocessed title: physiotherapi
     * University College Dublin
     * **578** points
     * **67.6%** similarity
@@ -235,6 +264,7 @@
 
 
 * **10. TR032 Engineering**
+    * Preprocessed title: engin
     * Trinity College Dublin
     * **577** points
     * **50.3%** similarity
@@ -243,6 +273,7 @@
 
 
 * **11. TR006 Psychology**
+    * Preprocessed title: psycholog
     * Trinity College Dublin
     * **577** points
     * **56.7%** similarity
@@ -251,6 +282,7 @@
 
 
 * **12. TR035 Theoretical Physics**
+    * Preprocessed title: physic
     * Trinity College Dublin
     * **566** points
     * **53.4%** similarity
@@ -259,6 +291,7 @@
 
 
 * **13. TR024 European Studies**
+    * Preprocessed title: european
     * Trinity College Dublin
     * **564** points
     * **36.9%** similarity
@@ -267,6 +300,7 @@
 
 
 * **14. TR090 Business Studies and Spanish**
+    * Preprocessed title: busi spanish
     * Trinity College Dublin
     * **556** points
     * **22.2%** similarity
@@ -275,6 +309,7 @@
 
 
 * **15. DN100 Architecture**
+    * Preprocessed title: architectur
     * University College Dublin
     * **555** points
     * **40.3%** similarity
@@ -283,6 +318,7 @@
 
 
 * **16. DN650 Commerce**
+    * Preprocessed title: commerc
     * University College Dublin
     * **554** points
     * **25.2%** similarity
@@ -291,6 +327,7 @@
 
 
 * **17. DN410 Radiography**
+    * Preprocessed title: radiographi
     * University College Dublin
     * **545** points
     * **52.3%** similarity
@@ -299,6 +336,7 @@
 
 
 * **18. DN200 Chemistry**
+    * Preprocessed title: chemic
     * University College Dublin
     * **544** points
     * **45.3%** similarity
@@ -307,6 +345,7 @@
 
 
 * **19. DN200 Earth and Environmental Sciences**
+    * Preprocessed title: earth environment
     * University College Dublin
     * **544** points
     * **42.1%** similarity
@@ -315,6 +354,7 @@
 
 
 * **20. TR443 History/History of Art and Architecture**
+    * Preprocessed title: histori art architectur
     * Trinity College Dublin
     * **544** points
     * **37.1%** similarity

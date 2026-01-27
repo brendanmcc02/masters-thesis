@@ -36,8 +36,6 @@ SURVEY_PART_2_RESPONSES_DATASET_DIVERSITY_SET_2_COLUMN_NAME = RECOMMENDATION_SET
 SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_1_COLUMN_NAME = RECOMMENDATION_SET_1_PREAMBLE + "How much would you agree with the following statement?  I trust that the system recommended courses from set 1 that are well-suited to my interests and preferences."
 SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_2_COLUMN_NAME = RECOMMENDATION_SET_2_PREAMBLE + "How much would you agree with the following statement?  I trust that the system recommended courses from set 2 that are well-suited to my interests and preferences."
 
-USER_COLLEGE_COURSE_RECOMMENDATIONS_DATASET_FILEPATH = "user-college-course-recommendations.tsv"
-
 RIASEC_INTERESTS = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
 POINTS_VECTOR_DIMENSION_SIZE = 1
 
@@ -636,23 +634,20 @@ def write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_2, actual
     actual_trust_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_1_COLUMN_NAME]
     baseline_trust_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_2_COLUMN_NAME]
 
-    # TODO need to get:
-    # * 
+    actual_precision = get_precision(len(actual_relevant_college_courses), len(actual_college_course_recommendations))
+    baseline_precision = get_precision(len(baseline_relevant_college_courses), len(baseline_college_course_recommendations))
 
-    actual_precision = get_precision(len(), len(actual_college_course_recommendations))
-    baseline_precision = get_precision()
+    actual_recall = get_recall(user_ground_truth_courses, actual_relevant_college_courses)
+    baseline_recall = get_recall(user_ground_truth_courses, baseline_relevant_college_courses)
 
-    actual_recall = get_recall()
-    baseline_recall = get_recall()
+    # actual_f1_score = get_f1_score(actual_precision, actual_recall)
+    # baseline_f1_score = get_f1_score(baseline_precision, baseline_recall)
 
-    actual_f1_score = get_f1_score(actual_precision, actual_recall)
-    baseline_f1_score = get_f1_score(baseline_precision, baseline_recall)
+    # actual_novelty = get_novelty(user_ground_truth_courses, actual_college_course_recommendations)
+    # baseline_novelty = get_novelty(user_ground_truth_courses, baseline_college_course_recommendations)
 
-    actual_novelty = get_novelty(user_ground_truth_courses, actual_college_course_recommendations)
-    baseline_novelty = get_novelty(user_ground_truth_courses, baseline_college_course_recommendations)
-
-    actual_serendipity = get_serendipity()
-    baseline_serendipity = get_serendipity()
+    # actual_serendipity = get_serendipity()
+    # baseline_serendipity = get_serendipity()
 
     # user_evaluations.to_csv("user-evaluations.tsv", sep='\t')
     # with open(, "w") as file:
@@ -666,8 +661,17 @@ def get_user_ground_truth_courses(user_data_part_2):
 
     for i in range(len(courses)):
         courses[i] = courses[i].strip()
+        courses[i] = parse_id_and_title_from_cao_college_course(courses[i])
 
     return courses
+
+def parse_id_and_title_from_cao_college_course(raw_id_and_course):
+    # TR033
+    # TR033 ABC
+    # TR033 - TR033
+
+    id = re.search(r'[A-Z]{2}\d{3}', raw_id_and_course)
+    print(process(id))
 
 def get_relevant_college_courses(user_data_part_2, column_name, college_course_recommendations):
     relevant_college_courses_indices = re.findall(r'\d+', user_data_part_2[column_name])
@@ -675,15 +679,33 @@ def get_relevant_college_courses(user_data_part_2, column_name, college_course_r
     relevant_college_courses = []
 
     for i in relevant_college_courses_indices:
-        relevant_college_courses.append(college_course_recommendations[i])
+        relevant_college_courses.append(college_course_recommendations[int(i)])
 
     return relevant_college_courses
 
 def get_precision(num_relevant_recommended_items, num_actual_college_course_recommendations):
     return num_relevant_recommended_items / num_actual_college_course_recommendations
 
-def get_recall():
-    pass
+def get_recall(user_ground_truth_courses, relevant_college_courses):
+    all_relevant_courses = user_ground_truth_courses.copy()
+
+    for course in relevant_college_courses:
+        if is_course_new(course, all_relevant_courses):
+            all_relevant_courses.append(course.copy())
+
+    print(len(all_relevant_courses))
+
+    return len(relevant_college_courses) / len(all_relevant_courses)
+
+def is_course_new(course, all_relevant_courses):
+    for relevant_course in all_relevant_courses:
+        if course["id"] == relevant_course["id"]:
+            if preprocess_text(course["title"]) == preprocess_text(relevant_course["title"]):
+                return False
+            else:
+                print("id match but not title match!")
+
+    return True
 
 def get_f1_score(precision, recall):
     return 2.0 * ((precision * recall) / (precision + recall))
