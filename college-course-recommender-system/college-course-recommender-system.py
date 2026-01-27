@@ -1,5 +1,4 @@
 from college_course_recommender_system_utils import *
-import random as rd
 
 user_data, user_timestamp = get_user_data_and_timestamp()
 
@@ -13,4 +12,4 @@ actual_college_course_recommendations = get_college_course_recommendations(user_
 
 write_user_college_course_recommendations_to_csv(user_timestamp, actual_college_course_recommendations, baseline_college_course_recommendations)
 
-write_user_college_course_recommendations_to_markdown(baseline_college_course_recommendations, actual_college_course_recommendations)
+write_user_college_course_recommendations_to_markdown(actual_college_course_recommendations, baseline_college_course_recommendations)

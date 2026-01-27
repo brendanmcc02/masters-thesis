@@ -7,7 +7,6 @@ from google import genai
 import os
 from dotenv import load_dotenv
 import re
-import random as rd
 
 load_dotenv()
 
@@ -411,20 +410,20 @@ def is_course_filtered(course, user_college_course_preferences):
             course["college"] in user_college_course_preferences["colleges"] and 
             (course["points"] <= user_college_course_preferences["expected_points"] or course['isAdditionalPortfolioTestInterviewRequired']))
 
-def get_stringified_markdown_college_course_recommendations(college_course_recommendations):
+def get_stringified_markdown_college_course_recommendations(college_course_recommendations, is_gemini_prompt):
     stringified_college_course_recommendations = ""
 
     for i in range(len(college_course_recommendations)):
         stringified_college_course_recommendations += "* **" + str(i+1) + ". " + college_course_recommendations[i]["id"] + " " + college_course_recommendations[i]["title"] + "**\n"
 
-        # if IS_DEBUG:
-        #     stringified_college_course_recommendations += "    * Preprocessed title: " + college_course_recommendations[i]["preprocessed_title"] + "\n"
+        if IS_DEBUG:
+            stringified_college_course_recommendations += "    * Preprocessed title: " + college_course_recommendations[i]["preprocessed_title"] + "\n"
 
         stringified_college_course_recommendations += "    * " + college_course_recommendations[i]["college"] + "\n"
 
-        # if not IS_DEBUG:
-        #     stringified_college_course_recommendations += "    * RIASEC Interests: " + get_stringified_interests_or_categories(college_course_recommendations[i]["riasec_interests"]) + "\n"
-        #     stringified_college_course_recommendations += "    * Categories: " + get_stringified_interests_or_categories(college_course_recommendations[i]["categories"]) + "\n"
+        if is_gemini_prompt:
+            stringified_college_course_recommendations += "    * RIASEC Interests: " + get_stringified_interests_or_categories(college_course_recommendations[i]["riasec_interests"]) + "\n"
+            stringified_college_course_recommendations += "    * Categories: " + get_stringified_interests_or_categories(college_course_recommendations[i]["categories"]) + "\n"
 
         stringified_college_course_recommendations += "    * **" + str(college_course_recommendations[i]["points"]) + "** points\n"
         stringified_college_course_recommendations += "    * **" + str(round(college_course_recommendations[i]["similarity_score"]*100.0, 1)) + "%** similarity\n"
@@ -433,7 +432,8 @@ def get_stringified_markdown_college_course_recommendations(college_course_recom
         # if IS_DEBUG:
         #     stringified_college_course_recommendations += "    * Vectorized Representation: " + str(college_course_recommendations[i]['vectorized_representation']) + "\n"
         
-        stringified_college_course_recommendations += "    * **Why we recommended this:** " + college_course_recommendations[i]['recommendation_justification'] + "\n"
+        if not is_gemini_prompt:
+            stringified_college_course_recommendations += "    * **Why we recommended this:** " + college_course_recommendations[i]['recommendation_justification'] + "\n"
         
         stringified_college_course_recommendations += "\n\n"
 
@@ -494,7 +494,7 @@ def get_gemini_prompt(college_course_recommendations, user_vector):
 
     gemini_prompt += "User College Course Category Interest Scores:\n\n" + get_stringified_college_course_categories_vector(user_vector[STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX:])
 
-    gemini_prompt += "And here are the college courses that were recommended to the user:\n\n" + get_stringified_college_course_recommendations(college_course_recommendations)
+    gemini_prompt += "And here are the college courses that were recommended to the user:\n\n" + get_stringified_markdown_college_course_recommendations(college_course_recommendations, is_gemini_prompt=True)
 
     gemini_prompt += "\nI would like you to generate a justification for each recommendation. The justification for each recommendation should be no longer than 30 words. Please do not directly cite any raw score values in your written justification, as the user cannot see this. Please use the name of the course in your justification, and use the title of the course instead of saying \"this course\", etc.. I would like your output to strictly follow the format provided below - do not add any additional text, as I will parse your response:\nSample Output:\n```\n1. With a maximum Investigative score, your profile aligns strongly with Mathematics, which demands the high-level logical reasoning, analytical depth, and complex problem-solving skills you naturally possess.\n2. Computer Science suits your Investigative nature and technical interests, offering a perfect outlet for your strong analytical capabilities through software engineering, programming, and developing innovative technological solutions.\n3. Dental Science uniquely balances your highest traits; it requires the intellectual rigor of an investigator, the social empathy for patient care, and the realistic coordination for clinical procedures.\n4. etc.\n```"
 
@@ -626,15 +626,13 @@ def write_user_college_course_recommendations_to_csv(user_timestamp, actual_coll
         writer = csv.writer(file, delimiter='\t')
         writer.writerow(user_college_course_recommendations_results)
 
-def write_user_college_course_recommendations_to_markdown(baseline_college_course_recommendations, actual_college_course_recommendations):
+def write_user_college_course_recommendations_to_markdown(actual_college_course_recommendations, baseline_college_course_recommendations):
     markdown_output = ""
-    recommendation_sets = [baseline_college_course_recommendations, actual_college_course_recommendations]
-
-    rd.shuffle(recommendation_sets)
+    recommendation_sets = [actual_college_course_recommendations, baseline_college_course_recommendations]
 
     for i in range(len(recommendation_sets)):
         markdown_output += "# RECOMMENDATION SET " + str(i+1) + "\n\n"
-        markdown_output += get_stringified_markdown_college_course_recommendations(recommendation_sets[i])
+        markdown_output += get_stringified_markdown_college_course_recommendations(recommendation_sets[i], is_gemini_prompt=False)
 
     with open("user-college-course-recommendations.md", "w") as file:
         file.write(markdown_output)
