@@ -623,7 +623,7 @@ def write_user_college_course_recommendations_to_markdown(actual_college_course_
         file.write(markdown_output)
 
 def write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_2, actual_college_course_recommendations, baseline_college_course_recommendations):
-    preprocessed_unique_user_ground_truth_courses = get_user_ground_truth_courses(user_data_part_2)
+    preprocessed_unique_user_ground_truth_courses = get_preprocessed_unique_user_ground_truth_courses(user_data_part_2)
 
     actual_recommended_relevant_college_courses = get_recommended_relevant_college_courses(user_data_part_2, SURVEY_PART_2_RESPONSES_DATASET_RECOMMENDATION_SET_1_RELEVANCE_COLUMN_NAME, actual_college_course_recommendations)
     # baseline_recommended_relevant_college_courses = get_recommended_relevant_college_courses(user_data_part_2, SURVEY_PART_2_RESPONSES_DATASET_RECOMMENDATION_SET_2_RELEVANCE_COLUMN_NAME, baseline_college_course_recommendations)
@@ -640,10 +640,10 @@ def write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_2, actual
     actual_recall = get_recall(preprocessed_unique_user_ground_truth_courses, actual_recommended_relevant_college_courses)
     # baseline_recall = get_recall(preprocessed_unique_user_ground_truth_courses, baseline_recommended_relevant_college_courses)
 
-    # actual_f1_score = get_f1_score(actual_precision, actual_recall)
+    actual_f1_score = get_f1_score(actual_precision, actual_recall)
     # baseline_f1_score = get_f1_score(baseline_precision, baseline_recall)
 
-    # actual_novelty = get_novelty(preprocessed_unique_user_ground_truth_courses, actual_college_course_recommendations)
+    actual_novelty = get_novelty(actual_college_course_recommendations, preprocessed_unique_user_ground_truth_courses)
     # baseline_novelty = get_novelty(preprocessed_unique_user_ground_truth_courses, baseline_college_course_recommendations)
 
     # actual_serendipity = get_serendipity()
@@ -653,7 +653,7 @@ def write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_2, actual
     # with open(, "w") as file:
     #     file.write(markdown_output)
 
-def get_user_ground_truth_courses(user_data_part_2):
+def get_preprocessed_unique_user_ground_truth_courses(user_data_part_2):
     raw_courses = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_GROUND_TRUTH_COLLEGE_COURSE_COLUMN_NAME]
 
     courses = re.split(r'\d\. +', raw_courses)
@@ -667,11 +667,11 @@ def get_user_ground_truth_courses(user_data_part_2):
     for i in range(len(courses)):
         courses[i] = preprocess_college_title(courses[i])
 
-    courses = list(set(courses)) # remove duplicates
+    preprocessed_unique_user_ground_truth_courses = list(set(courses))
 
-    print("Ground truth courses after uniqueifying and preprocessing:\n" + str(courses) + "\n\n")
+    print("Ground truth courses after uniqueifying and preprocessing:\n" + str(preprocessed_unique_user_ground_truth_courses) + "\n\n")
 
-    return courses
+    return preprocessed_unique_user_ground_truth_courses
 
 def parse_title_from_cao_college_course(raw_course_id_and_title):
     # TR033 - TR033
@@ -709,11 +709,11 @@ def get_recommended_relevant_college_courses(user_data_part_2, column_name, coll
 
     return recommended_relevant_college_courses
 
-def get_precision(num_relevant_recommended_items, num_actual_college_course_recommendations):
-    return num_relevant_recommended_items / num_actual_college_course_recommendations
+def get_precision(num_relevant_recommended_items, num_college_course_recommendations):
+    return num_relevant_recommended_items / num_college_course_recommendations
 
-def get_recall(user_ground_truth_courses, recommended_relevant_college_courses):
-    all_relevant_courses = user_ground_truth_courses.copy()
+def get_recall(preprocessed_unique_user_ground_truth_courses, recommended_relevant_college_courses):
+    all_relevant_courses = preprocessed_unique_user_ground_truth_courses.copy()
 
     for course in recommended_relevant_college_courses:
         if is_course_new(course, all_relevant_courses):
@@ -730,8 +730,14 @@ def is_course_new(course, all_preprocessed_unique_relevant_courses):
 def get_f1_score(precision, recall):
     return 2.0 * ((precision * recall) / (precision + recall))
 
-def get_novelty():
-    pass
+def get_novelty(college_course_recommendations, preprocessed_unique_user_ground_truth_courses):
+    number_of_recommendations_not_in_user_ground_truth = 0
+
+    for rec in college_course_recommendations:
+        if rec["preprocessed_title"] not in preprocessed_unique_user_ground_truth_courses:
+            number_of_recommendations_not_in_user_ground_truth += 1
+
+    return number_of_recommendations_not_in_user_ground_truth / len(college_course_recommendations)
 
 def get_serendipity():
     pass
