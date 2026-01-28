@@ -1,5 +1,5 @@
 # TODO
 
+- [ ] testing on metrics- sanity check
 - [ ] ethics
-- [ ] evaluation metrics
 - [ ] who is the second reader
