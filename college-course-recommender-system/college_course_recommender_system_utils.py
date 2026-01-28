@@ -21,6 +21,7 @@ CAO_COLLEGE_COURSES_FILE_LOCATION = '../datasets/cao-college-courses.json'
 USER_INTEREST_QUESTIONS_DATASET_FILEPATH = "user_interest_questions.csv"
 SURVEY_PART_1_RESPONSES_DATASET_LOCATION = "survey-part-1-responses.tsv"
 SURVEY_PART_2_RESPONSES_DATASET_LOCATION = "survey-part-2-responses.tsv"
+USER_EVALUATION_METRICS_DATASET_FILEPATH = "user-evaluation-metrics.tsv"
 
 # Column names
 SURVEY_PART_1_RESPONSES_DATASET_NFQ_LEVELS_COLUMN_NAME = "NFQ Levels"
@@ -35,6 +36,7 @@ SURVEY_PART_2_RESPONSES_DATASET_DIVERSITY_SET_1_COLUMN_NAME = RECOMMENDATION_SET
 SURVEY_PART_2_RESPONSES_DATASET_DIVERSITY_SET_2_COLUMN_NAME = RECOMMENDATION_SET_2_PREAMBLE + "How much would you agree with the following statement?  The courses recommended from set 2 offered a diverse variety of choices (e.g. different fields of study, colleges, etc.)"
 SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_1_COLUMN_NAME = RECOMMENDATION_SET_1_PREAMBLE + "How much would you agree with the following statement?  I trust that the system recommended courses from set 1 that are well-suited to my interests and preferences."
 SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_2_COLUMN_NAME = RECOMMENDATION_SET_2_PREAMBLE + "How much would you agree with the following statement?  I trust that the system recommended courses from set 2 that are well-suited to my interests and preferences."
+SURVEY_PART_2_RESPONSES_DATASET_FEEDBACK_COLUMN_NAME = "Any feedback?"
 
 RIASEC_INTERESTS = ['realistic', 'investigative', 'artistic', 'social', 'enterprising', 'conventional']
 POINTS_VECTOR_DIMENSION_SIZE = 1
@@ -622,36 +624,38 @@ def write_user_college_course_recommendations_to_markdown(actual_college_course_
     with open("user-college-course-recommendations.md", "w") as file:
         file.write(markdown_output)
 
-def write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_2, actual_college_course_recommendations, baseline_college_course_recommendations):
+def write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_1, user_timestamp_part_2, actual_college_course_recommendations, baseline_college_course_recommendations):
     preprocessed_unique_user_ground_truth_courses = get_preprocessed_unique_user_ground_truth_courses(user_data_part_2)
 
     actual_recommended_relevant_college_courses = get_recommended_relevant_college_courses(user_data_part_2, SURVEY_PART_2_RESPONSES_DATASET_RECOMMENDATION_SET_1_RELEVANCE_COLUMN_NAME, actual_college_course_recommendations)
-    # baseline_recommended_relevant_college_courses = get_recommended_relevant_college_courses(user_data_part_2, SURVEY_PART_2_RESPONSES_DATASET_RECOMMENDATION_SET_2_RELEVANCE_COLUMN_NAME, baseline_college_course_recommendations)
+    baseline_recommended_relevant_college_courses = get_recommended_relevant_college_courses(user_data_part_2, SURVEY_PART_2_RESPONSES_DATASET_RECOMMENDATION_SET_2_RELEVANCE_COLUMN_NAME, baseline_college_course_recommendations)
 
-    actual_diversity_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_DIVERSITY_SET_1_COLUMN_NAME]
-    # baseline_diversity_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_DIVERSITY_SET_2_COLUMN_NAME]
+    actual_diversity = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_DIVERSITY_SET_1_COLUMN_NAME]
+    baseline_diversity = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_DIVERSITY_SET_2_COLUMN_NAME]
 
-    actual_trust_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_1_COLUMN_NAME]
-    # baseline_trust_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_2_COLUMN_NAME]
+    actual_trust = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_1_COLUMN_NAME]
+    baseline_trust = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_2_COLUMN_NAME]
 
     actual_precision = get_precision(len(actual_recommended_relevant_college_courses), len(actual_college_course_recommendations))
-    # baseline_precision = get_precision(len(baseline_recommended_relevant_college_courses), len(baseline_college_course_recommendations))
+    baseline_precision = get_precision(len(baseline_recommended_relevant_college_courses), len(baseline_college_course_recommendations))
 
     actual_recall = get_recall(preprocessed_unique_user_ground_truth_courses, actual_recommended_relevant_college_courses)
-    # baseline_recall = get_recall(preprocessed_unique_user_ground_truth_courses, baseline_recommended_relevant_college_courses)
+    baseline_recall = get_recall(preprocessed_unique_user_ground_truth_courses, baseline_recommended_relevant_college_courses)
 
     actual_f1_score = get_f1_score(actual_precision, actual_recall)
-    # baseline_f1_score = get_f1_score(baseline_precision, baseline_recall)
+    baseline_f1_score = get_f1_score(baseline_precision, baseline_recall)
 
     actual_novelty = get_novelty(actual_college_course_recommendations, preprocessed_unique_user_ground_truth_courses)
-    # baseline_novelty = get_novelty(preprocessed_unique_user_ground_truth_courses, baseline_college_course_recommendations)
+    baseline_novelty = get_novelty(baseline_college_course_recommendations, preprocessed_unique_user_ground_truth_courses)
 
-    # actual_serendipity = get_serendipity()
-    # baseline_serendipity = get_serendipity()
+    actual_serendipity = get_serendipity(actual_college_course_recommendations, preprocessed_unique_user_ground_truth_courses, actual_recommended_relevant_college_courses)
+    baseline_serendipity = get_serendipity(baseline_college_course_recommendations, preprocessed_unique_user_ground_truth_courses, baseline_recommended_relevant_college_courses)
 
-    # user_evaluations.to_csv("user-evaluations.tsv", sep='\t')
-    # with open(, "w") as file:
-    #     file.write(markdown_output)
+    user_evaluation_metrics = [user_timestamp_part_1, user_timestamp_part_2, actual_diversity, baseline_diversity, actual_trust, baseline_trust, actual_precision, baseline_precision, actual_recall, baseline_recall, actual_f1_score, baseline_f1_score, actual_novelty, baseline_novelty, actual_serendipity, baseline_serendipity, user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_FEEDBACK_COLUMN_NAME]]
+
+    with open(USER_EVALUATION_METRICS_DATASET_FILEPATH, 'a', newline='') as file:
+        writer = csv.writer(file, delimiter='\t')
+        writer.writerow(user_evaluation_metrics)
 
 def get_preprocessed_unique_user_ground_truth_courses(user_data_part_2):
     raw_courses = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_GROUND_TRUTH_COLLEGE_COURSE_COLUMN_NAME]
@@ -710,7 +714,7 @@ def get_recommended_relevant_college_courses(user_data_part_2, column_name, coll
     return recommended_relevant_college_courses
 
 def get_precision(num_relevant_recommended_items, num_college_course_recommendations):
-    return num_relevant_recommended_items / num_college_course_recommendations
+    return round(num_relevant_recommended_items / num_college_course_recommendations, 2)
 
 def get_recall(preprocessed_unique_user_ground_truth_courses, recommended_relevant_college_courses):
     all_relevant_courses = preprocessed_unique_user_ground_truth_courses.copy()
@@ -719,7 +723,7 @@ def get_recall(preprocessed_unique_user_ground_truth_courses, recommended_releva
         if is_course_new(course, all_relevant_courses):
             all_relevant_courses.append(course["preprocessed_title"])
 
-    return len(recommended_relevant_college_courses) / len(all_relevant_courses)
+    return round(len(recommended_relevant_college_courses) / len(all_relevant_courses), 2)
 
 def is_course_new(course, all_preprocessed_unique_relevant_courses):
     if course["preprocessed_title"] in all_preprocessed_unique_relevant_courses:
@@ -728,7 +732,7 @@ def is_course_new(course, all_preprocessed_unique_relevant_courses):
     return True
 
 def get_f1_score(precision, recall):
-    return 2.0 * ((precision * recall) / (precision + recall))
+    return round(2.0 * ((precision * recall) / (precision + recall)), 2)
 
 def get_novelty(college_course_recommendations, preprocessed_unique_user_ground_truth_courses):
     number_of_recommendations_not_in_user_ground_truth = 0
@@ -739,5 +743,11 @@ def get_novelty(college_course_recommendations, preprocessed_unique_user_ground_
 
     return number_of_recommendations_not_in_user_ground_truth / len(college_course_recommendations)
 
-def get_serendipity():
-    pass
+def get_serendipity(college_course_recommendations, preprocessed_unique_user_ground_truth_courses, recommended_relevant_college_courses):
+    number_of_serendipitous_recommendations = 0
+
+    for relevant_rec in recommended_relevant_college_courses:
+        if relevant_rec["preprocessed_title"] not in preprocessed_unique_user_ground_truth_courses:
+            number_of_serendipitous_recommendations += 1
+
+    return number_of_serendipitous_recommendations / len(college_course_recommendations)
