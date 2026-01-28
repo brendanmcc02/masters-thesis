@@ -30,9 +30,10 @@ STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX = POINTS_VECTOR_INDEX + 1
 MIN_COURSE_POINTS = 0
 MAX_COURSE_POINTS = 625
 
-MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND = 5
-MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY = 4
-MAX_NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS = MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND * MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY
+MIN_NUM_OF_TOP_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND = 5
+MIN_NUM_OF_BASELINE_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND = 4
+MAX_NUM_OF_BASELINE_RECOMMENDED_COURSES_PER_CATEGORY = 5
+MAX_NUM_OF_COLLEGE_COURSE_RECOMMENDATIONS = 20
 
 FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP = {5: 1.0,
                                       4: 0.25, 
@@ -112,16 +113,17 @@ def get_college_course_recommendations(user_interest_questions_results_vector, u
 
     college_course_recommendations = []
     top_college_course_category_user_vector_indexes = get_top_college_course_category_user_vector_indexes(user_vector)
+    num_of_max_recommended_courses_per_category = get_num_of_max_recommended_courses_per_category(top_college_course_category_user_vector_indexes, user_vector)
 
-    for college_course_category_user_vector_index in top_college_course_category_user_vector_indexes:
-        if len(college_course_recommendations) == MAX_NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS:
+    for college_course_category_user_vector_index in range(len(top_college_course_category_user_vector_indexes)):
+        if len(college_course_recommendations) == MAX_NUM_OF_COLLEGE_COURSE_RECOMMENDATIONS:
             add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector)
             return college_course_recommendations
         
-        filtered_college_course_category_courses = get_filtered_college_course_category_courses(filtered_college_courses, college_course_category_user_vector_index)
-        masked_college_course_category_course_recommendations = get_masked_college_course_category_course_recommendations(user_vector, college_course_category_user_vector_index, filtered_college_course_category_courses, top_college_course_category_user_vector_indexes)
+        filtered_college_course_category_courses = get_filtered_college_course_category_courses(filtered_college_courses, top_college_course_category_user_vector_indexes[college_course_category_user_vector_index])
+        masked_college_course_category_course_recommendations = get_masked_college_course_category_course_recommendations(user_vector, top_college_course_category_user_vector_indexes[college_course_category_user_vector_index], filtered_college_course_category_courses, top_college_course_category_user_vector_indexes)
 
-        add_unique_college_course_recommendations(masked_college_course_category_course_recommendations, college_course_recommendations)
+        add_unique_college_course_recommendations(masked_college_course_category_course_recommendations, college_course_recommendations, num_of_max_recommended_courses_per_category[top_college_course_category_user_vector_indexes[college_course_category_user_vector_index]])
 
     add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector)
 
@@ -219,7 +221,7 @@ def mask_college_course_categories_in_user_vector(college_course_category_user_v
     # e.g. interest in math + education = maths teacher
     # e.g. interest in business + education = business teacher
     if (college_course_category_user_vector_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX) == COLLEGE_COURSE_CATEGORIES.index("education"):
-        college_course_category_user_vector_indexes = top_college_course_category_user_vector_indexes[0:MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND]
+        college_course_category_user_vector_indexes = top_college_course_category_user_vector_indexes[0:MIN_NUM_OF_TOP_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND]
     else:
         college_course_category_user_vector_indexes = [college_course_category_user_vector_index]
 
@@ -281,16 +283,16 @@ def get_riasec_interests_for_college_course_category(college_course_category_use
             print("Error! Unrecognised college_course_category!" + college_course_category + college_course_category_user_vector_index)
             return []
 
-def add_unique_college_course_recommendations(masked_college_course_category_course_recommendations_to_add, previously_recommended_college_courses):
-    number_of_unique_courses_added = 0
+def add_unique_college_course_recommendations(masked_college_course_category_course_recommendations_to_add, previously_recommended_college_courses, max_num_of_recommended_courses_per_category):
+    num_of_unique_courses_added = 0
 
     for i in range(len(masked_college_course_category_course_recommendations_to_add)):
-        if number_of_unique_courses_added == MAXIMUM_NUMBER_OF_RECOMMENDED_COURSES_PER_CATEGORY or len(previously_recommended_college_courses) == MAX_NUMBER_OF_COLLEGE_COURSE_RECOMMENDATIONS:
+        if num_of_unique_courses_added == max_num_of_recommended_courses_per_category or len(previously_recommended_college_courses) == MAX_NUM_OF_COLLEGE_COURSE_RECOMMENDATIONS:
             return
 
         if is_unique_college_course_recommendation(masked_college_course_category_course_recommendations_to_add[i], previously_recommended_college_courses):
             previously_recommended_college_courses.append(masked_college_course_category_course_recommendations_to_add[i].copy())
-            number_of_unique_courses_added += 1
+            num_of_unique_courses_added += 1
 
 def is_unique_college_course_recommendation(college_course_to_check, previously_recommended_college_courses):
     for previously_recommended_college_course in previously_recommended_college_courses:
@@ -443,8 +445,8 @@ def get_baseline_college_course_recommendations(user_interest_questions_results_
 
     unique_baseline_college_course_recommendations = []
 
-    for _ in range(MINIMUM_NUMBER_OF_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND):
-        add_unique_college_course_recommendations(baseline_college_course_recommendations, unique_baseline_college_course_recommendations)
+    for _ in range(MIN_NUM_OF_BASELINE_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND):
+        add_unique_college_course_recommendations(baseline_college_course_recommendations, unique_baseline_college_course_recommendations, MAX_NUM_OF_BASELINE_RECOMMENDED_COURSES_PER_CATEGORY)
 
     user_vector = get_user_vector(user_interest_questions_results_vector, user_college_course_preferences)
     cached_user_vector_magnitude = np.linalg.norm(user_vector)
@@ -522,3 +524,17 @@ def get_stringified_interests_or_categories(interests_or_categories):
         stringified_interests_or_categories += interest_or_category_to_add
 
     return stringified_interests_or_categories
+
+def get_num_of_max_recommended_courses_per_category(top_college_course_category_user_vector_indexes, user_vector):
+    num_of_max_recommended_courses_per_category = {}
+    top_n_college_course_category_sum = 0.0
+
+    for i in range(MIN_NUM_OF_TOP_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND):
+        top_n_college_course_category_sum += user_vector[top_college_course_category_user_vector_indexes[i]]
+
+    for i in range(MIN_NUM_OF_TOP_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND):
+        num_of_max_recommended_courses_per_category[top_college_course_category_user_vector_indexes[i]] = round((user_vector[top_college_course_category_user_vector_indexes[i]] / top_n_college_course_category_sum) * 20.0)
+
+    print(str(num_of_max_recommended_courses_per_category))
+
+    return num_of_max_recommended_courses_per_category

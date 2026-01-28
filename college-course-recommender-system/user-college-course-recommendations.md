@@ -32,7 +32,31 @@
     * **Overview:** Studying music will allow you to engage with a range of traditions to acquire a profound understanding of how music works in theory and in creative practice. If you are interested in understanding music and its place in society, developing music technology skills, writing music, or improving your skills as an informed performer, this course could be for you. A music degree will prepare you for a wide range of careers in the creative arts, journalism, music production, arts management, research, and teaching.
     * **Why we recommended this:** 
 
-* **4. Deaf Studies**
+* **4. Film**
+    * Preprocessed title: film
+    * Trinity College Dublin
+    * **518** points
+    * **79.7%** similarity
+    * **Overview:** Why do films affect us the way they do? Why did the introduction of sound change film forever? What do we mean by 'independent cinema? What is a digital story world? These and many more are the questions that Film Studies asks students to consider in small-group lectures and seminars. In addition, over the course of your degree you'll be encouraged to respond creatively to critical issues via projects, presentations, short films and video essays, as well as to develop your screenwriting skills to see if you have a fresh vision to share with the world around you.
+    * **Why we recommended this:** 
+
+* **5. English Literature/History of Art and Architecture**
+    * Preprocessed title: english literatur histori art architectur
+    * Trinity College Dublin
+    * **487** points
+    * **78.9%** similarity
+    * **Overview:** English LiteratureEnglish Literature covers a broad range of literatures written in the English language, from Chaucer to the present day. The aim of the course is to help students acquire a thorough knowledge of the history of differing literatures while also enabling them to develop a sophisticated critical consciousness and an awareness of critical and cultural theory. History of Art and ArchitectureHistory of Art and Architecture is about the study of images, objects and buildings. It is unique in developing high levels of visual literacy applicable to a range of career pathways. It explores why works of art look the way they do and seeks to discover what they say about the societies that created them. It develops skills in visual analysis, critical assessment, and communication.
+    * **Why we recommended this:** 
+
+* **6. Multimedia**
+    * Preprocessed title: multimedia
+    * Dublin City University
+    * **388** points
+    * **75.6%** similarity
+    * **Overview:** Do you have a creative, enquiring mind and an interest in the design of engaging and interactive media experiences? Then DCU's BSc in Multimedia is the degree for you! Digital media technologies are central to our everyday lives and essential for any company to succeed in a globalised economy. Learn from the best DCU's BSc in Multimedia was the first degree of its type in Ireland and still leads the field. On this programme, you'll learn from teaching staff with real-world professional experience and deep knowledge based on research and industry practice.
+    * **Why we recommended this:** 
+
+* **7. Deaf Studies**
     * Preprocessed title: deaf
     * Trinity College Dublin
     * **317** points
@@ -40,7 +64,7 @@
     * **Overview:** The Centre for Deaf Studies in Trinity affords students the opportunity to develop insights into, and genuine appreciation for the culture, contributions, and contemporary issues related to Deaf people in Ireland and worldwide.
     * **Why we recommended this:** 
 
-* **5. Linguistics/Classical Languages**
+* **8. Linguistics/Classical Languages**
     * Preprocessed title: linguist classic languag
     * Trinity College Dublin
     * **498** points
@@ -48,7 +72,7 @@
     * **Overview:** Linguistics Students of Linguistics engage in evidence-based analysis of language, acquiring skills and techniques that allow investigation of different aspects of language structure such as sound, words and grammar. This involves key transferable skills in problem solving and critical thinking. Classical Languages The study of Classical Languages is concerned with the language, literature and thought of either Ancient Greece or Ancient Rome. You will choose to study either Greek or Latin. Through the reading of literature in the original language and the examination of key aspects of ancient history, you will develop a thorough knowledge of the classical world and a critical approach to textual and material culture.
     * **Why we recommended this:** 
 
-* **6. Post Primary Teacher Education - Gaeilge and French, German or Spanish**
+* **9. Post Primary Teacher Education - Gaeilge and French, German or Spanish**
     * Preprocessed title: post primari educ gaeilg french german spanish
     * Dublin City University
     * **440** points
@@ -56,7 +80,7 @@
     * **Overview:** This course will prepare you to teach at post-primary level in two languages. You will take Gaeilge, along with a choice of either French, German or Spanish.  Alongside developing your language abilities, the course also builds your skills in the areas of teamwork, leadership, communication and creativity. These are vital for a career in post primary teaching, but are also key to a variety of other professions. In this four-year course, you'll benefit from studying in small class groups within the larger university community.
     * **Why we recommended this:** 
 
-* **7. Early and Modern Irish**
+* **10. Early and Modern Irish**
     * Preprocessed title: irish
     * Trinity College Dublin
     * **349** points
@@ -64,15 +88,31 @@
     * **Overview:** Early Irish is the language in use in Ireland from the earliest period for which there are records up to the year 1200. The course covers the language and literature from the emergence of writing at the arrival of Christianity in Ireland to the production of the great saga manuscripts of the twelfth century.
     * **Why we recommended this:** 
 
-* **8. English Studies**
-    * Preprocessed title: english
+* **11. Business Studies and Spanish**
+    * Preprocessed title: busi spanish
     * Trinity College Dublin
-    * **530** points
-    * **87.6%** similarity
-    * **Overview:** The study of English is concerned with the history and practices of writing in English and encompasses literary works spanning English, Anglo-Irish, American and post-colonial cultures. It aims to develop a thorough knowledge of the history of these literatures while also enabling students to develop a sophisticated critical consciousness and an awareness of critical and cultural theory.
+    * **556** points
+    * **61.3%** similarity
+    * **Overview:** This programme offers an exciting way of learning about business concepts, theories and models, in a variety of subject areas, as well as getting to grips in an in-depth and comprehensive manner with another country's language, its society, culture and business environment,the third year of which is spent studying abroad.This programme aims to provide you with the knowledge and skills necessary to communicate internationally and to understand the social, political and cultural contexts of markets, organisations and management across countries.
     * **Why we recommended this:** 
 
-* **9. Arts: Joint Honours (Humanities)**
+* **12. Law and French**
+    * Preprocessed title: law french
+    * Trinity College Dublin
+    * **589** points
+    * **59.8%** similarity
+    * **Overview:** The Law and French degree programme offers a unique opportunity to study core and specialised legal modules but also the language, culture and political systems of France. Students must undertake an Erasmus year in France, exposing them to the law of that legal system.
+    * **Why we recommended this:** 
+
+* **13. European Studies**
+    * Preprocessed title: european
+    * Trinity College Dublin
+    * **564** points
+    * **59.0%** similarity
+    * **Overview:** European Studies is a broad-ranging and integrated programme that offers students the chance to learn European languages, and also to study history and social sciences. This programme encourages students to think about our continent in all its complexity, and to analyse Europe's cultures, history, and politics.
+    * **Why we recommended this:** 
+
+* **14. Arts: Joint Honours (Humanities)**
     * Preprocessed title: art human
     * Dublin City University
     * **378** points
@@ -80,7 +120,7 @@
     * **Overview:** At registration, choose two from the following list of subjects:  Up to two permitted from English and Gaeilge Only one permitted from Human Development | Philosophy Only one permitted from History | Music Only one permitted from Geography | World Religions and Theology  English You'll engage with a wide range of literature and become familiar with the vital characteristics and contexts of drama, poetry, film and fiction. Gaeilge/Irish You'll learn about Irish culture and tradition as well as developing your practical language skills. Human Development You'll develop an understanding of human needs and capacities at crucial stages of the development process through your studies of Psychology, Sociology and Philosophy. History You'll explore how human beings behave grounded on a close examination of how they have behaved in the past in all spheres of the world but with a particular emphasis on Ireland. Music You'll develop your musicality and deepen your understanding of music including classical, traditional, popular and other music styles drawing on a range of practical, analytical and critical approaches. Geography You'll examine human activity, human-environment relations and physical environments at a variety of scales, from the local through to the global. Philosophy You will critically engage with a range of questions about issues such as truth, beauty, value, knowledge, and the nature of reality. In doing so, you will develop enhanced skills in clear analysis and rigorous argumentation. World Religions and Theology You'll critically engage with the big questions about life in order to understand the historical and contemporary significance of religious faith agus contemporary ethical dilemmas.
     * **Why we recommended this:** 
 
-* **10. Mathematics/Philosophy**
+* **15. Mathematics/Philosophy**
     * Preprocessed title: mathemat philosophi
     * Trinity College Dublin
     * **613** points
@@ -88,15 +128,23 @@
     * **Overview:** Mathematics Mathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one's logical reasoning, quantitative skills and problem-solving techniques. Philosophy This course offers the opportunity to engage in depth with questions of metaphysics (about the fundamental nature of reality), epistemology (the theory of knowledge), ethics (theories of right and wrong), political philosophy (the nature of the just state), philosophy of religion (reasoning about God), philosophy of mind (questions about thought, language and reason) and various other areas.
     * **Why we recommended this:** 
 
-* **11. Sociology/History of Art and Architecture**
-    * Preprocessed title: sociolog histori art architectur
+* **16. Religion**
+    * Preprocessed title: religion
     * Trinity College Dublin
-    * **481** points
-    * **75.9%** similarity
-    * **Overview:** Sociology You will gain the ability to understand topical issues and to present and communicate information and thoughts coherently. In addition, you will learn invaluable analytical, communication, research and presentation skills - transferable skills which can be applied to a wide range of careers and postgraduate programmes. History of Art and Architecture History of Art and Architecture is about the study of images, objects and buildings. It is unique in developing high levels of visual literacy applicable to a range of career pathways. It explores why works of art look the way they do and seeks to discover what they say about the societies that created them. It develops skills in visual analysis, critical assessment, and communication.
+    * **349** points
+    * **66.6%** similarity
+    * **Overview:** This course encourages and enables students to engage Religion plays a significant role in diverse cultural, social and political contexts. Religious world-views, values and symbols play a critical role in shaping cultural norms, traditions and practices. This is the case both in religiously plural contexts, as well as those dominated by particular traditions.
     * **Why we recommended this:** 
 
-* **12. Computer Science**
+* **17. Creative Industries and Visual Culture**
+    * Preprocessed title: industri visual cultur
+    * TU Dublin - Grangegorman
+    * **273** points
+    * **63.6%** similarity
+    * **Overview:** This course provides an industry-focused grounding in theories and practices of Creative Industries and Visual Culture. In the first year, you'll study a wide range of contemporary issues, including arts policy, management, criticism, media law, and current discussions in the fields of art, design, film, photography, curating, museums, media, aesthetics, gender studies, and postcolonial studies.
+    * **Why we recommended this:** 
+
+* **18. Computer Science**
     * Preprocessed title: comput
     * Trinity College Dublin
     * **535** points
@@ -104,60 +152,12 @@
     * **Overview:** Computer Science is concerned with the study of everything to do with computers and our relationship with them. Computer scientists are critical to the efficient running of modern societies, dealing with health, security, banking and finance, transportation, and now increasingly our interaction through social networks. Computing professionals deal with theoretical issues, solve complex problems, deal with matters of ethics and with society at large. Theoretical issues in computer science relate to the abstract notions of computation and information.
     * **Why we recommended this:** 
 
-* **13. Genetics and Cell Biology**
-    * Preprocessed title: genet cell biolog
-    * Dublin City University
-    * **518** points
-    * **54.7%** similarity
-    * **Overview:** By studying on this programme, you can come to understand the genetic basis for life and how this information can be used to investigate, diagnose and treat diseases. You'll also gain practical laboratory skills, as well as skills in communications, critical thinking and problem-solving. Furthermore, you'll gain skills in computational biology, which uses high-tech data analysis and modelling to help harness genetic and biological insights.
-    * **Why we recommended this:** 
-
-* **14. Computer Science (International)**
-    * Preprocessed title: comput intern
-    * TU Dublin - Grangegorman
-    * **351** points
-    * **54.3%** similarity
-    * **Overview:** This course will provide you with the knowledge and skills to work as a global software engineer or as an application developer, able to develop as needed in an ever-changing global industry. On graduation, you'll be qualified to work in the international IT industry in a wide range of computer roles. You'll have a strong foundation in such areas as Internet development, cloud computing, mobile software, enterprise systems, artificial intelligence and games technology.
-    * **Why we recommended this:** 
-
-* **15. Computer Science (Infrastructure)**
-    * Preprocessed title: comput infrastructur
-    * TU Dublin - Grangegorman
-    * **346** points
-    * **54.0%** similarity
-    * **Overview:** Computer Science (Infrastructure) is about developing software and infrastructure for applications ranging from those on smart devices to those in global corporations. This course provides the skills required to build data centres and networks, and to develop software securely, individually and in teams. You'll gain a working knowledge of the components of a computer and a network, become familiar with the components of an operating system, and learn to administrate large distributed systems.
-    * **Why we recommended this:** 
-
-* **16. Journalism**
+* **19. Journalism**
     * Preprocessed title: journal
     * Dublin City University
     * **409** points
     * **72.7%** similarity
     * **Overview:** DCU's BA in Journalism is a top degree in Ireland designed to equip you with practical skills in reporting and writing for different media as well as providing you with essential knowledge in politics, law, ethics, society and culture. This degree will really appeal to you if you have an enquiring mind because the world needs journalists to analyse, examine and reveal how things work and what the future holds for people.
-    * **Why we recommended this:** 
-
-* **17. Media Studies**
-    * Preprocessed title: media
-    * Dublin City University
-    * **358** points
-    * **68.1%** similarity
-    * **Overview:** Media Studies graduates generally have excellent communication, analytical and team-working skills - skills that are in high demand in the knowledge economy. These graduates are likely to find employment in a range of commercial, state, and non-governmental organisations, and they will have a competitive advantage in careers like advertising, marketing, public relations, advocacy and international development. Students choose one other subject from: English, International Languages or Politics. You'll have the option to take a year abroad, extending your degree to four years and graduating with a Bachelor of Arts (Joint Honours) International. Internship Year You can opt to apply for a year-long INTRA work placement in Year Three.This programme will prepare you for a variety of careers and also provides a foundation for postgraduate study.
-    * **Why we recommended this:** 
-
-* **18. Film**
-    * Preprocessed title: film
-    * Trinity College Dublin
-    * **518** points
-    * **65.4%** similarity
-    * **Overview:** Why do films affect us the way they do? Why did the introduction of sound change film forever? What do we mean by 'independent cinema? What is a digital story world? These and many more are the questions that Film Studies asks students to consider in small-group lectures and seminars. In addition, over the course of your degree you'll be encouraged to respond creatively to critical issues via projects, presentations, short films and video essays, as well as to develop your screenwriting skills to see if you have a fresh vision to share with the world around you.
-    * **Why we recommended this:** 
-
-* **19. Photography**
-    * Preprocessed title: photographi
-    * TU Dublin - Grangegorman
-    * **280** points
-    * **52.2%** similarity
-    * **Overview:** The arrival of affordable digital cameras has stimulated widespread interest in photography, presenting the professional photographer with both new opportunities and challenges. This course will prepare you for a career in professional photographic media practice, as well as the broader visual arts sector. It will equip you with key skills, while encouraging you to reflect on your actions and practices.
     * **Why we recommended this:** 
 
 # RECOMMENDATION SET 2
