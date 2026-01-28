@@ -624,21 +624,22 @@ def write_user_college_course_recommendations_to_markdown(actual_college_course_
 
 def write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_2, actual_college_course_recommendations, baseline_college_course_recommendations):
     user_ground_truth_courses = get_user_ground_truth_courses(user_data_part_2)
+    print("ground truth: " + str(user_ground_truth_courses))
 
-    actual_relevant_college_courses = get_relevant_college_courses(user_data_part_2, SURVEY_PART_2_RESPONSES_DATASET_RECOMMENDATION_SET_1_RELEVANCE_COLUMN_NAME, actual_college_course_recommendations)
-    baseline_relevant_college_courses = get_relevant_college_courses(user_data_part_2, SURVEY_PART_2_RESPONSES_DATASET_RECOMMENDATION_SET_2_RELEVANCE_COLUMN_NAME, baseline_college_course_recommendations)
+    actual_recommended_relevant_college_courses = get_recommended_relevant_college_courses(user_data_part_2, SURVEY_PART_2_RESPONSES_DATASET_RECOMMENDATION_SET_1_RELEVANCE_COLUMN_NAME, actual_college_course_recommendations)
+    # baseline_recommended_relevant_college_courses = get_recommended_relevant_college_courses(user_data_part_2, SURVEY_PART_2_RESPONSES_DATASET_RECOMMENDATION_SET_2_RELEVANCE_COLUMN_NAME, baseline_college_course_recommendations)
 
     actual_diversity_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_DIVERSITY_SET_1_COLUMN_NAME]
-    baseline_diversity_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_DIVERSITY_SET_2_COLUMN_NAME]
+    # baseline_diversity_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_DIVERSITY_SET_2_COLUMN_NAME]
 
     actual_trust_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_1_COLUMN_NAME]
-    baseline_trust_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_2_COLUMN_NAME]
+    # baseline_trust_score = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_TRUST_SET_2_COLUMN_NAME]
 
-    actual_precision = get_precision(len(actual_relevant_college_courses), len(actual_college_course_recommendations))
-    baseline_precision = get_precision(len(baseline_relevant_college_courses), len(baseline_college_course_recommendations))
+    actual_precision = get_precision(len(actual_recommended_relevant_college_courses), len(actual_college_course_recommendations))
+    # baseline_precision = get_precision(len(baseline_recommended_relevant_college_courses), len(baseline_college_course_recommendations))
 
-    actual_recall = get_recall(user_ground_truth_courses, actual_relevant_college_courses)
-    baseline_recall = get_recall(user_ground_truth_courses, baseline_relevant_college_courses)
+    actual_recall = get_recall(user_ground_truth_courses, actual_recommended_relevant_college_courses)
+    # baseline_recall = get_recall(user_ground_truth_courses, baseline_recommended_relevant_college_courses)
 
     # actual_f1_score = get_f1_score(actual_precision, actual_recall)
     # baseline_f1_score = get_f1_score(baseline_precision, baseline_recall)
@@ -660,42 +661,66 @@ def get_user_ground_truth_courses(user_data_part_2):
     courses.pop(0)
 
     for i in range(len(courses)):
-        courses[i] = courses[i].strip()
-        courses[i] = parse_id_and_title_from_cao_college_course(courses[i])
+        id, title = parse_id_and_title_from_cao_college_course(courses[i].strip())
+        courses[i] = {"id": id, "title": title}
 
     return courses
 
-def parse_id_and_title_from_cao_college_course(raw_id_and_course):
-    # TR033
-    # TR033 ABC
+def parse_id_and_title_from_cao_college_course(raw_course_id_and_title):
     # TR033 - TR033
+    match = re.search(r'[A-Z]{2}\d{3} - [A-Z]{2}\d{3}', raw_course_id_and_title)
 
-    id = re.search(r'[A-Z]{2}\d{3}', raw_id_and_course)
-    print(process(id))
+    if match:
+        id = match.group()
+        title = raw_course_id_and_title[match.end():].strip()
 
-def get_relevant_college_courses(user_data_part_2, column_name, college_course_recommendations):
-    relevant_college_courses_indices = re.findall(r'\d+', user_data_part_2[column_name])
+        return id, title
 
-    relevant_college_courses = []
+    # TR033 ABC
+    match = re.search(r'[A-Z]{2}\d{3} [A-Z]{3}', raw_course_id_and_title)
 
-    for i in relevant_college_courses_indices:
-        relevant_college_courses.append(college_course_recommendations[int(i)])
+    if match:
+        id = match.group()
+        title = raw_course_id_and_title[match.end():].strip()
 
-    return relevant_college_courses
+        return id, title
+    
+    # TR033
+    match = re.search(r'[A-Z]{2}\d{3}', raw_course_id_and_title)
+
+    if match:
+        id = match.group()
+        title = raw_course_id_and_title[match.end():].strip()
+
+        return id, title
+
+    print("id not found in college course!" + raw_course_id_and_title)
+
+    return "", raw_course_id_and_title
+
+def get_recommended_relevant_college_courses(user_data_part_2, column_name, college_course_recommendations):
+    recommended_relevant_college_courses_indices = re.findall(r'\d+', user_data_part_2[column_name])
+
+    recommended_relevant_college_courses = []
+
+    for i in recommended_relevant_college_courses_indices:
+        recommended_relevant_college_courses.append(college_course_recommendations[int(i)].copy())
+
+    return recommended_relevant_college_courses
 
 def get_precision(num_relevant_recommended_items, num_actual_college_course_recommendations):
     return num_relevant_recommended_items / num_actual_college_course_recommendations
 
-def get_recall(user_ground_truth_courses, relevant_college_courses):
+def get_recall(user_ground_truth_courses, recommended_relevant_college_courses):
     all_relevant_courses = user_ground_truth_courses.copy()
 
-    for course in relevant_college_courses:
+    for course in recommended_relevant_college_courses:
         if is_course_new(course, all_relevant_courses):
             all_relevant_courses.append(course.copy())
 
     print(len(all_relevant_courses))
 
-    return len(relevant_college_courses) / len(all_relevant_courses)
+    return len(recommended_relevant_college_courses) / len(all_relevant_courses)
 
 def is_course_new(course, all_relevant_courses):
     for relevant_course in all_relevant_courses:
