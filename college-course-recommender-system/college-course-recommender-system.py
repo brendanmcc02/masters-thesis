@@ -1,4 +1,5 @@
 from college_course_recommender_system_utils import *
+from evaluation_utils import *
 
 # Generate Recommendations
 user_data_part_1, user_timestamp_part_1 = get_user_data_and_timestamp(SURVEY_PART_1_RESPONSES_DATASET_LOCATION)
