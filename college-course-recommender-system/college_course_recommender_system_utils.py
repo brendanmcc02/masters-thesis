@@ -86,7 +86,7 @@ def get_user_interest_activities():
     return activities
 
 PREPROCESSED_SCIENCE_COURSE_TITLE_EDGE_CASES = ['Science (General)', 'Science - Explore Multiple Streams', 'Science - Undenominated', 'Science - Common Entry', 'Science (Common Entry with Award Options)', 'Science (Common Entry)', 'Science (General Entry)']
-def preprocess_college_course_titles():
+def preprocess_cao_college_course_titles():
     with open(CAO_COLLEGE_COURSES_FILE_LOCATION, 'r', encoding='utf-8') as f: 
         college_courses = json.load(f)
 
@@ -97,7 +97,7 @@ def preprocess_college_course_titles():
         if course['title'] in PREPROCESSED_SCIENCE_COURSE_TITLE_EDGE_CASES:
             preprocessed_title = "physic"
         else:
-            preprocessed_title = preprocess_text(course['title'])
+            preprocessed_title = preprocess_college_title(course['title'])
 
         if preprocessed_title == "":
             print("Empty preprocessed college course title! - " + course['title'])
@@ -120,7 +120,7 @@ def preprocess_college_course_titles():
     with open(CAO_COLLEGE_COURSES_FILE_LOCATION, "w") as outfile:
         json.dump(updated_college_courses, outfile, indent=4)
 
-preprocess_college_course_titles()
+preprocess_cao_college_course_titles()
 
 COLLEGE_COURSE_CATEGORIES = get_college_course_categories()
 USER_INTEREST_QUESTIONS_COLLEGE_COURSE_CATEGORIES = get_user_interest_questions_college_course_categories()
@@ -168,8 +168,8 @@ def get_user_college_course_categories_vector(user_riasec_questions_vector):
     for i in range(len(user_categories_vector)):
         user_categories_vector[i] = custom_normalized_sigmoid_function(user_categories_vector[i], COLLEGE_COURSE_CATEGORY_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT)
 
-    if IS_DEBUG:
-        print(get_stringified_college_course_categories_vector(user_categories_vector))
+    # if IS_DEBUG:
+    #     print(get_stringified_college_course_categories_vector(user_categories_vector))
 
     return user_categories_vector
 
@@ -223,8 +223,8 @@ def get_masked_college_course_category_user_vector(user_vector, college_course_c
 
     mask_college_course_categories_in_user_vector(college_course_category_user_vector_index, masked_college_course_category_user_vector, top_college_course_category_user_vector_indexes)
 
-    if IS_DEBUG:
-        print(COLLEGE_COURSE_CATEGORIES[college_course_category_user_vector_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX] + str(masked_college_course_category_user_vector))
+    # if IS_DEBUG:
+    #     print(COLLEGE_COURSE_CATEGORIES[college_course_category_user_vector_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX] + str(masked_college_course_category_user_vector))
 
     return masked_college_course_category_user_vector
 
@@ -317,8 +317,8 @@ def add_unique_college_course_recommendations(masked_college_course_category_cou
 def is_unique_college_course_recommendation(college_course_to_check, previously_recommended_college_courses):
     for previously_recommended_college_course in previously_recommended_college_courses:
         if is_college_course_duplicate(previously_recommended_college_course, college_course_to_check):
-            if IS_DEBUG:
-                print("Not recommending " + college_course_to_check['title'] + " " + college_course_to_check['id'] + " because " + previously_recommended_college_course['title'] + " " + previously_recommended_college_course['id'] + " is already recommended.\n")
+            # if IS_DEBUG:
+            #     print("Not recommending " + college_course_to_check['title'] + " " + college_course_to_check['id'] + " because " + previously_recommended_college_course['title'] + " " + previously_recommended_college_course['id'] + " is already recommended.\n")
 
             return False
         
@@ -360,8 +360,8 @@ def get_user_riasec_vector(user_interest_questions_results_vector):
     for i in range(len(user_riasec_vector)):
         user_riasec_vector[i] = custom_normalized_sigmoid_function(user_riasec_vector[i], RIASEC_INTEREST_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT)
 
-    if IS_DEBUG:
-        print(get_stringified_riasec_vector(user_riasec_vector))
+    # if IS_DEBUG:
+    #     print(get_stringified_riasec_vector(user_riasec_vector))
 
     return user_riasec_vector
 
@@ -623,8 +623,7 @@ def write_user_college_course_recommendations_to_markdown(actual_college_course_
         file.write(markdown_output)
 
 def write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_2, actual_college_course_recommendations, baseline_college_course_recommendations):
-    user_ground_truth_courses = get_user_ground_truth_courses(user_data_part_2)
-    print("ground truth: " + str(user_ground_truth_courses))
+    preprocessed_unique_user_ground_truth_courses = get_user_ground_truth_courses(user_data_part_2)
 
     actual_recommended_relevant_college_courses = get_recommended_relevant_college_courses(user_data_part_2, SURVEY_PART_2_RESPONSES_DATASET_RECOMMENDATION_SET_1_RELEVANCE_COLUMN_NAME, actual_college_course_recommendations)
     # baseline_recommended_relevant_college_courses = get_recommended_relevant_college_courses(user_data_part_2, SURVEY_PART_2_RESPONSES_DATASET_RECOMMENDATION_SET_2_RELEVANCE_COLUMN_NAME, baseline_college_course_recommendations)
@@ -638,14 +637,14 @@ def write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_2, actual
     actual_precision = get_precision(len(actual_recommended_relevant_college_courses), len(actual_college_course_recommendations))
     # baseline_precision = get_precision(len(baseline_recommended_relevant_college_courses), len(baseline_college_course_recommendations))
 
-    actual_recall = get_recall(user_ground_truth_courses, actual_recommended_relevant_college_courses)
-    # baseline_recall = get_recall(user_ground_truth_courses, baseline_recommended_relevant_college_courses)
+    actual_recall = get_recall(preprocessed_unique_user_ground_truth_courses, actual_recommended_relevant_college_courses)
+    # baseline_recall = get_recall(preprocessed_unique_user_ground_truth_courses, baseline_recommended_relevant_college_courses)
 
     # actual_f1_score = get_f1_score(actual_precision, actual_recall)
     # baseline_f1_score = get_f1_score(baseline_precision, baseline_recall)
 
-    # actual_novelty = get_novelty(user_ground_truth_courses, actual_college_course_recommendations)
-    # baseline_novelty = get_novelty(user_ground_truth_courses, baseline_college_course_recommendations)
+    # actual_novelty = get_novelty(preprocessed_unique_user_ground_truth_courses, actual_college_course_recommendations)
+    # baseline_novelty = get_novelty(preprocessed_unique_user_ground_truth_courses, baseline_college_course_recommendations)
 
     # actual_serendipity = get_serendipity()
     # baseline_serendipity = get_serendipity()
@@ -661,42 +660,44 @@ def get_user_ground_truth_courses(user_data_part_2):
     courses.pop(0)
 
     for i in range(len(courses)):
-        id, title = parse_id_and_title_from_cao_college_course(courses[i].strip())
-        courses[i] = {"id": id, "title": title}
+        courses[i] = parse_title_from_cao_college_course(courses[i].strip())
+
+    print("Ground truth courses before uniqueifying:\n" + str(courses) + "\n")
+
+    for i in range(len(courses)):
+        courses[i] = preprocess_college_title(courses[i])
+
+    courses = list(set(courses)) # remove duplicates
+
+    print("Ground truth courses after uniqueifying and preprocessing:\n" + str(courses) + "\n\n")
 
     return courses
 
-def parse_id_and_title_from_cao_college_course(raw_course_id_and_title):
+def parse_title_from_cao_college_course(raw_course_id_and_title):
     # TR033 - TR033
     match = re.search(r'[A-Z]{2}\d{3} - [A-Z]{2}\d{3}', raw_course_id_and_title)
 
     if match:
-        id = match.group()
         title = raw_course_id_and_title[match.end():].strip()
-
-        return id, title
+        return title
 
     # TR033 ABC
     match = re.search(r'[A-Z]{2}\d{3} [A-Z]{3}', raw_course_id_and_title)
 
     if match:
-        id = match.group()
         title = raw_course_id_and_title[match.end():].strip()
-
-        return id, title
+        return title
     
     # TR033
     match = re.search(r'[A-Z]{2}\d{3}', raw_course_id_and_title)
 
     if match:
-        id = match.group()
         title = raw_course_id_and_title[match.end():].strip()
-
-        return id, title
+        return title
 
     print("id not found in college course!" + raw_course_id_and_title)
 
-    return "", raw_course_id_and_title
+    return raw_course_id_and_title
 
 def get_recommended_relevant_college_courses(user_data_part_2, column_name, college_course_recommendations):
     recommended_relevant_college_courses_indices = re.findall(r'\d+', user_data_part_2[column_name])
@@ -716,19 +717,13 @@ def get_recall(user_ground_truth_courses, recommended_relevant_college_courses):
 
     for course in recommended_relevant_college_courses:
         if is_course_new(course, all_relevant_courses):
-            all_relevant_courses.append(course.copy())
-
-    print(len(all_relevant_courses))
+            all_relevant_courses.append(course["preprocessed_title"])
 
     return len(recommended_relevant_college_courses) / len(all_relevant_courses)
 
-def is_course_new(course, all_relevant_courses):
-    for relevant_course in all_relevant_courses:
-        if course["id"] == relevant_course["id"]:
-            if preprocess_text(course["title"]) == preprocess_text(relevant_course["title"]):
-                return False
-            else:
-                print("id match but not title match!")
+def is_course_new(course, all_preprocessed_unique_relevant_courses):
+    if course["preprocessed_title"] in all_preprocessed_unique_relevant_courses:
+        return False
 
     return True
 

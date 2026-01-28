@@ -136,7 +136,7 @@ def get_stop_words():
 stop_words = get_stop_words()
 stemmer = SnowballStemmer("english")  # better results than porter stemmer
 
-def preprocess_text(text):
+def preprocess_college_title(text):
     text = text.lower()
     text = re.sub(r'[\.\?=!£#\'`¬\*]', '', text) # remove certain symbols
     text = re.sub(r'\d+', '', text) # remove numbers
