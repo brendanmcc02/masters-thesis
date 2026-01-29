@@ -1,0 +1,42 @@
+# People
+
+- [x] Declan
+- [x] Tom Gilbride
+- [ ] lalith
+- [ ] Aysha
+- [ ] Doill
+- [ ] Conal
+- [ ] kihan
+    * did it before but he did level 8 + high colleges
+    * needs to make colleges more realistic
+- [ ] Cian Moriarty
+- [ ] Jake
+- [ ] Ramy
+- [ ] Sam
+- [ ] Samuel
+- [ ] Daniel Mccann
+- [ ] Vivi
+- [ ] Daniel Farushev
+- [ ] Liam Murphy
+- [ ] Inam
+- [ ] Muneeb
+- [ ] Mahmi
+- [ ] Kash
+- [ ] Cian Tracey
+- [ ] Grainne
+- [ ] Cian Kiely
+- [ ] Sean Somers
+- [ ] Matthew
+- [ ] Adam
+- [ ] Ben
+- [ ] Kevin
+- [ ] Alex
+- [ ] James O'Connell
+- [ ] Mahir
+- [ ] Mauv
+- [ ] Mati
+- [ ] Beth
+- [ ] kaden
+- [ ] hugh finnegan
+- [ ] Dillon
+- [ ] Lughaidh
