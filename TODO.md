@@ -1,5 +1,5 @@
 # TODO
 
-- [ ] testing on metrics- sanity check
-- [ ] ethics
-- [ ] who is the second reader
+- [ ] finish off proportional recs
+- [ ] escalate ethics
+- [ ] fix gemini shit

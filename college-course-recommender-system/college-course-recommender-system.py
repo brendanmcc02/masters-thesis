@@ -1,4 +1,5 @@
 from college_course_recommender_system_utils import *
+from evaluation_utils import *
 
 # Generate Recommendations
 user_data_part_1, user_timestamp_part_1 = get_user_data_and_timestamp(SURVEY_PART_1_RESPONSES_DATASET_LOCATION)
@@ -14,6 +15,6 @@ actual_college_course_recommendations = get_college_course_recommendations(user_
 write_user_college_course_recommendations_to_markdown(actual_college_course_recommendations, baseline_college_course_recommendations)
 
 # Evaluation
-user_data_part_2, user_timestamp_part_2 = get_user_data_and_timestamp(SURVEY_PART_2_RESPONSES_DATASET_LOCATION)
+# user_data_part_2, user_timestamp_part_2 = get_user_data_and_timestamp(SURVEY_PART_2_RESPONSES_DATASET_LOCATION)
 
-write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_1, user_timestamp_part_2, actual_college_course_recommendations, baseline_college_course_recommendations)
+# write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_1, user_timestamp_part_2, actual_college_course_recommendations, baseline_college_course_recommendations)
