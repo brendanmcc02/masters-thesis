@@ -309,7 +309,7 @@ def is_college_course_duplicate(previously_recommended_college_course, college_c
 def is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     return previously_recommended_college_course['preprocessed_title'] == college_course_to_check['preprocessed_title']
 
-SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art", "public", "educ", "sport", "architectur", "intern", "medicin", "comput", "agricultur"]
+SUBSTRING_MATCH_PREPROCESSED_COLLEGE_COURSE_TITLE_EDGE_CASES = ["engin", "technolog", "therapi", "servic", "manag", "art", "public", "educ", "sport", "architectur", "build", "intern", "medicin", "comput", "agricultur", "law", "design", "business", "mathemat", "media", "practic", "product", "communic", "visual", "digit", "market"]
 def is_substring_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     tokenized_college_course_title_words = previously_recommended_college_course['preprocessed_title'].split(' ')
 
