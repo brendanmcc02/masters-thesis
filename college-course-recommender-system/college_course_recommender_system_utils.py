@@ -15,7 +15,6 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if not IS_DEBUG:
     GEMINI_CLIENT = genai.Client(api_key=GEMINI_API_KEY)
 
-
 CAO_COLLEGE_COURSES_FILE_LOCATION = '../datasets/cao-college-courses.json'
 USER_INTEREST_QUESTIONS_DATASET_FILEPATH = "user_interest_questions.csv"
 SURVEY_PART_1_RESPONSES_DATASET_LOCATION = "survey-part-1-responses.tsv"
@@ -115,15 +114,15 @@ def get_college_course_recommendations(user_interest_questions_results_vector, u
     top_college_course_category_user_vector_indexes = get_top_college_course_category_user_vector_indexes(user_vector)
     num_of_max_recommended_courses_per_category = get_num_of_max_recommended_courses_per_category(top_college_course_category_user_vector_indexes, user_vector)
 
-    for college_course_category_user_vector_index in range(len(top_college_course_category_user_vector_indexes)):
+    for top_college_course_category_user_vector_index in top_college_course_category_user_vector_indexes:
         if len(college_course_recommendations) == MAX_NUM_OF_COLLEGE_COURSE_RECOMMENDATIONS:
             add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector)
             return college_course_recommendations
         
-        filtered_college_course_category_courses = get_filtered_college_course_category_courses(filtered_college_courses, top_college_course_category_user_vector_indexes[college_course_category_user_vector_index])
-        masked_college_course_category_course_recommendations = get_masked_college_course_category_course_recommendations(user_vector, top_college_course_category_user_vector_indexes[college_course_category_user_vector_index], filtered_college_course_category_courses, top_college_course_category_user_vector_indexes)
+        filtered_college_course_category_courses = get_filtered_college_course_category_courses(filtered_college_courses, top_college_course_category_user_vector_index)
+        masked_college_course_category_course_recommendations = get_masked_college_course_category_course_recommendations(user_vector, top_college_course_category_user_vector_index, filtered_college_course_category_courses, top_college_course_category_user_vector_indexes)
 
-        add_unique_college_course_recommendations(masked_college_course_category_course_recommendations, college_course_recommendations, num_of_max_recommended_courses_per_category[top_college_course_category_user_vector_indexes[college_course_category_user_vector_index]])
+        add_unique_college_course_recommendations(masked_college_course_category_course_recommendations, college_course_recommendations, num_of_max_recommended_courses_per_category[top_college_course_category_user_vector_index])
 
     add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector)
 
@@ -203,8 +202,8 @@ def get_masked_college_course_category_user_vector(user_vector, college_course_c
 
     mask_college_course_categories_in_user_vector(college_course_category_user_vector_index, masked_college_course_category_user_vector, top_college_course_category_user_vector_indexes)
 
-    # if IS_DEBUG:
-    #     print(COLLEGE_COURSE_CATEGORIES[college_course_category_user_vector_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX] + str(masked_college_course_category_user_vector))
+    if IS_DEBUG:
+        print(COLLEGE_COURSE_CATEGORIES[college_course_category_user_vector_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX] + str(masked_college_course_category_user_vector))
 
     return masked_college_course_category_user_vector
 
@@ -297,8 +296,8 @@ def add_unique_college_course_recommendations(masked_college_course_category_cou
 def is_unique_college_course_recommendation(college_course_to_check, previously_recommended_college_courses):
     for previously_recommended_college_course in previously_recommended_college_courses:
         if is_college_course_duplicate(previously_recommended_college_course, college_course_to_check):
-            # if IS_DEBUG:
-            #     print("Not recommending " + college_course_to_check['title'] + " " + college_course_to_check['id'] + " because " + previously_recommended_college_course['title'] + " " + previously_recommended_college_course['id'] + " is already recommended.\n")
+            if IS_DEBUG:
+                print("Not recommending " + college_course_to_check['title'] + " " + college_course_to_check['id'] + " because " + previously_recommended_college_course['title'] + " " + previously_recommended_college_course['id'] + " is already recommended.\n")
 
             return False
         
@@ -411,7 +410,7 @@ def get_stringified_markdown_college_course_recommendations(college_course_recom
 
         stringified_college_course_recommendations += "    * " + college_course_recommendations[i]["college"] + "\n"
 
-        if is_gemini_prompt:
+        if is_gemini_prompt or IS_DEBUG:
             stringified_college_course_recommendations += "    * RIASEC Interests: " + get_stringified_interests_or_categories(college_course_recommendations[i]["riasec_interests"]) + "\n"
             stringified_college_course_recommendations += "    * Categories: " + get_stringified_interests_or_categories(college_course_recommendations[i]["categories"]) + "\n"
 
@@ -532,8 +531,8 @@ def get_num_of_max_recommended_courses_per_category(top_college_course_category_
     for i in range(MIN_NUM_OF_TOP_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND):
         top_n_college_course_category_sum += user_vector[top_college_course_category_user_vector_indexes[i]]
 
-    for i in range(MIN_NUM_OF_TOP_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND):
-        num_of_max_recommended_courses_per_category[top_college_course_category_user_vector_indexes[i]] = round((user_vector[top_college_course_category_user_vector_indexes[i]] / top_n_college_course_category_sum) * 20.0)
+    for i in range(len(top_college_course_category_user_vector_indexes)):
+        num_of_max_recommended_courses_per_category[top_college_course_category_user_vector_indexes[i]] = max(round((user_vector[top_college_course_category_user_vector_indexes[i]] / top_n_college_course_category_sum) * 20.0), 1)
 
     print(str(num_of_max_recommended_courses_per_category))
 
