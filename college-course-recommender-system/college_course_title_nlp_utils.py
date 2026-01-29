@@ -132,6 +132,7 @@ def get_stop_words():
     stop_words.add("system")
     stop_words.add("pathway")
     stop_words.add("pure")
+    stop_words.add("practice")
 
     return stop_words
 
@@ -188,5 +189,6 @@ COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP = {
     'ict': 'information and communication technology',
     'tech': 'technology',
     'llb': 'law',
-    'bcl': 'civil law'
+    'bcl': 'civil law',
+    'mgt': 'management'
 }

@@ -19,6 +19,6 @@ write_user_college_course_recommendations_to_markdown(actual_college_course_reco
 # * then show them their recommendations via markdown
 # * after familiarising themself, send them part 2!
 
-# user_data_part_2, user_timestamp_part_2 = get_user_data_and_timestamp(SURVEY_PART_2_RESPONSES_DATASET_LOCATION)
+user_data_part_2, user_timestamp_part_2 = get_user_data_and_timestamp(SURVEY_PART_2_RESPONSES_DATASET_LOCATION)
 
-# write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_1, user_timestamp_part_2, actual_college_course_recommendations, baseline_college_course_recommendations)
+write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_1, user_timestamp_part_2, actual_college_course_recommendations, baseline_college_course_recommendations)

@@ -5,3 +5,6 @@
 * the "artistic" quality is very broad and can be manifested in so many different ways
 * the questions for some categories is non-exhaustive - e.g. social science, architecture, law, 
 * languages maybe should be specific to a language - e.g. getting recommended Polish if you studied German
+
+* got rid of substring match - tradeoff
+    * some good cases, some not so good cases

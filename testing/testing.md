@@ -1,7 +1,11 @@
 # People
 
 - [x] Declan
+    * did it with substring match
+    * could generate recs md again and ask him to do part-2?
 - [x] Tom Gilbride
+    * did it with substring match
+    * could generate recs md again and ask him to do part-2?
 - [ ] lalith
 - [ ] Aysha
 - [ ] Doill
