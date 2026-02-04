@@ -431,6 +431,12 @@ def get_baseline_college_course_recommendations(user_interest_questions_results_
     for course in unique_baseline_college_course_recommendations:
         course["similarity_score"] = get_cosine_similarity(user_vector, cached_user_vector_magnitude, course["vectorized_representation"])
 
+    unique_baseline_college_course_recommendations = sorted(
+        unique_baseline_college_course_recommendations,
+        key=lambda x: x["similarity_score"],
+        reverse=True
+    )
+
     return unique_baseline_college_course_recommendations
 
 def add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector):

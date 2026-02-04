@@ -182,25 +182,7 @@
 
 # RECOMMENDATION SET 2
 
-* **0. Medicine**
-    * Preprocessed title: medicin
-    * Trinity College Dublin
-    * RIASEC Interests: Investigative, Social, Realistic
-    * Categories: Healthcare, Life Science
-    * **739** points
-    * **Overview:** Medicine is a unique course in that students study a broad range of subjects with the primary goal of understanding the science and practice of healing. Medicine and healthcare are constantly evolving as new knowledge and therapies emerge to prevent and treat illness. Each day brings a new patient with new healthcare challenges.
-    * **Why we recommended this:** 
-
-* **1. Music Education**
-    * Preprocessed title: music educ
-    * Trinity College Dublin
-    * RIASEC Interests: Artistic, Social
-    * Categories: Creative Arts, Education
-    * **656** points
-    * **Overview:** If you love sharing music, already have a competent standard of music performance, and wish to combine these qualities with a teaching career, then this course is ideally suited to you. Whether your interests are primarily academic or practical, your experience of this vast and rich discipline will be greatly advanced. As an academic study, music fosters independence of thought, creativity and critical and analytical skills. This course offers opportunities to perform music, to share music with others via teaching and performing, and to conduct a number of different ensembles.
-    * **Why we recommended this:** 
-
-* **2. Immersive Software Engineering**
+* **0. Immersive Software Engineering**
     * Preprocessed title: immers softwar engin
     * University of Limerick
     * RIASEC Interests: Investigative
@@ -209,25 +191,7 @@
     * **Overview:** Immersive Software Engineering is a new computer science degree where you learn by doing. You get an integrated Bachelors/Masters qualification (level 9) in four years. You spend half your time learning on campus in a research-driven paradigm, in studios, working on projects, in teams, undergoing continuous assessment instead of end of term exams. You spend the other half of your time in paid residencies, where you solve some of society's toughest problems in excellent companies. The goal of Immersive Software Engineering is to turn curious, creative people like you into top notch problem solvers and software engineers, familiar with concepts, methods and tools, and with about 2 years of experience gained in the field in up to 5 companies.
     * **Why we recommended this:** 
 
-* **3. Dental Science**
-    * Preprocessed title: dentistri
-    * Trinity College Dublin
-    * RIASEC Interests: Investigative, Social, Realistic
-    * Categories: Healthcare, Life Science
-    * **625** points
-    * **Overview:** Dental Science is the study of the oral cavity and the diseases associated with oral tissues. This five-year programme is designed to ensure that graduates can safely and effectively deliver the full range of primary dental care, including prevention, diagnosis and treatment of oral and dental diseases.
-    * **Why we recommended this:** 
-
-* **4. Economics and Finance**
-    * Preprocessed title: econom financ
-    * University College Dublin
-    * RIASEC Interests: Conventional, Investigative
-    * Categories: Business, Social Science
-    * **625** points
-    * **Overview:** If you have a strong interest or ability in economics, maths and statistics, this degree provides everything you need for a future career in the areas of financial economics, banking and finance. Recognised as one of the premier degrees in its field in Ireland and internationally, it equips students with outstanding expertise in quantitative methods, analytical skills and a rigorous preparation in economics and finance. The skills that the course develops are valuable on their own in many careers and provide the essential background for learning Economics and Finance.
-    * **Why we recommended this:** 
-
-* **5. Management Science and Information Systems Studies**
+* **1. Management Science and Information Systems Studies**
     * Preprocessed title: manag inform
     * Trinity College Dublin
     * RIASEC Interests: Conventional, Enterprising, Investigative
@@ -236,16 +200,7 @@
     * **Overview:** Students learn how to use techniques from disciplines such as business, mathematics, computer science, statistics and management science to solve real world problems. There is also a firm emphasis on interpersonal skills such as verbal communication, interviewing, teamwork and report writing.
     * **Why we recommended this:** 
 
-* **6. Global Business (USA)**
-    * Preprocessed title: global busi usa
-    * Dublin City University
-    * RIASEC Interests: Conventional, Enterprising, Investigative
-    * Categories: Business
-    * **617** points
-    * **Overview:** Experience the world of work and study in the USA while you gain two business degrees, experience two countries and complete two work placements. The BA in Global Business (USA) is a passport to a career in international business. This unique course will give you a broad understanding of international business, as well as a rich intercultural experience, and high quality work placements with leading companies, in Ireland and the US.
-    * **Why we recommended this:** 
-
-* **7. Mechanical and Manufacturing Engineering**
+* **2. Mechanical and Manufacturing Engineering**
     * Preprocessed title: mechan manufactur engin
     * MTU Kerry
     * RIASEC Interests: Investigative, Realistic
@@ -254,7 +209,7 @@
     * **Overview:** Mechanical and Manufacturing Engineering is a blended degree that brings in the best of manufacturing and mechanical engineering, culminating in flexible and adaptable engineers to meet industry needs. The REEdI student engineer will learn about the design and development of processes whilst also gaining an equally strong knowledge of the design, development and operation of products and equipment.
     * **Why we recommended this:** 
 
-* **8. Actuarial & Financial Studies**
+* **3. Actuarial & Financial Studies**
     * Preprocessed title: actuari financi
     * University College Dublin
     * RIASEC Interests: Conventional, Investigative
@@ -263,79 +218,7 @@
     * **Overview:** Studying UCD Actuarial & Financial Studies (BAFS) degree requires a multidisciplinary education in fields such as mathematics, economics, finance, statistics, risk management and professionalism. It takes a combination of strong analytical skills, business knowledge and understanding of human behaviour to design and manage programmes that control risk and guarantee sufficient funds for the insurance and pension sectors. Actuaries have traditionally worked mostly in the insurance and pensions industries but are increasingly moving into wider fields, where they can employ their range of skills. The course also opens up options to work in finance, investment and trading.
     * **Why we recommended this:** 
 
-* **9. Engineering with Management**
-    * Preprocessed title: engin manag
-    * Trinity College Dublin
-    * RIASEC Interests: Enterprising, Investigative, Social
-    * Categories: Business, Engineering
-    * **613** points
-    * **Overview:** Engineering with Management is concerned with the analysis, design, improvement, installation, and management of integrated systems of people, finance, materials and equipment. Our graduates have the technical skills common to all excellent engineers, with this knowledge augmented by an understanding of the commercial and industrial environment and the ability to generate innovative solutions to the problems of the world.
-    * **Why we recommended this:** 
-
-* **10. Law/Business Studies**
-    * Preprocessed title: law busi
-    * Trinity College Dublin
-    * RIASEC Interests: Conventional, Enterprising
-    * Categories: Business, Law
-    * **613** points
-    * **Overview:** LawThe law degree will appeal to you if you are interested in society and how it works, how we regulate the relationships between people. Given the wide range of legal modules, the degree attracts students with a broad range of interests.Business StudiesThis four year programme offers the opportunity to focus upon the many areas of overlapping interest between the two disciplines, for example, the structure of companies and other forms of business organisation, competition law and regulation of markets, consumer law, labour law, finance and financial markets, taxation, the protection of intellectual property and international perspectives on law and business.
-    * **Why we recommended this:** 
-
-* **11. Law/History**
-    * Preprocessed title: law histori
-    * Trinity College Dublin
-    * RIASEC Interests: Enterprising, Investigative
-    * Categories: Humanities, Law
-    * **613** points
-    * **Overview:** Law The law degree will appeal to you if you are interested in society and how it works, how we regulate the relationships between people. Given the wide range of legal modules, the degree attracts students with a broad range of interests. Those interested in politics are attracted to subjects such as constitutional law. History The History programme introduces students to the diversity of historical studies, which include modules covering medieval and modern periods, including Irish, European, and American history, as well as some modules exploring the skills and methods which historians use, and the kinds of debates in which historians engage.
-    * **Why we recommended this:** 
-
-* **12. Mathematics/Modern Language**
-    * Preprocessed title: mathemat languag
-    * Trinity College Dublin
-    * RIASEC Interests: Artistic, Investigative
-    * Categories: Languages, Mathematics
-    * **613** points
-    * **Overview:** MathematicsMathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one's logical reasoning, quantitative skills and problem-solving techniques.You can choose between German, Irish, Italian, Russian and Spanish. Apart from French and Irish all languages can be studied from both advanced and beginners level.
-    * **Why we recommended this:** 
-
-* **13. Mathematics/Music**
-    * Preprocessed title: mathemat music
-    * Trinity College Dublin
-    * RIASEC Interests: Artistic, Investigative
-    * Categories: Creative Arts, Mathematics
-    * **613** points
-    * **Overview:** Mathematics Mathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one's logical reasoning, quantitative skills and problem-solving techniques. Music Studying music will allow you to engage with a range of traditions to acquire a profound understanding of how music works in theory and in creative practice. If you are interested in understanding music's place in society, developing music technology skills, writing music, or improving your skills as an informed performer, this course could be for you.
-    * **Why we recommended this:** 
-
-* **14. Mathematics/Philosophy**
-    * Preprocessed title: mathemat philosophi
-    * Trinity College Dublin
-    * RIASEC Interests: Artistic, Investigative
-    * Categories: Humanities, Mathematics
-    * **613** points
-    * **Overview:** Mathematics Mathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one's logical reasoning, quantitative skills and problem-solving techniques. Philosophy This course offers the opportunity to engage in depth with questions of metaphysics (about the fundamental nature of reality), epistemology (the theory of knowledge), ethics (theories of right and wrong), political philosophy (the nature of the just state), philosophy of religion (reasoning about God), philosophy of mind (questions about thought, language and reason) and various other areas.
-    * **Why we recommended this:** 
-
-* **15. Global Business**
-    * Preprocessed title: global busi
-    * Trinity College Dublin
-    * RIASEC Interests: Conventional, Enterprising, Investigative
-    * Categories: Business
-    * **602** points
-    * **Overview:** The Global Business degree is a unique programme, designed for students who wish to focus on business from the very beginning of their degree. The degree is both innovative and practical with a strong focus on experiential learning. Trinity Business School places an emphasis on blended learning, where academic excellence meets industry experience with a keen focus on how business operates within the global economy.
-    * **Why we recommended this:** 
-
-* **16. Pharmacy**
-    * Preprocessed title: pharmaci
-    * Trinity College Dublin
-    * RIASEC Interests: Investigative, Social
-    * Categories: Chemical Science, Healthcare, Life Science
-    * **601** points
-    * **Overview:** Pharmacy is the study of all aspects of drugs, both natural and synthetic in origin, including their chemistry, their uses in medicines, and how they work within the body. Pharmacists work in a variety of settings - community pharmacies, hospitals, long-term care facilities, and within the pharmaceutical industry, to name just a few. In many respects, their role as a key healthcare professional is to help people achieve the best results from their medications. Optional Fifth Year:M.Sc. (Pharm) Master's Degree (NFQ Level 9) Optional.
-    * **Why we recommended this:** 
-
-* **17. Actuarial Mathematics**
+* **4. Actuarial Mathematics**
     * Preprocessed title: actuari mathemat
     * Dublin City University
     * RIASEC Interests: Conventional, Investigative
@@ -344,7 +227,106 @@
     * **Overview:** Actuarial Mathematics could be the perfect course for you. It's accredited by the Institute and Faculty of Actuaries, UK, meaning you may be exempt from some of the exams needed to qualify as an actuary in Ireland and the UK. Before you embark on learning essential actuarial knowledge and theories, you'll be given solid mathematical training. In your first two years, you'll study the fundamental mathematical principles that underpin the actuarial and financial models covered in later years. You'll also study computer programming, economics and accounting.
     * **Why we recommended this:** 
 
-* **18. Biomedical, Health and Life Sciences**
+* **5. Mathematics/Modern Language**
+    * Preprocessed title: mathemat languag
+    * Trinity College Dublin
+    * RIASEC Interests: Artistic, Investigative
+    * Categories: Languages, Mathematics
+    * **613** points
+    * **Overview:** MathematicsMathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one's logical reasoning, quantitative skills and problem-solving techniques.You can choose between German, Irish, Italian, Russian and Spanish. Apart from French and Irish all languages can be studied from both advanced and beginners level.
+    * **Why we recommended this:** 
+
+* **6. Engineering with Management**
+    * Preprocessed title: engin manag
+    * Trinity College Dublin
+    * RIASEC Interests: Enterprising, Investigative, Social
+    * Categories: Business, Engineering
+    * **613** points
+    * **Overview:** Engineering with Management is concerned with the analysis, design, improvement, installation, and management of integrated systems of people, finance, materials and equipment. Our graduates have the technical skills common to all excellent engineers, with this knowledge augmented by an understanding of the commercial and industrial environment and the ability to generate innovative solutions to the problems of the world.
+    * **Why we recommended this:** 
+
+* **7. Medicine**
+    * Preprocessed title: medicin
+    * Trinity College Dublin
+    * RIASEC Interests: Investigative, Social, Realistic
+    * Categories: Healthcare, Life Science
+    * **739** points
+    * **Overview:** Medicine is a unique course in that students study a broad range of subjects with the primary goal of understanding the science and practice of healing. Medicine and healthcare are constantly evolving as new knowledge and therapies emerge to prevent and treat illness. Each day brings a new patient with new healthcare challenges.
+    * **Why we recommended this:** 
+
+* **8. Dental Science**
+    * Preprocessed title: dentistri
+    * Trinity College Dublin
+    * RIASEC Interests: Investigative, Social, Realistic
+    * Categories: Healthcare, Life Science
+    * **625** points
+    * **Overview:** Dental Science is the study of the oral cavity and the diseases associated with oral tissues. This five-year programme is designed to ensure that graduates can safely and effectively deliver the full range of primary dental care, including prevention, diagnosis and treatment of oral and dental diseases.
+    * **Why we recommended this:** 
+
+* **9. Mathematics/Philosophy**
+    * Preprocessed title: mathemat philosophi
+    * Trinity College Dublin
+    * RIASEC Interests: Artistic, Investigative
+    * Categories: Humanities, Mathematics
+    * **613** points
+    * **Overview:** Mathematics Mathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one's logical reasoning, quantitative skills and problem-solving techniques. Philosophy This course offers the opportunity to engage in depth with questions of metaphysics (about the fundamental nature of reality), epistemology (the theory of knowledge), ethics (theories of right and wrong), political philosophy (the nature of the just state), philosophy of religion (reasoning about God), philosophy of mind (questions about thought, language and reason) and various other areas.
+    * **Why we recommended this:** 
+
+* **10. Global Business (USA)**
+    * Preprocessed title: global busi usa
+    * Dublin City University
+    * RIASEC Interests: Conventional, Enterprising, Investigative
+    * Categories: Business
+    * **617** points
+    * **Overview:** Experience the world of work and study in the USA while you gain two business degrees, experience two countries and complete two work placements. The BA in Global Business (USA) is a passport to a career in international business. This unique course will give you a broad understanding of international business, as well as a rich intercultural experience, and high quality work placements with leading companies, in Ireland and the US.
+    * **Why we recommended this:** 
+
+* **11. Mathematics/Music**
+    * Preprocessed title: mathemat music
+    * Trinity College Dublin
+    * RIASEC Interests: Artistic, Investigative
+    * Categories: Creative Arts, Mathematics
+    * **613** points
+    * **Overview:** Mathematics Mathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one's logical reasoning, quantitative skills and problem-solving techniques. Music Studying music will allow you to engage with a range of traditions to acquire a profound understanding of how music works in theory and in creative practice. If you are interested in understanding music's place in society, developing music technology skills, writing music, or improving your skills as an informed performer, this course could be for you.
+    * **Why we recommended this:** 
+
+* **12. Global Business**
+    * Preprocessed title: global busi
+    * Trinity College Dublin
+    * RIASEC Interests: Conventional, Enterprising, Investigative
+    * Categories: Business
+    * **602** points
+    * **Overview:** The Global Business degree is a unique programme, designed for students who wish to focus on business from the very beginning of their degree. The degree is both innovative and practical with a strong focus on experiential learning. Trinity Business School places an emphasis on blended learning, where academic excellence meets industry experience with a keen focus on how business operates within the global economy.
+    * **Why we recommended this:** 
+
+* **13. Economics and Finance**
+    * Preprocessed title: econom financ
+    * University College Dublin
+    * RIASEC Interests: Conventional, Investigative
+    * Categories: Business, Social Science
+    * **625** points
+    * **Overview:** If you have a strong interest or ability in economics, maths and statistics, this degree provides everything you need for a future career in the areas of financial economics, banking and finance. Recognised as one of the premier degrees in its field in Ireland and internationally, it equips students with outstanding expertise in quantitative methods, analytical skills and a rigorous preparation in economics and finance. The skills that the course develops are valuable on their own in many careers and provide the essential background for learning Economics and Finance.
+    * **Why we recommended this:** 
+
+* **14. Law and French**
+    * Preprocessed title: law french
+    * Trinity College Dublin
+    * RIASEC Interests: Enterprising, Investigative
+    * Categories: Languages, Law
+    * **589** points
+    * **Overview:** The Law and French degree programme offers a unique opportunity to study core and specialised legal modules but also the language, culture and political systems of France. Students must undertake an Erasmus year in France, exposing them to the law of that legal system.
+    * **Why we recommended this:** 
+
+* **15. Music Education**
+    * Preprocessed title: music educ
+    * Trinity College Dublin
+    * RIASEC Interests: Artistic, Social
+    * Categories: Creative Arts, Education
+    * **656** points
+    * **Overview:** If you love sharing music, already have a competent standard of music performance, and wish to combine these qualities with a teaching career, then this course is ideally suited to you. Whether your interests are primarily academic or practical, your experience of this vast and rich discipline will be greatly advanced. As an academic study, music fosters independence of thought, creativity and critical and analytical skills. This course offers opportunities to perform music, to share music with others via teaching and performing, and to conduct a number of different ensembles.
+    * **Why we recommended this:** 
+
+* **16. Biomedical, Health and Life Sciences**
     * Preprocessed title: biomed health life
     * University College Dublin
     * RIASEC Interests: Investigative
@@ -353,12 +335,30 @@
     * **Overview:** This course will appeal to those with a keen interest in science and in how research and technology can impact on human health. It is training scientists at the interface of science and medicine. You will learn how scientifically driven investigations can advance our knowledge of disease prevention, detection and treatment and translating these into clinical utility. The course will immerse you in modern medical and biological sciences and focus on the application of scientific developments. BHLS offers students a unique opportunity to complete a research project with a Principal Investigator in a biomedical research area that interests them and an opportunity to be involved in peer-reviewed publications.
     * **Why we recommended this:** 
 
-* **19. Law and French**
-    * Preprocessed title: law french
+* **17. Pharmacy**
+    * Preprocessed title: pharmaci
+    * Trinity College Dublin
+    * RIASEC Interests: Investigative, Social
+    * Categories: Chemical Science, Healthcare, Life Science
+    * **601** points
+    * **Overview:** Pharmacy is the study of all aspects of drugs, both natural and synthetic in origin, including their chemistry, their uses in medicines, and how they work within the body. Pharmacists work in a variety of settings - community pharmacies, hospitals, long-term care facilities, and within the pharmaceutical industry, to name just a few. In many respects, their role as a key healthcare professional is to help people achieve the best results from their medications. Optional Fifth Year:M.Sc. (Pharm) Master's Degree (NFQ Level 9) Optional.
+    * **Why we recommended this:** 
+
+* **18. Law/History**
+    * Preprocessed title: law histori
     * Trinity College Dublin
     * RIASEC Interests: Enterprising, Investigative
-    * Categories: Languages, Law
-    * **589** points
-    * **Overview:** The Law and French degree programme offers a unique opportunity to study core and specialised legal modules but also the language, culture and political systems of France. Students must undertake an Erasmus year in France, exposing them to the law of that legal system.
+    * Categories: Humanities, Law
+    * **613** points
+    * **Overview:** Law The law degree will appeal to you if you are interested in society and how it works, how we regulate the relationships between people. Given the wide range of legal modules, the degree attracts students with a broad range of interests. Those interested in politics are attracted to subjects such as constitutional law. History The History programme introduces students to the diversity of historical studies, which include modules covering medieval and modern periods, including Irish, European, and American history, as well as some modules exploring the skills and methods which historians use, and the kinds of debates in which historians engage.
+    * **Why we recommended this:** 
+
+* **19. Law/Business Studies**
+    * Preprocessed title: law busi
+    * Trinity College Dublin
+    * RIASEC Interests: Conventional, Enterprising
+    * Categories: Business, Law
+    * **613** points
+    * **Overview:** LawThe law degree will appeal to you if you are interested in society and how it works, how we regulate the relationships between people. Given the wide range of legal modules, the degree attracts students with a broad range of interests.Business StudiesThis four year programme offers the opportunity to focus upon the many areas of overlapping interest between the two disciplines, for example, the structure of companies and other forms of business organisation, competition law and regulation of markets, consumer law, labour law, finance and financial markets, taxation, the protection of intellectual property and international perspectives on law and business.
     * **Why we recommended this:** 
 
