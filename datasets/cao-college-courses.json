@@ -30010,7 +30010,7 @@
     {
         "id": "GY301",
         "title": "Science",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "scienc",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
@@ -30030,7 +30030,7 @@
     {
         "id": "MH201",
         "title": "Science",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "scienc",
         "college": "Maynooth University",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -30050,7 +30050,7 @@
     {
         "id": "AU730",
         "title": "Science",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "scienc",
         "college": "ATU Sligo",
         "region": "Connacht",
         "duration": "2 Years",
@@ -30070,7 +30070,7 @@
     {
         "id": "AU965",
         "title": "Science",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "scienc",
         "college": "ATU Sligo",
         "region": "Connacht",
         "duration": "4 Years",
@@ -30130,7 +30130,7 @@
     {
         "id": "DK883",
         "title": "Science (Common Entry with Award Options)",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "scienc",
         "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -30150,7 +30150,7 @@
     {
         "id": "SE500",
         "title": "Science (Common Entry)",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "scienc",
         "college": "SETU Carlow",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -30170,7 +30170,7 @@
     {
         "id": "SE501",
         "title": "Science (Common Entry)",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "scienc",
         "college": "SETU Waterford",
         "region": "Munster",
         "duration": "4 Years",
@@ -30190,7 +30190,7 @@
     {
         "id": "TU755",
         "title": "Science (General Entry)",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "scienc",
         "college": "TU Dublin - Grangegorman",
         "region": "Dublin",
         "duration": "3 Years",
@@ -30210,7 +30210,7 @@
     {
         "id": "TU854",
         "title": "Science (General Entry)",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "scienc",
         "college": "TU Dublin - Grangegorman",
         "region": "Dublin",
         "duration": "4 Years",
@@ -30230,7 +30230,7 @@
     {
         "id": "SE512",
         "title": "Science (General)",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "scienc",
         "college": "SETU Waterford",
         "region": "Munster",
         "duration": "3 Years",
@@ -30272,7 +30272,7 @@
     {
         "id": "AU270",
         "title": "Science - Common Entry",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "scienc",
         "college": "ATU Donegal",
         "region": "Ulster",
         "duration": "3 Years",
@@ -30291,7 +30291,7 @@
     {
         "id": "DN200",
         "title": "Science - Explore Multiple Streams",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "scienc",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -30310,7 +30310,7 @@
     {
         "id": "AU556",
         "title": "Science - Undenominated",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "scienc",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "3 Years",
@@ -30330,7 +30330,7 @@
     {
         "id": "AU656",
         "title": "Science - Undenominated",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "scienc",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "4 Years",
