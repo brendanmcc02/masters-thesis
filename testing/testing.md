@@ -21,8 +21,9 @@
         * I think this would have effected his overall trust in set 2
     * not worth asking him to re-evaluate trust again imo, he would know which set is which
     * could leave his results out of the final thing - part_1_timestamp is `04/02/2026 14:37:26`
-- [ ] Sean Somers
-- [ ] lalith
+- [x] Sean Somers
+- [x] lalith
+    * didn't rec law despite liking law category
 - [ ] Aysha
 - [ ] Doill
 - [ ] Conal

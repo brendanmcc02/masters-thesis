@@ -55,3 +55,5 @@ datasets/open-psychometrics/open-psychometrics-venv/
 venv/
 
 **/.~lock.*
+
+college-course-recommender-system/results-pdf/*.pdf

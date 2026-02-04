@@ -147,7 +147,7 @@ def write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_1, user_t
 def get_preprocessed_unique_user_ground_truth_courses(user_data_part_2):
     raw_courses = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_GROUND_TRUTH_COLLEGE_COURSE_COLUMN_NAME]
 
-    courses = re.split(r'\d\. +', raw_courses)
+    courses = re.split(r'(?:10|[1-9])\.', raw_courses)
     courses.pop(0)
 
     for i in range(len(courses)):
