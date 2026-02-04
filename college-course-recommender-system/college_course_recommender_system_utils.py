@@ -9,10 +9,10 @@ import re
 
 load_dotenv()
 
-IS_DEBUG=False
+IS_NOT_ACTUAL_EXPERIMENT=True
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-if not IS_DEBUG:
+if not IS_NOT_ACTUAL_EXPERIMENT:
     GEMINI_CLIENT = genai.Client(api_key=GEMINI_API_KEY)
 
 CAO_COLLEGE_COURSES_FILE_LOCATION = '../datasets/cao-college-courses.json'
@@ -386,25 +386,20 @@ def get_stringified_markdown_college_course_recommendations(college_course_recom
     for i in range(len(college_course_recommendations)):
         stringified_college_course_recommendations += "* **" + str(i) + ". " + college_course_recommendations[i]["title"] + "**\n"
 
-        if IS_DEBUG:
+        if IS_NOT_ACTUAL_EXPERIMENT:
             stringified_college_course_recommendations += "    * Preprocessed title: " + college_course_recommendations[i]["preprocessed_title"] + "\n"
 
         stringified_college_course_recommendations += "    * " + college_course_recommendations[i]["college"] + "\n"
 
-        if is_gemini_prompt or IS_DEBUG:
+        if is_gemini_prompt or IS_NOT_ACTUAL_EXPERIMENT:
             stringified_college_course_recommendations += "    * RIASEC Interests: " + get_stringified_interests_or_categories(college_course_recommendations[i]["riasec_interests"]) + "\n"
             stringified_college_course_recommendations += "    * Categories: " + get_stringified_interests_or_categories(college_course_recommendations[i]["categories"]) + "\n"
 
         stringified_college_course_recommendations += "    * **" + str(college_course_recommendations[i]["points"]) + "** points\n"
 
-        # I honestly don't know why I need this check here because all the courses should have similarity_scores, and they do have similarity_scores in the markdown output,
-        # should probably investigate this
-        if "similarity_score" in college_course_recommendations[i]:
-            stringified_college_course_recommendations += "    * **" + str(round(college_course_recommendations[i]["similarity_score"]*100.0, 1)) + "%** similarity\n"
-
         stringified_college_course_recommendations += "    * **Overview:** " + college_course_recommendations[i]["overview"] + "\n"
 
-        # if IS_DEBUG:
+        # if IS_NOT_ACTUAL_EXPERIMENT:
         #     stringified_college_course_recommendations += "    * Vectorized Representation: " + str(college_course_recommendations[i]['vectorized_representation']) + "\n"
         
         if not is_gemini_prompt:
@@ -439,7 +434,7 @@ def get_baseline_college_course_recommendations(user_interest_questions_results_
     return unique_baseline_college_course_recommendations
 
 def add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector):
-    if IS_DEBUG:
+    if IS_NOT_ACTUAL_EXPERIMENT:
         for i in range(len(college_course_recommendations)):
             college_course_recommendations[i]["recommendation_justification"] = ""
         

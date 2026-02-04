@@ -3,6 +3,8 @@
 * humanities is very broad and could be narrowed down
 * creative arts is very broad and could be narrowed down
 * the "artistic" quality is very broad and can be manifested in so many different ways
+    * tbf though so is the "investigative" quality, that's just a byproduct of the Holland taxonomy
+    * as a result i don't think this is worth talking about tbh
 * the questions for some categories is non-exhaustive - e.g. social science, architecture, law,
     * actually on second thought i think these are exhaustive to be honest
 * languages maybe should be specific to a language - e.g. getting recommended Polish if you studied German

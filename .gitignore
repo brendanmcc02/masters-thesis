@@ -54,4 +54,4 @@ datasets/open-psychometrics/open-psychometrics-venv/
 *.env
 venv/
 
-college-course-recommender-system/user-college-course-recommendations.md
+**/.~lock.*

@@ -77,7 +77,7 @@ def get_user_nfq_levels(raw_nfq_levels):
 def get_user_expected_leaving_cert_points(raw_leaving_cert_points):
     raw_leaving_cert_points = re.findall(r'\d+', raw_leaving_cert_points)
 
-    return int(raw_leaving_cert_points[0])
+    return max(min(int(raw_leaving_cert_points[0]), MAX_COURSE_POINTS), MIN_COURSE_POINTS)
 
 def get_user_interest_questions_results_vector(user_data):
     user_data = user_data.drop([SURVEY_PART_1_RESPONSES_DATASET_NFQ_LEVELS_COLUMN_NAME, SURVEY_PART_1_RESPONSES_DATASET_EXPECTED_LEAVING_CERT_POINTS_COLUMN_NAME])
