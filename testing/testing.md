@@ -4,18 +4,24 @@
     * did it with substring match
     * could generate recs md again and ask him to do part-2-survey?
     * did it with similarity scores visible on set 2 - would definitely affect the trust metric
+    * did it with baseline being sorted by points as opposed to cosine similarity
     * downside with this is that they both know how set 2's algorithm works
     * could leave his results out of the final thing - part_1_timestamp is `29/01/2026 15:31:41`
 - [?] Tom Gilbride
     * did it with substring match
     * did it with similarity scores visible on set 2 - would definitely affect the trust metric
+    * did it with baseline being sorted by points as opposed to cosine similarity
     * could generate recs md again and ask him to do part-2-survey?
     * downside with this is that they both know how set 2's algorithm works
     * could leave his results out of the final thing - part_1_timestamp is `29/01/2026 15:29:56`
 - [x] Sam Taylor
     * did it with similarity scores visible on set 2 - would definitely affect the trust metric
-    * said the similarity score might have affected trust values
+        * he said the similarity score might have affected trust values
+    * did it with baseline being sorted by points as opposed to cosine similarity
+        * I think this would have effected his overall trust in set 2
     * not worth asking him to re-evaluate trust again imo, he would know which set is which
+    * could leave his results out of the final thing - part_1_timestamp is `04/02/2026 14:37:26`
+- [ ] Sean Somers
 - [ ] lalith
 - [ ] Aysha
 - [ ] Doill
@@ -38,7 +44,6 @@
 - [ ] Cian Tracey
 - [ ] Grainne
 - [ ] Cian Kiely
-- [ ] Sean Somers
 - [ ] Matthew
 - [ ] Adam 
 - [ ] Ben Hennessy

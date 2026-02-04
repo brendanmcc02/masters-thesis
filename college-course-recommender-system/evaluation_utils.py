@@ -166,29 +166,35 @@ def get_preprocessed_unique_user_ground_truth_courses(user_data_part_2):
 
 def parse_title_from_cao_college_course(raw_course_id_and_title):
     # TR033 - TR033
-    match = re.search(r'[A-Z]{2}\d{3} - [A-Z]{2}\d{3}', raw_course_id_and_title)
+    course_id_match = re.search(r'[A-Z]{2}\d{3} - [A-Z]{2}\d{3}', raw_course_id_and_title)
 
-    if match:
-        title = raw_course_id_and_title[match.end():].strip()
-        return title
+    if course_id_match:
+        return parse_title_from_cao_college_course_with_course_id_match(raw_course_id_and_title, course_id_match)
 
     # TR033 ABC
-    match = re.search(r'[A-Z]{2}\d{3} [A-Z]{3}', raw_course_id_and_title)
+    course_id_match = re.search(r'[A-Z]{2}\d{3} [A-Z]{3}', raw_course_id_and_title)
 
-    if match:
-        title = raw_course_id_and_title[match.end():].strip()
-        return title
+    if course_id_match:
+        return parse_title_from_cao_college_course_with_course_id_match(raw_course_id_and_title, course_id_match)
     
     # TR033
-    match = re.search(r'[A-Z]{2}\d{3}', raw_course_id_and_title)
+    course_id_match = re.search(r'[A-Z]{2}\d{3}', raw_course_id_and_title)
 
-    if match:
-        title = raw_course_id_and_title[match.end():].strip()
-        return title
+    if course_id_match:
+        return parse_title_from_cao_college_course_with_course_id_match(raw_course_id_and_title, course_id_match)
 
     print("id not found in college course!" + raw_course_id_and_title)
 
     return raw_course_id_and_title
+
+def parse_title_from_cao_college_course_with_course_id_match(raw_course_id_and_title, course_id_match):
+        title = raw_course_id_and_title[course_id_match.end():].strip()
+
+        title = re.sub(r'\[.*?\]', '', title).strip() # remove content in square brackets
+        # this is done because some cao courses have campus/college location in their title
+        # e.g: Mechanical Engineering (General Entry) [Tallaght]
+
+        return title.strip()
 
 def get_recommended_relevant_college_courses(user_data_part_2, column_name, college_course_recommendations):
     recommended_relevant_college_courses_indices = re.findall(r'\d+', user_data_part_2[column_name])

@@ -1,4 +1,4 @@
 # TODO
 
-- [ ] why is similarity_score being checked if all courses should have it anyway?
-- [ ] start scheduling tests with people
+- [ ] tud courses are in square brackets in ground truth - check sean's one for example
+- [ ] some courses might have campus in brackets - may have that in ground truth
