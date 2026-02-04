@@ -16,7 +16,7 @@
 - [ ] Cian Moriarty
 - [ ] Jake
 - [ ] Ramy
-- [ ] Sam
+- [ ] Sam Taylor
 - [ ] Samuel
 - [ ] Daniel Mccann
 - [ ] Vivi
@@ -31,8 +31,8 @@
 - [ ] Cian Kiely
 - [ ] Sean Somers
 - [ ] Matthew
-- [ ] Adam
-- [ ] Ben
+- [ ] Adam 
+- [ ] Ben Hennessy
 - [ ] Kevin
 - [ ] Alex
 - [ ] James O'Connell
@@ -43,4 +43,6 @@
 - [ ] kaden
 - [ ] hugh finnegan
 - [ ] Dillon
-- [ ] Lughaidh
+- [ ] Lughaidh(?)
+- [ ] michael connolly
+- [ ] rob
