@@ -13,6 +13,10 @@
     * e.g. me wanting education but not doing dcu/marino/
     * there are a looot of colleges and people are frankly unaware of what they do
     * maybe the RS should run on all colleges (no filter, despite what the user puts down)- and if there are courses being recommended for those colleges, the system could ask the user: "hey, we got some course suggestions from these colleges because you scored highly in these areas, would you like to include these colleges in your final recommendation list?
+* another "iterative" idea
+    * after showing the recs to the user, their preferences may evolve/change - e.g. me getting recommended bio/chem courses but then preferring other things
+    * you could attach a button to a course and ask the user if they want to revise their 6 question answers for that specific category
+    * e.g. click on bio course -> they have a chance to re-rate the 6 life science questions
 * got rid of substring match - tradeoff
     * some good cases, some not so good cases
     * it made the baseline a lot worse - depending if the person likes econ or not!

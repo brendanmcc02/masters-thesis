@@ -9,7 +9,7 @@ import re
 
 load_dotenv()
 
-IS_DEBUG=True
+IS_DEBUG=False
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if not IS_DEBUG:
@@ -142,8 +142,7 @@ def get_user_college_course_categories_vector(user_riasec_questions_vector):
     for i in range(len(user_categories_vector)):
         user_categories_vector[i] = custom_normalized_sigmoid_function(user_categories_vector[i], COLLEGE_COURSE_CATEGORY_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT)
 
-    if IS_DEBUG:
-        print(get_stringified_college_course_categories_vector(user_categories_vector))
+    print(get_stringified_college_course_categories_vector(user_categories_vector))
 
     return user_categories_vector
 
@@ -197,8 +196,7 @@ def get_masked_college_course_category_user_vector(user_vector, college_course_c
 
     mask_college_course_categories_in_user_vector(college_course_category_user_vector_index, masked_college_course_category_user_vector, top_college_course_category_user_vector_indexes)
 
-    if IS_DEBUG:
-        print(COLLEGE_COURSE_CATEGORIES[college_course_category_user_vector_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX] + str(masked_college_course_category_user_vector))
+    print(COLLEGE_COURSE_CATEGORIES[college_course_category_user_vector_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX] + str(masked_college_course_category_user_vector))
 
     return masked_college_course_category_user_vector
 
@@ -291,8 +289,7 @@ def add_unique_college_course_recommendations(masked_college_course_category_cou
 def is_unique_college_course_recommendation(college_course_to_check, previously_recommended_college_courses):
     for previously_recommended_college_course in previously_recommended_college_courses:
         if is_college_course_duplicate(previously_recommended_college_course, college_course_to_check):
-            if IS_DEBUG:
-                print("Not recommending " + college_course_to_check['title'] + " " + college_course_to_check['id'] + " because " + previously_recommended_college_course['title'] + " " + previously_recommended_college_course['id'] + " is already recommended.\n")
+            print("Not recommending " + college_course_to_check['title'] + " " + college_course_to_check['id'] + " because " + previously_recommended_college_course['title'] + " " + previously_recommended_college_course['id'] + " is already recommended.\n")
 
             return False
         
@@ -324,8 +321,7 @@ def get_user_riasec_vector(user_interest_questions_results_vector):
     for i in range(len(user_riasec_vector)):
         user_riasec_vector[i] = custom_normalized_sigmoid_function(user_riasec_vector[i], RIASEC_INTEREST_NORMALIZED_SIGMOID_FUNCTION_TUNING_CONSTANT)
 
-    if IS_DEBUG:
-        print(get_stringified_riasec_vector(user_riasec_vector))
+    print(get_stringified_riasec_vector(user_riasec_vector))
 
     return user_riasec_vector
 
@@ -401,9 +397,9 @@ def get_stringified_markdown_college_course_recommendations(college_course_recom
 
         stringified_college_course_recommendations += "    * **" + str(college_course_recommendations[i]["points"]) + "** points\n"
 
-        if "similarity_score" not in college_course_recommendations[i]:
-            print(college_course_recommendations[i])
-        else:
+        # I honestly don't know why I need this check here because all the courses should have similarity_scores, and they do have similarity_scores in the markdown output,
+        # should probably investigate this
+        if "similarity_score" in college_course_recommendations[i]:
             stringified_college_course_recommendations += "    * **" + str(round(college_course_recommendations[i]["similarity_score"]*100.0, 1)) + "%** similarity\n"
 
         stringified_college_course_recommendations += "    * **Overview:** " + college_course_recommendations[i]["overview"] + "\n"
@@ -475,7 +471,7 @@ def get_gemini_prompt(college_course_recommendations, user_vector):
 
     gemini_prompt += "And here are the college courses that were recommended to the user:\n\n" + get_stringified_markdown_college_course_recommendations(college_course_recommendations, is_gemini_prompt=True)
 
-    gemini_prompt += "\nI would like you to generate a justification for each recommendation. The justification for each recommendation should be no longer than 30 words. Please do not directly cite any raw score values in your written justification, as the user cannot see this. Please use the name of the course in your justification, and use the title of the course instead of saying \"this course\", etc.. I would like your output to strictly follow the format provided below - do not add any additional text, as I will parse your response:\nSample Output:\n```\n1. With a maximum Investigative score, your profile aligns strongly with Mathematics, which demands the high-level logical reasoning, analytical depth, and complex problem-solving skills you naturally possess.\n2. Computer Science suits your Investigative nature and technical interests, offering a perfect outlet for your strong analytical capabilities through software engineering, programming, and developing innovative technological solutions.\n3. Dental Science uniquely balances your highest traits; it requires the intellectual rigor of an investigator, the social empathy for patient care, and the realistic coordination for clinical procedures.\n4. etc.\n```"
+    gemini_prompt += "\nI would like you to generate a justification for each recommendation. The justification for each recommendation should be no longer than 30 words. You can assume the user has no prior knowledge of Holland Codes, so avoid making reference to Holland Codes such as \"Enterprising\" as they may not know what this means. Please do not directly cite any raw score values in your written justification, as the user cannot see this. Please use the name of the course in your justification, and use the title of the course instead of saying \"this course\", etc.. I would like your output to strictly follow the format provided below - do not add any additional text, as I will parse your response:\nSample Output:\n```\n1. With a maximum Investigative score, your profile aligns strongly with Mathematics, which demands the high-level logical reasoning, analytical depth, and complex problem-solving skills you naturally possess.\n2. Computer Science suits your Investigative nature and technical interests, offering a perfect outlet for your strong analytical capabilities through software engineering, programming, and developing innovative technological solutions.\n3. Dental Science uniquely balances your highest traits; it requires the intellectual rigor of an investigator, the social empathy for patient care, and the realistic coordination for clinical procedures.\n4. etc.\n```"
 
     return gemini_prompt
 
