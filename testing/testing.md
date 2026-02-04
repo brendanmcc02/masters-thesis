@@ -1,7 +1,11 @@
 # People
 
 - [x] Declan
+    * did it with substring match
+    * could generate recs md again and ask him to do part-2?
 - [x] Tom Gilbride
+    * did it with substring match
+    * could generate recs md again and ask him to do part-2?
 - [ ] lalith
 - [ ] Aysha
 - [ ] Doill
@@ -12,7 +16,7 @@
 - [ ] Cian Moriarty
 - [ ] Jake
 - [ ] Ramy
-- [ ] Sam
+- [ ] Sam Taylor
 - [ ] Samuel
 - [ ] Daniel Mccann
 - [ ] Vivi
@@ -27,8 +31,8 @@
 - [ ] Cian Kiely
 - [ ] Sean Somers
 - [ ] Matthew
-- [ ] Adam
-- [ ] Ben
+- [ ] Adam 
+- [ ] Ben Hennessy
 - [ ] Kevin
 - [ ] Alex
 - [ ] James O'Connell
@@ -39,4 +43,6 @@
 - [ ] kaden
 - [ ] hugh finnegan
 - [ ] Dillon
-- [ ] Lughaidh
+- [ ] Lughaidh(?)
+- [ ] michael connolly
+- [ ] rob
