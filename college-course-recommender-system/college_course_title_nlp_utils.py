@@ -85,8 +85,6 @@ def get_stop_words():
     stop_words.add("south")
     stop_words.add("east")
     stop_words.add("west")
-    stop_words.add("science")
-    stop_words.add("sciences")
     stop_words.add("foreign")
     stop_words.add("mass")
     stop_words.add("subject")
@@ -152,11 +150,6 @@ def preprocess_college_title(text):
 
     text = text.strip()
 
-    # don't put this in `COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP`, because that would expand out tokens.
-    # FYI: "science" is a stop word!
-    if text == "science":
-        text = "physical science"
-
     tokens = word_tokenize(text)
     cleaned_tokens = []
     for word in tokens:
@@ -165,6 +158,9 @@ def preprocess_college_title(text):
 
             if stemmed_word not in cleaned_tokens:
                 cleaned_tokens.append(stemmed_word)
+
+            if len(cleaned_tokens) > 1 and "scienc" in cleaned_tokens:
+                cleaned_tokens.remove("scienc")
 
     return ' '.join(cleaned_tokens)
 

@@ -1,5 +1,4 @@
 Timestamp Part 1	Timestamp Part 2	Actual Diversity	Baseline Diversity	Actual Trust	Baseline Trust	Actual Precision 	Baseline Precision	Actual Recall	Baseline Recall	Actual F1 Score	Baseline F1 Score	Actual Novelty	Baseline Novelty	Actual Serendipity	Baseline Serendipity	Feedback
 29/01/2026 15:31:41	29/01/2026 15:41:13	5	3	5	1	0.7	0.3	0.93	0.6	0.8	0.4	0.85	1.0	0.55	0.3	Course recommendations from set 1 very accurate, I'd order them differently but the actual selections were spot on.  Set 2 didn't seem  very relevant.
 29/01/2026 15:29:56	29/01/2026 15:46:36	5	5	5	2	0.55	0.15	1.0	0.6	0.71	0.24	0.9	1.0	0.45	0.15	
-29/01/2026 15:29:56	29/01/2026 15:46:36	5	5	5	2	0.55	0.15	1.0	0.6	0.71	0.24	0.9	1.0	0.45	0.15	
 04/02/2026 12:07:50	04/02/2026 12:17:54	5	3	4	2	0.65	0.3	0.68	0.43	0.66	0.35	0.9	1.0	0.55	0.3	Brendan was here :)

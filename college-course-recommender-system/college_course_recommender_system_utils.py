@@ -63,7 +63,6 @@ def get_user_interest_questions_riasec_interests():
     
     return riasec_interests
 
-PREPROCESSED_SCIENCE_COURSE_TITLE_EDGE_CASES = ['Science (General)', 'Science - Explore Multiple Streams', 'Science - Undenominated', 'Science - Common Entry', 'Science (Common Entry with Award Options)', 'Science (Common Entry)', 'Science (General Entry)']
 def preprocess_cao_college_course_titles():
     with open(CAO_COLLEGE_COURSES_FILE_LOCATION, 'r', encoding='utf-8') as f: 
         college_courses = json.load(f)
@@ -71,11 +70,7 @@ def preprocess_cao_college_course_titles():
     updated_college_courses = []
 
     for course in college_courses:
-        # set general science courses to "physical sciences"
-        if course['title'] in PREPROCESSED_SCIENCE_COURSE_TITLE_EDGE_CASES:
-            preprocessed_title = "physic"
-        else:
-            preprocessed_title = preprocess_college_title(course['title'])
+        preprocessed_title = preprocess_college_title(course['title'])
 
         if preprocessed_title == "":
             print("Empty preprocessed college course title! - " + course['title'])
