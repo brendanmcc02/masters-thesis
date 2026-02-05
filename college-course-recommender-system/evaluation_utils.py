@@ -207,6 +207,10 @@ def get_recommended_relevant_college_courses(user_data_part_2, column_name, coll
     return recommended_relevant_college_courses
 
 def get_precision_metric(num_relevant_recommended_items, num_college_course_recommendations):
+    # cover divide by 0 error
+    if num_college_course_recommendations == 0:
+        return 0.0
+    
     return round(num_relevant_recommended_items / num_college_course_recommendations, 2)
 
 def get_recall_metric(preprocessed_unique_user_ground_truth_courses, recommended_relevant_college_courses):
@@ -225,6 +229,10 @@ def is_course_new(course, all_preprocessed_unique_relevant_courses):
     return True
 
 def get_f1_score(precision, recall):
+    # cover divide by 0 error
+    if (precision + recall) == 0:
+        return 0.0
+    
     return round(2.0 * ((precision * recall) / (precision + recall)), 2)
 
 def get_novelty_metric(college_course_recommendations, preprocessed_unique_user_ground_truth_courses):
@@ -234,6 +242,10 @@ def get_novelty_metric(college_course_recommendations, preprocessed_unique_user_
         if rec["preprocessed_title"] not in preprocessed_unique_user_ground_truth_courses:
             number_of_recommendations_not_in_user_ground_truth += 1
 
+    # cover divide by 0 error
+    if len(college_course_recommendations) == 0:
+        return 0.0
+    
     return number_of_recommendations_not_in_user_ground_truth / len(college_course_recommendations)
 
 def get_serendipity_metric(college_course_recommendations, preprocessed_unique_user_ground_truth_courses, recommended_relevant_college_courses):
@@ -243,4 +255,8 @@ def get_serendipity_metric(college_course_recommendations, preprocessed_unique_u
         if relevant_rec["preprocessed_title"] not in preprocessed_unique_user_ground_truth_courses:
             number_of_serendipitous_recommendations += 1
 
+    # cover divide by 0 error
+    if len(college_course_recommendations) == 0:
+        return 0.0
+    
     return number_of_serendipitous_recommendations / len(college_course_recommendations)

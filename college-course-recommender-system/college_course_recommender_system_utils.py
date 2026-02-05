@@ -386,14 +386,14 @@ def get_stringified_markdown_college_course_recommendations(college_course_recom
     for i in range(len(college_course_recommendations)):
         stringified_college_course_recommendations += "* **" + str(i) + ". " + college_course_recommendations[i]["title"] + "**\n"
 
-        if IS_NOT_ACTUAL_EXPERIMENT:
-            stringified_college_course_recommendations += "    * Preprocessed title: " + college_course_recommendations[i]["preprocessed_title"] + "\n"
+        # if IS_NOT_ACTUAL_EXPERIMENT:
+        #     stringified_college_course_recommendations += "    * Preprocessed title: " + college_course_recommendations[i]["preprocessed_title"] + "\n"
 
         stringified_college_course_recommendations += "    * " + college_course_recommendations[i]["college"] + "\n"
 
-        if is_gemini_prompt or IS_NOT_ACTUAL_EXPERIMENT:
-            stringified_college_course_recommendations += "    * RIASEC Interests: " + get_stringified_interests_or_categories(college_course_recommendations[i]["riasec_interests"]) + "\n"
-            stringified_college_course_recommendations += "    * Categories: " + get_stringified_interests_or_categories(college_course_recommendations[i]["categories"]) + "\n"
+        # if is_gemini_prompt or IS_NOT_ACTUAL_EXPERIMENT:
+        #     stringified_college_course_recommendations += "    * RIASEC Interests: " + get_stringified_interests_or_categories(college_course_recommendations[i]["riasec_interests"]) + "\n"
+        #     stringified_college_course_recommendations += "    * Categories: " + get_stringified_interests_or_categories(college_course_recommendations[i]["categories"]) + "\n"
 
         stringified_college_course_recommendations += "    * **" + str(college_course_recommendations[i]["points"]) + "** points\n"
 
@@ -430,12 +430,6 @@ def get_baseline_college_course_recommendations(user_interest_questions_results_
 
     for course in unique_baseline_college_course_recommendations:
         course["similarity_score"] = get_cosine_similarity(user_vector, cached_user_vector_magnitude, course["vectorized_representation"])
-
-    unique_baseline_college_course_recommendations = sorted(
-        unique_baseline_college_course_recommendations,
-        key=lambda x: x["similarity_score"],
-        reverse=True
-    )
 
     return unique_baseline_college_course_recommendations
 
