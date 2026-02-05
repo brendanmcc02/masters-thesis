@@ -22,9 +22,10 @@
     * not worth asking him to re-evaluate trust again imo, he would know which set is which
     * could leave his results out of the final thing - part_1_timestamp is `04/02/2026 14:37:26`
 - [x] Sean Somers
+    * first person to do it with baseline sorted by cosine similarity as opposed to points
 - [x] lalith
     * didn't rec law despite liking law category
-- [ ] Aysha
+- [x] Aysha
 - [ ] Doill
 - [ ] Conal
 - [ ] kihan
