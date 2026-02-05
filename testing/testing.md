@@ -32,19 +32,18 @@
 - [x] Cian Moriarty
     * did it with baseline sorted by points (back to normal)
     * i don't think sorting baseline by relevance is a representative baseline because the relevance measurement is not super objective and is subject to my algorithm, a baseline by nature should be objective and standardised across different algorithms and approaches
-    * he still has feedback, talk to him **TODO**
+- [x] Liam Murphy
+- [x] Jake
 - [ ] Doill
 - [ ] Conal
 - [ ] kihan
     * did it before but he did level 8 + high colleges
     * needs to make colleges more realistic
-- [ ] Jake
 - [ ] Ramy
-- [ ] Samuel
-- [ ] Daniel Mccann
+- [ ] Samuel (might be too old)
+- [ ] Daniel Mccann (might be too old)
 - [ ] Vivi
 - [ ] Daniel Farushev
-- [ ] Liam Murphy
 - [ ] Inam
 - [ ] Muneeb
 - [ ] Mahmi

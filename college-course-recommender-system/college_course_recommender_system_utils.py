@@ -196,7 +196,7 @@ def get_masked_college_course_category_user_vector(user_vector, college_course_c
 
     mask_college_course_categories_in_user_vector(college_course_category_user_vector_index, masked_college_course_category_user_vector, top_college_course_category_user_vector_indexes)
 
-    print(COLLEGE_COURSE_CATEGORIES[college_course_category_user_vector_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX] + str(masked_college_course_category_user_vector))
+    # print(COLLEGE_COURSE_CATEGORIES[college_course_category_user_vector_index - STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX] + str(masked_college_course_category_user_vector))
 
     return masked_college_course_category_user_vector
 
@@ -402,7 +402,7 @@ def get_stringified_markdown_college_course_recommendations(college_course_recom
         # if IS_NOT_ACTUAL_EXPERIMENT:
         #     stringified_college_course_recommendations += "    * Vectorized Representation: " + str(college_course_recommendations[i]['vectorized_representation']) + "\n"
         
-        if not is_gemini_prompt:
+        if not is_gemini_prompt and len(college_course_recommendations[i]['recommendation_justification']) > 0:
             stringified_college_course_recommendations += "    * **Why we recommended this:** " + college_course_recommendations[i]['recommendation_justification'] + "\n"
         
         stringified_college_course_recommendations += "\n"
@@ -510,6 +510,13 @@ def get_num_of_max_recommended_courses_per_category(top_college_course_category_
     for i in range(len(top_college_course_category_user_vector_indexes)):
         num_of_max_recommended_courses_per_category[top_college_course_category_user_vector_indexes[i]] = max(round((user_vector[top_college_course_category_user_vector_indexes[i]] / top_n_college_course_category_sum) * 20.0), 1)
 
-    print(str(num_of_max_recommended_courses_per_category))
+    print(get_stringified_num_of_max_recommended_courses_per_category(num_of_max_recommended_courses_per_category))
 
     return num_of_max_recommended_courses_per_category
+
+def get_stringified_num_of_max_recommended_courses_per_category(num_of_max_recommended_courses_per_category):
+    stringified_num_of_max_recommended_courses_per_category = ""
+    for category_index in num_of_max_recommended_courses_per_category.keys():
+        stringified_num_of_max_recommended_courses_per_category += str(COLLEGE_COURSE_CATEGORIES[category_index-STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX]) + ": " + str(num_of_max_recommended_courses_per_category[category_index]) + " courses\n"
+
+    return stringified_num_of_max_recommended_courses_per_category

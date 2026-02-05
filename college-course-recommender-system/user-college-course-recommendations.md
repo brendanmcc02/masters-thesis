@@ -1,244 +1,204 @@
 # RECOMMENDATION SET 1
 
-* **0. Education - Primary Teaching**
-    * Dublin City University
-    * **485** points
-    * **Overview:** The Bachelor of Education will prepare you for a rewarding career as a Primary School Teacher, a role that has a positive and lasting impact on young children's lives. As a primary school teacher, you can make a real difference - guiding and supporting children's growing minds and personal development. This course will help you to become a skilled and creative teaching professional. Learning to Teach, Teaching to Learn The Bachelor of Education (Primary Teaching) will equip you not only with subject knowledge, but also with the leadership and communication skills that teachers need. The course helps you to understand how children learn, and gives you the tools to motivate your students in the classroom. As well as learning how to teach the subjects on the primary school curriculum, your knowledge and understanding of the world will deepen through great interactive lectures.
-    * **Why we recommended this:** 
+* **0. Computer Science**
+    * University College Dublin
+    * **540** points
+    * **Overview:** The UCD Computer Science degree covers the fundamentals of Computer Science while also exposing students to the contemporary languages and technologies used in the industry. Key topics include programming, foundational mathematics, advanced software engineering, cloud development, theory of computer science, networks and security. The principal programming languages used are C, Java and Python. Specialised topics include computer graphics, game development, robotics, mobile development and others.
 
-* **1. Education - Early Childhood Education**
-    * Dublin City University
-    * **420** points
-    * **Overview:** Do you want to make a difference to the lives and educational futures of young children? Then follow your passion and explore early education with an internationally-recognised team of academics and researchers in DCU. This course will prepare you for a highly rewarding career, educating and supporting young children during a vital time in their development. The Bachelor of Early Childhood Education (BECE) prepares you for work as a professional in a variety of early childhood educational settings, from preschools and creches, to child and family support programmes and it equips graduates to work with children of all needs. The BECE enables graduates to follow a career in a range of voluntary and statutory organisations that work on behalf of children and families.
-    * **Why we recommended this:** 
-
-* **2. Education - Primary Teaching - Gaeltacht Applicants**
-    * Dublin City University
-    * **431** points
-    * **Overview:** Mar mhúinteoir bunscoile, is féidir leat fíordhifríocht a dhéanamh - meon agus forbairt phearsanta leanaí a threorú agus a thacú. Cabhróidh an cúrsa seo leat a bheith i do ghairmí múinteoireachta oilte cruthaitheach Ag Foghlaim a Mhúineadh, Ag múineadh chun foghlaim Tabharfaidh an Baitsiléir san Oideachas (Bunmhúinteoireacht) gach eolas duit ar na hábhair a bheidh le múineadh chomh maith leis na scileanna ceannaireachta agus cumarsáide a theastaíonn chun iad a mhúineadh. Cuidíonn an cúrsa leat tuiscint a fháil ar an gcaoi a bhfoghlaimíonn leanaí, agus tugann sé na huirlisí duit chun do mhic léinn a spreagadh sa seomra ranga. Ina theannta sin, méadófar ar do chuid eolais agus tuiscint ar an domhan thart ort trí léachtaí iontacha idirghníomhacha
-    * **Why we recommended this:** 
-
-* **3. Education and Training**
-    * Dublin City University
-    * **346** points
-    * **Overview:** There's a strong demand for educators and trainers across Ireland, from individual communities through to large organisations. On this course, you will gain the skills and knowledge you need to enter a career area that can change lives, and one that has excellent employment opportunities. Education Theory You will explore how teachers and trainers engage their learners and develop their understanding in any given topic. You will look at how people learn, how to use a variety of teaching methods to appeal to different learning styles and how to tailor your planning to get the very best from each learner. Teaching Skills and Placement As you develop your skills, you will be given practical advice on how to improve as a teacher trainer. You will also learn how to plan and construct lessons and then you will get the chance to practise your teaching in a safe environment before getting work experience in real life environments.
-    * **Why we recommended this:** 
-
-* **4. Post Primary Teacher Education - Gaeilge and French, German or Spanish**
-    * Dublin City University
+* **1. Computer Science and Information Technology**
+    * University of Galway
     * **440** points
-    * **Overview:** This course will prepare you to teach at post-primary level in two languages. You will take Gaeilge, along with a choice of either French, German or Spanish.  Alongside developing your language abilities, the course also builds your skills in the areas of teamwork, leadership, communication and creativity. These are vital for a career in post primary teaching, but are also key to a variety of other professions. In this four-year course, you'll benefit from studying in small class groups within the larger university community.
-    * **Why we recommended this:** 
+    * **Overview:** We depend on electronic devices, such such as computers and mobile phones, computer software and networks to store, process, transmit, retrieve and manipulate information. Students will cover the technology used in these devices and will focus on the development of the software applications that make these devices useful.
 
-* **5. Post Primary Teacher Education - Technology, Engineering and Graphics**
+* **2. Computer Science (International)**
+    * TU Dublin - Grangegorman
+    * **351** points
+    * **Overview:** This course will provide you with the knowledge and skills to work as a global software engineer or as an application developer, able to develop as needed in an ever-changing global industry. On graduation, you'll be qualified to work in the international IT industry in a wide range of computer roles. You'll have a strong foundation in such areas as Internet development, cloud computing, mobile software, enterprise systems, artificial intelligence and games technology.
+
+* **3. Information Technology**
+    * University of Galway
+    * **350** points
+    * **Overview:** Students are introduced to the basics of IT and computer methods. The course teaches useful skills in computer programming and application in the first year.As part of an Arts degree, this subject is one of three subjects you choose in first year. In second and third year you continue with two of the subjects taken in First Arts. It may be possible to take an extra year studying abroad.
+
+* **4. Computer Science and Software Engineering (through Arts)**
+    * Maynooth University
+    * **349** points
+    * **Overview:** Study all the essentials of computing and software for mobile apps and websites, as well as key areas in mathematics, a major project and a six month placement in industry. Enjoy the huge benefit of studying another Arts subject with Computer Science in first year. This lends graduates a wider frame of reference.
+
+* **5. Computer Science and Software Engineering (through Science)**
+    * Maynooth University
+    * **347** points
+    * **Overview:** Study all the essentials of computing and software, as well as key areas in mathematics, a major project and a six month placement in industry. Acquire hands-on programming skills and advanced problem solving techniques in our new dedicated computer science building (Eolas). You will study another Science subject or Critical Skills with Computer Science and Mathematics in first year.
+
+* **6. Computer Science (Infrastructure)**
+    * TU Dublin - Grangegorman
+    * **346** points
+    * **Overview:** Computer Science (Infrastructure) is about developing software and infrastructure for applications ranging from those on smart devices to those in global corporations. This course provides the skills required to build data centres and networks, and to develop software securely, individually and in teams. You'll gain a working knowledge of the components of a computer and a network, become familiar with the components of an operating system, and learn to administrate large distributed systems.
+
+* **7. Cloud Computing**
+    * TU Dublin - Tallaght
+    * **261** points
+    * **Overview:** Learn with the People who develop the best in the world! TU Dublin has been a leader in the delivery of Cloud courses for a number of years working closely with Amazon AWS and Microsoft Azure, global leaders in public cloud computing. The best in the world have developed their skills with us, in August 2019 a TU Dublin graduate won the coveted Gold Medal at the World Skills Competition for Cloud Computing in Kazan Russia.
+
+* **8. Engineering**
+    * Trinity College Dublin
+    * **577** points
+    * **Overview:** Engineering is about being creative in technical problem solving. Engineers make things possible by using mathematical and scientific principles together with analytical and design skills. They tackle existing problems by developing new solutions through innovative technologies. They also expand the frontiers of society by developing advanced materials, sustainable energy systems, construction technologies, transport systems, biomedical devices, and telecommunications infrastructure.
+
+* **9. Mechanical Engineering**
+    * University of Galway
+    * **566** points
+    * **Overview:** Mechanical Engineering is a subject concerned with the design and manufacture of parts and systems that make up the range of machinery and equipment you see around you, from a can opener to a jet aircraft. Mechanical engineers design the tools and processes necessary to create all man-made products, and are often involved from conceiving of an idea right through to seeing it as a finished product ready for its commercial application.
+
+* **10. Engineering (Electrical & Electronic Engineering)**
+    * University College Cork
+    * **543** points
+    * **Overview:** BE Electrical and Electronic Engineering is a four-year professional engineering course designed to prepare students for employment in the electrical and electronic sectors in Ireland and abroad. It has a broad curriculum with strong practical content, including a work placement. It has an excellent record for graduate employment.
+
+* **11. Mechanical & Manufacturing Engineering**
     * Dublin City University
-    * **402** points
-    * **Overview:** This is a course for people who are interested in becoming post-primary teachers in the areas of Technology, Engineering and Graphics. On this degree, you'll learn about designing and innovating, and in coming up with creative solutions for the challenges facing society and industry.  The four-year programme will be delivered through a partnership of DCU and Technological University of the Shannon (TUS). The first two years of study will take place at the TUS Athlone campus, and the final two years at the DCU Institute of Education in Dublin.
-    * **Why we recommended this:** 
+    * **542** points
+    * **Overview:** Can you imagine designing and building a better electric vehicle, jet engine or wind turbine? Maybe you've figured out a way to improve inhalers or door handles. If you're fascinated by how things work and are made, enjoy getting caught up in the details, and thrive as part of a team, choose Mechanical and Manufacturing Engineering. Our students take things apart, figure out how they work and how to fix or improve them, then put them back together again. You'll get to use 3D printers and other advanced tools in DCU's state-of-the-art labs, while also absorbing engineering theory. It is at heart a maths-based course, but you'll also gain extensive skills and knowledge in engineering mechanics, computer simulation and analysis, design and manufacture, and project management. In third year, you'll do an eight-month work placement in industry and you also have the opportunity to study abroad. And you can extend your undergraduate BEng programme by a year to complete a masters degree.
 
-* **6. Psychology**
+* **12. Civil Engineering**
+    * University of Galway
+    * **521** points
+    * **Overview:** Civil Engineering is concerned with the planning, design, construction and maintenance of the built environment. It encompasses minor and major structures, ranging from drainage systems, houses, commercial buildings, roads and bridges to multi-story buildings and water and wastewater treatment facilities. The work of civil engineers is most visible in the structures in which we live and work.
+
+* **13. Electrical Services & Energy Management**
+    * TU Dublin - Grangegorman
+    * **261** points
+    * **Overview:** Graduates of this course work in design teams to deliver electrical services to buildings and play an integral role in the operation and management of the energy facilities. You'll be equipped with the fundamental engineering, management and design skills you need to design electrical services for facilities and manage the energy consumption in facilities.
+
+* **14. Mathematical Sciences**
+    * University College Cork
+    * **577** points
+    * **Overview:** Mathematical Sciences, both as a language and as a body of knowledge and technique, have provided the fundamental underpinnings of science and technology for centuries. Today, its influence stretches beyond the physical sciences and engineering into medicine, business and finance, the life sciences, and the social sciences. Mathematical Sciences are also studied for the elegance of their ideas and the intellectual challenges they pose.
+
+* **15. Mathematics (Social Sciences Two Subject Combination)**
+    * University College Dublin
+    * **490** points
+    * **Overview:** Mathematics has long played a central role in our quest to fully describe and understand the natural world. Nowadays, it is also a vital tool in many of the social sciences. Those who concentrate on this subject will gain an understanding of mathematical concepts and learn how to prove key facts and solve problems using deductive reasoning.
+
+* **16. Journalism**
     * Dublin City University
-    * **533** points
-    * **Overview:** Are you fascinated by the human mind and human behaviour? Would you like to understand how we think, act, react and interact, and use your knowledge and skills to help people? A career in psychology could be perfect for you. This Psychological Society of Ireland-accredited course was the first psychology programme in Ireland to offer a work placement opportunity. In third year, you'll do an INTRA placement in a clinical, corporate or other environment. While psychologists differ in their interests and the type of work they do, they all approach the study of behaviour in a scientific way. During the course, you'll gain knowledge, skills and experience in all core areas in psychology. With a maximum of 40 students in each year group, you'll benefit from access to academic staff and support as you need it.
-    * **Why we recommended this:** 
+    * **409** points
+    * **Overview:** DCU's BA in Journalism is a top degree in Ireland designed to equip you with practical skills in reporting and writing for different media as well as providing you with essential knowledge in politics, law, ethics, society and culture. This degree will really appeal to you if you have an enquiring mind because the world needs journalists to analyse, examine and reveal how things work and what the future holds for people.
 
-* **7. Psychology and Disruptive Technologies**
-    * Dublin City University
-    * **496** points
-    * **Overview:** This course enables you to study psychology and understand how disruptive technologies are fundamentally changing how we think, behave and live. You'll delve into development and lifespan psychology, biological psychology and neuropsychology, social psychology, cognitive psychology and the psychology of individual difference, along with gaining a detailed understanding of the disruptive technologies that significantly reshaping our world. You'll also gain practical skills in programming languages such as R and Python, data visualisation and storytelling.
-    * **Why we recommended this:** 
+* **17. Information and Communication Studies**
+    * University College Dublin
+    * **420** points
+    * **Overview:** Information & Communication Studies (ICS) equips you with the knowledge, skills, and tools to help you to make sense of a world where every aspect of human experience is affected by digital technology, media, data, and information in all formats. ICS explores digital information, social media, and communication and analyses their effects on societies, culture, politics, privacy, health, education and the many different spheres of public, private and personal life. Ultimately, ICS is about people, and understanding how people and technology interact and influence each other.
 
-* **8. Sociology/Social Policy**
-    * Trinity College Dublin
-    * **481** points
-    * **Overview:** Sociology If you want to understand the social changes taking place in the world today, and you are curious about people and society, then Sociology is for you. You will also gain the ability to understand topical issues and to present and communicate information and thoughts coherently. In addition, you will learn invaluable analytical, communication, research and presentation skills - transferable skills which can be applied to a wide range of careers and postgraduate programmes. Social Policy Curious about social and economic policy issues around the world? Searching for a course that demands both academic and vocational qualities? Interested in understanding society, its social problems and have a desire to make a difference? Then Social Policy may be the subject choice for you. It is particularly relevant to students intending to pursue a career in research, social policy analysis and evaluation, management and planning within the social services, both voluntary and statutory, as well as to those with a general interest in society and social policy.
-    * **Why we recommended this:** 
+* **18. Physics**
+    * University College Dublin
+    * **544** points
+    * **Overview:** The UCD Science (DN200) course offers 27 degree subjects categorised into streams. Students can study subjects from more than one stream in first year. It is also possible for students to change their stream in first year. At the end of first year, students choose a minimum of two subjects to study in second year (for example Statistics and Mathematics or Genetics and Microbiology). Students will major in one of these subjects in third and fourth year.
 
-* **9. Mental Health Nursing**
-    * Trinity College Dublin
-    * **370** points
-    * **Overview:** Nursing practice, rooted in compassion, draws upon extensive knowledge and experience to provide physical and psychological care of the highest quality. Nurses take centre stage in ensuring efficient and effective delivery of accessible, integrated and consumer-driven healthcare, creatively designing health related services, and ensure quality through advocacy, policy-making, service management, education and research.
-    * **Why we recommended this:** 
-
-* **10. Computer Science**
-    * Trinity College Dublin
-    * **535** points
-    * **Overview:** Computer Science is concerned with the study of everything to do with computers and our relationship with them. Computer scientists are critical to the efficient running of modern societies, dealing with health, security, banking and finance, transportation, and now increasingly our interaction through social networks. Computing professionals deal with theoretical issues, solve complex problems, deal with matters of ethics and with society at large. Theoretical issues in computer science relate to the abstract notions of computation and information.
-    * **Why we recommended this:** 
-
-* **11. Genetics and Cell Biology**
-    * Dublin City University
-    * **518** points
-    * **Overview:** By studying on this programme, you can come to understand the genetic basis for life and how this information can be used to investigate, diagnose and treat diseases. You'll also gain practical laboratory skills, as well as skills in communications, critical thinking and problem-solving. Furthermore, you'll gain skills in computational biology, which uses high-tech data analysis and modelling to help harness genetic and biological insights.
-    * **Why we recommended this:** 
-
-* **12. Business Studies/Computer Science**
-    * Trinity College Dublin
-    * **554** points
-    * **Overview:** Computer Science is concerned with the study of everything to do with computers and our relationship with them. Computer scientists are critical to the efficient running of modern societies, dealing with health, security, banking and finance, transportation, and now increasingly our interaction through social networks. Computing professionals deal with theoretical issues, solve complex problems, deal with matters of ethics and with society at large. Theoretical issues in computer science relate to the abstract notions of computation and information.
-    * **Why we recommended this:** 
-
-* **13. Data Science**
-    * Dublin City University
-    * **500** points
-    * **Overview:** Fancy a career as a professional problem solver, investigator and storyteller? That's exactly what a data scientist is. From retail and sports science to journalism and fintech, data scientists are increasingly at the heart of business and government. Whether it's enabling product recommendations or helping a sports team decide what player to buy next, data science can unlock the secrets of any sector. If you like maths, creative problem solving and collaborative work, data science could really appeal to you. This course sits at the intersection of computer science, maths and business, enabling you to understand what is possible with cutting-edge technology such as machine learning and artificial intelligence.
-    * **Why we recommended this:** 
-
-* **14. Social Studies (Social Work)**
-    * Trinity College Dublin
-    * **456** points
-    * **Overview:** Social work is a profession concerned with supporting and helping people in a variety of situations and settings. People who use social work services include young and adult offenders, children, families, older people, people with mental and physical illness and disability, homeless people, unemployed people, ethnic groups, Travellers and people with drug and alcohol problems. Ultimately, social work aims to support people to live more successfully, within their communities by helping them to find solutions to their problems.
-    * **Why we recommended this:** 
-
-* **15. Modern Language/Social Policy**
-    * Trinity College Dublin
-    * **339** points
-    * **Overview:** Social Policy Social Policy entails the study of those social relations shaping human welfare and wellbeing and analysis of the means by which governments achieve citizen's well-being through the formation of policies, provision of services and responding to social issues and problems. As a course of undergraduate study Social Policy fits with a commitment to advance the cause of a just, pluralistic and sustainable society.Modern Language Students combine this subject with a language of their choice
-    * **Why we recommended this:** 
-
-* **16. Linguistics/Classical Languages**
-    * Trinity College Dublin
-    * **498** points
-    * **Overview:** Linguistics Students of Linguistics engage in evidence-based analysis of language, acquiring skills and techniques that allow investigation of different aspects of language structure such as sound, words and grammar. This involves key transferable skills in problem solving and critical thinking. Classical Languages The study of Classical Languages is concerned with the language, literature and thought of either Ancient Greece or Ancient Rome. You will choose to study either Greek or Latin. Through the reading of literature in the original language and the examination of key aspects of ancient history, you will develop a thorough knowledge of the classical world and a critical approach to textual and material culture.
-    * **Why we recommended this:** 
-
-* **17. Linguistics/Modern Language**
-    * Trinity College Dublin
-    * **498** points
-    * **Overview:** Linguistics Students of Linguistics engage in evidence-based analysis of language, acquiring skills and techniques that allow investigation of different aspects of language structure such as sound, words and grammar. This involves key transferable skills in problem solving and critical thinking. Modern Language Within the Modern Languages programme you study two modern European languages. It is the most intensive exposure to languages and cultures that Trinity College has to offer. You can choose between French, German, Irish, Italian, Russian and Spanish. Apart from French and Irish all languages can be studied from both advanced and beginners level
-    * **Why we recommended this:** 
-
-* **18. BCL (Law and Society)**
-    * Dublin City University
-    * **496** points
-    * **Overview:** The BCL degree focuses on experiential learning and developing practical legal skills while also providing you with opportunities to engage with industry and the wider legal profession. In particular, the Moot Court module gives you the chance to practise your court-room skills and gain a real insight into law in action. DCU has its own Moot Court room which is where you will participate in mock trials and practise skills such as advocacy, presenting evidence or cross examination.
-    * **Why we recommended this:** 
-
-* **19. Political Science/Law**
-    * Trinity College Dublin
-    * **553** points
-    * **Overview:** Political Science If you are interested in having an in-depth knowledge of public affairs, developing critical and much sought after research skills and if your career interests lie in journalism, public service, teaching, public policy, international organisation and/or business then Political Science may be for you Law The law degree will appeal to you if you are interested in society and how it works, how we regulate the relationships between people. Given the wide range of legal modules, the degree attracts students with a broad range of interests. Those interested in politics are attracted to subjects such as constitutional law.
-    * **Why we recommended this:** 
+* **19. Biological, Biomedical & Biomolecular Sciences**
+    * University College Dublin
+    * **544** points
+    * **Overview:** The UCD Science (DN200) course offers 27 degree subjects categorised into streams. Students can study subjects from more than one stream in first year. It is also possible for students to change their stream in first year. At the end of first year, students choose a minimum of two subjects to study in second year (for example Statistics and Mathematics or Genetics and Microbiology). Students will major in one of these subjects in third and fourth year.
 
 # RECOMMENDATION SET 2
 
-* **0. Medicine**
+* **0. Interior Design**
+    * TU Dublin - Grangegorman
+    * **862** points
+    * **Overview:** This course is all about the art or process of designing the interior decoration of a room or building, and how we experience spaces and the objects in them. It's a powerful, essential part of our daily lives that affects how we live, work and play. Exciting recreational environments, unique domestic spaces, functional workplaces, inspiring retail spaces, that's interior design at work.
+
+* **1. Medicine**
     * Trinity College Dublin
     * **739** points
     * **Overview:** Medicine is a unique course in that students study a broad range of subjects with the primary goal of understanding the science and practice of healing. Medicine and healthcare are constantly evolving as new knowledge and therapies emerge to prevent and treat illness. Each day brings a new patient with new healthcare challenges.
-    * **Why we recommended this:** 
 
-* **1. Music Education**
+* **2. Fine Art**
+    * TU Dublin - Grangegorman
+    * **701** points
+    * **Overview:** The BA in Fine Art is designed for students who wish to work as cultural producers in the Fine Art sector. The course is focused primarily on acquiring the knowledge and skills that are needed to operate as a visual artist in a competitive environment, nationally and internationally. There's a strong emphasis on developing skills acquisition, creative intelligence and conceptual and critical thinking abilities, which are integrated with modules in Critical Theory and Professional Practice.
+
+* **3. Music Education**
     * Trinity College Dublin
     * **656** points
     * **Overview:** If you love sharing music, already have a competent standard of music performance, and wish to combine these qualities with a teaching career, then this course is ideally suited to you. Whether your interests are primarily academic or practical, your experience of this vast and rich discipline will be greatly advanced. As an academic study, music fosters independence of thought, creativity and critical and analytical skills. This course offers opportunities to perform music, to share music with others via teaching and performing, and to conduct a number of different ensembles.
-    * **Why we recommended this:** 
 
-* **2. Business Studies and Spanish**
+* **4. Design - Visual Communication**
+    * TU Dublin - Grangegorman
+    * **654** points
+    * **Overview:** The work of the Design - Visual Communication graduate is all about breathing life into images, text and concepts, turning them on their head and communicating them in a fresh way to a wide audience. This four-year course will suit you if you wish to become a graphic designer, illustrator, typographer or digital media designer.
+
+* **5. Veterinary Medicine**
+    * University College Dublin
+    * **589** points
+    * **Overview:** This course will educate you to the best international standards in veterinary medicine and is accredited nationally by the Veterinary Council of Ireland (VCI), by the European Association of Establishments for Veterinary Education (EAEVE) and is one of only 6 veterinary schools in Europe currently accredited by the American Veterinary Medical Association (AVMA). The veterinary profession is concerned with the promotion of the health and welfare of animals of special importance to society. This involves the care of healthy and sick animals, the prevention, recognition, control and treatment of their diseases and of diseases transmitted from animals to man, and the welfare and productivity of livestock.
+
+* **6. Commercial Modern Music**
+    * TU Dublin - Grangegorman
+    * **585** points
+    * **Overview:** This four-year course has been designed for guitarists, bass players, drummers, vocalists, songwriters, music producers and those running commercial music projects who want to gain a Level 8 qualification in modern music, while at the same time fulfilling their creative and commercial potential. It will encourage you to hone your live performance skills and recording studio technical knowledge while also developing your career goals, which may include being a professional performer, professional songwriter or producer, music manager or publisher, academic researcher or teacher.
+
+* **7. Engineering**
     * Trinity College Dublin
-    * **556** points
-    * **Overview:** This programme offers an exciting way of learning about business concepts, theories and models, in a variety of subject areas, as well as getting to grips in an in-depth and comprehensive manner with another country's language, its society, culture and business environment,the third year of which is spent studying abroad.This programme aims to provide you with the knowledge and skills necessary to communicate internationally and to understand the social, political and cultural contexts of markets, organisations and management across countries.
-    * **Why we recommended this:** 
+    * **577** points
+    * **Overview:** Engineering is about being creative in technical problem solving. Engineers make things possible by using mathematical and scientific principles together with analytical and design skills. They tackle existing problems by developing new solutions through innovative technologies. They also expand the frontiers of society by developing advanced materials, sustainable energy systems, construction technologies, transport systems, biomedical devices, and telecommunications infrastructure.
 
-* **3. Business Studies and French**
+* **8. Finance**
+    * University College Cork
+    * **577** points
+    * **Overview:** Finance is concerned with the operation of financial markets and the valuation of financial assets, in particular in stock, bond, foreign exchange and interest rate markets. The BSc Finance is based equally on the subject areas of corporate finance and financial economics. This combined approach provides graduates with a thorough grounding in each area.
+
+* **9. Mathematical Sciences**
+    * University College Cork
+    * **577** points
+    * **Overview:** Mathematical Sciences, both as a language and as a body of knowledge and technique, have provided the fundamental underpinnings of science and technology for centuries. Today, its influence stretches beyond the physical sciences and engineering into medicine, business and finance, the life sciences, and the social sciences. Mathematical Sciences are also studied for the elegance of their ideas and the intellectual challenges they pose.
+
+* **10. Physiotherapy**
     * Trinity College Dublin
-    * **555** points
-    * **Overview:** This four year programme offers an exciting way of learning about business concepts, theories and models, in a variety of subject areas, as well as getting to grips in an in-depth and comprehensive manner with another country's language, its society, culture and business environment.
-    * **Why we recommended this:** 
+    * **577** points
+    * **Overview:** Physiotherapy (also known as physical therapy) places full and functional movement at the heart of what it means to be healthy. It involves treating patients of all ages with a range of illnesses and conditions, including those with back and neck problems, sports injuries, arthritis, or those recovering from strokes and operations. The focus of our treatment is exercise prescription.
 
-* **4. Common Entry into Actuarial and Financial Mathematics**
-    * Dublin City University
-    * **555** points
-    * **Overview:** If you'd like to qualify for in-demand quantitative roles in the insurance and financial industry, the Common Entry into Actuarial and Financial Mathematics programme (CAFM) might be for you. It's especially ideal if you'd like the flexibility to explore different areas of maths before choosing how you'll specialise.  You'll learn the fundamental mathematical principles that underpin the state-of-the-art actuarial and financial models you'll study in later years, along with computer programming, data analysis, economics and accounting.
-    * **Why we recommended this:** 
-
-* **5. Global Business (Spain)**
-    * Dublin City University
-    * **555** points
-    * **Overview:** The BA in Global Business (Spain) not only gives you a head start in international business, it also offers you a wonderful intercultural experience, during which you'll study and work in Spain. In addition, you'll qualify with two degrees by the end of this four-year programme, and you'll have the chance to gain fluency in Spanish.
-    * **Why we recommended this:** 
-
-* **6. Athletic Therapy and Training**
-    * Dublin City University
-    * **554** points
-    * **Overview:** The Athletic Therapy and Training programme will equip you with skills in preventing, assessing, treating and rehabilitating injuries associated with physical activity, including those experienced by elite athletes. Incorporating multiple work placements, this course gives you extensive theoretical knowledge of how the body works and then shows you how to apply that expertise. It is an intensive, highly practical programme that immerses students in musculoskeletal medicine from an early stage. Practical experience at home and abroad:You'll learn how to assess, treat and rehabilitate in theory and, from second year, in real-world settings. You'll complete placements in sports medicine clinics and rehabilitation clinics, as well as undertaking pitchside and team placements. In your final year, you'll do a semester-long immersive placement, which could be in an athletic therapy clinic or a professional sports team. These placements may be completed in Ireland but most students go to the US, Canada, Australia or Britain. This course is accredited by Athletic Rehabilitation Therapy Ireland. When you graduate, you'll be eligible to become a certified Athletics Therapist. As an independent, highly skilled clinician with a wealth of experience, you'll be highly sought after in sports medicine, by musculoskeletal clinics or with a sports team, or you can go on to work as a researcher in musculoskeletal medicine.
-    * **Why we recommended this:** 
-
-* **7. Biological and Biomedical Sciences**
+* **11. Psychology**
     * Trinity College Dublin
-    * **554** points
-    * **Overview:** Biology is the study of living things; we explore how life first arose: the properties that distinguish living organisms from inert matter; how the vast diversity of life forms was generated; how organisms reproduce themselves; how they interact both with each other and with the environment. Biology is fundamental to understanding the world we live in and plays a huge role in medicine.
-    * **Why we recommended this:** 
-
-* **8. Business Studies/Computer Science**
-    * Trinity College Dublin
-    * **554** points
-    * **Overview:** Computer Science is concerned with the study of everything to do with computers and our relationship with them. Computer scientists are critical to the efficient running of modern societies, dealing with health, security, banking and finance, transportation, and now increasingly our interaction through social networks. Computing professionals deal with theoretical issues, solve complex problems, deal with matters of ethics and with society at large. Theoretical issues in computer science relate to the abstract notions of computation and information.
-    * **Why we recommended this:** 
-
-* **9. Computer Science/Economics**
-    * Trinity College Dublin
-    * **554** points
-    * **Overview:** Combining Computer Science with Economics will allow graduates to use computing tools to study economics and to apply economic theories to computational settings, such as to build virtual marketplaces. Our long-running Computer Science and Business joint programme provides graduates with the knowledge and expertise needed to work in the technical field of Computer Science along with the business management skills required to understand the fundamentals of markets, organisations and business management.
-    * **Why we recommended this:** 
-
-* **10. Political Science/Law**
-    * Trinity College Dublin
-    * **553** points
-    * **Overview:** Political Science If you are interested in having an in-depth knowledge of public affairs, developing critical and much sought after research skills and if your career interests lie in journalism, public service, teaching, public policy, international organisation and/or business then Political Science may be for you Law The law degree will appeal to you if you are interested in society and how it works, how we regulate the relationships between people. Given the wide range of legal modules, the degree attracts students with a broad range of interests. Those interested in politics are attracted to subjects such as constitutional law.
-    * **Why we recommended this:** 
-
-* **11. Global Business (Canada)**
-    * Dublin City University
-    * **545** points
-    * **Overview:** Immersing you into Canadian work-life and culture while you study - gain two business degrees, experience two countries and complete two work placements.This is a unique course for students who are looking for a truly global learning experience. The skills and knowledge that you'll develop on the BA in Global Business (Canada) are a passport to an international career in business. Not only that, but the course also gives you the opportunity to qualify with two degrees by the end of this four-year programme.
-    * **Why we recommended this:** 
+    * **577** points
+    * **Overview:** The School of Psychology aims to offer a knowledge base and a set of skills that not only equip students for the many careers that exist in psychology, but also prepare students intellectually for other careers. Psychology is a branch of science that demands clear, rigorous thinking, numeracy and the ability to define, study and solve problems in complex, changing settings.
 
 * **12. Biomedical Engineering**
-    * Dublin City University
-    * **544** points
-    * **Overview:** When you study Biomedical Engineering, you not only learn how the body works and becomes injured, but you come to understand how medical devices are developed to treat injuries and disease, and how we can help the body heal itself. You'll use state-of-the-art labs and tools such as 3D simulations and machine learning as you study. You'll get biological and medical knowledge, and technical engineering expertise, so you can solve problems in biomedicine. You'll study advanced biology, biomaterials, biomechanics, tissue engineering, medical device design, surgical technology, rehabilitation engineering and much more besides.
-    * **Why we recommended this:** 
+    * University of Galway
+    * **568** points
+    * **Overview:** Biomedical Engineering is a relatively new branch of engineering that involves the use of cutting-edge technologies to help improve human healthcare. Biomedical engineers are involved in the design and creation of medical devices, implants such as stents, instruments and materials for clinical use.
 
-* **13. History/History of Art and Architecture**
+* **13. Human Health and Disease**
     * Trinity College Dublin
-    * **544** points
-    * **Overview:** History The History modules at Trinity allow you to study a remarkable range of types of history - whether cultural or political history, military or social history, environmental history or the history of ideas - from the early Middle Ages to the very recent past. We offer survey modules allowing you to grasp the broad patterns in history, specialist modules where you can study topics of particular interest to you in small classes, and opportunities for you to pursue your own independent research. History of Art and Architecture History of Art and Architecture is about the study of images, objects and buildings. It is unique in developing high levels of visual literacy applicable to a range of career pathways. It explores why works of art look the way they do and seeks to discover what they say about the societies that created them. It develops skills in visual analysis, critical assessment, and communication.
-    * **Why we recommended this:** 
+    * **567** points
+    * **Overview:** The Human Health and Disease degree trains students for work in the field of biomedical research. It brings to life the fascinating connections between structure and function in the human body and explores the health and disease continuum in detail, including teaching on how medical therapies act to treat or even prevent disease. As an example, understanding brain structure and biochemistry allows us to appreciate how neurons communicate and this in turn is helping biomedical researchers and clinicians to identify new and effective ways to treat and prevent diseases such as dementia.
 
-* **14. History/Modern Language**
-    * Trinity College Dublin
-    * **544** points
-    * **Overview:** History The History programme combines the strength of a broad-based programme in the first two years, introducing all students to the sheer diversity of historical studies, with the freedom to explore areas of particular interest to individual students in the final two years. A range of modules covering medieval and modern periods, including Irish, European, and American history, as well as some modules exploring the skills and methods which historians use, and the kinds of debates in which historians engage. There is the opportunity to concentrate on those parts of history which interest you most, and above all in the final year dissertation, an independent research project which very many students find the most rewarding part of their whole degree programme. Students combine this subject with their choice of German, Irish, Russian or Spanish.
-    * **Why we recommended this:** 
+* **14. Biomedical Science**
+    * University of Galway
+    * **566** points
+    * **Overview:** Biomedical Science is the study of Life Science subjects related to human health and disease. Students will learn about the structure and function of the human body from the level of organs and tissues to the molecular level, as well as how drugs are used to treat disease. You will major in one of the following biomedical science subjects: Anatomy, Biochemistry, Pharmacology or Physiology.
 
-* **15. History/Philosophy**
-    * Trinity College Dublin
-    * **544** points
-    * **Overview:** HistoryThe History programme combines the strength of a broad-based programme in the first two years, introducing all students to the sheer diversity of historical studies, with the freedom to explore areas of particular interest to individual students in the final two years. PhilosophyThis course offers the opportunity to engage in depth with questions of metaphysics (about the fundamental nature of reality), epistemology (the theory of knowledge), ethics (theories of right and wrong), political philosophy (the nature of the just state), philosophy of religion (reasoning about God), philosophy of mind (questions about thought, language and reason) and various other areas.
-    * **Why we recommended this:** 
+* **15. Business and Law**
+    * University College Dublin
+    * **566** points
+    * **Overview:** The Business & Law (BBL) degree is a popular choice for many students and is extremely well regarded by employers across the legal and financial communities. The degree is a 'double major' which means it combines law and business in a single degree, providing an ideal skill-set for the commercial world and offering valuable career flexibility. If you choose this degree, you will undertake business and law modules in equal measure for your first three years in both the UCD Sutherland School of Law and the UCD Quinn School of Business. This allows you to gain a deep understanding of both disciplines while offering you the opportunity to choose in final year which area interests you most for your career progression.
 
-* **16. History/Political Science**
-    * Trinity College Dublin
-    * **544** points
-    * **Overview:** History The History programme introduces all students to the diversity of historical studies, with the freedom to explore areas of particular interest to individual students in the final two years. Political Science Political Science will appeal to students who are excited about exploring the background to current events, the nature and use of power and how decisions are made that impact on wider society. If you are interested in having an in-depth knowledge of public affairs, developing critical and much sought after research skills and if your career interests lie in journalism, public service, teaching, public policy, international organisation and/or business then Political Science may be for you
-    * **Why we recommended this:** 
+* **16. Law (BCL)**
+    * University College Dublin
+    * **566** points
+    * **Overview:** The UCD Bachelor of Civil Law (BCL) degree enjoys a proud history and an established reputation at home and abroad. The BCL degree allows you to immerse yourself in the study of law, to engage with a range of interesting legal perspectives and to acquire a profound understanding of how law works in theory and in practice.
 
-* **17. History/Religion**
-    * Trinity College Dublin
-    * **544** points
-    * **Overview:** Religion This course offers you a choice of three possible directions of study after your first year. The first is a broad-based study of Religion and Theology, the second a specialisation in the Cultural Study of Religion, and the third in Christian Theology. Within the Cultural Study of Religion, you have the opportunity to explore the monotheistic religions of Judaism, Christianity and Islam, the religions of Asia and Africa, as well new atheistic and religious movements. If you choose to specialise in Theology, you can investigate the development of Christian self-understanding in a number of different modes, including denominational, multidenominational and ecumenical aspects. History The History programme introduces students to the diversity of historical studies, such as medieval and modern periods, including Irish, European, and American history, as well as some modules exploring the skills and methods which historians use, and the kinds of debates in which historians engage.
-    * **Why we recommended this:** 
+* **17. Law and Business**
+    * University College Cork
+    * **566** points
+    * **Overview:** The BCL (Law and Business) is a joint honours degree combining the related disciplines of law and business. This exciting four-year programme: explores the relationship between law and business, in areas such as business organisation, finance, and market regulation, and applies key legal and business tools of analysis to examine issues affecting the performance of firms and industries in a global business environment.
 
-* **18. Chemical Sciences**
-    * Trinity College Dublin
-    * **543** points
-    * **Overview:** Chemistry is a creative and central science, dealing with challenges that span the physical and life sciences. It is found and used everywhere from the creation of new materials and processes through to advancements in medical health and diagnosis of disease. A chemistry-based qualification provides students with the relevant skills and knowledge to open doors in research, medicine, education, industry, finance, consultancy and more.
-    * **Why we recommended this:** 
+* **18. Law with Economics**
+    * University College Dublin
+    * **566** points
+    * **Overview:** This course allows you to obtain a highly respected degree in law, whilst simultaneously acquiring a broad knowledge of economics. Certain areas of law (e.g. competition regulation and intellectual property) are heavily influenced by economic theory. BCL (Law with Economics) graduates are uniquely equipped to understand these regulatory frameworks in all of their conceptual complexity. On this degree, you'll embark on a feld of cross-disciplinary study which is intellectually very demanding, but also tremendously enriching and of immense practical importance.
 
-* **19. Common Entry into Engineering (Undenominated Entry)**
-    * Dublin City University
-    * **543** points
-    * **Overview:** Engineers can be found in many fields from high-tech industry and medicine to financial services, energy aware technologies and biotechnology. If unsure of which strand of engineering is for you this course helps you to choose while studying the fundamentals of engineering.  You'll spend first year building a strong engineering foundation across maths, materials engineering and basic sciences, while also building skills like logical and critical thinking.  Then you'll specialise in second year, going on to a challenging, cutting-edge course where you'll build real expertise, whether that's in mechatronics or sustainability engineering. Through lectures, labs, individual and group work, you'll get hands-on experience with modern manufacturing processes, design, simulation and analysis procedures, and get skilled in programming and electronics.
-    * **Why we recommended this:** 
+* **19. Law with French Law**
+    * University College Dublin
+    * **566** points
+    * **Overview:** Law with French Law is one of two French Law Courses offered by Sutherland School of Law, the other being the dual degree - the BCL/Maîtrise (more information on the following page). All students interested in the French Law Courses enter the BCL (Law with French Law) in first year. Both degrees offer the exciting opportunity for immersion in two of the world's major legal systems. Student will learn about the common law system, practised in Ireland and the UK (and in some form, in most of the English-speaking world) and the civil law system which is used throughout Europe.
 
