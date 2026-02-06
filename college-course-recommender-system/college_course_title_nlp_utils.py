@@ -78,17 +78,12 @@ def get_stop_words():
     stop_words.add("attend")
     stop_words.add("not")
     stop_words.add("applicable")
-    stop_words.add("north")
-    stop_words.add("south")
-    stop_words.add("east")
-    stop_words.add("west")
     stop_words.add("foreign")
     stop_words.add("mass")
     stop_words.add("subject")
     stop_words.add("currently")
     stop_words.add("attending")
     stop_words.add("field")
-    stop_words.add("early")
     stop_words.add("middle")
     stop_words.add("higher")
     stop_words.add("e") # e for electronic e.g. e-commerce
@@ -161,6 +156,7 @@ def preprocess_college_title(text):
             if len(cleaned_tokens) > 1 and "scienc" in cleaned_tokens:
                 cleaned_tokens.remove("scienc")
 
+    cleaned_tokens.sort()
     return ' '.join(cleaned_tokens)
 
 
