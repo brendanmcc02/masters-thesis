@@ -418,10 +418,15 @@ def get_baseline_college_course_recommendations(user_interest_questions_results_
         reverse=True
     )
 
+    baseline_college_course_recommendations_no_portfolio_test_or_interview_required = []
+    for recommendation in baseline_college_course_recommendations:
+        if not recommendation["isAdditionalPortfolioTestInterviewRequired"]:
+            baseline_college_course_recommendations_no_portfolio_test_or_interview_required.append(recommendation)
+
     unique_baseline_college_course_recommendations = []
 
     for _ in range(MIN_NUM_OF_BASELINE_COLLEGE_COURSE_CATEGORIES_TO_RECOMMEND):
-        add_unique_college_course_recommendations(baseline_college_course_recommendations, unique_baseline_college_course_recommendations, MAX_NUM_OF_BASELINE_RECOMMENDED_COURSES_PER_CATEGORY)
+        add_unique_college_course_recommendations(baseline_college_course_recommendations_no_portfolio_test_or_interview_required, unique_baseline_college_course_recommendations, MAX_NUM_OF_BASELINE_RECOMMENDED_COURSES_PER_CATEGORY)
 
     user_vector = get_user_vector(user_interest_questions_results_vector, user_college_course_preferences)
     cached_user_vector_magnitude = np.linalg.norm(user_vector)

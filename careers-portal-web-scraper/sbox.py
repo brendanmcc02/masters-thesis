@@ -5,8 +5,6 @@ from collections import defaultdict
 file = open("../datasets/cao-college-courses.json")
 courses = json.load(file)
 
-ids = set()
-reps = defaultdict(int)
 for course in courses:
-    if len(course["id"]) == 5:
-        print(course["id"])
+    if "law" in course["categories"] and "investigative" in course["riasec_interests"]:
+        print(course["title"])

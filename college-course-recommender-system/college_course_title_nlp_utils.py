@@ -1,4 +1,3 @@
-from fuzzywuzzy import fuzz
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem.snowball import SnowballStemmer
@@ -131,6 +130,7 @@ def get_stop_words():
     stop_words.add("pathway")
     stop_words.add("pure")
     stop_words.add("practice")
+    stop_words.add("plus")
 
     return stop_words
 
