@@ -1642,7 +1642,7 @@
     {
         "id": "US730",
         "title": "Applied Biology",
-        "preprocessed_title": "biolog",
+        "preprocessed_title": "appli biolog",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "3 Years",
@@ -1661,7 +1661,7 @@
     {
         "id": "TU651",
         "title": "Applied Biology",
-        "preprocessed_title": "biolog",
+        "preprocessed_title": "appli biolog",
         "college": "TU Dublin - Tallaght",
         "region": "Dublin",
         "duration": "2 Years",
@@ -1680,7 +1680,7 @@
     {
         "id": "AU569",
         "title": "Applied Biology and Biopharmaceutical Science",
-        "preprocessed_title": "biolog biopharmaceut",
+        "preprocessed_title": "appli biolog biopharmaceut",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "3 Years",
@@ -1700,7 +1700,7 @@
     {
         "id": "AU670",
         "title": "Applied Biology and Biopharmaceutical Science",
-        "preprocessed_title": "biolog biopharmaceut",
+        "preprocessed_title": "appli biolog biopharmaceut",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "4 Years",
@@ -1720,7 +1720,7 @@
     {
         "id": "SE516",
         "title": "Applied Biology or Applied Chemistry",
-        "preprocessed_title": "biolog chemic",
+        "preprocessed_title": "appli biolog chemic",
         "college": "SETU Carlow",
         "region": "Leinster (excluding Dublin)",
         "duration": "2 Years",
@@ -1740,7 +1740,7 @@
     {
         "id": "MT775",
         "title": "Applied Biosciences",
-        "preprocessed_title": "bioscienc",
+        "preprocessed_title": "appli bioscienc",
         "college": "MTU Cork",
         "region": "Munster",
         "duration": "3 Years",
@@ -1759,7 +1759,7 @@
     {
         "id": "AU360",
         "title": "Applied Computing",
-        "preprocessed_title": "comput",
+        "preprocessed_title": "appli comput",
         "college": "ATU Donegal",
         "region": "Ulster",
         "duration": "4 Years",
@@ -1777,7 +1777,7 @@
     {
         "id": "CK212",
         "title": "Applied Economics (through Transformational Learning)",
-        "preprocessed_title": "econom transform learn",
+        "preprocessed_title": "appli econom transform learn",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
@@ -1795,7 +1795,7 @@
     {
         "id": "AU555",
         "title": "Applied Freshwater and Marine Biology",
-        "preprocessed_title": "freshwat marin biolog",
+        "preprocessed_title": "appli freshwat marin biolog",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "3 Years",
@@ -1814,7 +1814,7 @@
     {
         "id": "AU655",
         "title": "Applied Freshwater and Marine Biology",
-        "preprocessed_title": "freshwat marin biolog",
+        "preprocessed_title": "appli freshwat marin biolog",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "4 Years",
@@ -1833,7 +1833,7 @@
     {
         "id": "SE928",
         "title": "Applied Health Care",
-        "preprocessed_title": "health care",
+        "preprocessed_title": "appli health care",
         "college": "SETU Waterford",
         "region": "Munster",
         "duration": "3 Years",
@@ -1851,7 +1851,7 @@
     {
         "id": "DC155",
         "title": "Applied Language and Translation Studies",
-        "preprocessed_title": "languag translat",
+        "preprocessed_title": "appli languag translat",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -1870,7 +1870,7 @@
     {
         "id": "LM044",
         "title": "Applied Languages",
-        "preprocessed_title": "languag",
+        "preprocessed_title": "appli languag",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -1888,7 +1888,7 @@
     {
         "id": "SE519",
         "title": "Applied Microbiology",
-        "preprocessed_title": "microbiolog",
+        "preprocessed_title": "appli microbiolog",
         "college": "SETU Carlow",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -1907,7 +1907,7 @@
     {
         "id": "SE520",
         "title": "Applied Microbiology",
-        "preprocessed_title": "microbiolog",
+        "preprocessed_title": "appli microbiolog",
         "college": "SETU Carlow",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -1926,7 +1926,7 @@
     {
         "id": "DC175 AP",
         "title": "Applied Physics",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "appli physic",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -1945,7 +1945,7 @@
     {
         "id": "MT782",
         "title": "Applied Physics and Instrumentation",
-        "preprocessed_title": "physic instrument",
+        "preprocessed_title": "appli physic instrument",
         "college": "MTU Cork",
         "region": "Munster",
         "duration": "3 Years",
@@ -1965,7 +1965,7 @@
     {
         "id": "CK120",
         "title": "Applied Psychology",
-        "preprocessed_title": "psycholog",
+        "preprocessed_title": "appli psycholog",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
@@ -1984,7 +1984,7 @@
     {
         "id": "DL825",
         "title": "Applied Psychology",
-        "preprocessed_title": "psycholog",
+        "preprocessed_title": "appli psycholog",
         "college": "Institute of Art, Design and Technology Dun Laoghaire",
         "region": "Dublin",
         "duration": "4 Years",
@@ -2003,7 +2003,7 @@
     {
         "id": "US925",
         "title": "Applied Psychology",
-        "preprocessed_title": "psycholog",
+        "preprocessed_title": "appli psycholog",
         "college": "TUS Midlands",
         "region": "Munster",
         "duration": "4 Years",
@@ -2022,7 +2022,7 @@
     {
         "id": "US924",
         "title": "Applied Psychology",
-        "preprocessed_title": "psycholog",
+        "preprocessed_title": "appli psycholog",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
@@ -2041,7 +2041,7 @@
     {
         "id": "SE927",
         "title": "Applied Social Care",
-        "preprocessed_title": "social care",
+        "preprocessed_title": "appli social care",
         "college": "SETU Waterford",
         "region": "Munster",
         "duration": "3 Years",
@@ -2059,7 +2059,7 @@
     {
         "id": "TU997",
         "title": "Applied Social Care",
-        "preprocessed_title": "social care",
+        "preprocessed_title": "appli social care",
         "college": "TU Dublin - Tallaght",
         "region": "Dublin",
         "duration": "4 Years",
@@ -2077,7 +2077,7 @@
     {
         "id": "AU593",
         "title": "Applied Social Care",
-        "preprocessed_title": "social care",
+        "preprocessed_title": "appli social care",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "3 Years",
@@ -2095,7 +2095,7 @@
     {
         "id": "AU696",
         "title": "Applied Social Care",
-        "preprocessed_title": "social care",
+        "preprocessed_title": "appli social care",
         "college": "ATU Galway / Mayo",
         "region": "Connacht",
         "duration": "4 Years",
@@ -2113,7 +2113,7 @@
     {
         "id": "PC404",
         "title": "Applied Social Studies - Professional Social Care",
-        "preprocessed_title": "social care",
+        "preprocessed_title": "appli social care",
         "college": "Carlow College",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",
@@ -2133,7 +2133,7 @@
     {
         "id": "SE917",
         "title": "Applied Social Studies in Professional Social Care",
-        "preprocessed_title": "social care",
+        "preprocessed_title": "appli social care",
         "college": "SETU Wexford",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -2151,7 +2151,7 @@
     {
         "id": "TU791",
         "title": "Applied Social Studies in Social Care",
-        "preprocessed_title": "social care",
+        "preprocessed_title": "appli social care",
         "college": "TU Dublin - Blanchardstown",
         "region": "Dublin",
         "duration": "3 Years",
@@ -2169,7 +2169,7 @@
     {
         "id": "TU991",
         "title": "Applied Social Studies in Social Care",
-        "preprocessed_title": "social care",
+        "preprocessed_title": "appli social care",
         "college": "TU Dublin - Blanchardstown",
         "region": "Dublin",
         "duration": "4 Years",
@@ -2187,7 +2187,7 @@
     {
         "id": "US782",
         "title": "Applied Social Studies in Social Care",
-        "preprocessed_title": "social care",
+        "preprocessed_title": "appli social care",
         "college": "TUS Midlands",
         "region": "Munster",
         "duration": "3 years",
@@ -2205,7 +2205,7 @@
     {
         "id": "US789",
         "title": "Applied Sport Science with Performance Technology",
-        "preprocessed_title": "sport perform technolog",
+        "preprocessed_title": "appli sport perform technolog",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "3 Years",
@@ -2225,7 +2225,7 @@
     {
         "id": "AU804",
         "title": "Applied Sport with Business",
-        "preprocessed_title": "sport busi",
+        "preprocessed_title": "appli sport busi",
         "college": "ATU Sligo",
         "region": "Connacht",
         "duration": "3 Years",
@@ -2246,7 +2246,7 @@
     {
         "id": "US959",
         "title": "Applied Sports Science with Performance Technology",
-        "preprocessed_title": "sport perform technolog",
+        "preprocessed_title": "appli sport perform technolog",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
@@ -2266,7 +2266,7 @@
     {
         "id": "US784",
         "title": "Applied Sports Science with Sport and Exercise Nutrition",
-        "preprocessed_title": "sport exercis nutrit",
+        "preprocessed_title": "appli sport exercis nutrit",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "3 Years",
@@ -2286,7 +2286,7 @@
     {
         "id": "US961",
         "title": "Applied Sports Science with Sport and Exercise Nutrition",
-        "preprocessed_title": "sport exercis nutrit",
+        "preprocessed_title": "appli sport exercis nutrit",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
@@ -2306,7 +2306,7 @@
     {
         "id": "US786",
         "title": "Applied Sports Science with Strength and Conditioning",
-        "preprocessed_title": "sport strength condit",
+        "preprocessed_title": "appli sport strength condit",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "3 Years",
@@ -2326,7 +2326,7 @@
     {
         "id": "US958",
         "title": "Applied Sports Science with Strength and Conditioning",
-        "preprocessed_title": "sport strength condit",
+        "preprocessed_title": "appli sport strength condit",
         "college": "TUS Midwest",
         "region": "Munster",
         "duration": "4 Years",
@@ -2346,7 +2346,7 @@
     {
         "id": "DK866",
         "title": "Applied Youth Work",
-        "preprocessed_title": "youth work",
+        "preprocessed_title": "appli youth work",
         "college": "Dundalk Institute of Technology",
         "region": "Leinster (excluding Dublin)",
         "duration": "4 Years",
@@ -10514,7 +10514,7 @@
     {
         "id": "AU946",
         "title": "Construction Project Management and Applied Technology",
-        "preprocessed_title": "construct project manag technolog",
+        "preprocessed_title": "construct project manag appli technolog",
         "college": "ATU Sligo",
         "region": "Connacht",
         "duration": "4 Years",
@@ -10533,7 +10533,7 @@
     {
         "id": "MT820",
         "title": "Contemporary Applied Art (Ceramics, Glass, Textiles)",
-        "preprocessed_title": "contemporari art ceram glass textil",
+        "preprocessed_title": "contemporari appli art ceram glass textil",
         "college": "MTU Cork",
         "region": "Munster",
         "duration": "4 Years",
@@ -16849,7 +16849,7 @@
     {
         "id": "AD104",
         "title": "Fine Art & Applied Art",
-        "preprocessed_title": "fine art",
+        "preprocessed_title": "fine art appli",
         "college": "National College of Art and Design",
         "region": "Dublin",
         "duration": "3 - 4 Years",
@@ -33030,7 +33030,7 @@
     {
         "id": "TR035",
         "title": "Theoretical Physics",
-        "preprocessed_title": "physic",
+        "preprocessed_title": "theoret physic",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -33049,7 +33049,7 @@
     {
         "id": "MH206",
         "title": "Theoretical Physics and Mathematics",
-        "preprocessed_title": "physic mathemat",
+        "preprocessed_title": "theoret physic mathemat",
         "college": "Maynooth University",
         "region": "Leinster (excluding Dublin)",
         "duration": "3 Years",

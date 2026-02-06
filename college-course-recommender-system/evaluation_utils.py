@@ -147,6 +147,8 @@ def write_user_evaluation_to_csv(user_data_part_2, user_timestamp_part_1, user_t
 def get_preprocessed_unique_user_ground_truth_courses(user_data_part_2):
     raw_courses = user_data_part_2[SURVEY_PART_2_RESPONSES_DATASET_GROUND_TRUTH_COLLEGE_COURSE_COLUMN_NAME]
 
+    print(str(raw_courses))
+
     courses = re.split(r'(?:10|[1-9])\.', raw_courses)
     courses.pop(0)
 
@@ -156,10 +158,11 @@ def get_preprocessed_unique_user_ground_truth_courses(user_data_part_2):
     if "" in courses:
         courses.remove("")
 
-    for i in range(len(courses)):
-        courses[i] = parse_title_from_cao_college_course(courses[i].strip())
+    print("\n\nParsed Ground truth courses before uniqueifying:\n")
 
-    print("\n\nGround truth courses before uniqueifying:\n" + str(courses) + "\n")
+    for i in range(len(courses)):
+        courses[i] = parse_title_from_cao_college_course(courses[i])
+        print(str(courses[i]))
 
     for i in range(len(courses)):
         courses[i] = preprocess_college_title(courses[i])

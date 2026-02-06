@@ -20,10 +20,10 @@
     * **440** points
     * **Overview:** We depend on electronic devices, such such as computers and mobile phones, computer software and networks to store, process, transmit, retrieve and manipulate information. Students will cover the technology used in these devices and will focus on the development of the software applications that make these devices useful.
 
-* **4. Information Technology**
-    * University of Galway
-    * **350** points
-    * **Overview:** Students are introduced to the basics of IT and computer methods. The course teaches useful skills in computer programming and application in the first year.As part of an Arts degree, this subject is one of three subjects you choose in first year. In second and third year you continue with two of the subjects taken in First Arts. It may be possible to take an extra year studying abroad.
+* **4. Applied Computing**
+    * ATU Donegal
+    * **353** points
+    * **Overview:** This level 8 programme is designed to give the graduate experience with a wide range of modern computing skills. Students will learn cutting edge programming techniques, data analytics, UX design, web architecture plus many other skills. Students can practice honing core computational and problem solving skills needed for any 21st Century technology driven society, in a vibrant and modern campus.
 
 * **5. Mathematics**
     * Trinity College Dublin
@@ -70,22 +70,22 @@
     * **543** points
     * **Overview:** BE Electrical and Electronic Engineering is a four-year professional engineering course designed to prepare students for employment in the electrical and electronic sectors in Ireland and abroad. It has a broad curriculum with strong practical content, including a work placement. It has an excellent record for graduate employment.
 
-* **14. Physics and Astrophysics**
-    * University College Cork
-    * **543** points
-    * **Overview:** Fundamentally Physics and Astrophysics is concerned with the study of the universe, from the largest galaxies to the nature of matter itself. Physics, and the technologies developed by physicists, play a major role in chemistry, biology, medicine, electronics, geology, and in the applied fields of optics, nanotechnology, computer science and engineering.
-
-* **15. Physics with Astronomy**
-    * Dublin City University
-    * **413** points
-    * **Overview:** Do you enjoy maths and have a keen interest in how the universe works? This course is ideal for you. It's all about how physics can help to answer the puzzles of the universe. Astronomy is the oldest of the sciences, but you'll discover how it's evolving incredibly quickly in the 21st century, with more and more sensitive instruments yielding more and better data.By the time you graduate, you'll know the latest techniques used to observe the sky at different energies, and why multi-wavelength observations are crucial to understanding the true nature of cosmic sources. You'll learn through lectures and by doing lab work, where you'll get to explore the nature of sources using real X-ray data collected by the XMM-Newton observatory.
-
-* **16. Biological, Biomedical & Biomolecular Sciences**
+* **14. Physics**
     * University College Dublin
     * **544** points
     * **Overview:** The UCD Science (DN200) course offers 27 degree subjects categorised into streams. Students can study subjects from more than one stream in first year. It is also possible for students to change their stream in first year. At the end of first year, students choose a minimum of two subjects to study in second year (for example Statistics and Mathematics or Genetics and Microbiology). Students will major in one of these subjects in third and fourth year.
 
-* **17. Earth and Environmental Sciences**
+* **15. Physics and Astrophysics**
+    * University College Cork
+    * **543** points
+    * **Overview:** Fundamentally Physics and Astrophysics is concerned with the study of the universe, from the largest galaxies to the nature of matter itself. Physics, and the technologies developed by physicists, play a major role in chemistry, biology, medicine, electronics, geology, and in the applied fields of optics, nanotechnology, computer science and engineering.
+
+* **16. Physics with Astronomy**
+    * Dublin City University
+    * **413** points
+    * **Overview:** Do you enjoy maths and have a keen interest in how the universe works? This course is ideal for you. It's all about how physics can help to answer the puzzles of the universe. Astronomy is the oldest of the sciences, but you'll discover how it's evolving incredibly quickly in the 21st century, with more and more sensitive instruments yielding more and better data.By the time you graduate, you'll know the latest techniques used to observe the sky at different energies, and why multi-wavelength observations are crucial to understanding the true nature of cosmic sources. You'll learn through lectures and by doing lab work, where you'll get to explore the nature of sources using real X-ray data collected by the XMM-Newton observatory.
+
+* **17. Biological, Biomedical & Biomolecular Sciences**
     * University College Dublin
     * **544** points
     * **Overview:** The UCD Science (DN200) course offers 27 degree subjects categorised into streams. Students can study subjects from more than one stream in first year. It is also possible for students to change their stream in first year. At the end of first year, students choose a minimum of two subjects to study in second year (for example Statistics and Mathematics or Genetics and Microbiology). Students will major in one of these subjects in third and fourth year.
