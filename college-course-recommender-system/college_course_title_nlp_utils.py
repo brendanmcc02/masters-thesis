@@ -84,11 +84,9 @@ def get_stop_words():
     stop_words.add("currently")
     stop_words.add("attending")
     stop_words.add("field")
-    stop_words.add("middle")
     stop_words.add("higher")
     stop_words.add("e") # e for electronic e.g. e-commerce
     stop_words.add("professional")
-    stop_words.add("modern")
     stop_words.add("nil")
     stop_words.add("na")
     stop_words.add("attended")
@@ -125,6 +123,7 @@ def get_stop_words():
     stop_words.add("practice")
     stop_words.add("plus")
     stop_words.add("sc")
+    stop_words.add("bess")
 
     return stop_words
 
@@ -181,5 +180,6 @@ COLLEGE_MAJOR_ABBREVIATIONS_ACRONYMS_AND_SUBSTITUTIONS_MAP = {
     'tech': 'technology',
     'llb': 'law',
     'bcl': 'civil law',
-    'mgt': 'management'
+    'mgt': 'management',
+    'gaeilge': 'irish'
 }

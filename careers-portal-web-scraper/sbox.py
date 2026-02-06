@@ -6,5 +6,5 @@ file = open("../datasets/cao-college-courses.json")
 courses = json.load(file)
 
 for course in courses:
-    if "law" in course["categories"] and "investigative" in course["riasec_interests"]:
+    if "life science" in course["categories"] and not ("realistic" in course["riasec_interests"]):
         print(course["title"])

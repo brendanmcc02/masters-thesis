@@ -256,6 +256,7 @@ def get_riasec_interests_for_college_course_category(college_course_category_use
             return ["investigative", "artistic"]
         case "languages":
             # we also want courses that have languages as an option, e.g. Business with German, Computer Science and Linguistics
+            # that being said, there will be a natural bias towards pure language courses (e.g. linguistics/modern langauge), because just the langauges category will be masked
             return RIASEC_INTERESTS
         case "law":
             return ["investigative", "social", "enterprising", "conventional"]
@@ -300,9 +301,6 @@ def is_college_course_duplicate(previously_recommended_college_course, college_c
 
 def is_exact_match_with_preprocessed_college_course_title(previously_recommended_college_course, college_course_to_check):
     return previously_recommended_college_course['preprocessed_title'] == college_course_to_check['preprocessed_title']
-
-def are_both_college_courses_education_or_non_education(previously_recommended_college_course, college_course_to_check):
-    return ("education" in previously_recommended_college_course["categories"]) == ("education" in college_course_to_check["categories"])
 
 def get_normalized_points_vector(points):
     # somec courses are over 625 points (because of portfolios, interviews, etc.)
@@ -396,6 +394,8 @@ def get_stringified_markdown_college_course_recommendations(college_course_recom
         #     stringified_college_course_recommendations += "    * Categories: " + get_stringified_interests_or_categories(college_course_recommendations[i]["categories"]) + "\n"
 
         stringified_college_course_recommendations += "    * **" + str(college_course_recommendations[i]["points"]) + "** points\n"
+
+        stringified_college_course_recommendations += "    * **" + str(college_course_recommendations[i]["duration"]) + "**\n"
 
         stringified_college_course_recommendations += "    * **Overview:** " + college_course_recommendations[i]["overview"] + "\n"
 
