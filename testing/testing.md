@@ -27,7 +27,7 @@
 - [x] lalith
     * didn't rec law despite liking law category
     * did it with baseline sorted by cosine similarity as opposed to points
-    * **I re-did some law riasec interests, could ask him again!**
+    * **I re-did some law & chem riasec interests, could ask him again!**
 - [x] Aysha
     * did it with baseline sorted by cosine similarity as opposed to points
 - [x] Cian Moriarty
@@ -36,16 +36,16 @@
 - [x] Liam Murphy
 - [x] Jake
 - [x] Daniel Farushev
-- [ ] Mauv
+- [x] Mauv
     * first person to use a baseline with only <=625 courses
+    * he suggested adding "as a living" to each question because as time went on he forgot it was "for a living" and not as interest
+- [x] Ramy
+- [ ] Mahir
 - [ ] Doill
 - [ ] Conal
 - [ ] kihan
     * did it before but he did level 8 + high colleges
     * needs to make colleges more realistic
-- [ ] Ramy
-- [ ] Samuel (might be too old)
-- [ ] Daniel Mccann (might be too old)
 - [ ] Vivi
 - [ ] Inam
 - [ ] Muneeb
@@ -60,7 +60,6 @@
 - [ ] Kevin
 - [ ] Alex
 - [ ] James O'Connell
-- [ ] Mahir
 - [ ] Mati
 - [ ] Beth
 - [ ] kaden
@@ -70,3 +69,5 @@
 - [ ] michael connolly
     * he said he'd be free from monday 9th feb onwards
 - [ ] rob
+- [ ] Samuel (might be too old)
+- [ ] Daniel Mccann (might be too old)

@@ -1364,7 +1364,7 @@
     {
         "id": "TR114",
         "title": "Ancient History and Archaeology/Modern Language",
-        "preprocessed_title": "ancient archaeolog histori languag",
+        "preprocessed_title": "ancient archaeolog histori languag modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -3701,7 +3701,7 @@
     {
         "id": "CM003",
         "title": "Baitsil\u00e9ir san Oideachas Tr\u00ed Mhe\u00e1n na Gaeilge (Bunmh\u00fainteoireacht)",
-        "preprocessed_title": "baitsil\u00e9ir bunmh\u00fainteoireacht gaeilg mhe\u00e1n oideacha san tr\u00ed",
+        "preprocessed_title": "baitsil\u00e9ir bunmh\u00fainteoireacht irish mhe\u00e1n oideacha san tr\u00ed",
         "college": "Marino Institute of Education",
         "region": "Dublin",
         "duration": "4 Years",
@@ -3721,7 +3721,7 @@
     {
         "id": "CM004",
         "title": "Baitsil\u00e9ir san Oideachas Tr\u00ed Mhe\u00e1n na Gaeilge (Bunmh\u00fainteoireacht) - Gaeltacht Applicants",
-        "preprocessed_title": "applic baitsil\u00e9ir bunmh\u00fainteoireacht gaeilg gaeltacht mhe\u00e1n oideacha san tr\u00ed",
+        "preprocessed_title": "applic baitsil\u00e9ir bunmh\u00fainteoireacht gaeltacht irish mhe\u00e1n oideacha san tr\u00ed",
         "college": "Marino Institute of Education",
         "region": "Dublin",
         "duration": "4 Years",
@@ -7322,7 +7322,7 @@
     {
         "id": "TR081",
         "title": "Business, Economics and Social Studies (BESS)",
-        "preprocessed_title": "bess busi econom social",
+        "preprocessed_title": "busi econom social",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -8120,7 +8120,7 @@
     {
         "id": "TR177",
         "title": "Classical Civilisation/Modern Language",
-        "preprocessed_title": "civilis classic languag",
+        "preprocessed_title": "civilis classic languag modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -8179,7 +8179,7 @@
     {
         "id": "TR239",
         "title": "Classical Languages/Modern Language",
-        "preprocessed_title": "classic languag",
+        "preprocessed_title": "classic languag modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -8505,7 +8505,7 @@
     {
         "id": "GY208",
         "title": "Commerce (Gaeilge)",
-        "preprocessed_title": "commerc gaeilg",
+        "preprocessed_title": "commerc irish",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
@@ -8670,7 +8670,7 @@
     {
         "id": "TU961",
         "title": "Commercial Modern Music",
-        "preprocessed_title": "commerci music",
+        "preprocessed_title": "commerci modern music",
         "college": "TU Dublin - Grangegorman",
         "region": "Dublin",
         "duration": "4 Years",
@@ -8689,7 +8689,7 @@
     {
         "id": "TU961",
         "title": "Commercial Modern Music",
-        "preprocessed_title": "commerci music",
+        "preprocessed_title": "commerci modern music",
         "college": "BIMM Institute Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -12405,7 +12405,7 @@
     {
         "id": "TR566",
         "title": "Drama Studies/Middle Eastern, Jewish and Islamic Civilisations",
-        "preprocessed_title": "civilis drama eastern islam jewish",
+        "preprocessed_title": "civilis drama eastern islam jewish middl",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -12425,7 +12425,7 @@
     {
         "id": "TR323",
         "title": "Drama Studies/Modern Language",
-        "preprocessed_title": "drama languag",
+        "preprocessed_title": "drama languag modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -12483,7 +12483,7 @@
     {
         "id": "TR022",
         "title": "Early and Modern Irish",
-        "preprocessed_title": "earli irish",
+        "preprocessed_title": "earli irish modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -13343,7 +13343,7 @@
     {
         "id": "TR208",
         "title": "Economics/Modern Language",
-        "preprocessed_title": "econom languag",
+        "preprocessed_title": "econom languag modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -13464,7 +13464,7 @@
     {
         "id": "DN760 EGA",
         "title": "Education (Education and Gaeilge)",
-        "preprocessed_title": "educ gaeilg",
+        "preprocessed_title": "educ irish",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -13484,7 +13484,7 @@
     {
         "id": "DN760 EML",
         "title": "Education (Education and Modern Languages)",
-        "preprocessed_title": "educ languag",
+        "preprocessed_title": "educ languag modern",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -13504,7 +13504,7 @@
     {
         "id": "DN760 EGM",
         "title": "Education (Education, Gaeilge and Modern Languages)",
-        "preprocessed_title": "educ gaeilg languag",
+        "preprocessed_title": "educ irish languag modern",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -13543,7 +13543,7 @@
     {
         "id": "CK124",
         "title": "Education - Gaeilge",
-        "preprocessed_title": "educ gaeilg",
+        "preprocessed_title": "educ irish",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "4 Years",
@@ -13881,7 +13881,7 @@
     {
         "id": "MI019",
         "title": "Education, Gaeilge and Business Studies",
-        "preprocessed_title": "busi educ gaeilg",
+        "preprocessed_title": "busi educ irish",
         "college": "Mary Immaculate College",
         "region": "Munster",
         "duration": "4 years",
@@ -13903,7 +13903,7 @@
     {
         "id": "MI018",
         "title": "Education, Gaeilge and Religious Studies",
-        "preprocessed_title": "educ gaeilg religi",
+        "preprocessed_title": "educ irish religi",
         "college": "Mary Immaculate College",
         "region": "Munster",
         "duration": "4 Years",
@@ -14050,7 +14050,7 @@
     {
         "id": "MI020",
         "title": "Education, Mathematics and Gaeilge",
-        "preprocessed_title": "educ gaeilg mathemat",
+        "preprocessed_title": "educ irish mathemat",
         "college": "Mary Immaculate College",
         "region": "Munster",
         "duration": "4 Years",
@@ -15498,7 +15498,7 @@
     {
         "id": "TR546",
         "title": "English Literature/Middle Eastern, Jewish and Islamic Civilisations",
-        "preprocessed_title": "civilis eastern english islam jewish literatur",
+        "preprocessed_title": "civilis eastern english islam jewish literatur middl",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -15517,7 +15517,7 @@
     {
         "id": "TR277",
         "title": "English Literature/Modern Language",
-        "preprocessed_title": "english languag literatur",
+        "preprocessed_title": "english languag literatur modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -16552,7 +16552,7 @@
     {
         "id": "TR324",
         "title": "Film Studies/Modern Language",
-        "preprocessed_title": "film languag",
+        "preprocessed_title": "film languag modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -17460,7 +17460,7 @@
     {
         "id": "TR667",
         "title": "French/Modern Language",
-        "preprocessed_title": "french languag",
+        "preprocessed_title": "french languag modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -17557,7 +17557,7 @@
     {
         "id": "LM002",
         "title": "Gaeilge",
-        "preprocessed_title": "gaeilg",
+        "preprocessed_title": "irish",
         "college": "University of Limerick",
         "region": "Munster",
         "duration": "4 Years",
@@ -17576,7 +17576,7 @@
     {
         "id": "MI002 GAL",
         "title": "Gaeilge - Arts",
-        "preprocessed_title": "art gaeilg",
+        "preprocessed_title": "art irish",
         "college": "Mary Immaculate College",
         "region": "Munster",
         "duration": "4 Years",
@@ -17594,7 +17594,7 @@
     {
         "id": "GY136",
         "title": "Gaeilge agus L\u00e9ann an Aistri\u00fach\u00e1in",
-        "preprocessed_title": "agus aistri\u00fach\u00e1in gaeilg l\u00e9ann",
+        "preprocessed_title": "agus aistri\u00fach\u00e1in irish l\u00e9ann",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
@@ -17612,7 +17612,7 @@
     {
         "id": "CK101",
         "title": "Gaeilge/Irish",
-        "preprocessed_title": "gaeilg irish",
+        "preprocessed_title": "irish",
         "college": "University College Cork",
         "region": "Munster",
         "duration": "3 Years",
@@ -18347,7 +18347,7 @@
     {
         "id": "TR326",
         "title": "Geography/Modern Language",
-        "preprocessed_title": "geographi languag",
+        "preprocessed_title": "geographi languag modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -18517,7 +18517,7 @@
     {
         "id": "TR668",
         "title": "German/Modern Language",
-        "preprocessed_title": "german languag",
+        "preprocessed_title": "german languag modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -18757,7 +18757,7 @@
     {
         "id": "DC118",
         "title": "Gn\u00f3 agus Gaeilge (Business & Irish)",
-        "preprocessed_title": "agus busi gaeilg gn\u00f3 irish",
+        "preprocessed_title": "agus busi gn\u00f3 irish",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -19628,7 +19628,7 @@
     {
         "id": "TR455",
         "title": "History of Art and Architecture/Modern Language",
-        "preprocessed_title": "architectur art histori languag",
+        "preprocessed_title": "architectur art histori languag modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -19683,7 +19683,7 @@
     {
         "id": "TR447",
         "title": "History/Modern Language",
-        "preprocessed_title": "histori languag",
+        "preprocessed_title": "histori languag modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -21513,7 +21513,7 @@
     {
         "id": "DN520",
         "title": "Irish/Gaeilge",
-        "preprocessed_title": "gaeilg irish",
+        "preprocessed_title": "irish",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "3 Years",
@@ -21532,7 +21532,7 @@
     {
         "id": "TR669",
         "title": "Irish/Modern Language",
-        "preprocessed_title": "irish languag",
+        "preprocessed_title": "irish languag modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -21627,7 +21627,7 @@
     {
         "id": "TR670",
         "title": "Italian/Modern Language",
-        "preprocessed_title": "italian languag",
+        "preprocessed_title": "italian languag modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -22885,7 +22885,7 @@
     {
         "id": "TR588",
         "title": "Linguistics/Modern Language",
-        "preprocessed_title": "languag linguist",
+        "preprocessed_title": "languag linguist modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -23836,7 +23836,7 @@
     {
         "id": "TR597",
         "title": "Mathematics/Modern Language",
-        "preprocessed_title": "languag mathemat",
+        "preprocessed_title": "languag mathemat modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -25084,7 +25084,7 @@
     {
         "id": "TR040",
         "title": "Middle Eastern and European Languages and Cultures",
-        "preprocessed_title": "cultur eastern european languag",
+        "preprocessed_title": "cultur eastern european languag middl",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -25103,7 +25103,7 @@
     {
         "id": "TR587",
         "title": "Middle Eastern, Jewish & Islamic Civilisations/Linguistics",
-        "preprocessed_title": "civilis eastern islam jewish linguist",
+        "preprocessed_title": "civilis eastern islam jewish linguist middl",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -25122,7 +25122,7 @@
     {
         "id": "TR547",
         "title": "Middle Eastern, Jewish and Islamic Civilisations/Ancient History and Archaeology",
-        "preprocessed_title": "ancient archaeolog civilis eastern histori islam jewish",
+        "preprocessed_title": "ancient archaeolog civilis eastern histori islam jewish middl",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -25140,7 +25140,7 @@
     {
         "id": "TR548",
         "title": "Middle Eastern, Jewish and Islamic Civilisations/Classical Civilisation",
-        "preprocessed_title": "civilis classic eastern islam jewish",
+        "preprocessed_title": "civilis classic eastern islam jewish middl",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -25158,7 +25158,7 @@
     {
         "id": "TR233",
         "title": "Middle Eastern, Jewish and Islamic Civilisations/Classical Languages",
-        "preprocessed_title": "civilis classic eastern islam jewish languag",
+        "preprocessed_title": "civilis classic eastern islam jewish languag middl",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -25177,7 +25177,7 @@
     {
         "id": "TR554",
         "title": "Middle Eastern, Jewish and Islamic Civilisations/History",
-        "preprocessed_title": "civilis eastern histori islam jewish",
+        "preprocessed_title": "civilis eastern histori islam jewish middl",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -25195,7 +25195,7 @@
     {
         "id": "TR563",
         "title": "Middle Eastern, Jewish and Islamic Civilisations/Modern Language",
-        "preprocessed_title": "civilis eastern islam jewish languag",
+        "preprocessed_title": "civilis eastern islam jewish languag middl modern",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -25214,7 +25214,7 @@
     {
         "id": "TR564",
         "title": "Middle Eastern, Jewish and Islamic Civilisations/Music",
-        "preprocessed_title": "civilis eastern islam jewish music",
+        "preprocessed_title": "civilis eastern islam jewish middl music",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -25234,7 +25234,7 @@
     {
         "id": "TR565",
         "title": "Middle Eastern, Jewish and Islamic Civilisations/Religion",
-        "preprocessed_title": "civilis eastern islam jewish religion",
+        "preprocessed_title": "civilis eastern islam jewish middl religion",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -25414,7 +25414,7 @@
     {
         "id": "GY101",
         "title": "Modern Irish Culture Studies (Literature and Music)",
-        "preprocessed_title": "cultur irish literatur music",
+        "preprocessed_title": "cultur irish literatur modern music",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "3 - 4 Years",
@@ -25433,7 +25433,7 @@
     {
         "id": "TR757",
         "title": "Modern Language/Social Policy",
-        "preprocessed_title": "languag polici social",
+        "preprocessed_title": "languag modern polici social",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -25454,7 +25454,7 @@
     {
         "id": "DN541",
         "title": "Modern Languages",
-        "preprocessed_title": "languag",
+        "preprocessed_title": "languag modern",
         "college": "University College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -26022,7 +26022,7 @@
     {
         "id": "TR636",
         "title": "Music/Modern Language",
-        "preprocessed_title": "languag music",
+        "preprocessed_title": "languag modern music",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -26118,7 +26118,7 @@
     {
         "id": "GY122",
         "title": "Na D\u00e1na (Cumars\u00e1id agus Gaeilge)",
-        "preprocessed_title": "agus cumars\u00e1id d\u00e1na gaeilg",
+        "preprocessed_title": "agus cumars\u00e1id d\u00e1na irish",
         "college": "University of Galway",
         "region": "Connacht",
         "duration": "4 Years",
@@ -27403,7 +27403,7 @@
     {
         "id": "TR639",
         "title": "Philosophy/Modern Language",
-        "preprocessed_title": "languag philosophi",
+        "preprocessed_title": "languag modern philosophi",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -28442,7 +28442,7 @@
     {
         "id": "DC013",
         "title": "Post Primary Teacher Education - Gaeilge and French, German or Spanish",
-        "preprocessed_title": "educ french gaeilg german post primari spanish",
+        "preprocessed_title": "educ french german irish post primari spanish",
         "college": "Dublin City University",
         "region": "Dublin",
         "duration": "4 Years",
@@ -29873,7 +29873,7 @@
     {
         "id": "TR666",
         "title": "Religion/Modern Language",
-        "preprocessed_title": "languag religion",
+        "preprocessed_title": "languag modern religion",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -30027,7 +30027,7 @@
     {
         "id": "TR671",
         "title": "Russian/Modern Language",
-        "preprocessed_title": "languag russian",
+        "preprocessed_title": "languag modern russian",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -31241,7 +31241,7 @@
     {
         "id": "TR592",
         "title": "Sociology/Middle Eastern, Jewish & Islamic Civilisations",
-        "preprocessed_title": "civilis eastern islam jewish sociolog",
+        "preprocessed_title": "civilis eastern islam jewish middl sociolog",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -31260,7 +31260,7 @@
     {
         "id": "TR756",
         "title": "Sociology/Modern Language",
-        "preprocessed_title": "languag sociolog",
+        "preprocessed_title": "languag modern sociolog",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
@@ -31775,7 +31775,7 @@
     {
         "id": "TR672",
         "title": "Spanish/Modern Language",
-        "preprocessed_title": "languag spanish",
+        "preprocessed_title": "languag modern spanish",
         "college": "Trinity College Dublin",
         "region": "Dublin",
         "duration": "4 Years",
