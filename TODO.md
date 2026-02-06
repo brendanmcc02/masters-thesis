@@ -7,3 +7,5 @@
     * e.g. you loove computers and engineering (e.g. Daniel), meh towards physics
     * should a physics rec be high up in the list over other cs and eng courses?
     * I do think this is a good idea but I don't think I'll implement it
+
+- [ ] people forgetting living as opposed to liking stuff - maybe put statement above each question?

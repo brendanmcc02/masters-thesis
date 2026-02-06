@@ -131,6 +131,7 @@ def get_stop_words():
     stop_words.add("pure")
     stop_words.add("practice")
     stop_words.add("plus")
+    stop_words.add("sc")
 
     return stop_words
 

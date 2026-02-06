@@ -151,6 +151,12 @@ def get_preprocessed_unique_user_ground_truth_courses(user_data_part_2):
     courses.pop(0)
 
     for i in range(len(courses)):
+        courses[i] = courses[i].strip()
+
+    if "" in courses:
+        courses.remove("")
+
+    for i in range(len(courses)):
         courses[i] = parse_title_from_cao_college_course(courses[i].strip())
 
     print("\n\nGround truth courses before uniqueifying:\n" + str(courses) + "\n")
@@ -159,6 +165,9 @@ def get_preprocessed_unique_user_ground_truth_courses(user_data_part_2):
         courses[i] = preprocess_college_title(courses[i])
 
     preprocessed_unique_user_ground_truth_courses = list(set(courses))
+
+    if "" in preprocessed_unique_user_ground_truth_courses:
+        preprocessed_unique_user_ground_truth_courses.remove("")
 
     print("Ground truth courses after uniqueifying and preprocessing:\n" + str(preprocessed_unique_user_ground_truth_courses) + "\n\n")
 
