@@ -1242,7 +1242,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "During this interdisciplinary course, you will  learn both the theoretical and practical aspects of chemical, biochemical and microbiological analysis. In first year, you'll gain essential background knowledge in chemistry, biology, mathematics and physics, and get hands-on laboratory experience. From second year on, you'll focus on analytical science and from third year, you'll specialise in either chemical or biological analysis.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "chemical science",
@@ -1261,7 +1262,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Analytical scientists investigate the chemical nature of substances to identify and understand how they behave in different conditions. In the pharmaceutical industry, for example, analytical scientists are involved throughout the drug manufacturing process to ensure the quality and stability of drug products.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "chemical science",
@@ -1751,7 +1753,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Applied Biosciences is the study of complex biological systems, and how they work, for example how bacteria generate energy from the breakdown of sugars. Applied Biosciences also involves the use of living organisms and bioprocesses in engineering, technology, medicine and agriculture - in other words, the application of scientific and technical advances in the life sciences to develop commercial products.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "engineering",
@@ -3414,6 +3417,7 @@
         "overview": "The term sports injury refers to the kinds of injuries that most commonly occur during sports or exercise. In this honours degree, students will become skilled in the prevention, assessment, diagnosis, treatment, and rehabilitation of musculoskeletal injuries related to physical activity.",
         "riasec_interests": [
             "investigative",
+            "realistic",
             "social"
         ],
         "categories": [
@@ -3433,6 +3437,7 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Our Bachelor of Science in Athletic Therapy and Exercise Rehabilitation is a four-year programme that equips learners with the knowledge and clinical skills to successfully diagnose, manage, and treat injuries in high-performance athletes, recreational exercisers, and the general public. The first two years provide the core foundation of the degree, including anatomy, physiology, and musculoskeletal assessment while the last two years develop clinical skills through student-led clinics, a work placement, and a clinical research project.",
         "riasec_interests": [
+            "investigative",
             "realistic",
             "social"
         ],
@@ -3823,7 +3828,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Our Bachelor of Science (Hons) in Bioanalytical Science option provides a clear knowledge of the underlying concepts behind modern bioanalytical techniques and the application of these techniques in the areas of biotechnology, biopharmaceutical, and related industries and in environmental analysis. You will gain technical competence in analytical biochemical, genetic, immunological and microbiologically-based analytical methodologies and the skills and knowledge required to work in the biotechnology, and biopharmaceutical industries as well as in state scientific agencies.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "life science",
@@ -3921,7 +3927,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "During the General Entry course, you'll study biochemistry, bioprocessing, biotechnology, genetics, cell biology and microbiology, while also completing some modules in chemistry, physics and mathematics. Once you successfully pass this first year, you'll go on to one of three programmes: the BSc in Genetics and Cell Biology, the BSc in Biotechnology or the BSc in Bioprocessing.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "life science"
@@ -3939,7 +3946,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The common biological sciences honours entry scheme is a two-year programme designed for students interested in biological sciences as a career, but who may be unsure of which discipline to follow. The scheme gives students the opportunity to see the three disciplines, first-hand, through the various modules on offer, interaction with lecturers, and industrial site visits. This allows the student to make an informed decision on their discipline of study.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "life science"
@@ -4017,7 +4025,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The programme is designed to equip graduates with strong core technical and analytical skills essential for a career in biomedical design, engineering and technology. The programme utilises innovative course design methods and modern teaching techniques, and integrates guest lectures from design professionals, enhancing industry relevance.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "engineering",
@@ -4196,7 +4205,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Biomedical Science is the study of Life Science subjects related to human health and disease. Students will learn about the structure and function of the human body from the level of organs and tissues to the molecular level, as well as how drugs are used to treat disease. You will major in one of the following biomedical science subjects: Anatomy, Biochemistry, Pharmacology or Physiology.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "life science"
@@ -4214,7 +4224,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Students learn how to use analytical and technical procedures to monitor and improve human health and to investigate disease processes. The degree is broadly similar to the pre-clinical component of a medical degree.Students also learn how to ask questions, make observations, and analyse evidence in theory work and through practical laboratory sessions- and to present and communicate findings clearly while developing computer literacy and research skills.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "life science"
@@ -4232,7 +4243,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Biomedical Science is a continually changing dynamic profession and involves the study of diverse areas of medical science including biochemistry, microbiology, cellular pathology, haematology, and transfusion science. It provides training in cutting-edge technologies to facilitate the investigation of disease and medical research.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "life science"
@@ -4250,7 +4262,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Biomedical science is the term for the investigations carried out by medical scientists on samples of tissue and body fluids to diagnose disease and monitor the treatment of patients. Medical scientists work in partnership with doctors and other healthcare professionals to perform many different roles in medical laboratories. Biomedical science is a continually changing dynamic profession and involves study of the diverse areas of medical science including biochemistry, microbiology, cellular pathology, haematology and transfusion science. It provides training in state-of-the-art technologies to facilitate investigation of disease and medical research.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "life science"
@@ -4268,7 +4281,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Biomedical Science is the study and application of biological systems for diagnostic and therapeutic purposes. This degree gives students access to the latest industry innovations and advancements, teaching them skills needed to gain employment in the biotechnology, biopharmaceutical, diagnostics and medical device industries in Ireland and abroad.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "life science"
@@ -4286,7 +4300,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Biomedical Science is the study and application of biological systems for diagnostic and therapeutic purposes. This degree gives students access to the latest industry innovations and advancements, teaching them skills needed to gain employment in the biotechnology, biopharmaceutical, diagnostics and medical device industries in Ireland and abroad. Innovative teaching methods are used on the programme, including the use of social networking, game-based learning, industrial workshops and visits to target industries and employers. We also recognise the importance of transferable skills such as data presentation, information-sourcing and scientific-technical writing which enhances employability, and expands students knowledge and understanding of the sector.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "life science"
@@ -4304,7 +4319,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This course will appeal to those with a keen interest in science and in how research and technology can impact on human health. It is training scientists at the interface of science and medicine. You will learn how scientifically driven investigations can advance our knowledge of disease prevention, detection and treatment and translating these into clinical utility. The course will immerse you in modern medical and biological sciences and focus on the application of scientific developments. BHLS offers students a unique opportunity to complete a research project with a Principal Investigator in a biomedical research area that interests them and an opportunity to be involved in peer-reviewed publications.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "life science"
@@ -4400,10 +4416,10 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Biotechnology is a dynamic and evolving area with many opportunities and challenges, which is making significant contributions to the 'smart economy' in areas such as healthcare, agri- business, the food industry and the environment. As a scientific discipline Biotechnology is a blend of Genetics, Microbiology, Molecular Biology, Biochemistry and Nanotechnology, with a strong component of Computer Technology - all of these disciplines are explored as part of this programme.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
-            "computers",
             "engineering",
             "life science"
         ]
@@ -4420,10 +4436,10 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "You'll gain an excellent foundation in genetics, cell biology, immunology, microbiology, bioinformatics and bioprocess engineering, as well as practical laboratory skills and invaluable skills in communications, critical thinking and problem solving. In your final year, you'll decide to take focus either on research or on learning more about the biopharmaceutical industry.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
-            "computers",
             "engineering",
             "life science"
         ]
@@ -4440,10 +4456,10 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Biotechnology is the application of biology for the benefit of humanity and the environment. It harnesses living organisms to provide foods and medicines, and for tasks such as cleaning toxic waste or detecting harmful substances. Biotechnology has roots in food and agriculture, using yeast to make beer and bread, and lactic acid bacteria to make cheese. Modern technologies such as genetic engineering make biotechnology a major part of Ireland's economic future in biopharmaceuticals, biomedicine, agriculture, the food industry and the environment.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
-            "computers",
             "engineering",
             "life science"
         ]
@@ -4460,10 +4476,10 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Biotechnology explores all aspects of modern molecular biology including recombinant DNA technology, antibody production and uses, and animal cell culture. It covers disciplines including genetics, molecular biology, immunology, molecular microbiology, biochemistry, and cell biology.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
-            "computers",
             "engineering",
             "life science"
         ]
@@ -4480,10 +4496,10 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Biotechnology explores biological systems (cells and organisms) to discover new ways to benefit humankind and the environment. Biotechnologists use their knowledge of biology to create products and processes within areas such as food, agriculture, the environment and medicine. The degree in Biotechnology is designed to provide students with the necessary foundation of scientific knowledge, understanding and skill to build a career as a biotechnologist.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
-            "computers",
             "engineering",
             "life science"
         ]
@@ -4500,10 +4516,10 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Biotechnology is a dynamic field that combines biology, chemistry, genetics, and engineering to drive innovation and address global challenges. It utilises biological systems to create groundbreaking new products and technologies in healthcare, agriculture and environmental protection. It also helps pave the way for developing new drugs, improving crop yields, producing biofuels and even cleaning up polluted environments.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
-            "computers",
             "engineering",
             "life science"
         ]
@@ -4525,7 +4541,6 @@
         ],
         "categories": [
             "chemical science",
-            "computers",
             "engineering",
             "life science"
         ]
@@ -7163,8 +7178,7 @@
         ],
         "categories": [
             "business",
-            "communications",
-            "computers"
+            "communications"
         ]
     },
     {
@@ -7184,9 +7198,7 @@
         ],
         "categories": [
             "business",
-            "communications",
-            "computers",
-            "life science"
+            "communications"
         ]
     },
     {
@@ -16122,6 +16134,7 @@
         "overview": "This course will include contributions from physical activity, nutrition, sports science and behaviour change specialists. Students will learn in small class groups, ensuring greater access to equipment and training and applied experience of knowledge generated. Students will also be transitioned into the requirements of education at third level, and their generic skills will be developed throughout the course to support greater employability.  This course is designed to produce specialists in behaviour change across all aspects of health but most specifically in exercise/physical activity and nutrition.",
         "riasec_interests": [
             "investigative",
+            "realistic",
             "social"
         ],
         "categories": [
@@ -16948,8 +16961,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "During the Food & Agribusiness Management degree, you'll learn how the principles of economics and business management apply to farming, food production and marketing. You'll gain an understanding of how the Irish and international food systems deliver food products and services that people want, and how farmers and food manufacturers can produce proftably, while also taking care of the natural environment. The four-year degree provides a unique opportunity to understand both business and science, focusing on the agri-food sector - Ireland's largest indigenous industry. You will learn skills that can be used across a wide range of jobs both within and outside the agri-food sector.",
         "riasec_interests": [
-            "enterprising",
-            "realistic"
+            "conventional",
+            "enterprising"
         ],
         "categories": [
             "agriculture",
@@ -16968,12 +16981,12 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "All aspects of the programme are intrinsically linked to the food industry, which is rapidly expanding and changing its future focus to meet consumer demands and expectations. This programme is designed to provide learners with a holistic comprehension of the food industry. With subjects covering food and food science underpinned by sustainability, new and future technology, analytics, management, and leadership, graduates will become leaders in food business. Learners will also develop a professional network through work-based learning, thus gaining valuable experience by applying their theoretical knowledge in practice.",
         "riasec_interests": [
-            "artistic",
+            "conventional",
             "enterprising"
         ],
         "categories": [
-            "business",
-            "life science"
+            "agriculture",
+            "business"
         ]
     },
     {
@@ -16988,9 +17001,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Our Food Business with Chinese Studies programme prepares graduates with the skills urgently required by the Irish food industry to succeed in the changing market landscape. With Brexit and the uncertainty surrounding the UK market, it is critical for the industry to expand exports to emerging markets, particularly China. This requires improved foreign language capability, which we provide through a combination of fundamental food science and food business management modules, and language, cultural, and target market-oriented courses. In third year, students study at Renmin University of China, taking Chinese language courses and other relevant modules, while experiencing the diverse culture and vibrant economic growth of China.",
         "riasec_interests": [
-            "artistic",
-            "enterprising",
-            "realistic"
+            "conventional",
+            "enterprising"
         ],
         "categories": [
             "agriculture",
@@ -17170,7 +17182,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "The BSc (Hons) in Forensic & Pharmaceutical Science is a unique interdisciplinary course providing students with a detailed knowledge and understanding of the sciences in areas of forensics, pharmaceutical and analytical techniques. This course thus produces graduates who are highly employable in a broad range of sectors. Students gain valuable hands-on experience in the methodology and techniques at the forefront of these major sectors and develop transferable skills including problem solving, communicating, and defending scientific data, evidence interpretation, time management and team building.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "chemical science",
@@ -19225,6 +19238,7 @@
         "overview": "Health Science with Occupational Therapy Studies is the study of the human body with particular focus on Anatomy and Physiology and provides a foundation to Occupational Therapy studies. This two year Health Science with Occupational Therapy Studies incorporates year one of the three year BSc Honours in Occupational Therapy at Coventry University (CU).",
         "riasec_interests": [
             "investigative",
+            "realistic",
             "social"
         ],
         "categories": [
@@ -19244,7 +19258,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Health Science with Physiotherapy Studies is the study of the human body with particular focus on Anatomy and Physiology and provides a foundation to Physiotherapy studies. Through a unique progression opportunity, this programme allows students to progress to complete a BSc Honours in Physiotherapy at Coventry University.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "life science",
@@ -25059,7 +25074,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Microbiology is the study of microscopic organisms, known as microorganisms or microbes, that are usually invisible to the naked eye, including bacteria, protozoa, fungi, viruses and prions. Several modern scientific disciplines including genetic engineering, genomics, bioinformatics, microbial biotechnology, immunology and molecular biology originated from classical microbiology and therefore form an integral part of the teaching and research of microbiology at TUS. An industrial placement during the third year of the programme provides an opportunity to gain valuable experience and establish direct links with industry.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "life science"
@@ -26292,7 +26308,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This course is designed to meet the need for scientists with technical competency in the design, development, production, analysis and upgrading of products that are involved in the maintenance, restoration and promotion of human health and wellbeing. Graduates will be able to apply their understanding of human nutrition and its role in health and disease to various sectors of the food and health industry and identify and address nutrition-related problems in individuals and populations.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "life science"
@@ -26310,7 +26327,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "This BSc (Honours) in Nutrition and Health Science course is a unique interfacial degree with an equal emphasis on both nutrition and health science. This course provides an approach to nutrition that is based on the scientific and academic principles of biology, biochemistry, social and public health aspects of human nutrition, as well as encompassing emerging issues such as biotechnology, food sustainability and security. This course develops students, across the disciplines of nutritional science, health promotion, research and practice-based nutrition, to build competencies towards becoming an accredited nutritionist.",
         "riasec_interests": [
-            "investigative"
+            "investigative",
+            "realistic"
         ],
         "categories": [
             "life science"
@@ -26592,6 +26610,7 @@
         "overview": "Our BSc Paramedicine degree, offered by the College of Medicine and Health, will prepare you for work as a Paramedic practitioner in the pre-hospital environment. The course will provide you with a variety of modules in numerous settings including modules in theory and clinical practice. In addition, you will participate in ambulance-supervised placements and multiple clinical settings such as emergency departments, coronary care units etc.",
         "riasec_interests": [
             "investigative",
+            "realistic",
             "social"
         ],
         "categories": [
@@ -27489,6 +27508,7 @@
         "overview": "This course draws upon expertise from psychologists, nutritionists, exercise and sport scientists, and public health professionals to provide you with the knowledge and skills to improve the general health of various sectors of society using exercise courses, physical activity and nutrition. While bringing together the social, behavioural, biological and biomedical sciences to facilitate the development and improvement of existing interventional techniques. Being physically active and having a healthy diet are important for people of all ages to maintain their health and well being.",
         "riasec_interests": [
             "investigative",
+            "realistic",
             "social"
         ],
         "categories": [
@@ -28125,6 +28145,7 @@
         "overview": "The overarching philosophy of the programme is the development of a graduate who is well rounded, autonomous practitioner with the knowledge required to underpin the current demands of the profession. They will be confident, reflective practitioners capable of managing change, supporting their profession and patients and developing professionally as their role evolves in the ever-changing Irish and global healthcare landscape.",
         "riasec_interests": [
             "investigative",
+            "realistic",
             "social"
         ],
         "categories": [
@@ -28165,6 +28186,7 @@
         "overview": "A podiatrist is an autonomous clinician who specializes in the diagnosis, treatment and management of lower limb conditions. Podiatry can significantly improve peoples' quality of life by promoting and maintaining mobility. Therefore, podiatric medicine as a career can be extremely rewarding and fulfilling and can give immense job satisfaction.",
         "riasec_interests": [
             "investigative",
+            "realistic",
             "social"
         ],
         "categories": [
@@ -31900,6 +31922,8 @@
         "isAdditionalPortfolioTestInterviewRequired": false,
         "overview": "Sport and Exercise Science develops an understanding of the human body's response to exercise, how to maximise performance in athletes, the benefits of physical activity for health, and the psychological and sociological factors influencing sport and exercise. This course incorporates the core areas of biomechanics, physiology and psychology, and studentsare encouraged to develop an interdisciplinary approach to solving real-world problems in sport and exercise.",
         "riasec_interests": [
+            "investigative",
+            "realistic",
             "social"
         ],
         "categories": [
