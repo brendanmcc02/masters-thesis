@@ -15,6 +15,7 @@
     * e.g. me wanting education but not doing dcu/marino/
     * there are a looot of colleges and people are frankly unaware of what they do
     * maybe the RS should run on all colleges (no filter, despite what the user puts down)- and if there are courses being recommended for those colleges, the system could ask the user: "hey, we got some course suggestions from these colleges because you scored highly in these areas, would you like to include these colleges in your final recommendation list?
+        * **when running test with doill he talked about this, mention it!!!**
 * another "iterative" idea
     * after showing the recs to the user, their preferences may evolve/change - e.g. me getting recommended bio/chem courses but then preferring other things
     * you could attach a button to a course and ask the user if they want to revise their 6 question answers for that specific category
@@ -49,3 +50,19 @@
     * riasec interests were initially done by careers portal
     * but there were inconsistencies and a lot of errors so that had a lot of manual intervention
     * categories are also manually done entirely (maybe don't mention the fact I used gemini to initially do them)
+
+* the phrasing of the question: "would you realistically consider studying this college course"
+    * some people really liked some recommendations: "oooooh nice"
+    * but they wouldn't study it, it would more be out of interest
+    * but tbh the question is phrased to prevent this so idk "I would like to do this for a living"
+
+* vary the number of questions per category
+    * in some cases (e.g. architecture), it was hard to capture differing courses with just 6 questions
+    * in other cases (e.g. maths), it was more straightforward
+    * vivi's feedback: some were quite repetitive, could probably trim it down maybe
+
+* lack of nuance with categories
+    * riasec attempts to ammend for this but it has it's own limitations ofc
+    * e.g. responding negatively to the education questions about young kids, but preferring the tutoring side
+    * shouldn't get recommended primary teaching courses, but maybe secondary teaching
+

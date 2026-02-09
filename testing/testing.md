@@ -1,3 +1,11 @@
+# Steps
+
+1. PIL
+2. Informed Consent Form
+3. [Form 1](https://docs.google.com/forms/d/e/1FAIpQLSdTPTCry6UxXJyUvBKZ13pgW1ETBkdk_l7sm0K3k2sVo8TAXg/viewform?usp=dialog)
+4. [md-to-pdf](https://www.markdowntopdf.com) or [this](https://apitemplate.io/pdf-tools/convert-markdown-to-pdf/)z
+5. [Form 2](https://docs.google.com/forms/d/e/1FAIpQLSclmDbKT1N4lTgv0f9O6mcqZYT5fAIXhb5qP-gPJktH_h75QQ/viewform?usp=dialog)
+
 # People
 
 - [x] Declan
@@ -21,7 +29,6 @@
     * did it with baseline being sorted by points as opposed to cosine similarity
         * I think this would have effected his overall trust in set 2
     * not worth asking him to re-evaluate trust again imo, he would know which set is which
-    * could leave his results out of the final thing - part_1_timestamp is `04/02/2026 14:37:26`
 - [x] Sean Somers
     * did it with baseline sorted by cosine similarity as opposed to points
 - [x] lalith
@@ -40,16 +47,13 @@
     * first person to use a baseline with only <=625 courses
     * he suggested adding "as a living" to each question because as time went on he forgot it was "for a living" and not as interest
 - [x] Ramy
-- [ ] Mahir
+- [x] Mahir
 - [ ] Doill
 - [ ] Conal
-- [ ] kihan
-    * did it before but he did level 8 + high colleges
-    * needs to make colleges more realistic
+- [ ] Oscar
 - [ ] Vivi
 - [ ] Inam
 - [ ] Muneeb
-- [ ] Mahmi
 - [ ] Kash
 - [ ] Cian Tracey
 - [ ] Grainne
@@ -63,11 +67,11 @@
 - [ ] Mati
 - [ ] Beth
 - [ ] kaden
-- [ ] hugh finnegan
 - [ ] Dillon
-- [ ] Lughaidh(?)
 - [ ] michael connolly
-    * he said he'd be free from monday 9th feb onwards
 - [ ] rob
-- [ ] Samuel (might be too old)
-- [ ] Daniel Mccann (might be too old)
+- [ ] hugh finnegan
+- [ ] Mahmi
+- [ ] ~~kihan~~
+    * did it before but he did level 8 + high colleges
+    * needs to make colleges more realistic

@@ -172,7 +172,7 @@ def get_preprocessed_unique_user_ground_truth_courses(user_data_part_2):
     if "" in preprocessed_unique_user_ground_truth_courses:
         preprocessed_unique_user_ground_truth_courses.remove("")
 
-    print("Ground truth courses after uniqueifying and preprocessing:\n" + str(preprocessed_unique_user_ground_truth_courses) + "\n\n")
+    print("\nGround truth courses after uniqueifying and preprocessing:\n" + str(preprocessed_unique_user_ground_truth_courses) + "\n\n")
 
     return preprocessed_unique_user_ground_truth_courses
 
