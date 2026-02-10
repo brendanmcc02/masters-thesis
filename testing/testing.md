@@ -48,10 +48,10 @@
     * he suggested adding "as a living" to each question because as time went on he forgot it was "for a living" and not as interest
 - [x] Ramy
 - [x] Mahir
-- [ ] Doill
-- [ ] Conal
+- [x] Doill
+- [x] Conal
 - [ ] Oscar
-- [ ] Vivi
+- [x] Vivi
 - [ ] Inam
 - [ ] Muneeb
 - [ ] Kash
@@ -63,15 +63,19 @@
 - [ ] Ben Hennessy
 - [ ] Kevin
 - [ ] Alex
-- [ ] James O'Connell
+    * travelling to germany this week
 - [ ] Mati
 - [ ] Beth
 - [ ] kaden
 - [ ] Dillon
+    * polarizing person would be worth it
 - [ ] michael connolly
 - [ ] rob
 - [ ] hugh finnegan
 - [ ] Mahmi
+    * another CS idk if so worth it
+- [ ] James O'Connell
+    * another CS idk if so worth it
 - [ ] ~~kihan~~
     * did it before but he did level 8 + high colleges
     * needs to make colleges more realistic
