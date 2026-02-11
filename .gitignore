@@ -57,3 +57,5 @@ venv/
 **/.~lock.*
 
 college-course-recommender-system/results-pdf/*.pdf
+
+testing/testing.md
