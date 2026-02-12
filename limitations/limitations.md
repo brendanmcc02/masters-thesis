@@ -16,6 +16,7 @@
     * there are a looot of colleges and people are frankly unaware of what they do
     * maybe the RS should run on all colleges (no filter, despite what the user puts down)- and if there are courses being recommended for those colleges, the system could ask the user: "hey, we got some course suggestions from these colleges because you scored highly in these areas, would you like to include these colleges in your final recommendation list?
         * **when running test with doill he talked about this, mention it!!!**
+    * but it's a trade-off: if you over-engineer the system with feedback you can make the user drop out of the system - owen's advice
 * another "iterative" idea
     * after showing the recs to the user, their preferences may evolve/change - e.g. me getting recommended bio/chem courses but then preferring other things
     * you could attach a button to a course and ask the user if they want to revise their 6 question answers for that specific category

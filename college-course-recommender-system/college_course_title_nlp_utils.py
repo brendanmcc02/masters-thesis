@@ -124,6 +124,11 @@ def get_stop_words():
     stop_words.add("plus")
     stop_words.add("sc")
     stop_words.add("bess")
+    stop_words.add("hpat")
+    stop_words.add("required")
+    stop_words.add("course")
+    stop_words.add("five")
+    stop_words.add("six")
 
     return stop_words
 
