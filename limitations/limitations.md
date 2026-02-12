@@ -67,3 +67,5 @@
     * e.g. responding negatively to the education questions about young kids, but preferring the tutoring side
     * shouldn't get recommended primary teaching courses, but maybe secondary teaching
 
+* in some cases, it was quite obvious which set of recs was mine and which was baseline
+    * CS people especially could tell because they have more domain awareness of what a baseline is

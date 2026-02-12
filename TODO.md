@@ -1,5 +1,13 @@
 # TODO
 
+- [ ] combine declan results
+    * `11/02/2026 19:41:37` new part-2
+    * part-1: `29/01/2026 15:31:41`
+- [ ] combine lalith results
+    * new part-2: `11/02/2026 20:00:31`
+    * `11/02/2026 20:00:31`
+- [ ] combine tom results
+    * part-1: `29/01/2026 15:29:56`
 - [ ] markdown to pdf python!
 
 # Owen meeting notes
