@@ -1,244 +1,244 @@
 # RECOMMENDATION SET 1
 
-* **0. Sociology/Social Policy**
-    * Trinity College Dublin
-    * **481** points
+* **0. Biomedical Science**
+    * Maynooth University
+    * **0** points
     * **4 Years**
-    * **Overview:** Sociology If you want to understand the social changes taking place in the world today, and you are curious about people and society, then Sociology is for you. You will also gain the ability to understand topical issues and to present and communicate information and thoughts coherently. In addition, you will learn invaluable analytical, communication, research and presentation skills - transferable skills which can be applied to a wide range of careers and postgraduate programmes. Social Policy Curious about social and economic policy issues around the world? Searching for a course that demands both academic and vocational qualities? Interested in understanding society, its social problems and have a desire to make a difference? Then Social Policy may be the subject choice for you. It is particularly relevant to students intending to pursue a career in research, social policy analysis and evaluation, management and planning within the social services, both voluntary and statutory, as well as to those with a general interest in society and social policy.
+    * **Overview:** Students learn how to use analytical and technical procedures to monitor and improve human health and to investigate disease processes. The degree is broadly similar to the pre-clinical component of a medical degree.Students also learn how to ask questions, make observations, and analyse evidence in theory work and through practical laboratory sessions- and to present and communicate findings clearly while developing computer literacy and research skills.
 
-* **1. Sociology**
+* **1. Food Science and Human Nutrition**
+    * Maynooth University
+    * **440** points
+    * **4 Years**
+    * **Overview:** This programme is for students who wish to work in the area of food production, quality assurance, nutrition, and product development, with a focus on future foods and the role of food in the health of people, in Ireland and globally. this course provides students with a broad science-based education, with specialist content on the future of food development, human nutrition, and the role of food and healthy living, and also explores the social and global challenges around food security.
+
+* **2. Pharmaceutical and Biomedical Chemistry**
+    * Maynooth University
+    * **434** points
+    * **4 Years**
+    * **Overview:** This course is suited to those who wish to specialise in chemistry for the pharmaceutical and biomedical industries. Pharmaceutical Chemistry is a very important branch of Chemistry that is applied to the synthesis and formulation of new therapeutic drugs as well as the manufacture of medicinal compounds on a large scale.In this programme you will receive an excellent education in chemistry (physical chemistry, organic chemistry, inorganic chemistry), and have the opportunity to specialise in pharmaceutical chemistry, medicinal chemistry and bioinorganic chemistry.
+
+* **3. Agricultural Science - No Preference**
+    * University College Dublin
+    * **431** points
+    * **4 Years**
+    * **Overview:** If you are interested in studying Agricultural Science but are not certain of which area to specialise in, you can select the 'No Preference (NPF)' option on your CAO form. Then, during your frst year at UCD, you can choose your area of specialisation. Once you receive an offer on the Agricultural Science programme (DN250) you will be guaranteed a place in any of the 11 specialisations from second year. Alternatively, if you know which of the 11 programmes you would like to specialise in, you can select this on your CAO application.
+
+* **4. Linguistics**
     * University College Dublin
     * **420** points
     * **3 Years**
-    * **Overview:** If you are interested in people, you will be interested in sociology. It is relevant for understanding almost every aspect of our lives. We are all part of society, we are connected with each other and we are affected by the people around us. In the same way, we shape the social context for others as well. Sociology provides you with the mindset and the research tools to observe the social world, make connections, understand differences, norms, cultures or inequalities.
+    * **Overview:** Language is something we take for granted but it is one of the most important skills we possess as human beings. It is hard to imagine any activity that does not involve language in some way. This makes linguistics (the scientific study of language) one of the most intriguing and interesting subjects.
 
-* **2. Psychology**
+* **5. International Business and Global Cultures**
+    * Maynooth University
+    * **400** points
+    * **3 or 4 Years**
+    * **Overview:** An essential challenge for businesses in Ireland is how they can connect the capabilities of our workforce to contribute to solutions for people who are largely in markets outside Ireland, across the EU and the wider global community. Business needs graduates who can both understand the fundamentals of how to create value for customers and how to translate them into solutions and services that fit the needs of diverse cultures.
+
+* **6. Business and Languages**
+    * Maynooth University
+    * **397** points
+    * **4 Years**
+    * **Overview:** You choose one business subject (Accounting*, Business Management, International Business or Marketing) and one language (Chinese, French, German or Spanish). You do not need to have studied either business or your chosen language for the Leaving Certificate to take this degree.
+
+* **7. Modern Languages**
     * University College Dublin
-    * **544** points
+    * **410** points
+    * **4 Years**
+    * **Overview:** Modern Languages combines advanced language skills with the literature, history and culture of the countries where these languages are spoken. It also focuses on developing critical faculties and cross-cultural awareness. This degree is for those of you who want to concentrate on at least two modern foreign languages, explore the connections between them, spend a year abroad and graduate with a BA International degree.
+
+* **8. Celtic Civilization**
+    * University College Dublin
+    * **420** points
     * **3 Years**
-    * **Overview:** If you have a questioning attitude and good reasoning skills, you will really enjoy the world opened up by Psychology. Psychology has links to the natural sciences, the social sciences and the arts, so it is likely to appeal to a wide variety of people. The course has core modules that will introduce you to major theories and research methods, and you will also have a chance to choose option modules in specialist areas of psychology (e.g. counselling, clinical psychology and forensic psychology).
+    * **Overview:** The Celtic Civilisation course focuses on the cultures of the Celtic-speaking peoples in Ireland, Britain and beyond. It encompasses diverse elements in folklore, literature, history to allow students to pursue particular fields of interest. This gives students the opportunity to acquire a broad overview of the cultures of the Celtic-speaking peoples and also to develop more specific areas of expertise. Many of the Celtic Civilisation modules are good choices as electives for those interested in Celtic culture in Ireland and beyond.
 
-* **3. Social Sciences (Two Subject Combination)**
+* **9. English**
     * University College Dublin
-    * **490** points
+    * **420** points
     * **3 Years**
-    * **Overview:** Social Sciences students explore society and how people behave as individuals and in groups. With the four-year Social Sciences degree, you choose DN700 at CAO and then select your preferred option below. Your subject choices are guaranteed. The Two Subjects Choice (TSC) options are: Archaeology; Economics; Geography; Information & Communication Studies, Philosophy; Politics and Sociology. There are options to change subject choices at the end of first year if you wish. You will gain a deep understanding of each subject you choose to study and develop real-world skills in research, communication and leadership. You may additionally apply for an internship, or study abroad for a year or a semester. You will learn to analyse, criticise and challenge beliefs and assumptions - including your own.
+    * **Overview:** Study English at UCD if you are an enthusiastic reader, writer and thinker who loves literature. Strengthen your understanding of narrative, poetic and dramatic forms. Enlarge your critical vocabulary and historical awareness. Explore how the study of literature intersects with questions of gender, politics and cultural theory. Learn how to research a topic, evaluate evidence and present your ideas in a cogent, elegant fashion.
 
-* **4. Sociology (Social Sciences Two Subject Combination)**
+* **10. Irish Folklore**
     * University College Dublin
-    * **490** points
-    * **4 Years**
-    * **Overview:** If you are interested in people, you will be interested in sociology. It is relevant for understanding almost every aspect of our lives. We are all part of society, we are connected with each other and we are affected by the people around us. In the same way, we shape the social context for others as well. Sociology provides you with the mindset and the research tools to observe the social world, make connections, understand differences, norms, cultures or inequalities.
-
-* **5. Commerce**
-    * University College Dublin
-    * **554** points
-    * **3-4 Years**
-    * **Overview:** The Bachelor of Commerce (BComm) is a globally recognised business degree, designed for ambitious and achievement-orientated students who want to make a signifcant impact in the business world. Combining strong theoretical understanding with the practical skills needed for graduate employment, students are assured of a challenging and relevant programme for the modern business world. You'll learn to become an independent and critical thinker and a cogent and compelling communicator; with the skills to work seamlessly in groups; to develop the technical and mathematical skills to analyse and make sense of business data and intelligence.
-
-* **6. Accounting and Finance**
-    * Dublin City University
-    * **532** points
+    * **420** points
     * **3 Years**
-    * **Overview:** A BA in Accounting and Finance gives you a world of opportunities. It is considered Ireland's premier degree for those wishing to pursue careers as accountants and financial services professionals. The course offers great prospects for career progression, and the chance to work in a wide range of different industries.Your Career Starts HereThis degree was first of its kind in Ireland, and this continues to be an extremely popular course. Graduates are highly regarded by the accounting and financial services professions, as can be seen in the consistently employment rates for those who take the BA in Accounting and Finance.
+    * **Overview:** Studying folklore involves the exploration of traditional popular culture, in the past and in the present. It is primarily concerned with the history and culture of ordinary people, and with the evolution and role of tradition at a vernacular level. As an academic discipline, Folklore (or ethnology) involves the exploration of oral literature, social tradition, material culture, popular belief and practice, as well as traditional music and song. It explores the dynamics of communal memory and of culture as a collective phenomenon. It looks at the nature of popular tradition and the way in which such tradition is transmitted, usually outside of official channels and often across vast distances of time and space.
 
-* **7. Business Studies**
-    * Dublin City University
-    * **510** points
-    * **3 - 4 Years**
-    * **Overview:** The Business Studies degree course is designed to give you an introduction to the foundations of business and guide you to a specialisation in economics, management, finance, marketing, HR or business analytics. The four-year course includes an optional 11-month paid work placement that gives you the opportunity to experience working in a real business environment. Alternatively, you can opt to spend a year at one of our partner universities in Europe.
-
-* **8. Business and Law**
+* **11. Irish Studies**
     * University College Dublin
-    * **566** points
-    * **4 Years**
-    * **Overview:** The Business & Law (BBL) degree is a popular choice for many students and is extremely well regarded by employers across the legal and financial communities. The degree is a 'double major' which means it combines law and business in a single degree, providing an ideal skill-set for the commercial world and offering valuable career flexibility. If you choose this degree, you will undertake business and law modules in equal measure for your first three years in both the UCD Sutherland School of Law and the UCD Quinn School of Business. This allows you to gain a deep understanding of both disciplines while offering you the opportunity to choose in final year which area interests you most for your career progression.
-
-* **9. Law (BCL)**
-    * University College Dublin
-    * **566** points
-    * **4 Years**
-    * **Overview:** The UCD Bachelor of Civil Law (BCL) degree enjoys a proud history and an established reputation at home and abroad. The BCL degree allows you to immerse yourself in the study of law, to engage with a range of interesting legal perspectives and to acquire a profound understanding of how law works in theory and in practice.
-
-* **10. Law with Politics**
-    * University College Dublin
-    * **566** points
-    * **4 Years**
-    * **Overview:** Law and politics are inextricably linked by the legislative process. This course allows you to obtain a highly respected law degree, whilst also acquiring a deeper understanding of political theory and the political process. Many UCD law graduates have progressed to political careers. Others have become high-profle political commentators.
-
-* **11. Law with Social Justice**
-    * University College Dublin
-    * **566** points
-    * **4 Years**
-    * **Overview:** The BCL with Social Justice course, the frst of its kind in Ireland, combines the study of Law with rigorous analysis of social injustice, its causes and remedies. It will appeal to students who are interested in issues of equality, diversity and disadvantage, and who want to look in-depth at the social context in which law operates. On completion, you'll be uniquely equipped to offer a critical perspective on issues such as the adequacy of our criminal justice system, the legal treatment of women and minority groups, and the underlying causes of social and economic injustice.
-
-* **12. BCL (Law and Society)**
-    * Dublin City University
-    * **496** points
+    * **420** points
     * **3 Years**
-    * **Overview:** The BCL degree focuses on experiential learning and developing practical legal skills while also providing you with opportunities to engage with industry and the wider legal profession. In particular, the Moot Court module gives you the chance to practise your court-room skills and gain a real insight into law in action. DCU has its own Moot Court room which is where you will participate in mock trials and practise skills such as advocacy, presenting evidence or cross examination.
+    * **Overview:** Irish Studies is an interdisciplinary programme that examines the variety and diversity of Irish history, society, cultural practice and the complex processes through which Ireland and Irish identities have been constructed.
 
-* **13. Athletic Therapy and Training**
-    * Dublin City University
-    * **554** points
-    * **4-5 Years**
-    * **Overview:** The Athletic Therapy and Training programme will equip you with skills in preventing, assessing, treating and rehabilitating injuries associated with physical activity, including those experienced by elite athletes. Incorporating multiple work placements, this course gives you extensive theoretical knowledge of how the body works and then shows you how to apply that expertise. It is an intensive, highly practical programme that immerses students in musculoskeletal medicine from an early stage. Practical experience at home and abroad:You'll learn how to assess, treat and rehabilitate in theory and, from second year, in real-world settings. You'll complete placements in sports medicine clinics and rehabilitation clinics, as well as undertaking pitchside and team placements. In your final year, you'll do a semester-long immersive placement, which could be in an athletic therapy clinic or a professional sports team. These placements may be completed in Ireland but most students go to the US, Canada, Australia or Britain. This course is accredited by Athletic Rehabilitation Therapy Ireland. When you graduate, you'll be eligible to become a certified Athletics Therapist. As an independent, highly skilled clinician with a wealth of experience, you'll be highly sought after in sports medicine, by musculoskeletal clinics or with a sports team, or you can go on to work as a researcher in musculoskeletal medicine.
+* **12. Biological and Geographical Sciences**
+    * Maynooth University
+    * **419** points
+    * **4 Years**
+    * **Overview:** The core areas in Biology and Geography covered by the programme provide foundation knowledge across both disciplines, and explore in different ways how the dynamic planet Earth supports such a diversity of climates, landforms, ecosystems and species, and also how human activity is impacting on all of these from a local to a global scale.
 
-* **14. Sport, Health and Exercise Science**
+* **13. Physics with Astrophysics**
+    * Maynooth University
+    * **375** points
+    * **4 Years**
+    * **Overview:** Astronomy is the scientific study of celestial objects (stars, planets, comets, asteroids) and phenomena (cosmic radiation, dark energy). This course provides a solid grounding in physics and astrophysics, as well as planetary science, astronomy, astronomical instrumentation and techniques, and cosmology.
+
+* **14. Geography**
     * University College Dublin
-    * **532** points
+    * **420** points
     * **3 Years**
-    * **Overview:** This course is suitable for you if you have a strong interest in sport and exercise science and wish to pursue a career in high performance sport, a clinical profession (e.g. physiotherapy, dietetics, medicine) and/or scientific research in sport and health sciences. You will study the scientific principles underlying the promotion and enhancement of sport, physical health and exercise across the lifespan.
+    * **Overview:** Geography involves the study of subjects such as the impact of societies on the quality of the environment; geographical approaches to the study of world population;  climate change; migration; the relationship between culture, landscape transformation and politics. No prior knowledge of geography is assumed.Geography can be studied as a Joint Major or Minor subject through DN520 or DN700, or as part of selected courses in DN700.
 
-* **15. Sport Science and Health**
-    * Dublin City University
-    * **518** points
-    * **4 Years**
-    * **Overview:** Are you passionate about sport? Can you imagine supporting an elite athlete to the heights of their career or helping to coach a team to be among the best in the world? That's exactly what many of our Sports Science and Health graduates do, while many others make a massive impact in the community, helping people of all ages to enjoy and benefit from sport and exercise. During this course, you'll learn how to enhance health and human performance, and how to advocate for and champion a healthy, educated and active society. You'll encounter a range of teaching methods, including practical sessions, and develop key skills you can use in any career, including creative and critical thinking.
+* **15. Mathematical Physics**
+    * Maynooth University
+    * **300** points
+    * **3 Years**
+    * **Overview:** The study of mathematical physics covers the entire physical world, from the microscopic quantum realm to the astrophysics of the universe. You will learn how to analyse and explain complex issues, to identify problems, work out solutions and to enter into the unknown with an open, critical inquiring mind. As well as being introduced to the major ideas and developments in theoretical physics.
 
-* **16. Physical Education with Biology**
-    * Dublin City University
-    * **521** points
-    * **4 Years**
-    * **Overview:** Do you really enjoy getting active while also having a passion for subjects such as biology and science? This course is a brilliant opportunity to blend your interests in a substantive way and go on to make a positive impact on society through education. Once you graduate, you can teach PE and Biology up to Leaving Cert level, and Science for Junior Cert level, or choose from a wide range of other exciting career paths.This course offers a unique blend of academic subjects, taught in a way that emphasises learning through practical experiences. During the course, you'll gain a comprehensive understanding of the content, theory, and skills of different physical activities (such as athletics, games, aquatics, dance, and outdoor activities), biology, science and education. You'll also improve your communication, leadership, and critical thinking skills. Future-proof your life In both third and fourth year, you'll do a comprehensive professional school placement and you can also choose to study overseas through the Erasmus programme.
-
-* **17. Computer Science**
+* **16. Agri-Environmental Sciences - Agricultural Science**
     * University College Dublin
-    * **540** points
+    * **431** points
     * **4 Years**
-    * **Overview:** The UCD Computer Science degree covers the fundamentals of Computer Science while also exposing students to the contemporary languages and technologies used in the industry. Key topics include programming, foundational mathematics, advanced software engineering, cloud development, theory of computer science, networks and security. The principal programming languages used are C, Java and Python. Specialised topics include computer graphics, game development, robotics, mobile development and others.
+    * **Overview:** Agri-Environmental Sciences programme is an applied science degree that will equip you with the knowledge and skills necessary to make a meaningful impact in the fields of agriculture and environmental management. Through a combination of classroom learning, practical field experience, and professional work placements, you will gain a deep understanding of rural environmental issues, sustainable agriculture practices, and the policies and schemes that protect our natural resources.
 
-* **18. Business Studies/Computer Science**
-    * Trinity College Dublin
-    * **554** points
+* **17. Forestry - Agricultural Science**
+    * University College Dublin
+    * **431** points
     * **4 Years**
-    * **Overview:** Computer Science is concerned with the study of everything to do with computers and our relationship with them. Computer scientists are critical to the efficient running of modern societies, dealing with health, security, banking and finance, transportation, and now increasingly our interaction through social networks. Computing professionals deal with theoretical issues, solve complex problems, deal with matters of ethics and with society at large. Theoretical issues in computer science relate to the abstract notions of computation and information.
+    * **Overview:** UCD Forestry students learn how to create habitats, provide spaces for recreation, and produce timber - a resource that can simultaneously store carbon and substitute for concrete and steel. Students will gain skills in forest planning, remote sensing, the use of geographical information systems and forest modelling while developing the capacity for life-long learning that enables them to stay abreast of developments in policy, technology and the sciences that underpin forestry practice. The combination of science and business modules, complemented by a work experience placement, ensures that UCD Forestry graduates are in high demand across the sector.
 
-* **19. Genetics and Cell Biology**
-    * Dublin City University
-    * **518** points
+* **18. International Development**
+    * Maynooth University
+    * **300** points
+    * **3 Years**
+    * **Overview:** As a student of International Development in the Bachelor of Arts degree you will explore issues such as globalisation, climate change, food security, poverty, conflict, disasters and other humanitarian emergencies, human rights, health, education, gender, inequality and empowerment, from an international development perspective.
+
+* **19. Animal and Crop Production - Agricultural Science**
+    * University College Dublin
+    * **431** points
     * **4 Years**
-    * **Overview:** By studying on this programme, you can come to understand the genetic basis for life and how this information can be used to investigate, diagnose and treat diseases. You'll also gain practical laboratory skills, as well as skills in communications, critical thinking and problem-solving. Furthermore, you'll gain skills in computational biology, which uses high-tech data analysis and modelling to help harness genetic and biological insights.
+    * **Overview:** UCD's Animal and Crop Production programme offers a comprehensive education in the science and business of animal and crop production. You will learn about the development and improvement in farm animal and crop production, gain broad knowledge on growth, physiology, nutrient utilisation, agribusiness, agri-environment and develop the skills to create economical and sustainable agricultural production systems. Plus, you will gain communication and IT skills to help you stay up-to-date on evolving technical, economic, and regulatory frameworks.
 
 # RECOMMENDATION SET 2
 
-* **0. Human Health and Disease**
-    * Trinity College Dublin
-    * **567** points
-    * **4 Years**
-    * **Overview:** The Human Health and Disease degree trains students for work in the field of biomedical research. It brings to life the fascinating connections between structure and function in the human body and explores the health and disease continuum in detail, including teaching on how medical therapies act to treat or even prevent disease. As an example, understanding brain structure and biochemistry allows us to appreciate how neurons communicate and this in turn is helping biomedical researchers and clinicians to identify new and effective ways to treat and prevent diseases such as dementia.
+* **0. Economics**
+    * Maynooth University
+    * **445** points
+    * **3 Years**
+    * **Overview:** As a BSc Economics student, you will learn to take a scientific evidence-based approach to understand, critique and create policies to combat economic and social problems. Employers in all sectors from government to financial services have a growing need for economists who can analyse and interpret data. This requires a strong grounding in analytical and quantitative methods. With an emphasis on independent research, this programme is designed to allow you to flourish based on your individual curiosity and strengths.
 
-* **1. Business and Law**
+* **1. General Nursing**
     * University College Dublin
-    * **566** points
+    * **444** points
     * **4 Years**
-    * **Overview:** The Business & Law (BBL) degree is a popular choice for many students and is extremely well regarded by employers across the legal and financial communities. The degree is a 'double major' which means it combines law and business in a single degree, providing an ideal skill-set for the commercial world and offering valuable career flexibility. If you choose this degree, you will undertake business and law modules in equal measure for your first three years in both the UCD Sutherland School of Law and the UCD Quinn School of Business. This allows you to gain a deep understanding of both disciplines while offering you the opportunity to choose in final year which area interests you most for your career progression.
+    * **Overview:** This degree prepares you to become a Registered General Nurse who can work collaboratively to successfully manage the complex healthcare needs of the adult population. You will study the theory and practice of nursing in a fully integrated way, establishing a strong foundation for your future career. Your lectures, workshops and tutorials are delivered on our Belfeld campus, while practice placements will enhance your learning and develop your nursing skills.
 
-* **2. Law (BCL)**
+* **2. Education (Education and Gaeilge)**
     * University College Dublin
-    * **566** points
+    * **442** points
     * **4 Years**
-    * **Overview:** The UCD Bachelor of Civil Law (BCL) degree enjoys a proud history and an established reputation at home and abroad. The BCL degree allows you to immerse yourself in the study of law, to engage with a range of interesting legal perspectives and to acquire a profound understanding of how law works in theory and in practice.
+    * **Overview:** This course blends language learning and initial teacher education to prepare you to work as a language teacher in post-primary schools in the Irish education system. You can choose to study two languages from modern languages (French, Spanish, German or Italian) and/or an Ghaeilge. Alternatively, you can choose to major in an Ghaeilge alone. You will engage in modules to develop your language proficiency skills, building your linguistic competencies while also learning about the culture and literature of the language(s) through an interrogation of key texts. You will also develop your skills as a teacher as you progress through the course, undertaking modules in foundation disciplines (history/sociology/psychology/philosophy of education, curriculum studies) and professional studies (communication skills, digital learning, research) while also engaging in school placement (in both primary and post-primary schools).
 
-* **3. Law with Economics**
+* **3. Education (Education and Modern Languages)**
     * University College Dublin
-    * **566** points
+    * **442** points
     * **4 Years**
-    * **Overview:** This course allows you to obtain a highly respected degree in law, whilst simultaneously acquiring a broad knowledge of economics. Certain areas of law (e.g. competition regulation and intellectual property) are heavily influenced by economic theory. BCL (Law with Economics) graduates are uniquely equipped to understand these regulatory frameworks in all of their conceptual complexity. On this degree, you'll embark on a feld of cross-disciplinary study which is intellectually very demanding, but also tremendously enriching and of immense practical importance.
+    * **Overview:** This course blends language learning and initial teacher education to prepare you to work as a language teacher in post-primary schools in the Irish education system. You can choose to study two languages from modern languages (French, Spanish, German or Italian) and/or an Ghaeilge. Alternatively, you can choose to major in an Ghaeilge alone. You will engage in modules to develop your language proficiency skills, building your linguistic competencies while also learning about the culture and literature of the language(s) through an interrogation of key texts. You will also develop your skills as a teacher as you progress through the course, undertaking modules in foundation disciplines (history/sociology/psychology/philosophy of education, curriculum studies) and professional studies (communication skills, digital learning, research) while also engaging in school placement (in both primary and post-primary schools).
 
-* **4. Law with French Law**
+* **4. Education (Education, Gaeilge and Modern Languages)**
     * University College Dublin
-    * **566** points
+    * **442** points
     * **4 Years**
-    * **Overview:** Law with French Law is one of two French Law Courses offered by Sutherland School of Law, the other being the dual degree - the BCL/Maîtrise (more information on the following page). All students interested in the French Law Courses enter the BCL (Law with French Law) in first year. Both degrees offer the exciting opportunity for immersion in two of the world's major legal systems. Student will learn about the common law system, practised in Ireland and the UK (and in some form, in most of the English-speaking world) and the civil law system which is used throughout Europe.
+    * **Overview:** This course blends language learning and initial teacher education to prepare you to work as a language teacher in post-primary schools in the Irish education system. You can choose to study two languages from modern languages (French, Spanish, German or Italian) and/or an Ghaeilge. Alternatively, you can choose to major in an Ghaeilge alone. You will engage in modules to develop your language proficiency skills, building your linguistic competencies while also learning about the culture and literature of the language(s) through an interrogation of key texts. You will also develop your skills as a teacher as you progress through the course, undertaking modules in foundation disciplines (history/sociology/psychology/philosophy of education, curriculum studies) and professional studies (communication skills, digital learning, research) while also engaging in school placement (in both primary and post-primary schools).
 
-* **5. Law with History**
+* **5. Food Science and Human Nutrition**
+    * Maynooth University
+    * **440** points
+    * **4 Years**
+    * **Overview:** This programme is for students who wish to work in the area of food production, quality assurance, nutrition, and product development, with a focus on future foods and the role of food in the health of people, in Ireland and globally. this course provides students with a broad science-based education, with specialist content on the future of food development, human nutrition, and the role of food and healthy living, and also explores the social and global challenges around food security.
+
+* **6. Pharmaceutical and Biomedical Chemistry**
+    * Maynooth University
+    * **434** points
+    * **4 Years**
+    * **Overview:** This course is suited to those who wish to specialise in chemistry for the pharmaceutical and biomedical industries. Pharmaceutical Chemistry is a very important branch of Chemistry that is applied to the synthesis and formulation of new therapeutic drugs as well as the manufacture of medicinal compounds on a large scale.In this programme you will receive an excellent education in chemistry (physical chemistry, organic chemistry, inorganic chemistry), and have the opportunity to specialise in pharmaceutical chemistry, medicinal chemistry and bioinorganic chemistry.
+
+* **7. Social Policy & Sociology**
     * University College Dublin
-    * **566** points
-    * **4 Years**
-    * **Overview:** There's a natural affnity between the disciplines of law and history. Each is shaped by the other. Important historical events are often interlinked with contemporary legal structures. Legal reform may be prompted by the defning events of the past. This course allows you to acquire a highly respected degree in law, whilst also pursuing a passion for history and acquiring a deeper understanding of past events that have shaped our current legal system.
+    * **432** points
+    * **3 Years**
+    * **Overview:** The Bachelor of Social Science (BSocSc) at University College Dublin is the premier honours degree of its kind in Ireland. It is the standard qualification for those working in policy making and social services and recently celebrated its fiftieth anniversary. If you are interested in exploring how societies, communities and families work and wish to make a difference to the world, affect cultural change, contribute to public service or corporate responsibility, then this course is for you
 
-* **6. Law with Irish**
+* **8. Agri-Environmental Sciences - Agricultural Science**
     * University College Dublin
-    * **566** points
+    * **431** points
     * **4 Years**
-    * **Overview:** The BCL (Law with Irish) course allows undergraduate law students to access a cohesive set of Irish language modules which are relevant to the study and practice of law. This programme offers you the opportunity to acquire a highly respected BCL degree, whilst additionally deepening your competence in the Irish language in the context of law. Your Irish language communication skills will be developed by the resources provided by a modern multi-media language laboratory (An Teanglann) and the advanced language skills training in Lárionad de Bhaldraithe.
+    * **Overview:** Agri-Environmental Sciences programme is an applied science degree that will equip you with the knowledge and skills necessary to make a meaningful impact in the fields of agriculture and environmental management. Through a combination of classroom learning, practical field experience, and professional work placements, you will gain a deep understanding of rural environmental issues, sustainable agriculture practices, and the policies and schemes that protect our natural resources.
 
-* **7. Law with Philosophy**
+* **9. Agricultural Science - No Preference**
     * University College Dublin
-    * **566** points
+    * **431** points
     * **4 Years**
-    * **Overview:** Legal systems express and reflect the prevailing moral, political, social and economic philosophy of the State. Law and philosophy are, therefore, complementary felds of study. An understanding of law is fundamentally enhanced by a deeper knowledge of philosophical theory. This course offers you a highly respected degree in law, combined with an enriched appreciation of its philosophical underpinnings.
+    * **Overview:** If you are interested in studying Agricultural Science but are not certain of which area to specialise in, you can select the 'No Preference (NPF)' option on your CAO form. Then, during your frst year at UCD, you can choose your area of specialisation. Once you receive an offer on the Agricultural Science programme (DN250) you will be guaranteed a place in any of the 11 specialisations from second year. Alternatively, if you know which of the 11 programmes you would like to specialise in, you can select this on your CAO application.
 
-* **8. Law with Politics**
+* **10. Agricultural Systems Technology - Agricultural Science**
     * University College Dublin
-    * **566** points
+    * **431** points
     * **4 Years**
-    * **Overview:** Law and politics are inextricably linked by the legislative process. This course allows you to obtain a highly respected law degree, whilst also acquiring a deeper understanding of political theory and the political process. Many UCD law graduates have progressed to political careers. Others have become high-profle political commentators.
+    * **Overview:** Agricultural Systems Technology is aimed at students who wish to learn how to build, develop, and manage technology for the agriculture sector. Students will gain a deep understanding of how to use technology in order to improve and enhance sustainability, efficiency and reliability in farming and food production. You will take classes in engineering, science, mathematics and data science. Upon completing the course, you will be uniquely equipped to build, develop and manage technologies such as computer systems, networks, data management and sensors, machinery systems and precision agriculture.
 
-* **9. Law with Social Justice**
+* **11. Animal and Crop Production - Agricultural Science**
     * University College Dublin
-    * **566** points
+    * **431** points
     * **4 Years**
-    * **Overview:** The BCL with Social Justice course, the frst of its kind in Ireland, combines the study of Law with rigorous analysis of social injustice, its causes and remedies. It will appeal to students who are interested in issues of equality, diversity and disadvantage, and who want to look in-depth at the social context in which law operates. On completion, you'll be uniquely equipped to offer a critical perspective on issues such as the adequacy of our criminal justice system, the legal treatment of women and minority groups, and the underlying causes of social and economic injustice.
+    * **Overview:** UCD's Animal and Crop Production programme offers a comprehensive education in the science and business of animal and crop production. You will learn about the development and improvement in farm animal and crop production, gain broad knowledge on growth, physiology, nutrient utilisation, agribusiness, agri-environment and develop the skills to create economical and sustainable agricultural production systems. Plus, you will gain communication and IT skills to help you stay up-to-date on evolving technical, economic, and regulatory frameworks.
 
-* **10. Theoretical Physics**
-    * Trinity College Dublin
-    * **566** points
-    * **4 Years**
-    * **Overview:** Theoretical Physics explores the natural world at its most fundamental level, using mathematical theories guided by experimental investigation. For some it is the foundation for an academic career in mathematics or physics. For others it provides the basis for many career options in industry, medicine, law, finance and computing. Trinity provides a course which ranges widely across physics and mathematics. Its graduates are in demand for their technical skills and versatility.
-
-* **11. Business, Economics and Social Studies (BESS)**
-    * Trinity College Dublin
-    * **565** points
-    * **4 Years**
-    * **Overview:** BESS is a uniquely flexible degree programme offering you different degree options across the disciplines of Business, Economics, Political Science and Sociology. It provides students with a broad education and you specialise and graduate with a Single Honours or Joint Honours degree with another subject, or a Major with a Minor. It also offers a high level of flexibility in two very important ways: from the second year onwards students are allowed to (a) choose the specific degree they wish to take and, (b) choose individual modules within their chosen degree path.
-
-* **12. European Studies**
-    * Trinity College Dublin
-    * **564** points
-    * **4 Years**
-    * **Overview:** European Studies is a broad-ranging and integrated programme that offers students the chance to learn European languages, and also to study history and social sciences. This programme encourages students to think about our continent in all its complexity, and to analyse Europe's cultures, history, and politics.
-
-* **13. Business Studies and Spanish**
-    * Trinity College Dublin
-    * **556** points
-    * **4 Years**
-    * **Overview:** This programme offers an exciting way of learning about business concepts, theories and models, in a variety of subject areas, as well as getting to grips in an in-depth and comprehensive manner with another country's language, its society, culture and business environment,the third year of which is spent studying abroad.This programme aims to provide you with the knowledge and skills necessary to communicate internationally and to understand the social, political and cultural contexts of markets, organisations and management across countries.
-
-* **14. Architecture**
+* **12. Animal Science - Agricultural Science**
     * University College Dublin
-    * **555** points
-    * **3 - 5 Years**
-    * **Overview:** UCD Architecture is at the forefront of architectural and urban design, both in Ireland and internationally. Our degree attracts a diverse cross section of talents and approaches - from the technically minded to the artistically gifted; from the socially conscious to the natural communicators and leaders. All have the capacity to become successful and productive graduates in architecture. There are two main elements to the Architecture course - project work (architectural design, drawing and model making) and the lecture programmes (historical and theoretical material). Project work is taught in the architecture design studios through a combination of lectures, individual tuition, field trips, group tutorials, large reviews and exhibitions
-
-* **15. Business Studies and French**
-    * Trinity College Dublin
-    * **555** points
+    * **431** points
     * **4 Years**
-    * **Overview:** This four year programme offers an exciting way of learning about business concepts, theories and models, in a variety of subject areas, as well as getting to grips in an in-depth and comprehensive manner with another country's language, its society, culture and business environment.
+    * **Overview:** UCD's Animal Science programme is a four-year degree that delves into the applied sciences necessary for understanding how animals function and the principles of livestock production. You will explore the growth, development, and behaviour of domestic animals, and the fundamentals of sustainable animal production systems. Modules include animal biology, genetics, biotechnology, nutrition, and more.
 
-* **16. Common Entry into Actuarial and Financial Mathematics**
-    * Dublin City University
-    * **555** points
+* **13. Animal Science - Equine - Agricultural Science**
+    * University College Dublin
+    * **431** points
     * **4 Years**
-    * **Overview:** If you'd like to qualify for in-demand quantitative roles in the insurance and financial industry, the Common Entry into Actuarial and Financial Mathematics programme (CAFM) might be for you. It's especially ideal if you'd like the flexibility to explore different areas of maths before choosing how you'll specialise.  You'll learn the fundamental mathematical principles that underpin the state-of-the-art actuarial and financial models you'll study in later years, along with computer programming, data analysis, economics and accounting.
+    * **Overview:** Animal Science - Equine allows those with a passion for horses, the equine industry or equine science to pursue these interests at third level and still maintain a broad range of future career options within agriculture. A highlight of the degree is the opportunity to participate in a 5-month international work placement within a leading Thoroughbred or Sport Horse organisation. The degree provides the scientific knowledge and transferable skills necessary for professional leadership roles within many aspects of the Agriculture and Equine industries.
 
-* **17. Global Business (Spain)**
-    * Dublin City University
-    * **555** points
+* **14. Crop Science - Agricultural Science**
+    * University College Dublin
+    * **431** points
     * **4 Years**
-    * **Overview:** The BA in Global Business (Spain) not only gives you a head start in international business, it also offers you a wonderful intercultural experience, during which you'll study and work in Spain. In addition, you'll qualify with two degrees by the end of this four-year programme, and you'll have the chance to gain fluency in Spanish.
+    * **Overview:** As a student in our Crop Science Programme, you will learn about the science, production, and management of crops from genes to fields. With a focus on agronomy, you will explore crop production and soil management to improve yield and quality. Our expert faculty members are active researchers in the rapidly developing field of agriculture and agribusiness. In addition to a strong foundation in basic sciences, you will have the opportunity to study emerging crop pathogens, organic agriculture, climate and soils, and plants and diets.
 
-* **18. Athletic Therapy and Training**
-    * Dublin City University
-    * **554** points
-    * **4-5 Years**
-    * **Overview:** The Athletic Therapy and Training programme will equip you with skills in preventing, assessing, treating and rehabilitating injuries associated with physical activity, including those experienced by elite athletes. Incorporating multiple work placements, this course gives you extensive theoretical knowledge of how the body works and then shows you how to apply that expertise. It is an intensive, highly practical programme that immerses students in musculoskeletal medicine from an early stage. Practical experience at home and abroad:You'll learn how to assess, treat and rehabilitate in theory and, from second year, in real-world settings. You'll complete placements in sports medicine clinics and rehabilitation clinics, as well as undertaking pitchside and team placements. In your final year, you'll do a semester-long immersive placement, which could be in an athletic therapy clinic or a professional sports team. These placements may be completed in Ireland but most students go to the US, Canada, Australia or Britain. This course is accredited by Athletic Rehabilitation Therapy Ireland. When you graduate, you'll be eligible to become a certified Athletics Therapist. As an independent, highly skilled clinician with a wealth of experience, you'll be highly sought after in sports medicine, by musculoskeletal clinics or with a sports team, or you can go on to work as a researcher in musculoskeletal medicine.
-
-* **19. Biological and Biomedical Sciences**
-    * Trinity College Dublin
-    * **554** points
+* **15. Dairy Business - Agricultural Science**
+    * University College Dublin
+    * **431** points
     * **4 Years**
-    * **Overview:** Biology is the study of living things; we explore how life first arose: the properties that distinguish living organisms from inert matter; how the vast diversity of life forms was generated; how organisms reproduce themselves; how they interact both with each other and with the environment. Biology is fundamental to understanding the world we live in and plays a huge role in medicine.
+    * **Overview:** This degree is designed to equip future leaders of the dairy industry with the scientific, technical and business skills needed to succeed in this exciting industry. The first two years provide a strong foundation in business, science, mathematics, and technology-related modules, followed by relevant applied sciences, business, and communication modules.
+
+* **16. Food and Agribusiness Management - Agricultural Science**
+    * University College Dublin
+    * **431** points
+    * **4 Years**
+    * **Overview:** During the Food & Agribusiness Management degree, you'll learn how the principles of economics and business management apply to farming, food production and marketing. You'll gain an understanding of how the Irish and international food systems deliver food products and services that people want, and how farmers and food manufacturers can produce proftably, while also taking care of the natural environment. The four-year degree provides a unique opportunity to understand both business and science, focusing on the agri-food sector - Ireland's largest indigenous industry. You will learn skills that can be used across a wide range of jobs both within and outside the agri-food sector.
+
+* **17. Food Business with Chinese Studies - Agricultural Science**
+    * University College Dublin
+    * **431** points
+    * **4 Years**
+    * **Overview:** Our Food Business with Chinese Studies programme prepares graduates with the skills urgently required by the Irish food industry to succeed in the changing market landscape. With Brexit and the uncertainty surrounding the UK market, it is critical for the industry to expand exports to emerging markets, particularly China. This requires improved foreign language capability, which we provide through a combination of fundamental food science and food business management modules, and language, cultural, and target market-oriented courses. In third year, students study at Renmin University of China, taking Chinese language courses and other relevant modules, while experiencing the diverse culture and vibrant economic growth of China.
+
+* **18. Forestry - Agricultural Science**
+    * University College Dublin
+    * **431** points
+    * **4 Years**
+    * **Overview:** UCD Forestry students learn how to create habitats, provide spaces for recreation, and produce timber - a resource that can simultaneously store carbon and substitute for concrete and steel. Students will gain skills in forest planning, remote sensing, the use of geographical information systems and forest modelling while developing the capacity for life-long learning that enables them to stay abreast of developments in policy, technology and the sciences that underpin forestry practice. The combination of science and business modules, complemented by a work experience placement, ensures that UCD Forestry graduates are in high demand across the sector.
+
+* **19. Horticulture - Agricultural Science**
+    * University College Dublin
+    * **431** points
+    * **4 Years**
+    * **Overview:** With a focus on environmentally friendly practices and innovative technologies, this degree equips you with the knowledge and skills to become a competent and confident leader in the horticulture community. By studying core science subjects and specialist horticulture and environment modules, you will gain an understanding of sustainable management of food and ornamental plant production, knowledge of protecting and enhancing biodiversity and habitats, designing and managing landscapes, and the benefits of horticultural therapy.
 
