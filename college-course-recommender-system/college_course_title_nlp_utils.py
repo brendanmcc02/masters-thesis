@@ -129,6 +129,8 @@ def get_stop_words():
     stop_words.add("course")
     stop_words.add("five")
     stop_words.add("six")
+    stop_words.add("city")
+    stop_words.add("centre")
 
     return stop_words
 

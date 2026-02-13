@@ -1,244 +1,244 @@
 # RECOMMENDATION SET 1
 
-* **0. Biomedical Science**
-    * Maynooth University
-    * **0** points
+* **0. Post Primary Teacher Education - Technology, Engineering and Graphics**
+    * Dublin City University
+    * **402** points
     * **4 Years**
-    * **Overview:** Students learn how to use analytical and technical procedures to monitor and improve human health and to investigate disease processes. The degree is broadly similar to the pre-clinical component of a medical degree.Students also learn how to ask questions, make observations, and analyse evidence in theory work and through practical laboratory sessions- and to present and communicate findings clearly while developing computer literacy and research skills.
+    * **Overview:** This is a course for people who are interested in becoming post-primary teachers in the areas of Technology, Engineering and Graphics. On this degree, you'll learn about designing and innovating, and in coming up with creative solutions for the challenges facing society and industry.  The four-year programme will be delivered through a partnership of DCU and Technological University of the Shannon (TUS). The first two years of study will take place at the TUS Athlone campus, and the final two years at the DCU Institute of Education in Dublin.
 
-* **1. Veterinary Medicine**
-    * University College Dublin
-    * **589** points
-    * **5 Years**
-    * **Overview:** This course will educate you to the best international standards in veterinary medicine and is accredited nationally by the Veterinary Council of Ireland (VCI), by the European Association of Establishments for Veterinary Education (EAEVE) and is one of only 6 veterinary schools in Europe currently accredited by the American Veterinary Medical Association (AVMA). The veterinary profession is concerned with the promotion of the health and welfare of animals of special importance to society. This involves the care of healthy and sick animals, the prevention, recognition, control and treatment of their diseases and of diseases transmitted from animals to man, and the welfare and productivity of livestock.
+* **1. Physical Education with Biology**
+    * Dublin City University
+    * **521** points
+    * **4 Years**
+    * **Overview:** Do you really enjoy getting active while also having a passion for subjects such as biology and science? This course is a brilliant opportunity to blend your interests in a substantive way and go on to make a positive impact on society through education. Once you graduate, you can teach PE and Biology up to Leaving Cert level, and Science for Junior Cert level, or choose from a wide range of other exciting career paths.This course offers a unique blend of academic subjects, taught in a way that emphasises learning through practical experiences. During the course, you'll gain a comprehensive understanding of the content, theory, and skills of different physical activities (such as athletics, games, aquatics, dance, and outdoor activities), biology, science and education. You'll also improve your communication, leadership, and critical thinking skills. Future-proof your life In both third and fourth year, you'll do a comprehensive professional school placement and you can also choose to study overseas through the Erasmus programme.
 
-* **2. Medicine**
+* **2. Physical Education with Mathematics**
+    * Dublin City University
+    * **499** points
+    * **4 Years**
+    * **Overview:** Do you really enjoy both physical activity and mathematics? This course is a brilliant opportunity to combine your passions and go on to make a positive impact on society through education. Once you graduate from this course, you can teach these subjects up to Leaving Cert level or choose from a wide range of other exciting career paths. This course offers a unique blend of academic subjects, taught in a way that emphasises learning through practical experiences. During the course, you'll gain a comprehensive understanding of the content, theory, and skills of different physical activities (such as athletics, games, aquatics, dance, and outdoor activities), maths and education. You'll also improve your communication, leadership, and critical thinking skills.
+
+* **3. Science and Mathematics Education**
+    * Dublin City University
+    * **443** points
+    * **4 Years**
+    * **Overview:** If you love science and maths, and would like to share your enthusiasm, interest and knowledge with young people, you'll thrive on the BSc in Science and Mathematics Education. Science and maths teachers work to develop their pupils' understanding of the world around them and to educate future generations of scientists, engineers and technologists, not to mention citizens who are scientifically, mathematically and technically literate. You'll build a strong foundation in key areas of education, mathematics and either physics or chemistry, developing essential mathematical thinking skills, and scientific practices and ways of working throughout the four years. You'll also study the history, psychology, sociology and philosophy of education, as well as undertaking curriculum studies.
+
+* **4. Engineering**
+    * Trinity College Dublin
+    * **577** points
+    * **4 Years**
+    * **Overview:** Engineering is about being creative in technical problem solving. Engineers make things possible by using mathematical and scientific principles together with analytical and design skills. They tackle existing problems by developing new solutions through innovative technologies. They also expand the frontiers of society by developing advanced materials, sustainable energy systems, construction technologies, transport systems, biomedical devices, and telecommunications infrastructure.
+
+* **5. Mechanical Engineering**
+    * University of Galway
+    * **566** points
+    * **4 Years**
+    * **Overview:** Mechanical Engineering is a subject concerned with the design and manufacture of parts and systems that make up the range of machinery and equipment you see around you, from a can opener to a jet aircraft. Mechanical engineers design the tools and processes necessary to create all man-made products, and are often involved from conceiving of an idea right through to seeing it as a finished product ready for its commercial application.
+
+* **6. Engineering (Electrical & Electronic Engineering)**
+    * University College Cork
+    * **543** points
+    * **4 Years**
+    * **Overview:** BE Electrical and Electronic Engineering is a four-year professional engineering course designed to prepare students for employment in the electrical and electronic sectors in Ireland and abroad. It has a broad curriculum with strong practical content, including a work placement. It has an excellent record for graduate employment.
+
+* **7. Mechanical & Manufacturing Engineering**
+    * Dublin City University
+    * **542** points
+    * **4 Years**
+    * **Overview:** Can you imagine designing and building a better electric vehicle, jet engine or wind turbine? Maybe you've figured out a way to improve inhalers or door handles. If you're fascinated by how things work and are made, enjoy getting caught up in the details, and thrive as part of a team, choose Mechanical and Manufacturing Engineering. Our students take things apart, figure out how they work and how to fix or improve them, then put them back together again. You'll get to use 3D printers and other advanced tools in DCU's state-of-the-art labs, while also absorbing engineering theory. It is at heart a maths-based course, but you'll also gain extensive skills and knowledge in engineering mechanics, computer simulation and analysis, design and manufacture, and project management. In third year, you'll do an eight-month work placement in industry and you also have the opportunity to study abroad. And you can extend your undergraduate BEng programme by a year to complete a masters degree.
+
+* **8. Medicine**
     * University College Cork
     * **730** points
     * **5 Years**
     * **Overview:** The Medicine curriculum at UCC is rooted in the basic Medical Sciences of Anatomy, Physiology, and Biochemistry, but also places emphasis on clinical instruction. A distinctive feature is small-group, patient-centred teaching, in which students learn the skills of listening and communicating, history-taking and clinical examination.
 
-* **3. Zoology**
+* **9. Veterinary Medicine**
+    * University College Dublin
+    * **589** points
+    * **5 Years**
+    * **Overview:** This course will educate you to the best international standards in veterinary medicine and is accredited nationally by the Veterinary Council of Ireland (VCI), by the European Association of Establishments for Veterinary Education (EAEVE) and is one of only 6 veterinary schools in Europe currently accredited by the American Veterinary Medical Association (AVMA). The veterinary profession is concerned with the promotion of the health and welfare of animals of special importance to society. This involves the care of healthy and sick animals, the prevention, recognition, control and treatment of their diseases and of diseases transmitted from animals to man, and the welfare and productivity of livestock.
+
+* **10. Occupational Therapy**
+    * University College Cork
+    * **566** points
+    * **4 Years**
+    * **Overview:** Students on this broad and varied Occupational Therapy course study psychology, anatomy and physiology, as well as occupational therapy theories, assessment and treatment approaches and evidence-based practice.
+
+* **11. Children's and General Nursing (Integrated)**
+    * University College Cork
+    * **522** points
+    * **4 Years**
+    * **Overview:** The Children's and General Nursing course will provide you with opportunities to develop knowledge and skills relevant to children's and general nursing practice, including independent and critical thinking and problem-solving. It will enable you to ensure that the nursing care you deliver is up-to-date and based on the best current evidence.
+
+* **12. Law and Human Rights**
     * University of Galway
-    * **0** points
+    * **520** points
     * **4 Years**
-    * **Overview:** This dedicated programme immerses students in the fascinating world of the animal kingdom, with specialised modules, practical skills training and work placement opportunities.
+    * **Overview:** The four-year Bachelor of Civil Law (Human Rights) is an innovative and unique programme - the first of its kind in Ireland. It offers students the opportunity to combine a full undergraduate law programme with the study of human rights.
 
-* **4. Economics**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** Economics is the study of people's motives, expectations, decisions, hopes, disappointments and uncertainties. It can be used to examine a variety of issues, from social media to poverty. Choosing economics will give you an excellent foundation for a career in business, finance, government, teaching and the media, and for doing further study in business courses such as marketing, management and computing.
-
-* **5. Sociology**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** Sociology is concerned with identity and multiculturalism; sexuality and intimacy; media and popular culture; environment and sustainability; law and justice; crime and deviance; anthropology, civilisation and religion; art, culture and literature; health and well-being; politics and community; economy and society.   You will  learn research methods and useful skills such as interviewing, surveys and questionnaires, onsite observation and ethnography, discourse analysis and archival research.
-
-* **6. Psychological Studies**
-    * Maynooth University
-    * **300** points
-    * **3 Years**
-    * **Overview:** Psychological Studies in is a flexible degree option, ideal if you would like to learn about human behaviour in combination with another subject in the BA Arts Double Major pathway. This degree will help you develop key transferable skills and learn to think psychologically about the world around you.
-
-* **7. Anthropology**
-    * Maynooth University
-    * **300** points
-    * **3 Years**
-    * **Overview:** Anthropology explores the comparative study of human society and culture. By closely observing and analysing different ways of life around the world, from tribal villages to Wall Street offices, anthropologists create new knowledge about what it means to be human today. Anthropology students learn about diverse cultural practices and social institutions such as: religion and ritual, kinship, family and the life course, economy and the market, politics and government, language and performance, science and technology, traditional healing and biomedicine, and much more.
-
-* **8. Geography**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** As a student of geography, you will learn to view the world using this geographical lens. Geographers examine geographical processes in a variety of thematic areas within geography including landscape, heritage, migration, culture, food, tourism, environment, economy, cities, climate, geomorphology, and development
-
-* **9. Mathematical Physics**
-    * Maynooth University
-    * **300** points
-    * **3 Years**
-    * **Overview:** The study of mathematical physics covers the entire physical world, from the microscopic quantum realm to the astrophysics of the universe. You will learn how to analyse and explain complex issues, to identify problems, work out solutions and to enter into the unknown with an open, critical inquiring mind. As well as being introduced to the major ideas and developments in theoretical physics.
-
-* **10. Sustainability**
-    * University College Cork
-    * **0** points
+* **13. Social Justice (Social Sciences Two Subject Combination)**
+    * University College Dublin
+    * **490** points
     * **4 Years**
-    * **Overview:** This BSc in Sustainability aims to provide students with a comprehensive understanding of sustainability challenges, integrating interdisciplinary perspectives across environmental, social and economic dimensions. It aims to equip students with the skills and competences to work with diverse stakeholders and teams to bring about change within industry, society and government towards sustainability, within local and global contexts.Sustainability, Science and Climate Action | Sustainability, Society and Culture | Sustainable Business and Circular Economy.
+    * **Overview:** The subject of Social Justice draws on a range of academic disciplines in order to advance understanding of issues such as inequality, discrimination and human rights abuses. It will appeal to those who would like to acquire the knowledge and skills to understand and challenge injustice and help bring about social change.
 
-* **11. International Development**
-    * Maynooth University
-    * **300** points
-    * **3 Years**
-    * **Overview:** As a student of International Development in the Bachelor of Arts degree you will explore issues such as globalisation, climate change, food security, poverty, conflict, disasters and other humanitarian emergencies, human rights, health, education, gender, inequality and empowerment, from an international development perspective.
+* **14. International Relations**
+    * Dublin City University
+    * **411** points
+    * **4 Years**
+    * **Overview:** During this degree, you will learn about issues such as conflict, peace and security, intelligence, terrorism, globalisation, third-world debt and climate change. By the end of this unique and innovative course, you will have learned about international politics, development and regional studies from a global perspective to equip you for careers working with international organisations, institutions and NGOs.
 
-* **12. Asian Studies**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** Asian studies involves the study of the political, economic, societal and cultural factors and ideas shaping international politics, economy and culture in East Asia. This will prepare you for a career in foreign relations and global policy, or with Asia-Pacific oriented multinational corporations and international organisations
-
-* **13. History**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** History at UCC provides an exciting exploration of the past, tracing historical developments from medieval times to the present with special reference to their European, Irish and North American contexts.
-
-* **14. Philosophy**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** Philosophy at UCC has particular strengths in moral and political philosophy, as well as in philosophy of mind, body and action. Its greatest strength, however, is its commitment to pluralism and interdisciplinarity, which combines these fields with research and teaching in Aesthetics; Comparative Continental European and Asian Philosophy;  Philosophy of Science;  Philosophy of Economics; and Metaphysics and Epistemology.
-
-* **15. Religions and Global Diversity**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** This course explores a wide variety of religious traditions, such as Buddhism, Islam, Hinduism, Judaism and various forms of Christianity, and as well as offering students the unique opportunity to study indigenous religions, western esotericisem, new religious movements, Japanese religions, anthropology of religions, sexuality and Islam with specialists in these fields.
-
-* **16. Mathematical Studies**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** In this degree you will develop the theoretical underpinning of the mathematics you studied at school, while also developing applications of Mathematics to problems in the wider world. Throughout the degree you will learn written and oral presentation skills, for example, how to present a logic argument, perhaps backed up by numerical data.
-
-* **17. Statistics**
-    * Maynooth University
-    * **300** points
-    * **3 Years**
-    * **Overview:** A degree in Statistics will provide you with tools to address problems of critical importance to humans such as climate change, developing cancer drugs or managing traffic flows. We offer Statistics as a Double Major subject which can be combined with most other academic subjects in the Bachelor of Arts degree. This flexibility means you can combine your interest in aspects of society with knowledge of the statistical tools needed to understand data from those fields.
-
-* **18. Music Education**
+* **15. Law**
     * Trinity College Dublin
-    * **656** points
+    * **578** points
     * **4 Years**
-    * **Overview:** If you love sharing music, already have a competent standard of music performance, and wish to combine these qualities with a teaching career, then this course is ideally suited to you. Whether your interests are primarily academic or practical, your experience of this vast and rich discipline will be greatly advanced. As an academic study, music fosters independence of thought, creativity and critical and analytical skills. This course offers opportunities to perform music, to share music with others via teaching and performing, and to conduct a number of different ensembles.
+    * **Overview:** The law degree will appeal to you if you are interested in society and how it works, and with the broader question of the regulation of inter-personal relationships. A general interest in history and political developments, will be an advantage, as the law is deeply linked to its historical and political context.
 
-* **19. Computer Science**
+* **16. Chemistry**
+    * University College Dublin
+    * **544** points
+    * **4 Years**
+    * **Overview:** The UCD Science (DN200) course offers 27 degree subjects categorised into streams. Students can study subjects from more than one stream in first year. It is also possible for students to change their stream in first year. At the end of first year, students choose a minimum of two subjects to study in second year (for example Statistics and Mathematics or Genetics and Microbiology). Students will major in one of these subjects in third and fourth year.
+
+* **17. Human Health and Disease**
+    * Trinity College Dublin
+    * **567** points
+    * **4 Years**
+    * **Overview:** The Human Health and Disease degree trains students for work in the field of biomedical research. It brings to life the fascinating connections between structure and function in the human body and explores the health and disease continuum in detail, including teaching on how medical therapies act to treat or even prevent disease. As an example, understanding brain structure and biochemistry allows us to appreciate how neurons communicate and this in turn is helping biomedical researchers and clinicians to identify new and effective ways to treat and prevent diseases such as dementia.
+
+* **18. Engineering (Process and Chemical Engineering)**
     * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** Computer Science is a relatively young field and is showing rapid growth in terms of scientific and technological advancement and in terms of impact on diverse aspects of human existence.
+    * **543** points
+    * **4 Years**
+    * **Overview:** The first year of the BE is a broad education in engineering fundamentals. Process and Chemical Engineers are involved in the design, modification and operation of processes to produce products across a broad range of process industries, including bio/pharmaceuticals,  food and drinks production, bulk chemicals and fuels/energy. Process and Chemical engineering helps provide a pathway towards meeting societal requirements around health and well being, energy provision, food production, water supply, waste management and consumer goods.
+
+* **19. Biological and Chemical Sciences**
+    * University College Cork
+    * **532** points
+    * **4 Years**
+    * **Overview:** Our programme is carefully constructed to foster an interdisciplinary approach across a wide range of biological, biotechnology, medical, chemical and pharmaceutical research areas.
 
 # RECOMMENDATION SET 2
 
-* **0. Deaf Studies**
+* **0. Pharmacy**
     * Trinity College Dublin
-    * **317** points
+    * **601** points
+    * **4-5 Years**
+    * **Overview:** Pharmacy is the study of all aspects of drugs, both natural and synthetic in origin, including their chemistry, their uses in medicines, and how they work within the body. Pharmacists work in a variety of settings - community pharmacies, hospitals, long-term care facilities, and within the pharmaceutical industry, to name just a few. In many respects, their role as a key healthcare professional is to help people achieve the best results from their medications. Optional Fifth Year:M.Sc. (Pharm) Master's Degree (NFQ Level 9) Optional.
+
+* **1. Actuarial Mathematics**
+    * Dublin City University
+    * **589** points
     * **4 Years**
-    * **Overview:** The Centre for Deaf Studies in Trinity affords students the opportunity to develop insights into, and genuine appreciation for the culture, contributions, and contemporary issues related to Deaf people in Ireland and worldwide.
+    * **Overview:** Actuarial Mathematics could be the perfect course for you. It's accredited by the Institute and Faculty of Actuaries, UK, meaning you may be exempt from some of the exams needed to qualify as an actuary in Ireland and the UK. Before you embark on learning essential actuarial knowledge and theories, you'll be given solid mathematical training. In your first two years, you'll study the fundamental mathematical principles that underpin the actuarial and financial models covered in later years. You'll also study computer programming, economics and accounting.
 
-* **1. Product Design and Innovation**
-    * Maynooth University
-    * **317** points
+* **2. Biomedical, Health and Life Sciences**
+    * University College Dublin
+    * **589** points
     * **4 Years**
-    * **Overview:** Product designers are key to innovation in the modern world. As technological competence spreads globally, businesses are placing greater focus on achieving market success through design. A highly practical course, with an emphasis on project-based learning, workshops, laboratory sessions and group work.Opportunity to take a six-month, full-time work experience placement, in a relevant employment setting.
+    * **Overview:** This course will appeal to those with a keen interest in science and in how research and technology can impact on human health. It is training scientists at the interface of science and medicine. You will learn how scientifically driven investigations can advance our knowledge of disease prevention, detection and treatment and translating these into clinical utility. The course will immerse you in modern medical and biological sciences and focus on the application of scientific developments. BHLS offers students a unique opportunity to complete a research project with a Principal Investigator in a biomedical research area that interests them and an opportunity to be involved in peer-reviewed publications.
 
-* **2. Anthropology**
+* **3. Law and French**
+    * Trinity College Dublin
+    * **589** points
+    * **4 Years**
+    * **Overview:** The Law and French degree programme offers a unique opportunity to study core and specialised legal modules but also the language, culture and political systems of France. Students must undertake an Erasmus year in France, exposing them to the law of that legal system.
+
+* **4. Philosophy, Political Science, Economics and Sociology**
+    * Trinity College Dublin
+    * **581** points
+    * **4 Years**
+    * **Overview:** Philosophy, Political Science, Economics and Sociology (PPES), offers a coherent and integrated introduction to the study of social sciences and philosophy. It brings together some of the most important approaches to understanding society and, in doing so, develops skills for a range of future careers and activities.
+
+* **5. Economics/Geography**
+    * Trinity College Dublin
+    * **578** points
+    * **4 Years**
+    * **Overview:** EconomicsAny society has to address the problem of how and what to produce for its material survival, and how the goods and services that are produced should be distributed among its population. Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. GeographyGeography is the study of Earth's landscapes, peoples, places and environments. Fundamentally it is about the world in which we live. Geography offers a 21st century education by uniquely bridging the social sciences (human geography) with the natural sciences (physical geography).   Geography also covers increasingly important environmental issues where humans affect physical environments and vice versa.
+
+* **6. Economics/History**
+    * Trinity College Dublin
+    * **578** points
+    * **4 Years**
+    * **Overview:** EconomicsAny society has to address the problem of how and what to produce for its material survival, and how the goods and services that are produced should be distributed among its population. Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. HistoryThe four-year programme allows students to lay firm foundations in the first two years, with wide-ranging modules on medieval and modern history, Irish, European, American, environmental and global history, as well as on historical methods and approaches. The final two years of the programme allow students the chance to study several specialist modules in-depth and to undertake independent research on a subject of their own choice.
+
+* **7. Economics/Mathematics**
+    * Trinity College Dublin
+    * **578** points
+    * **4 Years**
+    * **Overview:** Economics Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. Economists' main motivation is to find mechanisms that encourage efficiency in the production and use of material goods and resources, while at the same time producing a pattern of income distribution that society finds acceptable.  MathematicsMathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one's logical reasoning, quantitative skills and problem-solving techniques.
+
+* **8. Economics/Modern Language**
+    * Trinity College Dublin
+    * **578** points
+    * **4 Years**
+    * **Overview:** Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. Economists' main motivation is to find mechanisms that encourage efficiency in the production and use of material goods and resources, while at the same time producing a pattern of income distribution that society finds acceptable. Students combine this subject with their choice of German or Spanish.
+
+* **9. Economics/Philosophy**
+    * Trinity College Dublin
+    * **578** points
+    * **4 Years**
+    * **Overview:** Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. Economists' main motivation is to find mechanisms that encourage efficiency in the production and use of material goods and resources, while at the same time producing a pattern of income distribution that society finds acceptable.  PhilosophyThis course offers the opportunity to engage in depth with questions of metaphysics (about the fundamental nature of reality), epistemology (the theory of knowledge), ethics (theories of right and wrong), political philosophy (the nature of the just state), philosophy of religion (reasoning about God), philosophy of mind (questions about thought, language and reason) and various other areas. We teach courses which have both systematic and historical emphases and in the higher years students can choose options and get to write a thesis on a topic of their own choice.
+
+* **10. Economics/Sociology**
+    * Trinity College Dublin
+    * **578** points
+    * **4 Years**
+    * **Overview:** EconomicsAny society has to address the problem of how and what to produce for its material survival, and how the goods and services that are produced should be distributed among its population. Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. Economists' main motivation is to find mechanisms that encourage efficiency in the production and use of material goods and resources, while at the same time producing a pattern of income distribution that society finds acceptable.  SociologyIf you want to understand the social changes taking place in the world today, and you are curious about people and society, then Sociology is for you. You will also gain the ability to understand topical issues and to present and communicate information and thoughts coherently. In addition, you will learn invaluable analytical, communication, research and presentation skills - transferable skills which can be applied to a wide range of careers and postgraduate programmes.
+
+* **11. Law**
+    * Trinity College Dublin
+    * **578** points
+    * **4 Years**
+    * **Overview:** The law degree will appeal to you if you are interested in society and how it works, and with the broader question of the regulation of inter-personal relationships. A general interest in history and political developments, will be an advantage, as the law is deeply linked to its historical and political context.
+
+* **12. Mathematics**
+    * Trinity College Dublin
+    * **578** points
+    * **4 Years**
+    * **Overview:** Mathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one's logical reasoning, quantitative skills and problem-solving techniques.
+
+* **13. Physiotherapy**
+    * University College Dublin
+    * **578** points
+    * **4 Years**
+    * **Overview:** Physiotherapists are healthcare professionals responsible for developing, maintaining and restoring movement and functional ability in adults and children using evidence-based practice. Studying Physiotherapy in UCD will provide you with the skills and qualifications required to practice as a physiotherapist upon graduation. With state-of-the-art facilities and globally recognised researchers as lecturers, you will learn in a culture of established academic excellence.
+
+* **14. Engineering**
+    * Trinity College Dublin
+    * **577** points
+    * **4 Years**
+    * **Overview:** Engineering is about being creative in technical problem solving. Engineers make things possible by using mathematical and scientific principles together with analytical and design skills. They tackle existing problems by developing new solutions through innovative technologies. They also expand the frontiers of society by developing advanced materials, sustainable energy systems, construction technologies, transport systems, biomedical devices, and telecommunications infrastructure.
+
+* **15. Finance**
     * University College Cork
-    * **301** points
-    * **3-4 Years**
-    * **Overview:** Anthropology is the comparative study of humankind in the cultures of the world, both past and present. This exciting programme offers a unique way of looking at the world, offering a greater understanding of the human experience and a strong sense of global citizenship to meet the challenges of the future.
-
-* **3. Accounting**
-    * Maynooth University
-    * **300** points
+    * **577** points
     * **3 Years**
-    * **Overview:** This degree in Accounting will help you gain financial literacy skills, a life skill, to help you make informed financial decisions. you will Learn how to deal with the world of business and to pursue rewarding career opportunities. The option of transferring in to one of our designated degree programmes and the end of first year. Through Arts you can combine the study of Accounting with a wide range of other subjects to suit your interests.
+    * **Overview:** Finance is concerned with the operation of financial markets and the valuation of financial assets, in particular in stock, bond, foreign exchange and interest rate markets. The BSc Finance is based equally on the subject areas of corporate finance and financial economics. This combined approach provides graduates with a thorough grounding in each area.
 
-* **4. Archaeology**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** Archaeology is an exciting subject that studies past human societies through the material remains they left behind, investigating important developments in the human story over a long period of time. The subject investigates many important developments in the human story, such as the evolution of Homo Sapiens, the adoption of farming, early urbanism, and the origins of social complexity.
+* **16. Psychology**
+    * Trinity College Dublin
+    * **577** points
+    * **4 Years**
+    * **Overview:** The School of Psychology aims to offer a knowledge base and a set of skills that not only equip students for the many careers that exist in psychology, but also prepare students intellectually for other careers. Psychology is a branch of science that demands clear, rigorous thinking, numeracy and the ability to define, study and solve problems in complex, changing settings.
 
-* **5. Asian Studies**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** Asian studies involves the study of the political, economic, societal and cultural factors and ideas shaping international politics, economy and culture in East Asia. This will prepare you for a career in foreign relations and global policy, or with Asia-Pacific oriented multinational corporations and international organisations
+* **17. Biomedical Engineering**
+    * University of Galway
+    * **568** points
+    * **4 Years**
+    * **Overview:** Biomedical Engineering is a relatively new branch of engineering that involves the use of cutting-edge technologies to help improve human healthcare. Biomedical engineers are involved in the design and creation of medical devices, implants such as stents, instruments and materials for clinical use.
 
-* **6. Bealoideas**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** Sa chúrsa seo pléitear beagnach gach gné de shaol agus de bheatha an duine ón ealaíon go dtí an rámhainn, ón saol seo go dtí an saol eile. Cuirfear scéalta, seanchas, nósanna, deasghnátha, féiltí, creideamh, piseoga, teicneolaíocht agus tithíocht na muintire i do láthair ar shlí shuimiúil spreagúil thuisceanach.
+* **18. Human Health and Disease**
+    * Trinity College Dublin
+    * **567** points
+    * **4 Years**
+    * **Overview:** The Human Health and Disease degree trains students for work in the field of biomedical research. It brings to life the fascinating connections between structure and function in the human body and explores the health and disease continuum in detail, including teaching on how medical therapies act to treat or even prevent disease. As an example, understanding brain structure and biochemistry allows us to appreciate how neurons communicate and this in turn is helping biomedical researchers and clinicians to identify new and effective ways to treat and prevent diseases such as dementia.
 
-* **7. Business (International)**
-    * Maynooth University
-    * **300** points
-    * **3 Years**
-    * **Overview:** International Business is about conducting business in different countries and managing people and organisations in an increasingly globalised world. In this course you will learn the strategies, insights, and skills to respond to these challenges, enabling organisations to manage diverse people and operations and to compete for customers across the world.
-
-* **8. Business (Management)**
-    * Maynooth University
-    * **300** points
-    * **3 Years**
-    * **Overview:** Management is about taking ideas and converting them into action: designing, making, and delivering products and services that customers and citizens want or need. Essentially, it is about organising to get things done. Our degree in Business Management will equip you with the tools necessary to achieve this.
-
-* **9. Business (Marketing)**
-    * Maynooth University
-    * **300** points
-    * **3 Years**
-    * **Overview:** Our approach to Marketing provides students with a deep understanding of the marketing function, as well as wider management and business processes so you can deliver value to customers and your organisation. Options are available which allow you to specialise your degree according to your strengths and interests in the topic areas you enjoy most.
-
-* **10. Celtic Civilisation**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** Celtic Civilisation offers an innovative perspective on early Irish culture and opens a rich world of myth, legend, poetry and tradition, revealing Ireland's place in early Europe as well as its links with other Celtic regions. As a student of Celtic Civilisation you will learn about the history of the Celtic peoples of Europe; fascinating legends; Ireland's longstanding contacts with neighboring traditions; issues of gender and identity in medieval Irish society; and how Ireland assimilated European culture while in turn influencing it.
-
-* **11. Chinese Studies**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** Chinese Studies combines the study of Chinese language with various disciplines to develop your interest in and knowledge of the history, culture, economy, politics, religion and philosophy of China. It will provide you with exciting opportunities in study, research and careers.
-
-* **12. Classical Studies**
-    * Maynooth University
-    * **300** points
-    * **3 Years**
-    * **Overview:** You will investigate the foundations of western civilisation in the history, literature, philosophy and culture of the ancient Greeks and Romans, encountering figures such as Homer, Plato, Cicero and Caesar, whose works and achievements have inspired writers, artists, thinkers and politicians down to the present day. In first year Greek and Roman Civilization you will be introduced to the ancient world through the myths of the ancient Greeks and the fall of the Roman Republic.
-
-* **13. Computer Science**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** Computer Science is a relatively young field and is showing rapid growth in terms of scientific and technological advancement and in terms of impact on diverse aspects of human existence.
-
-* **14. Criminology**
-    * Maynooth University
-    * **300** points
-    * **3 Years**
-    * **Overview:** Criminology can be described as the scientific study of crime. Criminologists study the causes of crime and society's reaction to it. You will gain perspectives from experts on explanations for criminal behaviour, criminological theory, the operation of the criminal justice system, the psychology of crime, the anthropology of crime, crime and economics and more.
-
-* **15. Digital Humanities and Information Technology**
-    * University College Cork
-    * **300** points
-    * **3 - 4 years**
-    * **Overview:** Our BA (Hons) Digital Humanities and Information Technology degree is an innovative course where you will explore a broad range of arts and humanities topics, while also studying the principles of information technology and digital media. We look at how the digital can enable innovation, but also how technology is changing what it means for us to be human in the age of machines.
-
-* **16. Economics**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** Economics is the study of people's motives, expectations, decisions, hopes, disappointments and uncertainties. It can be used to examine a variety of issues, from social media to poverty. Choosing economics will give you an excellent foundation for a career in business, finance, government, teaching and the media, and for doing further study in business courses such as marketing, management and computing.
-
-* **17. English**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** The BA in English introduces you to the subject in its fullest sense. You will study English across the centuries and can cover areas such as creative writing, film, drama and theatre. If you're a keen reader and interested in technology, we can help you hone your digital and literary skills with courses on digital media and through technology-enabled learning. You will develop your knowledge and writing skills, and get more from the books and films you love.
-
-* **18. European Studies**
-    * University College Cork
-    * **300** points
-    * **3 Years**
-    * **Overview:** European Studies is a multidisciplinary subject, in which you will explore the processes and consequences of political, diplomatic, administrative and economic decision-making in the European Union. As a European Studies graduate, you will be prepared for the challenges associated with a more interdependent and enlarged EU.
-
-* **19. Finance**
-    * Maynooth University
-    * **300** points
-    * **3 Years**
-    * **Overview:** Finance is taught as an application of Economics. It examines the role of government and international organisations in the management and regulation of financial markets. Finance is the study of investment risk and reward.
+* **19. Biomedical Science**
+    * University of Galway
+    * **566** points
+    * **4 Years**
+    * **Overview:** Biomedical Science is the study of Life Science subjects related to human health and disease. Students will learn about the structure and function of the human body from the level of organs and tissues to the molecular level, as well as how drugs are used to treat disease. You will major in one of the following biomedical science subjects: Anatomy, Biochemistry, Pharmacology or Physiology.
 

@@ -1,16 +1,11 @@
 # TODO
 
-- [ ] combine declan results
-    * new part-2: `11/02/2026 19:41:37`
-    * part-1: `29/01/2026 15:31:41`
-    * old part 2: `29/01/2026 15:41:13` 
-- [ ] combine lalith results
-    * new part-2: `11/02/2026 20:00:31`
-    * part-1: `04/02/2026 17:44:12`
-    * old part-2: `04/02/2026 18:04:11`
 - [ ] combine tom results
     * part-1: `29/01/2026 15:29:56`
-- [ ] markdown to pdf python!
+    * old part-2: `29/01/2026 15:46:36`
+
+    - [ ] delete old entry in `user-evaluation-metrics.tsv`
+    - [ ] delete response in google form for part 2!
 
 # Owen meeting notes
 
