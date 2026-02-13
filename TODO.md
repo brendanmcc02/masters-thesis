@@ -3,7 +3,6 @@
 - [ ] combine tom results
     * part-1: `29/01/2026 15:29:56`
     * old part-2: `29/01/2026 15:46:36`
-
     - [ ] delete old entry in `user-evaluation-metrics.tsv`
     - [ ] delete response in google form for part 2!
 
