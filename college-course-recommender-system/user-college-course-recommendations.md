@@ -1,244 +1,244 @@
 # RECOMMENDATION SET 1
 
-* **0. General Nursing**
+* **0. Engineering (Common Entry)**
+    * Maynooth University
+    * **364** points
+    * **4 Years**
+    * **Overview:** Electronic Engineering at Maynooth has developed world-class expertise in the area of mobile communications, biomedical diagnostics and technologies, and the intelligent control of large machines such as Robots or wave machines.Each of these areas is matched to rapidly growing industries and excellent job opportunities. By bringing this deep knowledge to all the undergraduate programmes, we provide our graduates with a world-class electronic engineering education but also a head start in these exciting and developing areas.
+
+* **1. Mechanical Engineering (General Entry)**
+    * TU Dublin - Tallaght
+    * **358** points
+    * **4 Years**
+    * **Overview:** Engineers are in extremely high demand right now in Ireland and globally with exponential growth in job opportunities, especially in the Mechanical, Automation and Biomedical sector. Engineering graduates are trained to be creative and inventive, and to solve difficult problems such as the development of new technologies from jet engines to robots to artificial hip implants to hybrid cars and train components.
+
+* **2. Biotechnology**
+    * Maynooth University
+    * **430** points
+    * **4 Years**
+    * **Overview:** Biotechnology explores all aspects of modern molecular biology including recombinant DNA technology, antibody production and uses, and animal cell culture. It covers disciplines including genetics, molecular biology, immunology, molecular microbiology, biochemistry, and cell biology.
+
+* **3. Robotics and Intelligent Devices**
+    * Maynooth University
+    * **350** points
+    * **4 years**
+    * **Overview:** In this robotics and Intelligent Devices programme we focuses on the design, implementation, and use of intelligent physical things in the environment. These include robots, autonomous vehicles, smart sensors, and internet-of-things devices. In the modern world, many of these things are the basis for brand new services or service improvements in areas such as health and wellbeing, assistive living, safety, smart manufacturing, retail, and hospitality, among others.
+
+* **4. Mechatronic Engineering**
+    * TU Dublin - Blanchardstown
+    * **301** points
+    * **4 Years**
+    * **Overview:** Mechatronics is defined as a combination of mechanics and electronics which is controlled by computers. This includes designing robots or machines for various purposes; from the space rovers which explore planets, to auto-focusing digital cameras.
+
+* **5. Medicine**
+    * University College Dublin
+    * **738** points
+    * **6 Years**
+    * **Overview:** Our curriculum is patient-centred and continually adapts to the needs of society and developments in medical knowledge. You'll learn from world-class educators and patients in state-of-the-art facilities, immerse yourself in our acclaimed undergraduate student research programme and beneft from a diverse, international student population. Teaching methods include lectures, small group sessions, practicals and tutorials. There are four themes running through the entirety of both our undergraduate and graduate programmes: Evidence based medicine and research; Clinical competencies and preparedness; Professional medical practice; and Healthcare systems, quality and patient safety.
+
+* **6. Veterinary Medicine**
+    * University College Dublin
+    * **589** points
+    * **5 Years**
+    * **Overview:** This course will educate you to the best international standards in veterinary medicine and is accredited nationally by the Veterinary Council of Ireland (VCI), by the European Association of Establishments for Veterinary Education (EAEVE) and is one of only 6 veterinary schools in Europe currently accredited by the American Veterinary Medical Association (AVMA). The veterinary profession is concerned with the promotion of the health and welfare of animals of special importance to society. This involves the care of healthy and sick animals, the prevention, recognition, control and treatment of their diseases and of diseases transmitted from animals to man, and the welfare and productivity of livestock.
+
+* **7. Veterinary Nursing**
+    * University College Dublin
+    * **487** points
+    * **4 Years**
+    * **Overview:** The degree provides the graduate with not only a sound academic foundation but also the practical skills and competencies with which to build a solid career as a professional veterinary nurse. Students receive a high-quality education through lectures, tutorials and practical classes, as well as off-site work experience. The curriculum reflects the demands on the Irish veterinary nurse in practice by incorporating teaching on small animal (including exotics), farm animal and equine nursing.
+
+* **8. General Nursing**
     * Maynooth University
     * **466** points
     * **4 Years**
     * **Overview:** This innovative programme integrates theory, skills practice and practice placements. It aims to prepare competent graduates who are confident in their ability to deliver person centred, safe, compassionate, evidence-based, effective and high-quality care across diverse healthcare settings.
 
-* **1. Nursing (Mental Health)**
-    * Dublin City University
-    * **359** points
-    * **4 Years**
-    * **Overview:** Are you interested in mental health? Do you love working with people of all ages and from diverse backgrounds? If so, this course could be perfect for you. You'll gain the knowledge, skills and values to work as a qualified mental health nurse with people of any age. It's a rewarding and much valued career with fantastic employment opportunities. During each semester, you'll complete a clinical placement, which ensures you'll meet the Nursing and Midwifery Board of Ireland (NMBI) requirements. Our health service provider partners offer diverse clinical settings, giving you a broad range of clinical learning opportunities across all the primary mental health specialities. For this course, they are:  St Vincent's Hospital, Fairview. The National Forensic Mental Health Service Dublin North City Mental Health Services North Dublin Mental Health Services
-
-* **2. Nursing (Intellectual Disability)**
-    * Dublin City University
-    * **308** points
-    * **4 Years**
-    * **Overview:** In this speciality field, intellectual disability nurses work as part of a cross-disciplinary team that strives to enable and empower people with intellectual disabilities to achieve their full potential. Intellectual disability can affect two aspects of people's lives - their intellectual functioning (such as learning, problem solving, judgement) and their adaptive functioning (in activities of daily life such as communication and independent living). During this course, you'll come to develop the  professional knowledge, skills and attitudes you'll need to care for people with intellectual disability.
-
-* **3. Health and Society**
-    * Dublin City University
-    * **452** points
+* **9. Information and Communication Studies**
+    * University College Dublin
+    * **420** points
     * **3 Years**
-    * **Overview:** This course has been designed to enable you to discover all the aspects of health issues, and learn how to understand, research and act to improve the health of populations.  During the course, you'll encounter many different ways of thinking about and acting on health issues, including biological, social, political, ethical and psychological perspectives. You'll not only learn about different potential career paths, but you'll also get to focus many projects and other programme activities on your own health interests.As a Health and Society student, you'll participate in a voluntary community project in your first year, then go on to design and implement a health equity campaign in second year. In your final year, you'll complete a health research project and write your final dissertation. Once you've completed the programme, you could go on to work in a state or voluntary health or social agency, or go to work in overseas development. Many of our graduates apply to go directly into further study, such as a postgraduate programme in occupational therapy, speech and language therapy, health promotion, social research and a wide range of other areas.
+    * **Overview:** Information & Communication Studies (ICS) equips you with the knowledge, skills, and tools to help you to make sense of a world where every aspect of human experience is affected by digital technology, media, data, and information in all formats. ICS explores digital information, social media, and communication and analyses their effects on societies, culture, politics, privacy, health, education and the many different spheres of public, private and personal life. Ultimately, ICS is about people, and understanding how people and technology interact and influence each other.
 
-* **4. Biological Sciences (General Entry)**
-    * Dublin City University
-    * **466** points
-    * **4 Years**
-    * **Overview:** During the General Entry course, you'll study biochemistry, bioprocessing, biotechnology, genetics, cell biology and microbiology, while also completing some modules in chemistry, physics and mathematics. Once you successfully pass this first year, you'll go on to one of three programmes: the BSc in Genetics and Cell Biology, the BSc in Biotechnology or the BSc in Bioprocessing.
-
-* **5. Chemical and Pharmaceutical Sciences**
-    * Dublin City University
-    * **477** points
-    * **4 Years**
-    * **Overview:** Are you curious about how chemistry affects our world, both in nature and when it comes to preparing and using everyday materials such as polymers, pharmaceuticals, fine chemicals, flavours and fragrances. If that's the case and you're a highly motivated independent student who is eager to challenge yourself in the different branches of chemistry, this course is for you. This course offers a compelling mix of technical knowledge and more hands-on practical experience than other similar courses, meaning you'll be better prepared for the workforce or postgraduate study. During it, you'll gain fundamental knowledge in organic, inorganic, physical, medicinal and analytical chemistry, along with practical lab skills and the ability to apply the theory you've learned. You'll also build your creative, innovation and presentation skills. Preparing for exciting future opportunities: In third year, you'll do a four- to six-month INTRA work placement in industry or in academic labs, in Ireland or overseas. This will give you vital experience, and enable you to learn new skills and develop contacts that can often lead to employment opportunities after finishing your degree. As a graduate you'll be sought after in sectors such as the pharmaceutical/biopharmaceutical, chemical/materials, specialty chemical, food and government laboratories. Typical roles could include process development, synthetic chemistry, formulation, regulatory affairs, quality control/assurance, analytical method development and medicinal chemistry. Others may go into teaching or patent law, while some decide to go on to further study for a masters or a doctorate.
-
-* **6. Food Science and Human Nutrition**
+* **10. Media, Film & Cultural Studies**
     * Maynooth University
-    * **440** points
-    * **4 Years**
-    * **Overview:** This programme is for students who wish to work in the area of food production, quality assurance, nutrition, and product development, with a focus on future foods and the role of food in the health of people, in Ireland and globally. this course provides students with a broad science-based education, with specialist content on the future of food development, human nutrition, and the role of food and healthy living, and also explores the social and global challenges around food security.
+    * **300** points
+    * **3 Years**
+    * **Overview:** Media & Cultural Studies provides you with a critical lens through which to examine the roles of film, TV, audio, social media platforms and interactive media in shaping your lived experiences as well as developing your understanding of these important industries. You will learn how to research and analyse media cultures, genres and technologies, to critique the role of media in popular culture, society and politics and how media and cultural businesses work.
 
-* **7. Pharmaceutical and Biomedical Chemistry**
-    * Maynooth University
-    * **434** points
+* **11. Media Production and Digital Arts**
+    * TU Dublin - Tallaght
+    * **283** points
     * **4 Years**
-    * **Overview:** This course is suited to those who wish to specialise in chemistry for the pharmaceutical and biomedical industries. Pharmaceutical Chemistry is a very important branch of Chemistry that is applied to the synthesis and formulation of new therapeutic drugs as well as the manufacture of medicinal compounds on a large scale.In this programme you will receive an excellent education in chemistry (physical chemistry, organic chemistry, inorganic chemistry), and have the opportunity to specialise in pharmaceutical chemistry, medicinal chemistry and bioinorganic chemistry.
+    * **Overview:** Working in a studio-based environment, our hands-on production modules and specialist workshops focus on digital content creation and will have you thinking, designing and creating right from the start. This degree is designed to be fluid, responding to both your interests and the ever-changing industry landscape. With a complementary suite of practical and theoretical modules, all aspects of the course inform and are informed by each other.
 
-* **8. International Business and Global Cultures**
+* **12. Marketing and Global Cultures**
     * Maynooth University
     * **400** points
     * **3 or 4 Years**
     * **Overview:** An essential challenge for businesses in Ireland is how they can connect the capabilities of our workforce to contribute to solutions for people who are largely in markets outside Ireland, across the EU and the wider global community. Business needs graduates who can both understand the fundamentals of how to create value for customers and how to translate them into solutions and services that fit the needs of diverse cultures.
 
-* **9. Business and Languages**
-    * Maynooth University
-    * **397** points
-    * **4 Years**
-    * **Overview:** You choose one business subject (Accounting*, Business Management, International Business or Marketing) and one language (Chinese, French, German or Spanish). You do not need to have studied either business or your chosen language for the Leaving Certificate to take this degree.
-
-* **10. Baitsiléir san Oideachas Trí Mheán na Gaeilge (Bunmhúinteoireacht)**
-    * Marino Institute of Education
-    * **502** points
-    * **4 Years**
-    * **Overview:** The Bachelor of Education through the Medium of Irish is aimed at students who wish to teach through the medium of Irish in Gaeltacht schools or in All-Irish Schools. Is céim ar leith é an Baitsiléir san Oideachas Trí Mheán na Gaeilge (Bunmhúinteoireacht) a oireann go speisialta do mhic léinn a dteastaíonn uathu múineadh san earnáil oideachais Lán-Ghaeilge i.e. i scoileanna Gaeltachta nó i scoileanna Lán-Ghaeilge.
-
-* **11. Baitsiléir san Oideachas Trí Mheán na Gaeilge (Bunmhúinteoireacht) - Gaeltacht Applicants**
-    * Marino Institute of Education
-    * **496** points
-    * **4 Years**
-    * **Overview:** The Bachelor of Education through the Medium of Irish is aimed at students who wish to teach through the medium of Irish in Gaeltacht schools or in All-Irish Schools. Is céim ar leith é an Baitsiléir san Oideachas Trí Mheán na Gaeilge (Bunmhúinteoireacht) a oireann go speisialta do mhic léinn a dteastaíonn uathu múineadh san earnáil oideachais Lán-Ghaeilge i.e. i scoileanna Gaeltachta nó i scoileanna Lán-Ghaeilge.
-
-* **12. Music Technology**
-    * Maynooth University
-    * **300** points
-    * **3 Years**
-    * **Overview:** Studying Music Technology is opportunity to combine Music Technology with Music, Computer Science and a wide range of other disciplines. You gain hands-on experience of the practical skills involved in music technology while learning about essential concepts.
-
-* **13. Product Design and Innovation**
-    * Maynooth University
-    * **317** points
-    * **4 Years**
-    * **Overview:** Product designers are key to innovation in the modern world. As technological competence spreads globally, businesses are placing greater focus on achieving market success through design. A highly practical course, with an emphasis on project-based learning, workshops, laboratory sessions and group work.Opportunity to take a six-month, full-time work experience placement, in a relevant employment setting.
-
-* **14. Multimedia**
-    * Dublin City University
-    * **388** points
-    * **3 Years**
-    * **Overview:** Do you have a creative, enquiring mind and an interest in the design of engaging and interactive media experiences? Then DCU's BSc in Multimedia is the degree for you! Digital media technologies are central to our everyday lives and essential for any company to succeed in a globalised economy. Learn from the best DCU's BSc in Multimedia was the first degree of its type in Ireland and still leads the field. On this programme, you'll learn from teaching staff with real-world professional experience and deep knowledge based on research and industry practice.
-
-* **15. Post Primary Teacher Education - Technology, Engineering and Graphics**
-    * Dublin City University
-    * **402** points
-    * **4 Years**
-    * **Overview:** This is a course for people who are interested in becoming post-primary teachers in the areas of Technology, Engineering and Graphics. On this degree, you'll learn about designing and innovating, and in coming up with creative solutions for the challenges facing society and industry.  The four-year programme will be delivered through a partnership of DCU and Technological University of the Shannon (TUS). The first two years of study will take place at the TUS Athlone campus, and the final two years at the DCU Institute of Education in Dublin.
-
-* **16. Education, Home Economics and Biology - with concurrent Teacher Education**
-    * ATU Sligo St. Angelas
-    * **453** points
-    * **4 Years**
-    * **Overview:** The Bachelor of Education in Home Economics and Biology is a full-time, concurrent teacher education degree leading to a National Framework of Qualifications (NFQ) Level 8 honours degree.
-
-* **17. Science (with Education)**
-    * Maynooth University
-    * **420** points
-    * **4 Years**
-    * **Overview:** If you are interested in a career as a second-level science and/or mathematics teacher, this may be the degree for you. As an undergraduate, you will study a four-year Science degree, while also completing 60 credits in Education. After four years you are awarded a BSc Science (with Education) degree - a level 8 honours degree. You now have two pathways open to you:
-
-* **18. Education - Early Childhood Education**
-    * Dublin City University
-    * **420** points
-    * **4 Years**
-    * **Overview:** Do you want to make a difference to the lives and educational futures of young children? Then follow your passion and explore early education with an internationally-recognised team of academics and researchers in DCU. This course will prepare you for a highly rewarding career, educating and supporting young children during a vital time in their development. The Bachelor of Early Childhood Education (BECE) prepares you for work as a professional in a variety of early childhood educational settings, from preschools and creches, to child and family support programmes and it equips graduates to work with children of all needs. The BECE enables graduates to follow a career in a range of voluntary and statutory organisations that work on behalf of children and families.
-
-* **19. Early Childhood Teaching and Learning**
-    * Maynooth University
-    * **399** points
-    * **4 Years**
-    * **Overview:** This full-time degree will prepare you for a range of leadership roles in the Early Childhood Education and Care. It is a progressive level 8 degree, supporting the development of outstanding early childhood educators.
-
-# RECOMMENDATION SET 2
-
-* **0. Chemical and Pharmaceutical Sciences**
-    * Dublin City University
-    * **477** points
-    * **4 Years**
-    * **Overview:** Are you curious about how chemistry affects our world, both in nature and when it comes to preparing and using everyday materials such as polymers, pharmaceuticals, fine chemicals, flavours and fragrances. If that's the case and you're a highly motivated independent student who is eager to challenge yourself in the different branches of chemistry, this course is for you. This course offers a compelling mix of technical knowledge and more hands-on practical experience than other similar courses, meaning you'll be better prepared for the workforce or postgraduate study. During it, you'll gain fundamental knowledge in organic, inorganic, physical, medicinal and analytical chemistry, along with practical lab skills and the ability to apply the theory you've learned. You'll also build your creative, innovation and presentation skills. Preparing for exciting future opportunities: In third year, you'll do a four- to six-month INTRA work placement in industry or in academic labs, in Ireland or overseas. This will give you vital experience, and enable you to learn new skills and develop contacts that can often lead to employment opportunities after finishing your degree. As a graduate you'll be sought after in sectors such as the pharmaceutical/biopharmaceutical, chemical/materials, specialty chemical, food and government laboratories. Typical roles could include process development, synthetic chemistry, formulation, regulatory affairs, quality control/assurance, analytical method development and medicinal chemistry. Others may go into teaching or patent law, while some decide to go on to further study for a masters or a doctorate.
-
-* **1. Education - Primary Teaching**
-    * Marino Institute of Education
-    * **473** points
-    * **4 Years**
-    * **Overview:** Helping young people learn has to be one of the most satisfying and rewarding careers of all. By choosing the Bachelor in Education (Primary) programme you embark on a  course that will prepare you for working in primary schools in Ireland. You will find out how children learn to read, write, count and calculate; you'll learn how to introduce them to the arts the magic and mysteries of the world around them and how to grow and develop in a healthy way.
-
-* **2. Sport Science and Health**
-    * Maynooth University
-    * **473** points
-    * **4 Years**
-    * **Overview:** This programme is based on the core scientific disciplines of sport and exercise science - physiology and biomechanics. Students will learn to understand how to achieve maximum performance for the high performing athlete, and those who are looking to support exercise and physical activity for the health of the wider population, of all ages and capabilities.
-
-* **3. Digital Business and Innovation**
-    * Dublin City University
-    * **468** points
-    * **4 Years**
-    * **Overview:** Learn how companies leverage digital technologies to innovate, transform and succeed.Whether it's Big Data, the Internet of Things or Virtual Reality, the world of business is being transformed by digital technology. It's an exciting time of rapid change that is creating wonderful new opportunities. This four-year course is the first of its kind in Ireland and aims to give you the skills to succeed in a future world of work that is driven by technology.
-
-* **4. Economics, Politics and Law**
-    * Dublin City University
-    * **467** points
-    * **3-4 Years**
-    * **Overview:** Are you interested in how societies work? DCU's Economics, Politics and Law (EPL) degree course is designed to give you a deep and thorough understanding of the political, legal and economic forces that shape the world. Build strong foundations This degree provides a solid base to all three disciplines and you will study foundational topics such as introductions to micro and macroeconomics, political science and constitutional law. You don't need to have done any of these before. As you progress through your studies you may choose to specialise in areas such as Urban and Regional Economics, Issues in American Politics or Family Law, to name a few. You will also maximise your learning potential with dedicated research methods modules that will equip you with a variety of study skills. Skills attractive to employers This extremely versatile degree provides you with skills and knowledge that are highly valued across sectors including finance and banking, government and policy, the legal profession, NGOs and more. This degree will help you develop your oral and written communication skills, research techniques, critical thinking, teamwork and research abilities. 3 or 4 year degree You can complete the BA in Economics, Politics and Law degree in three years, or choose to take an extra year either to study abroad or complete an INTRA placement.
-
-* **5. Biological Sciences (General Entry)**
-    * Dublin City University
+* **13. Food Science**
+    * University College Dublin
     * **466** points
     * **4 Years**
-    * **Overview:** During the General Entry course, you'll study biochemistry, bioprocessing, biotechnology, genetics, cell biology and microbiology, while also completing some modules in chemistry, physics and mathematics. Once you successfully pass this first year, you'll go on to one of three programmes: the BSc in Genetics and Cell Biology, the BSc in Biotechnology or the BSc in Bioprocessing.
+    * **Overview:** The Food Science Programme at UCD develops your scientific knowledge and practical skills in producing sustainable, high-quality, safe, and nutritious food for the global market. As a food scientist, you will be involved in all aspects of the food chain, from production to the consumer. You will learn core sciences such as biology, chemistry, and mathematics, and apply them to food physics, analysis, microbiology, and sensory science.You will also gain expertise in food chemistry, processing, and new product development, preparing you for careers in production management, nutrition, food quality and safety, sales and marketing, and research.Applicants can pick one of two pathways:  Food Science or Sustainable Food Systems
 
-* **6. General Nursing**
-    * Maynooth University
-    * **466** points
-    * **4 Years**
-    * **Overview:** This innovative programme integrates theory, skills practice and practice placements. It aims to prepare competent graduates who are confident in their ability to deliver person centred, safe, compassionate, evidence-based, effective and high-quality care across diverse healthcare settings.
-
-* **7. Quantitative Finance**
-    * Maynooth University
-    * **465** points
-    * **4 Years**
-    * **Overview:** This programme will challenge and stimulate students who wish to pursue a career in the financial markets. The combination of financial, mathematical and computer programming skills will equip graduates to succeed and prosper in a fast-changing banking and financial sector. Students will have the opportunity to put the theory into practice during the work placement period and savour the daily life of a professional in the financial services industry.
-
-* **8. Business with Sport Science**
-    * Maynooth University
-    * **455** points
-    * **3 - 4 Years**
-    * **Overview:** This programme is for students who have a desire to work in the growing and diverse range of businesses in the area of sports, exercise and well-being. The sports, exercise and well-being sector is one of the largest service industries in Ireland and globally. Ranging from small to large enterprises, many are run by sports-professionals. These businesses need graduates who can both understand the science and practicalities of the sports and exercise sector, and the fundamentals of how to create value and make a profit - via services and solutions that meet a variety of customers.
-
-* **9. Global Business (Germany)**
-    * Dublin City University
-    * **455** points
-    * **4 Years**
-    * **Overview:** Are you looking for a course that gives you a headstart in international business, as well as a rich cultural experience in another country? Then the BA in Global Business (Germany) could be for you. This degree gives you the skills and knowledge you need to thrive in the fast-moving world of business. Not only that, but the course also gives you the opportunity to qualify with two degrees by the end of this four-year programme, and you'll have the chance to gain fluency in German.
-
-* **10. Education, Home Economics and Biology - with concurrent Teacher Education**
-    * ATU Sligo St. Angelas
-    * **453** points
-    * **4 Years**
-    * **Overview:** The Bachelor of Education in Home Economics and Biology is a full-time, concurrent teacher education degree leading to a National Framework of Qualifications (NFQ) Level 8 honours degree.
-
-* **11. Health and Society**
-    * Dublin City University
-    * **452** points
-    * **3 Years**
-    * **Overview:** This course has been designed to enable you to discover all the aspects of health issues, and learn how to understand, research and act to improve the health of populations.  During the course, you'll encounter many different ways of thinking about and acting on health issues, including biological, social, political, ethical and psychological perspectives. You'll not only learn about different potential career paths, but you'll also get to focus many projects and other programme activities on your own health interests.As a Health and Society student, you'll participate in a voluntary community project in your first year, then go on to design and implement a health equity campaign in second year. In your final year, you'll complete a health research project and write your final dissertation. Once you've completed the programme, you could go on to work in a state or voluntary health or social agency, or go to work in overseas development. Many of our graduates apply to go directly into further study, such as a postgraduate programme in occupational therapy, speech and language therapy, health promotion, social research and a wide range of other areas.
-
-* **12. Law**
-    * Maynooth University
-    * **452** points
-    * **4 years**
-    * **Overview:** Specialise in a single major law programme over four years, opening up excellent employment prospects in both law and non-law careers. Acquire a thorough grounding in the fundamental areas of legal study and a broad range of specialist modules like Transnational Litigation, Civil Liberties, and Criminology. Enhance employability by developing your faculties for argument, reasoning and for the analysis of complicated ideas.
-
-* **13. Economics**
-    * Maynooth University
-    * **445** points
-    * **3 Years**
-    * **Overview:** As a BSc Economics student, you will learn to take a scientific evidence-based approach to understand, critique and create policies to combat economic and social problems. Employers in all sectors from government to financial services have a growing need for economists who can analyse and interpret data. This requires a strong grounding in analytical and quantitative methods. With an emphasis on independent research, this programme is designed to allow you to flourish based on your individual curiosity and strengths.
-
-* **14. Science and Mathematics Education**
-    * Dublin City University
-    * **443** points
-    * **4 Years**
-    * **Overview:** If you love science and maths, and would like to share your enthusiasm, interest and knowledge with young people, you'll thrive on the BSc in Science and Mathematics Education. Science and maths teachers work to develop their pupils' understanding of the world around them and to educate future generations of scientists, engineers and technologists, not to mention citizens who are scientifically, mathematically and technically literate. You'll build a strong foundation in key areas of education, mathematics and either physics or chemistry, developing essential mathematical thinking skills, and scientific practices and ways of working throughout the four years. You'll also study the history, psychology, sociology and philosophy of education, as well as undertaking curriculum studies.
-
-* **15. Food Science and Human Nutrition**
+* **14. Food Science and Human Nutrition**
     * Maynooth University
     * **440** points
     * **4 Years**
     * **Overview:** This programme is for students who wish to work in the area of food production, quality assurance, nutrition, and product development, with a focus on future foods and the role of food in the health of people, in Ireland and globally. this course provides students with a broad science-based education, with specialist content on the future of food development, human nutrition, and the role of food and healthy living, and also explores the social and global challenges around food security.
 
-* **16. Post Primary Teacher Education - Gaeilge and French, German or Spanish**
-    * Dublin City University
-    * **440** points
-    * **4 Years**
-    * **Overview:** This course will prepare you to teach at post-primary level in two languages. You will take Gaeilge, along with a choice of either French, German or Spanish.  Alongside developing your language abilities, the course also builds your skills in the areas of teamwork, leadership, communication and creativity. These are vital for a career in post primary teaching, but are also key to a variety of other professions. In this four-year course, you'll benefit from studying in small class groups within the larger university community.
-
-* **17. Environmental Science and Technology**
-    * Dublin City University
-    * **434** points
-    * **4 Years**
-    * **Overview:** Get the relevant scientific skills you'll need to tackle these complex issues on this diverse and stimulating course. Whether out on field trips or doing nanoscale environmental analysis in the lab, you'll gain the analytical and practical skills to understand, protect and improve our environment. Not only that, but you'll get to contribute in a practical way to reducing carbon on- and off-campus in our new module, Towards Zero Carbon. Over the four years, you'll gain a strong scientific core in biology, chemistry, physics and maths. This is vital to working as an environmental scientist, but also gives you flexibility when it comes to your career choice. In your third year, you'll do a nine-month work placement and you also have the chance to study abroad. And of course, throughout the course, you'll be able to contribute practically to reducing carbon reliance. As the world is ever more focused on protecting the environment and cutting carbon emissions, there is ongoing and increasing demand for qualified scientists. Graduates from this course typically go on to high-impact careers as research scientists in areas such as environmental protection, and water, air and soil management and conservation.
-
-* **18. Pharmaceutical and Biomedical Chemistry**
+* **15. Pharmaceutical and Biomedical Chemistry**
     * Maynooth University
     * **434** points
     * **4 Years**
     * **Overview:** This course is suited to those who wish to specialise in chemistry for the pharmaceutical and biomedical industries. Pharmaceutical Chemistry is a very important branch of Chemistry that is applied to the synthesis and formulation of new therapeutic drugs as well as the manufacture of medicinal compounds on a large scale.In this programme you will receive an excellent education in chemistry (physical chemistry, organic chemistry, inorganic chemistry), and have the opportunity to specialise in pharmaceutical chemistry, medicinal chemistry and bioinorganic chemistry.
 
-* **19. Climate and Environmental Sustainability**
-    * Dublin City University
+* **16. Landscape Architecture**
+    * University College Dublin
+    * **485** points
+    * **4 Years**
+    * **Overview:** The design studio is central to Landscape Architecture. You'll spend most of your time in the studio, pursuing individual and small group project work. You'll learn by doing design projects that allow you to develop creative skills and apply knowledge taught through lectures, seminars, drawing classes, feld trips, reviews, readings, individual and group tutorials. In your third year you will also gain professional experience interning in a landscape related company / institution.
+
+* **17. Electronic Engineering and Engineering Software (General Entry)**
+    * TU Dublin - Tallaght
+    * **243** points
+    * **4 Years**
+    * **Overview:** This course is designed to produce professional engineers who can design and optimise complex hardware, software and communications systems, and you will be at the forefront of developing the connected world.  You'll develop the skills you need to work in all aspects of the ICT industry, including software design, information technology, telecommunications, and computer network engineering.
+
+* **18. Agricultural Systems Technology - Agricultural Science**
+    * University College Dublin
     * **431** points
-    * **3-4 Years**
-    * **Overview:** The BA in Climate and Environmental Sustainability is an applied geography programme that is not just about understanding climate change and its consequences, but also about understanding how the environment itself offers solutions. If you have a keen interest in issues relating to the environment such as improving water quality and managing biodiversity, this degree is ideal for you.
+    * **4 Years**
+    * **Overview:** Agricultural Systems Technology is aimed at students who wish to learn how to build, develop, and manage technology for the agriculture sector. Students will gain a deep understanding of how to use technology in order to improve and enhance sustainability, efficiency and reliability in farming and food production. You will take classes in engineering, science, mathematics and data science. Upon completing the course, you will be uniquely equipped to build, develop and manage technologies such as computer systems, networks, data management and sensors, machinery systems and precision agriculture.
+
+* **19. Computer Science and Software Engineering (through Arts)**
+    * Maynooth University
+    * **349** points
+    * **4 Years**
+    * **Overview:** Study all the essentials of computing and software for mobile apps and websites, as well as key areas in mathematics, a major project and a six month placement in industry. Enjoy the huge benefit of studying another Arts subject with Computer Science in first year. This lends graduates a wider frame of reference.
+
+# RECOMMENDATION SET 2
+
+* **0. Linguistics/Classical Languages**
+    * Trinity College Dublin
+    * **498** points
+    * **4 Years**
+    * **Overview:** Linguistics Students of Linguistics engage in evidence-based analysis of language, acquiring skills and techniques that allow investigation of different aspects of language structure such as sound, words and grammar. This involves key transferable skills in problem solving and critical thinking. Classical Languages The study of Classical Languages is concerned with the language, literature and thought of either Ancient Greece or Ancient Rome. You will choose to study either Greek or Latin. Through the reading of literature in the original language and the examination of key aspects of ancient history, you will develop a thorough knowledge of the classical world and a critical approach to textual and material culture.
+
+* **1. Linguistics/Computer Science**
+    * Trinity College Dublin
+    * **498** points
+    * **4 Years**
+    * **Overview:** The combined study of Computer Science and Linguistics yields opportunities for graduates to specialise in computational speech and language processing or text analysis. Linguistics often appeals to students who are curious about language as one of the most fascinating aspects of human knowledge and behaviour.  Linguistics is also appealing to those who enjoy detailed, problem-solving analysis and careful argumentation. Students of Linguistics engage in evidence-based analysis of language, acquiring skills and techniques that allow investigation of different aspects of language structure such as sound, words and grammar. This involves key transferable skills in problem solving and critical thinking.
+
+* **2. Linguistics/Modern Language**
+    * Trinity College Dublin
+    * **498** points
+    * **4 Years**
+    * **Overview:** Linguistics Students of Linguistics engage in evidence-based analysis of language, acquiring skills and techniques that allow investigation of different aspects of language structure such as sound, words and grammar. This involves key transferable skills in problem solving and critical thinking. Modern Language Within the Modern Languages programme you study two modern European languages. It is the most intensive exposure to languages and cultures that Trinity College has to offer. You can choose between French, German, Irish, Italian, Russian and Spanish. Apart from French and Irish all languages can be studied from both advanced and beginners level
+
+* **3. Linguistics/Philosophy**
+    * Trinity College Dublin
+    * **498** points
+    * **4 Years**
+    * **Overview:** Linguistics Students of Linguistics engage in evidence-based analysis of language, acquiring skills and techniques that allow investigation of different aspects of language structure such as sound, words and grammar. This involves key transferable skills in problem solving and critical thinking. Philosophy This course offers the opportunity to engage in depth with questions of metaphysics (about the fundamental nature of reality), epistemology (the theory of knowledge), ethics (theories of right and wrong), political philosophy (the nature of the just state), philosophy of religion (reasoning about God), philosophy of mind (questions about thought, language and reason) and various other areas.
+
+* **4. Archaeology (Social Sciences Two Subject Combination)**
+    * University College Dublin
+    * **490** points
+    * **4 Years**
+    * **Overview:** If you study Archaeology, you will see the world, time and the human condition in an entirely new way. Archaeology is a uniquely multidisciplinary subject, using all sources of evidence from the past, from ancient manuscripts to the scientific analysis of plants, animals and materials. Through undertaking Archaeology as a degree, you will learn how to assess, explain and make connections between different types of evidence that will allow you to develop a deeper understanding about the past. Students will also develop practical skills valued by employers, such as report writing, teamwork, presentation, communication and analytical skills.
+
+* **5. Computational Social Science**
+    * University College Dublin
+    * **490** points
+    * **4 Years**
+    * **Overview:** The world around us is undergoing significant changes due to digitization and deployment of Artificial Intelligence. Today we are more interconnected than ever before. As we navigate this new social landscape, we leave behind digital footprints that can be analyzed and interpreted through the lens of Computational Social Science. This field of study leverages the power of big data, computer simulations, and social network analysis to gain insights into social phenomena and individual behaviour.
+
+* **6. Economics (Social Sciences Two Subject Combination)**
+    * University College Dublin
+    * **490** points
+    * **4 Years**
+    * **Overview:** Economics explores how and why people make decisions and choose between alternative ways of spending their money and using their time, energy and skills. That is why Economics can help to shed light on decision-making in areas from love and marriage, to sports and crime. If you are interested in people's behaviour and in current affairs, and if you enjoy problem-solving and are naturally analytical with good numeracy skills, then Economics will appeal to you.
+
+* **7. Economics, Mathematics & Statistics**
+    * University College Dublin
+    * **490** points
+    * **4 Years**
+    * **Overview:** If you are interested in Mathematics, Statistics and Economics, then this course enables you to explore these areas in depth, while also emphasising how they complement each other. Economists employ mathematics to design theoretical models and use statistics to test these models and to explore the tremendous amount of data that is generated by the economy. In turn, the models and data that are part of the study of Economics provide an interesting source of applications for students that have learned mathematical and statistical skills.
+
+* **8. Geography (Social Sciences Two Subject Combination)**
+    * University College Dublin
+    * **490** points
+    * **4 Years**
+    * **Overview:** Geography is the only discipline that combines the study of both the natural and social worlds, and their interaction, and is key to solving global problems such as climate change, poverty, migration, urbanisation and environmental management. By studying Geography in UCD, you will understand the context in which environmental, socio-cultural and politico-economic decision-making takes place and develop skills that prepare you for the workplaces and societies of tomorrow.
+
+* **9. History (Social Sciences Two Subject Combination)**
+    * University College Dublin
+    * **490** points
+    * **4 Years**
+    * **Overview:** History is the pursuit of how we got here and the stories that we tell ourselves to explain the past. Working from ordinary to extraordinary, local to global, fact to fiction, you'll develop critical thinking, argument and analysis skills that lie at the heart of careers in media, government, culture and education.
+
+* **10. Information & Communication Studies (Social Sciences Two Subject Combination)**
+    * University College Dublin
+    * **490** points
+    * **4 Years**
+    * **Overview:** Information & Communication Studies (ICS) equips you with the knowledge, skills, and tools to help you to make sense of a world where every aspect of human experience is affected by digital technology, media, data, and information in all formats. ICS explores digital information, social media, and communication and analyses their effects on societies, culture, politics, privacy, health, education and the many different spheres of public, private and personal life.
+
+* **11. Mathematics (Social Sciences Two Subject Combination)**
+    * University College Dublin
+    * **490** points
+    * **4 Years**
+    * **Overview:** Mathematics has long played a central role in our quest to fully describe and understand the natural world. Nowadays, it is also a vital tool in many of the social sciences. Those who concentrate on this subject will gain an understanding of mathematical concepts and learn how to prove key facts and solve problems using deductive reasoning.
+
+* **12. Philosophy (Social Sciences Two Subject Combination)**
+    * University College Dublin
+    * **490** points
+    * **4 Years**
+    * **Overview:** Philosophy is essentially about dialogue and discussion, about giving reasons and examples, about counter-arguments and counter-examples. We read the work of great philosophers, but we also challenge their arguments and conclusions. Although all the modules are based on lectures, many of these are highly interactive. In addition, philosophy is rare in the university for offering small-group tutorials for all of its modules.
+
+* **13. Philosophy, Politics and Economics**
+    * University College Dublin
+    * **490** points
+    * **4 Years**
+    * **Overview:** PPE provides a broad and deep understanding of how a society works, and indeed how international society works. It examines the complex economic and political forces in play, the problems of measuring and assessing the health of society, and the principles of justice that should guide political decision-making to improve society. PPE will teach students how to read beyond media headlines, and where to find more information about the hot policy questions of the day, in national and international contexts.
+
+* **14. Politics and International Relations (Social Sciences Two Subject Combination)**
+    * University College Dublin
+    * **490** points
+    * **4 Years**
+    * **Overview:** With a degree in Politics and International Relations, you will develop the knowledge and skills required to analyse the complex interplay between national and international political institutions, systems and forces. In first year, you will be introduced to the core areas of politics, giving you a solid foundation for future study. In subsequent years, you will pursue the areas of politics and international relations that interest you most.
+
+* **15. Social Justice (Social Sciences Two Subject Combination)**
+    * University College Dublin
+    * **490** points
+    * **4 Years**
+    * **Overview:** The subject of Social Justice draws on a range of academic disciplines in order to advance understanding of issues such as inequality, discrimination and human rights abuses. It will appeal to those who would like to acquire the knowledge and skills to understand and challenge injustice and help bring about social change.
+
+* **16. Social Sciences (Two Subject Combination)**
+    * University College Dublin
+    * **490** points
+    * **3 Years**
+    * **Overview:** Social Sciences students explore society and how people behave as individuals and in groups. With the four-year Social Sciences degree, you choose DN700 at CAO and then select your preferred option below. Your subject choices are guaranteed. The Two Subjects Choice (TSC) options are: Archaeology; Economics; Geography; Information & Communication Studies, Philosophy; Politics and Sociology. There are options to change subject choices at the end of first year if you wish. You will gain a deep understanding of each subject you choose to study and develop real-world skills in research, communication and leadership. You may additionally apply for an internship, or study abroad for a year or a semester. You will learn to analyse, criticise and challenge beliefs and assumptions - including your own.
+
+* **17. Sociology (Social Sciences Two Subject Combination)**
+    * University College Dublin
+    * **490** points
+    * **4 Years**
+    * **Overview:** If you are interested in people, you will be interested in sociology. It is relevant for understanding almost every aspect of our lives. We are all part of society, we are connected with each other and we are affected by the people around us. In the same way, we shape the social context for others as well. Sociology provides you with the mindset and the research tools to observe the social world, make connections, understand differences, norms, cultures or inequalities.
+
+* **18. Statistics (Social Sciences Two Subject Combination)**
+    * University College Dublin
+    * **490** points
+    * **4 Years**
+    * **Overview:** If you are interested in studying Statistics with an Arts and Humanities or Social Science subject, then this degree could be for you. Statistics is the science of transforming data into knowledge and understanding, providing a principled approach to making data-informed decisions. Statistical methods enable us to gain insights from data, and with the advent of powerful computing technology, these methods have become widely used in many sectors.
+
+* **19. English Literature/Classical Languages**
+    * Trinity College Dublin
+    * **487** points
+    * **4 Years**
+    * **Overview:** English Literature English Literature covers a broad range of literatures written in the English language, from Chaucer to the present day. The aim of the course is to help students acquire a thorough knowledge of the history of differing literatures while also enabling them to develop a sophisticated critical consciousness and an awareness of critical and cultural theory. Classical Languages The study of Classical Languages is concerned with the language, literature and thought of either Ancient Greece or Ancient Rome. You will choose to study either Greek or Latin. Through the reading of literature in the original language and the examination of key aspects of ancient history, you will develop a thorough knowledge of the classical world and a critical approach to textual and material culture.
 
