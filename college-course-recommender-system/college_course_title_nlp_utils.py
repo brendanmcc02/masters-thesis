@@ -131,6 +131,7 @@ def get_stop_words():
     stop_words.add("six")
     stop_words.add("city")
     stop_words.add("centre")
+    stop_words.add("froebel")
 
     return stop_words
 

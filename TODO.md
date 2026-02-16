@@ -6,6 +6,10 @@
     - [ ] delete old entry in `user-evaluation-metrics.tsv`
     - [ ] delete response in google form for part 2!
 
+- [ ] think i mixed up ben and kevins results
+    * kevin part 1 is `13/02/2026 19:20:57`, and ben's part 1 is used twice
+    * kevin part 2 is `13/02/2026 19:35:04`
+
 # Owen meeting notes
 
 * read up on statistical power and p-value
