@@ -1,16 +1,3 @@
-# TODO research these:
-* novelty in rec sys
-* serendipity in rec sys
-* bias in RS
-    * course idea:
-        * gender
-        * social class
-        * race
-* human's preferences change over time
-    * investigate the evolution of this
-* history of RS
-    * doesn't have to be in depth, mostly for intro/abstract tbh
-
 # LLM's in Rec Sys
 
 ## [Towards Next-Generation LLM-based Recommender Systems: A Survey and Beyond](https://arxiv.org/pdf/2410.19744)
