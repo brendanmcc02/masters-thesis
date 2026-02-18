@@ -51,8 +51,7 @@
                                      %% for \mastersthesis.  Provide the
                                      %% correct FULL OFFICIAL name of
                                      %% the degree.
-
-\renewcommand{\thesisdegreeabbreviation}{M.Sc.}
+\renewcommand{\thesisdegreeabbreviation}{MCS}
                                      %% Use this if you also use the above
                                      %% command; provide the OFFICIAL
                                      %% abbreviation of your thesis degree.
@@ -69,6 +68,7 @@
 \usepackage{anysize}
 \usepackage{amsmath}
 \usepackage{natbib}
+% \usepackage[style=authoryear,backend=biber]{biblatex}
 \usepackage{caption}
 \usepackage{hyperref}
 \usepackage{listings}
@@ -155,11 +155,9 @@
 \include{Evaluation}
 \include{Conclusions}
 
-% \begin{thebibliography}{refs}                   %% Start your bibliography here; you can
-\addcontentsline {toc}{chapter}{Bibliography}     %% Force Bibliography to appear in contents
+\addcontentsline{toc}{chapter}{Bibliography}     %% Force Bibliography to appear in contents
 \bibliographystyle{apalike}
-\bibliography{refs}                               %% also use the \bibliography command
-% \end{thebibliography}                            %% to generate your bibliography.
+\bibliography{refs}                               %% Use your refs.bib file
 
 
 %\addcontentsline {toc}{chapter}{Appendices}       %% Force Appendices to appear in contents
