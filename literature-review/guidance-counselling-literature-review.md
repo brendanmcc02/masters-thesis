@@ -507,26 +507,6 @@ times more likely to experience high purpose in work
 * Students with less educated parents will often pick college majors with higher early-career earnings and a more defined career path.
     * I believe this is due to less financial risk tolerance, so they prioritise "safer" paths.
 
-# Bias
-
-## **[Do Humans Prefer Debiased AI Algorithms? A Case Study in Career Recommendation](https://rashid-islam.github.io/homepage/files/papers/Do_Humans_Prefer_Debiased_AI_Algorithms_IUI-22-Paper.pdf)**
-* **Crazy paper**
-* They apply a case study in career recs, mad.
-* In offline evaluation, a debiased ML system was shown to have better results than the biased one
-* but in online evaluation, people preferred the biased system
-* it makes a good point that people address the bias in AI systems, but forget that humans themselves are biased in choosing recommendations, so that we can't effectively mitigate, or even eliminate the proble, because the human is and will be biased.
-* It mentions that it's approach to fairness is not "fairenss through unawareness"
-    * "fairenss through unawareness" is the approach I was considering :flushed:
-* people will shun the idea of a particular career if they know if it is dominated by the opposite gender, even if the career is a great fit
-    * e.g. a curious, investigative girl might turn down CS because it's known to be male-dominated.
-* they suggest one way to overcome this human bias is to "nudge" them towards a particular career they know challenges their biases
-    * not sure how i feel about this in regards to my case
-* a limit of their study is that 80% of the participants are not open to new career suggestions
-
-## [Debiasing the Human-Recommender System Feedback Loop in Collaborative Filtering](https://www.researchgate.net/publication/333076038_Debiasing_the_Human-Recommender_System_Feedback_Loop_in_Collaborative_Filtering)
-* Mentions that RS's often contribute to feedback loops: recommending popular items makes them more popular, and less popular items less popular
-* Proposes some novel methods for addressing this with CF
-
 # Are Personality Tests (e.g. OCEAN) relevant for guidance counselling?
 
 ## [Gemini Report](https://gemini.google.com/u/1/app/d716520782efd487)
