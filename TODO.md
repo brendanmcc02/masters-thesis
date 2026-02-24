@@ -6,6 +6,8 @@
     - [ ] delete old entry in `user-evaluation-metrics.tsv`
     - [ ] delete response in google form for part 2!
 
+- [ ] "accessed" for url's in refs
+
 # Owen meeting notes
 
 * read up on statistical power and p-value

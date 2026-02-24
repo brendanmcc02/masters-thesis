@@ -1,84 +1,96 @@
-% 
-
-
-% am I correct in saying we do not use "I"?
-% can we write in the 3rd person - e.g. "we"?
-% 
-
 \chapter{Introduction}
 \label{chapter:introduction}
 
 \section{Motivation}
 % owen's notes:
-% fghdmgfwg
-% flesh out role of gc's
-    % talk about the role this rs could take
-    % flesh out 
-    % an RS may sit in the space 
-
-% get some citation for 16-19 year old
 % do parentheses \citep - 
-% have the reference before the comma and full stop
-%netflix/amazon could be footnotes
 
-% lots of courses - talk about paralysis of choice - limitatinos
-% could talka bout the challenges of the issue more - e.g. limitation of resources
-
-% flesh it out! have more depth! - don't be afraid of depth and avoid skimming - "shoudl i include this? yes"
-
-In 2024, 79\% of Irish secondary school students progressed to college after graduation.\cite{hea2024key} \cite{gov2024department}
+% TODO - can I get some citation here for emotional worrying/anxiety for students surrounding this? would really drive it home
+% TODO - or some statistic suggesting the difficulty/stress of the decision, i feel this is much weaker without a citation.
+In 2024, 79\% of Irish secondary school students progressed to college after graduation \cite{hea2024key} \cite{gov2024department}.
 The students who have considered progressing to college have all been posed with the question:
-\emph{What course should I study?}
-
+\emph{What course should I study?} 
 This is a daunting question for many reasons.
 The majority of secondary school students are faced with making this decision 
 at 16-19 years old, an age with limited life experience and knowledge about the world.
-This decision comes with many personally confronting questions such as: 
-\emph{"What do I want to do with the rest of my life?"} and \emph{"What do I love doing?"} among many others.
+This decision comes with many personally confronting questions, which may include:
+\emph{"What do I want to do with the rest of my life?"} and \emph{"What do I love doing?"}, among many others.
 There also exists the fear of choosing a college course the student regrets - 
-in 2018, 31\% of recent Irish college graduates reported they were not likely to study their college course again, \cite{hea2018graduate}
-adding more weight to this important life decision.
+in 2018, 31\% of recent Irish college graduates reported they were not likely to study their college course again \cite{hea2018graduate}, 
+adding more weight to this crucial life decision.\\
 
 Choosing a college course is not only a challenging decision to wrestle with as an individual.
 Students are shown to be influenced by a multitude of external factors when choosing their college course.
-For instance, parents are one of the most influential factors on a student's college course choice. \cite{oya2015university}
+For instance, parents are one of the most influential factors on a student's college course choice \cite{oya2015university}. 
 In addition to this, an individual's gender, socioeconomic status and their parent's educational background
-are among the most prominent societal influences on an individual's college course choice \cite{oya2015university}. 
-In short, choosing a college course is a difficult decision as the student must navigate their personal preferences 
-and societal influences.\\
+are among the most prominent societal influences on an individual's college course choice \cite{oya2015university}, 
+adding complexity to a decision that is already challenging.\\
 
-A Recommender System (RS) is a technology that recommend items to a user.
-Well-known examples of RS's include Netflix \textbf{TODO} recommending films to their customers, or Amazon \textbf{TODO} suggesting products to their customers.
+% TODO - could start off this sentence a bit differently to have more flow and coherence between the previous paragraph
+% rather than just jumping out of nowhere
+To assist students in this challenging decision, it is worth introducing the role of 
+a Guidance Counsellor (GC).
+GC's are trained professional in Irish secondary schools, primarily known for assisting students in their career prospects after graduation.
+It is worth noting that the role of a GC extends well beyond vocational support - they are also trained to provide 
+educational, personal and social support \cite{igc2016core}.
+% make this flow a bit better rather than "jumping out"
+The Institute of Guidance Counsellors (IGC) \footnote{\url{https://igc.ie/}} is the professional body for GC's in Ireland.
+In a 2022 survey of GC's across Ireland, mental health issues were more commonly encountered compared to
+career decision-making issues \footnote{In a 2024 GC survey, career decision-making issues did surpass mental health issues as the most commonly encountered issue for GC's. \cite{igc2024survey}} \cite{igc2022survey}.
+In the IGC's 2024-2027 strategic plan \cite{igc2024plan}, the IGC noted this stronger prevalence of mental health issues compared to career decision-making issues,
+reflecting their change in strategy for GC's going forward and
+signalling a shift in priorities for GC's across Irish secondary schools: vocational support may not be the most important aspect to the role of a GC going forward.\\
+
+We can shift our focus to the more technical side of things. A Recommender System (RS) is a technology that recommend items to a user.
+Well-known examples of RS's include Netflix \footnote{\url{https://www.netflix.com/}} recommending films to their customers, or Amazon \footnote{\url{https://www.amazon.com/}} suggesting products to their customers.
 One of the earliest known RS's was \emph{Tapestry} in 1992,
-a system that made tailored mailing list recommendations to its users. \cite{goldberg1992using}
+a system that made tailored mailing list recommendations to its users \cite{goldberg1992using}. 
 Around this time, the field of RS's received considerable interest as e-commerce websites could increase
 their revenue if they suggested more personalised products to their users.
 Amazon and Netflix are the most notable adopters of RS's
-in order to increase company revenue. \cite{schafer1999recommender}
-
-% is this relevant/necessary really?
-% is it inappropriate for a section like this, should it perhaps be more appropriate for lit review where?
-The two most common types of RS's are \emph{Collaborative Filtering} and \emph{Content-based Filtering} RS's. \cite{aggarwal2016recommender}
+in order to increase company revenue \cite{schafer1999recommender}.
+There are a wide variety of approaches to recommending items to users, although, two very common types of RS's are \emph{Collaborative Filtering} and \emph{Content-based Filtering} RS's. 
 \emph{Collaborative Filtering} recommends items to users based on what other similar users also liked, whereas
-\emph{Content-based Filtering} recommends items to users based on the user's preferences.\\
+\emph{Content-based Filtering} recommends items to users based on the user's preferences \cite{aggarwal2016recommender}.\\
 
 As previously stated, an RS recommends \emph{items} to a \emph{user}.
 However, we can re-conceptualize an RS in the context of college courses:
 \emph{college courses} can take the place of \emph{items}, and a \emph{student} can take the place of a \emph{user}.
-Given the established difficulty in choosing a suitable college course, and a technology (RS) that could be appropriately applied to this domain,
-an exciting opportunity presents itself: A Recommender System for Irish College Courses.
+Given the established difficulty in choosing a suitable college course, the shifting priorities of GC's towards student mental health as opposed to career-making decisions,
+and a technology that could be appropriately applied to this domain,
+an exciting opportunity presents itself: A Recommender System for Irish College Courses.\\
+
 A technology, such as an RS, could aid a student in navigating a difficult decision-making process.
+For instance, there are over 45 higher education institutes in Ireland offering a total of over 1700 courses \footnote{Higher education colleges and courses can be found here: \textbf{TODO}}, %\url{https://careersportal.ie/courses/coursefinder}
+representing a huge set of choice to the student.
+An advantage of a personalised RS is to provide a user with a much smaller list of relevant recommendations.
+\cite{long2025choice} demonstrated that smaller recommendation sets are often equally as effective as larger recommendations sets,
+suggesting that a much narrower set of personalised college course recommendations could be effective in this space.\\
+
+It is worth noting that there are no intentions behind this RS to replace the career guidance role of a GC.
+As mentioned previously, choosing a college course is a difficult and personally confronting decision.
+GC's are trained to additionally support a student's social and personal needs \cite{igc2016core},
+allowing the GC to provide a student with empathetic and human-centric support - 
+an aspect that a traditional RS would fail to effectively convey.\\
+
+Furthermore, there are no intentions behind this RS to entirely replace the student's college course decision-making process.
+As we will discover in Chapter \ref{chapter:literature-review}, the decision of a college course is incredibly nuanced.
+It is the author's opinion that no system can or should make that decision entirely for an individual.\\
+
+Rather, the intention behind this RS is to \emph{complement} the student's college course decision-making process.
+In the case of a college course RS, the author would argue that an effective RS would assist a student in exploring 
+a variety of career paths that may be relevant to them.\\
+
 This ultimately describes the motivation behind this research.
 
 \section{Research Question}
 
-% dissertation or thesis?
-In light of the motivation behind this research, the Research Question for this dissertation \textbf{TODO} can be formulated:
+In light of the motivation behind this research, the Research Question for this dissertation can be formulated:
 \emph{How can a Recommender System assist an individual in their college course decision-making process?}
 
 \section{Research Objectives}
 
-With the motivation and research question formulated, the research objectives for this dissertation \textbf{TODO} are outlined below:
+With the motivation and research question formulated, the research objectives for this dissertation are outlined below:
 % bg read
 \begin{enumerate}
     % this is more-so aimed at bg reading section - is this relevant for a research objective?
