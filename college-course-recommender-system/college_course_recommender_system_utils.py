@@ -35,8 +35,8 @@ MAX_NUM_OF_BASELINE_RECOMMENDED_COURSES_PER_CATEGORY = 5
 MAX_NUM_OF_COLLEGE_COURSE_RECOMMENDATIONS = 20
 
 FIVE_POINT_LIKERT_SCALE_WEIGHT_MAP = {5: 1.0,
-                                      4: 0.25, 
-                                      3: 0.05, # maybe increase? 
+                                      4: 0.25,
+                                      3: 0.05,
                                       2: 0,
                                       1: 0}
 

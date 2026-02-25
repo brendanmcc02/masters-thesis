@@ -1,18 +1,22 @@
 \chapter{Background Reading}
 \label{chapter:background-reading}
 
-% intro: say that high/secondary schools and colleges have different entry requirements and systems,
-% this dissertation seeks to focus on just the irish system.
-% it is worth noting that the proposed solution in this dissertation may be generalised to other 
-% countries system, however it may require some tuning - specific details of this lie beyond the scope of this dissertation.
-
 As mentioned in Chapter \ref{chapter:introduction}, this dissertation specifically focuses on a College Course RS
-in the context of the Irish secondary school and higher education system.
+in the context of the Irish secondary school and college system.
 Grading systems and college admission systems often differ between countries, so
 this chapter seeks to provide essential background knowledge behind the Irish secondary school
 and the college admission system.
+Section \ref{section:lc} explains the Leaving Certificate,
+Section \ref{section:nfq} describes the National Framework of Qualifications,
+Section \ref{section:cao} explains the Central Applications Office,
+Section \ref{section:entry-requirements} describes Irish college entry requirements,
+and finally a summary of the chapter is provided in Section \ref{section:background-reading-summary}.
+Upon completion of the chapter, the reader should be familiar with the workings of the Irish secondary school and college admission system.
 
+% TODO - am I correct in saying this section should just provide bg knowledge to colleges, and nothing to do with RS?
+% TODO - does this information have to be cited?
 \section{The Leaving Certificate}
+\label{section:lc}
 
 The Leaving Certificate (LC) is the final examination taken by the majority of secondary school students in Ireland.
 Instead of taking the LC, students can take the Leaving Certificate Applied (LCA) which is a more practical alternative to the LC.
@@ -29,6 +33,7 @@ and a student that gets a mark of 64\% in their OL LC Geography exam receives an
 A student is examined in a minimum of 6 subjects, and their overall LC points is an accumulation of the points received in each examined subject.
 
 \section{NFQ Levels}
+\label{section:nfq}
 
 The Irish National Framework of Qualifications (NFQ) \footnote{\url{https://www.qqi.ie/what-we-do/the-qualifications-system/national-framework-of-qualifications}} is a system that describes all education qualifications in Ireland.
 It is a 10-level system, where 1 is the lowest and 10 is the highest (doctorate degree). 
@@ -43,29 +48,74 @@ Central Applications Office (CAO) \footnote{\url{https://www.cao.ie/}}, the cent
 As part of a CAO application, students are encouraged to create two numbered lists, each with up to 10 college courses.
 One of these numbered lists are for NFQ Level 8 college courses, and the other list is for NFQ Level 6 and 7 college courses.
 These college courses are ordered by the student's preference of study - for instance, the student's number one choice would be the course they want 
-to study the most, and their number ten choice is the course they want to study the least out of this list.
+to study the most, and their number ten choice is the course they want to study the least out of this list.\\
+
+The preference ranking of a student's CAO application courses is relevant here.
+For example, if a student receives an offer for a course that is ranked first in their list,
+they will not receive offers for courses below this preference, even if they satisfy the course's entry requirements.
+Entry requirements will be explained in section \ref{section:entry-requirements}.
 
 \section{Entry Requirements}
+\label{section:entry-requirements}
 
+Entry requirements for colleges differ by country, and in this section the entry requirements for Irish college courses is described.
 
+\subsection{LC Points}
+The primary entry requirement for most college courses in Ireland is LC points.
+For example, the Computer Science (CS) course in Trinity College Dublin (TCD) has a minimum entry requirement of 533 points \footnote{533 points as of 2025, see: \url{https://www.tcd.ie/courses/undergraduate/courses/computer-science/}},
+meaning that a student must achieve 533 points or higher in their LC to be considered admission into the course.
+A course's LC points is the points of the student who was last admitted to the course in the previous academic year.
+For example, let's suppose that in 2025, 150 people were admitted into CS in TCD.
+Out of all these 150 students, the student with the lowest LC points was 533, 
+meaning the course has a minimum entry requirement of 533 LC points.
+As a result, the LC points associated with a course are not fixed and fluctuate every year.
+LC points are commonly misunderstood as reflecting the difficulty of a course, however, it would be more accurate to say that the LC points reflect the \emph{demand} of a course.
 
-% talk about CAO system, LC, points, etc.
-% e.g. some courses requiring a science subject
-% e.g. some colleges e.g. ucd requiring a language subject(?)
-% irish exemptions
+\subsection{LC Subject Requirements}
+Many Irish college courses have grade requirements for specific subjects to allow admission into the course.
+In most cases, the subjects are relevant to the course and the college seeks knowledge in that subject.
+For example, CS in TCD has a minimum entry requirement of a H4 (60-69\% in HL) in Mathematics 
+to be considered for admission.\\
+
+In Ireland, students are obligated to take the LC English, Mathematics and Irish \footnote{Some students may qualify for an exemption from Irish if they satisfy certain requirements.} exams,
+and they choose a minimum of four additional subjects to take exams in.
+The student makes their subject choices in fifth year, which is the penultimate year in Irish secondary schools.
+Due to the differing subject entry requirements by college courses, some students may be unable to take certain courses 
+simply because they have not taken the relevant subject.
+For example, if a student has not taken two science \footnote{LC Physics, Chemistry, Physics/Chemistry, Biology and Agricultural Science.} subjects,
+they are unable to be admitted into Medicine \footnote{Subject requirements for TCD Medicine as of 2026: \url{https://www.tcd.ie/courses/undergraduate/courses/medicine/}},
+meaning that a student's college course options are already limited by the subject choices they made in fifth year, almost two years before they finalise their CAO college course list.\\
+
+In addition to specific college courses requiring a minimum grade in particular subjects,
+some subjects are required to be admitted into the college itself.
+For example, all Royal College of Surgeons in Ireland (RCSI) courses \footnote{As of 2026, see: \url{https://www.rcsi.com/dublin/undergraduate/medicine/entry-requirements}} require a third language \footnote{Langauges other than English and Irish, for example: German, Spanish, Italian, etc.}.
+
+% TODO - my RS does not take subject requirements into account - should i mention this here, or in the design?
+
+\subsection{Portfolios, Tests or Interviews}
+
+In a majority of cases, if a student satisfies the minimum entry requirements for a course with their LC points and subject grades,
+the student is admitted into the course.
+However, some Irish college courses have additional entry requirements.
+For instance, some courses may require the student to be examined in a test outside of the Leaving Certificate. 
+For example, all Medicine courses in Ireland require their applicants to sit the Health Professions Admissions Test (HPAT) \footnote{\url{https://hpat-ireland.acer.org/}}.
+Some college courses may also require a portfolio submission, or for the student to undertake an interview.
+For example, the Architecture course in Technological University Dublin (TUD) \footnote{\url{https://www.tudublin.ie/study/undergraduate/courses/architecture-tu832/}}
+requires the student to submit an additional portfolio showcasing the student's competence in sketching, painting, etc., 
+as well as an interview demonstrating their interest in the course.
+Some courses may also require students to go through Garda Vetting \footnote{\url{https://vetting.garda.ie/}}, 
+a background check for individuals working with children or vulnerable adults, an example of this includes General Nursing in TCD \footnote{\url{https://www.tcd.ie/courses/undergraduate/courses/nursing---general-nursing/}}.\\
+
+In the case of Portfolios and Tests, the students score in these are added to their total LC points.
+For example, if a student achieves 550 LC points and a score of 200 in the HPAT,
+their combined LC points is 750 only when the student is applying for courses that require the HPAT.
+This explains why some courses may have a minimum requirement of 732 LC points, despite 625 being the maximum achievable LC points.
 
 \section{Summary}
 \label{section:background-reading-summary}
 
-
-
-% At the beginning of each chapter, a description should introduce the reader to the content of the chapter. The description should explain to the reader the layout of the chapter, the contribution that the chapter makes to the overall dissertation and the contribution of the individual sections towards the overall chapter.
-
-% From the perspective of this document forming part of your degree, this chapter should demonstrate to the reader your knowledge of the area of your dissertation project. It should present your knowledge in a coherent and detailed form. The reader should understand that you have in-depth knowledge of the area of the dissertation without being overloaded with information.
-
-% \section{Background}
-
-% In a 2024 survey (https://hea.ie/statistics/graduate-outcomes/key-findings-go-2024/), 60.6\% of graduates considered their course relevant to their job, suggesting that 
-
-% A section on the background of the dissertation should provide the reader with an introduction to existing technologies and concepts that form the basis of the
-% work presented in the dissertation.
+In summary, this chapter provided the reader with knowledge surrounding the workings of the Irish secondary school and college admissions system.
+In particular, the LC and LC points system was explained, including the grading system and the way in which subjects are examined at different levels - for example, Higher Level or Ordinary Level.
+The reader was introduced to the workings of NFQ Levels and the CAO system, developing an understanding into the Irish college admission system.
+In addition to this, the varying entry requirements into specific courses or colleges were explained.
+With this chapter complete, the reader should have developed a broad understanding behind the Irish secondary school and college admission system.
