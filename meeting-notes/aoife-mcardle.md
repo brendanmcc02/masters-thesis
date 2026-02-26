@@ -19,7 +19,7 @@
 * we don't deal with ocean/mbti
 * there was some careers thing careers4u? -> aptitude tests, personality tests, etc. she found it destructive
 * she finds the personality tests can put labels on people -> pidgeon hole, kids wouldn't have the maturity to recognise the nuance of these labels, and they would infer and put themselves in that box
-* does no harm than good
+* does more harm than good
 
 # What other information do you ask them?
 * ask about their **favourite subjects/most challenging** and **why**
@@ -52,7 +52,7 @@
     * her experience is the complete opposite
     * she asked an entire class if they would prefer a job that makes lots of money that they don't like, or a job that they love but doesn't make a lot of money
     * in her school (rathdown, glenageary), everyone said they want the job that makes money
-    * they are accutely aware of economic reality and aren't naive
+    * they are acutely aware of economic reality and aren't naive
 * she does volunteer work once per week in a DEIS school
     * when you're from lower SES, there is less awareness of the kinds of jobs out there
     * for example, they may not really know what an economist does, etc.

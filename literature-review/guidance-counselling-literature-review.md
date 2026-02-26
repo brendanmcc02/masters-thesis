@@ -74,7 +74,8 @@
 * We can employ a mix of both - recs that align with what the person wants, and recs that align with what we think is best for them.
     * this ensures an overall well-reviewed RS - the user will be happy with recs that align with what they said they wanted, but are also given (hopefully) novel/serendipitous recommendations
 
-## [The importance of work goals: An international perspective.](https://www.jstor.org/stable/pdf/155006.pdf)
+## ~~[The importance of work goals: An international perspective.](https://www.jstor.org/stable/pdf/155006.pdf)~~ 
+* done in 1990, so outdated bro
 * A huge study done across 7 countries (EU, USA, Japan, Israel)
 * **They found "interesting work" to be the most valued work goal**
 * **"good pay" was the second most valued work goal**
@@ -256,6 +257,12 @@ times more likely to experience high purpose in work
         * it might cause a little change-of-mind, but unlikely
 
 # Course/Career choice
+
+## [](https://d1wqtxts1xzle7.cloudfront.net/89726146/Factors_Influencing_Students_in_Choosing_their_College_Course-libre.pdf?1660614971=&response-content-disposition=inline%3B+filename%3DFactors_Influencing_Students_in_Choosing.pdf&Expires=1772131386&Signature=XuHZjzpUHvzH-8BCbZmz-rZ4W50d65dFFsLc9Y83kgSoDUZ3VDMIaF2q913lp8X-NqhOra4hF~uLEFd00-QOIPc7vjMJCg8bRWTvOSolLdfccSgSimv3JwbOIh2tJlXIRJgLFBVwGk~NUqBKbOwnpSOpj55vaVjP3bZhyq2G9METbewDPJeNBtB4XTl6cdsVZl4ZAjZHwz~i2fD2~W1rOkaXg89n4wQXZ~R-m4~8tFriJl-7uQ7GCLhxZvGxME-f0mkHahYJWBr3q85K6cslEd1-mIDMoh~EayrLhH1g0rM1oh0RQtX1NGmycRA6FLviqK1H4vfQusVHpq7739vf-w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
+* parents
+* affordability
+* personal preference and interest
+* 
 
 ## [Holland's Theory of Career Choice](https://www.ebsco.com/research-starters/economics/hollands-theory-career-choice)
 

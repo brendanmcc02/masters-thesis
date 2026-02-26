@@ -1,3 +1,12 @@
+# Things to talk about in my thesis
+* a discussion on LLM's, is my idea useless and can someone just use a general-purpose LLM (e.g. chatgpt) to do college course recs?
+    * is a specially designed system necessary?
+* "for a living" and the phrasing of this question
+    * probably something to talk about in design chapter?
+* implications and responsibility of a system like this
+    * could have a big impact on a person's life
+    * e.g. could not recommend a course that could have been a great fit for a user
+
 # Owen Meeting 20/2/26
 lit review - 
 
@@ -32,88 +41,8 @@ talk about data storage -
 
 design chap could be methodology - e.g. design of research/experiment + design of system
 
-
-
 # Questions
-* what thesis structure am i going for? ok for bg read + lit review
+* should i have a separate chapter for closely-related work? separate it out from lit review?
 * qualitative research from GC interviews - do they go into bg reading?
 * do i talk about my evaluation metrics in a methodology section, or in the evaluation chapter?
-* for the intro chapter: how "in-depth" do i go here? do I cite a bunch of statistics to formulate my argument, or should chapters 2/3 (bg read + lit review) be more rigorous?
-
-# Links n shit
-*will put in refs later once i fix bibtex*
-* https://hea.ie/statistics/graduate-outcomes/key-findings-go-2024/
-* https://www.cso.ie/en/releasesandpublications/ep/p-heo/highereducationoutcomes-graduationyears2013-2022/keyfindings/
-* https://www.cso.ie/en/statistics/education/highereducationoutcomes/
-* https://hea.ie/statistics/graduate-outcomes-data-and-reports/graduate-outcomes-2018/honours-degree-graduates/
-* https://www.cso.ie/en/releasesandpublications/ep/p-aes/adulteducationsurvey2022/formaleducation/
 * 
-
-# Thesis Structure
-
-## 0. Abstract
-
-## 1. Introduction
-* briefly talk about the challenge of picking a college course
-* advent of RS, their application
-* exciting opportunity of RS to be applied here
-* motivation
-* research objectives
-
-## 2. Background Reading
-
-### the importance and weight of picking a college course
-
-### why do people pick certain college courses?
-
-#### internal drivers
-* look at the reasons people cite: passion, money, status, meaning, work/life balance, interesting, etc.
-
-#### external factors
-* cultural & socioeconomic influences:
-    * parents educational background
-    * your socio economic background
-
-### influence towards colleges themselves (independent to course)
-* location
-* finances
-* sport scholarships, other factors to the college that has nothing to do with the course
-* friends
-
-### ask the question "so, what course should people study?"
-* examine the scientific literature of different career choice theories:
-    1. college course specifically
-        * holland's theory RIASEC (person-environment fit)
-        * frank parson's theory
-        * "passion" hypothesis - steve jobs: find work that you love
-            * cite dweck's work to counter this
-    2. career theories
-        * life-span, life-space theory
-        * social cognitive career theory
-
-### career satisfaction
-
-### job satisfaction
-
-### human psychology in rs
-* *this section may not be relevant*
-* preference construction vs discovery
-
-## 3. Literature review
-* examine past approaches to college course/career RS'
-
-### bias in career RS - cite the paper!
-
-## 4. Design
-
-## 5. Implementation
-
-## 6. Methodology
-* do i explain metrics here? or in evaluation section
-
-## 7. Evaluation
-* do i explain metrics here? or in methodology
-* analysis of the metrics
-
-## 8. Conclusions
-* future work
