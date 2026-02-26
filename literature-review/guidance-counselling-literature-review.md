@@ -29,7 +29,7 @@
 * they suggest that a good RS not only gives good recs, but suggests ways to improve self-efficacy and refine career interests
     * for instance, recommending internships or work experience
     * slightly out of scope imo, but interestng to note.
-* Children of higher socioeconomic status backgrounds are more likely to prioritise non-monetary rewards when it comes to career, such as time for family (work/life balance) and social impact (meaningful work)
+* Children of higher socioeconomic status backgrounds are more likely to prioritise non-monetary rewards when it comes to career, such as time for family ( life balance) and social impact (meaningful work)
 
 ## [Taylorism](https://www.munich-business-school.de/en/l/business-studies-dictionary/taylorism)
 * A theory for industry that reduced work into small, simple tasks that were executed repetitively by workers
@@ -258,11 +258,6 @@ times more likely to experience high purpose in work
 
 # Course/Career choice
 
-## [](https://d1wqtxts1xzle7.cloudfront.net/89726146/Factors_Influencing_Students_in_Choosing_their_College_Course-libre.pdf?1660614971=&response-content-disposition=inline%3B+filename%3DFactors_Influencing_Students_in_Choosing.pdf&Expires=1772131386&Signature=XuHZjzpUHvzH-8BCbZmz-rZ4W50d65dFFsLc9Y83kgSoDUZ3VDMIaF2q913lp8X-NqhOra4hF~uLEFd00-QOIPc7vjMJCg8bRWTvOSolLdfccSgSimv3JwbOIh2tJlXIRJgLFBVwGk~NUqBKbOwnpSOpj55vaVjP3bZhyq2G9METbewDPJeNBtB4XTl6cdsVZl4ZAjZHwz~i2fD2~W1rOkaXg89n4wQXZ~R-m4~8tFriJl-7uQ7GCLhxZvGxME-f0mkHahYJWBr3q85K6cslEd1-mIDMoh~EayrLhH1g0rM1oh0RQtX1NGmycRA6FLviqK1H4vfQusVHpq7739vf-w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
-* parents
-* affordability
-* personal preference and interest
-* 
 
 ## [Holland's Theory of Career Choice](https://www.ebsco.com/research-starters/economics/hollands-theory-career-choice)
 
