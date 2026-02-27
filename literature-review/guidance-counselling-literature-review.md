@@ -487,7 +487,8 @@ times more likely to experience high purpose in work
     * That does not tell the full story
     * Some careers have longer ROI, others lead to quicker ROI.
 * Gemini claims that social influence (e.g. friends, teachers, etc.) is **not uniform across cultures**
-    * it's source is one study that found African-Americans are more influenced by high-school teachers than whites
+    * ~~it's source is one study that found African-Americans are more influenced by high-school teachers than whites~~
+    * i think this is hallucination because i couldnt find this info from the source it provided
 * In my prompt, I asked about a link between college majors and career
     * for some people, they see college as a place to equip them with specified skills for a more defined career
         * e.g. study CS to be a software engineer
