@@ -2,15 +2,13 @@
 \label{chapter:introduction}
 
 \section{Motivation}
+\label{section:motivation}
 
 This section describes the context behind known problems in the research domain and provides some background knowledge.
 In light of these established problems, a technology is introduced, one that could be appropriately applied to this domain.
 The applicability of the proposed solution is also discussed, all relevant issues
 in describing the research motivation behind this dissertation.\\
-% The research motivation behind this dissertation is then described in light of these established problems,
-% providing the reader with some essential context going forward into this dissertation.\\
 
-% TODO - how do author-year citations work? do I like work it into text, or throw it at the end of a sentence?
 According to \cite{hea2024key, gov2024department}, 79\% of Irish secondary school students progressed to college after graduation.
 The students who have considered progressing to college have all been posed with the question:
 \emph{What course should I study?} 
@@ -71,28 +69,32 @@ An advantage of a personalised RS is to provide a user with a much smaller list 
 \cite{long2025choice} demonstrated that smaller recommendation sets are often equally as effective as larger recommendations sets,
 suggesting that a much narrower set of personalised college course recommendations could be effective in this space.\\
 
-% TODO - ask Owen: do you think this is relevant for this section?
-% I definitely want to talk about it, but I wonder if it fits here?
-% if it should go somewhere else - then where should it go?
-It is worth noting that there are no intentions behind this RS to replace the vocational support role of a GC.
-Choosing a college course is a difficult and personally confronting decision, and 
-as mentioned in \cite{igc2016core}, GC's are trained to additionally support a student's social and personal needs,
-allowing the GC to provide a student with empathetic and human-centered support - 
-an aspect that a traditional RS would fail to effectively convey.\\
+For the 2026/2027 academic year, 52 \footnote{See \url{https://careersportal.ie/courses/coursefinder?types_in=2} for new courses} new higher education courses 
+were introduced in Ireland.
+Moreover, as discussed in Section \ref{section:lc-points}, the requirements for Irish higher education courses 
+change every year as a reflection of demand and changing priorities.
+This introduces administrative strain on GC's, making it difficult to have up-to-date awareness on the newest courses 
+and current course entry requirements.
+A technology, such as an RS, can be automated to hold the latest college course information
+and utilise this information in recommending college courses that a human GC may not even be aware of, 
+posing a potential advantage of an RS in this domain.\\
 
-Furthermore, there are no intentions behind this RS to entirely replace the student's college course decision-making process.
-As we will discover in Chapter \ref{chapter:literature-review}, the decision of a college course is incredibly nuanced.
-It is the author's opinion that no system can or should make that decision entirely for an individual.
-The intention behind this RS is to \emph{complement}, rather than replace, the student's college course decision-making process,
-assisting the student in exploring a variety of career paths that may be relevant to them.\\
-
-% TODO - could probably flesh this out into a mini paragraph, i.e. quick summary rather than a one-liner
-This ultimately describes the motivation behind this research.
+In this section, we established the numerous difficulties posed to an individual in choosing a suitable college course.
+These difficulties include the sheer weight of this decision, and the external, societal factors that influence a student's college course decision.
+We then discussed the shifting priorities of GC's from vocational to personal support, 
+and introduced a technology which could be applicable to this domain - a Recommender System.
+A discussion was given into the ways in which a college course RS could alleviate this problem for both students and GC's,
+ultimately describing the motivation behind this research.
 
 \section{Research Question}
 
 In light of the motivation behind this research, the Research Question for this dissertation can be formulated:
-\emph{How can a Recommender System assist an individual in their college course decision-making process?}
+\emph{How can a Recommender System assist an individual in their college course decision-making process?}\\
+
+As we established Section \ref{section:motivation}, choosing a college course is a difficult, multi-faceted decision.
+In this dissertation's Research Question, "assist" simply refers to helping the student navigate the difficult process of choosing a college course.
+A more elaborate discussion of how a college course RS can assist a student in a process like this is given in \textbf{TODO}.
+% TODO - does this actually get discussed elsewhere?
 
 \section{Research Objectives}
 
@@ -100,12 +102,9 @@ With the motivation and research question formulated, the research objectives fo
 \begin{enumerate}
     \item \label{research-objective-background} Conduct thorough background research into an individual's motivations and influences behind choosing a college course.
     \item \label{research-objective-information} Identify the relevant information to question a user in order to make suitable college course recommendations.
-    \item \label{research-objective-statistically} Create an Irish college course RS with statistically significant improvements compared to a baseline college course RS.
+    \item \label{research-objective-statistically} Create an Irish college course RS with statistically significant improvements compared to a baseline college course RS. % TODO - IF NOT statisitcal power = "user-perceived improvmenets"!!!
     \item \label{research-objective-evaluation} Analyse user evaluation metrics gathered from a conducted experiment. 
-    % TODO is this what owen might by "add user-based evaluation to objectives"? that's what he said to me on 20/2/26
     \item \label{research-objective-good-rs} Explore the qualities that would make an effective college course RS.
-    % TODO - ask owen: i just added this in today (25/02/26), I think there is a lot to this objective actually,
-    % and i think it would make for a relevant/interesting discussion in the evaluation section.
 \end{enumerate}
 
 \section{Overview}
