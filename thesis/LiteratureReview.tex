@@ -3,12 +3,14 @@
 
 % TODO - am I right in introducing the chapter in this fashion?
 % is this the kind of pattern that will be repeated for all other chapters? i.e. introduce the chapter content, and talk about the upcoming sections and what to expect, etc.
-In this chapter, there will be a review of the literature regarding the fundamentals of college course choice, found in Section \ref{section:fundamentals}.
+
+% TODO - probably need to re-write this after changing chapter content!
+In this chapter, there will be a review of the literature regarding the fundamentals of college course choice, explored in Section \ref{section:fundamentals}.
 As part of this review, a discussion of an individual's preferences in choosing a college course is provided in Section \ref{section:individual}.
 % Section \ref{section:external} seeks to explore the external and societal influences on an individual's college course choice.
 Section \ref{section:theories-college} examines the theories of college and career choice in the realm of Vocational Psychology.
 Similarly, Section \ref{section:theories-job} examines the theories of job and career satisfaction.
-Interviews with expert guidance counsellors were conducted as part of this research, and a qualitative analysis of these interviews are provided in Section \ref{section:interviews}.
+
 After a thorough review of the fundamentals of college course choice, Section \ref{section:relevant} seeks to answer the question: 
 \emph{"What relevant information should we question a user in order to make suitable college course recommendations?"}.
 In addition to this, this chapter provides an examination into closely-related work, found in Section \ref{section:closely-related-work}.
@@ -17,24 +19,29 @@ Finally, a summary of this chapter is provided in Section \ref{section:literatur
 \section{Fundamentals of college course choice}
 \label{section:fundamentals}
 
+% TODO - probably need to re-write this after changing chapter content!
+
 This section provides a broad overview into the fundamentals of college course choice.
-Ultimately, it seeks to answer the question: \emph{"How do people pick college courses?"}.
+Ultimately, this discussions seeks to provide insights to the question: \emph{"How do people pick college courses?"}.
 As we will discover in the coming sections, there are no straightforward answers to this question, 
 and there are many nuances which will be discussed.
+% TODO - not so happy with the phrasing of this, and ultimately the significance the foundations that are layed in this chapter
 Understanding the fundamentals of college course choice is important to this dissertation for two main reasons:
 firstly, to help us answer the question: \emph{"What relevant information should the user be questioned in order to make suitable college course recommendations?"},
 which will be explored in Section \ref{section:relevant}.
-Secondly, to ensure that design decisions are well-informed by the literature surrounding college course choice, which will be explored in Chapter \ref{chapter:design}.
-
-\subsection{Individual preferences and influences}
-\label{section:individual}
+Secondly, to ensure that design decisions are well-informed by the literature surrounding college course choice, which will be explored in Chapter \ref{chapter:design}.\\
 
 As established in Chapter \ref{chapter:introduction}, choosing a college course is a major life decision.
 As a result, we can assume that students choose a particular course at a particular college for a set of reasons.
 Some of these reasons are intrinsic preferences to the individual, and others are external, societal influences.
 We will first examine a student's intrinsic preferences behind their college course choice.\\
 
-In \cite{matthews2024students, gillis2021choosing, mullen2011degrees}, commonly cited reasons for students
+\subsection{Individual preferences and motivations}
+\label{section:individual}
+
+
+
+In \cite{matthews2024students, gillis2021choosing, mullen2011degrees}, the most common and prominent reasons students cited when
 choosing their college course can be broadly categorised as: \emph{interest} or \emph{passion} in the subject area,
 \emph{helping people} or \emph{making a difference},
 \emph{satisfying parent's desires},
@@ -49,17 +56,36 @@ Moreover, \cite{goyette2006studies} found that those of Asian descent were more 
 prioritise \emph{salary expectations} in their college course choice,
 showcasing the different priorities of reasons for college course choice across race and gender.
 Despite a difference in priorities across gender and race when considering college course choice,
-the papers still conclude all the above reasons are relevant across the differing genders and races.\\
+the papers still conclude all the above reasons are relevant across the differing genders and races.
+In other words, despite the findings that those of Asian descent were more likely to prioritise salary expectations after graduation, 
+does not imply they do not also value other motivations in choosing their college course, such as \emph{interest or passion} in the subject, or \emph{helping people}.\\
+
+\subsection{College influences}
+\label{section:college-influences}
 
 Choosing a college course is one decision, but a separate and closely related decision is choosing the college itself.
-\cite{oya2015university, cmp2018students} have found that students provide a variety of reasons for their college choice which include:
-prestige or reputation of the college, 
-location and practicality, 
-friends attending the college,
-family members being college alumni,
-and particular sports clubs or societies.\\
+For instance, a student may settle on studying Computer Science, but the next question to ask is: \emph{Where do I study Computer Science?}
+\cite{oya2015university, cmp2018students, baharun2010institutional} have found that students provide a variety of reasons for their college choice, the most prominent reasons include:
+\emph{prestige} or \emph{reputation} of the college, 
+\emph{location} or \emph{practicality}, 
+\emph{friends} attending the college,
+\emph{departments} or \emph{academic staff},
+\emph{family members} being college alumni,
+and particular \emph{sports clubs} or \emph{societies}.
+That being said, there seem to be cultural differences 
+in priorities towards college choice.
+For instance, in \cite{baharun2010institutional}, a study of Malaysian college students, the college's \emph{reputation} was the most important criteria
+in their college choice justification , 
+whereas in \cite{telli2006university}, a study of Turkish college students, \emph{departments} and \emph{academic staff} were the most important criteria
+in their college course justification.
+While we can clearly observe cultural differences in the most important criteria for college choice,
+a similar point stands:
+just because Malaysian students, for example, value college reputation as the most important criteria in college choice, 
+does not imply Malaysian students do not value other aspects to the college when reasoning about their college decision, 
+as can be found in \cite{baharun2010institutional}.\\
 
-
+\subsection{External Influences}
+\label{section:external-influences}
 
 % external influences:
 % may not be able to afford going to a college because of accomodation prices - location limitation
@@ -67,19 +93,13 @@ and particular sports clubs or societies.\\
     % 1. more defined career path
     % 2. 
 
-% passion hypothesis
-
 \subsection{Theories of career \& college course choice}
 \label{section:theories-college}
 
-
+% passion hypothesis
 
 \subsection{Theories of job \& career satisfaction}
 \label{section:theories-job}
-
-% TODO - owen said put this into design!
-\subsection{Interviews with guidance counsellors}
-\label{section:interviews}
 
 % owen said this stuff is necessary to inform my RS
 % 
@@ -88,6 +108,7 @@ and particular sports clubs or societies.\\
 \subsection{Summary}
 \label{section:fundamentals-summary}
 
+% maybe we don't talk about this here, and instead in design?
 \section{Relevant information to question}
 \label{section:relevant}
 
