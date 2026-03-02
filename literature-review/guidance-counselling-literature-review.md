@@ -501,7 +501,6 @@ times more likely to experience high purpose in work
 * Culture is a big influence on course/career choices, particularly on high-school age where they have less autonomy, life experience and generally more susceptible to parental/societal influence.
 
 ## [Rich Grad, Poor Grad](https://docs.iza.org/dp16099.pdf)
-* great title btw
 * They see a **strong correlation** between a student's college major choice and their family's educational background.
 * Interestingly, parental income has a weak influence on a student's college major choice.
     * However, the parental income is a large influence on the institution their child attends, but not necessarily the major.
