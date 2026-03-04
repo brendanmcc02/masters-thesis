@@ -377,6 +377,9 @@ times more likely to experience high purpose in work
 * financially risky - the types of jobs that are often targeted when people say "follow your passion" (e.g. artist, sports player, etc.) are incredibly high-risk
     * this is ignorant and poor advice to people who do not have financial safety nets, and thus less financial risk tolerance
 
+## [limitations of "follow your passion"](https://psycnet.apa.org/buy/2023-68958-001)
+* have a look at this!
+
 ## [Gemini Report](https://gemini.google.com/u/1/app/b6267c0fa0de9643)
 * Nothing too novel tbh, doesn't give academic citations, so it's mostly argumentative as opposed to scientific, which isn't really something I'm looking for with my literature review
 
