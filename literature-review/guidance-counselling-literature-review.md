@@ -61,6 +61,23 @@
 * they theorize that an individual's innate personality traits are primary drivers of job satisfaction, which remain stable even across different jobs and environments
 * in other words, job satisfaction lies primarily with the individual's disposition, as opposed to lying primarily with external job circumstances 
 
+## [Herzberg's Two-Factor Theory](https://www.simplypsychology.org/herzbergs-two-factor-theory.html)
+* Posits that the factors that lead to **job dissatisfaction** are **different** to those that lead to **job satisfaction**
+* **Motivators/Satisfiers**
+    * Achievement
+    * Interest
+    * Responsibility
+    * Advancement
+* These tap into an individual's desire for meaning, challenge and achievement
+* **Hygiene factors/dissatisifers**
+    * Salary
+    * Conditions
+    * Policies
+    * Supervision
+    * Relationships
+* He argues these do not create satisfaction, they merely prevent dissatisfaction, which is not the same.
+* There is some [controversy](https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1744-6570.1971.tb02470.x) surrounding this theory, so do deeper research if you want to cite him
+
 # Career Satisfaction
 
 ## The paradoxical disconnect between what people want, and what's best for them
@@ -75,7 +92,7 @@
     * this ensures an overall well-reviewed RS - the user will be happy with recs that align with what they said they wanted, but are also given (hopefully) novel/serendipitous recommendations
 
 ## ~~[The importance of work goals: An international perspective.](https://www.jstor.org/stable/pdf/155006.pdf)~~ 
-* done in 1990, so outdated bro
+* **done in 1990, so outdated bro**
 * A huge study done across 7 countries (EU, USA, Japan, Israel)
 * **They found "interesting work" to be the most valued work goal**
 * **"good pay" was the second most valued work goal**
@@ -122,23 +139,6 @@
         * etc.
 * It mentions that for effective counselling (right away I think that's a bit of scope for me, I just want to focus on recommending courses/careers), we should ask the individual deep, reflective questions to help them identify what they find meaningful in their life
     * on second thought, I don't think this should immediately be considered "out of scope", it may be relevant to help the model gain insights to recommend courses that could align with their values.
-
-## [Herzberg's Two-Factor Theory](https://www.simplypsychology.org/herzbergs-two-factor-theory.html)
-* Posits that the factors that lead to **job dissatisfaction** are **different** to those that lead to **job satisfaction**
-* **Motivators/Satisfiers**
-    * Achievement
-    * Interest
-    * Responsibility
-    * Advancement
-* These tap into an individual's desire for meaning, challenge and achievement
-* **Hygiene factors/dissatisifers**
-    * Salary
-    * Conditions
-    * Policies
-    * Supervision
-    * Relationships
-* He argues these do not create satisfaction, they merely prevent dissatisfaction, which is not the same.
-* There is some [controversy](https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1744-6570.1971.tb02470.x) surrounding this theory, so do deeper research if you want to cite him
 
 ## [Another Gemini Report, different prompt & context but still relevant](https://gemini.google.com/u/1/app/2ea72a12c1e68c3c)
 * It mentions that we shouldn't be so narrow-minded on personality/trait match to jobs
