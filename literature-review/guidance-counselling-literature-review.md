@@ -78,19 +78,6 @@
 * He argues these do not create satisfaction, they merely prevent dissatisfaction, which is not the same.
 * There is some [controversy](https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1744-6570.1971.tb02470.x) surrounding this theory, so do deeper research if you want to cite him
 
-# Career Satisfaction
-
-## The paradoxical disconnect between what people want, and what's best for them
-* What people say they want, is often different to what is actually best for them
-    * in [this](/literature-review/papers/Bates_PurposefulWork_041119_DIGITAL_lg.pdf) study, people will often choose money over meaning in jobs
-    * despite the literature saying that people are more satisfied with careers with a sense of meaning, and money is a weak correlator in job/career satisfaction (it's also a hygiene factor)
-* Should the RS recommend what people say they want?
-    * i.e. take their profile & preferences as gospel truth
-* Or should the RS recommend what it thinks is best for them, even when some suggestions can contradict their preferences?
-    * I don't think this is the end of the world, people may also have their preferences constructed/discovered when presented with challenging/novel/serendipitous recs
-* We can employ a mix of both - recs that align with what the person wants, and recs that align with what we think is best for them.
-    * this ensures an overall well-reviewed RS - the user will be happy with recs that align with what they said they wanted, but are also given (hopefully) novel/serendipitous recommendations
-
 ## ~~[The importance of work goals: An international perspective.](https://www.jstor.org/stable/pdf/155006.pdf)~~ 
 * **done in 1990, so outdated bro**
 * A huge study done across 7 countries (EU, USA, Japan, Israel)
@@ -113,6 +100,19 @@
     * more valued by men than women
 * they mentioned a lack of confidence in the sex differences, and said it could be down to a conflict between a woman's role as a homemaker vs in a career.
 
+# Career Satisfaction
+
+## The paradoxical disconnect between what people want, and what's best for them
+* What people say they want, is often different to what is actually best for them
+    * in [this](/literature-review/papers/Bates_PurposefulWork_041119_DIGITAL_lg.pdf) study, people will often choose money over meaning in jobs
+    * despite the literature saying that people are more satisfied with careers with a sense of meaning, and money is a weak correlator in job/career satisfaction (it's also a hygiene factor)
+* Should the RS recommend what people say they want?
+    * i.e. take their profile & preferences as gospel truth
+* Or should the RS recommend what it thinks is best for them, even when some suggestions can contradict their preferences?
+    * I don't think this is the end of the world, people may also have their preferences constructed/discovered when presented with challenging/novel/serendipitous recs
+* We can employ a mix of both - recs that align with what the person wants, and recs that align with what we think is best for them.
+    * this ensures an overall well-reviewed RS - the user will be happy with recs that align with what they said they wanted, but are also given (hopefully) novel/serendipitous recommendations
+
 ## [Gemini Report](https://gemini.google.com/u/1/app/090cdbcca0ff3582)
 * We should not measure career satisfaction by things like salary, job title, etc.
     * these are reductionistic, and also misleading.
@@ -124,6 +124,7 @@
     * now, career fluidity is encouraged
 * people are starting to value things such as meaning and personal fulfilment in their work
 * According to Super, career satisfaction is the congruence between a person's evolving self-concept and their chosen work & life roles
+    * gemini hallucination/filling in gaps, super doesn't really claim this
 * a person's pyschological make-up (e.g. OCEAN) is a powerful predictor of their career satisfaction
     * these cannot be changed easily
     * can these be meaningfully integrated into an RS that recs careers/courses? i dont think so, it is what it is
