@@ -1,3 +1,9 @@
+# 9/3/25 - ROUGH PLAN
+1. Week of 9th March - Finish Lit Review (3), Initial Prototypes (4)
+2. Week of 16th March - 29th March- Design (5)
+3. Week of 23rd March - Implementation (6)
+6. 30th March - 10th April: Methodology (7), Evaluation (8) and Conclusion (9)
+
 # Things to talk about in my thesis
 * a discussion on LLM's, is my idea useless and can someone just use a general-purpose LLM (e.g. chatgpt) to do college course recs?
     * is a specially designed system necessary?
@@ -42,7 +48,4 @@ talk about data storage -
 design chap could be methodology - e.g. design of research/experiment + design of system
 
 # Questions
-* should i have a separate chapter for closely-related work? separate it out from lit review?
-* qualitative research from GC interviews - do they go into bg reading?
-* do i talk about my evaluation metrics in a methodology section, or in the evaluation chapter?
 * 
