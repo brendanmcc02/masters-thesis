@@ -4,14 +4,14 @@
 3. Week of 23rd March - Implementation (6)
 6. 30th March - 10th April: Methodology (7), Evaluation (8) and Conclusion (9)
 
-# Things to talk about in my thesis
-* a discussion on LLM's, is my idea useless and can someone just use a general-purpose LLM (e.g. chatgpt) to do college course recs?
-    * is a specially designed system necessary?
+# Things to talk about in my thesis - TODO
 * "for a living" and the phrasing of this question
     * probably something to talk about in design chapter?
 * implications and responsibility of a system like this
     * could have a big impact on a person's life
     * e.g. could not recommend a course that could have been a great fit for a user
+* the research question: "how does this RS **assist** people in their college-course decision-making process"?
+    * where does it fit with the GC process - how do we slot it in?
 
 # Owen Meeting 20/2/26
 lit review - 

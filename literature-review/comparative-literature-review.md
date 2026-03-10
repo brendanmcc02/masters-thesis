@@ -62,7 +62,6 @@
 * Kinda ass paper ngl
 
 ## [Envisioning Tomorrow: AI Powered Career Counseling](https://ieeexplore.ieee.org/abstract/document/10426016)
-* Can't get full access
 * They profile student's:
     1. Grades
     2. Extracurriculars
