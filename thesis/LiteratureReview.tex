@@ -288,7 +288,7 @@ The Career Interests Inventory (CII) \footnote{\url{https://teamfocus.co.uk/psyc
 is listed by the Irish Department of Education
 as an acceptable career guidance test in Guidance Counselling practice, according to \cite{gov2024list}.
 In addition to this, the leading career guidance website in Ireland is CareersPortal \footnote{\url{https://careersportal.ie/}},
-with under 20 million average active recipients per month \footnote{According to \url{https://careersportal.ie/about-us}}.
+with under 20 million average active recipients per month \footnote{\label{fig:careers-portal-footnote} According to \url{https://careersportal.ie/about-us}}.
 CareersPortal helps users find jobs using an Interest Profiler quiz \footnote{\url{https://careersportal.ie/members/interests_check.php}} 
 which is largely inspired by Holland's six personality categories,
 demonstrating Holland's theory's extensive impact across career guidance and Guidance Counselling in Ireland.
@@ -502,17 +502,87 @@ As outlined in section \ref{section:motivation},
 choosing a suitable college course is a multi-faceted, difficult decision for students.
 The college course decision is personally confronting for students and there are a variety of external influences on their college course choice,
 as is evident from the examinations in subsections \ref{section:college-course-justifications} and \ref{section:external-influences}.
-As was also discussed in section \ref{section:motivation}, a technology such as Recommender System (RS) can be suitably applied to this domain,
-in which a RS suggests college courses to students who are considering to study at college in Ireland.
-A college course RS could have a positive impact on the student by assisting them in their college course decision-making process,
-in which a more elaborate discussion of this can be found in \textbf{TODO}\\  % - i think i'll revisit RQ in conclusion maybe and that's what this is referring to?}
+Technologies, not limited to a Recommender System (RS), have been used to assist students in finding suitable college courses for them.
+In this section, we will examine the academic literature and real-world products for technologies that have assisted students in their college course decision-making process.
+We will start with the simplest technologies, and work our way up through more sophisticated solutions to college course choice for students.
 
-Given the potential utility of applying a RS to a domain such as college course choice, 
-we will turn our attention and examine similarly proposed solutions to the above problem.
-More specifically, in this section we will discuss other college course RS's in both academic literature and among commercial products.
-We will also extend our discussion to include career RS's, given their similarity to college course RS's.
-As part of this discussion, we will analyse the proposed solutions' approaches in designing the RS, and address their limitations.\\
+% As was also discussed in section \ref{section:motivation}, a technology such as Recommender System (RS) can be suitably applied to this domain,
+% in which a RS suggests college courses to students who are considering to study at college in Ireland.
+% A college course RS could have a positive impact on the student by assisting them in their college course decision-making process,
+% in which a more elaborate discussion of this can be found in \textbf{TODO}\\  % - i think i'll revisit RQ in conclusion maybe and that's what this is referring to?}
 
+% Given the potential utility of applying a RS to a domain such as college course choice, 
+% we will turn our attention and examine similarly proposed solutions to the above problem.
+% More specifically, in this section we will discuss other college course RS's in both academic literature and among commercial products.
+% We will also extend our discussion to include career RS's, given their similarity to college course RS's.
+% As part of this discussion, we will analyse the proposed solutions' approaches in designing the RS, and address their limitations.\\
+
+\subsection{Simple filters}
+
+CareersPortal \footnote{\url{https://careersportal.ie/}} and Qualifax \footnote{\url{https://www.qualifax.ie/}} are the two leading 
+college course databases in Ireland \footnote{Qualifax has over 500,000 users annually. source: \url{https://www.annertech.com/case-studies/qualifax-making-information-easy-irelands-learners}} $^{\ref{fig:careers-portal-footnote}}$.
+The simplest technology for assisting Irish student's in their college course selection is to use the preset filters on these websites.
+CareersPortal allows users to filter by multiple features shown in Figure \ref{fig:careers-portal-filters-4}, which includes filtering by career sector (see Figure \ref{fig:careers-portal-filters-1}), and career interests \footnote{CareerPortal's career interests are explained in \ref{chapter:implementation} \textbf{TODO}} (see Figure \ref{fig:careers-portal-filters-2}).
+After applying some of these filters, a user would be presented with a result as shown in Figure \ref{fig:careers-portal-filters-3}.
+
+\begin{figure}[H]
+    \begin{minipage}[c]{0.25\linewidth}
+            \centering
+            \includegraphics[scale=0.3]{images/careers-portal-filters-4.png}
+            \caption{CareerPortal's college course filters.}
+            \label{fig:careers-portal-filters-4}
+        \end{minipage}\hfill
+    \begin{minipage}[c]{0.35\linewidth}
+            \centering
+            \includegraphics[scale=0.3]{images/careers-portal-filters-1.png}
+            \caption{CareerPortal's career sector filter.}
+            \label{fig:careers-portal-filters-1}
+        \end{minipage}
+    \begin{minipage}[c]{0.3\linewidth}
+            \centering
+            \includegraphics[scale=0.3]{images/careers-portal-filters-2.png}
+            \caption{CareerPortal's career interests filter.}
+            \label{fig:careers-portal-filters-2}
+        \end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.25]{images/careers-portal-filters-3.png}
+    \caption{A sample result of what users would see after applying some filters to a course search in CareersPortal.}
+    \label{fig:careers-portal-filters-3}
+\end{figure}
+
+Qualifax operates similarly: they allow user to filter their college course database by numerous filters, including by college course category (Figure \ref{fig:qualifax-filters-1}).
+After applying some of these filters, a user would be presented with a result as shown in Figure \ref{fig:qualifax-filters-2}.
+
+\begin{figure}[H]
+    \begin{minipage}[c]{0.3\linewidth}
+            \centering
+            \includegraphics[scale=0.3]{images/qualifax-filters-1.png}
+            \caption{Qualifax' college course category filter.}
+            \label{fig:qualifax-filters-1}
+        \end{minipage}\hfill
+    \begin{minipage}[c]{0.65\linewidth}
+            \centering
+            \includegraphics[scale=0.3]{images/qualifax-filters-2.png}
+            \caption{A sample result of what users would see after applying some filters to a course search in Qualifax.}
+            \label{fig:qualifax-filters-2}
+        \end{minipage}
+\end{figure}
+
+Simple filters in college course search, such as the CareersPortal and Qualifax websites, 
+are useful as they allow students to scan a large variety of courses.
+However, the strength of these filters are also it's greatest weakness - the quantity of choice.
+Even after applying a handful of filters in Figure \ref{fig:careers-portal-filters-3}, a user is still presented with 119 courses.
+This is a large quantity of courses, which may result in a phenomenon known as overchoice, coined in \cite{toffler1970future}.
+According to Toffler, overchoice is a paradoxical phenomenon where choosing between a large variety of options can be detrimental to decision-making processes.
+As a result, we find that simple filtering technologies present large quantities of college course options,
+however, this does not necessarily make the decision-making process easier due to the phenomenon of overchoice.
+This calls for technologies to apply \emph{personalisation}, pruning their results and presenting more tailored college courses to the student,
+setting the scene for our next subsection.
+
+\subsection{}
 
 % what questions/factors are other recommender systems taking into account?
     % in light of what we learned in the previous section, what are the limitations of this?
