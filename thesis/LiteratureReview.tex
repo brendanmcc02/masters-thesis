@@ -288,7 +288,7 @@ The Career Interests Inventory (CII) \footnote{\url{https://teamfocus.co.uk/psyc
 is listed by the Irish Department of Education
 as an acceptable career guidance test in Guidance Counselling practice, according to \cite{gov2024list}.
 In addition to this, the leading career guidance website in Ireland is CareersPortal \footnote{\url{https://careersportal.ie/}},
-with under 20 million average active recipients per month \footnote{\label{fig:careers-portal-footnote} According to \url{https://careersportal.ie/about-us}}.
+with under 20 million average active recipients per month \footnote{\label{careers-portal-footnote} According to \url{https://careersportal.ie/about-us}}.
 CareersPortal helps users find jobs using an Interest Profiler quiz \footnote{\url{https://careersportal.ie/members/interests_check.php}} 
 which is largely inspired by Holland's six personality categories,
 demonstrating Holland's theory's extensive impact across career guidance and Guidance Counselling in Ireland.
@@ -520,9 +520,9 @@ We will start with the simplest technologies, and work our way up through more s
 \subsection{Simple filters}
 
 CareersPortal \footnote{\url{https://careersportal.ie/}} and Qualifax \footnote{\url{https://www.qualifax.ie/}} are the two leading 
-college course databases in Ireland \footnote{Qualifax has over 500,000 users annually. source: \url{https://www.annertech.com/case-studies/qualifax-making-information-easy-irelands-learners}} $^{\ref{fig:careers-portal-footnote}}$.
+college course databases in Ireland \footnote{Qualifax has over 500,000 users annually. source: \url{https://www.annertech.com/case-studies/qualifax-making-information-easy-irelands-learners}} $^{\ref{careers-portal-footnote}}$.
 The simplest technology for assisting Irish student's in their college course selection is to use the preset filters on these websites.
-CareersPortal allows users to filter by multiple features shown in Figure \ref{fig:careers-portal-filters-4}, which includes filtering by career sector (see Figure \ref{fig:careers-portal-filters-1}), and career interests \footnote{CareerPortal's career interests are explained in \ref{chapter:implementation} \textbf{TODO}} (see Figure \ref{fig:careers-portal-filters-2}).
+CareersPortal allows users to filter by multiple features shown in Figure \ref{fig:careers-portal-filters-4}, which includes filtering by career sector (see Figure \ref{fig:careers-portal-filters-1}), and career interests \footnote{CareerPortal's career interests are explained in Chapter \ref{chapter:implementation} \textbf{TODO}} (see Figure \ref{fig:careers-portal-filters-2}).
 After applying some of these filters, a user would be presented with a result as shown in Figure \ref{fig:careers-portal-filters-3}.
 
 \begin{figure}[H]
@@ -574,15 +574,123 @@ After applying some of these filters, a user would be presented with a result as
 Simple filters in college course search, such as the CareersPortal and Qualifax websites, 
 are useful as they allow students to scan a large variety of courses.
 However, the strength of these filters are also it's greatest weakness - the quantity of choice.
-Even after applying a handful of filters in Figure \ref{fig:careers-portal-filters-3}, a user is still presented with 119 courses.
+Even after applying a handful of filters, for example in Figure \ref{fig:careers-portal-filters-3}, a user is still presented with 119 courses.
 This is a large quantity of courses, which may result in a phenomenon known as overchoice, coined in \cite{toffler1970future}.
 According to Toffler, overchoice is a paradoxical phenomenon where choosing between a large variety of options can be detrimental to decision-making processes.
 As a result, we find that simple filtering technologies present large quantities of college course options,
 however, this does not necessarily make the decision-making process easier due to the phenomenon of overchoice.
-This calls for technologies to apply \emph{personalisation}, pruning their results and presenting more tailored college courses to the student,
+\cite{long2025choice} demonstrated that smaller sets of suggestions are often equally as effective as larger suggestion sets \footnote{For specificity, this research was conducted in the context of Recommender Systems, however the findings are still appropriately applied in this case.},
+calling for technologies to apply \emph{personalisation}, pruning their results and presenting more tailored college courses to the student,
 setting the scene for our next subsection.
 
-\subsection{}
+\subsection{College course quizzes}
+
+In this subsection, we will examine technologies that provide more personalisation to a user in the context of college course recommendations.
+More specifically, there will be a discussion on online quizzes that provide users with a more tailored, personalised list of college course recommendations.
+As a side note, seeing as these are real-world products, we will not have an insight into the recommendation algorithms behind these quizzes,
+we will only have access to their front-facing user interface.\\
+
+For this discussion, we will examine the college major quizzes offered by MeetYourClass \footnote{\url{https://www.meetyourclass.com/what-should-i-major-in}}, SuperProf \footnote{\url{https://www.superprof.com/blog/college-major-quiz/}}, Anderson University \footnote{\url{https://anderson.edu/persona-quiz/}} and Marquette University \footnote{\url{https://www.marquette.edu/academics/majors/choose-your-major/}}.
+It is worth noting that these quizzes have an American focus, however their results can be applied more generally.\\
+
+These quizzes ask the user close-ended questions, and generally the questions are tasked with discovering the student's interests in different areas of study.
+Examples of the kinds of questions that get asked are seen in Figures \ref{fig:myc-question-1} and \ref{fig:anderson-uni-question}.
+
+\begin{figure}[H]
+    \begin{minipage}[c]{0.45\linewidth}
+            \centering
+            \includegraphics[scale=0.3]{images/meet-your-class-question-1.png}
+            \caption{A sample question provided on MeetYourClass' college major quiz.}
+            \label{fig:myc-question-1}
+        \end{minipage}\hfill
+    \begin{minipage}[c]{0.45\linewidth}
+            \centering
+            \includegraphics[scale=0.3]{images/anderson-university-questions.png}
+            \caption{A sample question provided on Anderson University's college major quiz.}
+            \label{fig:anderson-uni-question}
+        \end{minipage}
+\end{figure}
+
+After answering all the questions, the quizzes provide the user with a suggested list of college majors based off the answers provided to the questions.
+Examples of results are given in Figure \ref{fig:anderson-university-results} and \ref{fig:superprof-results}.
+
+\begin{figure}[H]
+    \begin{minipage}[c]{0.45\linewidth}
+            \centering
+            \includegraphics[scale=0.3]{images/anderson-university-results.png}
+            \caption{A sample results page after finishing the college major quiz on Anderson University.}
+            \label{fig:anderson-university-results}
+        \end{minipage}\hfill
+    \begin{minipage}[c]{0.45\linewidth}
+            \centering
+            \includegraphics[scale=0.3]{images/superprof-results.png}
+            \caption{A sample results page after finishing the college major quiz on SuperProf.}
+            \label{fig:superprof-results}
+        \end{minipage}
+\end{figure}
+
+In spite of the evident utility of these quizzes, they do pose some limitations.
+Firstly, considering the importance of the college course decision process, these quizzes are generally very short
+- the four examples provided had 10-25 questions each.
+If we take Marquette University's quiz as an example:
+79 college majors are offered \footnote{According to \url{https://www.marquette.edu/academics/majors/}},
+and 10 questions may not be considered sufficient to gauge a student's interest appropriately across the 79 college majors.
+In other words, the length of the quizzes imply they are trivialising and simplifying the solution to the problem.\\
+
+In addition to this, generally the results of these quizzes may not refer to specific college majors, 
+although they may refer to broader fields of study.
+For example as we see in Superprof's results in figure \ref{fig:superprof-results}, STEM is being suggested to the user,
+however STEM encompasses a wide range of college majors including Mathematics and Engineering - similar, but still different fields of study.
+While this may guide the user toward narrowing their college major choices, 
+there is still a lack of specificity in the college major recommendations.\\
+
+However, if one wants to go beyond broader fields of study and have more specificity in their college course recommendations,
+the technology is required to have knowledge of specific college courses being offered at specific colleges.
+This introduces a new requirement of the technology having up-to-date, accurate college course information being offered at multiple different colleges.
+Moreover as mentioned in chapter \ref{chapter:background-reading}, the college admissions system and entry requirements differ by country,
+and clearly the Irish college system differs to the American college system that these quizzes refer to.
+Seeing as this dissertation focuses on Irish college course recommendations, 
+these requirements call for a technology with a working knowledge of the Irish college courses and college system,
+and that technology suggests specific, personalised college courses in Ireland.\\
+
+The technology described above already does exist: FindMyCollegeCourse (FMCC) \footnote{\url{https://findmycollegecourse.ie/}}.
+To the best of our knowledge, this is the only online quiz that recommends college courses in Ireland.
+FMCC addresses many of the aforementioned limitations of other college major quizzes:
+the quiz has over 100 questions, demonstrating much more breadth in capturing student's interests and preferences.
+Additionally, FMCC recommends specific Irish college courses as opposed to broad fields of study,
+and the college course information is up-to-date and accurately maintained - a challenge given the volume of new courses being added each year; see footnote \ref{label:new-courses}.
+Naturally, the quiz is focused in the Irish college domain, which is also the focus of this dissertation.
+That being said, there are still some limitations and improvements which can be applied, although a more thorough discussion of this 
+will be provided in section \ref{section:research-gap}.
+
+\subsection{College course Recommender Systems}
+
+In Chapter \ref{chapter:introduction}, there was a reference to the Recommender System (RS) technology.
+In this subsection, we will turn our attention from real-world products to the academic literature, and 
+examine the intersection of RS's and college course recommendations in the literature.
+We will break down our investigation into two components, or questions:
+
+\begin{enumerate}
+    \item What information is the user being questioned in order to make relevant college course recommendations?
+    \item What algorithms are behind the RS' to generate college course recommendations?
+\end{enumerate}
+
+\subsubsection{User information}
+
+% this could get re-written
+As is evident from our investigation into college course choice fundamentals in section \ref{section:fundamentals},
+there are a wide variety of justifications and external influences of an individual's college course choice.
+Moreover, we found that answering the question \emph{"What college course should people study"} to be 
+both multi-faceted and challenging.
+In order for an RS to provide personalised college course recommendations, 
+the RS must gather some information from the user.
+In this discussion, we will examine the types of information that other works in the literature have gathered off the user 
+in order to provide personalised college course recommendations.\\
+
+% qamhieh2020pcrs
+% ghuge2023envisioning
+% bandhu2024novel
+% lahoud2023comparative
 
 % what questions/factors are other recommender systems taking into account?
     % in light of what we learned in the previous section, what are the limitations of this?
@@ -596,9 +704,18 @@ setting the scene for our next subsection.
         % not a strong predictor of job satisfaction (will need to reference this kinda out of my ass)
     % interests
         % great predictor given our literature
+
+\subsubsection{RS Algorithms}
 % what algorithmic approaches do they employ? i.e. CBF, CF, KBF, etc.
 
 \section{Research Gap}
+\label{section:research-gap}
+
+% 50 new courses added in 2025
+    % admin overhead, can have system to automate this
+    % FMCC already does this
+
+% 200 courses offered by FMCC - cite overchoice and long paper (small rec sets equally as effective)
 
 % talk about the research gap, and how & where my solution fits in
 % 1. in ireland (a college course RS is fundamentally country-dependent given each country's differing college admission systems)
@@ -615,7 +732,7 @@ setting the scene for our next subsection.
 % my idea comes in, it's edge is that it's in ireland (very country-dependant), and that it will utilise a student's college preferences,
 % interests and riasec
 
-\section{LLM's}
+\section{Large Language Models}
 
 % "why can't a user just use ChatGPT?"
 % llm's are so open-ended, so in many cases it's about knowing the **right question** to ask, and 

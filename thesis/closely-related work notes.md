@@ -15,7 +15,7 @@
 * no sense of personalisation or tailored recommendations
 * essentially just a glorified course search, rather than personalisation
 
-## college quizzes
+## college course quizzes
 
 * [meetyourclass](https://www.meetyourclass.com/what-should-i-major-in)
     * 15 questions: interests and goals and work preferences (e.g. work alone, etc.)
@@ -30,10 +30,16 @@
     * recommends general areas of study (e.g. stem, social sciences)
     * doesn't really narrow choice beyond that, limiting
 
-* https://anderson.edu/persona-quiz/
+* [anderson.edu](https://anderson.edu/persona-quiz/)
+    * 25 questions
     * keep in mind this is a college as opposed to a neutral 3rd party
     * clusters you into 8 archetypes
     * college majors are then put into these 8 archetypes (e.g. game changer, investigator, etc.)
+
+* [marquette.edu](https://www.marquette.edu/academics/majors/choose-your-major/)
+    * 10 questions
+    * clusters you into archetypes
+    * college majors are then put into these archetypes (e.g. communicator - english, languages, etc.)
 
 ### limitations
 * many of the questions feel a bit irrelevant or just noisy
@@ -41,11 +47,11 @@
     * we want our RS to be grounded in the literature - proving the utility of our background review
 * the quizzes are short, and this lack a sense of exhaustiveness
     * pretty crazy considering this is a big decision and has a lot of impact on your life, as outlined in the intro motivation
-* the career market is changing rapidly
-    * can get some statistic that most college courses/careers in the future don't exist today - aoife mcardle
+* they recommend very general areas of study, often lacking specificity
+    * also so many new courses are being added every year (i think it was 50 new courses in 2025 or something)
     * and these recommend very generic college majors/study e.g. math, psych as opposed to specific courses
-    * naturally, college courses are very country-specific, and this research focuses on ireland, so are there any college quizzes based on ireland?
-        * segue to FMCC!
+* naturally, college courses are very country-specific, and this research focuses on ireland, so are there any college quizzes based on ireland?
+    * segue to FMCC!
 
 ### [FMCC](https://findmycollegecourse.ie/)
 * mention that to the best of our knowledge, this is the only quiz/RS in ireland for college courses
@@ -86,9 +92,15 @@ outside of the irish scope, we will examine other college/career RS's in the lit
 * hybrid CF + CBF
 * they use adaboost
 
-
-### approaches
-* idk talk about the differing RS approaches
+## [A Novel Approach for Better Career Counselling Utilizing Machine Learning Techniques](/literature-review/papers/s11277-024-11612-3.pdf)
+* They test various ML techniques:
+    * Random Forest, SVM, Naive Bayes, KNN, etc.
+* RF had the best accuracy
+* The profile student's:
+    1. hobbies
+    2. grades
+    3. interests (what exactly, idk)
+    4. achievements
 
 ### limitations
 * questions asked are not so relevant or grounded in literature

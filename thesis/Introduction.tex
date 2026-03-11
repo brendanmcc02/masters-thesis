@@ -11,7 +11,7 @@ in describing the research motivation behind this dissertation.\\
 
 According to \cite{hea2024key, gov2024department}, 79\% of Irish secondary school students progressed to college after graduation.
 The individuals who have considered progressing to college have all been posed with the question:
-\emph{What course should I study?} 
+\emph{What college course should I study?} 
 This is a daunting question for many reasons.
 The majority of secondary school students are faced with making this decision 
 at 16-19 years old, an age with limited life experience and knowledge about the world.
@@ -26,8 +26,8 @@ adding more weight to this crucial life decision.\\
 
 Choosing a college course is not only a challenging decision to wrestle with as an individual.
 Individuals are shown to be influenced by a multitude of external factors when choosing their college course.
-For instance in \cite{oya2015university}, parents are shown to be one of the most influential factors of an individual's college course choice. 
-\cite{oya2015university} have also shown that an individual's gender, and their parent's educational and financial background
+For instance in \cite{oya2015university, leighton2023rich}, parents are shown to be one of the most influential factors of an individual's college course choice. 
+\cite{oya2015university, dickson2010race} have also shown that an individual's race/ethnicity, and their parent's educational and financial background
 are among the most prominent societal influences of an individual's college course choice, 
 adding complexity to a decision that is already challenging.\\
 
@@ -50,12 +50,7 @@ a system that made tailored mailing list recommendations to its users.
 Around this time, the field of RS's received considerable interest as e-commerce websites could increase
 their revenue if they suggested more personalised products to their users.
 As discussed in \cite{schafer1999recommender}, Amazon and Netflix are the most notable adopters of RS's
-in order to increase company revenue.
-% TODO - not sure if it's worth explaining CF & CBF here - maybe put in background reading?
-There are a wide variety of approaches to recommending items to users, although, two very common types of RS's are \emph{Collaborative Filtering} and \emph{Content-based Filtering} RS's. 
-Following the definitions in \cite{aggarwal2016recommender},
-\emph{Collaborative Filtering} recommends items to users based on what other similar users also liked, whereas
-\emph{Content-based Filtering} recommends items to users based on the user's preferences.\\
+in order to increase company revenue.\\
 
 As previously explained, an RS recommends \emph{items} to a \emph{user}.
 However, we can re-conceptualize an RS in the context of college courses:
@@ -69,13 +64,13 @@ an exciting opportunity presents itself: A Recommender System for Irish College 
 % ultimately though, my research question is "to assist individuals" - I do want to talk about how an RS **assists** individuals in college course choice
 % but seeing as that's a research question, perhaps that is more appropriately answered in the conclusion? is that where i throw in all of my justifications and stuff?
 A technology, such as an RS, could aid an individual in navigating a difficult decision-making process.
-For instance, there are over 45 higher education institutes in Ireland offering a total of over 1700 courses \footnote{Higher education colleges and courses can be found here: \url{https://careersportal.ie/}},
+For instance, there are over 45 higher education institutes in Ireland offering a total of over 1700 courses \footnote{\label{}Higher education colleges and courses can be found here: \url{https://careersportal.ie/}},
 representing a huge set of choice to the individual.
 An advantage of a personalised RS is to provide a user with a much smaller list of relevant recommendations.
 \cite{long2025choice} demonstrated that smaller recommendation sets are often equally as effective as larger recommendations sets,
 suggesting that a much narrower set of personalised college course recommendations could be effective in this space.\\
 
-For the 2026/2027 academic year, 52 \footnote{See \url{https://careersportal.ie/courses/coursefinder?types_in=2} for new courses} new higher education courses 
+For the 2026/2027 academic year, 52 \footnote{\label{label:new-courses} See \url{https://careersportal.ie/courses/coursefinder?types_in=2} for new courses} new higher education courses 
 were introduced in Ireland.
 Moreover, as discussed in Section \ref{section:lc-points}, the requirements for Irish higher education courses 
 change every year as a reflection of demand and changing priorities.
@@ -95,7 +90,7 @@ ultimately describing the motivation behind this research.
 \section{Research Question}
 
 In light of the motivation behind this research, the Research Question for this dissertation can be formulated:
-\emph{How can a Recommender System assist an individual in their college course decision-making process?}\\
+\emph{How can a Recommender System assist an Irish student in their college course decision-making process?}\\
 
 As we established Section \ref{section:motivation}, choosing a college course is a difficult, multi-faceted decision.
 In this dissertation's Research Question, "assist" simply refers to helping the individual navigate the difficult process of choosing a college course.
@@ -107,7 +102,7 @@ A more elaborate discussion of how a college course RS can assist an individual 
 
 With the motivation and research question formulated, the research objectives for this dissertation are outlined below:
 \begin{enumerate}
-    \item \label{research-objective-background} Conduct thorough background research into an individual's motivations and influences behind choosing a college course.
+    \item \label{research-objective-background} Conduct thorough background research in answering the question: \emph{"What college course should people study?"}
     \item \label{research-objective-information} Identify the relevant information to question a user in order to make suitable college course recommendations.
     \item \label{research-objective-statistically} Create an Irish college course RS with \textbf{TODO} statistically significant improvements compared to a baseline college course RS. % TODO - IF NOT statisitcal power = "user-perceived improvmenets"!!!
     \item \label{research-objective-evaluation} Analyse user evaluation metrics gathered from a conducted experiment. 

@@ -79,12 +79,12 @@
 ## [A Novel Approach for Better Career Counselling Utilizing Machine Learning Techniques](/literature-review/papers/s11277-024-11612-3.pdf)
 * They test various ML techniques:
     * Random Forest, SVM, Naive Bayes, KNN, etc.
+* RF had the best accuracy
 * The profile student's:
     1. hobbies
     2. grades
     3. interests (what exactly, idk)
     4. achievements
-* So poorly written ngl
 
 # Bias
 
