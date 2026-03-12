@@ -74,14 +74,19 @@ outside of the irish scope, we will examine other college/career RS's in the lit
     * KB with case-based reasoning
     * Demographic
 * According to their work, a **hybrid RS with CBF and KB (supported by Case-Based Reasoning and Ontology) yielded the best results.**
+* hard to discern what info they profile off people, but afaik:
+    * hobbies and extracurriculars
+    * gender
+    * area of interests
 
 ## [PCRS: Personalized Career-Path Recommender System for Engineering Students](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9268112)
 * They profile the following info off students:
-     1. personal interests (hobbies)
-     3. academic scores 
-     4. personality type (they use MBTI).
-     5. gender (wouldn't agree with this personally)
+     1. hobbies and extracurriculars
+     2. academic scores
+     3. personality type (they use MBTI).
 * for eng students
+* apply weighting scores to get a normalised value, then fuzzy logic is used to determine suitability of an engineering discipline
+* i believe they used other people's data to train the model then used this model to predict current students, so this is CBF
 
 ## [Envisioning Tomorrow: AI Powered Career Counseling](https://ieeexplore.ieee.org/abstract/document/10426016)
 * They profile student's:
@@ -93,6 +98,7 @@ outside of the irish scope, we will examine other college/career RS's in the lit
 * they use adaboost
 
 ## [A Novel Approach for Better Career Counselling Utilizing Machine Learning Techniques](/literature-review/papers/s11277-024-11612-3.pdf)
+* assuming CBF ig?
 * They test various ML techniques:
     * Random Forest, SVM, Naive Bayes, KNN, etc.
 * RF had the best accuracy

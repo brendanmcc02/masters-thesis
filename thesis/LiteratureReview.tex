@@ -684,7 +684,7 @@ will be provided in section \ref{section:research-gap}.
 In Chapter \ref{chapter:introduction}, there was a reference to the Recommender System (RS) technology.
 In this subsection, we will turn our attention from real-world products to the academic literature, and 
 examine the intersection of RS's and college course recommendations in the literature.
-We will break down our investigation into two components, or questions:
+We will break down our investigation into two fundamental questions:
 
 \begin{enumerate}
     \item What information is the user being questioned in order to make relevant college course recommendations?
@@ -693,47 +693,59 @@ We will break down our investigation into two components, or questions:
 
 \subsubsection{User information}
 
-% this could get re-written
-As is evident from our investigation into college course choice fundamentals in section \ref{section:fundamentals},
-there are a wide variety of justifications and external influences of an individual's college course choice.
-Moreover, we found that answering the question \emph{"What college course should people study"} to be 
-both multi-faceted and challenging.
 In order for an RS to provide personalised college course recommendations, 
 the RS must gather some information from the user.
+The next logical question to ask is: \emph{"What information should we gather from the user?"}
+However, as was evident from our investigation in section \ref{section:fundamentals}, 
+we found that answering the question \emph{"What college course should people study"} to 
+be multi-faceted, encompassing many factors.
 In this discussion, we will examine the types of information that other works in the literature have gathered off the user 
 in order to provide personalised college course recommendations.\\
 
-% qamhieh2020pcrs
-% ghuge2023envisioning
-% bandhu2024novel
-% lahoud2023comparative
+When we examine \cite{qamhieh2020pcrs, lahoud2023comparative, ghuge2023envisioning, bandhu2024novel}, 
+generally we can observe the following information being profiled off students in order to make personalised college course recommendations:
 
-% what questions/factors are other recommender systems taking into account?
-    % in light of what we learned in the previous section, what are the limitations of this?
-    % hobbies and extracurriculars
-        % may lead people to high-risk careers like arts or sports
-        % could also reference passion hypothesis again, and the trap of simply choosing work from what you already love
-    % grades
-        % schools only assess particular subjects, and grades are a very limited view into a person as they may miss on many subjects of interest
-    % personality tests (e.g. mbti, ocean)
-        % given the literature, rather than using a generalised personality test, better to use holland
-        % not a strong predictor of job satisfaction (will need to reference this kinda out of my ass)
-    % interests
-        % great predictor given our literature
+\begin{itemize}
+    \item \emph{academic interests}, e.g. interest in Mathematics, Biology, etc.
+    \item \emph{high-school grades}
+    \item \emph{hobbies or extracurriculars}
+    \item \emph{gender}
+    \item \emph{personality type}, specifically the Myer-Briggs Type Indicator (MBTI) \cite{myers1962myers}.
+\end{itemize}
+
+\textbf{TODO} - should I discuss the validity of these information profiling?
+e.g. i think mbti is noise and unnecessary, same for gender and hobbies and high-school grades
+but maybe this makes more sense in the design chapter because that's where I will justify my design decisions?
+ask @owen!
 
 \subsubsection{RS Algorithms}
-% what algorithmic approaches do they employ? i.e. CBF, CF, KBF, etc.
+
+In this discussion we will examine the various algorithms behind the referenced literature.
+An understanding of the common RS algorithms, as discussed in section \ref{sec:common-rs-algorithms}, will be useful to the reader.
+However, a basic understanding of common Machine Learning (ML) algorithms is assumed.\\
+
+In \cite{qamhieh2020pcrs}\footnote{\emph{Note:} this paper recommends engineering fields of study as opposed to college courses, however the paper is arguably still relevant},
+the Content-based Filtering algorithm was utilised and was powered by a mixture of a weighted average score and an if-then ruleset.
+\cite{ghuge2023envisioning} utilises a hybrid RS with Collaborative Filtering and Content-based Filtering
+algorithms being used, powered by the AdaBoost algorithm as introduced in \cite{freund1997decision},
+whereas in \cite{lahoud2023comparative}, they employ a wide range of RS algorithms, and they found the best results with 
+Content-based Filtering and Knowledge-Based Filtering.
+In \cite{bandhu2024novel}, they employ the Content-based Filtering approach, powered by numerous ML algorithms including 
+Random Forest (\cite{breiman2001random}), Support Vector Machines (\cite{cortes1995support}), Naive Bayes (\cite{bayes1968naive}) and K-nearest neighbours (\cite{cover1967nearest})- in their case, they found the 
+best results with the Random Forest algorithm.
+
+\emph{im not really sure what else to write here or if there are more things i can address - ask owen!}
 
 \section{Research Gap}
 \label{section:research-gap}
 
-% 50 new courses added in 2025
-    % admin overhead, can have system to automate this
-    % FMCC already does this
+% edge over FMCC:
+    % less courses being suggested
+        % cite overchoice and long2025 et al paper
+    % using RIASEC
+        % but that's a design decision
 
-% 200 courses offered by FMCC - cite overchoice and long paper (small rec sets equally as effective)
 
-% talk about the research gap, and how & where my solution fits in
 % 1. in ireland (a college course RS is fundamentally country-dependent given each country's differing college admission systems)
 % 2. interest and riasec makeup
     % compared to FMCC which only utilises interests
@@ -742,19 +754,10 @@ in order to provide personalised college course recommendations.\\
     % changing priorities of GC's in Ireland
     % the weight of making a college course decision
         % fear of regret
-% in other words, you are justifying this research
 
 % in light of these limitations, define the research gap: "an RS that suggests relevant irish college courses informed by a rigorous understanding of the fundamentals of college course choice, explored in the previous section.
 % my idea comes in, it's edge is that it's in ireland (very country-dependant), and that it will utilise a student's college preferences,
 % interests and riasec
-
-\section{Large Language Models}
-
-% "why can't a user just use ChatGPT?"
-% llm's are so open-ended, so in many cases it's about knowing the **right question** to ask, and 
-% clearly from our lit review, the question "what course should i study" is not straightforward at all
-
-
 
 
 \section{Chapter Summary}
