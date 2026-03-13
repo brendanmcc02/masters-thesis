@@ -67,7 +67,7 @@ outside of the irish scope, we will examine other college/career RS's in the lit
     * CBF
     * CF
     * KB with case-based reasoning
-    * Demographic
+    * Demographic   
 * According to their work, a **hybrid RS with CBF and KB (supported by Case-Based Reasoning and Ontology) yielded the best results.**
 * hard to discern what info they profile off people, but afaik:
     * hobbies and extracurriculars
@@ -94,9 +94,11 @@ outside of the irish scope, we will examine other college/career RS's in the lit
 
 ## [A Personality-Driven Recommender System for Cross-Domain Learning Based on Holland Code Assessments](https://www.mdpi.com/2071-1050/13/7/3936#sustainability-13-03936-f004)
 * RIASEC
+* cosine sim with CF
 * taiwanese college courses
 * \# courses: above a threshold so it varies,
     * but just say 5 for simplicity
+* 90 questions
 
 ### limitations
 * questions asked are not so relevant or grounded in literature
