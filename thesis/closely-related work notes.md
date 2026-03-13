@@ -11,7 +11,7 @@
     * can filter courses by career sector
 
 ### limitations
-* still choice overload, not pruned results
+* still choicAlle overload, not pruned results
 * no sense of personalisation or tailored recommendations
 * essentially just a glorified course search, rather than personalisation
 
@@ -24,6 +24,7 @@
         * a loooot of info here that is frankly not relevant
     * more general college majors as opposed to specific college courses
     * not a lot of questions being asked
+    * 10 results
 
 * [superprof](https://www.superprof.com/blog/college-major-quiz/)
     * 10 questions, not exhaustive at all
@@ -60,12 +61,6 @@
 
 outside of the irish scope, we will examine other college/career RS's in the literature
 
-## [1](https://www.preprints.org/frontend/manuscript/cf467753c75a6dcc24ac4aaf70ce013f/download_pub)
-* analysis of college course/career technologies being used in career counseling
-* they talk about a few ethical concerns that may be good to mention
-    * e.g. data privacy
-    * bias in recommendations
-* ngl otherwise not greeeat paper
 
 ## [A comparative analysis of different recommender systems for university major and career domain guidance](https://link.springer.com/content/pdf/10.1007/s10639-022-11541-3.pdf)
 * compare a bunch of different RS approaches to college course recs:
@@ -82,7 +77,7 @@ outside of the irish scope, we will examine other college/career RS's in the lit
 ## [PCRS: Personalized Career-Path Recommender System for Engineering Students](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9268112)
 * They profile the following info off students:
      1. hobbies and extracurriculars
-     2. academic scores
+     2. grades
      3. personality type (they use MBTI).
 * for eng students
 * apply weighting scores to get a normalised value, then fuzzy logic is used to determine suitability of an engineering discipline
@@ -97,16 +92,11 @@ outside of the irish scope, we will examine other college/career RS's in the lit
 * hybrid CF + CBF
 * they use adaboost
 
-## [A Novel Approach for Better Career Counselling Utilizing Machine Learning Techniques](/literature-review/papers/s11277-024-11612-3.pdf)
-* assuming CBF ig?
-* They test various ML techniques:
-    * Random Forest, SVM, Naive Bayes, KNN, etc.
-* RF had the best accuracy
-* The profile student's:
-    1. hobbies
-    2. grades
-    3. interests (what exactly, idk)
-    4. achievements
+## [A Personality-Driven Recommender System for Cross-Domain Learning Based on Holland Code Assessments](https://www.mdpi.com/2071-1050/13/7/3936#sustainability-13-03936-f004)
+* RIASEC
+* taiwanese college courses
+* \# courses: above a threshold so it varies,
+    * but just say 5 for simplicity
 
 ### limitations
 * questions asked are not so relevant or grounded in literature
