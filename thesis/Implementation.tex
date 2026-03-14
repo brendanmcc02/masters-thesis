@@ -32,6 +32,42 @@ if x == 1:
 \end{lstlisting}
 
 
+\newcommand{\rot}[1]{\rotatebox{90}{#1}}
+
+\begin{table}[h]
+\centering
+\caption{Example user vector representation}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{6}{|c|}{\textbf{RIASEC}} & \multicolumn{1}{c|}{} & \multicolumn{6}{c|}{\textbf{Academic Interests}} \\ \hline
+\rot{\textbf{Realistic}} & \rot{\textbf{Investigative}} & \rot{\textbf{Artistic}} & \rot{\textbf{Social}} & \rot{\textbf{Enterprising}} & \rot{\textbf{Conventional}} & \rot{\textbf{LC Points}} & \rot{\textbf{Agriculture}} & \rot{$\cdots$} & \rot{\textbf{Computers}} & $\cdots$ & \rot{\textbf{Sport}} & \rot{\textbf{Welfare}} \\ \hline
+0.1 & 0.95 & 0.1 & 0.65 & 0.3 & 0.4 & 0.9 & 0.05 & $\cdots$ & 0.95 & $\cdots$ & 0.1 & 0.1 \\ \hline
+\end{tabular}
+\end{table}
+
+\[ 
+\text{user} = [0.1,\; 0.95,\; 0.1,\; 0.65,\; 0.3,\; 0.4,\; 0.9,\; 0.05,\; \cdots,\; 0.95,\; \cdots,\; 0.1,\; 0.1]
+\]
+
+\begin{table}[h]
+\centering
+\caption{Example college course vector representation}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{6}{|c|}{\textbf{RIASEC}} & \multicolumn{1}{c|}{} & \multicolumn{7}{c|}{\textbf{Academic Interests}} \\ \hline
+\rot{\textbf{Realistic}} & \rot{\textbf{Investigative}} & \rot{\textbf{Artistic}} & \rot{\textbf{Social}} & \rot{\textbf{Enterprising}} & \rot{\textbf{Conventional}} & \rot{\textbf{LC Points}} & \rot{\textbf{Agriculture}} & \rot{$\cdots$} & \rot{\textbf{Healthcare}} & \rot{\textbf{Life Science}} & $\cdots$ & \rot{\textbf{Sport}} & \rot{\textbf{Welfare}} \\ \hline
+1.0 & 1.0 & 0.0 & 1.0 & 0.0 & 0.0 & 1.0 & 0.0 & $\cdots$ & 1.0 & 1.0 & $\cdots$ & 0.0 & 0.0 \\ \hline
+\end{tabular}
+\end{table}
+
+\[ 
+\text{dentistryCollegeCourse} = [1.0,\; 1.0,\; 0.0,\; 1.0,\; 0.0,\; 0.0,\; 1.0,\; 0.0,\; \cdots,\; 1.0,\; 1.0,\; \cdots,\; 0.0,\; 0.0]
+\]
+
+\[
+\text{cosineSimilarity} (A,\;B)= \frac{A \cdot B}{||A||\; ||B||}
+\]
+
 \section{Summary}
 
 Every chapter aside from the first and last chapter should conclude with a summary. 
