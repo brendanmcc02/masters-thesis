@@ -1,11 +1,12 @@
 \chapter{Literature Review}
-\label{chapter:literature-review}
+\label{chap:literature-review}
 
 In this chapter, there will be a review of the literature regarding the fundamentals of college course choice.
 Ultimately, this section seeks to provide insights to the question: \emph{"What college course should people study?"}
 As we will discover, the question is incredibly multi-faceted with no straightforward answers.
 After a thorough review of the fundamentals of college course choice, 
 there will be an examination into closely-related work, including both academic works and real-world products.
+This will equip us with the information to clearly define the research gap addressed by this research.
 
 \section{Fundamentals of college course choice}
 \label{sec:fundamentals}
@@ -27,7 +28,7 @@ and reverse-engineer these insights to help us answer the all-elusive question:
 \subsection{College course justifications}
 \label{sec:college-course-justifications}
 
-As established in Chapter \ref{chapter:introduction}, choosing a college course is a major life decision.
+As established in Chapter \ref{chap:introduction}, choosing a college course is a major life decision.
 As a result, we can assume that students choose a particular college course for a set of reasons.
 The reasons, or justifications, that students provide for choosing their college course choice will be explored in this subsection.\\
 
@@ -523,15 +524,15 @@ The college course decision is personally confronting for students and there are
 as is evident from the examinations in subsections \ref{sec:college-course-justifications} and \ref{sec:external-influences}.
 Technologies, not limited to a Recommender System (RS), have been used to assist students in finding suitable college courses for them.
 In this section, we will examine the academic literature and real-world products for technologies that have assisted students in their college course decision-making process.
-We will start with the simplest technologies, and work our way up through more sophisticated solutions to college course choice for students.
+We will start with the simplest technologies, and work our way up through more sophisticated solutions in assisting student's with their college course choice.
 
 \subsection{Simple filters}
 
 CareersPortal \footnote{\url{https://careersportal.ie/}} and Qualifax \footnote{\url{https://www.qualifax.ie/}} are the two leading 
 college course databases in Ireland \footnote{Qualifax has over 500,000 users annually. source: \url{https://www.annertech.com/case-studies/qualifax-making-information-easy-irelands-learners}} $^{\ref{careers-portal-footnote}}$.
-The simplest technology for assisting Irish student's in their college course selection is to use the preset filters on these websites.
-CareersPortal allows users to filter by multiple features shown in Figure \ref{fig:careers-portal-filters-4}, which includes filtering by career sector (see Figure \ref{fig:careers-portal-filters-1}), and career interests \footnote{CareerPortal's career interests are explained in Chapter \ref{chapter:implementation} \textbf{TODO}} (see Figure \ref{fig:careers-portal-filters-2}).
-After applying some of these filters, a user would be presented with a result as shown in Figure \ref{fig:careers-portal-filters-3}.
+The simplest technology for assisting Irish student's in their college course selection is to use the preset filters on these websites as you search their college course database.
+CareersPortal allows users to filter by multiple features shown in Figure \ref{fig:careers-portal-filters-4}, which includes filtering by career sector (see Figure \ref{fig:careers-portal-filters-1}), and career interests \footnote{CareerPortal's career interests are explained in Chapter \ref{chap:implementation} \textbf{TODO}} (see Figure \ref{fig:careers-portal-filters-2}).
+After applying some of these filters, a user would be presented with a result, an example of which is shown in Figure \ref{fig:careers-portal-filters-3}.
 
 \begin{figure}[H]
     \begin{minipage}[c]{0.25\linewidth}
@@ -595,7 +596,7 @@ setting the scene for our next subsection.
 
 In this subsection, we will examine technologies that provide more personalisation to a user in the context of college course recommendations.
 More specifically, there will be a discussion on online quizzes that provide users with a more tailored, personalised list of college course recommendations.
-As a side note, seeing as these are real-world products, we will not have an insight into the recommendation algorithms behind these quizzes,
+As a side note, seeing as these are real-world products, we will not have an insight into the recommendation algorithms behind these quizzes;
 we will only have access to their front-facing user interface.\\
 
 For this discussion, we will examine the college major quizzes offered by SuperProf \footnote{\url{https://www.superprof.com/blog/college-major-quiz/}}, Anderson University \footnote{\url{https://anderson.edu/persona-quiz/}} and Marquette University \footnote{\url{https://www.marquette.edu/academics/majors/choose-your-major/}}.
@@ -637,7 +638,7 @@ Examples of results are given in Figure \ref{fig:anderson-university-results} an
 
 In spite of the evident utility of these quizzes, they do pose some limitations.
 Firstly, considering the importance of the college course decision process, these quizzes are generally very short
-- the four examples provided had 10-25 questions each.
+- the three example quizzes provided had 10-25 questions each.
 If we take Marquette University's quiz as an example:
 79 college majors are offered \footnote{According to \url{https://www.marquette.edu/academics/majors/}},
 and 10 questions may not be considered sufficient to gauge a student's interest appropriately across the 79 college majors.
@@ -648,19 +649,19 @@ although they may refer to broader fields of study.
 For example as we see in Superprof's results in figure \ref{fig:superprof-results}, STEM is being suggested to the user,
 however STEM encompasses a wide range of college majors including Mathematics and Engineering - similar, but still different fields of study.
 While this may guide the user toward narrowing their college major choices, 
-there is still a lack of specificity in the college major recommendations.\\
+there is still a lack of \emph{specificity} in the college major recommendations.\\
 
 However, if one wants to go beyond broader fields of study and have more specificity in their college course recommendations,
 the technology is required to have knowledge of specific college courses being offered at specific colleges.
 This introduces a new requirement of the technology having up-to-date, accurate college course information being offered at multiple different colleges.
-Moreover as mentioned in chapter \ref{chapter:background-reading}, the college admissions system and entry requirements differ by country,
+Moreover as mentioned in chapter \ref{chap:background-reading}, the college admissions system and entry requirements differ by country,
 and clearly the Irish college system differs to the American college system that these quizzes refer to.
 Seeing as this dissertation focuses on Irish college course recommendations, 
 these requirements call for a technology with a working knowledge of the Irish college courses and college system,
-and that technology suggests specific, personalised college courses in Ireland.\\
+and one that could suggest specific, personalised college courses according to the Irish college system.\\
 
-The technology described above already does exist: FindMyCollegeCourse (FMCC) \footnote{\url{https://findmycollegecourse.ie/}}.
-To the best of our knowledge, this is the only online quiz that recommends college courses in Ireland.
+The technology described above already does exist: \emph{FindMyCollegeCourse} (FMCC) \footnote{\url{https://findmycollegecourse.ie/}}.
+To the best of our knowledge, this is the only online quiz that recommends Irish college courses.
 FMCC addresses many of the aforementioned limitations of other college major quizzes:
 the quiz has over 100 questions, demonstrating much more breadth in capturing student's interests and preferences.
 Additionally, FMCC recommends specific Irish college courses as opposed to broad fields of study,
@@ -671,9 +672,9 @@ will be provided in section \ref{sec:research-gap}.
 
 \subsection{College course Recommender Systems}
 
-In Chapter \ref{chapter:introduction}, there was a reference to the Recommender System (RS) technology.
-In this subsection, we will turn our attention from real-world products to the academic literature, and 
-examine the intersection of RS's and college course recommendations in the literature.
+In Chapter \ref{chap:introduction}, there was a reference to the Recommender System (RS) technology.
+In this subsection, we will turn our attention from real-world products, and 
+examine the intersection of RS's and college course recommendations in the academic literature.
 In this discussion, we will particularly focus on the \emph{type} of RS's being employed.
 A further discussion of other features of these RS's will be provided in section \ref{sec:research-gap}.
 An understanding of the common RS types, as discussed in section \ref{sec:common-rs-types}, will be useful in understanding this discussion.
@@ -700,76 +701,118 @@ A comparison of the different RS types is best demonstrated in the Table \ref{ta
 \end{table}
 
 It is worth noting that in \cite{lahoud2023comparative}, they tested a wide variety of RS types,
-and in their specific case, a hybrid RS with Content-based Filtering and Knowledge-Based Filtering yielded the best results.
+and in their specific case, a hybrid RS with Content-based Filtering and Knowledge-Based Filtering yielded the best college course recommendations.
 That being said, as is clear from table \ref{tab:rs-lit-comparison}, 
-there is no common consensus on the most optimal RS type for the problem of college course recommendations.
+there is no common consensus on the most optimal RS type for the problem of college course recommendations,
+suggesting that a solution to this problem may adopt many of the approaches above.
 
 \section{Research Gap}
 \label{sec:research-gap}
 
 In this section, we will synthesise our background knowledge of college course choice fundamentals, gathered in section \ref{sec:fundamentals},
-with our knowledge of closely-related work as explored in section \ref{sec:closely-related-work}
-in order to explore and define a research gap.
-In order to clearly articulate a research gap, table \ref{tab:} defines different features of the closely-related work referenced in section \ref{sec:closely-related-work}:
+with our knowledge of closely-related work as explored in section \ref{sec:closely-related-work},
+in order to clearly define a research gap.
+To help us with this, tables \ref{tab:research-gap-1} and \ref{tab:research-gap-2} define different features of the closely-related work referenced in section \ref{sec:closely-related-work}:
 
-\begin{landscape}
-\centering
-\small % Slightly smaller font to ensure a clean fit
-\begin{table}[h]
-\caption{Comparison of College Course Recommender Systems}
-\label{tab:recommender_comparison}
-\vspace{0.5em}
-\begin{tabularx}{\linewidth}{l c c >{\raggedright\arraybackslash}X l >{\raggedright\arraybackslash}X}
-\toprule
-\textbf{Name} & \textbf{\# Questions} & \textbf{\# Results} & \textbf{Recommendation Type} & \textbf{Filter by College} & \textbf{Profiled User Information} \\
-\midrule
-mine         & 126    & 20       & Irish college course     & y                & RIASEC, academic interests \\ \addlinespace
-superprof    & 10     & 3        & General area of study    & n                & Academic interests \\ \addlinespace
-anderson     & 25     & 50       & College major            & y* & Academic interests \\ \addlinespace
-marquette    & 10     & 30       & College major            & y* & Academic interests \\ \addlinespace
-fmcc         & $\sim$150 & 200   & Irish college course     & Filter by region & Academic interests \\ \addlinespace
-pcrs         & 125* & 7        & Engineering course       & n                & Hobbies, grades, MBTI \\ \addlinespace
-envisioning  & ?      & ?        & College major            & n                & Hobbies, grades \\ \addlinespace
-comparative  & 6--39  & 3--5     & Lebanese college course  & Filter by region & Hobbies, gender, academic interests \\ \addlinespace
-personality  & 90     & $\sim$5  & Taiwanese college course & y* & RIASEC \\
-\bottomrule
-\end{tabularx}
+\begin{table}[H]
+\caption{Comparing features of all examined Closely-related work (Part 1)}
+\begin{tabular}{ |p{4cm}||p{3cm}|p{3cm}|p{5cm}|}
+ \hline
+ \textbf{Name} & \textbf{\# Questions} & \textbf{\# Results} & \textbf{Recommendation Type}\\
+ \hline
+ \hline
+\emph{Superprof}    & 10     & 3        & General area of study\\
+\hline
+\emph{Anderson Uni}     & 25     & 50       & College major\\
+\hline
+\emph{Marquette Uni}    & 10     & 30       & College major\\
+\hline
+\emph{FMCC}         & $\sim$150 & 200   & Irish college course\\
+\hline
+\emph{\cite{qamhieh2020pcrs}}         & 125\tablefootnote{Estimated number of questions; the number is unclear from reading the paper.} & 7        & Engineering course\\
+\hline
+\emph{\cite{ghuge2023envisioning}}  & \textbf{TODO}      & \textbf{TODO}        & College major\\
+\hline
+\emph{\cite{lahoud2023comparative}}  & 6-39\tablefootnote{Estimated range of number of questions; the number is unclear from reading the paper.}  & 3--5     & Lebanese college course\\
+\hline
+\emph{\cite{su2021personality}}  & 90     & $\sim$5  & Taiwanese college course\\
+\hline
+\end{tabular}
+\caption*{\textbf{Explanation of columns:}\\\textbf{\# Questions:} the number of questions asked to the user prior to receiving their college course recommendations.\\\textbf{\# Results:} The number of college course recommendations the user receives.\\\textbf{Recommendation Type:} the type of college course recommendation the user receives.}
+\label{tab:research-gap-1}
 \end{table}
-\end{landscape}
 
-% In order for an RS to provide personalised college course recommendations, 
-% the RS must gather some information from the user.
-% The next logical question to ask is: \emph{"What information should we gather from the user?"}
-% However, as was evident from our investigation in section \ref{sec:fundamentals}, 
-% we found that answering the question \emph{"What college course should people study"} to 
-% be multi-faceted, encompassing many factors.
-% In this discussion, we will examine the types of information that other works in the literature have gathered off the user 
-% in order to provide personalised college course recommendations.\\
+% From table \ref{tab:research-gap-1} above, 
 
+\begin{table}[H]
+\caption{Comparing features of all examined Closely-related work (Part 2)}
+\begin{tabular}{ |p{4cm}||p{4cm}|p{8cm}|}
+ \hline
+ \textbf{Name} & \textbf{Can filter results by college?} & \textbf{Profiled User Information} \\
+ \hline
+ \hline
+\emph{Superprof}    & \ding{55}    & Academic interests\\
+\hline
+\emph{Anderson Uni}     & \ding{55}\tablefootnote{The only college majors recommended are ones offered from Anderson University.}     & Academic interests\\
+\hline
+\emph{Marquette Uni}    & \ding{55}\tablefootnote{The only college majors recommended are ones offered from Marquette University.}     & Academic interests\\
+\hline
+\emph{FMCC}         & \ding{55}\tablefootnote{You can filter your colleges by region, for example just the colleges in Dublin, Munster, etc.} & Academic interests\\
+\hline
+\emph{\cite{qamhieh2020pcrs}}         & \ding{55} & Hobbies, Grades, MBTI\tablefootnote{Myer-Briggs Type Indicator (MBTI); a personality test developed in \cite{myers1962myers}.}\\
+\hline
+\emph{\cite{ghuge2023envisioning}}  & \ding{55}      & Hobbies, Grades\\
+\hline
+\emph{\cite{lahoud2023comparative}}  & \ding{51}  & Hobbies, Gender, Academic interests\\
+\hline
+\emph{\cite{su2021personality}} & \ding{55}\tablefootnote{The only college majors recommended are ones offered from Cheng Shiu University, Taiwan.}     & RIASEC personality model\\
+\hline
+\end{tabular}
+\caption*{\textbf{Explanation of columns:}\\\textbf{Can filter results by college?} is it possible for the user to specifically receive college course recommendations from colleges of their choice?\\\textbf{\# Profile User Information:} What information is the system profiling off the user in order to make personalised college course recommendations?}
+\label{tab:research-gap-2}
+\end{table}
 
-% edge over FMCC:
-    % less courses being suggested
-        % cite overchoice and long2025 et al paper
-    % using RIASEC
-        % but that's a design decision
+With a clearer overview of the differing features of all the examined Closely-related work, we can now clearly
+define our research gap. By examining table \ref{tab:research-gap-2} above, we can observe that no 
+closely-related works have applied the combination of \emph{Holland's RIASEC model} and \emph{Academic Interests}.
+Given the ubiquity and robustness of Holland's RIASEC model, as described in subsection \ref{sec:theories-college},
+and the statistically significant positive correlation between interests and job satisfaction, as described in subsection \ref{sec:job-and-career-satisfaction},
+we are presented with an exciting opportunity to merge Holland's RIASEC model and the user's academic interests in 
+providing personalised college course recommendations. It is worth noting that a more elaborate justification of related design decisions 
+will be provided in in Chapter \ref{chap:design} \textbf{TODO get exact subsection!}.\\
 
+In addition to this, when we examine Table \ref{tab:research-gap-1}, few of the examined closely-related works
+recommend specific college courses in a particular country - with just one in Ireland (FMCC).
+The Irish college admissions system presents an interesting use-case for this problem for many reasons.
+Firstly, all college applications go through the CAO\footnote{Central Applications Office; see section \ref{sec:cao} for background reading regarding the CAO.}, which is a centralised system,
+as opposed to other countries, such as the USA, where students must apply to colleges directly.
+Secondly, the CAO requires the student to create a ranked list of their preferred college courses.
+Seeing as RS's provide their users with ranked lists of items, 
+it is quite appropriate to apply an RS to the domain of Irish college course recommendations.
+As a result, the Irish CAO system presents an interesting case study for research to be conducted in the context of a College Course RS problem.\\
 
-% 1. in ireland (a college course RS is fundamentally country-dependent given each country's differing college admission systems)
-% 2. interest and riasec makeup
-    % compared to FMCC which only utilises interests
-% could maybe reference the research question? how can we assist individuals
-% can also make reference to things mentioned in the intro:
-    % changing priorities of GC's in Ireland
-    % the weight of making a college course decision
-        % fear of regret
+As we discovered in subsection \ref{sec:college-justifications},
+the choice of college is an important factor in a student's college course decision-making process.
+Only one (\cite{lahoud2023comparative}) of the examined closely-related works above allow users
+to filter their college course recommendation results by specific colleges.
+Moreover in Ireland, there is no work that allows a user to be recommended college courses for specific colleges \footnote{As mentioned in table \ref{tab:research-gap-2}, FMCC allows users to filter their colleges by \emph{region}, but not specific colleges.}.
+As a result, this research seeks to allow users to filter their college course recommendations by specific colleges,
+a research gap in the context of Irish college course RS's.\\
 
-% in light of these limitations, define the research gap: "an RS that suggests relevant irish college courses informed by a rigorous understanding of the fundamentals of college course choice, explored in the previous section.
-% my idea comes in, it's edge is that it's in ireland (very country-dependant), and that it will utilise a student's college preferences,
-% interests and riasec
-
+We can now succinctly and clearly define our research gap: a college course RS applied to the Irish context, 
+utilising a user's \emph{RIASEC model} and \emph{Academic interests}, allowing the user to filter their college course recommendations by specific colleges.
 
 \section{Chapter Summary}
 \label{sec:literature-review-summary}
 
+This chapter started with an investigation into the fundamentals of college course choice.
+More broadly, the section explored different answers to the all-elusive question: \emph{"What college course should people study?"}
+There are a multitude of factors in this decision, and this dissertation provided it's own answer to the question.
+However, the author wishes to stress that the answer is by no means exhaustive, and should instead be taken as a guideline.\\
 
-
+Investigating this question provided us the necessary background knowledge to analyse the closely-related works 
+in the space of college course recommendations.
+This work was performed for two main reasons: firstly, to develop an awareness of the surrounding literature, and secondly, 
+to clearly define the research gap this dissertation addresses.
+With an enhanced knowledge of the background literature of this problem, 
+we can now move on to the next chapters.
