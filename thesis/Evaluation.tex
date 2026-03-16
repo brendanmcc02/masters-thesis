@@ -23,25 +23,100 @@ The Evaluation chapter should present a comparison of the work that forms the ba
 
 \section{Experiments}
 
-In the case where experiments have been carried out, the experimental setup and the values that were defined for the variables need to be presented in a table e.g. table~\ref{tab:experimentsetup}.
+In the case where experiments have been carried out, the experimental setup and the values that were defined for the variables need to be presented in a table e.g. 
 
-\begin{table}[!h]
+\begin{table}[H]
 \begin{center}
-	\begin{tabular}{|l|c|c|} 
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|} 
 	\hline
- 	\bf Column 1  & \bf Column 2  & \bf Column 3 \\
+ 	& \bf Precision & \bf Recall & \bf F1 Score & \bf Novelty & \bf Serendipity \\
   	\hline
-	Row 1 & Item 1 & Item 2 \\
-	Row 2 & Item 1 & Item 2 \\
-	Row 3 & Item 1 & Item 2 \\
-	Row 4 & Item 1 & Item 2 \\
+	\bf Actual & 0.47 & 0.7 & 0.55 & 0.91 & 0.39\\
+	\hline
+	\bf Baseline & 0.22 & 0.43 & 0.28 & 0.97 & 0.2\\
 	\hline
 	\end{tabular}
 \end{center}
-\caption[Variables of the experiment]{Caption that explains the table to the reader}	
-\label{tab:experimentsetup}
+\caption{Objective Metrics}
 \end{table}
 
+% Metric,Shapiro P-val,T-test/wilcoxon P-val,Cohen's d,Effect Size
+% Diversity,0.2335,0.5826,0.1,Small
+% Trust,0.0234,0.0,1.19,Large
+% Precision,0.6032,0.0,1.34,Large
+% Recall,0.3757,0.0,1.12,Large
+% F1 Score,0.4663,0.0,1.31,Large
+% Novelty,0.0347,0.0,-1.0,Large
+% Serendipity,0.9347,0.0,1.11,Large
+
+\begin{table}[H]
+\begin{center}
+	\begin{tabular}{|c|c|c|}
+	\hline
+ 	\bf Metric & \bf p-value (t-test/Wilcoxon) & \bf Cohen's effect\\
+  	\hline
+	Diversity & 0.5826 & 0.1\\
+	\hline
+	Trust & 0.000 & 1.19\\
+	\hline
+	Precision & 0.000 & 1.34\\
+	\hline
+	Recall & 0.000 & 1.12\\
+	\hline
+	F1 Score & 0.000 & 1.31\\
+	\hline
+	Novelty & 0.000 & -1.0\\
+	\hline
+	Serendipity & 0.000 & 1.11\\
+	\hline
+	\end{tabular}
+\end{center}
+\caption{Statistical Significances}
+\end{table}
+
+\begin{table}[H]
+\begin{center}
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|} 
+	\hline
+ 	& \bf Diversity  & \bf Trust \\
+  	\hline
+	\bf Actual & 3.9 & 4.15 \\
+	\hline
+	\bf Baseline & 3.7 & 2.35 \\
+	\hline
+	\end{tabular}
+\end{center}
+\caption{User-Perceived Metrics}	
+\end{table}
+
+\begin{table}[H]
+\caption{Comparing features of all examined Closely-related work (Part 2)}
+\centering
+\begin{tabular}{ |p{4cm}||p{8cm}|}
+ \hline
+ \textbf{Name} & \textbf{Profiled User Information} \\
+ \hline
+ \hline
+\emph{Superprof}    & Academic interests\\
+\hline
+\emph{Anderson Uni}& Academic interests\\
+\hline
+\emph{Marquette Uni}& Academic interests\\
+\hline
+\emph{FMCC} & Academic interests\\
+\hline
+\emph{\cite{qamhieh2020pcrs}} & Hobbies, Grades, MBTI\tablefootnote{Myer-Briggs Type Indicator (MBTI); a personality test developed in \cite{myers1962myers}.}\\
+\hline
+\emph{\cite{ghuge2023envisioning}} & Hobbies, Grades\\
+\hline
+\emph{\cite{lahoud2023comparative}}& Hobbies, Gender, Academic interests\\
+\hline
+\emph{\cite{su2021personality}} & RIASEC personality model\\
+\hline
+\end{tabular}
+\caption*{\textbf{Explanation of columns:}\\\textbf{Can filter results by college?} is it possible for the user to specifically receive college course recommendations from colleges of their choice?\\\textbf{\# Profile User Information:} What information is the system profiling off the user in order to make personalised college course recommendations?}
+\label{tab:research-gap-2}
+\end{table}
 
 \section{Results}
 

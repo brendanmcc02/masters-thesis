@@ -1,4 +1,4 @@
-Timestamp Part 1	Timestamp Part 2	Actual Diversity	Baseline Diversity	Actual Trust	Baseline Trust	Actual Precision 	Baseline Precision	Actual Recall	Baseline Recall	Actual F1 Score	Baseline F1 Score	Actual Novelty	Baseline Novelty	Actual Serendipity	Baseline Serendipity	Feedback
+Timestamp Part 1	Timestamp Part 2	Actual Diversity	Baseline Diversity	Actual Trust	Baseline Trust	Actual Precision	Baseline Precision	Actual Recall	Baseline Recall	Actual F1 Score	Baseline F1 Score	Actual Novelty	Baseline Novelty	Actual Serendipity	Baseline Serendipity	Feedback
 04/02/2026 12:07:50	04/02/2026 12:17:54	5	3	4	2	0.65	0.3	0.68	0.43	0.66	0.35	0.9	1	0.55	0.3	Brendan was here :)
 04/02/2026 14:37:26	04/02/2026 14:53:15	3	4	4	3	0.65	0.35	0.93	0.64	0.77	0.45	0.85	1	0.5	0.35	Could do with some light refreshments or snacks along the way
 04/02/2026 16:34:39	04/02/2026 16:49:35	5	2	4	2	0.3	0.1	0.4	0.17	0.34	0.13	0.95	1	0.25	0.1	
