@@ -1,21 +1,123 @@
 \chapter{Design}
 \label{chap:design}
 
+% talk about RQ and give more context so it can be answered more clearly later
+    % - we want to make an RS that is most effective in helping someone in their college course decision-making process
+    % what is an effective college course RS?
+    % could talk about agarwal's quality of a good RS, and put a college course spin on it
+    % relevance - to the student's preferences, is it something they would genuinely consider studying
+    % diversity - not just recommending 20 CS courses because they said they like computers
+    % serendipity - the gold standard   
+        % recommending the user a course they would not have thought about studying if it were not for the RS
+
+% interviews with GC's
+    % aoife holland codes - finds them to be a limiting snapshot of a person
+        % she is a lot more "instinctive" and "intuitive" in her process
+            % gives credence to the human element of GC's
+            % we do not want to replace or fight this, but rather complement the human process!
+    % personality tests
+        % doesn't deal with OCEAN or MBTI
+        % puts labels on people and says teenagers may not have the maturity to recognise the nuance of these labels
+        % does more harm than good in her view
+        % bring this around to holland codes - it is not a deterministic, complete view of a person, but should instead be viewed 
+        % as a potential indication of their interests
+        % donnchadh: he doesn't use them at all
+    % finds hobbies can be a great source 
+    % when talking about diversity in recs, she thought this was great and in her own GC process she likes to "challenge" students
+    % both GC's talked about how GC's is moving more from career guidance to counselling/personal support
+    % talk about both of their emphasis on subjects in their GC process
+        % but talk about how at least in ireland, subjects may be limiting and not cover a broad range of a student's interests
+            % a student does eng, (maybe) irish and maths + at least 4 subjects
+            % if we only rely on this information, there may be an area of interest **outside** of their LC subjects that the RS would have no awareness of!
+        % arguably a more general academic interest quiz could get this information off them anyway
+            % this quiz would have more questions and thus more breadth than 6/7+ LC subjects
+
 % USER INFORMATION TO PROFILE
 % we established research gap
     % but still want to justify design decisions
-% this is where the bias discussion comes in:
-    % can cite my interesting paper where people prefer biased recs in the context of college courses
-    % gender is established as a bias, how does that factor in?
-    % parental education bg, SES, parental influence are also factors
-    % i could make the argument that I wanted my RS to be "colour blind" to this
-% don't want to overcomplicate and over-engineer the amount of preferences to ask a user
+    % this is where the bias discussion comes in:
+        % can cite my interesting paper where people prefer biased recs in the context of college courses
+        % gender is established as a bias, how does that factor in?
+        % parental education bg, SES, parental influence are also factors
+        % i could make the argument that I wanted my RS to be "colour blind" to this
+    % don't want to overcomplicate and over-engineer the amount of preferences to ask a user
+    % also a limitation of race/gender/ethnicity is that we don't have access to this data - RS's fundamentally work off data so this decision is limited in implementation
+    % salary and employment rates are also not available at a granular level of courses - which is what this RS strives to do
+        % could do average salary and employment for interest categories, but this is also broad and loses its nuance
+    % hobbies may also be difficult to map
+        % future work though?
 
+% user
+    % given influences of college, allow user to select specific college courses
+    % given system in ireland, allow students to select/filter NFQ levels
+    % allow user to select their expected LC points to prevent courses that cannot enter
+    % need to get 1. academic interests and 2. RIASEC interests off the user
+        % what are "academic interests?" - 21 college course categories
+            % permission granted and inspired by FMCC (deleted 2 - vet and manufacturing & processing)
+        % how do we get this info? quiz!
+            % talk about phrasing of question and its iterations
+            % talk about how the question targets:
+                % 1. interest
+                % 2. riasec trait
+            % 21 categories, 6 questions per categories (chosen relatively arbritrarily, mostly because there are 6 RIASEC traits)
+            % how were these questions generated?
+                % and what was the idea behind them?
 
+                % wanted the questions to broadly target different kinds of work involved in each field
+                    % e.g. in healthcare, we wanted questions that focused on doctor, physio, occupational therapy, etc.
+                % also wanted the questions to target different RIASEC qualities within each field
+                    % e.g. healthcare asking a question about surgical procedures: R
+                        % and understanding human anatomy: I - both questions target the same type of job (medical practitioner), but different dimensions to the role
+                    % how did we decide on what kind of split to do on each section?
+                        % plotted a distribution of the RIASEC qualities and modeled the 6 questions accordingly
+                            % e.g. computers had almost exclusively "R" and "I", so 4 "i" q's and 2 "r" q's
+                % questions were initialised by LLM (Gemini 3), however they had a lot of manual intervention and tinkering by me
+                    % LLM was given the dataset as context and was told to make 6 questions per category that (like i just explained):
+                        % asked questions typical in jobs of those courses
+                        % targeted specific riasec qualities
 
-% owen: ok to mention AI as a starting point,
-% given that I had a lot of manual labour on top of it with my learned knowledge regarding the subject matter
+% dataset and college courses
+    % need a dataset of college courses in ireland
+        % with RIASEC qualitites and academic interests associated with them so they can be mapped from users
+        % ngl just reference implementation section and say it will be discussed there
+    % implementation:
+        % web scraped
+        % already have 8 CP interests
+            % transformed to holland 6
+            % lots of manual intervention; inaccurate and misalignment
+        % had to augment/uplift with academic interests
+            % initialised with LLM's, but a loooot of manual labour and intervention to ensure consistency and correct errors/false assumptions
 
+% revisit the qualities of a good RS as introduced in the beginning of this chapter
+    % how many recs?
+        % inspired by the findings of small rec sets, number of 20 was chosen
+            % relatively arbitrary
+            % primarily because on a CAO list you have 10 courses for level 8, and 10 for 6/7
+    % diversity
+        % 1. don't recommend courses with the same title
+            % in implementation i'll talk about preprocessing
+        % 2. don't just recommend courses from the same academic interest category
+            % rather than just being dominated by one category, cycle through the top 5 categories
+                % "top 5" was chosen arbitrarily
+                    % future work - this number could be relative, some people may only demonstrate interest in 3 categories and get rec'd useless courses for 2 categories they barely showed interest in
+    % this push for novelty is driven by a desire for **serendipity**
+        % a user may like CS and tick "yes" to 20 Computer courses that got recommended to them
+        % but is this information novel? 
+            % revisit chapter intro: it actually doesn't really **help** the user because they were likely already aware of it
+            % we want **serendipity** - courses they may not be aware of, and this involves tradeoffs
+            % instead of recommending 5 CS courses that we know they like, we would rather rec 1 CS course - to signal their awareness towards the course
+                % and then recommend other computer courses - they may not be relevant or good, but there is a chance for serendipity here
+
+% RS design
+    % as established in background and closely-related work, there are many types of RS's
+    % CF attempt failed according to intiial prototypes
+        % lack of data online about other irish people's college course choice
+        % as a result, CF was not attempted
+    % leaves us with 2 options: KB and CBF
+        % a KB RS would be useful as a user could specify points, nfq and college preferences - as referenced earlier
+        % this **constraints** the courses, but we still want to narrow down choice
+            % can utilise CBF to utilised user attributes to course attributes
+        % so, our RS is a hybrid KB and CBF one!
 
 \section{Relevant information to question}
 \label{sec:relevant}
@@ -28,8 +130,6 @@
 
 % talk about thinking about whether to use LLM's or not
 
-% owen: talk about manual labour
-
 
 
 
@@ -37,19 +137,6 @@ Interviews with expert guidance counsellors were conducted as part of this resea
 
 \subsection{Interviews with guidance counsellors}
 \label{sec:interviews}
-
-\section{Problem Formulation}
-\label{sec:ProblemFormulation}
-
-This section should provide the reader with an overall description of the problem that will be addressed in the dissertation. In contrast to a generic discussion of the dissertation topic in the Introduction chapter, this section should provide a detailed discussion of the problem that has been identified based on the existing work that has been discussed in the preceeding chapter. 
-
-In some dissertations, it may make sense to convert this section into a short chapter of its own which follows the discussion of the existing work and preceeds the discussion of the work of the dissertation.
-
-\subsection{Identified Challenges}
-This section should present a short description of the gaps in the existing work and the relationship of these gaps to the work described in this dissertation.
-
-\subsection{Proposed Work}
-This section should provide a thorough description of the problem and an overview of the work proposed to address the problem.
 
 
 \section{Overview of the Design}

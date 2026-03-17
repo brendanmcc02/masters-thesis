@@ -15,7 +15,7 @@ the website will ask:
 * nfq level
 
 # practical use with real guidance counsellors
-* he mentioned that a lot of their work now is counse*lling as opposed to course counselling
+* he mentioned that a lot of their work now is counselling as opposed to course counselling
 * **this product could help off-load work and give a head-start**
 * they created a dashboard so real guidance counsellors can use it and see the student's results before they walk into a session
 

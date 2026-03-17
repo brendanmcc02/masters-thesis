@@ -2,3 +2,27 @@
 \label{chap:initial-prototypes}
 
 \textbf{TODO}
+
+% talk about motivation behind CF
+    % a limitation of CBF is a lack of serendipity - echo chamber, lack of diversity
+        % reference future section where serendipity is discussed!
+    % a known advantage of CBF is serendipity
+        % wanted to seek out some dataset about the college courses **other people** chose, and leverage this information in college course choice!
+    % to the best of our knowledge, no large datasets about college course choice in ireland
+        % talk about RIASEC kaggle one
+    % talk about initial list of college courses from that newspaper
+        % lots of manual labour and trimmed the list
+        % created college major categories
+    % lots of manual labour - adding in courses to the list that frequently appeared in the dataset, renamed different courses
+    % show accuracy scores of different models being trained on the data 
+        % top-3 and top-1 accuracy
+        % pick the best model - hgbm
+    % show the confusion matrix
+        % highlight its difficulty with certain sections, e.g. law, humanities, languages, etc.
+    % this is because the questions of the dataset are not exhaustive!
+        % no questions that were really targeting these categories, making it very difficult for the model to predict
+    % attempted to "fill in this gap" by asking the user for their LC subjects
+        % each LC subject contributed points towards an academic interests and RIASEC quality
+        % this was inspired by the conversation with GC's (ref next section)
+
+

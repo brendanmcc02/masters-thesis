@@ -4,7 +4,7 @@
     * this is in line with what hester was saying, it's a very reactive, human process as opposed to something rigid and defined
 
 # Her guidance counselling process
-* she thinks guidance should be extremenely **non-directive**
+* she thinks guidance should be extremely **non-directive**
 * her role is to suggest lots of things, gets the students to do their own research
     * it's **student-centric,** she is just there to give support in their journey
 * she mentioned that we shouldn't be using the word **"recommendations"**, because there's an implication that the student *should* do the course
