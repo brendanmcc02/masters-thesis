@@ -49,8 +49,8 @@ for m in metrics:
     
     results.append({
         "Metric": m,
-        "Shapiro P-val": round(shapiro_p, 4),
-        "T-test/wilcoxon P-val": round(p_value, 4),
+        "is normally distributed?": shapiro_p >= 0.05,
+        "T-test/wilcoxon P-value": round(p_value, 4),
         "Cohen's d": round(cohen_d, 2),
         "Effect Size": "Large" if abs(cohen_d) >= 0.8 else "Medium" if abs(cohen_d) >= 0.5 else "Small"
     })
