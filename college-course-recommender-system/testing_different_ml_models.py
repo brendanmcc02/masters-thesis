@@ -14,7 +14,7 @@ def print_top_k_accuracy_metric(y_actual, model_name, number_of_top_k, train_or_
 def print_top_1_accuracy_metric(y_actual, model_name, train_or_test_label, y_predicted):
     print(str(round(accuracy_score(y_actual, y_predicted), 3)) + " - " + model_name + " Top-1 " + train_or_test_label + " Accuracy")
 
-number_of_top_k = 4
+number_of_top_k = 3
 
 dataset = pd.read_csv("../datasets/open-psychometrics/clean_riasec_college_major_categories.tsv", sep='\t')
 
@@ -119,57 +119,39 @@ print("\nSum of Squared Differences: " + str(round(sum_of_squared_differences, 2
 print("\n## ACCURACY METRICS")
 print_top_k_accuracy_metric(y_test, "Hist Gradient Boosting Machines", number_of_top_k, "test", y_predicted_test_class_probabilities_hist_gradient_boosting_machines)
 print_top_k_accuracy_metric(y_train, "Hist Gradient Boosting Machines", number_of_top_k, "train", y_predicted_train_class_probabilities_hist_gradient_boosting_machines)
-# print_top_k_accuracy_metric(y_test, "Most Frequent Baseline", number_of_top_k, "test", y_predicted_class_probabilities_most_frequent)
+print_top_k_accuracy_metric(y_test, "Most Frequent Baseline", number_of_top_k, "test", y_predicted_class_probabilities_most_frequent)
 print_top_1_accuracy_metric(y_test, "Hist Gradient Boosting Machines", "test", y_predicted_test_hist_gradient_boosting_machines)
 print_top_1_accuracy_metric(y_train, "Hist Gradient Boosting Machines", "train", y_predicted_train_hist_gradient_boosting_machines)
-# print_top_1_accuracy_metric(y_test, "Most Frequent Baseline", "test", y_predicted_most_frequent)
+print_top_1_accuracy_metric(y_test, "Most Frequent Baseline", "test", y_predicted_most_frequent)
 
-fig, ax = plt.subplots(figsize=(12, 12))
-ConfusionMatrixDisplay.from_predictions(
+# Add layout="constrained" here
+fig, ax = plt.subplots(figsize=(12, 12), layout="constrained")
+
+disp = ConfusionMatrixDisplay.from_predictions(
     y_test, 
     y_predicted_test_hist_gradient_boosting_machines, 
     ax=ax, 
     cmap='Blues',
-    xticks_rotation='vertical'
+    display_labels=college_major_categories,
+    normalize='true',
+    values_format='.2f'
 )
 
-stringified_college_major_categories_with_indexes = ""
-for i in range(len(college_major_categories)):
-    stringified_college_major_categories_with_indexes += str(i) + "-" + college_major_categories[i] + ", "
+plt.setp(ax.get_xticklabels(), rotation=45, ha="right", rotation_mode="anchor")
+plt.suptitle("Confusion Matrix for College Major Categories")
+plt.title("Recall Scores", pad=20)
 
-plt.title("Confusion Matrix for College Major Categories")
-plt.suptitle(stringified_college_major_categories_with_indexes, fontsize=6)
-plt.show()
+# The labels will now respect the constrained layout
+ax.set_xlabel("Predicted label")
+ax.set_ylabel("Actual label")
 
-# 0-2 LIKERT SCALE (0-4 has better performance)
-# 0.629 - Logistic Regression Test Accuracy
-# 0.633 - Logistic Regression Test Accuracy
-# 0.566 - Hist Gradient Boosting Machines Top-3 test Accuracy
-# 0.937 - Hist Gradient Boosting Machines Top-3 train Accuracy
-# 0.281 - Hist Gradient Boosting Machine Top-1 test Accuracy
-# 0.831 - Hist Gradient Boosting Machine Top-1 train Accuracy
-
-# NO EDUCATION FILTER (better performance with no education filter)
-# 0.645 - Logistic Regression Top-3 Test Accuracy
-# 0.37  - Logistic Regression Top-1 Test Accuracy
-# 0.566 - Hist Gradient Boosting Machines Top-3 test Accuracy
-# 0.937 - Hist Gradient Boosting Machines Top-3 train Accuracy
-# 0.281 - Hist Gradient Boosting Machine Top-1 test Accuracy
-# 0.831 - Hist Gradient Boosting Machine Top-1 train Accuracy
-
-
-# at least with Log Reg model, it seems to perform better with no substring match
-# no substring match
-# Logistic Regression Top-3 Test Accuracy:        0.66
-# Logistic Regression Top-1 Test Accuracy:        0.379
-
-
-# HGBM - max_leaf_nodes=None, l2_regularization=1.0, class_weight='balanced'
-# Sum of Squared Differences (test): 34.24
-# Sum of Squared Differences (train): 16.41
-
-# 0.606 - Hist Gradient Boosting Machines Top-3 test Accuracy
-# 0.952 - Hist Gradient Boosting Machines Top-3 train Accuracy
-# 0.319 - Hist Gradient Boosting Machine Top-1 test Accuracy
-# 0.875 - Hist Gradient Boosting Machine Top-1 train Accuracy
-
+# plt.show()
+# Save with high DPI and auto-cropping
+plt.savefig(
+    'confusion_matrix.png', 
+    dpi=300,            # High resolution (300 is standard for print)
+    bbox_inches='tight', # Automatically removes all unnecessary white space
+    pad_inches=0.1,      # Adds a tiny aesthetic margin so text isn't touching the edge
+    transparent=False,   # Set to True if you want a transparent background
+    facecolor='white'    # Ensures the background is solid white
+)
