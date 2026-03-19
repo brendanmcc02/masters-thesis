@@ -15,7 +15,6 @@ the fees and scholarships of undergraduate Irish college courses,
 and a greater explanation of the role of a GC in Irish secondary schools.
 Upon completion of the chapter, the reader should be familiar with the workings of the Irish secondary school and college admission system.
 
-% owen - might need RS section later, depends on how the design/implementation chapter
 \section{The Leaving Certificate}
 \label{sec:lc}
 
@@ -189,14 +188,25 @@ As a result, the terms ``college course" and ``college major" are seen as equiva
 \section{Common types of Recommender Systems}
 \label{sec:common-rs-types}
 
-\textbf{TODO} - only talk about RS types that are relevant!
+As mentioned in Chapter \ref{chap:introduction}, a Recommender System (RS) is a technology that recommends items to users.
+There are many different \textbf{types} of RS's,
+and in this section we will describe three types of RS's that are relevant to this dissertation.
+It is worth noting we will not describe their advantages or limitations, instead a straightforward definition will be provided.
+We will follow the definitions as described in \cite{aggarwal2016recommender}.\\
 
-afaik just CF, CBF and KBF
+A \textbf{Content-Based Filtering} (CBF) RS uses information explicitly provided by the user in order to make recommendations.
+For example, a CBF RS would recommend Biology to a user because they explicitly expressed interest in the biological sciences.\\
 
-\section{Qualities of an Effective Recommender System}
-\label{sec:rs-fundamentals}
+A \textbf{Collaborative Filtering} (CF) RS requires the information about \emph{other} users who have also interacted with the RS.
+A CF RS recommends items to a user that other similar users also liked.
+For example, a CF RS would recommend Computer Science to a user, because other users with similar interests also liked Computer Science.\\
 
-\textbf{TODO} - relevance, diversity, serendipity.
+A \textbf{Knowledge-Based Filtering} (KBF) RS is much more direct and asks the user for explicit specifications, recommending items to users 
+that fit these specifications.
+For example, a user may explicitly specify they want Business courses in Dublin, and then the user may be recommended Commerce in University College Dublin.\\
+
+A \textbf{Hybrid} RS combines multiple types of RS's into one. For example, a Hybrid RS may utilise CBF and KBF approaches in generating recommendations.
+For example, a user may be asked to explicitly specify the colleges they want to study at (KBF), and then be recommended college courses based on their profiled preferences (CBF).
 
 \section{Summary}
 \label{sec:background-reading-summary}
