@@ -138,15 +138,12 @@ disp = ConfusionMatrixDisplay.from_predictions(
 )
 
 plt.setp(ax.get_xticklabels(), rotation=45, ha="right", rotation_mode="anchor")
-plt.suptitle("Confusion Matrix for College Major Categories")
-plt.title("Recall Scores", pad=20)
+plt.title("Recall Scores Confusion Matrix for College Major Categories")
 
 # The labels will now respect the constrained layout
 ax.set_xlabel("Predicted label")
 ax.set_ylabel("Actual label")
 
-# plt.show()
-# Save with high DPI and auto-cropping
 plt.savefig(
     'confusion_matrix.png', 
     dpi=300,            # High resolution (300 is standard for print)
@@ -155,3 +152,4 @@ plt.savefig(
     transparent=False,   # Set to True if you want a transparent background
     facecolor='white'    # Ensures the background is solid white
 )
+# plt.show()
