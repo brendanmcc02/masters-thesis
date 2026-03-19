@@ -1,10 +1,10 @@
 \chapter{Initial Prototypes}
 \label{chap:initial-prototypes}
 
-As part of this research, a significant portion of time was dedicated towards a particular approach in solving this disseration's research question.
+As part of this research, a significant portion of time was dedicated towards a particular approach in solving this dissertation's research question.
 This chapter will describe the motivations behind the chosen approach, the implementation details, and then evaluate 
 the results and describe why the experiment yielded unsatisfactory results. 
-It is worth dedicating time to this, as the approach involves the use of popular datasets 
+Arguably, it is worth dedicating time to this, as the approach involves the use of popular datasets 
 that others may use in solving similar problems to this research.
 
 \section{Design Motivation}
@@ -25,11 +25,7 @@ recommendations, because by leveraging the data of what other similar users also
 rather than solely relying on what the user likes,
 the RS may make recommendations that are relevant but less expected.
 
-\section{Datasets}
-
-\textbf{todo}
-
-\subsection{Datasets and initial challenges}
+\section{Datasets and initial challenges}
 
 \textbf{TODO???} In section \ref{sec:research-gap} and chapter \ref{chap:design}, we justified a research 
 gap in leveraging a user's RIASEC model and Academic Interests to provide personalised college course recommendations.
@@ -53,7 +49,7 @@ This kind of data would be essential in designing a CF RS.
     \label{fig:op-quiz}
 \end{figure}
 
-However, as described in subsection \ref{sec:research-gap}, this disseration seeks to design an RS that recommends specific Irish college courses 
+However, as described in subsection \ref{sec:research-gap}, this dissertation seeks to design an RS that recommends specific Irish college courses 
 as opposed to general areas of study.
 The RIASEC dataset has been answered by users from all over the world, particularly from the USA.
 As a result, a challenge is posed in mapping the college majors that users provided in the RIASEC dataset, 
@@ -61,7 +57,7 @@ to specific Irish college courses.
 Moreover, new Irish college courses are being created each year\footnote{See footnote \ref{label:new-courses}},
 compounding the difficulty of the problem.\\
 
-\subsection{Solution to introduced problems}
+\section{Solution to introduced problems}
 
 As a solution to this problem of specificity, we can create more general categories of related college courses - for example, we can 
 group Medicine, Nursing and Occupational Therapy all under a ``healthcare" category.
@@ -86,7 +82,7 @@ we can categorise each of the $\sim$70,000 users in the RIASEC dataset into one 
 This augmented dataset will be instrumental in training a Machine Learning model to predict a user's college major from the results
 of this RIASEC quiz.
 
-\subsection{Machine Learning Model}
+\section{Machine Learning model selection}
 
 From the work in the last subsection, we now have a dataset with over 70,000 user's RIASEC quiz results, and their college major category.
 This can be reconceptualised in the context of a Machine Learning (ML) problem: 
@@ -102,33 +98,68 @@ This implementation of a HGBC achieved a top-1 accuracy of \textbf{0.319}, and a
 In other words for the unseen test set, this HGBC implementation predicted the user's college major correctly in 31.9\% of cases (top-1 accuracy), 
 and in 60.6\% of cases, the model predicted the user's college major correctly in it's first 3 predictions (top-3 accuracy).
 
-\subsection{Model Evaluation}
+\section{Model Evaluation}
 
 The top-1 and top-3 accuracy scores for the unseen test set were reported in the previous subsection.
 However, in this section we will take a closer look in evaluating the chosen model's performance.\\
 
-In figure \ref{fig:confusion-matrix} below, we can observe a Confusion Matrix of the chosen model 
+In figure \ref{fig:confusion-matrix} below, we can observe the Confusion Matrix of the chosen model, 
+showcasing the recall scores.\\
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.5]{images/recall-scores.png}
-    \caption{An example of a question given on the OpenPsychometrics RIASEC quiz.}
+    \includegraphics[scale=0.35]{images/recall-confusion-matrix-better.png}
+    \caption{A Confusion Matrix for Recall scores on the HGBC model.}
     \label{fig:confusion-matrix}
 \end{figure}
 
-\subsection{Limitations of the approach}
+To take one example, we can observe that the model achieved a recall score of 0.4 for the ``sports" college major category,
+meaning that of all the users with ``sports'' as their college major category, 
+the model correctly predicted ``sports'' for these users 40\% of the time.
+Relatively speaking, we can see that this recall score of 0.40 is the highest performing recall score
+out of all the other college major categories.
+In particular, we can see the model struggling with some college major categories, such as ``foreign languages'' with 
+a recall score of 0.1, and ``social science'' with a score of 0.05,
+meaning that the model correctly predicts the user's college major category 10\% and 5\% of the time respectively.\\
 
-% show accuracy scores of different models being trained on the data 
-    % top-3 and top-1 accuracy
-    % pick the best model - hgbm
-% show the confusion matrix
-    % highlight its difficulty with certain sections, e.g. law, humanities, languages, etc.
-% this is because the questions of the dataset are not exhaustive!
-    % no questions that were really targeting these categories, making it very difficult for the model to predict
+Honestly speaking, the performance of this model was disappointing as is demonstrated through the low recall scores referenced above.
+Many different ML models with differing configurations were applied to the problem with negligible improvements.
+As well as this, the college major dataset underwent significant manual revisions - adding new college majors and splitting up different college major 
+categories, all in an attempt to improve the model performance;
+all failed attempts in improving the model's performance beyond the result shown in figure \ref{fig:confusion-matrix}.
+Ultimately, the purpose of this chapter is to document the limitations of some popular datasets others may use in solving a similar problem to this dissertation.
+For the sake of brevity and relevance to this chapter,
+we has chosen not to document in detail the different strategies in failing to improve the model performance.
 
+\section{Limitations of the approach}
 
-% attempted to "fill in this gap" by asking the user for their LC subjects
-    % each LC subject contributed points towards an academic interests and RIASEC quality
-    % this was inspired by the conversation with GC's (ref next section)
+In the previous section, we established the poor performance of this model in predicting the user's college major category given the results of a 48-question RIASEC quiz.
+In this section, we will provide more insights as to why the model performed poorly with the chosen popular datasets that others may utilise in solving a similar problem to this dissertation.\\
 
+In the context of predicting a user's college major, the primary limitation of the chosen RIASEC dataset is the lack of coverage by the questions.
+In other words, the 48 questions do not adequately cover many areas of study,
+which we believe is the primary reason behind the poor performance behind the model.
+For example, if we revisit figure \ref{fig:confusion-matrix}, we can observe very poor model performance on the ``foreign languages'' category, with a recall score of 0.1.
+This is simply because there are no questions in the dataset that are explicitly related to languages or linguistics.
+To provide another example, we can also observe very poor recall scores for the ``law'' category, and a reason for this is also because 
+there are no questions in the quiz that are explicitly related to law, policy or government.
+Without this data, the model finds it very difficult to discern if a user is studying in the ``foreign languages" or ``law'' categories, explaining the model's poor performance on these categories.\\
 
+Due to this limitation, we found this dataset and subsequent approach to be inadequate in solving our problem, due to the poor recall scores as reported in figure \ref{fig:confusion-matrix}.
+In spite of many efforts to improve the model performance through significant manual revisions to the dataset,
+and testing multiple different ML models and configurations,
+the performance of the model was still deemed unsatisfactory.
+
+\section{Chapter Summary}
+
+In this chapter, we explored an approach to solving this dissertation's research question by 
+utilising a very popular RIASEC dataset.
+There was a description of the motivation in using this dataset, followed by an explanation of the various data engineering 
+performed on the dataset in order to make it more suitable for a traditional ML problem.
+We evaluated the performance of the best performing model, and found the results to be unsatisfactory.
+Ultimately, we believe the unsatisfactory results to be a result of the poor coverage of the 48 questions on many different fields of study.
+As a result, we believe that a dataset such as this may not be particularly useful in solving a problem similar to the one addressed in this dissertation.
+That being said, we felt it was worth writing about our inadequate solutions in this chapter, 
+firstly because of the popularity of this dataset,
+and secondly to add a useful contribution to the literature.
+\textbf{todo is this accurate?} In the next chapter, we will detail a more successful approach in solving this problem.

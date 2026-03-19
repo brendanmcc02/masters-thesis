@@ -9,7 +9,7 @@ In light of these established problems, a technology is introduced, one that cou
 The applicability of the proposed solution is also discussed, all relevant issues
 in describing the research motivation behind this dissertation.\\
 
-According to \cite{hea2024key, gov2024department}, 79\% of Irish secondary school students progressed to college after graduation.
+According to \cite{hea2024key}, over 48,000 Irish secondary school students progressed to college after graduation in 2024.
 The individuals who have considered progressing to college have all been posed with the question:
 \emph{What college course should I study?} 
 This is a daunting question for many reasons.
@@ -37,10 +37,9 @@ GC's are trained professional in Irish secondary schools, primarily known for as
 It is worth noting that the role of a GC extends well beyond vocational support - according to \cite{igc2016core}, GC's are also trained to provide 
 educational, personal and social support.
 In this context, it is worth introducing the Institute of Guidance Counsellors (IGC)\footnote{\url{https://igc.ie/}}, the professional body for GC's in Ireland.
-In \cite{igc2022survey}, mental health issues were more commonly encountered by GC's compared to
+In a report by the \cite{igc2022survey}, mental health issues were more commonly encountered by GC's compared to
 career decision-making issues\footnote{In \cite{igc2024survey}, career decision-making issues did surpass mental health issues as the most commonly encountered issue for GC's, however, both are pressing issues.}, marking the first time that career decision-making issues were not the most commonly encountered issue by GC's since 2019.
 In the IGC's 2024-2027 strategic plan outlined in \cite{igc2024plan}, the IGC noted this stronger prevalence of mental health issues compared to career decision-making issues,
-reflecting their change in strategy for GC's going forward, 
 signalling a shift in priorities for GC's across Irish secondary schools: vocational support may not be the most important aspect of a GC's role going forward.\\
 
 We can shift our focus to the more technical side of things. A Recommender System (RS) is a technology that recommend items to a user.
@@ -80,8 +79,8 @@ A technology, such as an RS, can be automated to hold the latest college course 
 and utilise this information in recommending college courses that a human GC may not even be aware of, 
 posing a potential advantage of an RS in this domain.\\
 
-In this section, we introduced the numerous difficulties posed to an individual in choosing a suitable college course.
-These difficulties include the sheer weight of this decision, and the external, societal factors that influence an individual's college course decision.
+In summary, this section introduced the numerous difficulties posed to an individual in choosing a suitable college course.
+These difficulties include the sheer weight of this decision, and the external factors that influence an individual's college course decision.
 We then discussed the shifting priorities of GC's from vocational to personal support, 
 and introduced a technology which could be applicable to this domain - a Recommender System.
 A discussion was given into the ways in which a college course RS could alleviate this problem for both students and GC's,
@@ -90,23 +89,55 @@ ultimately describing the motivation behind this research.
 \section{Research Question}
 
 \textbf{TODO - this RQ has gone through quite a few iterations, read the above and make sure enough context is provided!}
-\textbf{TODO - ctrl f for "Resarch question" and ensure the latest iteration is being referenced!}
-
-\textbf{TODO - on second thoughts, may "assist in college course exploration would be better, and then in this section provide context and say 
-that we "assist in college course exploration" by providing relevant, diverse, and serendipitous recs?"}
+\textbf{TODO - ctrl f for "Research question" and "RQ" and ensure the latest iteration is being referenced!}
 
 In light of the motivation behind this research, the Research Question for this dissertation can be formulated:
 \emph{``Can a Recommender System assist an Irish student in exploring college courses they would consider studying?"}\\
 
-\section{Research Objectives}
+In this Research Question, the meaning of ``assist'' is intentionally broad, 
+and we can further understand the meaning of ``assist'' by exploring the three qualities of an effective RS, as outlined in \cite{aggarwal2016recommender}, the leading textbook on RS's:\\
 
+According to Aggarwal, the recommendations should be \textbf{Relevant} to the user's preferences. 
+In this context, an effective RS would recommend college courses the user would consider studying based off their profiled preferences.
+For example, it would generally not make sense to recommend healthcare courses to a student that has demonstrated no interest in healthcare.
+In context to our Research Question, an RS with relevant recommendations would assist a student by recommending college courses they would consider studying.\\
+
+The recommendations should be \textbf{Diverse} and avoid being uniform in a particular category.
+For example, an effective RS would not suggest 20 different Computer Science courses to a user, even if the user has demonstrated 
+a strong interest in computers. If we revisit the Research Question, we want an RS that assists a student's college course \textbf{exploration,}
+and by suggesting college courses across a diverse range of the user's preferences,
+the RS would assist the user in discovering college courses they would consider studying.\\
+
+A user may receive recommendations that are \textbf{relevant} to their preferences and \textbf{diverse} across their interests,
+however the user may already have an awareness of these recommendations.
+For example, a student may receive recommendations in Biology and Engineering, but they may have already considered studying these college courses previously.
+As a result, the user does not actually gain any new information after interacting with the RS.
+The quality that separates a good RS from a great one is \textbf{Serendipity.}
+These are recommendations that are genuinely unexpected but incredibly relevant.
+The RS demonstrates a deep knowledge of the user, providing the user with relevant recommendations that they were genuinely unaware of.
+Continuing our example, a serendipitous recommendation to this user might be Biomedical Engineering, merging both of the user's interests in an unexpected but useful way,
+providing the user with a college course they were genuinely unaware of, and the user may now be considering studying the college course after interacting with the RS.
+This is would be incredibly effective in assisting the user with their college course exploration, as outlined in the Research Question.\\
+
+Serendipity is the \textbf{gold standard} for RS's.
+However, it is very challenging to consistently produce serendipitous recommendations,
+because by their nature the recommendations are ``high risk, high reward''.
+RS's are often faced with the dilemma between producing ``safe'' recommendations that are likely relevant but uninteresting,
+or more ``adventurous'' recommendations that are serendipitous or unsatisfactory.
+This is a well-known tradeoff in the field of RS's, and it is the price you pay for attempting to achieve the gold standard in RS's: serendipity.\\
+
+In summary, the Research Question for this dissertation is: \emph{``Can a Recommender System assist an Irish student in exploring college courses they would consider studying?"},
+and we propose that an RS that provides \textbf{relevant, diverse} and \textbf{serendipitous} recommendations would assist an Irish student in exploring college courses they would consider studying.
+
+\section{Research Objectives}
+\textbf{todo - lowkey could revise these after writing everything!}
 With the motivation and research question formulated, the research objectives for this dissertation are outlined below:
 \begin{enumerate}
     \item \label{research-objective-background} Conduct thorough background research in answering the question: \emph{``What college course should people study?"}
     \item \label{research-objective-information} Identify the relevant information to question a user in order to make suitable college course recommendations.
     \item \label{research-objective-statistically} Create an Irish college course RS with statistically significant improvements compared to a baseline college course RS.
     \item \label{research-objective-evaluation} Analyse user evaluation metrics gathered from a conducted experiment. 
-    \item \label{research-objective-good-rs} Explore the qualities that would make an effective college course RS.
+    \item \label{research-objective-good-rs} Explore the qualities that would make an effective college course RS. \textbf{mmm low-key maybe not good ngl}
 \end{enumerate}
 
 \section{Overview}
@@ -123,7 +154,7 @@ In this section, an overview of this dissertation's chapters are provided.
     \item Chapter \ref{chap:initial-prototypes} - Initial Prototypes. \textbf{TODO}.
     \item Chapter \ref{chap:design} - Design. \textbf{TODO}
     \item Chapter \ref{chap:implementation} - Implementation. \textbf{TODO}
-    \item Chapter \ref{chap:methodology} - Methodology. This chapter describes the experiment methodology in which the RS was tested with human participants.
+    \item Chapter \ref{chap:experiment-methodology} - Experiment Methodology. This chapter describes the experiment methodology in which the RS was tested with human participants.
     \item Chapter \ref{chap:evaluation} - Evaluation. This chapter provides an objective analysis of the experiment evaluation metrics, and 
     provides a qualitative analysis of verbal feedback gathered from the experiment.
     \item Chapter \ref{chap:conclusions} - Conclusions \& Future Work. \textbf{TODO}
