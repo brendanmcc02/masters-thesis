@@ -3,20 +3,20 @@
 
 \textbf{todo chap intro}
 
-talk about good qualities of an RS. set the groundwork
+talk about good qualities of an RS? actually maybe not idk
 
 \section{Interviews with Guidance Counsellors}
-
-\textbf{maybe this should be a subsection under "what info do we profile?" cause that was lowkey the purpose of this, idk write first then structure}
 
 As part of this research, interviews were conducted with two professional Guidance Counsellors (GC's) in Ireland, with decades of experience between them.
 The main purpose of these interviews was to gain a deeper understanding of the GC process.
 In particular, we were curious as to what information a GC asks a student in order to make 
 college course recommendations.
+Naturally, this exploration is relevant as we will be designing an RS that provides personalised college course recommendations
 This section will feature some insights gleamed from both interviews,
-and these insights will inspire the final design of this dissertation's Recommender System.\\
+and they will inspire the final design of this dissertation's Recommender System.\\
 
 \subsection{Academic Interests}
+\label{sec:academic-interests-gc}
 
 \textbf{i talk about academic interest quiz, but it has no context - might need to add context about quiz/profiling info}
 
@@ -65,6 +65,7 @@ This additional information may appear redundant, however, we would argue this p
 allowing the RS to potentially provide more \textbf{serendipitous} recommendations.\\
 
 \subsection{Hobbies}
+\label{sec:hobbies}
 
 \emph{Note:} In this context, `Hobbies' is being used as an umbrella term for Hobbies, Extracurriculars and Personal Interests.\\
 
@@ -117,58 +118,170 @@ can help answer our Research Question, which is to assist Irish students in expl
 \textbf{todo - summarise interviews?}
 
 \section{User Information to Profile}
+\label{sec:user-information-to-profile}
 
-% USER INFORMATION TO PROFILE
-% we established research gap
-    % but still want to justify design decisions
-    % this is where the bias discussion comes in:
-        % can cite my interesting paper where people prefer biased recs in the context of college courses
-        % gender is established as a bias, how does that factor in?
-        % parental education bg, SES, parental influence are also factors
-        % i could make the argument that I wanted my RS to be "colour blind" to this
-    % don't want to overcomplicate and over-engineer the amount of preferences to ask a user
-    % also a limitation of race/gender/ethnicity is that we don't have access to this data - RS's fundamentally work off data so this decision is limited in implementation
-    % salary and employment rates are also not available at a granular level of courses - which is what this RS strives to do
-        % could do average salary and employment for interest categories, but this is also broad and loses its nuance
-    % hobbies may also be difficult to map
-        % future work though?
+It would not be possible for a GC to provide a student with relevant college course recommendations if the GC knows nothing about the student.
+The GC must first ask the student some questions in order to gain some understanding, which would then fuel their college course suggestions.
+This is true for humans, but the same applies for technologies such as an RS.
+Naturally, the next question to ask is: \emph{``what information does the RS profile off a user in order to provide personalised college course recommendations?"}
+This section will provide an answer to this question.\\
 
-% talk about RQ and give more context so it can be answered more clearly later
-    % what is an effective college course RS?
-    % could talk about agarwal's quality of a good RS, and put a college course spin on it
-    % relevance - to the student's preferences, is it something they would genuinely consider studying
-    % diversity - not just recommending 20 CS courses because they said they like computers
-    % serendipity - the gold standard   
-        % recommending the user a course they would not have thought about studying if it were not for the RS
+In the case of Guidance Counselling, the two interviewed GC's asked about a student's favourite subjects, which can be more broadly categorised as \textbf{Academic Interests,}
+and asked about the student's \textbf{hobbies.}
+However, it is worth noting that the GC process is a lot less structured and adapts to the conversation that ensues.\\
+
+We can turn our attention from Guidance Counselling to our attempt in answer the question: \emph{What college course should I study?}, as given in \ref{sec:fundamentals-summary}.
+Our answer involved factoring in a student's:
+
+\begin{itemize}
+    \item \textbf{Academic Interests.}
+    \item \textbf{RIASEC Model.}
+    \item Desire for \textbf{salary} or \textbf{job prospects} after graduation.
+    \item Desire for \textbf{meaningful} work.
+\end{itemize}
+
+As admitted in section \ref{sec:fundamentals-summary},
+these factors are by no means exhaustive when it comes to college course choice.
+Furthermore, in section \ref{sec:closely-related-work}, we examined what information other closely-related 
+works profile off users in order to provide personalised college course recommendations.
+By referencing table \ref{tab:research-gap-2}, we can see that these closely-related works profiled a student's:
+
+\begin{itemize}
+    \item Academic Interests.
+    \item RIASEC Model.
+    \item Hobbies
+    \item Grades.
+    \item Gender.
+\end{itemize}
+
+Naturally, we are presented with many different categories of information to profile off a user,
+and now the task is to identity which categories are relevant in the context of a college course RS.
+In section \ref{sec:research-gap}, we justified profiling a user's \textbf{RIASEC Model} and \textbf{Academic Interests}
+in order to provide personalised college course recommendations.
+However, from above we can clearly see there are more potential pieces of information to profile off a user.
+In the next subsections, we will examine each of the different categories of information, 
+and discuss if the information is relevant in the context of college course recommendations.\\
+
+\subsection{Hobbies and Grades}
+
+Given our justifications in subsection \ref{sec:hobbies}, we can disregard \emph{Hobbies} as information to profile off a user.
+We may also disregard \emph{Grades} because a user's LC subjects provides a limited snapshot of their interests and aptitudes,
+and we may also cover this information more broadly as part of \emph{Academic Interests,}
+as explained in subsection \ref{sec:academic-interests-gc}.\\
+
+\subsection{Salary and Job Prospects}
+
+As described above, a user's desire for \emph{salary} or \emph{job prospects} after graduation would be relevant information in the context of college course recommendations.
+However, to the best of our knowledge, data on the mean salary or employment rate of graduates from each college course in Ireland
+is unavailable. As a result, it would be very challenging to effectively integrate this information into our RS.
+We could potentially gather data on the mean salary or employment rates of more general college course categories, 
+for example college courses under healthcare.
+However, this information would be too generalised and lack nuance.
+Continuing our example of healthcare, 
+the mean salaries differ greatly between different healthcare roles upon graduation.
+For instance, the mean salary of Medicine graduates is over \euro26,000 compared to Physiotherapy graduates\footnote{Data from 2023: \url{https://www.cso.ie/en/releasesandpublications/ep/p-heo/highereducationoutcomeshealthgraduates2023/employmentandearnings/}}.
+This is quite a sizable difference, even though the college courses are both grouped under the same ``healthcare'' category.
+As a result, we do not consider this approach feasible given the lack of nuance and accuracy,
+and so we can disregard a user's desire for \emph{salary} or \emph{job prospects} in the context of our RS.\\
+
+\subsection{Meaning}
+
+As also described above, a user's desire for \emph{meaningful} work would be relevant information to profile off a user in the context of a college course RS.
+However, we believe this is challenging to work with for two main reasons.
+Firstly, this information is difficult to translate to something computational.
+For example, we could consider creating some sort of `meaning' score for each college course. However, it would be challenging to meaningfully quantify this value for a college course.
+This challenge is compounded further for the second reason:
+the meaning of a college course is largely dependent on what the student does with their degree after graduation.
+To give an example, suppose two students graduate from Pharmaceutical Science, and one works in a large corporation completing work 
+they find meaningless, and the other student dedicates their life's work to researching cutting-edge drug discovery.
+Both students graduate from the same college course, and have vastly different senses of meaning in their related jobs after graduation.
+As a result, we can disregard a user's desire for \emph{meaning} in the context of college course recommendations,
+because the information is difficult to quantify, and largely depends on what the student does with their degree.\\
+
+\subsection{Gender, Race/Ethnicity and Parent's Educational/Financial Background}
+
+A user's \emph{gender} is a piece of information profiled in some of the closely-related works.
+We can also extend this discussion to include a user's \emph{race/ethnicity} and \emph{parent's educational/financial background,}
+seeing as these were all external influences discussed in subsection \ref{sec:external-influences}.
+As is clearly evident from our investigations,
+an individual's gender, race/ethnicity and parent's educational/financial background are strong influences on an individual's college course choice.
+As a result, it could be reasonable to consider profiling these pieces of information off a user for the purpose of college course recommendations.\\
+
+However, we would argue that these pieces of information should not be considered in the context of a college course RS.
+For example, by factoring in a user's gender, the RS would not only reinforce stereotypes surrounding gender,
+but it may also obscure the college course recommendation algorithm.
+To give an example, suppose that a male demonstrates interest in pre-school teacher education,
+which is 97\% female-dominated according to \cite{hea2024graduate}.
+An RS algorithm may deem this course unfit for the user solely on the basis on gender,
+reinforcing the gender norms and stereotypes surrounding this particular course.
+As a result, we would argue that external influences such as \emph{gender,} \emph{race/ethnicity} and \emph{parent's educational/financial background}
+would not be relevant in the context of college course recommendations, due to their implications.\\
+
+In spite of our above efforts to unbias the RS, it is worth remembering that a human, with all their biases and limitations, will interact with the RS,
+meaning that the element of bias is still unavoidably present in the RS.
+In this context, it is worth mentioning the work of \cite{wang2022humans}, 
+in which they compared the results of biased and unbiased career recommendation algorithms.
+According to their findings, 
+the users actually preferred the biased career recommendations over the unbiased recommendations.
+On the surface this may appear surprising, however when we consider our investigations in subsection \ref{sec:external-influences},
+we can recall that these factors are large influences on an individual's college course choice.\\
+
+In addition to this, to the best of our knowlege, data about \emph{race/ethnicity} and \emph{parent's educational/financial background} 
+are not available for each college course in Ireland, posing a challenge for integrating this effectively into a college course RS.
+In spite of Wang et al.'s findings, we would disregard \emph{gender,} \emph{race/ethnicity} and \emph{parent's educational/financial background}
+in the context of college course recommendations, due to it's aforementioned implications and reinforcement of stereotypes.\\
+
+\subsection{LC points, NFQ Levels and Colleges}
+
+As explained in subsection \ref{sec:lc-points}, a user's Leaving Cert (LC) points is an influential entry requirement 
+to college courses in Ireland.
+In addition to this, Irish students may have preferences for particular types of NFQ Levels in the context of college courses.
+We can recall that \textbf{relevance} is an important quality of an effective RS, as described in section \ref{sec:research-question}.
+For instance, it would not be useful suggesting a course that is 500 LC points to a user that is expected to 
+receive 300 LC points.
+Thus, profiling a user's expected LC points and their NFQ Level preferences would provide more \textbf{relevant}
+college course recommendations, which better answers our Research Question, which is to assist the Irish student in exploring their college course choices.\\
+
+As is evident from our discussion in subsection \ref{sec:college-justifications}, a student has a variety of 
+justifications for choosing their college, which is a separate decision to choosing their college course.
+In light of this, we should also profile the user's \textbf{preferences towards colleges,}
+in order to provide them with more relevant college course recommendations.
+
+\subsection{Section Summary}
+
+In order to provide personalised and relevant college course recommendations to a user,
+we must profile some information off the user.
+In this section, we examined the different factors we could profile off a user in the context of college course recommendations.
+We justified the profiling of a user's \textbf{RIASEC model, Academic Interests, Expected LC points, NFQ Level} and \textbf{College preferences,}
+in order to assist us in providing \textbf{relevant, diverse} and \textbf{serendipitous} college course recommendations to the user, 
+all qualities of an effective RS as described in section \ref{sec:research-question}.
+In addition to this, we justified disregarding a user's hobbies, grades, gender, race/ethnicity, parent's educational/financial background, 
+and their desire for salary, job prospects and meaningful work in the context of college course recommendations.
 
 % user
-    % given influences of college, allow user to select specific college courses
-    % given system in ireland, allow students to select/filter NFQ levels
-    % allow user to select their expected LC points to prevent courses that cannot enter
-    % need to get 1. academic interests and 2. RIASEC interests off the user
-        % what are "academic interests?" - 21 college course categories
-            % permission granted and inspired by FMCC (deleted 2 - vet and manufacturing & processing)
-        % how do we get this info? quiz!
-            % talk about phrasing of question and its iterations
-            % talk about how the question targets:
-                % 1. interest
-                % 2. riasec trait
-            % 21 categories, 6 questions per categories (chosen relatively arbritrarily, mostly because there are 6 RIASEC traits)
-            % how were these questions generated?
-                % and what was the idea behind them?
+    % what are "academic interests?" - 21 college course categories
+        % permission granted and inspired by FMCC (deleted 2 - vet and manufacturing & processing)
+    % how do we get this info? quiz!
+        % talk about phrasing of question and its iterations
+        % talk about how the question targets:
+            % 1. interest
+            % 2. riasec trait
+        % 21 categories, 6 questions per categories (chosen relatively arbritrarily, mostly because there are 6 RIASEC traits)
+        % how were these questions generated?
+            % and what was the idea behind them?
 
-                % wanted the questions to broadly target different kinds of work involved in each field
-                    % e.g. in healthcare, we wanted questions that focused on doctor, physio, occupational therapy, etc.
-                % also wanted the questions to target different RIASEC qualities within each field
-                    % e.g. healthcare asking a question about surgical procedures: R
-                        % and understanding human anatomy: I - both questions target the same type of job (medical practitioner), but different dimensions to the role
-                    % how did we decide on what kind of split to do on each section?
-                        % plotted a distribution of the RIASEC qualities and modeled the 6 questions accordingly
-                            % e.g. computers had almost exclusively "R" and "I", so 4 "i" q's and 2 "r" q's
-                % questions were initialised by LLM (Gemini 3), however they had a lot of manual intervention and tinkering by me
-                    % LLM was given the dataset as context and was told to make 6 questions per category that (like i just explained):
-                        % asked questions typical in jobs of those courses
-                        % targeted specific riasec qualities
+            % wanted the questions to broadly target different kinds of work involved in each field
+                % e.g. in healthcare, we wanted questions that focused on doctor, physio, occupational therapy, etc.
+            % also wanted the questions to target different RIASEC qualities within each field
+                % e.g. healthcare asking a question about surgical procedures: R
+                    % and understanding human anatomy: I - both questions target the same type of job (medical practitioner), but different dimensions to the role
+                % how did we decide on what kind of split to do on each section?
+                    % plotted a distribution of the RIASEC qualities and modeled the 6 questions accordingly
+                        % e.g. computers had almost exclusively "R" and "I", so 4 "i" q's and 2 "r" q's
+            % questions were initialised by LLM (Gemini 3), however they had a lot of manual intervention and tinkering by me
+                % LLM was given the dataset as context and was told to make 6 questions per category that (like i just explained):
+                    % asked questions typical in jobs of those courses
+                    % targeted specific riasec qualities
 
 % dataset and college courses
     % need a dataset of college courses in ireland
