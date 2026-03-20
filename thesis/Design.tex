@@ -343,20 +343,49 @@ Life Science & Mathematics & Physical Science\\
 Social Science & Sport & Welfare\\
 \hline
 \end{tabular}
+\label{tab:academic-interest-categories}
 \end{table}
 
-The CP dataset 
+The CP dataset does not feature any categorisation similar to the Academic Interests given in table \ref{tab:academic-interest-categories}.
+As a result, we need to additionally augment data regarding the Academic Interests associated with each college course.
+In Chapter \ref{chap:implementation}, we will provide details as to how the college courses in the dataset were 
+categorised into the different Academic Interests.
 
-% dataset and college courses
-    % need a dataset of college courses in ireland
-        % with RIASEC qualitites and academic interests associated with them so they can be mapped from users
-        % ngl just reference implementation section and say it will be discussed there
-    % implementation:
-        % web scraped
-        % already have 8 CP interests
-            % lots of manual intervention; inaccurate and misalignment
-        % had to augment/uplift with academic interests
-            % initialised with LLM's, but a loooot of manual labour and intervention to ensure consistency and correct errors/false assumptions
+\subsection{Final Dataset}
+
+\textbf{todo - maybe this should go into implementation?}
+
+After our data augmentation, we now have a dataset that can satisfy the requirements we 
+set out in section \ref{sec:user-information-to-profile}.
+An example of the data about a college course is given below in JSON format:
+
+\begin{lstlisting}[caption={An example of a college course in the CP dataset \emph{after} additional augmentation.}, label={lst:dataset-before-augmentation}, basicstyle=\small, frame=single]
+{
+    "id": "TR052",
+    "title": "Dental Science",
+    "college": "Trinity College Dublin",
+    "region": "Dublin",
+    "duration": "5 Years",
+    "nfqLevel": 8,
+    "points": 625,
+    "isAdditionalPortfolioTestInterviewRequired": false,
+    "overview": "Dental Science is the study of ...",
+    "riasec_interests": [
+        "investigative",
+        "social",
+        "realist"
+    ],
+    "academic_interests": [
+        "healthcare",
+        "life science"
+    ]
+}
+\end{lstlisting}
+
+\emph{Note:} as mentioned in section \ref{sec:portfolios-etc},
+an additional entry requirement to some Irish college courses are Portfolios, Tests or Interviews.
+This information will also need to be included in our dataset, and that is what \verb|isAdditionalPortfolioTestInterviewRequired|
+refers to.
 
 % RS design
     % as established in background and closely-related work, there are many types of RS's
@@ -377,15 +406,16 @@ The CP dataset
     % 21 categories, 6 questions per categories (chosen relatively arbritrarily, mostly because there are 6 RIASEC traits)
     % how were these questions generated?
         % and what was the idea behind them?
-
         % wanted the questions to broadly target different kinds of work involved in each field
             % e.g. in healthcare, we wanted questions that focused on doctor, physio, occupational therapy, etc.
+            % this required examining the different kinds of courses of the academic interests in the dataset
         % also wanted the questions to target different RIASEC qualities within each field
             % e.g. healthcare asking a question about surgical procedures: R
                 % and understanding human anatomy: I - both questions target the same type of job (medical practitioner), but different dimensions to the role
             % how did we decide on what kind of split to do on each section?
                 % plotted a distribution of the RIASEC qualities and modeled the 6 questions accordingly
                     % e.g. computers had almost exclusively "R" and "I", so 4 "i" q's and 2 "r" q's
+                % we also utilisd our learned knowledge (don't say expertise lol) of the holland's RIASEC model
         % questions were initialised by LLM (Gemini 3), however they had a lot of manual intervention and tinkering by me
             % LLM was given the dataset as context and was told to make 6 questions per category that (like i just explained):
                 % asked questions typical in jobs of those courses
