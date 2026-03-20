@@ -1,3 +1,8 @@
-from evaluation_utils import *
+import pandas as pd
 
-print(parse_title_from_cao_college_course("TU828 Mechanical Engineering (General Entry) [Bolton Street]"))
+df = pd.read_csv("user_interest_questions.csv")
+
+x = df["college_course_category"].unique().tolist()
+
+for i in x:
+    print(str(i))

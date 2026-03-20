@@ -258,30 +258,94 @@ all qualities of an effective RS as described in section \ref{sec:research-quest
 In addition to this, we justified disregarding a user's hobbies, grades, gender, race/ethnicity, parent's educational/financial background, 
 and their desire for salary, job prospects and meaningful work in the context of college course recommendations.
 
-% user
-    % what are "academic interests?" - 21 college course categories
-        % permission granted and inspired by FMCC (deleted 2 - vet and manufacturing & processing)
-    % how do we get this info? quiz!
-        % talk about phrasing of question and its iterations
-        % talk about how the question targets:
-            % 1. interest
-            % 2. riasec trait
-        % 21 categories, 6 questions per categories (chosen relatively arbritrarily, mostly because there are 6 RIASEC traits)
-        % how were these questions generated?
-            % and what was the idea behind them?
+\section{Dataset}
 
-            % wanted the questions to broadly target different kinds of work involved in each field
-                % e.g. in healthcare, we wanted questions that focused on doctor, physio, occupational therapy, etc.
-            % also wanted the questions to target different RIASEC qualities within each field
-                % e.g. healthcare asking a question about surgical procedures: R
-                    % and understanding human anatomy: I - both questions target the same type of job (medical practitioner), but different dimensions to the role
-                % how did we decide on what kind of split to do on each section?
-                    % plotted a distribution of the RIASEC qualities and modeled the 6 questions accordingly
-                        % e.g. computers had almost exclusively "R" and "I", so 4 "i" q's and 2 "r" q's
-            % questions were initialised by LLM (Gemini 3), however they had a lot of manual intervention and tinkering by me
-                % LLM was given the dataset as context and was told to make 6 questions per category that (like i just explained):
-                    % asked questions typical in jobs of those courses
-                    % targeted specific riasec qualities
+In order to create an RS, we need a dataset of Irish college courses.
+A dataset of Irish college courses was obtained from CareersPortal, the leading careers website in Ireland.
+Further details on the way in which this data was obtained is given in Chapter \ref{chap:implementation}.\\
+
+This dataset contains a college course's title, college, NFQ Level and LC points, 
+although to satisfy our requirements as laid out in section \ref{sec:user-information-to-profile},
+we also need data on the \textbf{RIASEC Model} and \textbf{Academic Interests} associated with the college course,
+and we will provide more details on how these were obtained in the next two subsections.\\
+
+\subsection{RIASEC Model}
+
+Seeing as we are profiling a user's RIASEC Model,
+we will need the RIASEC model associated with each Irish college course
+in order to make college course recommendations.
+CareersPortal (CP) features 8 working personality traits,
+as seen in figure \ref{fig:careers-portal-career-interests},
+compared to the 6 traits according to the RIASEC model,
+as seen in figure \ref{fig:holland-riasec-model-design}.
+As we can see, 6 of the 8 CP working personality traits are equivalent to the 6 traits in the RIASEC model,
+with the 2 left over traits being: \emph{Naturalistic} and \emph{Linguistic}.
+According to CP's definition, Naturalists are interested in working with animals,
+which is very `hands-on' work, similar to the work exhibited by the \emph{Realistic} RIASEC trait.
+As a result, we can class the \emph{Naturalistic} trait as the \emph{Realistic} RIASEC trait.
+Moreover, according to CP's definition, Linguists are interested in reading and writing,
+which is very creative work, similar to the work exhibited by the \emph{Artistic} RIASEC trait.
+As a result, we can class the \emph{Linguistic} trait as the \emph{Artistic} RIASEC trait.
+This will allow us to produce an RS that is more generalisable to Holland's original RIASEC model.\\
+
+As a side note, the \emph{Administrative} CP trait is equivalent to the \emph{Conventional} RIASEC trait,
+and the \emph{Creative} CP trait is equivalent to the \emph{Artistic} RIASEC trait.
+
+\begin{figure}[H]
+    \begin{minipage}[c]{0.45\linewidth}
+            \centering
+            \includegraphics[scale=0.5]{images/careers-portal-filters-2.png}
+            \caption{The 8 CareerPortal working personality traits.}
+            \label{fig:careers-portal-career-interests}
+        \end{minipage}
+    \begin{minipage}[c]{0.45\linewidth}
+            \centering
+            \includegraphics[scale=0.25]{images/holland-riasec-model.png}
+            \caption{Holland's RIASEC Model.}
+            \label{fig:holland-riasec-model-design}
+        \end{minipage}
+\end{figure}
+
+It is worth mentioning that while the CP dataset already had college courses classified under these RIASEC traits,
+in many cases the traits were either inconsistent or inaccurate.
+During the design of this dissertation's RS, a significant amount of time was invested into manually amending these inconsistencies and inaccuracies
+based on the learned knowledge of Holland's RIASEC model, as described in subsection \ref{sec:theories-college}.
+
+\subsection{Academic Interests}
+
+Throughout this dissertation, there have been many mentions of ``Academic Interests'',
+and in this subsection this will be described.\\
+
+FindMyCollegeCourse (FMCC), the only other Irish college course RS, places college courses into 23 categories.
+With the permission of FMCC, the same 23 categories were used in this dissertation.
+However, these categories underwent simplifications and renaming, and the final result used in this dissertation
+are the 21 \emph{Academic Interest} categories below:
+
+\begin{table}[H]
+\centering
+\caption{Academic Interest Categories}
+\begin{tabular}{|c|c|c|}
+\hline
+\multicolumn{3}{|c|}{\textbf{Academic Interests}}\\
+\hline
+Agriculture & Architecture and Construction & Business \\
+\hline
+Chemical Science & Computers & Communications\\
+\hline
+Creative Arts & Education & Engineering\\
+\hline
+Environment & Healthcare & Hospitality\\
+\hline
+Humanities & Languages & Law\\
+\hline
+Life Science & Mathematics & Physical Science\\
+\hline
+Social Science & Sport & Welfare\\
+\hline
+\end{tabular}
+\end{table}
+
+The CP dataset 
 
 % dataset and college courses
     % need a dataset of college courses in ireland
@@ -290,10 +354,42 @@ and their desire for salary, job prospects and meaningful work in the context of
     % implementation:
         % web scraped
         % already have 8 CP interests
-            % transformed to holland 6
             % lots of manual intervention; inaccurate and misalignment
         % had to augment/uplift with academic interests
             % initialised with LLM's, but a loooot of manual labour and intervention to ensure consistency and correct errors/false assumptions
+
+% RS design
+    % as established in background and closely-related work, there are many types of RS's
+    % CF attempt failed according to initial prototypes
+        % lack of data online about other irish people's college course choice
+        % as a result, CF was not attempted
+    % leaves us with 2 options: KB and CBF
+        % a KB RS would be useful as a user could specify points, nfq and college preferences - as referenced earlier
+        % this **constraints** the courses, but we still want to narrow down choice
+            % can utilise CBF to utilised user attributes to course attributes
+        % so, our RS is a hybrid KB and CBF one!
+
+% how do we get this info? quiz!
+    % talk about phrasing of question and its iterations
+    % talk about how the question targets:
+        % 1. interest
+        % 2. riasec trait
+    % 21 categories, 6 questions per categories (chosen relatively arbritrarily, mostly because there are 6 RIASEC traits)
+    % how were these questions generated?
+        % and what was the idea behind them?
+
+        % wanted the questions to broadly target different kinds of work involved in each field
+            % e.g. in healthcare, we wanted questions that focused on doctor, physio, occupational therapy, etc.
+        % also wanted the questions to target different RIASEC qualities within each field
+            % e.g. healthcare asking a question about surgical procedures: R
+                % and understanding human anatomy: I - both questions target the same type of job (medical practitioner), but different dimensions to the role
+            % how did we decide on what kind of split to do on each section?
+                % plotted a distribution of the RIASEC qualities and modeled the 6 questions accordingly
+                    % e.g. computers had almost exclusively "R" and "I", so 4 "i" q's and 2 "r" q's
+        % questions were initialised by LLM (Gemini 3), however they had a lot of manual intervention and tinkering by me
+            % LLM was given the dataset as context and was told to make 6 questions per category that (like i just explained):
+                % asked questions typical in jobs of those courses
+                % targeted specific riasec qualities
 
 % revisit the qualities of a good RS as introduced in the beginning of this chapter
     % how many recs?
@@ -315,16 +411,7 @@ and their desire for salary, job prospects and meaningful work in the context of
             % instead of recommending 5 CS courses that we know they like, we would rather rec 1 CS course - to signal their awareness towards the course
                 % and then recommend other computer courses - they may not be relevant or good, but there is a chance for serendipity here
 
-% RS design
-    % as established in background and closely-related work, there are many types of RS's
-    % CF attempt failed according to initial prototypes
-        % lack of data online about other irish people's college course choice
-        % as a result, CF was not attempted
-    % leaves us with 2 options: KB and CBF
-        % a KB RS would be useful as a user could specify points, nfq and college preferences - as referenced earlier
-        % this **constraints** the courses, but we still want to narrow down choice
-            % can utilise CBF to utilised user attributes to course attributes
-        % so, our RS is a hybrid KB and CBF one!
+
 
 % owen: in the design (or maybe implementation) talk about data - how you're retaining the data, storing etc.
 
