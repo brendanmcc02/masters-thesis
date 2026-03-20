@@ -1,37 +1,122 @@
 \chapter{Design}
 \label{chap:design}
 
-% owen: in the design (or maybe imoplementation) talk about data - how you're retaining the data, storing etc.
+\textbf{todo chap intro}
 
-% talk about RQ and give more context so it can be answered more clearly later
-    % what is an effective college course RS?
-    % could talk about agarwal's quality of a good RS, and put a college course spin on it
-    % relevance - to the student's preferences, is it something they would genuinely consider studying
-    % diversity - not just recommending 20 CS courses because they said they like computers
-    % serendipity - the gold standard   
-        % recommending the user a course they would not have thought about studying if it were not for the RS
+talk about good qualities of an RS. set the groundwork
 
-% interviews with GC's
-    % aoife holland codes - finds them to be a limiting snapshot of a person
-        % she is a lot more "instinctive" and "intuitive" in her process
-            % gives credence to the human element of GC's
-            % we do not want to replace or fight this, but rather complement the human process!
-    % personality tests
-        % doesn't deal with OCEAN or MBTI
-        % puts labels on people and says teenagers may not have the maturity to recognise the nuance of these labels
-        % does more harm than good in her view
-        % bring this around to holland codes - it is not a deterministic, complete view of a person, but should instead be viewed 
-        % as a potential indication of their interests
-        % donnchadh: he doesn't use them at all
-    % finds hobbies can be a great source 
-    % when talking about diversity in recs, she thought this was great and in her own GC process she likes to "challenge" students
-    % both GC's talked about how GC's is moving more from career guidance to counselling/personal support
-    % talk about both of their emphasis on subjects in their GC process
-        % but talk about how at least in ireland, subjects may be limiting and not cover a broad range of a student's interests
-            % a student does eng, (maybe) irish and maths + at least 4 subjects
-            % if we only rely on this information, there may be an area of interest **outside** of their LC subjects that the RS would have no awareness of!
-        % arguably a more general academic interest quiz could get this information off them anyway
-            % this quiz would have more questions and thus more breadth than 6/7+ LC subjects
+\section{Interviews with Guidance Counsellors}
+
+\textbf{maybe this should be a subsection under "what info do we profile?" cause that was lowkey the purpose of this, idk write first then structure}
+
+As part of this research, interviews were conducted with two professional Guidance Counsellors (GC's) in Ireland, with decades of experience between them.
+The main purpose of these interviews was to gain a deeper understanding of the GC process.
+In particular, we were curious as to what information a GC asks a student in order to make 
+college course recommendations.
+This section will feature some insights gleamed from both interviews,
+and these insights will inspire the final design of this dissertation's Recommender System.\\
+
+\subsection{Academic Interests}
+
+\textbf{i talk about academic interest quiz, but it has no context - might need to add context about quiz/profiling info}
+
+In section \ref{sec:research-gap}, we identified a research gap by utilising a user's RIASEC model and Academic interests
+to provide personalised college course recommendations.
+Both GC's were asked about the relevance of Academic Interests in making college course recommendations.
+Both GC's were in agreement that Academic Interests are incredibly useful in providing personalised college course recommendations,
+which is promising to hear as this is one side to our research gap as mentioned previously.\\
+
+As part of their GC process, they generally ask their students about their favourite and least favourite subjects.
+While this information is evidently useful, we can recall the information about Leaving Certificate (LC) subjects in \ref{sec:lc}.
+In their last years of secondary school, students take at least 6 LC subjects.
+Arguably, if we only rely on a student's LC subjects as a source for information for Academic Interests,
+we may miss out on a student's Academic Interests outside of the LC subjects they take.
+For example, a student may demonstrate strong interest in History, but if they do not study LC History,
+we may miss out on this information.\\
+
+To account for this, we may consider an ``Academic Interests Quiz'' with much broader coverage across all areas of study,
+meaning that the RS can capture this information, even in the event where the student did not happen to study the subject in secondary school.
+
+\subsection{The RIASEC Model}
+
+In section \ref{sec:research-gap}, we identified a research gap by utilising a user's RIASEC model and Academic interests
+to provide personalised college course recommendations.
+In spite of the ubiquity and robustness of the RIASEC model as established in section \ref{sec:theories-college},
+we asked both GC's for their opinion on the RIASEC model.
+One of the GC's found the RIASEC model to be a limiting snapshot of a person,
+and personally does not place a lot of value on it.\\
+
+In all honesty, we are in agreement that the RIASEC model does provide a limited snapshot of the user.
+As mentioned in section \ref{sec:theories-college}, the RIASEC traits are nuanced.
+For example, a biologist and philosopher may both demonstrate ``Investigative'' qualities, however they may not be interested 
+in each other's field.
+As a result, we can agree that a user's RIASEC model is a limited snapshot of them \emph{in isolation.}
+However, we can pair a user's RIASEC model with other pieces of information about the user - in our case, that would be their Academic Interests.\\
+
+This then begs the question: \emph{``If a RIASEC model is redundant without Academic Interests, is the RIASEC model really useful?''}
+We would argue that a user's RIASEC model is useful \emph{in conjunction} with Academic Interests.
+For example, suppose a student demonstrates an interest in Computers as an Academic Interest.
+With the user's RIASEC model, we can make more informed recommendations.
+For example, if the user demonstrates a high ``Realistic'' trait, they may be suited for more `hands-on' college courses relating to Computers,
+such as Computer Engineering.
+On the other hand, if the user demonstrates a high ``Enterprising'' trait, they may be more suited for a college course like Computer Science with Business,
+as the ``Enterprising'' trait is common in Business studies.
+This additional information may appear redundant, however, we would argue this provides more context to the RS,
+allowing the RS to potentially provide more \textbf{serendipitous} recommendations.\\
+
+\subsection{Hobbies}
+
+\emph{Note:} In this context, `Hobbies' is being used as an umbrella term for Hobbies, Extracurriculars and Personal Interests.\\
+
+Both GC's were asked about the relevance of hobbies in their GC process, and whether they consider the 
+information as redundant or relevant to the college course decision-making process.
+Both GC's agreed that hobbies can be useful in suggesting potential 
+college courses to their students.
+For example, a student that loves watching History documentaries may be suggested to study History.\\
+
+While we agree that information regarding hobbies can be useful 
+in suggesting relevant college courses to a student,
+we would argue that a lot of this information could be captured under an `Academic Interests Quiz' with a 
+lot of coverage.
+Continuing our example, a student that loves history documentaries would likely respond positively to 
+questions relating to the `Humanities' Academic Interest, which could lead to a recommendation for History anyway. 
+In other words, with an Academic Interest quiz with good coverage, 
+information about a user's hobbies may be redundant in the context of college course recommendations.
+
+\subsection{The potential role of an RS in Guidance Counselling}
+
+Both GC's were made aware of the research question of this dissertation, and 
+were asked to provide their honest evaluation of how a technology, such as an RS, 
+could fit into the GC process.\\
+
+One of the GC's remarked that their process is very instinctive and intuitive, 
+and their meetings do not often follow a rigid structure.
+In most cases, the process begins by asking the student about their LC subjects, and then the discussion continues from there.
+As is evident from our investigations in Chapter \ref{chap:literature-review}, 
+the college course decision-making process is incredibly nuanced and personally confronting.
+This gives credence to the human dimension to Guidance Counselling, 
+a profession that requires empathy and understanding on a human level.
+This is incredibly challenging to replace with a technology, 
+and the author and both GC's agreed that a technology, such as an RS, should not be designed 
+to replace the crucial role of a GC, but rather to \emph{complement} the GC's process,
+allowing the GC to shift their priorities towards the more human, nuanced parts of the college course decision-making process.\\
+
+As well as this, both GC's remarked that Irish Guidance Counselling is moving from career guidance more towards personal counselling,
+which corresponds with the discussion in section \ref{sec:motivation}.
+These changing priorities signal a potential utility in a technology, such as a college course RS,
+that may assist their student's in their college course decision-making process.\\
+
+During one of the interviews, there was a discussion on the value of diversity in recommendations.
+Interestingly, one of the GC's remarked that diversity in recommendations is incredibly valuable, 
+and that is something they integrate into their GC process.
+The GC claimed that they like to ``challenge'' their students with different recommendations,
+as it helps develop the student's concepts about the college courses they would consider studying.
+These insights are incredibly valuable, as it supports the idea that \textbf{diverse} recommendations 
+can help answer our Research Question, which is to assist Irish students in exploring college courses they would consider studying.
+
+\textbf{todo - summarise interviews?}
+
+\section{User Information to Profile}
 
 % USER INFORMATION TO PROFILE
 % we established research gap
@@ -47,6 +132,14 @@
         % could do average salary and employment for interest categories, but this is also broad and loses its nuance
     % hobbies may also be difficult to map
         % future work though?
+
+% talk about RQ and give more context so it can be answered more clearly later
+    % what is an effective college course RS?
+    % could talk about agarwal's quality of a good RS, and put a college course spin on it
+    % relevance - to the student's preferences, is it something they would genuinely consider studying
+    % diversity - not just recommending 20 CS courses because they said they like computers
+    % serendipity - the gold standard   
+        % recommending the user a course they would not have thought about studying if it were not for the RS
 
 % user
     % given influences of college, allow user to select specific college courses
@@ -111,7 +204,7 @@
 
 % RS design
     % as established in background and closely-related work, there are many types of RS's
-    % CF attempt failed according to intiial prototypes
+    % CF attempt failed according to initial prototypes
         % lack of data online about other irish people's college course choice
         % as a result, CF was not attempted
     % leaves us with 2 options: KB and CBF
@@ -120,32 +213,9 @@
             % can utilise CBF to utilised user attributes to course attributes
         % so, our RS is a hybrid KB and CBF one!
 
-\section{Relevant information to question}
-\label{sec:relevant}
-
-% we must ask ourselves the question (which is a research objective): 
-% what information is relevant to question a user in order to make effective, relevant recs for a CCRS?
+% owen: in the design (or maybe implementation) talk about data - how you're retaining the data, storing etc.
 
 
 
 
-% talk about thinking about whether to use LLM's or not
-
-
-
-
-Interviews with expert guidance counsellors were conducted as part of this research, and a qualitative analysis of these interviews are provided in Section \ref{sec:interviews}.
-
-\subsection{Interviews with guidance counsellors}
-\label{sec:interviews}
-
-
-\section{Overview of the Design}
-\label{sec:OverviewOfDesign}
-A description of the approach that addresses the problem identified above.
-
-
-\section{Summary}
-\label{sec:SummaryDesign}
-
-Every chapter aside from the first and last chapter should conclude with a summary. 
+% ugh idk - talk about thinking about whether to use LLM's or not
