@@ -44,8 +44,27 @@
 % }
 % \end{lstlisting}
 
+% revisit the qualities of a good RS as introduced in the beginning of this chapter
+    % how many recs?
+        % inspired by the findings of small rec sets, number of 20 was chosen
+            % relatively arbitrary
+            % primarily because on a CAO list you have 10 courses for level 8, and 10 for 6/7
+    % diversity
+        % 1. don't recommend courses with the same title
+            % in implementation i'll talk about preprocessing
+        % 2. don't just recommend courses from the same academic interest category
+            % rather than just being dominated by one category, cycle through the top 5 categories
+                % "top 5" was chosen arbitrarily
+                    % future work - this number could be relative, some people may only demonstrate interest in 3 categories and get rec'd useless courses for two categories they barely showed interest in
+    % this push for novelty is driven by a desire for **serendipity**
+        % a user may like CS and tick "yes" to 20 Computer courses that got recommended to them
+        % but is this information novel? 
+            % revisit chapter intro: it actually doesn't really **help** the user because they were likely already aware of it
+            % we want **serendipity** - courses they may not be aware of, and this involves tradeoffs
+            % instead of recommending 5 CS courses that we know they like, we would rather rec 1 CS course - to signal their awareness towards the course
+                % and then recommend other computer courses - they may not be relevant or good, but there is a chance for serendipity here
 
-
+% owen: in the design (or maybe implementation) talk about data - how you're retaining the data, storing etc.
 
 \newcommand{\rot}[1]{\rotatebox{90}{#1}}
 \newpage

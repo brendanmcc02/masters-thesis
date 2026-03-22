@@ -231,6 +231,7 @@ In spite of Wang et al.'s findings, we would disregard \emph{gender,} \emph{race
 in the context of college course recommendations, due to it's aforementioned implications and reinforcement of stereotypes.\\
 
 \subsection{LC points, NFQ Levels and Colleges}
+\label{sec:lc-points-nfq-levels-and-colleges}
 
 As explained in subsection \ref{sec:lc-points}, a user's Leaving Cert (LC) points is an influential entry requirement 
 to college courses in Ireland.
@@ -250,12 +251,13 @@ in order to provide them with more relevant college course recommendations.
 
 In order to provide personalised and relevant college course recommendations to a user,
 we must profile some information off the user.
-In this section, we examined the different factors we could profile off a user in the context of college course recommendations.
+In this section, we examined the different factors an RS should profile off a user in the context of college course recommendations.
 We justified the profiling of a user's \textbf{RIASEC model, Academic Interests, Expected LC points, NFQ Level} and \textbf{College preferences,}
 in order to assist us in providing \textbf{relevant, diverse} and \textbf{serendipitous} college course recommendations to the user, 
 all qualities of an effective RS as described in section \ref{sec:research-question}.
 In addition to this, we justified disregarding a user's hobbies, grades, gender, race/ethnicity, parent's educational/financial background, 
 and their desire for salary, job prospects and meaningful work in the context of college course recommendations.
+This provides us with a clearer picture going forward as to the design behind our college course RS.
 
 \section{Dataset}
 
@@ -369,12 +371,12 @@ An example of the data about a college course is given below in JSON format:
     "points": 625,
     "isAdditionalPortfolioTestInterviewRequired": false,
     "overview": "Dental Science is the study of ...",
-    "riasec_interests": [
+    "riasecInterests": [
         "investigative",
         "social",
         "realist"
     ],
-    "academic_interests": [
+    "academicInterests": [
         "healthcare",
         "life science"
     ]
@@ -386,65 +388,171 @@ an additional entry requirement to some Irish college courses are Portfolios, Te
 This information will also need to be included in our dataset, and that is what \verb|isAdditionalPortfolioTestInterviewRequired|
 refers to.
 
-% RS design
-    % as established in background and closely-related work, there are many types of RS's
-    % CF attempt failed according to initial prototypes
-        % lack of data online about other irish people's college course choice
-        % as a result, CF was not attempted
-    % leaves us with two options: KB and CBF
-        % a KB RS would be useful as a user could specify points, nfq and college preferences - as referenced earlier
-        % this **constraints** the courses, but we still want to narrow down choice
-            % can utilise CBF to utilised user attributes to course attributes
-        % so, our RS is a hybrid KB and CBF one!
+\section{Recommender System Design}
 
-% how do we get this info? quiz!
-    % talk about phrasing of question and its iterations
-    % talk about how the question targets:
-        % 1. interest
-        % 2. riasec trait
-    % 21 categories, six questions per categories (chosen relatively arbritrarily, mostly because there are six RIASEC traits)
-    % how were these questions generated?
-        % and what was the idea behind them?
-        % wanted the questions to broadly target different kinds of work involved in each field
-            % e.g. in healthcare, we wanted questions that focused on doctor, physio, occupational therapy, etc.
-            % this required examining the different kinds of courses of the academic interests in the dataset
-        % also wanted the questions to target different RIASEC qualities within each field
-            % e.g. healthcare asking a question about surgical procedures: R
-                % and understanding human anatomy: I - both questions target the same type of job (medical practitioner), but different dimensions to the role
-            % how did we decide on what kind of split to do on each section?
-                % plotted a distribution of the RIASEC qualities and modeled the six questions accordingly
-                    % e.g. computers had almost exclusively "R" and "I", so 4 "i" q's and two "r" q's
-                % we also utilisd our learned knowledge (don't say expertise lol) of the holland's RIASEC model
-        % questions were initialised by LLM (Gemini 3), however they had a lot of manual intervention and tinkering by me
-            % LLM was given the dataset as context and was told to make six questions per category that (like i just explained):
-                % asked questions typical in jobs of those courses
-                % targeted specific riasec qualities
+As described in section \ref{sec:common-rs-types}, there are many types of RS's,
+each with their own advantages and disadvantages. 
+In this section, we will describe and justify the design to our RS.\\
 
-% revisit the qualities of a good RS as introduced in the beginning of this chapter
-    % how many recs?
-        % inspired by the findings of small rec sets, number of 20 was chosen
-            % relatively arbitrary
-            % primarily because on a CAO list you have 10 courses for level 8, and 10 for 6/7
-    % diversity
-        % 1. don't recommend courses with the same title
-            % in implementation i'll talk about preprocessing
-        % 2. don't just recommend courses from the same academic interest category
-            % rather than just being dominated by one category, cycle through the top 5 categories
-                % "top 5" was chosen arbitrarily
-                    % future work - this number could be relative, some people may only demonstrate interest in 3 categories and get rec'd useless courses for two categories they barely showed interest in
-    % this push for novelty is driven by a desire for **serendipity**
-        % a user may like CS and tick "yes" to 20 Computer courses that got recommended to them
-        % but is this information novel? 
-            % revisit chapter intro: it actually doesn't really **help** the user because they were likely already aware of it
-            % we want **serendipity** - courses they may not be aware of, and this involves tradeoffs
-            % instead of recommending 5 CS courses that we know they like, we would rather rec 1 CS course - to signal their awareness towards the course
-                % and then recommend other computer courses - they may not be relevant or good, but there is a chance for serendipity here
+In Chapter \ref{chap:initial-prototypes}, we explored a \emph{Collaborative Filtering} (CF) approach 
+in designing our RS. 
+This was motivated by a desire for more serendipity in our college course recommendations.
+However, as was evident by the conclusions in the chapter,
+the utilised datasets featured many limitations, which resulted in unsatisfactory model performance.
+As a result, a CF approach was ruled out.
+This leaves us with the more traditional \emph{Content-Based Filtering} (CBF) and \emph{Knowledge-Based Filtering} (KBF).
+In the next two subsections we will describe the integration of these approaches into our RS.\\
 
+\subsection{Knowledge-Based Filtering}
 
+As described in section \ref{sec:common-rs-types}, KBF requires the user to set explicit requirements for their recommendations.
+In subsection \ref{sec:lc-points-nfq-levels-and-colleges}, we justified the profiling of the following information off a user:
 
-% owen: in the design (or maybe implementation) talk about data - how you're retaining the data, storing etc.
+\begin{itemize}
+    \item Expected LC Points (e.g. 589)
+    \item NFQ Level preferences (i.e. NFQ Level 6, 7 or 8)
+    \item College preferences (e.g. Trinity College Dublin, etc.)
+\end{itemize}
 
+This type of information is more simply obtained by asking the user directly.
+As a result, a KBF approach is appropriately applied here.
+Figures \ref{fig:expected-lc-points-quiz}, \ref{fig:nfq-levels-quiz} and \ref{fig:colleges-quiz} below demonstrate the RS user interface asking these explicit questions.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.55]{images/expected-lc-points-quiz.png}
+    \caption{The RS user interface asking the user for their expected LC points.}
+    \label{fig:expected-lc-points-quiz}
+\end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.55]{images/nfq-levels-quiz.png}
+    \caption{The RS user interface asking the user for their NFQ Level preferences.}
+    \label{fig:nfq-levels-quiz}
+\end{figure}
 
-% ugh idk - talk about thinking about whether to use LLM's or not
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.55]{images/colleges-quiz.png}
+    \caption{The RS user interface asking the user for their specific college preferences. The user can filter by all Irish colleges - this screenshot demonstrates a fraction of the choice.}
+    \label{fig:colleges-quiz}
+\end{figure}
+
+Figure \ref{fig:kbf-rs-design} below best describes this stage to our college course RS design: 
+a user interacts with a KBF RS that utilises their Expected LC Points, NFQ Level and College preferences to 
+provide a narrower set of college courses.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/kf-rs-design.png}
+    \caption{A diagram of the Knowledge-Based Filtering RS.}
+    \label{fig:kbf-rs-design}
+\end{figure}
+
+After interacting with the RS, the user will be provided with a \emph{filtered} set of college course recommendations,
+not a \emph{personalised} set, simply because the above information is not sufficient to provide relevant college course recommendations to the user.
+This filtered set of college course recommendations will be instrumental in the next stage of our college course RS.
+
+\subsection{Content-Based Filtering}
+
+After the user interacts with the KBF RS, the candidates for their college course recommendations are refined through their explicitly set preferences.
+However, we must now provide a more personalised list of college course recommendations to the user.
+We will utilise the the user's \textbf{RIASEC Model} and \textbf{Academic Interests} to bridge this gap.
+Theoretically, we could utilise a KBF approach to provide more personalised recommendations.
+For instance, the RS could ask the user to explicitly filter college courses by Academic Interests.
+For example, the user could explicitly filter college course recommendations by Biology and Mathematics.
+However, this approach is not significantly different to the more traditional college course search filters,
+such as CareerPortal as described in subsection \ref{sec:simple-filters}.\\
+
+Thus, for the sake of novelty we desire a more sophisticated type of RS, which leads us to the \emph{Content-Based Filtering} (CBF)
+approach. 
+CBF directly utilises the information of the user - their RIASEC Model and Academic Interests - to provide personalised college course recommendations.
+For example, a user demonstrating an interest in Healthcare and Sport may be recommended Physiotherapy.
+The complete design of our college course RS best described in figure \ref{fig:complete-rs-design} below.\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/complete-rs-design.png}
+    \caption{A diagram of our Hybrid RS with KBF and CBF approaches.}
+    \label{fig:complete-rs-design}
+\end{figure}
+
+\subsection{Section Summary}
+
+In summary, this section described the high-level design of our RS.
+A KBF RS will filter college course recommendations using the user's \textbf{Expected LC Points, NFQ Level} and \textbf{College preferences,}
+and a CBF RS will provide college course recommendations using the user's \textbf{RIASEC Model} and \textbf{Academic Interests.}
+In other words, our college course RS is a \textbf{Hybrid RS} with \textbf{Knowledge-Based Filtering} and \textbf{Content-Based Filtering.}
+
+\section{Quiz Design}
+
+In order to profile a user's Academic Interests and RIASEC Model, we must design a quiz to gather their preferences.
+The quiz must have sufficient coverage across all 21 Academic Interests and the six RIASEC traits.
+We can then design the quiz with six questions being asked per Academic Interest, 
+resulting in a total of 126 questions. 
+The user's response to the question must be quantifiable with a discrete measurement, 
+in order to make their response more easily processed by a computer.
+In light of this, we opted for a \emph{5-point Likert scale,} which prompts users to rate each question on a scale 
+of 1 to 5, where 1=Strongly Disagree, 2=Disagree, 3=Neutral, 4=Agree and 5=Strongly Agree.\\
+
+Six questions are being asked for each of the 21 Academic Interests, and we must now discuss \emph{what} questions we ask.
+The questions were designed to reflect the typical work done in each Academic Interest, to give the student a 
+clearer idea of their preferences towards each Academic Interest.
+For example, a student who has never studied Biology may find it difficult to answer a more general question such as: 
+\emph{On a scale of 1 to 5, how interested are you in Biology?},
+and they would likely find it easier to answer a more specific question such as:
+\emph{On a scale of 1 to 5, how interesting would you find investigating how bacteria react to medicine?}
+This enhanced specificity helps the student explore their college course preferences, which assists us in answering our Research Question.\\
+
+Each of the six questions are not only designed to capture typical work performed in each Academic Interest,
+but also to profile a student's RIASEC traits.
+For example, the activity: \emph{Investigate how bacteria react to medicine} is a \emph{Life Science} question,
+but it also targets the \emph{Investigative} RIASEC trait, as the work requires critical analysis.
+On the other hand, the activity: \emph{Dissect biological specimens in a lab} is also a \emph{Life Science} question,
+but it targets the \emph{Realistic} RIASEC trait, as it involves working with your hands.
+In this sense, the six Academic Interest questions target different RIASEC traits as well as typical work in that field.\\
+
+However, among the six Academic Interest questions, the RIASEC traits are not targeted evenly.
+For example, among the six \emph{Life Science} questions, four questions target the \emph{Investigative} RIASEC trait,
+and two questions target the \emph{Realistic} RIASEC trait.
+This was done because generally, each Academic Interest is clustered around specific RIASEC traits; 
+some traits are more relevant than others depending on the context.
+To assist in discovering the relevant RIASEC traits for each Academic Interest, 
+the RIASEC trait distribution for each Academic Interest is plotted in appendix \ref{sec:riasec-trait-dist}.
+These data, along with learned domain knowledge, allows us to appropriately target the relevant RIASEC traits 
+in each of the six Academic Interests questions.\\
+
+With this context and knowledge, we can design the 126 questions in our quiz to target different 
+types of typical work and relevant RIASEC traits across the 21 Academic Interests.
+The 126 questions were initially formed by \emph{Gemini Model 3}\footnote{\url{https://gemini.google.com/}},
+however, the questions underwent significant manual revisions by the author 
+in order to more accurately reflect the Academic Interest and RIASEC trait.
+The full list of 126 questions can be found in appendix \ref{sec:all-126-questions}.\\
+
+With our questions designed, we must now discover how to \emph{phrase} the question.
+At first, the questions were phrased as:\\
+
+\emph{On a scale of 1 to 5, how much would you agree with the following statement?}
+
+\emph{I would like to do this activity: Investigate different philosophical ideas.}\\
+
+However, early user testing exposed a flaw: 
+due to the phrasing of the question, users were being recommended college courses in areas they were
+recreationally interested in.
+As a result, they would not realistically consider studying the college course for the sake of job prospects or salary.
+For example, a student may be interested in exploring Philosophy as a hobby, but not for full-time work. 
+Thus, the question required some re-phrasing to reflect this, and we settled on: \emph{I would like to do this activity \textbf{for a living.}}
+The \emph{`for a living'} pushes the user to consider the activity in the context of full-time work, 
+as opposed to a hobby.
+This is a subtle but vital addition to the question, 
+resulting in more \textbf{relevant} college course recommendations that the 
+user would realistically consider studying, assisting us in answering our Research Question.
+Two examples of questions are given below in figure \ref{fig:quiz-question}:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.5]{images/quiz-question.png}
+    \caption{Two examples of questions being asked to the user in order to profile their Academic Interests and RIASEC Model.}
+    \label{fig:quiz-question}
+\end{figure}
