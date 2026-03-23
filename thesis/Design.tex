@@ -1,11 +1,22 @@
 \chapter{Design}
 \label{chap:design}
 
-\textbf{todo chap intro}
+\textbf{flow and structure is pretty poor actually, i feel like it lacks a sense of coherence or how it all relates to the overall point of the chapter}
+\textbf{also i struggle to "make a point", i.e. i might describe something in great detail but i don't stick the landing or summarise it, that might be really helpful/bring it all together}
 
-talk about good qualities of an RS? actually maybe not idk
+In this chapter, there will be an explanation into the high-level design of the college course RS,
+including justifications behind different design decisions. 
+Before we dive into the design behind our RS, it would be important to revisit our Research Question: 
+\emph{``Can a Recommender System assist an Irish student in exploring college courses they would consider studying?"}
+Recall that we hypothesised that an RS that provides \textbf{relevant, diverse} and \textbf{serendipitous} recommendations
+would be best in answering this question.
+This describes the overall design philosophy behind our RS, and it shall be the 
+underpinning behind almost every design decision.
 
 \section{Interviews with Guidance Counsellors}
+
+\textbf{this is kinda split up into 2 - what do we ask students, and also what is the GC process like.
+i could consider the "what do we ask students" gc info into a }
 
 As part of this research, interviews were conducted with two professional Guidance Counsellors (GC's) in Ireland, with decades of experience between them.
 The main purpose of these interviews was to gain a deeper understanding of the GC process.
@@ -33,7 +44,7 @@ For example, a student may demonstrate strong interest in History, but if they d
 we may miss out on this information.\\
 
 To account for this when designing our RS, 
-we should consider a set of Academic Interests with broader coverage across all areas of study.
+we should consider a set of Academic Interests with \textbf{broad coverage across all areas of study.}
 As a result, our RS can capture this information, even in the event where the student did not study the subject at school.
 
 \subsection{The RIASEC Model}
@@ -114,7 +125,22 @@ as it helps develop the student's concepts about the college courses they would 
 These insights are incredibly valuable, as it supports the idea that \textbf{diverse} recommendations 
 can help answer our Research Question, which is to assist Irish students in exploring college courses they would consider studying.
 
-\textbf{todo - summarise interviews?}
+\subsection{GC Interviews Summary}
+
+In this subsection, we will summarise the insights gathered from our interviews conducted with the two professional GC's.
+Firstly, there was unanimous agreement in the value of profiling a student's Academic Interests for the purpose of college course recommendations.
+This is crucial, as our RS will involve profiling a student's Academic Interests.
+The RIASEC Model did not receive the same levels of agreement, however, we hypothesise that the inclusion of 
+a RIASEC Model could be useful and lead to serendipitous recommendations. 
+Moreover, the GC's both generally profile Hobbies off their students for the purpose of college course recommendations,
+however, we argued that a broad and comprehensive Academic Interests quiz could capture this information instead.
+We closed off the section with a discussion into the potential role an RS like this could play in the GC process.
+We agree that the GC process remains incredibly human and nuanced, and an RS such as this should complement the GC process by 
+assisting a student with their college course exploration, instead of trying to replace the GC process completely.\\
+
+After our examinations into the literature in Chapter \ref{chap:literature-review}, our initial prototype in Chapter \ref{chap:initial-prototypes},
+and finally our interviews conducted in this section, we have gathered a large body of background knowledge that will 
+inform the design of our RS, which we shall explore in the coming sections.
 
 \section{User Information to Profile}
 \label{sec:user-information-to-profile}
