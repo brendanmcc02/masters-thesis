@@ -147,7 +147,8 @@ def preprocess_college_title(text):
         pattern = r'\b' + re.escape(abbreviation) + r'\b'
         text = re.sub(pattern, expanded_college_major, text)
 
-    text = re.sub(r'[\(\)\{\}\[\]&/+,;:\\|\-]', ' ', text) # sub certain symbols for spaces
+    # substitute certain symbols for spaces
+    text = re.sub(r'[\(\)\{\}\[\]&/+,;:\\|\-]', ' ', text)
 
     text = text.strip()
 

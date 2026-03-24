@@ -3,8 +3,11 @@
 \lstset{language=Python, captionpos=b, frame=single}
 \captionsetup{width=.8\linewidth} 
 
+\textbf{todo might need to add more to this after writing more of the chapter}
+
 In this chapter, we will provide the implementation details behind the college course RS.
-\textbf{todo maybe add more cause this is bare bro.}\\
+Firstly, we will examine the technologies utilised in the implementation of the college course RS.
+Seeing as our RS is a Hybrid RS with KBF and CBF, we will describe their implementations in detail.\\
 
 \section{Technologies}
 
@@ -16,12 +19,7 @@ and then prints the college course recommendations to a Markdown \verb|.pdf| fil
 which is viewable to the user.
 All data is stored and retained on private storage on OneDrive\footnote{\url{http://onedrive.live.com/}}.
 
-\section{Recommender System Implementation}
-
-As described in section \ref{sec:rs-design}, our RS is a Hybrid RS utilising both Knowledge-Based Filtering (KBF) and Collaborative-Based Filtering (CBF).
-In this section, we will describe the workings behind the KBF and CBF RS.
-
-\subsection{Knowledge-Based Filtering Implementation}
+\section{Knowledge-Based Filtering Implementation}
 
 Recall from figure \ref{fig:kbf-rs-design}, that the purpose of the KBF RS is not to provide personalised college course recommendations,
 rather to provide a filtered list of college course recommendations.
@@ -71,7 +69,7 @@ This KBF RS now returns a list of filtered college courses that satisfy a user's
 NFQ Level and College preferences.
 The KBF RS This will be instrumental in the next stage of our college course RS: the CBF RS.
 
-\subsection{Content-Based Filtering Implementation}
+\section{Content-Based Filtering Implementation}
 
 The CBF RS will provide a more personalised set of college course recommendations from the KBF RS's filtered list,
 using a user's Academic Interests, RIASEC Model and Expected LC Points, as described visually in figure \ref{fig:kbf-rs-design}.
@@ -80,7 +78,7 @@ and the top-ranked results will be returned.
 In order to calculate similarity scores, we must numerically represent both users and college courses,
 both of which will be described in detail in the coming discussions.\\
 
-\subsubsection{Numerical Representation of a User}
+\subsection{Numerical Representation of a User}
 
 This discussion will feature an in-depth description of how a user is numerically represented.
 All numerical representations of a user's RIASEC Model, Academic Interests and Expected LC Points are float values between 0.0 and 1.0.
@@ -143,75 +141,179 @@ implying a user's moderate interest towards this RIASEC trait.
 Seeing as the user gave ten \emph{Realistic} questions a 3 rating, and five \emph{Realistic} questions a 2 rating,
 a value of $0.39$ also closely reflect the user's interest in this case too.\\
 
-This total mapping function, $g(x\;, K)$, is applied to each total score of the user's 21 Academic Interests and 6 RIAESC traits.
+This total mapping function, $g(x,\; K)$, is applied to each total score of the user's 21 Academic Interests and 6 RIAESC traits.
 Each of the 21 Academic Interests and 6 RIASEC traits now have scores between 0.0 and 1.0,
-where 0.0 implies weak interest, and 1.0 implies a strong interest towards that particular Academic Interest or RIASEC trait.
-This numerical representation will be instrumental in the next stage of our Recommendation Algorithm.
+where 0.0 implies weak interest, and 1.0 implies a strong interest towards that particular Academic Interest or RIASEC trait.\\
 
-\textbf{todo talk about how expected lc points are encoded}
+We have now numerically represented a user's RIASEC traits and Academic Interests as scores between 0.0 and 1.0. 
+Now, we must numerically represent a user's expected LC points as a float between 0.0 and 1.0.
+The maximum achievable points in the LC is 625, so the numerical representation of a user's LC points is simply 
+divided by 625. For example, if a user is expected to receive 300 LC points, this will be numerically represented as:
 
-In order to calculate a similarity score between a user and a college course, 
-we must numerically represent users and college courses in a similar manner.
-This numerical representation must contain the following information:
+\[ \frac{\text{Expected LC Points}}{\text{Max Achievable LC Points}} = \frac{300}{625} = 0.48 \]
 
-\begin{enumerate}
-    \item RIASEC trait scores
-    \item LC Points
-    \item Academic Interest scores
-\end{enumerate}
+The CBF RS will profile a user's RIASEC Model, Academic Interests and Expected LC Points, and 
+we have demonstrated how this information is numerically represented as floats between 0.0 and 1.0.
+We can combine all of the above information together to numerically represent a user as a 28-dimensional vector - 
+one vector dimension for Expected LC Points, six dimensions for RIASEC trait scores and 21 dimensions for Academic Interests scores.
+This is best shown in table \ref{tab:user-vector} below:
 
-In the case of a user, the RIASEC trait and Academic Interest scores are obtained as described in subsection \ref{sec:num-rep} \textbf{todo missing ref!}
-
-\section{Numerical Representation of a College Course}
-
-Following the explanations provided in subsection \ref{sec:num-rep}, 
-
-Following this, we can represent users and college courses as 28-dimensional vectors,
-where each value in this vector is a float between 0.0 and 1.0.
-Six of these vector dimensions are occupied by RIASEC trait scores,
-21 dimensions are occupied by Academic Interest scores,
-and one dimension is occupied by LC points.\\
-
-\textbf{dont need this after describing lc point encodings, or maybe just express it a different way}
-As described in section \ref{sec:lc}, 625 is the maximum achievable points in the LC.
-For example, 625 LC points is numerically represented as a value of 1.0 in the vector,
-and 300 LC points is numerically represented as a value of 0.48 in the vector.
-
-
-\begin{table}[h]
+\begin{table}[H]
 \centering
-\caption{Example user vector representation}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
 \multicolumn{6}{|c|}{\textbf{RIASEC}} & \multicolumn{1}{c|}{} & \multicolumn{6}{c|}{\textbf{Academic Interests}} \\ \hline
 \rotateText{\textbf{Realistic}} & \rotateText{\textbf{Investigative}} & \rotateText{\textbf{Artistic}} & \rotateText{\textbf{Social}} & \rotateText{\textbf{Enterprising}} & \rotateText{\textbf{Conventional}} & \rotateText{\textbf{Expected LC Points$\;$}} & \rotateText{\textbf{Agriculture}} & \rotateText{$\cdots$} & \rotateText{\textbf{Life Science}} & $\cdots$ & \rotateText{\textbf{Sport}} & \rotateText{\textbf{Welfare}} \\ \hline
 0.39 & 0.95 & 0.1 & 0.65 & 0.3 & 0.4 & 0.48 & 0.05 & $\cdots$ & 0.98 & $\cdots$ & 0.1 & 0.1 \\ \hline
 \end{tabular}
+\caption{An example of the numerical representation of a user as a vector}
+\label{tab:user-vector}
 \end{table}
 
+\subsection{Numerical Representation of a College Course}
 
-\begin{table}[h]
+As described above, a user's RIASEC traits, LC Points and Academic Interest scores are represented as 28-dimensional vectors.
+Each college course in our dataset will also be numerically represented as 28-dimensional vectors in the same manner.
+Take the following college course as an example:
+
+\begin{lstlisting}[caption={An example of a college course in the dataset}, basicstyle=\small, frame=single]
+{
+    "id": "TR052",
+    "title": "Dental Science",
+    "college": "Trinity College Dublin",
+    "region": "Dublin",
+    "duration": "5 Years",
+    "nfqLevel": 8,
+    "points": 625,
+    "isAdditionalPortfolioTestInterviewRequired": false,
+    "overview": "Dental Science is the study of ...",
+    "riasecTraits": [
+        "investigative",
+        "social",
+        "realist"
+    ],
+    "academicInterests": [
+        "healthcare",
+        "life science"
+    ]
+}
+\end{lstlisting}
+
+Following the above example, the vector dimension associated with the Realistic, Investigative and Social traits are set to 1.0 because they are associated with this college course,
+whereas all other RIASEC vector dimensions are set to 0.0.
+Similarly, the vector dimensions associated with the Healthcare and Life Science Academic Interests are set to 1.0,
+whereas all other Academic Interest vector dimensions are set to 0.0.
+This college course's LC points are numerically represented as 1.0, as a result of following the same rules as previous:
+
+\[ \frac{\text{College Course LC Points}}{\text{Max Achievable LC Points}} = \frac{625}{625} = 1.0 \]
+
+Following these rules, this college course is then numerically represented as a 28-dimensional vector as shown below in table \ref{tab:college-course-vector}
+
+\begin{table}[H]
 \centering
-\caption{Example college course vector representation}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
 \multicolumn{6}{|c|}{\textbf{RIASEC}} & \multicolumn{1}{c|}{} & \multicolumn{7}{c|}{\textbf{Academic Interests}} \\ \hline
-\rotateText{\textbf{Realistic}} & \rotateText{\textbf{Investigative}} & \rotateText{\textbf{Artistic}} & \rotateText{\textbf{Social}} & \rotateText{\textbf{Enterprising}} & \rotateText{\textbf{Conventional}} & \rotateText{\textbf{LC Points}} & \rotateText{\textbf{Agriculture}} & \rotateText{$\cdots$} & \rotateText{\textbf{Healthcare}} & \rotateText{\textbf{Life Science}} & $\cdots$ & \rotateText{\textbf{Sport}} & \rotateText{\textbf{Welfare}} \\ \hline
+\rotateText{\textbf{Realistic}} & \rotateText{\textbf{Investigative}} & \rotateText{\textbf{Artistic}} & \rotateText{\textbf{Social}} & \rotateText{\textbf{Enterprising}} & \rotateText{\textbf{Conventional }} & \rotateText{\textbf{LC Points}} & \rotateText{\textbf{Agriculture}} & \rotateText{$\cdots$} & \rotateText{\textbf{Healthcare}} & \rotateText{\textbf{Life Science}} & $\cdots$ & \rotateText{\textbf{Sport}} & \rotateText{\textbf{Welfare}} \\ \hline
 1.0 & 1.0 & 0.0 & 1.0 & 0.0 & 0.0 & 1.0 & 0.0 & $\cdots$ & 1.0 & 1.0 & $\cdots$ & 0.0 & 0.0 \\ \hline
 \end{tabular}
+\caption{Example college course vector representation}
+\label{tab:college-course-vector}
+\end{table}
+
+\subsection{Similarity Score}
+
+As mentioned earlier, from a high level, an RS calculates similarity scores between a user and multiple 
+college courses, and the top-ranked results are returned.
+Seeing as we have numerically represented users and college courses as 28-dimensional vectors, 
+we need some method to calculate the similarity between a user and a college course.
+The method of choice is cosine similarity, a mathematical measure of similarity between two vectors.
+A score of 1.0 means that the vectors point in the same direction,
+whereas a score of 0.0 means that the vectors are perpendicular to each other.
+It is defined mathematically as:
+
+\[
+\text{cosineSimilarity} (A,\;B)= \frac{A \cdot B}{||A||\; ||B||}
+\]
+
+Suppose a student has a high Investigative RIASEC trait, high Computers Academic Interest and 589 Expected LC Points.
+From a high level, we want the RS to recommend  college courses that generally fit this profile.
+Cosine Similarity is an appropriate measure of similarity in this case,
+because college courses with the Investigative RIASEC trait, Computers Academic Interest and high LC points will 
+result in a high similarity score with the user,
+whereas college courses without those features will have lower similarity scores with the user.
+
+\section{The Recommendations}
+
+In this section, we will build off our previous explanations, and describe the final steps in generating the college course recommendations.
+Before we continue, it is worth revisiting the three qualities of an effective RS, as described in section \ref{sec:research-question}:
+\textbf{Relevance, Diversity} and \textbf{Serendipity.}
+In the previous section, we described the numerical representations of users and college courses, 
+and provided a similarity calculation between a user and a college course.
+As described in section \ref{sec:rec-set-size}, the college course RS will provide 20 recommendations to the user.
+So, bringing all of this information together, a straightforward RS would simply calculate the similarity 
+score between the user and all college courses, and then return the 20 most similar college courses.\\
+
+When testing this approach, the results were unsatisfactory because the recommendations were not 
+particularly relevant, diverse or serendipitous.
+As a result, this RS poorly answered  
+this dissertation's research question.
+Thus, many additional recommendation rules had to be added to the RS in order to improve the RS's ability to 
+provide relevant, diverse and serendipitous recommendations.
+These modifications will be described in the coming subsections.
+
+\subsection{Identical College Course Names}
+
+As described in subsection \ref{sec:identical-college-course-names}, college courses with identical names are not 
+recommended for the sake of diversity and serendipity. 
+Performing a simple string match between college course titles would not be effective because the naming can differ slightly.
+Table \ref{tab:string-examples-1} defines some college courses that are effectively identical, 
+but traditional string matching would fail to recognise that the college course titles are identical.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{College Course Title A} & \textbf{College Course Title B} \\
+\hline
+\hline
+Dental Science & Dentistry\\
+\hline
+Computer Science and Business & Business with Computer Science\\
+\hline
+Mathematics and Irish with Education & Teaching with Mathematics and Irish\\
+\hline
+\end{tabular}
+\caption{Examples of identical college course titles that traditional string matching would fail to recognise.}
+\label{tab:string-examples-1}
+\end{table}
+
+To solve this problem, the college course titles can be pre-processed into a simpler form
+using a custom preprocessing script, which addresses many edge cases in the domain of college courses.
+Further implementation details regarding this script is given in section \ref{sec:preprocessing-script} \textbf{todo!}.
+This preprocessing script allows us avoid recommending college courses with essentially identical titles, as 
+is demonstrated below in table \ref{tab:string-examples-2}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{College Course Title A} & \textbf{College Course Title B} & \textbf{Preprocessed Titles}\\
+\hline
+\hline
+Dental Science & Dentistry & \emph{dentistri}\\
+\hline
+Computer Science and Business & Business with Computer Science & \emph{busi comp}\\
+\hline
+Mathematics with Education & Teaching and Mathematics & \emph{educ mathemat}\\
+\hline
+\end{tabular}
+\caption{The preprocessing script successfully capturing essentially identical college course titles.}
+\label{tab:string-examples-2}
 \end{table}
 
 
-% cbf rS
-    % talk about cosine similarity = sim score
 
-    % how many recs?
-        % inspired by the findings of small rec sets, number of 20 was chosen
-            % relatively arbitrary
-            % primarily because on a CAO list you have 10 courses for level 8, and 10 for 6/7
-    % courses with identical names are not recommended
-        % have to talk about preprocessing
-        % talk about tradeoff with potentially wrong college being rec'd, but they picked it so idc
     % top 5 categories are picked - **diversity**
         % this number was arbitrarily picked
         % number is relevant to the strength of the category
@@ -257,6 +359,4 @@ and 300 LC points is numerically represented as a value of 0.48 in the vector.
 
 
 
-\[
-\text{cosineSimilarity} (A,\;B)= \frac{A \cdot B}{||A||\; ||B||}
-\]
+

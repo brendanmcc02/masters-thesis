@@ -394,7 +394,7 @@ An example of the data about a college course is given below in JSON format:
     "points": 625,
     "isAdditionalPortfolioTestInterviewRequired": false,
     "overview": "Dental Science is the study of ...",
-    "riasecInterests": [
+    "riasecTraits": [
         "investigative",
         "social",
         "realist"
@@ -587,3 +587,55 @@ Two examples of questions are given below in figure \ref{fig:quiz-question}:
     \caption{Two examples of questions being asked to the user in order to profile their Academic Interests and RIASEC Model.}
     \label{fig:quiz-question}
 \end{figure}
+
+\section{Recommendation Set Size}
+\label{sec:rec-set-size}
+
+\textbf{todo added this section while writing implementation, might need to re-intergrate somewhere or restructure chapter}
+
+Generally speaking, RS's recommend a finite number of recommendations to a user, 
+and in this section we will justify the number of college course recommendations 
+the college course RS will present to the user.\\
+
+In table \ref{tab:research-gap-2}, we examined the number of college course recommendations 
+given by other closely-related works.
+We observed that some of the closely-related works provided large numbers of recommendations, 
+even as high as 200 college course recommendations.
+In light of this, we can recall two findings in the review of our literature in Chapter \ref{chap:literature-review}:
+Firstly, the findings of \cite{long2025choice}, in which smaller recommendation sets are equally 
+as effective as larger recommendation sets.
+Secondly, the phenomenon of overchoice as coined by \cite{toffler1970future},
+which remarks that choosing between a large variety of options can be detrimental to the decision-making process.
+As a result of these two findings, we are motivated to provide a smaller list of college course recommendations to the user.\\
+
+As described in section \ref{sec:cao}, a student can put up to 20 college courses on their CAO application - 10 NFQ Level 8 courses, and 10 NFQ Level 6/7 courses.
+Inspired by this, our college course RS will return 20 college course recommendations to the user,
+a relatively small number which is in line with our aforementioned findings.
+
+\section{Identical College Course Names}
+\label{sec:identical-college-course-names}
+\textbf{todo added this section while writing implementation, might need to re-intergrate somewhere or restructure chapter}
+
+Suppose a user demonstrates strong interest in Computers, and as a result 
+they are recommended five different Computer Science (CS) courses in Dublin.
+While these recommendations are \emph{relevant} to the user's interests, 
+the recommendations are neither \emph{diverse} or \emph{serendipitous}.
+As a result, many of these CS recommendations are redundant;
+after the first CS recommendation, the other CS recommendations do not provide significantly new information to the user.
+Seeing as our Research Question involves assisting the user in exploring college courses, this is detrimental.
+Instead, a more different, but relevant college course could take it's place - such as \emph{Immersive Software Engineering}\footnote{\url{https://software-engineering.ie/}}.
+Not only does this benefit the diversity of the recommendations, but it also 
+gives the RS a better chance to make a serendipitous recommendation - the gold standard of RS's.
+This design decision will better answer our Research Question,
+as the enhanced diversity and serendipity assists the user in their college course exploration.\\
+
+Following from this reasoning, only college courses with unique titles are recommended.
+For example, if CS in Trinity College Dublin has been recommended to the user,
+then CS in University College Dublin (UCD) will not be recommended to the user, 
+and another recommendation will take it's place.
+
+\section{Considering Multiple Academic Interests}
+
+\section{Chapter Summary}
+
+\textbf{todo!}
