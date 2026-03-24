@@ -288,12 +288,11 @@ This provides us with a clearer picture going forward as to the design behind ou
 \section{Dataset}
 
 In order to create an RS, we need a dataset of Irish college courses.
-A dataset of Irish college courses was obtained from CareersPortal, the leading careers website in Ireland.
-Further details on the way in which this data was obtained is given in Chapter \ref{chap:implementation}.\\
-
-This dataset contains a college course's title, college, NFQ Level and LC points, 
-although to satisfy our requirements as laid out in section \ref{sec:user-information-to-profile},
-we also need data on the \textbf{RIASEC Model} and \textbf{Academic Interests} associated with the college course,
+Seeing as CareersPortal is the leading careers website in Ireland, 
+the public information on the site was web-scraped to form a dataset of all Irish college courses.
+Each course in the dataset contain it's title, college, NFQ Level, LC points and other metadata, 
+which are sufficient in satisfying our requirements as laid out in section \ref{sec:user-information-to-profile}.
+However, we also need data on the \textbf{RIASEC Model} and \textbf{Academic Interests} associated with the college course,
 and we will provide more details on how these were obtained in the next two subsections.\\
 
 \subsection{RIASEC Model}
@@ -375,12 +374,10 @@ Social Science & Sport & Welfare\\
 
 The CP dataset does not feature any categorisation similar to the Academic Interests given in table \ref{tab:academic-interest-categories}.
 As a result, we need to additionally augment data regarding the Academic Interests associated with each Irish college course in the dataset.
-In Chapter \ref{chap:implementation}, we will provide details as to how the college courses in the dataset were 
-categorised into the different Academic Interests.
+This task was performed by \emph{Gemini Model 3}\footnote{\url{https://gemini.google.com/}},
+however the Model's categorisation underwent significant manual revisions to correct inaccuracies and inconsistencies.
 
 \subsection{Final Dataset}
-
-\textbf{todo - maybe this should go into implementation?}
 
 After our data augmentation, we now have a dataset that can satisfy the requirements of our desired RS  
 set out in section \ref{sec:user-information-to-profile}.
@@ -415,6 +412,7 @@ This information will also need to be included in our dataset, and that is what 
 refers to.
 
 \section{Recommender System Design}
+\label{sec:rs-design}
 
 As described in section \ref{sec:common-rs-types}, there are many types of RS's,
 each with their own advantages and disadvantages. 
@@ -430,6 +428,7 @@ This leaves us with the more traditional \emph{Content-Based Filtering} (CBF) an
 In the next two subsections we will describe the integration of these approaches into our RS.\\
 
 \subsection{Knowledge-Based Filtering}
+\label{sec:kbf}
 
 As described in section \ref{sec:common-rs-types}, KBF requires the user to set explicit requirements for their recommendations.
 In subsection \ref{sec:lc-points-nfq-levels-and-colleges}, we justified the profiling of the following information off a user:
@@ -512,6 +511,7 @@ and a CBF RS will provide college course recommendations using the user's \textb
 In other words, our college course RS is a \textbf{Hybrid RS} with \textbf{Knowledge-Based Filtering} and \textbf{Content-Based Filtering.}
 
 \section{Quiz Design}
+\label{sec:quiz-design}
 
 In order to profile a user's Academic Interests and RIASEC Model, we must design a quiz to gather their preferences.
 The quiz must have sufficient coverage across all 21 Academic Interests and the six RIASEC traits.
@@ -551,7 +551,7 @@ in each of the six Academic Interests questions.\\
 
 With this context and knowledge, we can design the 126 questions in our quiz to target different 
 types of typical work and relevant RIASEC traits across the 21 Academic Interests.
-The 126 questions were initially formed by \emph{Gemini Model 3}\footnote{\url{https://gemini.google.com/}},
+The 126 questions were initially formed by \emph{Gemini Model 3},
 however, the questions underwent significant manual revisions by the author 
 in order to more accurately reflect the Academic Interest and RIASEC trait.
 The full list of 126 questions can be found in appendix \ref{sec:all-126-questions}.\\

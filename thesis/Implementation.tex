@@ -3,68 +3,120 @@
 \lstset{language=Python, captionpos=b, frame=single}
 \captionsetup{width=.8\linewidth} 
 
+In this chapter, we will provide the implementation details behind the college course RS.\\
 
-% owen:
-% implementation chap should more or less follow structure of design chapter
-% * more articulation
-% * seeking reproducability - someone without the code could sufficiently repro 
-% * not all ins and outs ofc but key parts
+\section{Technologies}
 
-% owen:
-% the limitations of your system would go into the end of the implementation chapter
-% * you then say you don't believe it'll be a significiant limitation
+In this section, we will describe the technologies powering the college course RS.\\
 
-% TODO - my RS does not take subject requirements into account
+The user interface for the RS, as seen in Chapter \ref{chap:design}, was a quiz hosted on Google Forms\footnote{\url{https://forms.google.com/}}.
+After interacting with the RS, the user's quiz results were stored in a \verb|.csv| file.
+The RS is designed in Python, and processes the user's quiz results from this \verb|.csv| file,
+and then prints the college course recommendations to a Markdown \verb|.pdf| file 
+which is viewable to the user.
+All data is stored and retained on private storage on OneDrive\footnote{\url{http://onedrive.live.com/}}.
 
-% challenges:
-    % talk about portfolio courses having points above 625
-        % difficult to translate this to a realistic number below 625 because the point system works differently for courses with portfolios
-        % would require a lot of manual labour
-        % future work!
+\section{Recommendation Algorithm}
 
-% given that I had a lot of manual labour on top of it with my learned knowledge regarding the subject matter
+As described in section \ref{sec:rs-design}, our RS is a Hybrid RS utilising both Knowledge-Based Filtering (KBF) and Collaborative-Based Filtering (CBF).
+The implementation of the KBF RS is straightforward and adequately described in section \ref{sec:kbf},
+and thus does not require a more elaborate description.
+In this section, we will examine the workings of the algorithm behind the Collaborative-Based Filtering (CBF) RS.\\
 
+Recall from \ref{sec:kbf}, that the KBF RS filters a users college courses according to the user's Expected LC points,
+NFQ Levels and College preferences.
+The CBF RS will then provide a more personalised set of college course recommendations from this filtered list,
+using a user's Academic Interests and RIASEC Model, as described visually in \ref{fig:kbf-rs-design}.
+In the next subsections, we will describe the different components of the recommendation algorithm.\\
 
-% \begin{lstlisting}[caption={An example of a college course in the CP dataset \emph{before} any additional augmentation.}, label={lst:dataset-before-augmentation}]
-% {
-%     "id": "TR052",
-%     "title": "Dental Science",
-%     "college": "Trinity College Dublin",
-%     "region": "Dublin",
-%     "duration": "5 Years",
-%     "nfqLevel": 8,
-%     "points": 625,
-%     "isAdditionalPortfolioTestInterviewRequired": false,
-%     "overview": "Dental Science is the study of ...",
-%     "career_interests": [
-%         "investigative",
-%         "social",
-%         "realist"
-%     ]
-% }
-% \end{lstlisting}
+\subsection{Numerical representation of the RIASEC Model and Academic Interests}
 
-% revisit the qualities of a good RS as introduced in the beginning of this chapter
+In order to provide recommendations, we must numerically represent the user's Academic Interests and RIASEC Model.
+This information will be more easily processed by a computer, and thus the recommendation algorithm would be more straightforward.
+All numerical representations of the RIASEC Model and Academic Interests are float values between 0.0 and 1.0.
+For example, a \emph{Realistic} RIASEC trait score of 1.0 implies a user's strong interest towards this trait,
+whereas a score of 0.0 implies a user's weak interest towards this trait.\\
+
+Recall in section \ref{sec:quiz-design} that each question targets a specific Academic Interest and RIASEC trait.
+For example: the question \emph{Investigate how bacteria react to medicine} targets the \emph{Life Science} Academic Interest and the \emph{Investigative} RIASEC trait.
+From a high level, if a user responds positively to that question, we want the user to score points towards the \emph{Life Science} Academic Interest and the \emph{Investigative} RIASEC trait,
+and if they respond negatively, no points will be scored towards those categories.
+The user's 5-point Likert scale response is converted to a numerical value using the following mapping below:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{5-point Likert scale response} & \textbf{Numerical conversion} \\
+\hline
+5 & 1.0\\
+\hline
+4 & 0.25\\
+\hline
+3 & 0.05\\
+\hline
+2 & 0.0\\
+\hline
+1 & 0.0\\
+\hline
+\end{tabular}
+\caption{5-Point Likert scale mappings to numerical representations}
+\label{tab:likert-scale-mapping}
+\end{table}
+
+% cbf rS
+    % talk about how riasec scores & academic interests scores are generated
+        % my math function
+    % talk about encoding of a user vector
+    % talk about encoding of a course vector
+    % talk about cosine similarity = sim score
+
     % how many recs?
         % inspired by the findings of small rec sets, number of 20 was chosen
             % relatively arbitrary
             % primarily because on a CAO list you have 10 courses for level 8, and 10 for 6/7
-    % diversity
-        % 1. don't recommend courses with the same title
-            % in implementation i'll talk about preprocessing
-        % 2. don't just recommend courses from the same academic interest category
-            % rather than just being dominated by one category, cycle through the top 5 categories
-                % "top 5" was chosen arbitrarily
-                    % future work - this number could be relative, some people may only demonstrate interest in 3 categories and get rec'd useless courses for two categories they barely showed interest in
-    % this push for novelty is driven by a desire for **serendipity**
-        % a user may like CS and tick "yes" to 20 Computer courses that got recommended to them
-        % but is this information novel? 
-            % revisit chapter intro: it actually doesn't really **help** the user because they were likely already aware of it
-            % we want **serendipity** - courses they may not be aware of, and this involves tradeoffs
-            % instead of recommending 5 CS courses that we know they like, we would rather rec 1 CS course - to signal their awareness towards the course
-                % and then recommend other computer courses - they may not be relevant or good, but there is a chance for serendipity here
+    % courses with identical names are not recommended
+        % have to talk about preprocessing
+        % talk about tradeoff with potentially wrong college being rec'd, but they picked it so idc
+    % top 5 categories are picked - **diversity**
+        % this number was arbitrarily picked
+        % number is relevant to the strength of the category
+    % each category has a separate vector
+        % the RIASEC is masked
+            % for the sake of relevance
+        % the category is masked
+            % except education i think?
+                % check code
+        % the masks: theoretically, it would potentially result in serendipity, but the results were poorer 
+            % and less relevant; great example of a high-risk high-reward tradeoff
 
-% owen: in the design (or maybe implementation) talk about data - how you're retaining the data, storing etc.
+
+\section{Limitations}
+
+
+% owen: say that you don't believe they'll be a significiant limitations
+% limitations:
+    % does not take subject requirements into account
+    % talk about portfolio courses having points above 625
+        % difficult to translate this to a realistic number below 625 because the point system works differently for courses with portfolios
+        % so we just ignored the points thing in the filter
+        % would require a lot of manual labour
+        % future work!
+    % given that I had a lot of manual labour on top of it with my learned knowledge regarding the subject matter
+    % academic interest categories could have been refined with more granularity
+        % e.g. humanities, creative arts
+        % social science
+    % languages is an edge case and should ask the user
+    % no identical courses
+    % colleges, could have asked user to reconsider colleges after algorithm is generated
+        % e.g. user is unaware of specialised colleges for music (e.g. bimm), education (marino)
+    
+
+
+
+
+
+
 
 \newcommand{\rot}[1]{\rotatebox{90}{#1}}
 \newpage
@@ -79,10 +131,6 @@
 \end{tabular}
 \end{table}
 
-\[ 
-\text{user} = [0.1,\; 0.95,\; 0.1,\; 0.65,\; 0.3,\; 0.4,\; 0.9,\; 0.05,\; \cdots,\; 0.95,\; \cdots,\; 0.1,\; 0.1]
-\]
-
 \begin{table}[h]
 \centering
 \caption{Example college course vector representation}
@@ -94,14 +142,6 @@
 \end{tabular}
 \end{table}
 
-\[ 
-\text{dentistryCollegeCourse} = [1.0,\; 1.0,\; 0.0,\; 1.0,\; 0.0,\; 0.0,\; 1.0,\; 0.0,\; \cdots,\; 1.0,\; 1.0,\; \cdots,\; 0.0,\; 0.0]
-\]
-
 \[
 \text{cosineSimilarity} (A,\;B)= \frac{A \cdot B}{||A||\; ||B||}
 \]
-
-\section{Summary}
-
-Every chapter aside from the first and last chapter should conclude with a summary. 
