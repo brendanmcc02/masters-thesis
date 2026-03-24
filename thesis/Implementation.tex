@@ -3,12 +3,12 @@
 \lstset{language=Python, captionpos=b, frame=single}
 \captionsetup{width=.8\linewidth} 
 
-In this chapter, we will provide the implementation details behind the college course RS.\\
+In this chapter, we will provide the implementation details behind the college course RS.
+\textbf{todo maybe add more cause this is bare bro.}\\
 
 \section{Technologies}
 
-In this section, we will describe the technologies powering the college course RS.\\
-
+In this section, we will describe the technologies powering the college course RS.
 The user interface for the RS, as seen in Chapter \ref{chap:design}, was a quiz hosted on Google Forms\footnote{\url{https://forms.google.com/}}.
 After interacting with the RS, the user's quiz results were stored in a \verb|.csv| file.
 The RS is designed in Python, and processes the user's quiz results from this \verb|.csv| file,
@@ -16,59 +16,193 @@ and then prints the college course recommendations to a Markdown \verb|.pdf| fil
 which is viewable to the user.
 All data is stored and retained on private storage on OneDrive\footnote{\url{http://onedrive.live.com/}}.
 
-\section{Recommendation Algorithm}
+\section{Recommender System Implementation}
 
 As described in section \ref{sec:rs-design}, our RS is a Hybrid RS utilising both Knowledge-Based Filtering (KBF) and Collaborative-Based Filtering (CBF).
-The implementation of the KBF RS is straightforward and adequately described in section \ref{sec:kbf},
-and thus does not require a more elaborate description.
-In this section, we will examine the workings of the algorithm behind the Collaborative-Based Filtering (CBF) RS.\\
+In this section, we will describe the workings behind the KBF and CBF RS.
 
-Recall from \ref{sec:kbf}, that the KBF RS filters a users college courses according to the user's Expected LC points,
-NFQ Levels and College preferences.
-The CBF RS will then provide a more personalised set of college course recommendations from this filtered list,
-using a user's Academic Interests and RIASEC Model, as described visually in \ref{fig:kbf-rs-design}.
-In the next subsections, we will describe the different components of the recommendation algorithm.\\
+\subsection{Knowledge-Based Filtering Implementation}
 
-\subsection{Numerical representation of the RIASEC Model and Academic Interests}
+Recall from figure \ref{fig:kbf-rs-design}, that the purpose of the KBF RS is not to provide personalised college course recommendations,
+rather to provide a filtered list of college course recommendations.
+The KBF RS utilises a user's \textbf{Expected LC Points, NFQ Levels} and \textbf{College Preferences} to perform this filtering,
+the code for this is given below in \ref{lst:kbf}.
 
-In order to provide recommendations, we must numerically represent the user's Academic Interests and RIASEC Model.
-This information will be more easily processed by a computer, and thus the recommendation algorithm would be more straightforward.
-All numerical representations of the RIASEC Model and Academic Interests are float values between 0.0 and 1.0.
+\begin{lstlisting}[caption={Code for the KBF RS}, label={lst:kbf}, basicstyle=\footnotesize]
+def kbf_rs(user_college_course_preferences):
+    filtered_college_courses = []
+
+    for course in college_courses:
+        if is_course_filtered(course, 
+                user_college_course_preferences):
+            filtered_college_courses.append(course)
+
+    return filtered_college_courses
+
+def is_course_filtered(course, user_college_course_preferences):
+    return isNfqLevelSatisfied(course, user_college_course_preferences)
+        and isCollegeSatisfied(course, user_college_course_preferences)
+        and isPointsSatisfied(course, user_college_course_preferences)
+
+def isNfqLevelSatisfied(course, user_college_course_preferences):
+    return course["nfqLevel"] in 
+        user_college_course_preferences["nfqLevels"]
+
+def isCollegeSatisfied(course, user_college_course_preferences):
+    return course["college"] in 
+        user_college_course_preferences["colleges"]
+
+def isPointsSatisfied(course, user_college_course_preferences):
+    return course["points"] <= 
+        user_college_course_preferences["expectedPoints"] 
+        or course['isAdditionalPortfolioTestInterviewRequired']
+\end{lstlisting}
+
+As described in section \ref{sec:portfolios-etc}, despite 625 being the maximum achievable points in the LC,
+a college course may require a combined LC points of 700, for example.
+This occurs when a course has additional entry requirements, such as a portfolio, test or interview, 
+which are added on to the course's total LC points.
+As a result of this edge case, if a college course requires an additional entry requirement, represented by 
+the boolean variable \verb|isAdditionalPortfolioTestInterviewRequired|,
+the course is still included in the filtered list,
+even if the user's Expected LC points are below the college course's LC points.\\
+
+This KBF RS now returns a list of filtered college courses that satisfy a user's Expected LC Points,
+NFQ Level and College preferences.
+The KBF RS This will be instrumental in the next stage of our college course RS: the CBF RS.
+
+\subsection{Content-Based Filtering Implementation}
+
+The CBF RS will provide a more personalised set of college course recommendations from the KBF RS's filtered list,
+using a user's Academic Interests, RIASEC Model and Expected LC Points, as described visually in figure \ref{fig:kbf-rs-design}.
+From a high level, this type of RS will generate similarity scores between a user and all the college courses,
+and the top-ranked results will be returned.
+In order to calculate similarity scores, we must numerically represent both users and college courses,
+both of which will be described in detail in the coming discussions.\\
+
+\subsubsection{Numerical Representation of a User}
+
+This discussion will feature an in-depth description of how a user is numerically represented.
+All numerical representations of a user's RIASEC Model, Academic Interests and Expected LC Points are float values between 0.0 and 1.0.
 For example, a \emph{Realistic} RIASEC trait score of 1.0 implies a user's strong interest towards this trait,
 whereas a score of 0.0 implies a user's weak interest towards this trait.\\
 
-Recall in section \ref{sec:quiz-design} that each question targets a specific Academic Interest and RIASEC trait.
+Recall in section \ref{sec:quiz-design} that each quiz question targets a specific Academic Interest and RIASEC trait.
 For example: the question \emph{Investigate how bacteria react to medicine} targets the \emph{Life Science} Academic Interest and the \emph{Investigative} RIASEC trait.
 From a high level, if a user responds positively to that question, we want the user to score points towards the \emph{Life Science} Academic Interest and the \emph{Investigative} RIASEC trait,
 and if they respond negatively, no points will be scored towards those categories.
-The user's 5-point Likert scale response is converted to a numerical value using the following mapping below:
+The user's 5-point Likert scale response, $x$, to each question is converted to a numerical value using the following mapping function:
 
-\begin{table}[H]
+\[ 
+f(x) = \begin{cases}
+        1.0 & \text{if}\; x=5,\\
+        0.25 & \text{if}\; x=4, \\
+        0.05 & \text{if}\; x=3, \\
+        0 & \text{if}\; x=2,\\
+        0 & \text{if}\; x=1
+\end{cases}
+\]
+
+Intuitively speaking, `5' ratings are the strongest indicators of a user's interests towards a particular category,
+whereas the other ratings are weaker indicators.
+Following from this intuition, a strong weighting (1.0) is placed towards a `5' rating, 
+whereas much smaller values ($\le 0.25$) are placed towards the other ratings.
+These numerical representations are then added to a total score for each Academic Interest and RIASEC trait.
+For example, if a user gives four \emph{Life Science} questions a 5 rating,
+and two \emph{Life Science} questions a 4 rating, then the Life Science total will be:
+
+\[4 \cdot f(5) + 2 \cdot f(4) = 4 \cdot 1.0 + 2 \cdot 0.25 = 4.5\]
+
+Similarly, if a user gives ten \emph{Realistic} questions a 3 rating, and five \emph{Realistic} questions a 2 rating, 
+the total for the \emph{Realistic} RIASEC trait will be:
+
+\[10 \cdot f(3) + 5 \cdot f(2) = 10 \cdot 0.05 + 5 \cdot 0 = 0.5\]
+
+After answering all 126 questions in the quiz, the user will have total scores for each of the 21 Academic Interests and six RIASEC traits.
+We want to convert these total scores to float values between 0.0 and 1.0, where 0.0 implies weak interest and 1.0 implies strong interest for that particular Academic Interest or RIASEC trait.
+Inspired by the sigmoid function, $\frac{1}{1+e^{-x}}$, we 
+created a mapping function
+which maps total scores to a float value between 0.0 and 1.0:
+
+\[ g(x,\;K) = 1 - e^{-K \cdot x} \]
+
+where $K$ is a custom tuning constant. 
+There are many more questions for RIASEC traits compared to Academic Interests,
+so the function requires different tuning constants $K$:
+when applying $g(x,\;K)$ for Academic Interests, $K=1$, 
+and for RIASEC traits, $K=0.5$.\\
+
+Continuing our previous example, suppose a user has a \emph{Life Science} total score of $4.5$,
+their numerical interest towards the \emph{Life Science} Academic Interest will be $g(4.5,\;K=1.0) = 0.98$,
+implying a user's strong interest towards this Academic Interest. 
+Seeing as the user gave four \emph{Life Science} questions a `5' rating and two \emph{Life Science} questions 
+a `4' rating, a value of $0.98$ closely reflects the user's interest in this case.
+On the other hand, suppose the same user has a \emph{Realistic} total score of $0.5$,
+their numerical interest towards the \emph{Realistic} RIASEC trait will be $g(0.5,\;K=0.5) = 0.39$,
+implying a user's moderate interest towards this RIASEC trait.
+Seeing as the user gave ten \emph{Realistic} questions a 3 rating, and five \emph{Realistic} questions a 2 rating,
+a value of $0.39$ also closely reflect the user's interest in this case too.\\
+
+This total mapping function, $g(x\;, K)$, is applied to each total score of the user's 21 Academic Interests and 6 RIAESC traits.
+Each of the 21 Academic Interests and 6 RIASEC traits now have scores between 0.0 and 1.0,
+where 0.0 implies weak interest, and 1.0 implies a strong interest towards that particular Academic Interest or RIASEC trait.
+This numerical representation will be instrumental in the next stage of our Recommendation Algorithm.
+
+\textbf{todo talk about how expected lc points are encoded}
+
+In order to calculate a similarity score between a user and a college course, 
+we must numerically represent users and college courses in a similar manner.
+This numerical representation must contain the following information:
+
+\begin{enumerate}
+    \item RIASEC trait scores
+    \item LC Points
+    \item Academic Interest scores
+\end{enumerate}
+
+In the case of a user, the RIASEC trait and Academic Interest scores are obtained as described in subsection \ref{sec:num-rep} \textbf{todo missing ref!}
+
+\section{Numerical Representation of a College Course}
+
+Following the explanations provided in subsection \ref{sec:num-rep}, 
+
+Following this, we can represent users and college courses as 28-dimensional vectors,
+where each value in this vector is a float between 0.0 and 1.0.
+Six of these vector dimensions are occupied by RIASEC trait scores,
+21 dimensions are occupied by Academic Interest scores,
+and one dimension is occupied by LC points.\\
+
+\textbf{dont need this after describing lc point encodings, or maybe just express it a different way}
+As described in section \ref{sec:lc}, 625 is the maximum achievable points in the LC.
+For example, 625 LC points is numerically represented as a value of 1.0 in the vector,
+and 300 LC points is numerically represented as a value of 0.48 in the vector.
+
+
+\begin{table}[h]
 \centering
-\begin{tabular}{|c|c|}
+\caption{Example user vector representation}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
-\textbf{5-point Likert scale response} & \textbf{Numerical conversion} \\
-\hline
-5 & 1.0\\
-\hline
-4 & 0.25\\
-\hline
-3 & 0.05\\
-\hline
-2 & 0.0\\
-\hline
-1 & 0.0\\
-\hline
+\multicolumn{6}{|c|}{\textbf{RIASEC}} & \multicolumn{1}{c|}{} & \multicolumn{6}{c|}{\textbf{Academic Interests}} \\ \hline
+\rotateText{\textbf{Realistic}} & \rotateText{\textbf{Investigative}} & \rotateText{\textbf{Artistic}} & \rotateText{\textbf{Social}} & \rotateText{\textbf{Enterprising}} & \rotateText{\textbf{Conventional}} & \rotateText{\textbf{Expected LC Points$\;$}} & \rotateText{\textbf{Agriculture}} & \rotateText{$\cdots$} & \rotateText{\textbf{Life Science}} & $\cdots$ & \rotateText{\textbf{Sport}} & \rotateText{\textbf{Welfare}} \\ \hline
+0.39 & 0.95 & 0.1 & 0.65 & 0.3 & 0.4 & 0.48 & 0.05 & $\cdots$ & 0.98 & $\cdots$ & 0.1 & 0.1 \\ \hline
 \end{tabular}
-\caption{5-Point Likert scale mappings to numerical representations}
-\label{tab:likert-scale-mapping}
 \end{table}
 
+
+\begin{table}[h]
+\centering
+\caption{Example college course vector representation}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{6}{|c|}{\textbf{RIASEC}} & \multicolumn{1}{c|}{} & \multicolumn{7}{c|}{\textbf{Academic Interests}} \\ \hline
+\rotateText{\textbf{Realistic}} & \rotateText{\textbf{Investigative}} & \rotateText{\textbf{Artistic}} & \rotateText{\textbf{Social}} & \rotateText{\textbf{Enterprising}} & \rotateText{\textbf{Conventional}} & \rotateText{\textbf{LC Points}} & \rotateText{\textbf{Agriculture}} & \rotateText{$\cdots$} & \rotateText{\textbf{Healthcare}} & \rotateText{\textbf{Life Science}} & $\cdots$ & \rotateText{\textbf{Sport}} & \rotateText{\textbf{Welfare}} \\ \hline
+1.0 & 1.0 & 0.0 & 1.0 & 0.0 & 0.0 & 1.0 & 0.0 & $\cdots$ & 1.0 & 1.0 & $\cdots$ & 0.0 & 0.0 \\ \hline
+\end{tabular}
+\end{table}
+
+
 % cbf rS
-    % talk about how riasec scores & academic interests scores are generated
-        % my math function
-    % talk about encoding of a user vector
-    % talk about encoding of a course vector
     % talk about cosine similarity = sim score
 
     % how many recs?
@@ -118,29 +252,10 @@ The user's 5-point Likert scale response is converted to a numerical value using
 
 
 
-\newcommand{\rot}[1]{\rotatebox{90}{#1}}
-\newpage
-\begin{table}[h]
-\centering
-\caption{Example user vector representation}
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
-\hline
-\multicolumn{6}{|c|}{\textbf{RIASEC}} & \multicolumn{1}{c|}{} & \multicolumn{6}{c|}{\textbf{Academic Interests}} \\ \hline
-\rot{\textbf{Realistic}} & \rot{\textbf{Investigative}} & \rot{\textbf{Artistic}} & \rot{\textbf{Social}} & \rot{\textbf{Enterprising}} & \rot{\textbf{Conventional}} & \rot{\textbf{Expected LC Points$\;$}} & \rot{\textbf{Agriculture}} & \rot{$\cdots$} & \rot{\textbf{Computers}} & $\cdots$ & \rot{\textbf{Sport}} & \rot{\textbf{Welfare}} \\ \hline
-0.1 & 0.95 & 0.1 & 0.65 & 0.3 & 0.4 & 0.9 & 0.05 & $\cdots$ & 0.95 & $\cdots$ & 0.1 & 0.1 \\ \hline
-\end{tabular}
-\end{table}
 
-\begin{table}[h]
-\centering
-\caption{Example college course vector representation}
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
-\hline
-\multicolumn{6}{|c|}{\textbf{RIASEC}} & \multicolumn{1}{c|}{} & \multicolumn{7}{c|}{\textbf{Academic Interests}} \\ \hline
-\rot{\textbf{Realistic}} & \rot{\textbf{Investigative}} & \rot{\textbf{Artistic}} & \rot{\textbf{Social}} & \rot{\textbf{Enterprising}} & \rot{\textbf{Conventional}} & \rot{\textbf{LC Points}} & \rot{\textbf{Agriculture}} & \rot{$\cdots$} & \rot{\textbf{Healthcare}} & \rot{\textbf{Life Science}} & $\cdots$ & \rot{\textbf{Sport}} & \rot{\textbf{Welfare}} \\ \hline
-1.0 & 1.0 & 0.0 & 1.0 & 0.0 & 0.0 & 1.0 & 0.0 & $\cdots$ & 1.0 & 1.0 & $\cdots$ & 0.0 & 0.0 \\ \hline
-\end{tabular}
-\end{table}
+
+
+
 
 \[
 \text{cosineSimilarity} (A,\;B)= \frac{A \cdot B}{||A||\; ||B||}

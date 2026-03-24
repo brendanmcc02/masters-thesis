@@ -1,8 +1,6 @@
-import pandas as pd
+import numpy as np
 
-df = pd.read_csv("user_interest_questions.csv")
+def custom_normalized_sigmoid_function(value, tuning_constant):
+    return 1 - np.exp(-tuning_constant * value)
 
-x = df["college_course_category"].unique().tolist()
-
-for i in x:
-    print(str(i))
+print(str(custom_normalized_sigmoid_function(0.5, 1.0)))

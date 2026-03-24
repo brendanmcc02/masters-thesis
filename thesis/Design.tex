@@ -94,7 +94,7 @@ questions relating to the `Humanities' Academic Interest, which could lead to a 
 In other words, with an Academic Interest Quiz with broad coverage, 
 information about a user's hobbies may be redundant in the context of college course recommendations.
 
-\subsection{The potential role of an RS in Guidance Counselling}
+\subsection{The Potential Role of an RS in Guidance Counselling}
 
 Both GC's were made aware of the research question of this dissertation, and 
 were asked to provide their honest evaluation of how a technology, such as an RS, 
@@ -467,6 +467,9 @@ Figures \ref{fig:expected-lc-points-quiz}, \ref{fig:nfq-levels-quiz} and \ref{fi
 Figure \ref{fig:kbf-rs-design} below best describes this stage to our college course RS design: 
 a user interacts with a KBF RS that utilises their Expected LC Points, NFQ Level and College preferences to 
 provide a narrower set of college courses.
+For example, a user that expects to receive 500 LC Points, prefers NFQ Level 8 college courses,
+and only wants to study at Trinity College Dublin,
+will filter the college course set down to college courses at Trinity College Dublin which are under 500 LC Points and are NFQ Level 8.
 
 \begin{figure}[H]
     \centering
@@ -483,7 +486,7 @@ This filtered set of college course recommendations will be instrumental in the 
 
 After the user interacts with the KBF RS, the candidates for their college course recommendations are refined through their explicitly set preferences.
 However, we must now provide a more personalised list of college course recommendations to the user.
-We will utilise the the user's \textbf{RIASEC Model} and \textbf{Academic Interests} to bridge this gap.
+We will utilise the the user's \textbf{RIASEC Model, Academic Interests} and \textbf{Expected LC Points} to bridge this gap.
 Theoretically, we could utilise a KBF approach to provide more personalised recommendations.
 For instance, the RS could ask the user to explicitly filter college courses by Academic Interests.
 For example, the user could explicitly filter college course recommendations by Biology and Mathematics.
@@ -492,9 +495,11 @@ such as CareerPortal as described in subsection \ref{sec:simple-filters}.\\
 
 Thus, for the sake of novelty we desire a more sophisticated type of RS, which leads us to the \emph{Content-Based Filtering} (CBF)
 approach. 
-CBF directly utilises the information of the user - their RIASEC Model and Academic Interests - to provide personalised college course recommendations.
+CBF directly utilises the information of the user - their RIASEC Model, Academic Interests and Expected LC Points - to provide personalised college course recommendations.
 For example, a user demonstrating an interest in Healthcare and Sport may be recommended Physiotherapy.
 The complete design of our college course RS best described in figure \ref{fig:complete-rs-design} below.\\
+
+\textbf{this kinda shit, should talk about **how** riasec +points+academic interests are factored, talk about how we want to synthesise/merge these 3 pieces of infomration together. could give an example, but break it down, e.g. riasec match, e.g. academic interest match e.g. high-match low-point course and high-match high-point course}
 
 \begin{figure}[H]
     \centering
@@ -507,7 +512,7 @@ The complete design of our college course RS best described in figure \ref{fig:c
 
 In summary, this section described the high-level design of our RS.
 A KBF RS will filter college course recommendations using the user's \textbf{Expected LC Points, NFQ Level} and \textbf{College preferences,}
-and a CBF RS will provide college course recommendations using the user's \textbf{RIASEC Model} and \textbf{Academic Interests.}
+and a CBF RS will provide college course recommendations using the user's \textbf{RIASEC Model, Academic Interests} and \textbf{Expected LC Points.}
 In other words, our college course RS is a \textbf{Hybrid RS} with \textbf{Knowledge-Based Filtering} and \textbf{Content-Based Filtering.}
 
 \section{Quiz Design}

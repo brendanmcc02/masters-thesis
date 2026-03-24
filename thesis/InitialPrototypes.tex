@@ -26,7 +26,7 @@ It is worth mentioning that for the sake of brevity,
 this chapter will not feature a vivid description of the different strategies attempted to improve model performance.
 Instead, we will focus on our best attempt in solving this problem through the CF approach.\\
 
-\section{Datasets and initial challenges}
+\section{Datasets and Initial Challenges}
 
 In section \ref{sec:research-gap}, we identified a research 
 gap by leveraging a user's RIASEC model and Academic Interests to provide personalised college course recommendations.
@@ -58,7 +58,7 @@ to specific Irish college courses.
 Moreover, new Irish college courses are being created each year\footnote{See footnote \ref{footnote:new-courses}},
 compounding the difficulty of this problem.\\
 
-\section{Solution to introduced problems}
+\section{Solution to Introduced Problems}
 
 As a solution to the problem of specificity provided above, we can create more general categories of related college courses.
 For example, we can 
@@ -85,7 +85,7 @@ we can categorise each of the $\sim$70,000 users in the RIASEC dataset into one 
 This augmented dataset will be instrumental in training a Machine Learning model to predict a user's college major category from the results
 of this RIASEC quiz, which will be explored in the next section.
 
-\section{Machine Learning model selection}
+\section{Machine Learning Model Selection}
 
 From the work in the last section, we now have a dataset with over 70,000 user's RIASEC quiz results, and their college major category.
 This can be reconceptualised in the context of a Machine Learning (ML) problem: 
@@ -129,7 +129,7 @@ Many different ML models with differing configurations were applied to the probl
 As well as this, the college major dataset underwent significant manual revisions - adding new college majors and splitting up different college major 
 categories, all failed attempts to improve the model's performance.
 
-\section{Limitations of the approach}
+\section{Limitations of the Approach}
 
 In the previous section, we established the poor performance of this model in predicting the user's college major category given the results of a 48-question RIASEC quiz.
 In this section, we will provide more insights as to \emph{why} the model with these popular datasets performed poorly.\\
