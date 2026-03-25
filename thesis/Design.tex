@@ -295,7 +295,7 @@ which are sufficient in satisfying our requirements as laid out in section \ref{
 However, we also need data on the \textbf{RIASEC Model} and \textbf{Academic Interests} associated with the college course,
 and we will provide more details on how these were obtained in the next two subsections.\\
 
-\subsection{RIASEC Model}
+\subsection{RIASEC Model Metadata}
 
 Seeing as we are profiling a user's RIASEC Model,
 we will need the RIASEC model associated with each Irish college course
@@ -332,12 +332,14 @@ As a result, we can class the \emph{Linguistic} trait under the \emph{Artistic} 
 This allows us to design an RS that is more generalisable to Holland's original six-trait RIASEC model,
 as opposed to working with CP's eight-trait model.\\
 
+\textbf{todo - address martin's comments about subjectivitiy/lack of reproducability here - don't hide it, ackowneledge the limitaiton}
+
 It is worth mentioning that while the CP dataset already had college courses classified under these RIASEC traits,
 in many cases the traits were either inconsistent or inaccurate.
 During the design of this dissertation's RS, a significant amount of time was invested into manually amending these inconsistencies and inaccuracies
 based on the learned knowledge of Holland's RIASEC model, as described in subsection \ref{sec:theories-college}.
 
-\subsection{Academic Interests}
+\subsection{Academic Interests Metadata}
 
 Throughout this dissertation, there have been many mentions of ``Academic Interests'',
 and in this subsection they will be described.\\
@@ -371,6 +373,8 @@ Social Science & Sport & Welfare\\
 \end{tabular}
 \label{tab:academic-interest-categories}
 \end{table}
+
+\textbf{todo - address martin's comments about subjectivitiy/lack of reproducability here - don't hide it, ackowneledge the limitaiton}
 
 The CP dataset does not feature any categorisation similar to the Academic Interests given in table \ref{tab:academic-interest-categories}.
 As a result, we need to additionally augment data regarding the Academic Interests associated with each Irish college course in the dataset.
@@ -410,6 +414,8 @@ An example of the data about a college course is given below in JSON format:
 an additional entry requirement to some Irish college courses are Portfolios, Tests or Interviews.
 This information will also need to be included in our dataset, and that is what \verb|isAdditionalPortfolioTestInterviewRequired|
 refers to.
+
+\textbf{todo - share a link to the dataset, talk about reproducability and encouraging others about using it or something}
 
 \section{Recommender System Design}
 \label{sec:rs-design}

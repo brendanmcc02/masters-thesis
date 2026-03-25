@@ -2,7 +2,7 @@ import numpy as np
 import json
 import pandas as pd
 from college_course_title_nlp_utils import *
-from google import genai
+# from google import genai
 import os
 from dotenv import load_dotenv
 import re

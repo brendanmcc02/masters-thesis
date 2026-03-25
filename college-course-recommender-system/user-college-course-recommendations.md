@@ -1,244 +1,244 @@
 # RECOMMENDATION SET 1
 
-* **0. Computer Science**
-    * University College Dublin
-    * **540** points
-    * **4 Years**
-    * **Overview:** The UCD Computer Science degree covers the fundamentals of Computer Science while also exposing students to the contemporary languages and technologies used in the industry. Key topics include programming, foundational mathematics, advanced software engineering, cloud development, theory of computer science, networks and security. The principal programming languages used are C, Java and Python. Specialised topics include computer graphics, game development, robotics, mobile development and others.
-
-* **1. Computer Science and Information Technology**
-    * University of Galway
-    * **440** points
-    * **4 Years**
-    * **Overview:** We depend on electronic devices, such such as computers and mobile phones, computer software and networks to store, process, transmit, retrieve and manipulate information. Students will cover the technology used in these devices and will focus on the development of the software applications that make these devices useful.
-
-* **2. Information Technology**
-    * University of Galway
-    * **350** points
-    * **3 Years**
-    * **Overview:** Students are introduced to the basics of IT and computer methods. The course teaches useful skills in computer programming and application in the first year.As part of an Arts degree, this subject is one of three subjects you choose in first year. In second and third year you continue with two of the subjects taken in First Arts. It may be possible to take an extra year studying abroad.
-
-* **3. Computer Science and Software Engineering (through Arts)**
-    * Maynooth University
-    * **349** points
-    * **4 Years**
-    * **Overview:** Study all the essentials of computing and software for mobile apps and websites, as well as key areas in mathematics, a major project and a six month placement in industry. Enjoy the huge benefit of studying another Arts subject with Computer Science in first year. This lends graduates a wider frame of reference.
-
-* **4. Computer Science and Software Engineering (through Science)**
-    * Maynooth University
-    * **347** points
-    * **4 years**
-    * **Overview:** Study all the essentials of computing and software, as well as key areas in mathematics, a major project and a six month placement in industry. Acquire hands-on programming skills and advanced problem solving techniques in our new dedicated computer science building (Eolas). You will study another Science subject or Critical Skills with Computer Science and Mathematics in first year.
-
-* **5. Genetics and Cell Biology**
-    * Dublin City University
-    * **518** points
-    * **4 Years**
-    * **Overview:** By studying on this programme, you can come to understand the genetic basis for life and how this information can be used to investigate, diagnose and treat diseases. You'll also gain practical laboratory skills, as well as skills in communications, critical thinking and problem-solving. Furthermore, you'll gain skills in computational biology, which uses high-tech data analysis and modelling to help harness genetic and biological insights.
-
-* **6. Data Science**
-    * Dublin City University
-    * **500** points
-    * **4 Years**
-    * **Overview:** Fancy a career as a professional problem solver, investigator and storyteller? That's exactly what a data scientist is. From retail and sports science to journalism and fintech, data scientists are increasingly at the heart of business and government. Whether it's enabling product recommendations or helping a sports team decide what player to buy next, data science can unlock the secrets of any sector. If you like maths, creative problem solving and collaborative work, data science could really appeal to you. This course sits at the intersection of computer science, maths and business, enabling you to understand what is possible with cutting-edge technology such as machine learning and artificial intelligence.
-
-* **7. Computational Social Science**
-    * University College Dublin
-    * **490** points
-    * **4 Years**
-    * **Overview:** The world around us is undergoing significant changes due to digitization and deployment of Artificial Intelligence. Today we are more interconnected than ever before. As we navigate this new social landscape, we leave behind digital footprints that can be analyzed and interpreted through the lens of Computational Social Science. This field of study leverages the power of big data, computer simulations, and social network analysis to gain insights into social phenomena and individual behaviour.
-
-* **8. Data Science and Analytics**
-    * University College Cork
-    * **469** points
-    * **4 Years**
-    * **Overview:** Our BSc in Data Science & Analytics degree at UCC provides education in data storage, manipulation and interpretation using mathematical sciences and computational methods which assists us in solving complex real-world problems. In the first and second year, you will study the mathematical and computational foundations of data science and analytics. During the third year, you begin applying the fundamentals of data science and analytics to real-life problems and data.
-
-* **9. Mathematics**
+* **0. Mathematics**
     * Trinity College Dublin
     * **578** points
     * **4 Years**
     * **Overview:** Mathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one's logical reasoning, quantitative skills and problem-solving techniques.
 
-* **10. Mathematics (Social Sciences Two Subject Combination)**
+* **1. Mathematics (Social Sciences Two Subject Combination)**
     * University College Dublin
     * **490** points
     * **4 Years**
     * **Overview:** Mathematics has long played a central role in our quest to fully describe and understand the natural world. Nowadays, it is also a vital tool in many of the social sciences. Those who concentrate on this subject will gain an understanding of mathematical concepts and learn how to prove key facts and solve problems using deductive reasoning.
 
-* **11. Statistics**
+* **2. Statistics**
     * University College Dublin
     * **420** points
     * **3 Years**
     * **Overview:** If you are interested in studying Statistics with an Arts and Humanities or Social Science subject, then this degree could be for you. Statistics is the science of transforming data into knowledge and understanding, providing a principled approach to making data-informed decisions. Statistical methods enable us to gain insights from data, and with the advent of powerful computing technology, these methods have become widely used in many sectors.
 
-* **12. Theoretical Physics**
-    * Trinity College Dublin
-    * **566** points
+* **3. Mathematics and Statistics**
+    * TU Dublin - Grangegorman
+    * **381** points
     * **4 Years**
-    * **Overview:** Theoretical Physics explores the natural world at its most fundamental level, using mathematical theories guided by experimental investigation. For some it is the foundation for an academic career in mathematics or physics. For others it provides the basis for many career options in industry, medicine, law, finance and computing. Trinity provides a course which ranges widely across physics and mathematics. Its graduates are in demand for their technical skills and versatility.
+    * **Overview:** Mathematical Sciences encompasses most areas of mathematics and statistics. In this course, you'll acquire high-calibre analytical, problem-solving skills and the ability to apply a broad range of mathematical techniques and rigour to countless applications and industries.
 
-* **13. Common Entry into Actuarial and Financial Mathematics**
-    * Dublin City University
-    * **555** points
-    * **4 Years**
-    * **Overview:** If you'd like to qualify for in-demand quantitative roles in the insurance and financial industry, the Common Entry into Actuarial and Financial Mathematics programme (CAFM) might be for you. It's especially ideal if you'd like the flexibility to explore different areas of maths before choosing how you'll specialise.  You'll learn the fundamental mathematical principles that underpin the state-of-the-art actuarial and financial models you'll study in later years, along with computer programming, data analysis, economics and accounting.
-
-* **14. Theoretical Physics and Mathematics**
-    * Maynooth University
-    * **520** points
-    * **3 Years**
-    * **Overview:** Study the entire physical world from the microscopic to the cosmic - topics such as black holes, the Big Bang, quantum computing, elementary particles and the fundamental forces of nature, superconductivity, neural networks, matter in extreme conditions, and simulation of physical and biological systems. In this degree you will develop a deeper understanding of the various areas of modern mathematics, including analysis, algebra, geometry, and topology.
-
-* **15. Psychology and Mathematics**
-    * Dublin City University
-    * **492** points
-    * **4 Years**
-    * **Overview:** The BSc in Psychology and Mathematics is the first course in Ireland to integrate these subjects, preparing students for a career combining the interpretation of human behaviour with high-level numeracy, analytical and problem-solving skills.  By doing this course, you'll gain in-depth knowledge and understanding of each discipline alongside a broad critical perspective on contemporary society. You'll delve into the different fields of psychology along with studying calculus, probability, computing, statistics and data analysis. Research literacy is also a core focus. Moreover, you'll study applied subjects such as coding and cryptography, which integrate psychology and maths.
-
-* **16. Engineering**
-    * Trinity College Dublin
-    * **577** points
-    * **4 Years**
-    * **Overview:** Engineering is about being creative in technical problem solving. Engineers make things possible by using mathematical and scientific principles together with analytical and design skills. They tackle existing problems by developing new solutions through innovative technologies. They also expand the frontiers of society by developing advanced materials, sustainable energy systems, construction technologies, transport systems, biomedical devices, and telecommunications infrastructure.
-
-* **17. Mechanical Engineering**
-    * University of Galway
-    * **566** points
-    * **4 Years**
-    * **Overview:** Mechanical Engineering is a subject concerned with the design and manufacture of parts and systems that make up the range of machinery and equipment you see around you, from a can opener to a jet aircraft. Mechanical engineers design the tools and processes necessary to create all man-made products, and are often involved from conceiving of an idea right through to seeing it as a finished product ready for its commercial application.
-
-* **18. Political Science/Law**
-    * Trinity College Dublin
-    * **553** points
-    * **4 Years**
-    * **Overview:** Political Science If you are interested in having an in-depth knowledge of public affairs, developing critical and much sought after research skills and if your career interests lie in journalism, public service, teaching, public policy, international organisation and/or business then Political Science may be for you Law The law degree will appeal to you if you are interested in society and how it works, how we regulate the relationships between people. Given the wide range of legal modules, the degree attracts students with a broad range of interests. Those interested in politics are attracted to subjects such as constitutional law.
-
-* **19. Physics and Astrophysics**
-    * University College Cork
-    * **543** points
-    * **4 Years**
-    * **Overview:** Fundamentally Physics and Astrophysics is concerned with the study of the universe, from the largest galaxies to the nature of matter itself. Physics, and the technologies developed by physicists, play a major role in chemistry, biology, medicine, electronics, geology, and in the applied fields of optics, nanotechnology, computer science and engineering.
-
-# RECOMMENDATION SET 2
-
-* **0. Actuarial & Financial Studies**
+* **4. Computer Science**
     * University College Dublin
-    * **613** points
+    * **540** points
     * **4 Years**
-    * **Overview:** Studying UCD Actuarial & Financial Studies (BAFS) degree requires a multidisciplinary education in fields such as mathematics, economics, finance, statistics, risk management and professionalism. It takes a combination of strong analytical skills, business knowledge and understanding of human behaviour to design and manage programmes that control risk and guarantee sufficient funds for the insurance and pension sectors. Actuaries have traditionally worked mostly in the insurance and pensions industries but are increasingly moving into wider fields, where they can employ their range of skills. The course also opens up options to work in finance, investment and trading.
+    * **Overview:** The UCD Computer Science degree covers the fundamentals of Computer Science while also exposing students to the contemporary languages and technologies used in the industry. Key topics include programming, foundational mathematics, advanced software engineering, cloud development, theory of computer science, networks and security. The principal programming languages used are C, Java and Python. Specialised topics include computer graphics, game development, robotics, mobile development and others.
 
-* **1. Dentistry**
-    * University College Cork
-    * **613** points
-    * **5 Years**
-    * **Overview:** Dentistry provides a rewarding career in the provision of oral health care and is satisfying not only in terms of performing high-standard clinical procedures but also in terms of social interaction. The dentist also fulfills an important function in educating patients regarding their oral care.
-
-* **2. Engineering with Management**
-    * Trinity College Dublin
-    * **613** points
+* **5. Computer Science (International)**
+    * TU Dublin - Grangegorman
+    * **351** points
     * **4 Years**
-    * **Overview:** Engineering with Management is concerned with the analysis, design, improvement, installation, and management of integrated systems of people, finance, materials and equipment. Our graduates have the technical skills common to all excellent engineers, with this knowledge augmented by an understanding of the commercial and industrial environment and the ability to generate innovative solutions to the problems of the world.
+    * **Overview:** This course will provide you with the knowledge and skills to work as a global software engineer or as an application developer, able to develop as needed in an ever-changing global industry. On graduation, you'll be qualified to work in the international IT industry in a wide range of computer roles. You'll have a strong foundation in such areas as Internet development, cloud computing, mobile software, enterprise systems, artificial intelligence and games technology.
 
-* **3. Law/Business Studies**
-    * Trinity College Dublin
-    * **613** points
+* **6. Computer Science and Software Engineering (through Arts)**
+    * Maynooth University
+    * **349** points
     * **4 Years**
-    * **Overview:** LawThe law degree will appeal to you if you are interested in society and how it works, how we regulate the relationships between people. Given the wide range of legal modules, the degree attracts students with a broad range of interests.Business StudiesThis four year programme offers the opportunity to focus upon the many areas of overlapping interest between the two disciplines, for example, the structure of companies and other forms of business organisation, competition law and regulation of markets, consumer law, labour law, finance and financial markets, taxation, the protection of intellectual property and international perspectives on law and business.
+    * **Overview:** Study all the essentials of computing and software for mobile apps and websites, as well as key areas in mathematics, a major project and a six month placement in industry. Enjoy the huge benefit of studying another Arts subject with Computer Science in first year. This lends graduates a wider frame of reference.
 
-* **4. Law/History**
-    * Trinity College Dublin
-    * **613** points
-    * **4 Years**
-    * **Overview:** Law The law degree will appeal to you if you are interested in society and how it works, how we regulate the relationships between people. Given the wide range of legal modules, the degree attracts students with a broad range of interests. Those interested in politics are attracted to subjects such as constitutional law. History The History programme introduces students to the diversity of historical studies, which include modules covering medieval and modern periods, including Irish, European, and American history, as well as some modules exploring the skills and methods which historians use, and the kinds of debates in which historians engage.
-
-* **5. Mathematics/Modern Language**
-    * Trinity College Dublin
-    * **613** points
-    * **4 Years**
-    * **Overview:** MathematicsMathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one's logical reasoning, quantitative skills and problem-solving techniques.You can choose between German, Irish, Italian, Russian and Spanish. Apart from French and Irish all languages can be studied from both advanced and beginners level.
-
-* **6. Mathematics/Music**
-    * Trinity College Dublin
-    * **613** points
-    * **4 Years**
-    * **Overview:** Mathematics Mathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one's logical reasoning, quantitative skills and problem-solving techniques. Music Studying music will allow you to engage with a range of traditions to acquire a profound understanding of how music works in theory and in creative practice. If you are interested in understanding music's place in society, developing music technology skills, writing music, or improving your skills as an informed performer, this course could be for you.
-
-* **7. Mathematics/Philosophy**
-    * Trinity College Dublin
-    * **613** points
-    * **4 Years**
-    * **Overview:** Mathematics Mathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one's logical reasoning, quantitative skills and problem-solving techniques. Philosophy This course offers the opportunity to engage in depth with questions of metaphysics (about the fundamental nature of reality), epistemology (the theory of knowledge), ethics (theories of right and wrong), political philosophy (the nature of the just state), philosophy of religion (reasoning about God), philosophy of mind (questions about thought, language and reason) and various other areas.
-
-* **8. Global Business**
-    * Trinity College Dublin
-    * **602** points
+* **7. Computer Science and Software Engineering (through Science)**
+    * Maynooth University
+    * **347** points
     * **4 years**
-    * **Overview:** The Global Business degree is a unique programme, designed for students who wish to focus on business from the very beginning of their degree. The degree is both innovative and practical with a strong focus on experiential learning. Trinity Business School places an emphasis on blended learning, where academic excellence meets industry experience with a keen focus on how business operates within the global economy.
+    * **Overview:** Study all the essentials of computing and software, as well as key areas in mathematics, a major project and a six month placement in industry. Acquire hands-on programming skills and advanced problem solving techniques in our new dedicated computer science building (Eolas). You will study another Science subject or Critical Skills with Computer Science and Mathematics in first year.
 
-* **9. Pharmacy**
-    * University College Cork
-    * **602** points
-    * **5 Years**
-    * **Overview:** A pharmacist is a healthcare team member specifically concerned with drugs and medicines. Pharmacy at UCC provides the confidence, skills, and knowledge to make a difference in the pharmaceutical arena.
-
-* **10. Actuarial Mathematics**
-    * Dublin City University
-    * **589** points
+* **8. Chemistry**
+    * University College Dublin
+    * **544** points
     * **4 Years**
-    * **Overview:** Actuarial Mathematics could be the perfect course for you. It's accredited by the Institute and Faculty of Actuaries, UK, meaning you may be exempt from some of the exams needed to qualify as an actuary in Ireland and the UK. Before you embark on learning essential actuarial knowledge and theories, you'll be given solid mathematical training. In your first two years, you'll study the fundamental mathematical principles that underpin the actuarial and financial models covered in later years. You'll also study computer programming, economics and accounting.
+    * **Overview:** The UCD Science (DN200) course offers 27 degree subjects categorised into streams. Students can study subjects from more than one stream in first year. It is also possible for students to change their stream in first year. At the end of first year, students choose a minimum of two subjects to study in second year (for example Statistics and Mathematics or Genetics and Microbiology). Students will major in one of these subjects in third and fourth year.
 
-* **11. Biomedical, Health and Life Sciences**
+* **9. Chemical Sciences with Medicinal Chemistry**
+    * TU Dublin - Grangegorman
+    * **422** points
+    * **4 Years**
+    * **Overview:** This chemistry degree focuses on how chemistry can be used for medicinal applications, including drug design, synthesis, and delivery. It will give you skills and expertise in synthetic chemistry that can be applied in the pharmaceutical and other industries. You can anticipate working in the pharmaceutical industry, facilitating the development of new and better medicines, as well as the chemical and allied industries.
+
+* **10. Analytical Chemistry (Environmental, Forensic & Pharmaceutical)**
+    * TU Dublin - Grangegorman
+    * **311** points
+    * **4 Years**
+    * **Overview:** An analytical chemist is trained to use modern analytical techniques and instruments to develop strategies to detect, identify and quantify substances such as the pollutants in air and water, illegal substances in suspicious powders and the active pharmaceutical ingredients in medicinal products. This course, which includes rigorous scientific training and a six-month work placement, will make you work-ready.
+
+* **11. Human Health and Disease**
+    * Trinity College Dublin
+    * **567** points
+    * **4 Years**
+    * **Overview:** The Human Health and Disease degree trains students for work in the field of biomedical research. It brings to life the fascinating connections between structure and function in the human body and explores the health and disease continuum in detail, including teaching on how medical therapies act to treat or even prevent disease. As an example, understanding brain structure and biochemistry allows us to appreciate how neurons communicate and this in turn is helping biomedical researchers and clinicians to identify new and effective ways to treat and prevent diseases such as dementia.
+
+* **12. Science and Mathematics Education**
+    * Dublin City University
+    * **443** points
+    * **4 Years**
+    * **Overview:** If you love science and maths, and would like to share your enthusiasm, interest and knowledge with young people, you'll thrive on the BSc in Science and Mathematics Education. Science and maths teachers work to develop their pupils' understanding of the world around them and to educate future generations of scientists, engineers and technologists, not to mention citizens who are scientifically, mathematically and technically literate. You'll build a strong foundation in key areas of education, mathematics and either physics or chemistry, developing essential mathematical thinking skills, and scientific practices and ways of working throughout the four years. You'll also study the history, psychology, sociology and philosophy of education, as well as undertaking curriculum studies.
+
+* **13. Maths and Computer Science (with Education)**
+    * Maynooth University
+    * **420** points
+    * **4 Years**
+    * **Overview:** If you would like to graduate with a second level teacher qualification to teach Mathematics and Computer Science then the BSc Mathematics and Computer Science (with Education) is for you.
+
+* **14. Physical Education with Mathematics**
+    * Dublin City University
+    * **499** points
+    * **4 Years**
+    * **Overview:** Do you really enjoy both physical activity and mathematics? This course is a brilliant opportunity to combine your passions and go on to make a positive impact on society through education. Once you graduate from this course, you can teach these subjects up to Leaving Cert level or choose from a wide range of other exciting career paths. This course offers a unique blend of academic subjects, taught in a way that emphasises learning through practical experiences. During the course, you'll gain a comprehensive understanding of the content, theory, and skills of different physical activities (such as athletics, games, aquatics, dance, and outdoor activities), maths and education. You'll also improve your communication, leadership, and critical thinking skills.
+
+* **15. Physical Education with Biology**
+    * Dublin City University
+    * **521** points
+    * **4 Years**
+    * **Overview:** Do you really enjoy getting active while also having a passion for subjects such as biology and science? This course is a brilliant opportunity to blend your interests in a substantive way and go on to make a positive impact on society through education. Once you graduate, you can teach PE and Biology up to Leaving Cert level, and Science for Junior Cert level, or choose from a wide range of other exciting career paths.This course offers a unique blend of academic subjects, taught in a way that emphasises learning through practical experiences. During the course, you'll gain a comprehensive understanding of the content, theory, and skills of different physical activities (such as athletics, games, aquatics, dance, and outdoor activities), biology, science and education. You'll also improve your communication, leadership, and critical thinking skills. Future-proof your life In both third and fourth year, you'll do a comprehensive professional school placement and you can also choose to study overseas through the Erasmus programme.
+
+* **16. Biomedical, Health and Life Sciences**
     * University College Dublin
     * **589** points
     * **4 Years**
     * **Overview:** This course will appeal to those with a keen interest in science and in how research and technology can impact on human health. It is training scientists at the interface of science and medicine. You will learn how scientifically driven investigations can advance our knowledge of disease prevention, detection and treatment and translating these into clinical utility. The course will immerse you in modern medical and biological sciences and focus on the application of scientific developments. BHLS offers students a unique opportunity to complete a research project with a Principal Investigator in a biomedical research area that interests them and an opportunity to be involved in peer-reviewed publications.
 
-* **12. Law and French**
+* **17. Biological and Biomedical Sciences**
+    * Trinity College Dublin
+    * **554** points
+    * **4 Years**
+    * **Overview:** Biology is the study of living things; we explore how life first arose: the properties that distinguish living organisms from inert matter; how the vast diversity of life forms was generated; how organisms reproduce themselves; how they interact both with each other and with the environment. Biology is fundamental to understanding the world we live in and plays a huge role in medicine.
+
+* **18. Biological Sciences (General Entry)**
+    * Dublin City University
+    * **466** points
+    * **4 Years**
+    * **Overview:** During the General Entry course, you'll study biochemistry, bioprocessing, biotechnology, genetics, cell biology and microbiology, while also completing some modules in chemistry, physics and mathematics. Once you successfully pass this first year, you'll go on to one of three programmes: the BSc in Genetics and Cell Biology, the BSc in Biotechnology or the BSc in Bioprocessing.
+
+* **19. Nutraceuticals in Health and Nutrition**
+    * TU Dublin - Grangegorman
+    * **309** points
+    * **4 Years**
+    * **Overview:** Nutraceuticals are concentrated compounds obtained from food sources that can provide health benefits, including prevention of disease and health promotion. Examples of nutraceuticals include substances such as Omega 3, antioxidants or probiotics. This course covers a range of scientific disciplines and new nutraceutical technologies. It aims to produce contemporary food scientists capable of exploiting this growing opportunity in health and wellness.
+
+# RECOMMENDATION SET 2
+
+* **0. Pharmacy**
+    * Trinity College Dublin
+    * **601** points
+    * **4-5 Years**
+    * **Overview:** Pharmacy is the study of all aspects of drugs, both natural and synthetic in origin, including their chemistry, their uses in medicines, and how they work within the body. Pharmacists work in a variety of settings - community pharmacies, hospitals, long-term care facilities, and within the pharmaceutical industry, to name just a few. In many respects, their role as a key healthcare professional is to help people achieve the best results from their medications. Optional Fifth Year:M.Sc. (Pharm) Master's Degree (NFQ Level 9) Optional.
+
+* **1. Actuarial Mathematics**
+    * Dublin City University
+    * **589** points
+    * **4 Years**
+    * **Overview:** Actuarial Mathematics could be the perfect course for you. It's accredited by the Institute and Faculty of Actuaries, UK, meaning you may be exempt from some of the exams needed to qualify as an actuary in Ireland and the UK. Before you embark on learning essential actuarial knowledge and theories, you'll be given solid mathematical training. In your first two years, you'll study the fundamental mathematical principles that underpin the actuarial and financial models covered in later years. You'll also study computer programming, economics and accounting.
+
+* **2. Biomedical, Health and Life Sciences**
+    * University College Dublin
+    * **589** points
+    * **4 Years**
+    * **Overview:** This course will appeal to those with a keen interest in science and in how research and technology can impact on human health. It is training scientists at the interface of science and medicine. You will learn how scientifically driven investigations can advance our knowledge of disease prevention, detection and treatment and translating these into clinical utility. The course will immerse you in modern medical and biological sciences and focus on the application of scientific developments. BHLS offers students a unique opportunity to complete a research project with a Principal Investigator in a biomedical research area that interests them and an opportunity to be involved in peer-reviewed publications.
+
+* **3. Law and French**
     * Trinity College Dublin
     * **589** points
     * **4 Years**
     * **Overview:** The Law and French degree programme offers a unique opportunity to study core and specialised legal modules but also the language, culture and political systems of France. Students must undertake an Erasmus year in France, exposing them to the law of that legal system.
 
-* **13. Philosophy, Political Science, Economics and Sociology**
+* **4. Philosophy, Political Science, Economics and Sociology**
     * Trinity College Dublin
     * **581** points
     * **4 Years**
     * **Overview:** Philosophy, Political Science, Economics and Sociology (PPES), offers a coherent and integrated introduction to the study of social sciences and philosophy. It brings together some of the most important approaches to understanding society and, in doing so, develops skills for a range of future careers and activities.
 
-* **14. Economics/Geography**
+* **5. Economics/Geography**
     * Trinity College Dublin
     * **578** points
     * **4 Years**
     * **Overview:** EconomicsAny society has to address the problem of how and what to produce for its material survival, and how the goods and services that are produced should be distributed among its population. Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. GeographyGeography is the study of Earth's landscapes, peoples, places and environments. Fundamentally it is about the world in which we live. Geography offers a 21st century education by uniquely bridging the social sciences (human geography) with the natural sciences (physical geography).   Geography also covers increasingly important environmental issues where humans affect physical environments and vice versa.
 
-* **15. Economics/History**
+* **6. Economics/History**
     * Trinity College Dublin
     * **578** points
     * **4 Years**
     * **Overview:** EconomicsAny society has to address the problem of how and what to produce for its material survival, and how the goods and services that are produced should be distributed among its population. Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. HistoryThe four-year programme allows students to lay firm foundations in the first two years, with wide-ranging modules on medieval and modern history, Irish, European, American, environmental and global history, as well as on historical methods and approaches. The final two years of the programme allow students the chance to study several specialist modules in-depth and to undertake independent research on a subject of their own choice.
 
-* **16. Economics/Mathematics**
+* **7. Economics/Mathematics**
     * Trinity College Dublin
     * **578** points
     * **4 Years**
     * **Overview:** Economics Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. Economists' main motivation is to find mechanisms that encourage efficiency in the production and use of material goods and resources, while at the same time producing a pattern of income distribution that society finds acceptable.  MathematicsMathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one's logical reasoning, quantitative skills and problem-solving techniques.
 
-* **17. Economics/Modern Language**
+* **8. Economics/Modern Language**
     * Trinity College Dublin
     * **578** points
     * **4 Years**
     * **Overview:** Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. Economists' main motivation is to find mechanisms that encourage efficiency in the production and use of material goods and resources, while at the same time producing a pattern of income distribution that society finds acceptable. Students combine this subject with their choice of German or Spanish.
 
-* **18. Economics/Philosophy**
+* **9. Economics/Philosophy**
     * Trinity College Dublin
     * **578** points
     * **4 Years**
     * **Overview:** Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. Economists' main motivation is to find mechanisms that encourage efficiency in the production and use of material goods and resources, while at the same time producing a pattern of income distribution that society finds acceptable.  PhilosophyThis course offers the opportunity to engage in depth with questions of metaphysics (about the fundamental nature of reality), epistemology (the theory of knowledge), ethics (theories of right and wrong), political philosophy (the nature of the just state), philosophy of religion (reasoning about God), philosophy of mind (questions about thought, language and reason) and various other areas. We teach courses which have both systematic and historical emphases and in the higher years students can choose options and get to write a thesis on a topic of their own choice.
 
-* **19. Economics/Sociology**
+* **10. Economics/Sociology**
     * Trinity College Dublin
     * **578** points
     * **4 Years**
     * **Overview:** EconomicsAny society has to address the problem of how and what to produce for its material survival, and how the goods and services that are produced should be distributed among its population. Economists explore how people and institutions behave and function when producing, exchanging and using goods and services. Economists' main motivation is to find mechanisms that encourage efficiency in the production and use of material goods and resources, while at the same time producing a pattern of income distribution that society finds acceptable.  SociologyIf you want to understand the social changes taking place in the world today, and you are curious about people and society, then Sociology is for you. You will also gain the ability to understand topical issues and to present and communicate information and thoughts coherently. In addition, you will learn invaluable analytical, communication, research and presentation skills - transferable skills which can be applied to a wide range of careers and postgraduate programmes.
+
+* **11. Law**
+    * Trinity College Dublin
+    * **578** points
+    * **4 Years**
+    * **Overview:** The law degree will appeal to you if you are interested in society and how it works, and with the broader question of the regulation of inter-personal relationships. A general interest in history and political developments, will be an advantage, as the law is deeply linked to its historical and political context.
+
+* **12. Mathematics**
+    * Trinity College Dublin
+    * **578** points
+    * **4 Years**
+    * **Overview:** Mathematics is a broad and diverse subject which is used to model, analyse and understand several applications in the physical and biological sciences, engineering, management science, economics and finance. Its numerous applications are naturally interwoven with the underlying theory which is essential in developing one's logical reasoning, quantitative skills and problem-solving techniques.
+
+* **13. Physiotherapy**
+    * University College Dublin
+    * **578** points
+    * **4 Years**
+    * **Overview:** Physiotherapists are healthcare professionals responsible for developing, maintaining and restoring movement and functional ability in adults and children using evidence-based practice. Studying Physiotherapy in UCD will provide you with the skills and qualifications required to practice as a physiotherapist upon graduation. With state-of-the-art facilities and globally recognised researchers as lecturers, you will learn in a culture of established academic excellence.
+
+* **14. Engineering**
+    * Trinity College Dublin
+    * **577** points
+    * **4 Years**
+    * **Overview:** Engineering is about being creative in technical problem solving. Engineers make things possible by using mathematical and scientific principles together with analytical and design skills. They tackle existing problems by developing new solutions through innovative technologies. They also expand the frontiers of society by developing advanced materials, sustainable energy systems, construction technologies, transport systems, biomedical devices, and telecommunications infrastructure.
+
+* **15. Psychology**
+    * Trinity College Dublin
+    * **577** points
+    * **4 Years**
+    * **Overview:** The School of Psychology aims to offer a knowledge base and a set of skills that not only equip students for the many careers that exist in psychology, but also prepare students intellectually for other careers. Psychology is a branch of science that demands clear, rigorous thinking, numeracy and the ability to define, study and solve problems in complex, changing settings.
+
+* **16. Human Health and Disease**
+    * Trinity College Dublin
+    * **567** points
+    * **4 Years**
+    * **Overview:** The Human Health and Disease degree trains students for work in the field of biomedical research. It brings to life the fascinating connections between structure and function in the human body and explores the health and disease continuum in detail, including teaching on how medical therapies act to treat or even prevent disease. As an example, understanding brain structure and biochemistry allows us to appreciate how neurons communicate and this in turn is helping biomedical researchers and clinicians to identify new and effective ways to treat and prevent diseases such as dementia.
+
+* **17. Business and Law**
+    * University College Dublin
+    * **566** points
+    * **4 Years**
+    * **Overview:** The Business & Law (BBL) degree is a popular choice for many students and is extremely well regarded by employers across the legal and financial communities. The degree is a 'double major' which means it combines law and business in a single degree, providing an ideal skill-set for the commercial world and offering valuable career flexibility. If you choose this degree, you will undertake business and law modules in equal measure for your first three years in both the UCD Sutherland School of Law and the UCD Quinn School of Business. This allows you to gain a deep understanding of both disciplines while offering you the opportunity to choose in final year which area interests you most for your career progression.
+
+* **18. Law (BCL)**
+    * University College Dublin
+    * **566** points
+    * **4 Years**
+    * **Overview:** The UCD Bachelor of Civil Law (BCL) degree enjoys a proud history and an established reputation at home and abroad. The BCL degree allows you to immerse yourself in the study of law, to engage with a range of interesting legal perspectives and to acquire a profound understanding of how law works in theory and in practice.
+
+* **19. Law with Economics**
+    * University College Dublin
+    * **566** points
+    * **4 Years**
+    * **Overview:** This course allows you to obtain a highly respected degree in law, whilst simultaneously acquiring a broad knowledge of economics. Certain areas of law (e.g. competition regulation and intellectual property) are heavily influenced by economic theory. BCL (Law with Economics) graduates are uniquely equipped to understand these regulatory frameworks in all of their conceptual complexity. On this degree, you'll embark on a feld of cross-disciplinary study which is intellectually very demanding, but also tremendously enriching and of immense practical importance.
 

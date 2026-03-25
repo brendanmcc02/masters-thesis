@@ -223,6 +223,12 @@ Following these rules, this college course is then numerically represented as a 
 
 \subsection{Similarity Score}
 
+\textbf{todo - martin asked about cosine sim and if other choices were considered, try to justify cosine sim over something like MAE
+cosine sim does not consider magnitude and instead is only concerned with the difference in angle between vectors,
+we wanted this because vectors with more riasec interests and college courses would have more magnitude, and thus 
+there will be a bias towards these.
+i.e. dot product and euclidean distance would be "direction+magnitude", whereas cosine sim is just "direction"}
+
 As mentioned earlier, from a high level, an RS calculates similarity scores between a user and multiple 
 college courses, and the top-ranked results are returned.
 Seeing as we have numerically represented users and college courses as 28-dimensional vectors, 
