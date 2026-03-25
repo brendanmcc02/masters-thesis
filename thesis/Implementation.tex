@@ -80,31 +80,69 @@ both of which will be described in detail in the coming discussions.\\
 
 \subsection{Numerical Representation of a User}
 
-This discussion will feature an in-depth description of how a user is numerically represented.
+This subsection will feature an in-depth description of how a user is numerically represented.
+In order to do this, we must first numerically translate a user's quiz results.
+The user's 5-point Likert scale response, $x$, to each question is converted to a numerical value 
+using the non-linear mapping function in figure \ref{fig:non-linear-func}:
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \[ 
+        f_{\text{linear}}(x) = \begin{cases}
+                1.0 & \text{if}\; x=5,\\
+                0.75 & \text{if}\; x=4, \\
+                0.5 & \text{if}\; x=3, \\
+                0.25 & \text{if}\; x=2,\\
+                0 & \text{if}\; x=1
+        \end{cases}
+        \]
+        \subcaption{Linear mapping function.}
+        \label{fig:linear-func}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \[ 
+        f_{\text{non-linear}}(x) = \begin{cases}
+                1.0 & \text{if}\; x=5,\\
+                0.25 & \text{if}\; x=4, \\
+                0.05 & \text{if}\; x=3, \\
+                0 & \text{if}\; x=2,\\
+                0 & \text{if}\; x=1
+        \end{cases}
+        \]
+        \subcaption{Non-linear mapping function.}
+        \label{fig:non-linear-func}
+    \end{minipage}
+    \caption{Comparison of mapping functions.}  
+\end{figure}
+
+Initially, a linear mapping function, as shown in figure \ref{fig:linear-func}, was utilised.
+However, a linear function would be inappropriately applied to this problem.
+For example, suppose a user gives two Life Science questions a `3' rating,
+and one Computers question a `5' rating.
+Clearly, a user demonstrates strong interest in Computers, and a moderate interest towards Life Science.
+However, when using the linear mapping function, $f_{\text{linear}}$, the totals of both Academic Interests equal each other, as shown below:
+
+\[ 2 \cdot f_{\text{linear}}(3) = 2 \cdot 0.5 = 1.0 = f_{\text{non-linear}}(5) \]
+
+As a result, a linear mapping function is limited.
+In the context of this problem, we want to strongly emphasise `5' ratings, as they are the best indicators of a user's interest,
+whereas the other ratings (`4', `3', etc.) do not provide as much information.
+Following this line of reasoning, we decided to use a non-linear mapping function as shown in figure \ref{fig:non-linear-func}.
+This function places a strong weighting (1.0) towards a `5' rating, 
+whereas much smaller values ($\le 0.25$) are placed towards the other ratings.\\
+
 All numerical representations of a user's RIASEC Model, Academic Interests and Expected LC Points are float values between 0.0 and 1.0.
 For example, a \emph{Realistic} RIASEC trait score of 1.0 implies a user's strong interest towards this trait,
-whereas a score of 0.0 implies a user's weak interest towards this trait.\\
-
+whereas a score of 0.0 implies a user's weak interest towards this trait.   
 Recall in section \ref{sec:quiz-design} that each quiz question targets a specific Academic Interest and RIASEC trait.
 For example: the question \emph{Investigate how bacteria react to medicine} targets the \emph{Life Science} Academic Interest and the \emph{Investigative} RIASEC trait.
 From a high level, if a user responds positively to that question, we want the user to score points towards the \emph{Life Science} Academic Interest and the \emph{Investigative} RIASEC trait,
-and if they respond negatively, no points will be scored towards those categories.
-The user's 5-point Likert scale response, $x$, to each question is converted to a numerical value using the following mapping function:
+and if they respond negatively, no points will be scored towards those categories.\\
 
-\[ 
-f(x) = \begin{cases}
-        1.0 & \text{if}\; x=5,\\
-        0.25 & \text{if}\; x=4, \\
-        0.05 & \text{if}\; x=3, \\
-        0 & \text{if}\; x=2,\\
-        0 & \text{if}\; x=1
-\end{cases}
-\]
-
-Intuitively speaking, `5' ratings are the strongest indicators of a user's interests towards a particular category,
-whereas the other ratings are weaker indicators.
-Following from this intuition, a strong weighting (1.0) is placed towards a `5' rating, 
-whereas much smaller values ($\le 0.25$) are placed towards the other ratings.
 These numerical representations are then added to a total score for each Academic Interest and RIASEC trait.
 For example, if a user gives four \emph{Life Science} questions a 5 rating,
 and two \emph{Life Science} questions a 4 rating, then the Life Science total will be:
@@ -335,6 +373,23 @@ Mathematics with Education & Teaching and Mathematics & \emph{educ mathemat}\\
 
 \section{Limitations}
 
+\subsection{Dataset Limitations}
+\label{sec:dataset-limitations}
+
+In subsection \ref{sec:dataset-riasec}, we discussed how the eight CP traits were generalised to the six RIASEC traits in the CP dataset.
+Furthermore, many of the RIASEC traits in the dataset featured significant manual revisions 
+due to inconsistencies and inaccuracies in the original CP dataset.
+As well as this, the Academic Interests had to be augmented to the dataset using Gemini Model 3,
+which was then followed up by significant manual revisions to resolve inaccuracies and inconsistencies.\\
+
+Naturally, a given limitation of this approach is the lack of objectivity in determining the RIASEC Model and Academic Interests 
+associated with each college course.
+This lack of objectivity causes a lack of reproducability,
+which admittedly makes it difficult for 
+
+\textbf{todo - for the sake of repro, thinking of linking the dataset encouraging others to work with it, standarised, etc.
+but i don't think i'm allowed to do that because the data was web-scraped?}
+
 
 % owen: say that you don't believe they'll be a significiant limitations
 % limitations:
@@ -352,17 +407,3 @@ Mathematics with Education & Teaching and Mathematics & \emph{educ mathemat}\\
     % no identical courses
     % colleges, could have asked user to reconsider colleges after algorithm is generated
         % e.g. user is unaware of specialised colleges for music (e.g. bimm), education (marino)
-    
-
-
-
-
-
-
-
-
-
-
-
-
-

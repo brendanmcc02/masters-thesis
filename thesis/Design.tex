@@ -288,22 +288,29 @@ This provides us with a clearer picture going forward as to the design behind ou
 \section{Dataset}
 
 In order to create an RS, we need a dataset of Irish college courses.
-Seeing as CareersPortal is the leading careers website in Ireland, 
+To the best of our knowledge, there is no publicly available dataset of all Irish college courses.
+As a result, we resorted to web-scraping the data from publicly available sources,
+purely for the sake of research and solving this dissertation's research question.
+Seeing as CareersPortal (CP) is the leading careers website in Ireland, 
 the public information on the site was web-scraped to form a dataset of all Irish college courses.
-Each course in the dataset contain it's title, college, NFQ Level, LC points and other metadata, 
-which are sufficient in satisfying our requirements as laid out in section \ref{sec:user-information-to-profile}.
-However, we also need data on the \textbf{RIASEC Model} and \textbf{Academic Interests} associated with the college course,
-and we will provide more details on how these were obtained in the next two subsections.\\
+Going forward, this will be known as the CP dataset.
+Each course in the CP dataset contains the course's title, college, NFQ Level, LC points and other metadata, 
+which are partially sufficient in satisfying our requirements as laid out in section \ref{sec:user-information-to-profile}.\\
+
+However, the CP dataset poses a limitation: it does not have information regarding the RIASEC Model or Academic Interests of the college courses.
+Naturally, this poses a challenge because our RS intends to utilise a user's RIASEC Model and Academic Interests to make recommendations.
+In the next subsections, we will provide more details on how these data were obtained.\\
 
 \subsection{RIASEC Model Metadata}
+\label{sec:dataset-riasec}
 
 Seeing as we are profiling a user's RIASEC Model,
 we will need the RIASEC model associated with each Irish college course
-in order to make college course recommendations.
-CareersPortal (CP) features eight working personality traits,
-as seen in figure \ref{fig:careers-portal-career-interests},
-compared to the six traits according to the RIASEC model,
-as seen in figure \ref{fig:holland-riasec-model-design}.
+in order to make college course recommendations.\\
+
+The CP dataset already categorises college courses under eight working personality traits,
+as seen in figure \ref{fig:careers-portal-career-interests}.
+The original six traits of the RIASEC Model are provided in figure \ref{fig:holland-riasec-model-design}.
 
 \begin{figure}[H]
     \begin{minipage}[c]{0.45\linewidth}
@@ -320,24 +327,27 @@ as seen in figure \ref{fig:holland-riasec-model-design}.
         \end{minipage}
 \end{figure}
 
-As we can observe, six of the eight CP working personality traits are equivalent\footnote{\emph{Note:} the \emph{Administrative} CP trait is equivalent to the \emph{Conventional} RIASEC trait, and the \emph{Creative} CP trait is equivalent to the \emph{Artistic} RIASEC trait.}
+As we can observe, six of the eight CP traits are equivalent\footnote{\emph{Note:} the \emph{Administrative} CP trait is equivalent to the \emph{Conventional} RIASEC trait, and the \emph{Creative} CP trait is equivalent to the \emph{Artistic} RIASEC trait.}
 to the six traits in the RIASEC model,
-with the two leftover traits being: \emph{Naturalistic} and \emph{Linguistic}.
+with the two leftover CP traits being: \emph{Naturalistic} and \emph{Linguistic}.
 According to CP's definition, Naturalists are interested in working with animals,
 which is very `hands-on' work, similar to the work exhibited by the \emph{Realistic} RIASEC trait.
 As a result, we can class the \emph{Naturalistic} trait under the \emph{Realistic} RIASEC trait.
 Moreover, according to CP's definition, Linguists are interested in reading and writing,
 which is very creative work, similar to the work exhibited by the \emph{Artistic} RIASEC trait.
 As a result, we can class the \emph{Linguistic} trait under the \emph{Artistic} RIASEC trait.
-This allows us to design an RS that is more generalisable to Holland's original six-trait RIASEC model,
+This allows us to curate a dataset that is more generalisable to Holland's original six-trait RIASEC model,
 as opposed to working with CP's eight-trait model.\\
-
-\textbf{todo - address martin's comments about subjectivitiy/lack of reproducability here - don't hide it, ackowneledge the limitaiton}
 
 It is worth mentioning that while the CP dataset already had college courses classified under these RIASEC traits,
 in many cases the traits were either inconsistent or inaccurate.
+For example according to the original CP dataset, General Nursing in Maynooth\footnote{\url{https://careersportal.ie/courses/coursedetail.php?course_id=26215}} is classified 
+as the Social and Investigative trait, whereas General Nursing in University College Dublin\footnote{\url{https://careersportal.ie/courses/coursedetail.php?course_id=459}}
+is classified as the Social, Investigative and Realistic trait.
 During the design of this dissertation's RS, a significant amount of time was invested into manually amending these inconsistencies and inaccuracies
-based on the learned knowledge of Holland's RIASEC model, as described in subsection \ref{sec:theories-college}.
+based on the author's learned knowledge of Holland's RIASEC model, as described in subsection \ref{sec:theories-college}.
+Naturally, this intuitive approach is limited by a lack of objectivity, although further discussion of these limitations
+will be provided in subsection \ref{sec:dataset-limitations}.
 
 \subsection{Academic Interests Metadata}
 
@@ -374,16 +384,20 @@ Social Science & Sport & Welfare\\
 \label{tab:academic-interest-categories}
 \end{table}
 
-\textbf{todo - address martin's comments about subjectivitiy/lack of reproducability here - don't hide it, ackowneledge the limitaiton}
-
 The CP dataset does not feature any categorisation similar to the Academic Interests given in table \ref{tab:academic-interest-categories}.
 As a result, we need to additionally augment data regarding the Academic Interests associated with each Irish college course in the dataset.
 This task was performed by \emph{Gemini Model 3}\footnote{\url{https://gemini.google.com/}},
 however the Model's categorisation underwent significant manual revisions to correct inaccuracies and inconsistencies.
+For example, initially Medicine college courses were only categorised under the Healthcare Academic Interest,
+however, seeing as these courses involve the study of life sciences, 
+the courses were re-categorised to include the Life Science Academic Interest.\\
+
+Similar to the RIASEC Model modifications in subsection \ref{sec:dataset-riasec}, this approach is admittedly limited by a lack of objectivity,
+although further discussion of these limitations will be provided in section \ref{sec:dataset-limitations}.
 
 \subsection{Final Dataset}
 
-After our data augmentation, we now have a dataset that can satisfy the requirements of our desired RS  
+After our additional data augmentations, we now have a dataset that can satisfy the requirements of our desired RS  
 set out in section \ref{sec:user-information-to-profile}.
 An example of the data about a college course is given below in JSON format:
 
@@ -414,8 +428,6 @@ An example of the data about a college course is given below in JSON format:
 an additional entry requirement to some Irish college courses are Portfolios, Tests or Interviews.
 This information will also need to be included in our dataset, and that is what \verb|isAdditionalPortfolioTestInterviewRequired|
 refers to.
-
-\textbf{todo - share a link to the dataset, talk about reproducability and encouraging others about using it or something}
 
 \section{Recommender System Design}
 \label{sec:rs-design}
@@ -505,7 +517,7 @@ CBF directly utilises the information of the user - their RIASEC Model, Academic
 For example, a user demonstrating an interest in Healthcare and Sport may be recommended Physiotherapy.
 The complete design of our college course RS best described in figure \ref{fig:complete-rs-design} below.\\
 
-\textbf{this kinda shit, should talk about **how** riasec +points+academic interests are factored, talk about how we want to synthesise/merge these 3 pieces of infomration together. could give an example, but break it down, e.g. riasec match, e.g. academic interest match e.g. high-match low-point course and high-match high-point course}
+\textbf{this kinda shit, should talk about **how** riasec +points+academic interests are factored, talk about how we want to synthesise/merge these 3 pieces of information together. could give an example, but break it down, e.g. riasec match, e.g. academic interest match e.g. high-match low-point course and high-match high-point course}
 
 \begin{figure}[H]
     \centering
