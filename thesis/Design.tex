@@ -630,10 +630,11 @@ As described in section \ref{sec:cao}, a student can put up to 20 college course
 Inspired by this, our college course RS will return 20 college course recommendations to the user,
 a relatively small number which is in line with our aforementioned findings.
 
-\section{Identical College Course Names}
-\label{sec:identical-college-course-names}
+\section{Identical College Course Names - rename title!!!}
+\label{sec:identical-college-course-names-design}
 \textbf{todo added this section while writing implementation, might need to re-intergrate somewhere or restructure chapter}
 
+As mentioned in section \ref{sec:research-question}, diversity is a quality of an effective RS.
 Suppose a user demonstrates strong interest in Computers, and as a result 
 they are recommended five different Computer Science (CS) courses in Dublin.
 While these recommendations are \emph{relevant} to the user's interests, 
@@ -651,8 +652,15 @@ Following from this reasoning, only college courses with unique titles are recom
 For example, if CS in Trinity College Dublin has been recommended to the user,
 then CS in University College Dublin (UCD) will not be recommended to the user, 
 and another recommendation will take it's place.
+The implementation for this is given in subsection \ref{sec:identical-college-course-names-impl}.\\
 
-\section{Considering Multiple Academic Interests}
+Following a similar line of reasoning, suppose we recommend the user 20 different 
+college courses that are categorised under the Computers Academic Interest.
+Similarly, these recommendations lack diversity as they all fall under the same category.
+Suppose the user has other Academic Interests outside of Computers - for example, Life Science.
+In the interest of relevance, diversity and potentially serendipity,
+the RS should strive to recommend college courses across different relevant Academic Interests.
+The implementation details for this is given in subsection \ref{sec:multiple-academic-interests-impl}.
 
 \section{Chapter Summary}
 

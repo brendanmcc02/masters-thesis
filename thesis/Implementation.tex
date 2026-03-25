@@ -158,7 +158,7 @@ After answering all 126 questions in the quiz, the user will have total scores f
 We want to convert these total scores to float values between 0.0 and 1.0, where 0.0 implies weak interest and 1.0 implies strong interest for that particular Academic Interest or RIASEC trait.
 Inspired by the sigmoid function, $\frac{1}{1+e^{-x}}$, we 
 created a mapping function
-which maps total scores to a float value between 0.0 and 1.0:
+which maps total scores, $x$, to a float value between 0.0 and 1.0:
 
 \[ g(x,\;K) = 1 - e^{-K \cdot x} \]
 
@@ -209,6 +209,7 @@ This is best shown in table \ref{tab:user-vector} below:
 \end{table}
 
 \subsection{Numerical Representation of a College Course}
+\label{sec:num-rep-course}
 
 As described above, a user's RIASEC traits, LC Points and Academic Interest scores are represented as 28-dimensional vectors.
 Each college course in our dataset will also be numerically represented as 28-dimensional vectors in the same manner.
@@ -261,20 +262,32 @@ Following these rules, this college course is then numerically represented as a 
 
 \subsection{Similarity Score}
 
-\textbf{todo - martin asked about cosine sim and if other choices were considered, try to justify cosine sim over something like MAE
-cosine sim does not consider magnitude and instead is only concerned with the difference in angle between vectors,
-we wanted this because vectors with more riasec interests and college courses would have more magnitude, and thus 
-there will be a bias towards these.
-i.e. dot product and euclidean distance would be "direction+magnitude", whereas cosine sim is just "direction"}
-
 As mentioned earlier, from a high level, an RS calculates similarity scores between a user and multiple 
 college courses, and the top-ranked results are returned.
 Seeing as we have numerically represented users and college courses as 28-dimensional vectors, 
-we need some method to calculate the similarity between a user and a college course.
-The method of choice is cosine similarity, a mathematical measure of similarity between two vectors.
+we need some method to calculate the similarity between a user and a college course.\\
+
+There are many different measures of similarities between vectors to choose from.
+For example: dot product, Euclidean distance or cosine similarity.
+Some of these similarity measures factor a vector's magnitude and direction,
+and some similarity measures factor only a vector's direction.
+In our specific case, we prefer a similarity measure that only factors a vector's direction.
+This is because college courses with many Academic Interests or RIASEC traits
+will have higher vector magnitudes
+compared to college courses with fewer Academic Interests or RIASEC traits.
+This is a result of how they are encoded, as outlined in subsection \ref{sec:num-rep-course}.\\
+
+For example, a 625-point college course with Realistic and Investigative RIASEC traits, 
+and Healthcare and Life Science Academic Interests, has a vector magnitude of $\sqrt{5}$.
+On the other hand, a 625-point college course with an Investigate RIASEC trait and Computers Academic Interest would have a vector magnitude of $\sqrt{3}$.
+As a result, if our similarity measure factors in a vector's magnitude, our algorithm will be unfairly
+biased towards college courses with more RIASEC traits and Academic Interests.
+Thus, we desire a similarity measure that only factors in a vectors direction, in the interest of algorithmic fairness.\\
+
+As a result, the appropriate method of choice is cosine similarity, which measures the angle between two vectors.
 A score of 1.0 means that the vectors point in the same direction,
 whereas a score of 0.0 means that the vectors are perpendicular to each other.
-It is defined mathematically as:
+Cosine similarity is defined mathematically as:
 
 \[
 \text{cosineSimilarity} (A,\;B)= \frac{A \cdot B}{||A||\; ||B||}
@@ -307,8 +320,9 @@ provide relevant, diverse and serendipitous recommendations.
 These modifications will be described in the coming subsections.
 
 \subsection{Identical College Course Names}
+\label{sec:identical-college-course-names-impl}
 
-As described in subsection \ref{sec:identical-college-course-names}, college courses with identical names are not 
+As described in subsection \ref{sec:identical-college-course-names-design}, college courses with identical names are not 
 recommended for the sake of diversity and serendipity. 
 Performing a simple string match between college course titles would not be effective because the naming can differ slightly.
 Table \ref{tab:string-examples-1} defines some college courses that are effectively identical, 
@@ -356,20 +370,83 @@ Mathematics with Education & Teaching and Mathematics & \emph{educ mathemat}\\
 \label{tab:string-examples-2}
 \end{table}
 
+\section{Considering Multiple Academic Interests}
+\label{sec:multiple-academic-interests-impl}
 
+In \textbf{todo citation definitely changed!} section \ref{sec:identical-college-course-names-design},
+we justified recommending college courses across different Academic Interests to a user,
+rather than just one Academic Interest.
+This was done in the interest of relevance, diversity and serendipity.
+In this subsection \textbf{section or subsection?}, we shall describe how college courses are being recommended across different Academic Interests.\\
 
-    % top 5 categories are picked - **diversity**
-        % this number was arbitrarily picked
-        % number is relevant to the strength of the category
-    % each category has a separate vector
-        % the RIASEC is masked
-            % for the sake of relevance
-        % the category is masked
-            % except education i think?
-                % check code
-        % the masks: theoretically, it would potentially result in serendipity, but the results were poorer 
-            % and less relevant; great example of a high-risk high-reward tradeoff
+A user's top-5 ranked Academic Interests are considered.
+In an early implementation of this RS, 
+we recommended four college course recommendations for each Academic Interest,
+bringing the total up to the desired 20 college course recommendations.
+However, a limitation with this static approach is that it does not factor in the user's different scores towards the Academic Interests.
+For example, suppose a user's top ranked Academic Interest is Computers at 1.0, and their fifth ranked is Sport at 0.2.
+Following this reasoning, it would be more intuitive to recommend college courses that are proportional to the scores of their interests.
+This will be made clearer through an example: suppose a user's top-5 ranked Academic Interests are given below in table \ref{tab:academic-interests-example}:
 
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Ranking, $i$} & \textbf{Academic Interest} & \textbf{academicInterestScore}\\
+\hline
+1 & Computers & 1.0\\
+\hline
+2 & Engineering & 0.8\\
+\hline
+3 & Life Science & 0.6\\
+\hline
+4 & Welfare & 0.4\\
+\hline
+5 & Sport & 0.2\\
+\hline
+\end{tabular}
+\caption{An example of a user's top-5 ranked Academic Interest scores.}
+\label{tab:academic-interests-example}
+\end{table}
+
+With these scores, we can calculate the proportional number of recommendations for Academic Interest $i$ using the following:
+
+\[ \text{\# Recommendations}_i = N \cdot \frac{\text{academicInterestScore}_i}{\sum_{5}^{j=1} \text{academicInterestScore}_j}\]
+
+where $N=20$, the total number of college course recommendations. In our above example, the number of recommendations for 
+the Computers Academic Interest at ranking $i=1$ is:
+
+\[ \text{\# Recommendations}_1 = 20 \cdot \frac{1.0}{1.0+0.8+0.6+0.4+0.2} = 20 \cdot \frac{1.0}{3.0} \approx 7 \text{\;Recommendations}\]
+
+Naturally, we need the \# Recommendations to be integers, and not float values. 
+As a result, we can round the numbers to the closest integer.
+Continuing our example, we can augment table \ref{tab:academic-interests-example} above by adding a column for the number of proportional recommendations 
+per Academic Interest as shown in table \ref{tab:academic-interests-example-contd} below, to enhance our understanding of the given example:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Ranking, $i$} & \textbf{Academic Interest} & \textbf{academicInterestScore} & \textbf{\# Recommendations}\\
+\hline
+1 & Computers & 1.0 & 7\\
+\hline
+2 & Engineering & 0.8 & 5\\
+\hline
+3 & Life Science & 0.6 & 4\\
+\hline
+4 & Welfare & 0.4 & 3\\
+\hline
+5 & Sport & 0.2 & 1\\
+\hline
+\end{tabular}
+\caption{An example of a user's top-5 ranked Academic Interest scores.}
+\label{tab:academic-interests-example-contd}
+\end{table}
+
+This results in the RS providing recommendations that are more proportional to the user's preferences towards different Academic Interests.
+The motivation behind this implementation decision is to enhance the diversity, relevance and potentially serendipity of the recommendations.
+All of which are qualities of an effective RS which assists us in answering our Research Question.
 
 \section{Limitations}
 
