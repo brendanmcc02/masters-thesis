@@ -398,7 +398,7 @@ def get_stringified_markdown_college_course_recommendations(college_course_recom
 
         stringified_college_course_recommendations += "    * **" + str(college_course_recommendations[i]["duration"]) + "**\n"
 
-        stringified_college_course_recommendations += "    * **Overview:** " + college_course_recommendations[i]["overview"] + "\n"
+        # stringified_college_course_recommendations += "    * **Overview:** " + college_course_recommendations[i]["overview"] + "\n"
 
         # if IS_NOT_ACTUAL_EXPERIMENT:
         #     stringified_college_course_recommendations += "    * Vectorized Representation: " + str(college_course_recommendations[i]['vectorized_representation']) + "\n"

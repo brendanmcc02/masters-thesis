@@ -411,7 +411,7 @@ This will be made clearer through an example: suppose a user's top-5 ranked Acad
 
 With these scores, we can calculate the proportional number of recommendations for Academic Interest $i$ using the following:
 
-\[ \text{\# Recommendations}_i = N \cdot \frac{\text{academicInterestScore}_i}{\sum_{5}^{j=1} \text{academicInterestScore}_j}\]
+\[ \text{\# Recommendations}_i = N \cdot \frac{\text{academicInterestScore}_i}{\sum_{j=1}^{5} \text{academicInterestScore}_j}\]
 
 where $N=20$, the total number of college course recommendations. In our above example, the number of recommendations for 
 the Computers Academic Interest at ranking $i=1$ is:
