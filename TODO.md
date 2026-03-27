@@ -1,6 +1,4 @@
 # TODO
-- [ ] compare original dataset to manufactured one
-- [ ] edit lit review and send to owen
 - [ ] edit design
 - [ ] edit implementation
 - [ ] send to owen

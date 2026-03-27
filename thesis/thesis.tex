@@ -9,6 +9,8 @@
 \documentclass[a4paper, 12pt, oneside]{report}         %% LaTeX2e document.
 \usepackage {tcdthesis}              %% Preamble.
 
+\setlength{\parskip}{0.5em}
+
 \mastersthesis                       %% Uncomment one of these; if you don't
 
 \thesisdraft                         %% Uncomment this if you want a draft
@@ -36,7 +38,7 @@
 \renewcommand{\thesistitle}{Investigating the Application of a Recommender System for Irish College Courses}          %% The title of your thesis; use mixed-case.
 \renewcommand{\thesissupervisor}{Owen Conlan}            %% Your thesis supervisor; use mixed-case and don't use any titles or degrees.
 
-\renewcommand{\thesisdedication}{...}     %% Your dedication, if you have one; use "\\" for linebreaks.
+\renewcommand{\thesisdedication}{...}     %% Your dedication, if you have one; use "" for linebreaks.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -150,6 +152,7 @@
 
 \begin{thesisacknowledgments}                     %% Use this to write your
   \textbf{TODO}
+  HAS E 
 \end{thesisacknowledgments}                       %% allowed in LaTeX2e par-mode.
   
   
@@ -175,7 +178,7 @@
 \bibliography{refs}                               %% Use your refs.bib file
 
 
-% \addcontentsline {toc}{chapter}{Appendices}       %% Force Appendices to appear in contents
+\addcontentsline {toc}{chapter}{Appendices}       %% Force Appendices to appear in contents
 \begin{appendix}
 \include{Appendix}
 \end{appendix}

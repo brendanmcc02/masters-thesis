@@ -20,11 +20,11 @@ This is because CF does not solely rely on what the user likes, rather it levera
 increasing the likelihood of more surprising, but relevant recommendations, i.e. serendipity.
 As also described in section \ref{sec:research-gap}, 
 serendipity is the gold standard of RS's, and it would be incredibly useful in answering our Research Question by assisting the user in their exploration of college courses.
-As a result, this chapter will explore a CF approach as it potentially provides more serendipitous recommendations.\\
+As a result, this chapter will explore a CF approach as it potentially provides more serendipitous recommendations.
 
 It is worth mentioning that for the sake of brevity, 
 this chapter will not feature a vivid description of the different strategies attempted to improve model performance.
-Instead, we will focus on our best attempt in solving this problem through the CF approach.\\
+Instead, we will focus on our best attempt in solving this problem through the CF approach.
 
 \section{Datasets and Initial Challenges}
 
@@ -33,7 +33,7 @@ gap by leveraging a user's RIASEC model and Academic Interests to provide person
 However, in order to design a CF RS in this context, we need to find datasets with \textbf{other users' college choice,} and either their Academic Interests 
 or RIASEC model.
 To the best of our knowledge, this kind of data is not available in the Irish context.
-As a result, we explored similar datasets outside of the Irish context.\\
+As a result, we explored similar datasets outside of the Irish context.
 
 A promising dataset in this context was published by OpenPsychometrics\footnote{\url{https://openpsychometrics.org/_rawdata/}} with data on over 140,000 individuals.
 In this dataset, which will be referred to as the `RIASEC dataset', feature the results of a 48-question quiz which determined the user's RIASEC model.
@@ -56,7 +56,7 @@ The RIASEC dataset has been answered by users from all over the world, particula
 As a result, there is a challenge in mapping the college majors that users provided in the RIASEC dataset, 
 to specific Irish college courses.
 Moreover, new Irish college courses are being created each year\footnote{See footnote \ref{footnote:new-courses}},
-compounding the difficulty of this problem.\\
+compounding the difficulty of this problem.
 
 \section{Solution to Introduced Problems}
 
@@ -67,7 +67,7 @@ The college majors in the RIASEC dataset can be placed into these categories,
 and the college courses in the Irish college course dataset can also be placed into these categories.
 Admittedly, a disadvantage of this solution is a loss of nuance that would occur in the mapping.
 In other words, specific traits of particular college majors 
-will get lost as they are combined into a more general category with other college majors.\\
+will get lost as they are combined into a more general category with other college majors.
 
 We now need to find a dataset with college majors and associated college major categories.
 A popular dataset on college majors in the USA\footnote{\url{https://github.com/fivethirtyeight/data/tree/master/college-majors}} 
@@ -76,7 +76,7 @@ under 15 categories.
 However, in it's initial form, this college major dataset failed to capture many of the college majors provided in the RIASEC dataset.
 In addition to this, many of the college major categories were too broad, and were then split up into different college major categories.
 As a result, this college major dataset underwent significant manual revisions, and the final form of this dataset is provided in \textbf{TODO - appendix!}.
-After these significant manual revisions, the college major dataset featured over 200 college majors with 16 categories.\\
+After these significant manual revisions, the college major dataset featured over 200 college majors with 16 categories.
 
 We now have a college major dataset with over 200 college majors and 16 associated college major categories, 
 and a RIASEC dataset with over 70,000 user's college majors and the results of their RIASEC quiz.
@@ -91,7 +91,7 @@ From the work in the last section, we now have a dataset with over 70,000 user's
 This can be reconceptualised in the context of a Machine Learning (ML) problem: 
 we have 48 input features, and 1 output variable.
 In this case, each input feature is a rating from 1--5, indicating the user's enjoyment towards a particular task,
-and the output is one of 16 college major categories.\\
+and the output is one of 16 college major categories.
 
 Many different ML models were trained on this data, and they were tested on unseen data to gather evaluation metrics,
 in particular: top-1 and top-3 accuracy.
@@ -106,7 +106,7 @@ Seeing as this implementation of the HGBC model had the best performance metrics
 
 In this section we will take a closer look in evaluating the chosen HGBC model's performance.
 In figure \ref{fig:confusion-matrix} below, we can observe the Confusion Matrix of the chosen model, 
-showcasing the recall scores.\\
+showcasing the recall scores.
 
 \begin{figure}[H]
     \centering
@@ -122,7 +122,7 @@ Relatively speaking, we can see that this recall score of 0.4 is the highest per
 out of all the other college major categories.
 In particular, we can see the model struggling with some college major categories, such as ``foreign languages'' with 
 a recall score of 0.1, and ``social science'' with a score of 0.05,
-meaning that the model correctly predicts the user's college major category 10\% and 5\% of the time respectively.\\
+meaning that the model correctly predicts the user's college major category 10\% and 5\% of the time respectively.
 
 Evidently speaking, the performance of this model was disappointing as demonstrated through the low recall scores referenced above.
 Many different ML models with differing configurations were applied to the problem, failing to provide any improvements to this HGBC implementation.
@@ -132,7 +132,7 @@ categories, all failed attempts to improve the model's performance.
 \section{Limitations of the Approach}
 
 In the previous section, we established the poor performance of this model in predicting the user's college major category given the results of a 48-question RIASEC quiz.
-In this section, we will provide more insights as to \emph{why} the model with these popular datasets performed poorly.\\
+In this section, we will provide more insights as to \emph{why} the model with these popular datasets performed poorly.
 
 In the context of predicting a user's college major, the primary limitation of the chosen RIASEC dataset is the lack of coverage by the questions.
 In other words, the 48 questions do not adequately cover many areas of study,
@@ -141,7 +141,7 @@ For example, if we revisit figure \ref{fig:confusion-matrix}, we can observe ver
 This is simply because there are no questions in the RIASEC dataset that are explicitly related to languages or linguistics.
 To provide another example, we can observe very poor recall scores for the ``law'' category, most likely because
 there are no questions in the quiz that are explicitly related to law or government.
-Without this data, the model finds it very difficult to discern if a user is studying in the ``foreign languages" or ``law'' categories, explaining the model's poor performance on these categories.\\
+Without this data, the model finds it very difficult to discern if a user is studying in the ``foreign languages" or ``law'' categories, explaining the model's poor performance on these categories.
 
 Due to this limitation, we found this dataset and subsequent approach to be inadequate in solving our problem, due to the poor recall scores as reported in figure \ref{fig:confusion-matrix}.
 In spite of many efforts to improve the model's performance through significant manual revisions to the college major dataset,

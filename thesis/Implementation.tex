@@ -7,7 +7,7 @@
 
 In this chapter, we will provide the implementation details behind the college course RS.
 Firstly, we will examine the technologies utilised in the implementation of the college course RS.
-Seeing as our RS is a Hybrid RS with KBF and CBF, we will describe their implementations in detail.\\
+Seeing as our RS is a Hybrid RS with KBF and CBF, we will describe their implementations in detail.
 
 \section{Technologies}
 
@@ -63,7 +63,7 @@ which are added on to the course's total LC points.
 As a result of this edge case, if a college course requires an additional entry requirement, represented by 
 the boolean variable \verb|isAdditionalPortfolioTestInterviewRequired|,
 the course is still included in the filtered list,
-even if the user's Expected LC points are below the college course's LC points.\\
+even if the user's Expected LC points are below the college course's LC points.
 
 This KBF RS now returns a list of filtered college courses that satisfy a user's Expected LC Points,
 NFQ Level and College preferences.
@@ -76,7 +76,7 @@ using a user's Academic Interests, RIASEC Model and Expected LC Points, as descr
 From a high level, this type of RS will generate similarity scores between a user and all the college courses,
 and the top-ranked results will be returned.
 In order to calculate similarity scores, we must numerically represent both users and college courses,
-both of which will be described in detail in the coming discussions.\\
+both of which will be described in detail in the coming discussions.
 
 \subsection{Numerical Representation of a User}
 
@@ -133,7 +133,7 @@ In the context of this problem, we want to strongly emphasise `5' ratings, as th
 whereas the other ratings (`4', `3', etc.) do not provide as much information.
 Following this line of reasoning, we decided to use a non-linear mapping function as shown in figure \ref{fig:non-linear-func}.
 This function places a strong weighting (1.0) towards a `5' rating, 
-whereas much smaller values ($\le 0.25$) are placed towards the other ratings.\\
+whereas much smaller values ($\le 0.25$) are placed towards the other ratings.
 
 All numerical representations of a user's RIASEC Model, Academic Interests and Expected LC Points are float values between 0.0 and 1.0.
 For example, a \emph{Realistic} RIASEC trait score of 1.0 implies a user's strong interest towards this trait,
@@ -141,7 +141,7 @@ whereas a score of 0.0 implies a user's weak interest towards this trait.
 Recall in section \ref{sec:quiz-design} that each quiz question targets a specific Academic Interest and RIASEC trait.
 For example: the question \emph{Investigate how bacteria react to medicine} targets the \emph{Life Science} Academic Interest and the \emph{Investigative} RIASEC trait.
 From a high level, if a user responds positively to that question, we want the user to score points towards the \emph{Life Science} Academic Interest and the \emph{Investigative} RIASEC trait,
-and if they respond negatively, no points will be scored towards those categories.\\
+and if they respond negatively, no points will be scored towards those categories.
 
 These numerical representations are then added to a total score for each Academic Interest and RIASEC trait.
 For example, if a user gives four \emph{Life Science} questions a 5 rating,
@@ -166,7 +166,7 @@ where $K$ is a custom tuning constant.
 There are many more questions for RIASEC traits compared to Academic Interests,
 so the function requires different tuning constants $K$:
 when applying $g(x,\;K)$ for Academic Interests, $K=1$, 
-and for RIASEC traits, $K=0.5$.\\
+and for RIASEC traits, $K=0.5$.
 
 Continuing our previous example, suppose a user has a \emph{Life Science} total score of $4.5$,
 their numerical interest towards the \emph{Life Science} Academic Interest will be $g(4.5,\;K=1.0) = 0.98$,
@@ -177,11 +177,11 @@ On the other hand, suppose the same user has a \emph{Realistic} total score of $
 their numerical interest towards the \emph{Realistic} RIASEC trait will be $g(0.5,\;K=0.5) = 0.39$,
 implying a user's moderate interest towards this RIASEC trait.
 Seeing as the user gave ten \emph{Realistic} questions a 3 rating, and five \emph{Realistic} questions a 2 rating,
-a value of $0.39$ also closely reflect the user's interest in this case too.\\
+a value of $0.39$ also closely reflect the user's interest in this case too.
 
 This total mapping function, $g(x,\; K)$, is applied to each total score of the user's 21 Academic Interests and 6 RIAESC traits.
 Each of the 21 Academic Interests and 6 RIASEC traits now have scores between 0.0 and 1.0,
-where 0.0 implies weak interest, and 1.0 implies a strong interest towards that particular Academic Interest or RIASEC trait.\\
+where 0.0 implies weak interest, and 1.0 implies a strong interest towards that particular Academic Interest or RIASEC trait.
 
 We have now numerically represented a user's RIASEC traits and Academic Interests as scores between 0.0 and 1.0. 
 Now, we must numerically represent a user's expected LC points as a float between 0.0 and 1.0.
@@ -202,7 +202,7 @@ This is best shown in table \ref{tab:user-vector} below:
 \hline
 \multicolumn{6}{|c|}{\textbf{RIASEC}} & \multicolumn{1}{c|}{} & \multicolumn{6}{c|}{\textbf{Academic Interests}} \\ \hline
 \rotateText{\textbf{Realistic}} & \rotateText{\textbf{Investigative}} & \rotateText{\textbf{Artistic}} & \rotateText{\textbf{Social}} & \rotateText{\textbf{Enterprising}} & \rotateText{\textbf{Conventional}} & \rotateText{\textbf{Expected LC Points$\;$}} & \rotateText{\textbf{Agriculture}} & \rotateText{$\cdots$} & \rotateText{\textbf{Life Science}} & $\cdots$ & \rotateText{\textbf{Sport}} & \rotateText{\textbf{Welfare}} \\ \hline
-0.39 & 0.95 & 0.1 & 0.65 & 0.3 & 0.4 & 0.48 & 0.05 & $\cdots$ & 0.98 & $\cdots$ & 0.1 & 0.1 \\ \hline
+0.39 & 0.95 & 0.1 & 0.65 & 0.3 & 0.4 & 0.48 & 0.05 & $\cdots$ & 0.98 & $\cdots$ & 0.1 & 0.1\\ \hline
 \end{tabular}
 \caption{An example of the numerical representation of a user as a vector}
 \label{tab:user-vector}
@@ -254,7 +254,7 @@ Following these rules, this college course is then numerically represented as a 
 \hline
 \multicolumn{6}{|c|}{\textbf{RIASEC}} & \multicolumn{1}{c|}{} & \multicolumn{7}{c|}{\textbf{Academic Interests}} \\ \hline
 \rotateText{\textbf{Realistic}} & \rotateText{\textbf{Investigative}} & \rotateText{\textbf{Artistic}} & \rotateText{\textbf{Social}} & \rotateText{\textbf{Enterprising}} & \rotateText{\textbf{Conventional }} & \rotateText{\textbf{LC Points}} & \rotateText{\textbf{Agriculture}} & \rotateText{$\cdots$} & \rotateText{\textbf{Healthcare}} & \rotateText{\textbf{Life Science}} & $\cdots$ & \rotateText{\textbf{Sport}} & \rotateText{\textbf{Welfare}} \\ \hline
-1.0 & 1.0 & 0.0 & 1.0 & 0.0 & 0.0 & 1.0 & 0.0 & $\cdots$ & 1.0 & 1.0 & $\cdots$ & 0.0 & 0.0 \\ \hline
+1.0 & 1.0 & 0.0 & 1.0 & 0.0 & 0.0 & 1.0 & 0.0 & $\cdots$ & 1.0 & 1.0 & $\cdots$ & 0.0 & 0.0\\  \hline
 \end{tabular}
 \caption{Example college course vector representation}
 \label{tab:college-course-vector}
@@ -265,7 +265,7 @@ Following these rules, this college course is then numerically represented as a 
 As mentioned earlier, from a high level, an RS calculates similarity scores between a user and multiple 
 college courses, and the top-ranked results are returned.
 Seeing as we have numerically represented users and college courses as 28-dimensional vectors, 
-we need some method to calculate the similarity between a user and a college course.\\
+we need some method to calculate the similarity between a user and a college course.
 
 There are many different measures of similarities between vectors to choose from.
 For example: dot product, Euclidean distance or cosine similarity.
@@ -275,14 +275,14 @@ In our specific case, we prefer a similarity measure that only factors a vector'
 This is because college courses with many Academic Interests or RIASEC traits
 will have higher vector magnitudes
 compared to college courses with fewer Academic Interests or RIASEC traits.
-This is a result of how they are encoded, as outlined in subsection \ref{sec:num-rep-course}.\\
+This is a result of how they are encoded, as outlined in subsection \ref{sec:num-rep-course}.
 
 For example, a 625-point college course with Realistic and Investigative RIASEC traits, 
 and Healthcare and Life Science Academic Interests, has a vector magnitude of $\sqrt{5}$.
 On the other hand, a 625-point college course with an Investigate RIASEC trait and Computers Academic Interest would have a vector magnitude of $\sqrt{3}$.
 As a result, if our similarity measure factors in a vector's magnitude, our algorithm will be unfairly
 biased towards college courses with more RIASEC traits and Academic Interests.
-Thus, we desire a similarity measure that only factors in a vectors direction, in the interest of algorithmic fairness.\\
+Thus, we desire a similarity measure that only factors in a vectors direction, in the interest of algorithmic fairness.
 
 As a result, the appropriate method of choice is cosine similarity, which measures the angle between two vectors.
 A score of 1.0 means that the vectors point in the same direction,
@@ -309,7 +309,7 @@ In the previous section, we described the numerical representations of users and
 and provided a similarity calculation between a user and a college course.
 As described in section \ref{sec:rec-set-size}, the college course RS will provide 20 recommendations to the user.
 So, bringing all of this information together, a straightforward RS would simply calculate the similarity 
-score between the user and all college courses, and then return the 20 most similar college courses.\\
+score between the user and all college courses, and then return the 20 most similar college courses.
 
 When testing this approach, the results were unsatisfactory because the recommendations were not 
 particularly relevant, diverse or serendipitous.
@@ -377,7 +377,7 @@ In \textbf{todo citation definitely changed!} section \ref{sec:identical-college
 we justified recommending college courses across different Academic Interests to a user,
 rather than just one Academic Interest.
 This was done in the interest of relevance, diversity and serendipity.
-In this subsection \textbf{section or subsection?}, we shall describe how college courses are being recommended across different Academic Interests.\\
+In this subsection \textbf{section or subsection?}, we shall describe how college courses are being recommended across different Academic Interests.
 
 A user's top-5 ranked Academic Interests are considered.
 In an early implementation of this RS, 
@@ -449,23 +449,6 @@ The motivation behind this implementation decision is to enhance the diversity, 
 All of which are qualities of an effective RS which assists us in answering our Research Question.
 
 \section{Limitations}
-
-\subsection{Dataset Limitations}
-\label{sec:dataset-limitations}
-
-In subsection \ref{sec:dataset-riasec}, we discussed how the eight CP traits were generalised to the six RIASEC traits in the CP dataset.
-Furthermore, many of the RIASEC traits in the dataset featured significant manual revisions 
-due to inconsistencies and inaccuracies in the original CP dataset.
-As well as this, the Academic Interests had to be augmented to the dataset using Gemini Model 3,
-which was then followed up by significant manual revisions to resolve inaccuracies and inconsistencies.\\
-
-Naturally, a given limitation of this approach is the lack of objectivity in determining the RIASEC Model and Academic Interests 
-associated with each college course.
-This lack of objectivity causes a lack of reproducability,
-which admittedly makes it difficult for 
-
-\textbf{todo - for the sake of repro, thinking of linking the dataset encouraging others to work with it, standarised, etc.
-but i don't think i'm allowed to do that because the data was web-scraped?}
 
 
 % owen: say that you don't believe they'll be a significiant limitations
