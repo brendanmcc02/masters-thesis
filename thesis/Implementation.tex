@@ -319,19 +319,16 @@ With our similarity measure defined, we can now move on to the final step of our
 \section{The Recommendations}
 
 In this section, we will build off our previous explanations, and describe the final steps in generating the college course recommendations.
-Before we continue, it is worth revisiting the three qualities of an effective RS, as described in section \ref{sec:research-question}:
-relevance, diversity and serendipity.
-In the previous section, we described the numerical representations of users and college courses, 
-and provided a similarity calculation between a user and a college course.
+In particular, we will expand upon the high-level design ideas exposed in subsection \ref{sec:enhance-diversity-and-serendipity-recs}.
 
-\subsection{Identical College Course Names}
+\subsection{Filtering Equivalent College Course Names}
 \label{sec:identical-college-course-names-impl}
 
-As described in subsection \ref{sec:identical-college-course-names-design}, college courses with identical names are not 
-recommended for the sake of diversity and serendipity. 
+As described in subsection \ref{sec:enhance-diversity-and-serendipity-recs}, 
+college courses with equivalent names are not recommended for the sake of diversity and serendipity. 
 Performing a simple string match between college course titles would not be effective because the naming can differ slightly.
-Table \ref{tab:string-examples-1} defines some college courses that are effectively identical, 
-but traditional string matching would fail to recognise that the college course titles are identical.
+Table \ref{tab:string-examples-1} defines some college courses that are effectively equivalent, 
+but traditional string matching would fail to recognise that the college course titles are equivalent.
 
 \begin{table}[H]
 \centering
@@ -347,15 +344,17 @@ Computer Science and Business & Business with Computer Science\\
 Mathematics and Irish with Education & Teaching with Mathematics and Irish\\
 \hline
 \end{tabular}
-\caption{Examples of identical college course titles that traditional string matching would fail to recognise.}
+\caption{Examples of equivalent college course titles that traditional string matching would fail to recognise.}
 \label{tab:string-examples-1}
 \end{table}
 
 To solve this problem, the college course titles can be pre-processed into a simpler form
 using a custom preprocessing script, which addresses many edge cases in the domain of college courses.
 Further implementation details regarding this script is given in section \ref{sec:preprocessing-script} \textbf{todo!}.
-This preprocessing script allows us avoid recommending college courses with essentially identical titles, as 
-is demonstrated below in table \ref{tab:string-examples-2}
+These preprocessed college course titles are then used,
+which allows us avoid recommending college courses with essentially equivalent titles,
+enhancing the diversity and serendipity of the recommendations.
+The above example is continued in table \ref{tab:string-examples-2} below:
 
 \begin{table}[H]
 \centering
@@ -371,25 +370,27 @@ Computer Science and Business & Business with Computer Science & \emph{busi comp
 Mathematics with Education & Teaching and Mathematics & \emph{educ mathemat}\\
 \hline
 \end{tabular}
-\caption{The preprocessing script successfully capturing essentially identical college course titles.}
+\caption{The preprocessing script successfully capturing essentially equivalent college course titles.}
 \label{tab:string-examples-2}
 \end{table}
 
-\section{Considering Multiple academic interests}
+\subsection{Recommending Across Multiple Academic Interests}
 \label{sec:multiple-academic-interests-impl}
 
-In \textbf{todo citation definitely changed!} section \ref{sec:identical-college-course-names-design},
+In section \ref{sec:enhance-diversity-and-serendipity-recs},
 we justified recommending college courses across different academic interests to a user,
 rather than just one academic interest.
 This was done in the interest of relevance, diversity and serendipity.
-In this subsection \textbf{section or subsection?}, we shall describe how college courses are being recommended across different academic interests.
+In this subsection, we shall describe how college courses are being recommended across different academic interests.
 
-A user's top-5 ranked academic interests are considered.
+In this college course RS, a user's top-5 ranked academic interests are considered
+in the final 20 college course recommendations.
 In an early implementation of this RS, 
-we recommended four college course recommendations for each academic interest,
+four college courses were recommended for each academic interest,
 bringing the total up to the desired 20 college course recommendations.
 However, a limitation with this static approach is that it does not factor in the user's different scores towards the academic interests.
-For example, suppose a user's top ranked academic interest is Computers at 1.0, and their fifth ranked is Sport at 0.2.
+For example, suppose a user's top ranked academic interest is Computers with a score of 1.0, 
+and their fifth ranked is Sport with a score of 0.2.
 Following this reasoning, it would be more intuitive to recommend college courses that are proportional to the scores of their interests.
 This will be made clearer through an example: suppose a user's top-5 ranked academic interests are given below in table \ref{tab:academic-interests-example}:
 
@@ -414,7 +415,7 @@ This will be made clearer through an example: suppose a user's top-5 ranked acad
 \label{tab:academic-interests-example}
 \end{table}
 
-With these scores, we can calculate the proportional number of recommendations for academic interest $i$ using the following:
+With these scores, we can calculate the proportional number of recommendations for academic interest $i$ using the following formula:
 
 \[ \text{\# Recommendations}_i = N \cdot \frac{\text{academicInterestScore}_i}{\sum_{j=1}^{5} \text{academicInterestScore}_j}\]
 
@@ -450,25 +451,33 @@ per academic interest as shown in table \ref{tab:academic-interests-example-cont
 \end{table}
 
 This results in the RS providing recommendations that are more proportional to the user's preferences towards different academic interests.
-The motivation behind this implementation decision is to enhance the diversity, relevance and potentially serendipity of the recommendations.
-All of which are qualities of an effective RS which assists us in answering our Research Question.
+The motivation behind this implementation decision is to enhance the diversity, relevance and potentially serendipity of the recommendations,
+all of which are qualities of an effective RS which assists us in answering our Research Question.
 
 \section{Limitations}
 
+\textbf{todo ask owen does it make sense to talk about limitations here? or in future work?}
 
 % owen: say that you don't believe they'll be a significiant limitations
+
+% there is a subtle difference between limitations and future work
+
 % limitations:
     % does not take subject requirements into account
+        % for college courses
+        % and for university's
     % talk about portfolio courses having points above 625
         % difficult to translate this to a realistic number below 625 because the point system works differently for courses with portfolios
         % so we just ignored the points thing in the filter
-        % would require a lot of manual labour
-        % future work!
-    % given that I had a lot of manual labour on top of it with my learned knowledge regarding the subject matter
+        % would require a lot of manual time and labour
+
+    % languages is an edge case and should ask the user
+
+% future work:
     % academic interest categories could have been refined with more granularity
         % e.g. humanities, creative arts
         % social science
-    % languages is an edge case and should ask the user
-    % no identical courses
     % colleges, could have asked user to reconsider colleges after algorithm is generated
         % e.g. user is unaware of specialised colleges for music (e.g. bimm), education (marino)
+
+

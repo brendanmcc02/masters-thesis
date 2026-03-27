@@ -1,7 +1,5 @@
 # TODO
-- [ ] edit design
-- [ ] edit implementation
-- [ ] send to owen
+- [ ] send design+implementation to owen
 
 # finishing touches
 - [ ] page count
@@ -18,4 +16,5 @@
 - [ ] get rid of excessing boldening and italics
 - [ ] do a final scan of "todo" across all `*.tex` files!!! make sure nothing gets left in the final draft
 - [ ] appendix!
+- [ ] have to intro acronyms first as the word then parenthesise it, i re-define many acronyms like rs, lc, gc - probably don't do this! just define once and it's fine
 - [ ] might have to do some `\newpage`'s
