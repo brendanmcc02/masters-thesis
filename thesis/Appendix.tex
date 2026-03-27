@@ -4,8 +4,73 @@
 \subsection*{College Major Dataset}
 \label{sec:college-major-dataset}
 
-\subsection*{Preprocessing script for college major classification}
+\subsection*{Preprocessing script for college course/major classification}
 \label{sec:preprocessing-script}
+
+The following Python script was used to preprocess the names of college course titles and college majors.
+
+\begin{lstlisting}[language=Python,frame=single, basicstyle=\footnotesize, showspaces=false, showtabs=false]
+stemmer = SnowballStemmer("english")
+
+def preprocess_college_title(text):
+    text = text.lower()
+    text = re.sub(r'[\.\?=!#\'`\*]', '', text) # remove certain symbols
+    text = re.sub(r'\d+', '', text) # remove numbers
+
+    for abbreviation, expanded_college_major in ABBREVIATIONS_MAP.items():
+        
+        pattern = r'\b' + re.escape(abbreviation) + r'\b'
+        text = re.sub(pattern, expanded_college_major, text)
+
+    # substitute certain symbols for spaces
+    text = re.sub(r'[\(\)\{\}\[\]&/+,;:\\|\-]', ' ', text)
+
+    text = text.strip()
+
+    tokens = word_tokenize(text)
+    cleaned_tokens = []
+    for word in tokens:
+        if word not in stop_words:
+            stemmed_word = stemmer.stem(word)
+
+            if stemmed_word not in cleaned_tokens:
+                cleaned_tokens.append(stemmed_word)
+
+            if len(cleaned_tokens) > 1 and "scienc" in cleaned_tokens:
+                cleaned_tokens.remove("scienc")
+
+    cleaned_tokens.sort()
+    return ' '.join(cleaned_tokens)
+\end{lstlisting}
+
+\newpage
+
+\begin{lstlisting}[language=Python,frame=single, basicstyle=\footnotesize, showspaces=false, showtabs=false]
+ABBREVIATIONS_MAP = {
+    'maths': 'mathematics',
+    'teacher': 'teaching',
+    'teaching': 'education',
+    'pharmaceutical': 'pharmacy',
+    'technician': 'technology',
+    'admin': 'administration',
+    'bio': 'biological',
+    'phy': 'physics',
+    'chem': 'chemistry',
+    'chemistry': 'chemical',
+    'dentist': 'dentistry',
+    'dental': 'dentistry',
+    'agri': 'agriculture',
+    'ag': 'agriculture',
+    'hrm': 'human resource management',
+    'it': 'information technology',
+    'ict': 'information and communication technology',
+    'tech': 'technology',
+    'llb': 'law',
+    'bcl': 'civil law',
+    'mgt': 'management',
+    'gaeilge': 'irish'
+}
+\end{lstlisting}
 
 \subsection*{Histogram Gradient Boosting Classifier Implementation}
 \label{sec:hgbm-implementation}
