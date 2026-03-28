@@ -64,3 +64,5 @@ testing/testing.md
 other-theses/*.pdf
 
 thesis/%OUTDIR%/
+
+thesis/thesis.synctex.gz(busy)
