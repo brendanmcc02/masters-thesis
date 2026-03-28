@@ -10,16 +10,16 @@ the results and describe why the experiment yielded unsatisfactory results.
 \section{Design Motivation}
 
 In this section, we will describe the motivation behind this approach.
-If we recall the Research Question as outlined in section \ref{sec:research-question},
-we are seeking to design an RS that \emph{assists} a user's exploration into college courses
-by providing with them \textbf{relevant, diverse} and \textbf{serendipitous} recommendations.
+If we recall the research question as outlined in section \ref{sec:research-question},
+we are seeking to design an RS that assists a user's exploration into college courses
+by providing with them relevant, diverse and serendipitous recommendations.
 Among the three types of RS's described in section \ref{sec:common-rs-types},
-\emph{Collaborative Filtering} (CF) is more likely to provide \textbf{serendipitous}
+Collaborative Filtering (CF) is more likely to provide serendipitous
 recommendations, according to \cite{aggarwal2016recommender}.
-This is because CF does not solely rely on what the user likes, rather it leverages the data of what \emph{other} similar users also liked, 
+This is because CF does not solely rely on what the user likes, rather it leverages the data of what other similar users also liked, 
 increasing the likelihood of more surprising, but relevant recommendations, i.e. serendipity.
 As also described in section \ref{sec:research-gap}, 
-serendipity is the gold standard of RS's, and it would be incredibly useful in answering our Research Question by assisting the user in their exploration of college courses.
+serendipity is the gold standard of RS's, and it would be incredibly useful in answering our research question by assisting the user in their exploration of college courses.
 As a result, this chapter will explore a CF approach as it potentially provides more serendipitous recommendations.
 
 It is worth mentioning that for the sake of brevity, 
@@ -30,7 +30,7 @@ Instead, we will focus on our best attempt in solving this problem through the C
 
 In section \ref{sec:research-gap}, we identified a research 
 gap by leveraging a user's RIASEC model and academic interests to provide personalised college course recommendations.
-However, in order to design a CF RS in this context, we need to find datasets with \textbf{other users' college choice,} and either their academic interests 
+However, in order to design a CF RS in this context, we need to find datasets with other users' college choice, and either their academic interests 
 or RIASEC model.
 To the best of our knowledge, this kind of data is not available in the Irish context.
 As a result, we explored similar datasets outside of the Irish context.
@@ -97,7 +97,7 @@ Many different ML models were trained on this data, and they were tested on unse
 in particular: top-1 and top-3 accuracy.
 The ML model with the best
 top-1 and top-3 accuracy was the Histogram-based Gradient Boosting Classifier (HGBC), with it's implementation details given in \textbf{todo - appendix!}.
-This implementation of a HGBC achieved a top-1 accuracy of \textbf{0.319}, and a top-3 accuracy of \textbf{0.606.}
+This implementation of a HGBC achieved a top-1 accuracy of 0.319, and a top-3 accuracy of 0.606.
 In other words for the unseen test set, this HGBC implementation predicted the user's college major category correctly in 31.9\% of cases (top-1 accuracy), 
 and in 60.6\% of cases, the model predicted the user's college major category correctly in it's first 3 predictions (top-3 accuracy).
 Seeing as this implementation of the HGBC model had the best performance metrics, we can evaluate it's performance further in the next section.
@@ -132,7 +132,7 @@ categories, all failed attempts to improve the model's performance.
 \section{Limitations of the Approach}
 
 In the previous section, we established the poor performance of this model in predicting the user's college major category given the results of a 48-question RIASEC quiz.
-In this section, we will provide more insights as to \emph{why} the model with these popular datasets performed poorly.
+In this section, we will provide more insights as to why the model with these popular datasets performed poorly.
 
 In the context of predicting a user's college major, the primary limitation of the chosen RIASEC dataset is the lack of coverage by the questions.
 In other words, the 48 questions do not adequately cover many areas of study,

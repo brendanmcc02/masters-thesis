@@ -12,9 +12,7 @@
     * in appendix
         * not necessary to know, but helpful to know
 - [ ] check all `\ref{}` are correct!
-- [ ] check for `\\` before (sub)sections, unnecessary spacing here!
-- [ ] get rid of excessing boldening and italics
 - [ ] do a final scan of "todo" across all `*.tex` files!!! make sure nothing gets left in the final draft
 - [ ] appendix!
-- [ ] have to intro acronyms first as the word then parenthesise it, i re-define many acronyms like rs, lc, gc - probably don't do this! just define once and it's fine
+- [ ] check for spelling!
 - [ ] might have to do some `\newpage`'s

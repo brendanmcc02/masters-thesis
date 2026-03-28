@@ -3,7 +3,7 @@
 
 In this chapter, there will be an explanation into the high-level design of the college course RS,
 including justifications behind different design decisions. 
-Before we dive into the design behind our RS, it would be important to revisit our Research Question: 
+Before we dive into the design behind our RS, it would be important to revisit our research question: 
 \emph{``Can a Recommender System assist an Irish student in exploring college courses they would consider studying?"}
 Recall that we hypothesised that an RS that provides relevant, diverse and serendipitous recommendations
 would be best in answering this question.
@@ -68,7 +68,7 @@ On the other hand, if the user demonstrates a high ``Enterprising'' trait, they 
 as the ``Enterprising'' trait is common in Business studies.
 This additional RIASEC model information may appear redundant, however, we would argue this provides more context to the RS,
 allowing the RS to potentially provide more serendipitous recommendations, 
-which assists us in answering our Research Question.
+which assists us in answering our research question.
 In summary, we believe a user's RIASEC model would be useful in providing relevant and potentially serendipitous college course recommendations.
 
 \subsection{Hobbies}
@@ -120,7 +120,7 @@ which is something they integrate into their GC process.
 The GC claimed that they like to challenge their students with different recommendations,
 as it helps develop the student's concepts about the college courses they would consider studying.
 These insights are incredibly valuable, as it supports the idea that diverse recommendations 
-can help answer our Research Question, which is to assist Irish students in exploring college courses they would consider studying.
+can help answer our research question, which is to assist Irish students in exploring college courses they would consider studying.
 
 \subsection{GC Interviews Summary}
 
@@ -266,7 +266,7 @@ We can recall that relevance is an important quality of an effective RS, as desc
 For instance, it would not be relevant to suggest a course that is 500 LC points to a user that is expected to 
 receive 300 LC points.
 Thus, profiling a user's expected LC points and their NFQ Level preferences would provide more relevant
-college course recommendations, which better answers our Research Question, which is to assist the Irish student in exploring their college course choices.
+college course recommendations, which better answers our research question, which is to assist the Irish student in exploring their college course choices.
 
 As is evident from our discussion in subsection \ref{sec:college-justifications}, a student has a variety of 
 justifications for choosing their college, which is a related, but separate decision to choosing their college course.
@@ -593,7 +593,7 @@ For example, a student who has never studied Biology may find it difficult to an
 \emph{On a scale of 1 to 5, how interested are you in Biology?},
 and they would likely find it easier to answer a more specific question such as:
 \emph{On a scale of 1 to 5, how interesting would you find investigating how bacteria react to medicine?}
-This enhanced specificity helps the student explore their college course preferences, which assists us in answering our Research Question.
+This enhanced specificity helps the student explore their college course preferences, which assists us in answering our research question.
 
 Each of the six questions are not only designed to capture typical work performed in each Academic Interest,
 but also to profile a student's RIASEC traits.
@@ -640,7 +640,7 @@ The `for a living' pushes the user to consider the activity in the context of fu
 as opposed to a hobby.
 This is a subtle but vital addition to the question, 
 resulting in more relevant college course recommendations that the 
-user would realistically consider studying, assisting us in answering our Research Question.
+user would realistically consider studying, assisting us in answering our research question.
 
 \subsection{Examples of Quiz Questions}
 
@@ -692,11 +692,11 @@ While these recommendations are relevant to the user's interests,
 the recommendations are neither diverse or serendipitous.
 As a result, many of these CS recommendations are redundant;
 after the first CS recommendation, the other CS recommendations do not provide significantly new information to the user.
-Seeing as our Research Question involves assisting the user in exploring college courses, this is detrimental.
+Seeing as our research question involves assisting the user in exploring college courses, this is detrimental.
 Instead, a more different, but relevant college course could take it's place - such as \emph{Immersive Software Engineering}\footnote{\url{https://software-engineering.ie/}}.
 Not only does this benefit the diversity of the recommendations, but it also 
 gives the RS a better chance to make a serendipitous recommendation - the gold standard of RS's.
-This design decision will better answer our Research Question.
+This design decision will better answer our research question.
 
 Following from this reasoning, only college courses with unique titles are recommended.
 For example, if CS in Trinity College Dublin has been recommended to the user,
