@@ -11,20 +11,14 @@ data = {
     "Baseline Trust Mean": round(eval_metrics["Baseline Trust"].mean(), 2),
     "Actual Precision Mean": round(eval_metrics["Actual Precision"].mean(), 2),
     "Baseline Precision Mean": round(eval_metrics["Baseline Precision"].mean(), 2),
-    "Actual Recall Mean": round(eval_metrics["Actual Recall"].mean(), 2),
-    "Baseline Recall Mean": round(eval_metrics["Baseline Recall"].mean(), 2),
-    "Actual F1 Mean" : round(eval_metrics["Actual F1 Score"].mean(), 2),
-    "Baseline F1 Mean" : round(eval_metrics["Baseline F1 Score"].mean(), 2),
-    "Actual Novelty Mean": round(eval_metrics["Actual Novelty"].mean(), 2),
-    "Baseline Novelty Mean": round(eval_metrics["Baseline Novelty"].mean(), 2),
     "Actual Serendipity Mean": round(eval_metrics["Actual Serendipity"].mean(), 2),
     "Baseline Serendipity Mean": round(eval_metrics["Baseline Serendipity"].mean(), 2)
 }
 
 # 1. Objective Metrics (Y-axis 0 to 1)
-objective_metrics = ['Precision', 'Recall', 'F1 Score', 'Novelty', 'Serendipity']
-actual_obj = [data["Actual Precision Mean"], data["Actual Recall Mean"], data["Actual F1 Mean"], data["Actual Novelty Mean"], data["Actual Serendipity Mean"]]
-baseline_obj = [data["Baseline Precision Mean"], data["Baseline Recall Mean"], data["Baseline F1 Mean"], data["Baseline Novelty Mean"], data["Baseline Serendipity Mean"]]
+objective_metrics = ['Precision', 'Serendipity']
+actual_obj = [data["Actual Precision Mean"], data["Actual Serendipity Mean"]]
+baseline_obj = [data["Baseline Precision Mean"], data["Baseline Serendipity Mean"]]
 
 # 2. User-Perceived Metrics (Y-axis 1 to 5)
 user_metrics = ['Diversity', 'Trust']
