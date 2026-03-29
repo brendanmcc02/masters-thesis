@@ -92,6 +92,20 @@
 %% - includes a file with code and adds a caption that should describe the code in some detail and a shorter caption for the table of listings
 \newcommand{\includecode}[4]{\lstinputlisting[floatplacement=H, caption={[#1]#2}, captionpos=b, frame=single, label={#3}]{#4}}
 
+\lstdefinestyle{python_small_lst_style}{
+  language=Python,
+  frame=single,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2,
+  basicstyle=\ttfamily\footnotesize,
+  breaklines=true,
+  postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
+
+\lstset{style=python_small_lst_style}
+
 %%------------------------------------------------
 %% Image macros
 %%------------------------------------------------

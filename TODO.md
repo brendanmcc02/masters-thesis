@@ -11,6 +11,7 @@
     5. LSLST
     * in appendix
         * not necessary to know, but helpful to know
+    - [ ] initial prototypes to appendix?
 - [ ] check all `\ref{}` are correct!
 - [ ] do a final scan of "todo" across all `*.tex` files!!! make sure nothing gets left in the final draft
 - [ ] appendix!
@@ -18,4 +19,3 @@
 - [ ] might have to do some `\newpage`'s
 - [ ] acknowledgements
 - [ ] abstract
-- [ ] initial prototypes to appendix?

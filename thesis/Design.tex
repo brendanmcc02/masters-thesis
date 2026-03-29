@@ -439,25 +439,25 @@ After our additional data augmentations, we now have a dataset that can satisfy 
 set out in section \ref{sec:user-information-to-profile}.
 An example of the data about a college course is given below in JSON format:
 
-\begin{lstlisting}[caption={An example of a college course in the CP dataset after additional augmentation.}, label={lst:dataset-before-augmentation}, basicstyle=\small, frame=single]
+\begin{lstlisting}[caption={An example of a college course in the CP dataset after additional augmentation.}, label={lst:dataset-before-augmentation}]
 {
-    ``id": ``TR052",
-    ``title": ``Dental Science",
-    ``college": ``Trinity College Dublin",
-    ``region": ``Dublin",
-    ``duration": ``5 Years",
-    ``nfqLevel": 8,
-    ``points": 625,
-    ``isAdditionalPortfolioTestInterviewRequired": false,
-    ``overview": ``Dental Science is the study of ...",
-    ``riasecTraits": [
-        ``investigative",
-        ``social",
-        ``realist"
+    "id": "TR052",
+    "title": "Dental Science",
+    "college": "Trinity College Dublin",
+    "region": "Dublin",
+    "duration": "5 Years",
+    "nfqLevel": 8,
+    "points": 625,
+    "isAdditionalPortfolioTestInterviewRequired": false,
+    "overview": "Dental Science is the study of ...",
+    "riasecTraits": [
+        "investigative",
+        "social",
+        "realist"
     ],
-    ``academicInterests": [
-        ``healthcare",
-        ``life science"
+    "academicInterests": [
+        "healthcare",
+        "life science"
     ]
 }
 \end{lstlisting}
@@ -737,7 +737,7 @@ In figure \ref{fig:example-recs}, an example of the college course RS output is 
 
 In the above example, the user's strongest interest was in Healthcare, 
 which describes their first five recommendations.
-The user also demonstrated interests in the life sciences, 
+The user also demonstrated interests in the life sciences and social sciences, 
 describing their 10-14th recommendations,
 showcasing the RS's ability to recommend college courses 
 across a user's academic interests, as opposed to focusing on just one Academic Interest,

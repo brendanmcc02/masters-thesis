@@ -9,7 +9,7 @@
 
 The following Python script was used to preprocess the names of college course titles and college majors.
 
-\begin{lstlisting}[language=Python,frame=single, basicstyle=\footnotesize, showspaces=false, showtabs=false]
+\begin{lstlisting}
 stemmer = SnowballStemmer("english")
 
 def preprocess_college_title(text):
@@ -45,7 +45,7 @@ def preprocess_college_title(text):
 
 \newpage
 
-\begin{lstlisting}[language=Python,frame=single, basicstyle=\footnotesize, showspaces=false, showtabs=false]
+\begin{lstlisting}
 ABBREVIATIONS_MAP = {
     'maths': 'mathematics',
     'teacher': 'teaching',
@@ -75,9 +75,8 @@ ABBREVIATIONS_MAP = {
 \subsection*{Histogram Gradient Boosting Classifier Implementation}
 \label{sec:hgbm-implementation}
 
-\begin{lstlisting}[caption={[Sample Code 2]Second Lengthy caption}, label={lst:snippet2}, language=Python]
-hist_gradient_boosting_machines_model 
-    = HistGradientBoostingClassifier(
+\begin{lstlisting}[caption={Histogram Gradient Boosting Classifier Implementation}, label={lst:snippet2}]
+hist_gradient_boosting_machines_model = HistGradientBoostingClassifier(
         class_weight='balanced',
         l2_regularization=1.0
     )
