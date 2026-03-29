@@ -77,12 +77,12 @@ was most appropriately applied to this problem. This dataset, which will be refe
 under 15 categories.
 However, in it's initial form, this college major dataset failed to capture many of the college majors provided in the RIASEC dataset.
 In addition to this, many of the college major categories were too broad, and were then split up into different college major categories.
-As a result, this college major dataset underwent significant manual revisions, and the final form of this dataset is provided in \textbf{TODO - appendix!}.
+As a result, this college major dataset underwent significant manual revisions, and the final form of this dataset is provided in section \ref{sec:college-major-dataset}.
 After these significant manual revisions, the college major dataset featured over 200 college majors with 16 categories.
 
 We now have a college major dataset with over 200 college majors and 16 associated college major categories, 
 and a RIASEC dataset with over 70,000 user's college majors and the results of their RIASEC quiz.
-Using a pre-processing script as given in \textbf{TODO - appendix!},
+Using a pre-processing script as given in section \ref{sec:preprocessing-script},
 we can categorise each of the $\sim$70,000 users in the RIASEC dataset into one of 16 college major categories as provided in the college major dataset.
 This augmented dataset will be instrumental in training a Machine Learning model to predict a user's college major category from the results
 of this RIASEC quiz, which will be explored in the next section.
@@ -98,7 +98,7 @@ and the output is one of 16 college major categories.
 Many different ML models were trained on this data, and they were tested on unseen data to gather evaluation metrics,
 in particular: top-1 and top-3 accuracy.
 The ML model with the best
-top-1 and top-3 accuracy was the Histogram-based Gradient Boosting Classifier (HGBC), with it's implementation details given in \textbf{todo - appendix!}.
+top-1 and top-3 accuracy was the Histogram-based Gradient Boosting Classifier (HGBC), with it's implementation details given in section \ref{sec:hgbm-implementation} below.
 This implementation of a HGBC achieved a top-1 accuracy of 0.319, and a top-3 accuracy of 0.606.
 In other words for the unseen test set, this HGBC implementation predicted the user's college major category correctly in 31.9\% of cases (top-1 accuracy), 
 and in 60.6\% of cases, the model predicted the user's college major category correctly in it's first 3 predictions (top-3 accuracy).

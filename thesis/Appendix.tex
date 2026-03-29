@@ -3,6 +3,98 @@
 \section{College Major Dataset}
 \label{sec:college-major-dataset}
 
+\newpage
+
+\begin{table}[ht]
+\centering
+\tiny
+\renewcommand{\arraystretch}{0.75} % <--- Reduces vertical padding between rows
+\setlength{\tabcolsep}{3pt} % Tighten spacing to fit width
+\begin{tabular}{ll p{0.5cm} ll p{0.5cm} ll}
+\toprule
+\textbf{Major} & \textbf{Category} && \textbf{Major} & \textbf{Category} && \textbf{Major} & \textbf{Category} \\
+\midrule
+acting & arts && english education & education && culinary arts & hospitality \\
+animation & arts && health education & education && event management & hospitality \\
+art and design & arts && history education & education && hospitality management & hospitality \\
+commercial art & arts && language education & education && hotel management & hospitality \\
+dance & arts && library science & education && tourism & hospitality \\
+design & arts && mathematics education & education && tourism management & hospitality \\
+drama & arts && music education & education && anthropology & humanities \\
+fashion & arts && physical education & education && art history & humanities \\
+fashion design & arts && psychology education & education && civilization studies & humanities \\
+fashion merchandising & arts && science education & education && classical studies & humanities \\
+film studies & arts && secondary education & education && comparative literature & humanities \\
+fine arts & arts && social science education & education && english & humanities \\
+graphic design & arts && special education & education && english literature & humanities \\
+interior design & arts && aeronautical engineering & engineering && history & humanities \\
+music & arts && aerospace engineering & engineering && intercultural studies & humanities \\
+performing arts & arts && agricultural engineering & engineering && international studies & humanities \\
+photography & arts && architectural engineering & engineering && liberal arts & humanities \\
+product design & arts && architecture & engineering && literature & humanities \\
+studio arts & arts && aviation studies & engineering && philosophy & humanities \\
+theater & arts && biological engineering & engineering && religious studies & humanities \\
+visual arts & arts && biomedical engineering & engineering && rhetoric & humanities \\
+writing & arts && biotechnology & engineering && theology & humanities \\
+child development & beh. health* && chemical engineering & engineering && criminal justice & law \\
+clinical psychology & beh. health* && civil engineering & engineering && criminology & law \\
+comm. disorders & beh. health* && computer engineering & engineering && government & law \\
+counseling & beh. health* && construction studies & engineering && intl. relations & law \\
+family science & beh. health* && electrical engineering & engineering && legal studies & law \\
+human development & beh. health* && engineering mgmt. & engineering && paralegal studies & law \\
+human services & beh. health* && engineering tech. & engineering && political science & law \\
+mental health & beh. health* && environmental eng. & engineering && public admin. & law \\
+occupational therapy & beh. health* && geological engineering & engineering && public policy & law \\
+psychology & beh. health* && geophysical engineering & engineering && agricultural science & life science \\
+rehabilitation & beh. health* && industrial engineering & engineering && biochemistry & life science \\
+social work & beh. health* && industrial management & engineering && biology & life science \\
+speech pathology & beh. health* && manufacturing eng. & engineering && biomedical science & life science \\
+accounting & business && marine engineering & engineering && biopsychology & life science \\
+accounting \& finance & business && materials engineering & engineering && botany & life science \\
+actuarial science & business && materials science & engineering && cognitive science & life science \\
+administration & business && mechanical engineering & engineering && ecology & life science \\
+business admin. & business && metallurgical eng. & engineering && environmental science & life science \\
+business mgmt. & business && mining engineering & engineering && food science & life science \\
+e-commerce & business && nuclear engineering & engineering && genetics & life science \\
+economics & business && petroleum engineering & engineering && health science & life science \\
+entrepreneurship & business && chinese & foreign languages && horticulture & life science \\
+finance & business && english language & foreign languages && marine biology & life science \\
+human resources & business && french & foreign languages && microbiology & life science \\
+HR management & business && german & foreign languages && molecular biology & life science \\
+intl. business & business && greek & foreign languages && neuroscience & life science \\
+logistics & business && italian & foreign languages && pharmacology & life science \\
+management & business && japanese & foreign languages && physiology & life science \\
+mgmt. info. systems & business && korean & foreign languages && zoology & life science \\
+marketing & business && latin & foreign languages && astronomy & physical science \\
+operations mgmt. & business && linguistics & foreign languages && astrophysics & physical science \\
+advertising & comms. && portuguese & foreign languages && atmospheric science & phys. science \\
+journalism & comms. && russian & foreign languages && chemistry & physical science \\
+mass media & comms. && spanish & foreign languages && earth science & physical science \\
+public relations & comms. && translation & foreign languages && forensic science & phys. science \\
+computer info. sys. & comp. \& math && community health & healthcare && geology & physical science \\
+computer networking & comp. \& math && dental hygiene & healthcare && geoscience & physical science \\
+computer science & comp. \& math && dental technology & healthcare && industrial tech. & phys. science \\
+computer systems & comp. \& math && dentistry & healthcare && meteorology & physical science \\
+cyber security & comp. \& math && health admin. & healthcare && physics & physical science \\
+information science & comp. \& math && health services & healthcare && radiology & physical science \\
+information systems & comp. \& math && medic & healthcare && behavioral science & social science \\
+info. technology & comp. \& math && medical admin. & healthcare && geography & social science \\
+mathematics & comp. \& math && medical assisting & healthcare && sociology & social science \\
+programming & comp. \& math && medicine & healthcare && athletic training & sport \\
+software eng. & comp. \& math && medicine technology & healthcare && exercise \& sport & sport \\
+statistics & comp. \& math && midwifery & healthcare && exercise physiology & sport \\
+telecommunications & comp. \& math && nursing & healthcare && exercise science & sport \\
+adult education & education && nutrition science & healthcare && kinesiology & sport \\
+art education & education && pharmacy & healthcare && physical therapy & sport \\
+early childhood & education && public health & healthcare && sports management & sport \\
+educational admin. & education && veterinarian & healthcare && sports medicine & sport \\
+elementary education & education && vet. technology & healthcare &&  &  \\
+\bottomrule
+\multicolumn{8}{l}{\textit{*beh. health = behavioural health and human services}} \\
+\end{tabular}
+\caption{Complete list of College Majors and Categories.}
+\end{table}
+
 \section{Preprocessing script for college course/major classification}
 \label{sec:preprocessing-script}
 
@@ -40,11 +132,7 @@ def preprocess_college_title(text):
 
     cleaned_tokens.sort()
     return ' '.join(cleaned_tokens)
-\end{lstlisting}
 
-\newpage
-
-\begin{lstlisting}
 ABBREVIATIONS_MAP = {
     'maths': 'mathematics',
     'teacher': 'teaching',
@@ -69,6 +157,7 @@ ABBREVIATIONS_MAP = {
     'mgt': 'management',
     'gaeilge': 'irish'
 }
+
 \end{lstlisting}
 
 \section{Histogram Gradient Boosting Classifier Implementation}
