@@ -30,10 +30,16 @@ width = 0.35
 blue_color = '#3498db'
 red_color = '#e74c3c'
 
+def add_labels(x, y):
+    for i in range(len(x)):
+        plt.text(i, y[i], y[i], ha='center')  # Aligning text at center
+
 fig1, ax1 = plt.subplots(figsize=(8, 6))
 x1 = np.arange(len(objective_metrics))
-ax1.bar(x1 - width/2, actual_obj, width, label='Actual', color=blue_color)
-ax1.bar(x1 + width/2, baseline_obj, width, label='Baseline', color=red_color)
+bar1 = ax1.bar(x1 - width/2, actual_obj, width, label='Actual', color=blue_color)
+bar2 = ax1.bar(x1 + width/2, baseline_obj, width, label='Baseline', color=red_color)
+ax1.bar_label(bar1, padding=3, fmt='%.2f')
+ax1.bar_label(bar2, padding=3, fmt='%.2f')
 ax1.set_title('Objective Metrics Comparison', fontweight='bold', pad=15)
 ax1.set_ylim(0, 1)
 ax1.set_xticks(x1)
@@ -47,8 +53,10 @@ plt.savefig('objective_metrics_plot.png')
 
 fig2, ax2 = plt.subplots(figsize=(6, 6))
 x2 = np.arange(len(user_metrics))
-ax2.bar(x2 - width/2, actual_user, width, label='Actual', color=blue_color)
-ax2.bar(x2 + width/2, baseline_user, width, label='Baseline', color=red_color)
+bar3 = ax2.bar(x2 - width/2, actual_user, width, label='Actual', color=blue_color)
+bar4 = ax2.bar(x2 + width/2, baseline_user, width, label='Baseline', color=red_color)
+ax2.bar_label(bar3, padding=3, fmt='%.1f')
+ax2.bar_label(bar4, padding=3, fmt='%.1f')
 ax2.set_title('User-Perceived Metrics Comparison', fontweight='bold', pad=15)
 ax2.set_ylim(1, 5)
 ax2.set_xticks(x2)

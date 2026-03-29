@@ -16,3 +16,6 @@
 - [ ] appendix!
 - [ ] check for spelling!
 - [ ] might have to do some `\newpage`'s
+- [ ] acknowledgements
+- [ ] abstract
+- [ ] initial prototypes to appendix?
