@@ -267,13 +267,13 @@ With the baseline RS established, we can observe the results of the experiment.
 
 In this section, we will provide the results of the experiment, and compare the performance of the 
 actual RS against the baseline RS.
+There will also be an analysis on the statistical significance of the results.
+The complete data for the experiment are provided in section \ref{sec:all-results}.
 
 \subsection{Visualising Evaluation Metrics}
 
 In this subsection we will visualise and compare the evaluation metrics 
 obtained by the actual and baseline RS.
-There will only be a focus on the results themselves; 
-statistical significance of the results are discussed in subsection \ref{sec:statistical-sig}.
 
 \subsubsection{User-perceived Metrics}
 
@@ -331,30 +331,24 @@ The baseline achieves a mean serendipity score of 0.2,
 meaning that on average, users will like 4 recommendations out of 20,
 and these 4 recommendations are not on their original CAO list.
 On the other hand, the actual RS provides about 8 serendipitous recommendations,
-indicating performance that is almost twice as effective.
+indicating performance that is almost twice as effective when comparing the actual and baseline RS's.
 
 \subsection{Statistical Significance of Results}
 \label{sec:statistical-sig}
 
 In the previous subsection we observed the differences in results between the actual RS and the baseline.
 In this subsection, we will provide an analysis on the statistical significance of these results.
+\emph{Note:} we will work with a standard 95\% level of statistical confidence in this analysis.
 
 \subsubsection{Measuring the Normality of Evaluation Metrics}
 
 First, we must determine if our four evaluation metrics come from a normal distribution.
-Operating under the assumption that our samples are independant and identically distributed,
-and that seeing we have a sample size $\ge30$ with $n=31$, by the Central Limit Theorem
-we may claim that our samples follow a normal distribution.
-However, this is not rigorous and we desire a more sound statistical approach.
-
-In this subsection we will work with a standard 95\% level of statistical confidence.
-To determine if each metric follows a normal distribution,
-we can use the Shapiro-Wilk test, with a null hypothesis that the data follow a normal distribution.
-If the $p$ value is $\le 0.05$, we fail to reject the null hypothesis in favour of the alternative 
-hypothesis, which claims the data do not follow a normal distribution.
+We can use the Shapiro-Wilk test for normality, with a null hypothesis that the data follow a normal distribution.
+If the $p$ value is $\le 0.05$, we reject the null hypothesis in favour of the alternative 
+hypothesis, which claims the data no not follow a normal distribution.
 Seeing as our experiment involves the same user being evaluated by the actual and baseline RS,
-for each metric we will run the Shapiro-Wilk test on the differences between the actual and baseline.
-The results of our Shapiro-Wilk test are shown in table \ref{tab:shapiro-wilk} below:
+for each metric we will run the Shapiro-Wilk test on the differences between the actual and baseline,
+with the results of our test shown in table \ref{tab:shapiro-wilk} below:
 
 \begin{table}[H]
 \begin{center}
@@ -381,30 +375,30 @@ except for the trust metric.
 
 \subsubsection{Investigating Significant Statistical Differences between Samples}
 
-If the examined metric follows a normal distribution, we can use a two-sample t-test,
-otherwise we can use a Wilcoxon signed-rank test.
-Both tests assess whether the mean of two samples differ significantly,
-and with a $p$ value of $\le 0.05$, we have sufficient evidence to reject the null hypothesis, that means of both 
-samples are equal, in favour of the alternative hypothesis, that the means of two samples differ significantly.
+If the examined metric follows a normal distribution, we can use a paired t-test (PTT) to 
+determine a statistically significant difference between the sample means.
+Otherwise, we can use a Wilcoxon signed-rank test (WSRT), which evaluates the median differences between the samples.
+With a $p$ value of $\le 0.05$, we have sufficient evidence to reject the null hypothesis, that means/medians of both 
+samples are equal, in favour of the alternative hypothesis, that the means/medians of two samples differ significantly.
 The results of this test is shown in table \ref{tab:two-sample-test} below:
 
 \begin{table}[H]
 \begin{center}
-	\begin{tabular}{|c|c|c|c|}
+	\begin{tabular}{|c|c|c|p{7cm}|}
 	\hline
- 	\textbf{Evaluation Metric} & \textbf{Test type} & \textbf{p-value} & \textbf{Significant Difference Between Means?}\\
+ 	\textbf{Evaluation Metric} & \textbf{Test type} & \textbf{p-value} & \textbf{Significant Difference Between Means/Medians?}\\
   	\hline
-	Precision & TStT & $<$0.00 & \ding{51}\\
+	Precision & PTT & $<$0.001 & \ding{51}\\
 	\hline
-	Diversity & TStT & 0.58 & \ding{55}\\
+	Diversity & PTT & 0.58 & \ding{55}\\
 	\hline
-	Serendipity & TStT & $<$0.00 & \ding{51}\\
+	Serendipity & PTT & $<$0.001 & \ding{51}\\
 	\hline
-	Trust & WSRT & $<$0.00 & \ding{51}\\
+	Trust & WSRT & $<$0.001 & \ding{51}\\
 	\hline
 	\end{tabular}
 \end{center}
-\caption{Results of the Shapiro-Wilk test for normality on our four evaluation metrics.\\\textbf{Abbreviations:} \emph{TStT:} Two-sample t-Test, \emph{WSRT:} Wilcoxon signed-rank test.\\}
+\caption{Results of the PTT or WSRT on our four evaluation metrics.}
 \label{tab:two-sample-test}
 \end{table}
 
@@ -418,27 +412,35 @@ of diversity differ significantly from the actual compared to the baseline.
 
 Seeing we have evidence that three out of four of our evaluation metrics differ significantly from the actual 
 compared to the baseline, it is also useful to see how much the means of the samples differ.
-This is where the Cohen effect size, $d$, is relevant - it is a measure of difference between two sample means.
+For normally distributed samples, we can use the Cohen effect size, $d$,
+a measure of difference between two sample means.
 According to \cite{cohen2013statistical}, $d\ge0.8$ is considered a `large' difference between sample means,
 $d\ge0.5$ is a `medium' difference,
 and $d\ge0.2$ is a `small' difference.
-We can visually display our Cohen effect size, $d$, for our four evaluation metrics in figure \ref{fig:cohen-effect-size} below:
+We can visually display our Cohen effect size, $d$, for our three normally-distributed evaluation metrics in figure \ref{fig:cohen-effect-size} below:
 
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.6]{images/cohen-effect-size.png}
-    \caption{The Cohen effect size, $d$, of our four evaluation metrics.}
+    \caption{The Cohen effect size, $d$, of our three normally-distributed evaluation metrics.}
     \label{fig:cohen-effect-size}
 \end{figure}
 
 From observing figure \ref{fig:cohen-effect-size} above, 
-the Cohen effect size for trust, precision and serendipity all lie 
+the Cohen effect size for precision and serendipity all lie 
 very comfortably above the `large' threshold of 0.8,
-indicating a significant difference between the sample means of the actual and the baseline.
+indicating a large magnitude of difference between the sample means of the actual and the baseline.
 On the other hand when considering diversity, a value of $d=0.1$ indicates a negligible increase from the actual compared 
 to the baseline.
 
-
+Seeing as the trust metric is not normally distributed and we used the WSRT, 
+we can use the Matched-pairs rank biserial correlation (MPRSC) to 
+to calculate the effect size $r$.
+According to \cite{cohen2013statistical}, $r\ge0.5$ is considered a `large' difference,
+$r\ge0.3$ is a `medium' difference, and $r\ge0.1$ is a `small' difference.
+Using the MPRSC, the effect size for the trust metric is calculated as $r=0.96$.
+This value of $r$ lies well above the 0.5 threshold, indicating a large magnitude of difference 
+between the actual and the baseline ranks for the trust metric.
 
 % check limitations.md! or maybe it should go in conclusions?
 
