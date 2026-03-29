@@ -17,4 +17,5 @@
 - [ ] check for spelling!
 - [ ] might have to do some `\newpage`'s
 - [ ] acknowledgements
+- [ ] fiddle again with appendix
 - [ ] abstract
