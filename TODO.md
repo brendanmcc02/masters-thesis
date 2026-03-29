@@ -16,6 +16,5 @@
 - [ ] do a final scan of "todo" across all `*.tex` files!!! make sure nothing gets left in the final draft
 - [ ] check for spelling!
 - [ ] might have to do some `\newpage`'s
-- [ ] acknowledgements
 - [ ] fiddle again with appendix
 - [ ] abstract
