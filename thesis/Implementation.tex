@@ -20,6 +20,7 @@ which is viewable to the user.
 All data is stored and retained on private storage on OneDrive\footnote{\url{http://onedrive.live.com/}}.
 
 \section{Knowledge-Based Filtering Implementation}
+\label{sec:kbf-impl}
 
 Recall from figure \ref{fig:kbf-rs-design}, that the purpose of the KBF RS is not to provide personalised college course recommendations,
 rather to provide a filtered list of college course recommendations.
@@ -64,6 +65,7 @@ the boolean variable \verb|isAdditionalPortfolioTestInterviewRequired|,
 the course is still included in the filtered list,
 even if the user's Expected LC points are below the college course's LC points.
 For example, if a user is expected to receive 550 LC points, they may still be recommended Medicine at 732 LC points.
+This limitation is further discussed in section \ref{sec:impl-limit}.
 
 This KBF RS now returns a list of filtered college courses that satisfy a user's expected LC Points,
 NFQ Level and College preferences.
@@ -453,29 +455,46 @@ The motivation behind this implementation decision is to enhance the diversity, 
 all of which are qualities of an effective RS which assists us in answering our research question.
 
 \section{Limitations}
+\label{sec:impl-limit}
 
-\textbf{todo ask owen does it make sense to talk about limitations here? or in future work?}
+During the design and implementation of this dissertation's RS,
+some limitations were exposed.
+We do not believe these limitations are significant,
+however, they are worth addressing in this section.
 
-% owen: say that you don't believe they'll be a significiant limitations
+As mentioned in section \ref{sec:entry-requirements}, some colleges require a third language to be 
+permitted into the college, for example Royal College of Surgeons in Ireland (RCSI).
+Thus, it would not be relevant to recommend an RCSI course to a user who 
+is not studying a third language for their LC.
+As well as this, some college courses have specific grade requirements for subjects.
+For example, Computer Science in Trinity College Dublin requires a H4 in LC mathematics,
+so it would be irrelevant to recommend this course to someone who is studying ordinary level mathematics.
+A limitation of our RS is that we do not take a student's subjects or grades into account, 
+and we hypothesise this would result in less relevant recommendations to the user.
+This limitation could be resolved by attaining more specific entry requirements for each college and 
+college course, and then augmenting this metadata to college courses in the dataset.
 
-% there is a subtle difference between limitations and future work
+As mentioned in section \ref{sec:kbf-impl}, some college courses require additional entry requirements in 
+the form of portfolios, tests or interviews, and this information is simply encoded as a boolean variable in the dataset.
+The student's grades in these additional entry requirements are added to their base LC points,
+which is why some courses in the dataset are over the max 625 LC points, e.g. Medicine at 732 LC points.
+A disadvantage is that this number is unfairly compared to other
+courses without additional entry requirements.
+This limitation could be resolved by calculating the base LC points for each course with additional entry 
+requirements.
+However, given that there are about 100 college courses in the dataset with additional entry requirements,
+and the fact that grading is done differently for each unique portfolio, test or interview,
+this would be a long and arduous task, constrained by the time of this dissertation.
+Due to these constraints, we made the design decision to recommend these types of college course to the user,
+even if their LC points are not satisfied.
+For example, a student that is expected to achieve 400 LC points could still be recommended Medicine.
+Naturally, this would not be a relevant recommendation,
+although it could be amended with more accurate LC points metadata.
 
-% limitations:
-    % does not take subject requirements into account
-        % for college courses
-        % and for university's
-    % talk about portfolio courses having points above 625
-        % difficult to translate this to a realistic number below 625 because the point system works differently for courses with portfolios
-        % so we just ignored the points thing in the filter
-        % would require a lot of manual time and labour
+\section{Chapter Summary}
 
-    % languages is an edge case and should ask the user
-
-% future work:
-    % academic interest categories could have been refined with more granularity
-        % e.g. humanities, creative arts
-        % social science
-    % colleges, could have asked user to reconsider colleges after algorithm is generated
-        % e.g. user is unaware of specialised colleges for music (e.g. bimm), education (marino)
-
-
+In this chapter, we provided the implementation details behind this disseration's RS.
+In particular, we described the implementations behind the KBF and CBF RS's,
+and our efforts in enhancing the relevance, diversity and serendipity of the final 20 recommendations.
+We also described a handful of known limitations regarding our approach.
+With the implementation of our RS designed, we can move on to evaluating its performance in the next chapter.

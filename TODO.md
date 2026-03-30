@@ -1,5 +1,6 @@
 # TODO
 - [ ] send design+implementation to owen
+- [ ] try better signalling -> erik's advice, step-by-step, has a sense of flow
 
 # finishing touches
 - [ ] page count
