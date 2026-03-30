@@ -7,8 +7,7 @@
 
 
 # findings from experiment
-* humanities is very broad and could be narrowed down
-* creative arts is very broad and could be narrowed down
+* humanities, creative arts, social science are very broad and could be narrowed down
 * the RS could have a feedback loop, where the user is prompted again if they want to change their college course course
     * e.g. declan only putting down tcd, ucd when he actually got recommended a lot of arts courses, could have benefitted from BIMM, IADT, etc.
         * e.g. me wanting education but not doing dcu/marino/
@@ -22,7 +21,3 @@
 
 
 # future work
-* another "iterative" idea
-    * after showing the recs to the user, their preferences may evolve/change - e.g. me getting recommended bio/chem courses but then preferring other things
-    * you could attach a button to a course and ask the user if they want to revise their 6 question answers for that specific category
-    * e.g. click on bio course -> they have a chance to re-rate the 6 life science questions

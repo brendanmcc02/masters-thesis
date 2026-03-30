@@ -16,13 +16,10 @@ and the experiment itself.
 
 \subsection{Research Ethics}
 
-The proposed experiment was approved by the Trinity College Dublin research ethics committee,
-and both the principal investigator (PI) and the supervisor of this dissertation have completed 
-data protection modules as part of this research.
+The proposed experiment was approved by the Trinity College Dublin research ethics committee.
 Prior to beginning the experiment, participants read a participant information leaflet,
-which provided information about the experiment and what it would entail.
-Participants also read an informed consent form, and were made aware that participation is entirely voluntary
-and there are no negative implications to not taking part in the experiment.
+which provided information about the experiment and what it would entail,
+and they read an informed consent form.
 If participants were willing to take part in the experiment, they signed the informed consent form.
 All data collected during this experiment was anonymised with no traceable link back to the participant.
 
@@ -336,13 +333,16 @@ indicating performance that is almost twice as effective when comparing the actu
 \subsection{Statistical Significance of Results}
 \label{sec:statistical-sig}
 
-In the previous subsection we observed the differences in results between the actual RS and the baseline.
-In this subsection, we will provide an analysis on the statistical significance of these results.
+Recall research objective \ref{research-objective-statistically}: ``Create a college course RS with statistically significant improvements compared to a baseline college course RS''.
+In the previous subsection, we observed the actual RS improving upon the baseline's performance
+across all four evaluation metrics.
+However, we have yet to analyse whether or not these results are statistically significant,
+which is the objective of this subsection.
 \emph{Note:} we will work with a standard 95\% level of statistical confidence in this analysis.
 
 \subsubsection{Measuring the Normality of Evaluation Metrics}
 
-First, we must determine if our four evaluation metrics come from a normal distribution.
+First, we must determine if our four gathered evaluation metrics come from a normal distribution.
 We can use the Shapiro-Wilk test for normality, with a null hypothesis that the data follow a normal distribution.
 If the $p$ value is $\le 0.05$, we reject the null hypothesis in favour of the alternative 
 hypothesis, which claims the data no not follow a normal distribution.
@@ -428,7 +428,7 @@ We can visually display our Cohen effect size, $d$, for our three normally-distr
 
 From observing figure \ref{fig:cohen-effect-size} above, 
 the Cohen effect size for precision and serendipity all lie 
-very comfortably above the `large' threshold of 0.8,
+well above the `large' threshold of 0.8, at 1.34 and 1.11 respectively,
 indicating a large magnitude of difference between the sample means of the actual and the baseline.
 On the other hand when considering diversity, a value of $d=0.1$ indicates a negligible increase from the actual compared 
 to the baseline.
@@ -442,14 +442,40 @@ Using the MPRSC, the effect size for the trust metric is calculated as $r=0.96$.
 This value of $r$ lies well above the 0.5 threshold, indicating a large magnitude of difference 
 between the actual and the baseline ranks for the trust metric.
 
-\section{Findings}
-% results and findings - they are different!
-% findings are the insights we can "lift" from results
+\subsection{Summary}
 
-% check limitations.md! or maybe it should go in conclusions?
+Recall research objective \ref{research-objective-statistically}: ``Create a college course RS with statistically significant improvements compared to a baseline college course RS'',
+and our four evaluation metrics: diversity, trust, precision and serendipity.
+This section demonstrated large, statistically significant improvements 
+for the actual RS compared to the baseline for the three metrics:
+trust, precision and serendipity,
+which is a satisfactory result.
+That being said, no statistically significant improvement was found for the diversity metric.
+As a result, we do not technically consider this research objective fully achieved,
+as the actual RS was unable to produce statistically significant improvements 
+for the diversity metric.
+
+However as mentioned earlier, it is a very difficult task for an actual RS to outperform the baseline in terms of diversity,
+because the baseline RS only recommends courses 
+sorted by LC points, and thus the recommendations will be very diverse by nature.
+Seeing that the actual RS has similar performance to the baseline in terms of diversity,
+we would arguably see this as a success.
+While the original research objective was not technically, fully achieved,
+three metrics had significant improvements and our diversity metric was competitive 
+with a baseline that is very diverse by nature.
+Thus, we can consider the actual RS to demonstrate satisfactory performance in the context of research objective \ref{research-objective-statistically}.
+
+\section{Experiment Findings}
+
+From our analysis in the previous section, the results of our experiment tell quite a straightforward story.
+That being said, there were numerous findings gathered from the the experiments as they were being conducted.
+These insights were either gathered from observations or participant's verbal feedback.
+% Seeing as our sample size is already relatively small at $n=31$, 
+% it would be unfair to assume that a subset of this would represent the entire sample.
+This section will discuss these findings.
 
 As seen in table \ref{tab:academic-interest-categories}, `languages' is one of the academic interests.
-Suppose a user demonstrates interests in law and languages,
+Some users in our experiments demonstrated 
 and following their preferences, our RS recommends Law and French from Trinity College Dublin.
 If the user does not know French, or prefers another language like Irish or German,
 this recommendation would be irrelevant.
@@ -458,12 +484,21 @@ it may be able to recommend a more relevant recommendation to the user's interes
 such as Law and German.
 
 
-% in regards to qualitative analysis:
-% owen: do reading into thematic analysis
-% in our case, because i did not consistently ask the same questions to participants,
-% it was not rigorous in that sense, so i can't do a proper thematic analysis
-% rather, i can do a "pseudo-thematic analysis"
-% dont oversell it!
-% check testing.md for qualitative feedback!
 
+% * humanities, creative arts, social science are very broad and could be narrowed down
+% * the RS could have a feedback loop, where the user is prompted again if they want to change their college course course
+%     * e.g. declan only putting down tcd, ucd when he actually got recommended a lot of arts courses, could have benefitted from BIMM, IADT, etc.
+%         * e.g. me wanting education but not doing dcu/marino/
+%     * there are a looot of colleges and people are frankly unaware of what they do
+%     * maybe the RS should run on all colleges (no filter, despite what the user puts down)- and if there are courses being recommended for those colleges, the system could ask the user: "hey, we got some course suggestions from these colleges because you scored highly in these areas, would you like to include these colleges in your final recommendation list?
+%         * **when running test with doill he talked about this, mention it!!!**
+%     * but it's a trade-off: if you over-engineer the system with feedback you can make the user drop out of the system - owen's advice
+% * cater the number of recs to the persons interests - someone like daniel farushev who basically only expressed interest in computers (0.93), and eng (0.3), then everything else was either 0.0 or 0.05
+%     * 20 is a bit excessive in this case
+% * and then compare this to someone like lalith who scored >0.9 in like 7 categories
+
+% * another "iterative" idea
+%     * after showing the recs to the user, their preferences may evolve/change - e.g. me getting recommended bio/chem courses but then preferring other things
+%     * you could attach a button to a course and ask the user if they want to revise their 6 question answers for that specific category
+%     * e.g. click on bio course -> they have a chance to re-rate the 6 life science questions
 
