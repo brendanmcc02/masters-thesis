@@ -462,28 +462,78 @@ Seeing that the actual RS has similar performance to the baseline in terms of di
 we would arguably see this as a success.
 While the original research objective was not technically, fully achieved,
 three metrics had significant improvements and our diversity metric was competitive 
-with a baseline that is very diverse by nature.
+with a baseline that is very diverse by nature .
 Thus, we can consider the actual RS to demonstrate satisfactory performance in the context of research objective \ref{research-objective-statistically}.
 
-\section{Experiment Findings}
+\section{Experiment Findings and Analysis}
 
-From our analysis in the previous section, the results of our experiment tell quite a straightforward story.
-That being said, there were numerous findings gathered from the the experiments as they were being conducted.
-These insights were either gathered from observations or participant's verbal feedback.
-% Seeing as our sample size is already relatively small at $n=31$, 
-% it would be unfair to assume that a subset of this would represent the entire sample.
+\textbf{todo - get owen's opinion on this, he mentioned this idea of "trends" and "pseudo-thematic analysis"}
+
+From our analysis in the previous section, the aggregated results of our experiment tell quite a straightforward story.
+That being said, there were numerous findings gathered from the the experiments as they were being conducted,
+either from the PI's observations, or participant's verbal feedback.
+In some cases, these insights were gathered from just one participant's interactions with the RS.
+Seeing as our sample size is already relatively small at $n=31$, 
+it would be unfair to assume that a subset of this would represent the entire sample.
+As a result, many of these findings can be seen as `trends' towards truths,
+as opposed to statistically significant truths.
 This section will discuss these findings.
 
+\subsection{Limitations of Academic Interests Labels}
+
 As seen in table \ref{tab:academic-interest-categories}, `languages' is one of the academic interests.
-Some users in our experiments demonstrated 
-and following their preferences, our RS recommends Law and French from Trinity College Dublin.
-If the user does not know French, or prefers another language like Irish or German,
-this recommendation would be irrelevant.
-If the RS has a knowledge on the language the user likes (e.g. Irish or German),
+Some users in our experiments demonstrated interests in languages,
+and in one case the user was recommended Law and French from Trinity College Dublin.
+This user did not know any French, and instead was more interested in a language like Irish or German.
+As a result, the recommendation was irrelevant.
+While this is a specific example, it makes the greater point that the `languages' academic interest poses an 
+interesting edge case, and in the context of college course recommendations,
+the label is too broad on its own.
+If the RS has further knowledge on the language the user likes (e.g. Irish or German),
 it may be able to recommend a more relevant recommendation to the user's interest,
 such as Law and German.
 
+To give one specific example: economics, psychology and sociology are all classed under `social science'.
+In one case, a participant responded positively to an economics-related question,
+and then they received recommendations for psychology and sociology, which they found irrelevant and unsatisfactory.
+While this is one particular example, it demonstrates the greater point that 
+some of the academic interests labels are simply too broad.
+In this case, the `social science' category could be broken 
+Despite all of these courses being classed under the same `social science' category,
 
+\subsection{The Role of Subjectivity in Answering the Quiz}
+
+Despite the question being phrased as: \emph{``I would like to do this activity for a living''},
+one participant approached the quiz differently.
+They were well-aware that the intention of the quiz was to provide college course recommendations.
+This participant also highly valued salary, so they only highly rated questions 
+when the job behind the activity was high-paying.
+After answering the quiz in this way, 
+the participant received recommendations in high-paying fields which aligned with their original desires,
+resulting in satisfactory performance.
+
+Even without knowing the algorithm behind the RS, most RS's work on the same high-level idea:
+"recommend items according to the user's highly-ranked responses".
+In the case of a film RS like Netflix, if a user positively rates comedy films, 
+they can expect to receive comedy recommendations.
+Arguably, a user without a technical background would understand this simple, high-level idea.
+
+In section \ref{sec:college-course-justifications},
+we discovered that users have many different values and justifications for choosing their college course.
+In a way,
+the user can construct their own way of answering the quiz
+and tune the recommendations to align with their values.
+For example, a user that values passion in their college course can only highly rate questions 
+when the activity involves something they love, like art or music.
+Or a user that values social impact can only highly rate questions when the activity involves something 
+meaningful, like social policy or the environment.
+In this manner, regardless of how the question is phrased (\emph{``I would like to do this activity for a living''}),
+users can still answer the quiz in a way that aligns with their values,
+which is different to every individual.
+
+% on the whole, people found the questions easy to understand and answer	
+	% no sense of mental exhaustion or cognitive overload
+	% found the quiz length to be sufficient - long enough to cover enough the different interests, but not too long
 
 % * humanities, creative arts, social science are very broad and could be narrowed down
 % * the RS could have a feedback loop, where the user is prompted again if they want to change their college course course
@@ -493,9 +543,6 @@ such as Law and German.
 %     * maybe the RS should run on all colleges (no filter, despite what the user puts down)- and if there are courses being recommended for those colleges, the system could ask the user: "hey, we got some course suggestions from these colleges because you scored highly in these areas, would you like to include these colleges in your final recommendation list?
 %         * **when running test with doill he talked about this, mention it!!!**
 %     * but it's a trade-off: if you over-engineer the system with feedback you can make the user drop out of the system - owen's advice
-% * cater the number of recs to the persons interests - someone like daniel farushev who basically only expressed interest in computers (0.93), and eng (0.3), then everything else was either 0.0 or 0.05
-%     * 20 is a bit excessive in this case
-% * and then compare this to someone like lalith who scored >0.9 in like 7 categories
 
 % * another "iterative" idea
 %     * after showing the recs to the user, their preferences may evolve/change - e.g. me getting recommended bio/chem courses but then preferring other things
