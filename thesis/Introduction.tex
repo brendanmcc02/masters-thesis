@@ -1,13 +1,10 @@
 \chapter{Introduction}
 \label{chap:introduction}
 
-\section{Research Motivation}
-\label{sec:motivation}
+\section{Problem Statement}
 
-This section describes the context behind known problems in the research domain and provides some background knowledge.
-In light of these established problems, a technology is introduced, one that could be appropriately applied to this domain.
-The applicability of the proposed solution is also discussed, all relevant issues
-in describing the research motivation behind this dissertation.
+This section will outline the problem this dissertation seeks to address, 
+and the context surrounding it.
 
 According to \cite{hea2024key}, over 48,000 Irish secondary school students progressed to college after graduation in 2024.
 The individuals who have considered progressing to college have all been posed with the question:
@@ -41,7 +38,15 @@ career decision-making issues\footnote{In \cite{igc2024survey}, career decision-
 In the IGC's 2024-2027 strategic plan outlined in \cite{igc2024plan}, the IGC noted this stronger prevalence of mental health issues compared to career decision-making issues,
 signalling a shift in priorities for GC's across Irish secondary schools: vocational support may not be the most important aspect of a GC's role going forward.
 
-We can shift our focus to the more technical side of things. A Recommender System (RS) is a technology that recommend items to a user.
+As we can see, choosing a college course is a difficult, multi-faceted decision, and the decision is made more challenging 
+by the shifting priorities of Irish GC's.
+This leads us to the motivation behind this research.
+
+\section{Research Motivation}
+\label{sec:motivation}
+
+In light of the identified problems, 
+we can shift our focus to the more technical side of things. A Recommender System (RS) is a technology that recommend items to a user.
 Well-known examples of RS's include Netflix\footnote{\url{https://www.netflix.com/}} recommending films to their customers, or Amazon\footnote{\url{https://www.amazon.com/}} suggesting products to their customers.
 One of the earliest known RS's was \emph{Tapestry} in \cite{goldberg1992using},
 a system that made tailored mailing list recommendations to its users. 
@@ -53,7 +58,7 @@ in order to increase company revenue.
 As previously explained, an RS recommends items to a user.
 However, we can re-conceptualize an RS in the context of college courses:
 college courses can take the place of items, and a student can take the place of a user.
-Given the established difficulty and influences of an individual's college course choice, the shifting priorities of GC's towards student's mental health, as opposed to career-making decisions,
+Given the established difficulty and influences of an individual's college course choice, the shifting priorities of GC's towards student's mental health as opposed to career-making decisions,
 and a technology that could be appropriately applied to this domain,
 an exciting opportunity presents itself: a Recommender System for Irish college courses.
 
@@ -74,13 +79,9 @@ A technology, such as an RS, can be automated to hold the latest college course 
 and utilise this information in recommending college courses that a human GC may not even be aware of, 
 posing a potential advantage of an RS in this domain.
 
-\textbf{this summary feels so clunky, and i feel like it should flow towards a conclusion, instead of dryly summarising it, ngl poor writing here}
-
-In summary, this section introduced the numerous difficulties posed to an individual in choosing a suitable college course.
-We then discussed the shifting priorities of GC's from vocational to personal support, 
-and introduced a technology which could be applicable to this domain - a Recommender System.
-A discussion was given into the ways in which a college course RS could alleviate this problem for both students and GC's,
-ultimately describing the motivation behind this research.
+As we have argued, an RS is a technology that could be appropriately applied to the domain of Irish college courses,
+potential alleviating the difficulty of the college course decision-making process.
+With the motivation behind our research described, we can now define our research question.
 
 \section{Research Question}
 \label{sec:research-question}
@@ -89,14 +90,14 @@ In light of the motivation behind this research, the research question for this 
 \emph{``Can a Recommender System assist an Irish student in exploring college courses they would consider studying?"}
 
 In this research question, the meaning of `assist' is intentionally broad, 
-and we can further understand the meaning of `assist' by exploring the three qualities of an effective RS, as outlined in \cite{aggarwal2016recommender}, the leading textbook on RS's:
+and we can further understand the meaning of `assist' by exploring the three qualities of an effective RS, as outlined in \cite{aggarwal2016recommender}, a prominent and popular textbook on RS's:
 
 According to Aggarwal, the recommendations should be \textbf{relevant} to the user's preferences. 
 In this context, an effective RS would recommend college courses the user would consider studying based off their profiled preferences.
 For example, it would generally not make sense to recommend healthcare courses to a student that has demonstrated no interest in healthcare.
 In context to our research question, an RS with relevant recommendations would assist a student by recommending college courses they would consider studying.
 
-The recommendations should be \textbf{diverse} and avoid being uniform in a particular category.
+Aggarwal also argues that the recommendations should be \textbf{diverse} and avoid being uniform in a particular category.
 For example, an effective RS would not suggest 20 different computer science courses to a user, even if the user has demonstrated 
 a strong interest in computers. If we revisit the research question, we want an RS that assists a student's college course exploration,
 and by suggesting college courses across a diverse range of the user's preferences,
@@ -106,8 +107,8 @@ A user may receive recommendations that are relevant to their preferences and di
 however the user may already have an awareness of these recommendations.
 For example, a student may receive recommendations in biology and engineering, but they may have already considered studying these college courses previously.
 As a result, the user does not actually gain any new information after interacting with the RS.
-The quality that separates a good RS from a great one is \textbf{serendipity.}
-These are recommendations that are genuinely unexpected but incredibly relevant.
+Aggarwal claims that the quality that separates a good RS from a great one is \textbf{serendipity:}
+these are recommendations that are genuinely unexpected but incredibly relevant.
 The RS demonstrates a deep knowledge of the user, providing the user with relevant recommendations that the user was genuinely unaware of.
 Continuing our example, a serendipitous recommendation to this user might be biomedical engineering, merging both of the user's interests in an unexpected but useful way,
 and the user may now be considering studying the college course after interacting with the RS.
@@ -115,12 +116,10 @@ This is would be incredibly effective in assisting the user with their college c
 
 Serendipity is the gold standard for RS's.
 However, it is very challenging to consistently produce serendipitous recommendations,
-because by their nature the recommendations are ``high risk, high reward''.
+because by their nature the recommendations are ``high-risk, high-reward''.
 RS's are often faced with the dilemma between producing ``safe'' recommendations that are likely relevant but uninteresting,
-or more ``adventurous'' recommendations that are serendipitous or unsatisfactory.
+or more ``adventurous'' recommendations that could be serendipitous or unsatisfactory.
 This is a well-known tradeoff in the field of RS's, and it is the price paid for attempting to achieve the gold standard in RS's: serendipity.
-
-\textbf{todo - trust? it is measured and talked about in eval, if i include it i will have to do many edits throughout to include it}
 
 In summary, according to \cite{aggarwal2016recommender}, an effective RS provides recommendations that are:
 
@@ -131,20 +130,13 @@ In summary, according to \cite{aggarwal2016recommender}, an effective RS provide
 \end{itemize}
 
 It is worth mentioning that the above three qualities will be referenced frequently throughout this dissertation, 
-and thus we recommend the reader grows familiar with these concepts.
+and so we recommend that the reader grows familiar with these concepts.
 In summary, the research question for this dissertation is: \emph{``Can a Recommender System assist an Irish student in exploring college courses they would consider studying?"},
 and we hypothesise that an RS that provides relevant, diverse and serendipitous recommendations would assist an Irish student in exploring college courses they would consider studying.
 
 \section{Research Objectives}
 
-\textbf{todo - lowkey could revise these after writing everything!}
-
-\textbf{i think it would be good to reference research objectives throughout the dissertation, and not just 
-at the very end. i already do a good job of this with my research question, so do something similar}
-
-\textbf{if i change any of these objectives, ctrl+f for it and make sure it's ref'd + quoted correctly!}
-
-With the motivation and research question formulated, the research objectives for this dissertation are outlined below:
+With our research question formulated, we can define our research objectives below:
 \begin{enumerate}
     \item \label{res-obj-answer} Provide an answer to the question: \emph{``What college course should people study?"}
     \item \label{res-obj-information} Identify the relevant information to question a user in order to recommend suitable college courses.
