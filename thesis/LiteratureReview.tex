@@ -303,17 +303,16 @@ the ultimate goal of this section.
 
 As outlined in section \ref{sec:motivation},
 choosing a suitable college course is a multi-faceted, difficult decision for students.
-The college course decision is personally confronting for students and there are a variety of external influences on their college course choice,
-as is evident from the examinations in subsections \ref{sec:college-course-justifications} and \ref{sec:external-influences}.
 Technologies, not limited to an RS, have been used to assist students in finding suitable college courses for them.
-In this section, we will examine the academic literature and real-world products for technologies that have assisted students in their college course decision-making process.
-We will start with the simplest technologies, and work our way up through more sophisticated solutions in assisting student's with their college course choice.
+In this section, we will examine the academic literature and real-world products for technologies like this.
+We will start with the simplest technologies, and work our way up to 
+more sophisticated solutions in assisting student's with their college course choice.
 
 \subsection{Simple Filters}
 \label{sec:simple-filters}
 
 CareersPortal\footnote{\url{https://careersportal.ie/}} and Qualifax\footnote{\url{https://www.qualifax.ie/}} are the two leading 
-college course databases in Ireland\footnote{Qualifax has over 500,000 users annually. source: \url{https://www.annertech.com/case-studies/qualifax-making-information-easy-irelands-learners}} $^{\ref{careers-portal-footnote}}$.
+college course databases in Ireland\footnote{Qualifax has over 500,000 users annually. source: \url{https://www.annertech.com/case-studies/qualifax-making-information-easy-irelands-learners}}.
 The simplest technology for assisting Irish student's in their college course selection is to use the preset filters on these websites as you search their college course database.
 CareersPortal allows users to filter by multiple features shown in Figure \ref{fig:careers-portal-filters-4}, which includes filtering by career sector (see Figure \ref{fig:careers-portal-filters-1}), and career interests\footnote{CareerPortal's career interests are explained in chapter \ref{chap:design}} (see Figure \ref{fig:careers-portal-filters-2}).
 After applying some of these filters, a user would be presented with a result, an example of which is shown in Figure \ref{fig:careers-portal-filters-3}.
@@ -347,24 +346,8 @@ After applying some of these filters, a user would be presented with a result, a
     \label{fig:careers-portal-filters-3}
 \end{figure}
 
-Qualifax operates similarly: they allow user to filter their college course database by numerous filters, including by college course category (Figure \ref{fig:qualifax-filters-1}).
-After applying some of these filters, a user would be presented with a result as shown in Figure \ref{fig:qualifax-filters-2}.
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}[c]{0.3\linewidth}
-            \centering
-            \fbox{\includegraphics[scale=0.3]{images/qualifax-filters-1.png}}
-            \caption{Qualifax' college course category filter.}
-            \label{fig:qualifax-filters-1}
-        \end{minipage}\hfill
-    \begin{minipage}[c]{0.65\linewidth}
-            \centering
-            \fbox{\includegraphics[scale=0.3]{images/qualifax-filters-2.png}}
-            \caption{A sample result of what users would see after applying some filters to a course search in Qualifax.}
-            \label{fig:qualifax-filters-2}
-        \end{minipage}
-\end{figure}
+Qualifax operates similarly: they allow user to filter their college course database by numerous filters, including by college course category.
+After applying some of these filters, a user would be presented with a result very similar to the CareersPortal site as shown in figure \ref{fig:careers-portal-filters-3}.
 
 Simple filters in college course search, such as the CareersPortal and Qualifax websites, 
 are useful as they allow students to scan a large variety of courses.
@@ -373,15 +356,14 @@ Even after applying a handful of filters, for example in Figure \ref{fig:careers
 This is a large quantity of courses, which may result in a phenomenon known as overchoice, coined in \cite{toffler1970future}.
 According to Toffler, overchoice is a paradoxical phenomenon where choosing between a large variety of options can be detrimental to decision-making processes.
 As a result, we find that simple filtering technologies present large quantities of college course options,
-however, this does not necessarily make the decision-making process easier due to the phenomenon of overchoice.
-\cite{long2025choice} demonstrated that smaller sets of suggestions are often equally as effective as larger suggestion sets\footnote{For specificity, this research was conducted in the context of Recommender Systems, however the findings are still appropriately applied in this case.},
-calling for technologies to apply \emph{personalisation}, pruning their results and presenting more tailored college courses to the student,
+however, this does not necessarily make the decision-making process easier.
+This calls for technologies to prune their results and
+present more tailored college courses to the student,
 setting the scene for our next subsection.
 
 \subsection{College Course Quizzes}
 
-In this subsection, we will examine technologies that provide more personalisation to a user in the context of college course recommendations.
-More specifically, there will be a discussion on online quizzes that provide users with a more tailored, personalised list of college course recommendations.
+In this subsection, there will be a discussion on online quizzes that provide users with a more tailored, personalised list of college course recommendations.
 As a side note, seeing as these are real-world products, we will not have an insight into the recommendation algorithms behind these quizzes;
 we will only have access to their front-facing user interface.
 
@@ -426,7 +408,7 @@ Examples of results are given in Figure \ref{fig:anderson-university-results} an
 
 In spite of the evident utility of these quizzes, they do pose some limitations.
 Firstly, considering the importance of the college course decision process, these quizzes are generally very short
-- the three example quizzes provided had 10-25 questions each.
+- the three quizzes provided had 10-25 questions each.
 If we take Marquette University's quiz as an example:
 79 college majors are offered\footnote{According to \url{https://www.marquette.edu/academics/majors/}},
 and 10 questions may not be considered sufficient to gauge a student's interest appropriately across the 79 college majors.
@@ -435,9 +417,9 @@ In other words, the length of the quizzes imply they are trivialising and simpli
 In addition to this, generally the results of these quizzes may not refer to specific college majors, 
 although they may refer to broader fields of study.
 For example as we see in Superprof's results in figure \ref{fig:superprof-results}, STEM is being suggested to the user,
-however STEM encompasses a wide range of college majors including Mathematics and Engineering - similar, but still different fields of study.
+however STEM encompasses a wide range of college majors including mathematics and engineering - similar, but still different fields of study.
 While this may guide the user toward narrowing their college major choices, 
-there is still a lack of \emph{specificity} in the college major recommendations.
+there is still a lack of specificity in the college major recommendations.
 
 However, if one wants to go beyond broader fields of study and have more specificity in their college course recommendations,
 the technology is required to have knowledge of specific college courses being offered at specific colleges.
@@ -460,21 +442,19 @@ will be provided in section \ref{sec:research-gap}.
 
 \subsection{College Course Recommender Systems}
 
-In Chapter \ref{chap:introduction}, there was a reference to the RS technology.
 In this subsection, we will turn our attention from real-world products, and 
 examine the intersection of RS's and college course recommendations in the academic literature.
 In this discussion, we will particularly focus on the type of RS's being employed.
 A further discussion of other features of these RS's will be provided in section \ref{sec:research-gap}.
 An understanding of the common RS types, as discussed in section \ref{sec:common-rs-types}, will be useful in understanding this discussion.
-A comparison of the different RS types is best demonstrated in the Table \ref{tab:rs-lit-comparison}:
+A comparison of the different RS types is best demonstrated in the table \ref{tab:rs-lit-comparison}:
 
 \begin{table}[H]
-\caption{A comparison of the RS types used across closely-related works in literature.}
 \begin{tabular}{ |p{5cm}|p{10cm}|}
  \hline
  \textbf{Paper Reference} & \textbf{RS Type}\\
  \hline
- \cite{qamhieh2020pcrs}\tablefootnote{\emph{Note:} this paper recommends engineering fields of study as opposed to college courses, however the paper is arguably still relevant}   & Content-based Filtering\\
+ \cite{qamhieh2020pcrs}   & Content-based Filtering\\
  \hline
  \cite{ghuge2023envisioning} &   Hybrid: Content-based Filtering \& Collaborative Filtering\\
  \hline
@@ -483,6 +463,8 @@ A comparison of the different RS types is best demonstrated in the Table \ref{ta
  \cite{su2021personality}    & Collaborative Filtering\\
  \hline
 \end{tabular}
+\caption{A comparison of the RS types used across closely-related works in literature.}
+\label{tab:rs-lit-comparison}
 \end{table}
 
 It is worth noting that in \cite{lahoud2023comparative}, they tested a wide variety of RS types,
@@ -534,19 +516,19 @@ To help us with this, tables \ref{tab:research-gap-1} and \ref{tab:research-gap-
  \hline
  \textbf{Name} & \textbf{Can filter results by college?} & \textbf{Profiled User Information} \\
  \hline
-\emph{Superprof}    & \ding{55}    & academic interests\\
+\emph{Superprof}    & \ding{55}    & Academic interests\\
 \hline
-\emph{Anderson Uni}     & \ding{55}\tablefootnote{The only college majors recommended are ones offered from Anderson University.}     & academic interests\\
+\emph{Anderson Uni}     & \ding{55}\tablefootnote{The only college majors recommended are ones offered from Anderson University.}     & Academic interests\\
 \hline
-\emph{Marquette Uni}    & \ding{55}\tablefootnote{The only college majors recommended are ones offered from Marquette University.}     & academic interests\\
+\emph{Marquette Uni}    & \ding{55}\tablefootnote{The only college majors recommended are ones offered from Marquette University.}     & Academic interests\\
 \hline
-\emph{FMCC}         & \ding{55}\tablefootnote{You can filter your colleges by region, for example just the colleges in Dublin, Munster, etc.} & academic interests\\
+\emph{FMCC}         & \ding{55}\tablefootnote{You can filter your colleges by region, for example just the colleges in Dublin, Munster, etc.} & Academic interests\\
 \hline
-\emph{\cite{qamhieh2020pcrs}}         & \ding{55} & Hobbies, Grades, MBTI\tablefootnote{Myer-Briggs Type Indicator (MBTI); a personality test developed in \cite{myers1962myers}.}\\
+\emph{\cite{qamhieh2020pcrs}}         & \ding{55} & Hobbies, grades, MBTI\tablefootnote{Myer-Briggs Type Indicator (MBTI); a personality test developed in \cite{myers1962myers}.}\\
 \hline
-\emph{\cite{ghuge2023envisioning}}  & \ding{55}      & Hobbies, Grades\\
+\emph{\cite{ghuge2023envisioning}}  & \ding{55}      & Hobbies, grades\\
 \hline
-\emph{\cite{lahoud2023comparative}}  & \ding{51}  & Hobbies, Gender, academic interests\\
+\emph{\cite{lahoud2023comparative}}  & \ding{51}  & Hobbies, gender, academic interests\\
 \hline
 \emph{\cite{su2021personality}} & \ding{55}\tablefootnote{The only college majors recommended are ones offered from Cheng Shiu University, Taiwan.}     & RIASEC personality model\\
 \hline
@@ -557,7 +539,7 @@ To help us with this, tables \ref{tab:research-gap-1} and \ref{tab:research-gap-
 
 With a clearer overview of the differing features of all the examined Closely-related work, we can now clearly
 define our research gap. By examining table \ref{tab:research-gap-2} above, we can observe that no 
-closely-related works have applied the combination of \emph{Holland's RIASEC model} and \emph{Academic interests}.
+closely-related works have applied the combination of Holland's RIASEC model and academic interests.
 Given the ubiquity and robustness of Holland's RIASEC model, as described in subsection \ref{sec:theories-college},
 and the statistically significant positive correlation between interests and job satisfaction, as described in subsection \ref{sec:job-and-career-satisfaction},
 we are presented with an exciting opportunity to merge Holland's RIASEC model and the user's academic interests in 
@@ -572,31 +554,24 @@ as opposed to other countries, such as the USA, where students must apply to col
 Secondly, the CAO requires the student to create a ranked list of their preferred college courses.
 Seeing as RS's provide their users with ranked lists of items, 
 it is quite appropriate to apply an RS to the domain of Irish college course recommendations.
-As a result, the Irish CAO system presents an interesting case study for research to be conducted in the context of a College Course RS problem.
+As a result, the Irish CAO system presents an interesting case study for research to be conducted in the context of a college course RS problem.
 
 As we discovered in subsection \ref{sec:college-justifications},
 the choice of college is an important factor in a student's college course decision-making process.
-Only one (\cite{lahoud2023comparative}) of the examined closely-related works above allow users
-to filter their college course recommendation results by specific colleges.
-Moreover in Ireland, there is no work that allows a user to be recommended college courses for specific colleges\footnote{As mentioned in table \ref{tab:research-gap-2}, FMCC allows users to filter their colleges by \emph{region}, but not specific colleges.}.
+In Ireland, there is no work that allows a user to be recommended college courses for specific colleges\footnote{As mentioned in table \ref{tab:research-gap-2}, FMCC allows users to filter their colleges by \emph{region}, but not specific colleges.}.
 As a result, this research seeks to allow users to filter their college course recommendations by specific colleges,
 a research gap in the context of Irish college course RS's.
 
 We can now succinctly and clearly define our research gap: a college course RS applied to the \textbf{Irish context,}
-utilising a user's \textbf{RIASEC model} and \textbf{Academic interests}, allowing the user to filter their college course recommendations by \textbf{specific colleges.}
+utilising a user's \textbf{RIASEC model} and \textbf{academic interests}, allowing the user to filter their college course recommendations by \textbf{specific colleges.}
 This ultimately describes this dissertation's unique contribution to the literature.
 
 \section{Chapter Summary}
 \label{sec:literature-review-summary}
 
-This chapter started with an investigation into the fundamentals of college course choice.
-More broadly, the section explored different answers to the all-elusive question: \emph{``What college course should people study?"}
-There are a multitude of factors in this decision, and this dissertation provided it's own answer to the question.
-However, the author wishes to stress that the answer is by no means exhaustive, and should instead be taken as a guideline.
-
-Investigating this question provided us the necessary background knowledge to analyse the closely-related works 
-in the space of college course recommendations.
-This work was performed for two main reasons: firstly, to develop an awareness of the surrounding literature, and secondly, 
-to clearly define the research gap this dissertation addresses.
-With an enhanced knowledge of the background literature of this problem, 
-we can now move on to the next chapters.
+This chapter started with an investigation into the fundamentals of college course choice,
+which allowed us to answer the question posed by research objective \ref{res-obj-answer}: \emph{``What college course should people study?"}.
+Answering this question is relevant, as it provides us with the foundations to answer research objective \ref{res-obj-information}:
+``Identify the relevant information an RS should question a user to recommend suitable college courses'',
+which will be explored in the next chapter. In addition to this, we examined closely-related works and clearly defined our research gap.
+This provides us with more clarity and foundation to move towards designing our college course RS.

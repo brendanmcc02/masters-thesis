@@ -75,95 +75,8 @@ was most appropriately applied to this problem. This dataset, which will be refe
 under 15 categories.
 However, in it's initial form, this college major dataset failed to capture many of the college majors provided in the RIASEC dataset.
 In addition to this, many of the college major categories were too broad, and were then split up into different college major categories.
-As a result, this college major dataset underwent significant manual revisions, and the final form of this dataset is provided in section \ref{sec:college-major-dataset}.
+As a result, this college major dataset underwent significant manual revisions, and the final form of this dataset is provided in table \ref{tab:college-major-dataset}.
 After these significant manual revisions, the college major dataset featured over 200 college majors with 16 categories.
-
-We now have a college major dataset with over 200 college majors and 16 associated college major categories, 
-and a RIASEC dataset with over 70,000 user's college majors and the results of their RIASEC quiz.
-Using a pre-processing script as given in section \ref{sec:preprocessing-script},
-we can categorise each of the $\sim$70,000 users in the RIASEC dataset into one of 16 college major categories as provided in the college major dataset.
-This augmented dataset will be instrumental in training a Machine Learning model to predict a user's college major category from the results
-of this RIASEC quiz, which will be explored in the next section.
-
-\section{Machine Learning Model Selection}
-
-From the work in the last section, we now have a dataset with over 70,000 user's RIASEC quiz results, and their college major category.
-This can be reconceptualised in the context of a Machine Learning (ML) problem: 
-we have 48 input features, and 1 output variable.
-In this case, each input feature is a rating from 1--5, indicating the user's enjoyment towards a particular task,
-and the output is one of 16 college major categories.
-
-Many different ML models were trained on this data, and they were tested on unseen data to gather evaluation metrics,
-in particular: top-1 and top-3 accuracy.
-The ML model with the best
-top-1 and top-3 accuracy was the Histogram-based Gradient Boosting Classifier (HGBC), with it's implementation details given in section \ref{sec:hgbm-implementation} below.
-This implementation of a HGBC achieved a top-1 accuracy of 0.319, and a top-3 accuracy of 0.606.
-In other words for the unseen test set, this HGBC implementation predicted the user's college major category correctly in 31.9\% of cases (top-1 accuracy), 
-and in 60.6\% of cases, the model predicted the user's college major category correctly in it's first 3 predictions (top-3 accuracy).
-Seeing as this implementation of the HGBC model had the best performance metrics, we can evaluate it's performance further in the next section.
-
-\section{Model Evaluation}
-
-In this section we will take a closer look in evaluating the chosen HGBC model's performance.
-In figure \ref{fig:confusion-matrix} below, we can observe the Confusion Matrix of the chosen model, 
-showcasing the recall scores.
-
-\begin{figure}[H]
-    \centering
-    \fbox{\includegraphics[scale=0.35]{images/recall-confusion-matrix-better.png}}
-    \caption{A Confusion Matrix for Recall scores on the HGBC model.}
-    \label{fig:confusion-matrix}
-\end{figure}
-
-To take one example, we can observe that the model achieved a recall score of 0.4 for the ``sports" college major category,
-meaning that of all the users with ``sports'' as their college major category, 
-the model correctly predicted ``sports'' for these users 40\% of the time.
-Relatively speaking, we can see that this recall score of 0.4 is the highest performing recall score
-out of all the other college major categories.
-In particular, we can see the model struggling with some college major categories, such as ``foreign languages'' with 
-a recall score of 0.1, and ``social science'' with a score of 0.05,
-meaning that the model correctly predicts the user's college major category 10\% and 5\% of the time respectively.
-
-Evidently speaking, the performance of this model was disappointing as demonstrated through the low recall scores referenced above.
-Many different ML models with differing configurations were applied to the problem, failing to provide any improvements to this HGBC implementation.
-As well as this, the college major dataset underwent significant manual revisions - adding new college majors and splitting up different college major 
-categories, all failed attempts to improve the model's performance.
-
-\section{Limitations of the Approach}
-
-In the previous section, we established the poor performance of this model in predicting the user's college major category given the results of a 48-question RIASEC quiz.
-In this section, we will provide more insights as to why the model with these popular datasets performed poorly.
-
-In the context of predicting a user's college major, the primary limitation of the chosen RIASEC dataset is the lack of coverage by the questions.
-In other words, the 48 questions do not adequately cover many areas of study,
-which we believe is the primary reason behind the poor performance behind the model.
-For example, if we revisit figure \ref{fig:confusion-matrix}, we can observe very poor model performance on the ``foreign languages'' category, with a recall score of 0.1.
-This is simply because there are no questions in the RIASEC dataset that are explicitly related to languages or linguistics.
-To provide another example, we can observe very poor recall scores for the ``law'' category, most likely because
-there are no questions in the quiz that are explicitly related to law or government.
-Without this data, the model finds it very difficult to discern if a user is studying in the ``foreign languages" or ``law'' categories, explaining the model's poor performance on these categories.
-
-Due to this limitation, we found this dataset and subsequent approach to be inadequate in solving our problem, due to the poor recall scores as reported in figure \ref{fig:confusion-matrix}.
-In spite of many efforts to improve the model's performance through significant manual revisions to the college major dataset,
-and testing multiple different ML models and configurations,
-the performance of the model was still deemed unsatisfactory.
-
-\section{Chapter Summary}
-
-In this chapter, we explored an approach to solving this dissertation's research question by 
-utilising a very popular RIASEC dataset.
-There was a description of the motivation in using this dataset, followed by an explanation of the various data engineering 
-performed on both datasets in order to make it more suitable for a traditional ML problem.
-We evaluated the performance of the best performing model, and found the results to be unsatisfactory.
-Ultimately, we believe the unsatisfactory results to be a result of the poor coverage of the 48 questions on many different fields of study.
-As a result, we believe that a dataset such as this may not be particularly useful in solving a problem similar to the one addressed in this dissertation.
-That being said, we felt it was worth writing about our inadequate solutions in this chapter, 
-firstly because of the popularity of this dataset,
-and secondly to add a useful contribution to the literature.
-In the next chapter, we will explore a more successful approach in solving this problem.
-
-\chapter{todo!}
-\label{sec:college-major-dataset}
 
 \newpage
 
@@ -255,7 +168,102 @@ elementary education & education && vet. technology & healthcare &&  &  \\
 \multicolumn{8}{l}{\textit{*beh. health = behavioural health and human services}} \\
 \end{tabular}
 \caption{Complete list of College Majors and Categories.}
+\label{tab:college-major-dataset}
 \end{table}
+
+We now have a college major dataset with over 200 college majors and 16 associated college major categories, 
+and a RIASEC dataset with over 70,000 user's college majors and the results of their RIASEC quiz.
+Using a pre-processing script as given in section \ref{sec:preprocessing-script},
+we can categorise each of the $\sim$70,000 users in the RIASEC dataset into one of 16 college major categories as provided in the college major dataset.
+This augmented dataset will be instrumental in training a Machine Learning model to predict a user's college major category from the results
+of this RIASEC quiz, which will be explored in the next section.
+
+\section{Machine Learning Model Selection}
+
+From the work in the last section, we now have a dataset with over 70,000 user's RIASEC quiz results, and their college major category.
+This can be reconceptualised in the context of a Machine Learning (ML) problem: 
+we have 48 input features, and 1 output variable.
+In this case, each input feature is a rating from 1--5, indicating the user's enjoyment towards a particular task,
+and the output is one of 16 college major categories.
+
+Many different ML models were trained on this data, and they were tested on unseen data to gather evaluation metrics,
+in particular: top-1 and top-3 accuracy.
+The ML model with the best
+top-1 and top-3 accuracy was the Histogram-based Gradient Boosting Classifier (HGBC), with it's implementation details given in listing \ref{lst:hgbm-implementation} below:
+
+\begin{lstlisting}[caption={Histogram Gradient Boosting Classifier Implementation}, label={lst:hgbm-implementation}]
+hist_gradient_boosting_machines_model = HistGradientBoostingClassifier(
+        class_weight='balanced',
+        l2_regularization=1.0
+    )
+\end{lstlisting}
+
+This implementation of a HGBC achieved a top-1 accuracy of 0.319, and a top-3 accuracy of 0.606.
+In other words for the unseen test set, this HGBC implementation predicted the user's college major category correctly in 31.9\% of cases (top-1 accuracy), 
+and in 60.6\% of cases, the model predicted the user's college major category correctly in it's first 3 predictions (top-3 accuracy).
+Seeing as this implementation of the HGBC model had the best performance metrics, we can evaluate it's performance further in the next section.
+
+\section{Model Evaluation}
+
+In this section we will take a closer look in evaluating the chosen HGBC model's performance.
+In figure \ref{fig:confusion-matrix} below, we can observe the Confusion Matrix of the chosen model, 
+showcasing the recall scores.
+
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[scale=0.35]{images/recall-confusion-matrix-better.png}}
+    \caption{A Confusion Matrix for Recall scores on the HGBC model.}
+    \label{fig:confusion-matrix}
+\end{figure}
+
+To take one example, we can observe that the model achieved a recall score of 0.4 for the ``sports" college major category,
+meaning that of all the users with ``sports'' as their college major category, 
+the model correctly predicted ``sports'' for these users 40\% of the time.
+Relatively speaking, we can see that this recall score of 0.4 is the highest performing recall score
+out of all the other college major categories.
+In particular, we can see the model struggling with some college major categories, such as ``foreign languages'' with 
+a recall score of 0.1, and ``social science'' with a score of 0.05,
+meaning that the model correctly predicts the user's college major category 10\% and 5\% of the time respectively.
+
+Evidently speaking, the performance of this model was disappointing as demonstrated through the low recall scores referenced above.
+Many different ML models with differing configurations were applied to the problem, failing to provide any improvements to this HGBC implementation.
+As well as this, the college major dataset underwent significant manual revisions - adding new college majors and splitting up different college major 
+categories, all failed attempts to improve the model's performance.
+
+\section{Limitations of the Approach}
+
+In the previous section, we established the poor performance of this model in predicting the user's college major category given the results of a 48-question RIASEC quiz.
+In this section, we will provide more insights as to why the model with these popular datasets performed poorly.
+
+In the context of predicting a user's college major, the primary limitation of the chosen RIASEC dataset is the lack of coverage by the questions.
+In other words, the 48 questions do not adequately cover many areas of study,
+which we believe is the primary reason behind the poor performance behind the model.
+For example, if we revisit figure \ref{fig:confusion-matrix}, we can observe very poor model performance on the ``foreign languages'' category, with a recall score of 0.1.
+This is simply because there are no questions in the RIASEC dataset that are explicitly related to languages or linguistics.
+To provide another example, we can observe very poor recall scores for the ``law'' category, most likely because
+there are no questions in the quiz that are explicitly related to law or government.
+Without this data, the model finds it very difficult to discern if a user is studying in the ``foreign languages" or ``law'' categories, explaining the model's poor performance on these categories.
+
+Due to this limitation, we found this dataset and subsequent approach to be inadequate in solving our problem, due to the poor recall scores as reported in figure \ref{fig:confusion-matrix}.
+In spite of many efforts to improve the model's performance through significant manual revisions to the college major dataset,
+and testing multiple different ML models and configurations,
+the performance of the model was still deemed unsatisfactory.
+
+\section{Chapter Summary}
+
+In this chapter, we explored an approach to solving this dissertation's research question by 
+utilising a very popular RIASEC dataset.
+There was a description of the motivation in using this dataset, followed by an explanation of the various data engineering 
+performed on both datasets in order to make it more suitable for a traditional ML problem.
+We evaluated the performance of the best performing model, and found the results to be unsatisfactory.
+Ultimately, we believe the unsatisfactory results to be a result of the poor coverage of the 48 questions on many different fields of study.
+As a result, we believe that a dataset such as this may not be particularly useful in solving a problem similar to the one addressed in this dissertation.
+That being said, we felt it was worth writing about our inadequate solutions in this chapter, 
+firstly because of the popularity of this dataset,
+and secondly to add a useful contribution to the literature.
+In the next chapter, we will explore a more successful approach in solving this problem.
+
+\chapter{}
 
 \section{Preprocessing script for college course/major classification}
 \label{sec:preprocessing-script}
@@ -320,16 +328,6 @@ ABBREVIATIONS_MAP = {
     'gaeilge': 'irish'
 }
 
-\end{lstlisting}
-
-\section{Histogram Gradient Boosting Classifier Implementation}
-\label{sec:hgbm-implementation}
-
-\begin{lstlisting}[caption={Histogram Gradient Boosting Classifier Implementation}, label={lst:snippet2}]
-hist_gradient_boosting_machines_model = HistGradientBoostingClassifier(
-        class_weight='balanced',
-        l2_regularization=1.0
-    )
 \end{lstlisting}
 
 \section{RIASEC Trait distribution per Academic Interest}
@@ -1024,5 +1022,3 @@ Plan creative activities to help kids develop & social\\
 \caption{Raw evaluation metric data for all participants ($n=31$), comparing the Actual RS and the Baseline.}
 \label{tab:raw-metrics-data}
 \end{table}
-
-\chapter{}
