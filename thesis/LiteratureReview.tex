@@ -2,31 +2,29 @@
 \label{chap:literature-review}
 
 In this chapter, there will be a review of the literature regarding the fundamentals of college course choice.
-Interviews were also conducted with Irish GC's to assist in this research,
-and we will discuss the insights gathered from these interviews.
-In light of this, we will examine closely-related work,
+In light of this, we will examine closely-related works,
 which will allow us to clearly define our research gap.
 
 \section{Fundamentals of College Course Choice}
 \label{sec:fundamentals}
 
-\textbf{todo might have to edit this if i move stuff to the appendix}
+In order to design a college course RS, we must first gather some information about the user,
+and this information will then be used to recommend suitable college courses to the user.
+Should the RS ask the user about their hobbies, grades, values or other information we are not aware of?
+Which of these factors are relevant or irrelevant to their college course choice?
+These difficult questions are what research objective \ref{res-obj-information} seeks to answer:
+``Identify the relevant information an RS should question a user to recommend suitable college courses''.
 
-\textbf{todo - talk about why this level of depth is relevant and important, gives a sense of purpose to what they are reading}
-
-This section will explore the fundamentals of college course choice,
-and this exploration will follow a narrative as follows.
-Firstly, we will explore why students choose their college and college course
-by examining the common justifications in their decision.
-Afterwards, we will examine the external influences, or the `how', of their college and college course choice,
-including parent's educational background, gender and others.
-This equips us with an insight as to how and why students choose their college course,
-and the next logical question to ask is: \emph{``So, what college course should people study?"}
-We will turn our attention to academic literature and popular sentiment in answering this question.
-Finally, after understanding the `how', the `why' and the `should' of college course choice,
-we will examine the features of job and career satisfaction
-and reverse-engineer these insights to help us answer the all-elusive question:
-\emph{``What college course should people study?"}
+However, in order to answer research objective \ref{res-obj-information}, 
+we must first understand the fundamentals of college course choice, which is the intention of this section.
+This will include a review of why people chose their college course and college,
+and the external influences on their decision.
+As well as this, we will explore the theories of career choice
+and job satisfaction.
+Ultimately, this will help us answer research objective \ref{res-obj-answer}:
+Provide an answer to the question: \emph{``What college course should people study?"}.
+In turn, this will help us answer research objective \ref{res-obj-information},
+which would ultimately enlighten the final design of our RS.
 
 \subsection{College Course Justifications}
 \label{sec:college-course-justifications}
@@ -60,7 +58,7 @@ the papers still conclude that all the above justifications are relevant across 
 \label{sec:college-justifications}
 
 Choosing a college course is one decision, but a separate and closely related decision is choosing the college itself.
-For example, a student may settle on studying Computer Science, but the next question to ask is: \emph{``Where do I study Computer Science?"}
+For example, a student may settle on studying computer science, but the next question to ask is: \emph{``Where do I study computer science?"}
 In this subsection, there will be an examination into a student's justifications in choosing their college.
 
 \cite{oya2015university, cmp2018students, baharun2010institutional} have found that students provide a variety of justifications for their college choice, the most prominent justifications include:
@@ -75,180 +73,63 @@ In this subsection, there will be an examination into a student's justifications
 \end{enumerate}
 
 Once again, this is by no means an exhaustive list, however, it does cover the most prominent justifications of students' college choice.
-
 That being said, there seem to be cultural differences 
 in priorities of college choice justifications.
 For instance, in \cite{baharun2010institutional}, a study of Malaysian college students, the college's reputation was the most important justification in college choice,
 whereas in \cite{telli2006university}, a study of Turkish college students, departments and academic staff were the most important justification in college choice.
 While we can clearly observe cultural differences in the most important justifications for college choice,
-a similar point stands:
-just because Malaysian students, for example, value college reputation as the most important justification in college choice, 
-does not imply Malaysian students do not value other aspects to the college when justifying their college decision, 
-as can be found in \cite{baharun2010institutional}.
+we can make a very similar conclusion from the previous section:
+despite these differences, the papers still
+conclude that all the above justifications are still relevant across different cultures.
 
 \subsection{External Influences}
 \label{sec:external-influences}
 
+\textbf{todo - maybe i actually don't need them in the appendix at all? just remove them?}
+
 In subsections \ref{sec:college-course-justifications} and \ref{sec:college-justifications}, we examined the
 justifications students provided in relation to their college and college course choice.
 However, in this subsection we will discover that a student does not make this decision in a vacuum.
-In fact, a student's college and college course choice is shown to be influenced by a variety of external influences.
-For instance, we will examine the influence of a parent's educational and financial 
-background on a student's college and college course choice.
-In addition to this, we will explore the influence of gender, race and ethnicity on college course choice.
-All of the aforementioned influences are being classed under the umbrella term ``External Influences" for the sake of clarity.
+For the sake of brevity and relevance to this dissertation, more detailed discussions of these influences are provided in 
+referenced subsections in the appendix.
+As a result, this subsection will provide a more brief overview of these influences.
 
-\subsubsection{Parent's Educational and Financial Background}
-
-\textbf{edit Note from Brendan: thinking of putting this in appendix for brevity}
-
-In this discussion, we will explore the influence of a parent's educational and financial background on a student's college and college course choice.
-According to \cite{leighton2023rich}, there is a strong correlation between a student's college course choice and their parent's educational background.
+According to \cite{leighton2023rich,mullen2011degrees}, there is a strong correlation between a student's college course choice and their parent's educational background.
 According to their findings, students with more educated parents will lean towards college courses with lower early-career earnings,
 but with faster growth towards higher earnings later in their career.
-This is likely because students with stronger financial safety nets can afford to pursue college courses with lower early-career earnings in the short-term,
-and await higher earnings later on in their career.
-On the other hand, according to \cite{leighton2023rich}, students with less educated parents will lean towards college courses with more defined career paths 
+On the other hand, students with less educated parents will lean towards college courses with more defined career paths 
 and higher early-career earnings.
-This is likely because students with weaker financial safety nets can not afford to pursue college courses with lower early-career earnings in the same way students with stronger financial safety nets can.
-As a result, students with less educated parents prioritise ``safer" college courses with more defined career paths that yield higher early-career earnings.
-There are analogous findings in \cite{mullen2011degrees}: working-class parents generally encourage their children to attend college courses 
-that directly prepare them for careers, whereas middle class parents generally encourage college courses where their children can explore their interests.
-Moreover, \cite{mullen2003goes} has shown that the parental educational background of a student has a strong correlation with 
-the student's attendance in a postgraduate degree program.
-The findings above all give credence to the idea that an individual's college course choice is strongly influenced by both their parent's educational and financial backgrounds.
+This demonstrates the overall point that 
+the educational and financial background of a student's parents are shown to be a large influence on their college course choice.
+A more detailed discussion of this is given in subsection \ref{sec-appendix:parent-educ}.
 
-Interestingly, according to \cite{leighton2023rich}, they failed to find a strong correlation between the parental income of a student 
-and their college course choice.
-However, they did find a strong correlation between the parental income of a student and the college they study at.
-That being said, it is worth mentioning this study was conducted on data obtained from the United States Census Bureau 2009-2018 survey\footnote{\url{https://www.census.gov/programs-surveys/acs}}.
-According to \cite{college2025pricing}, college undergraduate fees in the USA can range from \$4,150 - \$45,000 annually,
-resulting in a much larger financial barrier to entry for American students from less affluent backgrounds.
-This would explain the strong correlation between parental income and the student's college choice in the USA.
-
-When it comes to Ireland, as discussed in section \ref{sec:college-course-fees}, the majority of Irish undergraduate college courses
-are priced at \euro 2,500 annually, a much more affordable price for undergraduate education compared to the USA.
-This price not only lowers the financial barrier of entry for Irish students from less affluent backgrounds,
-but there are also higher education grants\footnote{\url{https://www.susi.ie/}} for Irish students with income underneath a certain threshold,
-allowing Irish students from less affluent backgrounds to attend college.
-Due to the lower financial barrier of entry for Irish undergraduate students in comparison to undergraduate students in the USA,
-the author would argue that the finding, specifically in \cite{leighton2023rich} that parental income is correlated with a student's college choice,
-would not be applied so strongly to the Irish context given the lower financial barrier to entry in Ireland.
-
-That being said, it would be ignorant to assume that parental income is not an influence on college choice for Irish students.
-For example, according to the QS World University Rankings 2026\footnote{\url{https://www.topuniversities.com/world-university-rankings?countries=ie}},
-the two top-ranked universities in Ireland are in Dublin.
-According to \cite{tudublin2025cost}, it is estimated to cost a student an additional \euro4,000 - \euro11,000 every year to live away from home in 
-Dublin, compared to someone who lives in Dublin at a family home, clearly demonstrating a limitation imposed 
-on Irish students who cannot afford that kind of money.
-As a result, we have clearly demonstrated that an Irish student's financial background limits their college choice,
-which naturally has an influence on their college choice.
-
-\subsubsection{Gender}
-
-\textbf{edit Note from Brendan: thinking of putting this in appendix for brevity}
-
-In this discussion we will explore the influence of gender on college course choice.
-Figure \ref{fig:gender-diff} visualises the proportional difference of gender across different fields of study in Irish colleges.
-As is clearly observable, many fields of study are not equal in gender.
-To give some extreme examples of college course participation in Ireland, according to \cite{hea2024key}, Fisheries has 100\% male participation, and Pre-school education has 97\% female participation,
-demonstrating the large gaps in gender proportions across different fields of study in Ireland.
-
-\begin{figure}[H]
-    \centering
-    \fbox{\includegraphics[scale=0.42]{images/gender-differences.png}}
-    \caption{Mean gender differences across different fields of study in Irish colleges. Red=Male, Blue=Female, Green=Non-binary or Prefer not to say. Source: \cite{hea2024key}.}
-    \label{fig:gender-diff}
-\end{figure}
-
-The above Figure \ref{fig:gender-diff} and aforementioned statistics clearly demonstrate gender differences across different fields of study,
-and the next question to ask is: ``what are the negative impacts, if any, of studying a college course that 
-features a strong proportion of one gender?" \cite{slattery2023navigating} conducted a qualitative study on 
-21 female students studying either Mathematics (66\% male), Physics (68\% male), Computer Science (74\% male) or Engineering (71\% male)
-in Ireland - parenthesised data is from \cite{hea2024key}.
-\cite{slattery2023navigating} found that during their studies, females felt under-valued by their male peers,
+As well as this, a student's gender is shown to be an influence on their college course choice.
+For example, \cite{slattery2023navigating} found that female students studying Science, Technology, Engineering or Mathematics (STEM)
+felt under-valued by their male peers,
 which negatively impacted their self-beliefs and interest in the course subject matter.
-In addition to this, they found that females suffered more pressure to perform, 
-and were less likely to engage in the learning environment,
-showcasing an overall negative experience for females in male-dominated fields of study.
+In \cite{iwish2025survey}, a survey of Irish secondary school girl's attitudes towards STEM,
+65\% of girls reported that ``Poor gender equality in STEM careers" is a barrier to continuing their studies in STEM,
+demonstrating the larger point that gender is an undeniable influence on a student's college course choice.
+A more elaborate discussion of this is provided in subsection \ref{sec-appendix:gender}.
 
-Experiences of isolation and lack of belonging due to gender differences, such as the example given above, are well-known.
-To provide an example, in \cite{iwish2025survey}, a survey of Irish secondary school girl's attitudes towards Science, Technology, Engineering and Mathematics (STEM),
-65\% of girls reported that ``Poor gender equality in STEM careers" is a barrier to continuing their studies in STEM.
-This is quite striking considering that girls express these viewpoints before they even begin studying in these STEM-related fields.
-These feelings act as deterrents for girls considering studying in STEM, influencing their college course choice solely on their gender.
-
-A specific example of poor gender equality in STEM was provided in this discussion, however it demonstrates the overall point that gender has 
-a strong influence on college course choice of students in Ireland.
-
-\subsubsection{Race and Ethnicity}
-
-\textbf{edit Note from Brendan: thinking of putting this in appendix for brevity}
-
-In this discussion, we will explore the influence of race and ethnicity on college course choice.
-The author was unable to find statistics for racial or ethnic differences by college course study in Ireland,
-so statistics from \cite{racial2015peter} are used, which was collected from the National Center for Education Statistics in the US Department of Education.
-
-According to analysis from Hinrichs, there are a handful of striking racial or ethnic differences by college course choice.
-For example, as shown in Figure \ref{fig:stem-diff}, 31\% of Asian students study a STEM-related college course,
-a much higher proportion compared to 11\% black, 13\% hispanic and 15\% white students.
-An additional example of racial or ethnic differences by college course choice can be found in Figure \ref{fig:public-admin-diff},
-which examines the proportion of race and ethnicity in Public Administration and Social Service:
-nearly 4\% of black students study in this field, a relatively large difference compared to under 1\% for Asian,
-2.5\% hispanic and 1.5\% white students studying in this field.
-
-\begin{figure}[H]
-    \centering
-    \begin{minipage}[c]{0.45\linewidth}
-        \centering
-        \includegraphics[scale=0.45]{images/stem-diff.png}
-        \caption{Source: \cite{racial2015peter}.}
-        \label{fig:stem-diff}
-    \end{minipage}\hfill
-    \begin{minipage}[c]{0.45\linewidth}
-        \centering
-        \includegraphics[scale=0.45]{images/public-admin-diff.png}
-        \caption{Source: \cite{racial2015peter}.}
-        \label{fig:public-admin-diff}
-    \end{minipage}
-\end{figure}
-
-Further to this analysis, we can examine the work conducted by \cite{dickson2010race}, a study performed on administrative data from three Texas Universities (n=127,330).
-Similar proportions of findings were reported, for example Dickson found that
+In addition to this, a student's race or ethnicity is shown to be an influence on their college course choice.
+In \cite{dickson2010race}, a study on three Texas Universities (n=127,330),
 37\% of Science-related college course students were Asian, with 26\% white, 24\% black and 23\% hispanic students being the other prominent racial/ethnic groups.
 As to why this may be the case, \cite{xie2003social} argues that Asian-Americans prioritise ``objective" credentials and ``hard" skills, 
 which are more difficult to discriminate against in job interviews that are more focused on technical ability, as opposed to job interviews focusing more on ``soft" skills.
-This poses a potential explanation for the relatively high proportion of Asians in Science-related college courses compared to other racial/ethnic groups.
+Ultimately, this demonstrates the greater point that a student's race or ethnicity influences their college course choice.
+Once again, a more nuanced discussion of this is provided in subsection \ref{sec-appendix:race}.
 
-Overall, the findings of \cite{racial2015peter} and \cite{dickson2010race} demonstrate the differing proportions of 
-race or ethnicity across college course choices in the USA.
-In this discussion, there was particular focus on the high proportion of Asians in Science-related college courses,
-for which \cite{xie2003social} provided a potential explanation.
-More generally, this demonstrates the undeniable influence of race and ethnicity on an student's college course choice.
+As is clearly evident from the review in this subsection, there are a variety of external factors that 
+influence a student's college course choice, in particular, their gender, race or ethnicity, and parent's educational or financial 
+background.
 
-\subsubsection{Summary of External Influences}
-
-In this subsection, there was an exploration into the external influences of a student's college and college course choice.
-A student's college course choice is clearly influenced by their personal preferences towards the college and college course choice,
-as outlined in subsections \ref{sec:college-course-justifications} and \ref{sec:college-justifications} respectively.
-That being said, to assume a student's college choice is influenced solely on their personal preferences would be ignorant
-when one examines the data.
-In this subsection, there was a discussion into the influence of parent's educational and financial background on a student's college and college course choice.
-As well as this, there was a discussion on the undeniable influence of gender, race and ethnicity on a student's college course choice.
-This also involved an exploration into the lack of belonging experienced by students in college courses dominated by another gender.
-These experiences act as deterrents for students considering these college courses, resulting in an influence on their college course choice,
-as we saw in the example of low female representation in STEM-related college courses.
-More generally, this demonstrates the fact that there are indeed external influences on a student's college and college course choice.
-
-\subsection{Theories of Career \& College Course choice}
+\subsection{Theories and Hypotheses of Career choice}
 \label{sec:theories-college}
 
-In the previous subsections, we examined the justifications students provided for picking their college courses,
-their justifications for picking their college,
-and the external influences on their college course choice.
-Ultimately, these subsections attempted to provide insights into the question: \emph{Why do people pick their college courses?}
-In this subsection, we will turn our attention to academic literature and popular sentiment,
-and attempt to answer the question: \emph{What college course should people study?}
+In this subsection, we will turn our attention to academic literature and popular sentiment
+to help us answer the question posed in research objective \ref{res-obj-answer}:
+\emph{``What college course should people study?"}
 
 \subsubsection{Holland's Theory of Career Choice}
 
@@ -297,16 +178,6 @@ For instance in \cite{einarsdottir202012}, they argue the personality model may 
 In spite of these imperfections, large bodies of research have mostly supported Holland's personality model among high-school students, college students 
 and working adults, according to \cite{nauta2010development}, demonstrating the theory's robustness over time.
 
-Holland's theory has become ubiquitous in Guidance Counselling in Ireland.
-The Career Interests Inventory (CII)\footnote{\url{https://teamfocus.co.uk/psychometrics/motivation/career-interests-inventory}}, a quiz that provides an individual with their Holland Code,
-is listed by the Irish Department of Education
-as an acceptable career guidance test in Guidance Counselling practice, according to \cite{gov2024list}.
-In addition to this, the leading career guidance website in Ireland is CareersPortal\footnote{\url{https://careersportal.ie/}},
-with under 20 million average active recipients per month\footnote{\label{careers-portal-footnote} According to \url{https://careersportal.ie/about-us}}.
-CareersPortal helps users find jobs using an Interest Profiler quiz\footnote{\url{https://careersportal.ie/members/interests_check.php}} 
-which is largely inspired by Holland's six personality categories,
-demonstrating Holland's theory's extensive impact across career guidance and Guidance Counselling in Ireland.
-
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.3]{images/holland-riasec-model.png}
@@ -314,37 +185,14 @@ demonstrating Holland's theory's extensive impact across career guidance and Gui
     \label{fig:holland-riasec-model}
 \end{figure}
 
-\subsubsection{Life-Span, Life-Space Theory}
-
-\textbf{edit Note from Brendan: thinking of putting this in appendix for brevity}
-
-Despite the evident success and utility of career fit theories' such as Holland's,
-there are limitations to these kinds of theories.
-Most notably, matching an individual's traits to a job's traits involves the individual making a decision at a particular point in time.
-\cite{super1980life} argues that an individual's career is not one static decision.
-Rather, Super poses that career development is a lifelong process with a series of developmental stages,
-in which the individual's self-concept evolves over their lifespan.
-In this view, an individual's career is the cumulative outcome of many decisions taken at different points in time.
-Even in the case where an individual's studied college course is not relevant to their job - in which 23\% of Irish graduates reported in \cite{hea2018graduate} - 
-under Super's theory, that decision is still encompassed as part of the individual's career.
-
-Super coined this as Life-Span, Life-Space Theory (LSLST).
-The ``Life-Span" refers to the lifelong developmental process of career,
-whereas ``Life-Space" refers to the jobs and roles that occupy the individual at different stages in their career,
-according to the definition from \cite{hartung2013life}.
-In spite of the prominence of LSLST, it has faced criticism for failing to account for the
-dynamic careers of women, which are often interrupted by caregiving, according to \cite{fitzgerald1994career}.
-It is worth noting that Holland's theory is not at odds with Super's theory,
-rather Super intended to complement the established utility of Holland's theory, according to \cite{greenhaus2006super}.
-
 \subsubsection{The Passion Hypothesis}
 
-\textbf{edit Note from Brendan: thinking of putting this in appendix for brevity}
-
-One of the most popular sentiments when it comes to career advice is to \emph{``Follow your Passion"}.
+One of the most popular responses to the question \emph{``What college course should people study?"}
+is to \emph{``Follow your Passion"}.
 This sentiment was birthed in \cite{bolles1972color}, a self-help book for job-hunters, which
 sold over ten million copies\footnote{As of 2016 according to: \url{https://shorturl.at/jiHn2}}.
-The sentiment gained a surge in popularity when Steve Jobs, the co-founder of \emph{Apple}\footnote{\url{https://www.apple.com/}}, famously claimed in his commencement speech at the 2005 Stanford University Graduation:
+The sentiment gained a surge in popularity when Steve Jobs, the co-founder of \emph{Apple}\footnote{\url{https://www.apple.com/}}, 
+famously claimed in his commencement speech at the 2005 Stanford University Graduation:
 \emph{``The only way to do great work is to love what you do"}\footnote{\url{https://www.youtube.com/watch?v=UF8uR6Z6KLc}}.
 Jobs' speech garnered a large amount of popularity, amassing over 48 million views\footnote{As of March 2026.} on YouTube,
 demonstrating the sentiment's widespread appreciation.
@@ -356,35 +204,19 @@ The underlying implication of this advice is that passions are pre-existing,
 and neglects the idea that passions can be developed.
 This then prompts the question: \emph{``Can passion be found or developed at work?"},
 which is answered in \cite{o2018implicit}.
-Following the definition in \cite{dweck2006mindset}, In O'Keefe et al.'s, experiment, the participants were broadly categorised into ``fixed theorists", 
+Following the definition in \cite{dweck2006mindset}, 
+in O'Keefe et al.'s, experiment, the participants were broadly categorised into ``fixed theorists", 
 who believed that personal interests are relatively fixed,
 and ``growth theorists" who believed personal interests are developed.
-According to O'Keefe et al.'s findings, the fixed theorists were more likely to dampen their interests in areas outside of their existing interests,
+According to their findings, the fixed theorists were more likely to dampen their interests in areas outside of their existing interests,
 suggesting a level of narrow-mindedness for the fixed theorists.
 As well as this, when engaging in a new interest became difficult, 
 the interest dropped significantly more for fixed theorists in comparison to growth theorists,
 suggesting that growth theorists have more endurance when encountering inevitable difficulties when pursuing their interests.
 
-Endorsing the Passion Hypothesis implies that one's passions are pre-existing, 
-and fails to recognise that passions can be nurtured at work, as is similarly found in \cite{chen2015finding}.
-While the sentiment is not officially a theory according to scientific definition\footnote{Following the definition according to \url{https://www.fieldmuseum.org/blog/what-do-we-mean-theory-science}},
-it is commonly given as career advice, 
-and as a result was relevant to this discussion.
-
-\subsubsection{Summary of Theories of Career \& College Course choice}
-
-In this section, we turned our attention to academic literature and popular sentiment in answering the question:
-\emph{What college course should people study?}
-An exploration of Holland's theory of career choice was provided, a ubiquitous and transformative career choice theory.
-In spite of Holland's theory's established robustness in the literature, 
-it fails to account for the dynamic, lifelong nature of careers.
-The work of Super nicely fits in, as Super conceptualises career in this manner under Life-Span Life-Space theory (LSLST).
-This theory emphasises the notion of career as a developmental process in which an individual evolves in their self-concept.
-Super developed LSLST to complement the growing influence of Holland's theory.
-We can then turn our attention away from academic literature to popular sentiment - 
-in which an exploration into the appealing advice ``Follow your passion" was given.
-On the whole, this section provided the reader with a solid understanding into the differing theories of career 
-and college course choice.
+As was argued, the Passion Hypothesis is limited career advice, 
+and we desire a more nuanced answer to the question posed by research objective \ref{res-obj-answer}:
+\emph{``What college course should people study?"}.
 
 \subsection{Job \& Career Satisfaction}
 \label{sec:job-and-career-satisfaction}
