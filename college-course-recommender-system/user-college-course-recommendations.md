@@ -41,8 +41,8 @@
     * **4 Years**
 
 * **8. General Nursing**
-    * University College Cork
-    * **452** points
+    * **Available at:** University College Cork, Maynooth University, University College Dublin
+    * **444-466** points
     * **4 Years**
 
 * **9. Mental Health Nursing**

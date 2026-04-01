@@ -484,11 +484,6 @@ Thus, we can consider the actual RS to demonstrate satisfactory performance in t
 
 \section{Experiment Findings and Analysis}
 
-% owen's thoughts:
-% "key themes that came out"
-% does the stats correlate with their experience?
-%     they said it was good, but 
-
 From our analysis in the previous section, the aggregated results of our experiment tell quite a straightforward story.
 That being said, there were numerous findings gathered from the the experiments as they were being conducted,
 either from the PI's observations, or participant's verbal feedback.
@@ -504,10 +499,20 @@ This section will discuss these findings.
 
 After completing the 126-question quiz, all participants were asked if they could understand the questions 
 and tasks at hand. 
-There was unanimous agreement that the questions were straightforward and easily understandable,
-a positive as because an RS like this should be designed without requiring the participant to have specific domain knowledge.
+There was unanimous agreement that the questions were straightforward and easily understandable.
+This is a positive insight as an RS like this should be designed without requiring the participant to have specific domain knowledge.
 
-Additionally, participants were asked if they 
+Additionally, participants were asked if they found the 126-question quiz to be too long,
+or if they felt mentally exhausted after answering the quiz.
+There was also unanimous agreement that the quiz was not cognitively exhausting or demanding,
+demonstrating an appropriate level of quiz length and complexity.
+As well as this, participants felt the quiz was an appropriate length given that 
+there are many different fields of study - in our case, that is 21 different academic interests and six RIASEC traits.
+That being said, a handful of participants expressed that some of the questions felt repetitive,
+particularly the questions around the natural sciences which includes:
+chemical science, life science, physical science, engineering
+and healthcare, suggesting that some of the questions around these academic interests could be refined or removed 
+to avoid repetition or redundancy.
 
 \subsection{The Role of Subjectivity in Answering the Quiz}
 
@@ -567,23 +572,103 @@ however they received recommendations for courses that involved drawing, pottery
 as they were also classed under the same `creative arts' category.
 While these are particular examples, it demonstrates the greater point that 
 some of the academic interests labels were simply too broad.
-\textbf{maybe this is better discussed in future work, idk!}
 
-% on the whole, people found the questions easy to understand and answer	
-	% no sense of mental exhaustion or cognitive overload
-	% found the quiz length to be sufficient - long enough to cover enough the different interests, but not too long
+\subsection{The Prestige of Leaving Certificate Points}
 
-% * humanities, creative arts, social science are very broad and could be narrowed down
-% * the RS could have a feedback loop, where the user is prompted again if they want to change their college course course
-%     * e.g. declan only putting down tcd, ucd when he actually got recommended a lot of arts courses, could have benefitted from BIMM, IADT, etc.
-%         * e.g. me wanting education but not doing dcu/marino/
-%     * there are a looot of colleges and people are frankly unaware of what they do
-%     * maybe the RS should run on all colleges (no filter, despite what the user puts down)- and if there are courses being recommended for those colleges, the system could ask the user: "hey, we got some course suggestions from these colleges because you scored highly in these areas, would you like to include these colleges in your final recommendation list?
-%         * **when running test with doill he talked about this, mention it!!!**
-%     * but it's a trade-off: if you over-engineer the system with feedback you can make the user drop out of the system - owen's advice
+As mentioned in subsection \ref{sec:lc-points}, the LC points associated with a college course is commonly misunderstood as 
+reflecting the difficulty of the course, rather it is more accurate to say the LC points reflect the demand of the course.
+While that is the technical definition, the LC points associated with a course are commonly associated as a status symbol.
+In \cite{okelley2026professor}, the former president of Maynooth university accused Irish higher education institutions of 
+deliberating driving up the LC points of their college courses to create an illusion of quality,
+which supports the idea that LC points are a symbol of prestige for a college course.
 
-% * another "iterative" idea
-%     * after showing the recs to the user, their preferences may evolve/change - e.g. me getting recommended bio/chem courses but then preferring other things
-%     * you could attach a button to a course and ask the user if they want to revise their 6 question answers for that specific category
-%     * e.g. click on bio course -> they have a chance to re-rate the 6 life science questions
+In light of this, recall that our baseline RS simply recommends the highest LC point-courses that satisfy the college, NFQ level and LC points requirements.
+In one particular case, a participant explicitly expressed weak interest in law and chemical science through their quiz answers.
+However, when the participant received recommendations from the baseline RS for law and pharmacy courses,
+they grew interested in the idea of studying those courses.
+The PI was struck by this, and asked why the participant was interested in studying law and pharmacy,
+when only minutes ago the participant poorly rated law- and pharmacy-related questions in the quiz.
+The participant remarked that the high LC points associated with the courses attracted them to it.
+While this is one particular example, it supports a larger point and corresponds with our prior findings
+that the LC points of a college course can be seen as status symbols, even in cases where the user previously expresses 
+disinterest in the category.
+
+That being said, having a user's preferences change during the interaction with an RS is not unusual.
+In the context of RS's, \cite{chen2013human} describes the concept of \emph{Preference Construction}:
+a phenomenon where humans do not have a clear idea of their preferences prior to a decision-making process, 
+and when they are confronted with making a decision, they construct their preferences in that moment.
+Clearly, these preferences are dynamic, and they can change upon learning new information.
+For example, discovering that a college course one previously expressed no interest in,
+has high LC points, shifting one's perception towards the college course.
+
+Naturally, the inconsistency and changeability of human preferences complicates the RS process.
+However, it is worth remarking this insight as it is evidently relevant to the context of 
+college courses recommendations.
+
+\subsection{Limitations of Question Phrasing}
+
+Recall that in subsection \ref{sec:question-phrasing},
+early prototypes of the RS phrased questions originally as:
+\emph{``I would like to do this activity: ...''}.
+However, this approach was turned down as users were positively rating activities they were recreationally 
+interested in - like philosophy, art, etc. - although they would not realistically consider studying related 
+college courses due to job prospects or salary.
+In light of this, the question was then rephrased as: \emph{``I would like to do this activity \textbf{for a living:} ..."},
+to turn the user's focus to a college course they would realistically study,
+which better answers our research question.
+
+As the experiments were being conducted, participants 
+received college course recommendations in areas they found interesting,
+such as linguistics or mathematics education.
+In many cases, these recommendations were a direct reflection of their quiz results.
+For example, they would receive teaching recommendations due to their positive response to teaching-related questions.
+However, when it came down to realistically considering to study the college course,
+a handful of participants turned the recommendation down,
+due to perceived low salaries or job prospects from these college courses.
+
+These findings demonstrate a weakness in relevance for the college course RS.
+Evidently, rephrasing the question to include `for a living' was unsatisfactory in 
+resolving this problem completely.
+Arguably, this problem could be better addressed by additional rephrasing of the question.
+We hypothesise that a more explicit phrasing of the question could resolve the problem, such as:
+\emph{``I would like to do this activity \textbf{as a job:} ..."}, or 
+\emph{``I would like to do this activity \textbf{as part of a college course:} ..."}.
+
+\subsection{Limitations of Unique College Course Recommendations}
+
+As described in subsection \ref{sec:enhance-diversity-and-serendipity-recs},
+college courses with identical titles are not recommended.
+For example, if computer science from Trinity College Dublin (TCD) is recommended,
+then computer science at University College Dublin cannot be recommended.
+Admittedly, there is a potential loss in relevance due to this design decision.
+However, it was justified as a trade-off as it could result in more 
+diverse and serendipitous recommendations.
+
+This trade-off was experienced firsthand in the experiments.
+In a handful of cases, participants expressed interest in a particular college course,
+although they remarked they would prefer to study the same course at a different college.
+In one specific case, a participant was recommended general nursing in University College Cork (UCC),
+although they would not realistically consider studying the course due to location constraints, and they would consider studying the course 
+in a more convenient location.
+The PI inquired the participant about this decision, as the participant expressed an interest in studying at UCC 
+in their quiz.
+The participant remarked that UCC was a lower-priority college, and they would have a preference for studying elsewhere.
+
+While the given example was specific, it makes the greater point that users do not have equal preferences towards colleges.
+Evidently, filtering recommendations by the user's explicit college location filters, as shown in figure \ref{fig:colleges-quiz},
+did not resolve this problem completely.
+To account for this limitation, we suggest that a college course recommendation should present multiple locations,
+as shown in figure \ref{fig:multiple-titles-example} below:
+
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[scale=0.5]{images/multiple-titles-example.png}}
+    \caption{A proposed solution, where multiple colleges are offered for a particular college course recommendation.}
+    \label{fig:multiple-titles-example}
+\end{figure}
+
+\subsection{Experiment Findings Summary}
+
+\section{Chapter Summary}
+
 
