@@ -84,7 +84,7 @@ both of which will be described in detail in the coming discussions.
 \label{sec:nump-rep-user}
 
 This subsection will feature an in-depth description of how a user is numerically represented.
-Ultimately, what we want to achieve is to numerically represent a user's RIASEC model, academic interests and expected LC points as float values between 0.0 and 1.0:
+Ultimately, what we wish to achieve is to numerically represent a user's RIASEC model, academic interests and expected LC points as float values between 0.0 and 1.0:
 six values represent the user's RIASEC model, one value represents the user's expected LC points, and 21 values represent the user's academic interests.
 A value of 1.0 implies strong interest or preference, and a value of 0.0 implies weak interest or preference.
 For example, a Realistic RIASEC trait score of 1.0 implies a user's strong interest towards this trait,
@@ -140,7 +140,7 @@ However, when using the linear mapping function, $f_{\text{linear}}$, the totals
 \[ 2 \cdot f_{\text{linear}}(3) = 2 \cdot 0.5 = 1.0 = f_{\text{non-linear}}(5) \]
 
 As a result, a linear mapping function is limited.
-In the context of this problem, we want to strongly emphasise `5' ratings, as they are the best indicators of a user's interest,
+In the context of this problem, we wish to strongly emphasise `5' ratings, as they are the best indicators of a user's interest,
 whereas the other ratings (`4', `3', etc.) do not provide as much information.
 Following this line of reasoning, we decided to use a non-linear mapping function as shown in figure \ref{fig:non-linear-func}.
 This function places a strong weighting (1.0) towards a `5' rating, 
@@ -148,7 +148,7 @@ whereas much smaller values ($\le 0.25$) are placed towards the other ratings.
 
 Recall in section \ref{sec:quiz-design} that each quiz question targets a specific academic interest and RIASEC trait.
 For example: the question \emph{Investigate how bacteria react to medicine} targets the `Life Science' academic interest and the Investigative RIASEC trait.
-From a high level, if a user responds positively to that question, we want the user to score points towards the `Life Science' academic interest and the Investigative RIASEC trait,
+From a high level, if a user responds positively to that question, we wish the user to score points towards the `Life Science' academic interest and the Investigative RIASEC trait,
 and if they respond negatively, no points will be scored towards those categories.
 
 These numerical representations are then added to a total score for each academic interest and RIASEC trait.
@@ -165,7 +165,7 @@ the total for the Realistic RIASEC trait will be:
 \subsubsection{Converting total scores}
 
 After answering all 126 questions in the quiz, the user will have total scores for each of the 21 academic interests and six RIASEC traits.
-We want to convert these total scores to float values between 0.0 and 1.0, where 0.0 implies weak interest and 1.0 implies strong interest for that particular academic interest or RIASEC trait.
+We wish to convert these total scores to float values between 0.0 and 1.0, where 0.0 implies weak interest and 1.0 implies strong interest for that particular academic interest or RIASEC trait.
 Inspired by the sigmoid function, $\frac{1}{1+e^{-x}}$, we 
 created a function, $g$,
 which maps total scores, $x$, to a float value between 0.0 and 1.0:
@@ -310,7 +310,7 @@ Cosine similarity is defined mathematically as:
 \]
 
 Suppose a student has a high Investigative RIASEC trait, high Computers academic interest and 589 Expected LC Points.
-From a high level, we want the RS to recommend  college courses that generally fit this profile.
+From a high level, we desire the RS to recommend  college courses that generally fit this profile.
 Cosine Similarity is an appropriate measure of similarity in this case,
 because college courses with the Investigative RIASEC trait, Computers academic interest and high LC points will 
 result in a high similarity score with the user,

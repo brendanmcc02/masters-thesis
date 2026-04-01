@@ -56,6 +56,8 @@ This involved the user filling out their expected LC points, NFQ level and colle
 as shown in subsection \ref{sec:kbf}.
 As well as this, the user answered the questions regarding their academic interests and RIASEC traits,
 as shown in subsection \ref{sec:examples-quiz}.
+It is worth mentioning that these questions were randomly shuffled
+to obscure users from noticing patterns in the academic interest categories.
 
 Upon completion of the quiz, the PI ran the recommendation
 algorithm on the user's quiz results.
@@ -200,7 +202,6 @@ As described by \cite{aggarwal2016recommender}, the three qualities to an effect
 serendipity.
 Aggarwal et al. also described trust as an additional quality of an effective RS,
 meaning we have four qualities of consideration when it comes to an effective RS.
-
 We can measure each of these four qualities with our established four metrics, 
 as is more clearly defined in table \ref{tab:rs-quality-metrics} below:
 
@@ -231,11 +232,11 @@ With this knowledge, we can continue with our RS evaluation.
 
 In isolation, providing this dissertation's RS performance on the established evaluation metrics
 does not provide significant information.
-Generally in RS problems, the performance is compared to a baseline RS.
-This section will describe the implementation of an objective baseline RS in the context 
-of Irish college course recommendations.
-The implementation is intentionally straightforward and reproducible,
-so others may easily implement the baseline algorithm should they approach a similar problem to this dissertation.
+Generally in RS problems, the performance of the actual RS is compared to a baseline RS.
+Recall research objective \ref{res-obj-baseline}: ``design an objective, easily reproducable baseline RS appropriate to the Irish college context".
+This section will describe the implementation of this baseline RS.
+This allows others to easily implement the baseline RS,
+should they approach a similar problem to this dissertation.
 
 As mentioned in section \ref{sec:lc-points}, the LC points associated with a course are a reflection of the 
 demand of the course. As a result,
@@ -257,7 +258,8 @@ After this filtering, the baseline RS will return the top 20 college courses sor
 points.
 If there is a tie in LC points, the tied courses should be sorted alphabetically.
 
-With the baseline RS established, we can observe the results of the experiment.
+With the baseline RS established, we have achieved research objective \ref{res-obj-baseline},
+and we can move forward to observing the results of the experiment.
 
 \section{Results}
 \label{sec:results}
@@ -299,6 +301,11 @@ of the actual RS.
 We can also observe the user-perceived trust of the actual RS to strongly outperform the baseline,
 with an improvement of 1.6,
 indicating users have much higher perceived trust in the actual RS's recommendations.
+Seeing as a maximum `5' trust rating indicates very strong trust in the RS and its recommendations,
+an actual RS trust score of 4.2 is promising as it is relatively close this number.
+On the other hand, the baseline's 2.4 trust score is relatively close a trust score of `2',
+indicating the user's moderate dissatisfaction and distrust in the baseline RS and its recommendations.
+Intuitively speaking, this is sensible as baseline simply returns high-LC point courses with no other algorithmic basis.
 
 \subsubsection{Objective Metrics}
 
@@ -330,6 +337,16 @@ and these 4 recommendations are not on their original CAO list.
 On the other hand, the actual RS provides about 8 serendipitous recommendations,
 indicating performance that is almost twice as effective when comparing the actual and baseline RS's.
 
+We can gather more insights when we compare the precision and serendipity performances of the actual RS directly.
+A precision score of 0.47 means that on average, users like 9 out of 20 recommendations given by the actual RS,
+and a serendipity score of 0.42 means that on average, 8 out of 20 recommendations are liked by the user and these 
+courses are not on their original CAO list.
+Comparing these metrics directly, this implies that 8 out of 9,
+or $\frac{0.42}{0.49} \approx 89\%$, of college course recommendations liked
+by the user are serendipitous.
+Considering that the gold standard of RS's is serendipity, as established in section \ref{sec:research-question},
+this high ratio is a very promising result and arguably implies satisfactory RS performance.
+
 \subsection{Statistical Significance of Results}
 \label{sec:statistical-sig}
 
@@ -338,7 +355,7 @@ In the previous subsection, we observed the actual RS improving upon the baselin
 across all four evaluation metrics.
 However, we have yet to analyse whether or not these results are statistically significant,
 which is the objective of this subsection.
-\emph{Note:} we will work with a standard 95\% level of statistical confidence in this analysis.
+We will work with a standard 95\% level of statistical confidence in this analysis.
 
 \subsubsection{Measuring the Normality of Evaluation Metrics}
 
@@ -403,7 +420,7 @@ The results of this test is shown in table \ref{tab:two-sample-test} below:
 \end{table}
 
 From observing the results of table \ref{tab:two-sample-test} above,
-we have sufficient evidence that the means of precision, serendipity and trust 
+we have sufficient evidence that the means/medians of precision, serendipity and trust 
 differ significantly from the actual RS compared to the baseline.
 On the other hand, we do not have sufficient evidence to reject the hypothesis that the means 
 of diversity differ significantly from the actual compared to the baseline.
@@ -458,11 +475,11 @@ for the diversity metric.
 However as mentioned earlier, it is a very difficult task for an actual RS to outperform the baseline in terms of diversity,
 because the baseline RS only recommends courses 
 sorted by LC points, and thus the recommendations will be very diverse by nature.
-Seeing that the actual RS has similar performance to the baseline in terms of diversity,
+Seeing that the actual RS outperformed the baseline in terms of diversity,
 we would arguably see this as a success.
 While the original research objective was not technically, fully achieved,
 three metrics had significant improvements and our diversity metric was competitive 
-with a baseline that is very diverse by nature .
+with a baseline that is very diverse by nature.
 Thus, we can consider the actual RS to demonstrate satisfactory performance in the context of research objective \ref{res-obj-statistically}.
 
 \section{Experiment Findings and Analysis}
@@ -472,12 +489,10 @@ Thus, we can consider the actual RS to demonstrate satisfactory performance in t
 % does the stats correlate with their experience?
 %     they said it was good, but 
 
-
-\textbf{todo - get owen's opinion on this, he mentioned this idea of "trends" and "pseudo-thematic analysis"}
-
 From our analysis in the previous section, the aggregated results of our experiment tell quite a straightforward story.
 That being said, there were numerous findings gathered from the the experiments as they were being conducted,
 either from the PI's observations, or participant's verbal feedback.
+Recall that this describes research objective \ref{res-obj-insights}: ``Analyse the insights and findings gathered from a conducted experiment''.
 In some cases, these insights were gathered from just one participant's interactions with the RS.
 Seeing as our sample size is already relatively small at $n=31$, 
 it would be unfair to assume that a subset of this would represent the entire sample.
@@ -485,44 +500,26 @@ As a result, many of these findings can be seen as `trends' towards truths,
 as opposed to statistically significant truths.
 This section will discuss these findings.
 
-\subsection{Limitations of Academic Interests Labels}
+\subsection{Quiz Comprehension and Cognitive Overload}
 
-As seen in table \ref{tab:academic-interest-categories}, `languages' is one of the academic interests.
-Some users in our experiments demonstrated interests in languages,
-and in one case the user was recommended Law and French from Trinity College Dublin.
-This user did not know any French, and instead was more interested in a language like Irish or German.
-As a result, the recommendation was irrelevant.
-While this is a specific example, it makes the greater point that the `languages' academic interest poses an 
-interesting edge case, and in the context of college course recommendations,
-the label is too broad on its own.
-If the RS has further knowledge on the language the user likes (e.g. Irish or German),
-it may be able to recommend a more relevant recommendation to the user's interest,
-such as Law and German.
+After completing the 126-question quiz, all participants were asked if they could understand the questions 
+and tasks at hand. 
+There was unanimous agreement that the questions were straightforward and easily understandable,
+a positive as because an RS like this should be designed without requiring the participant to have specific domain knowledge.
 
-To give one specific example: economics, psychology and sociology are all classed under `social science'.
-In one case, a participant responded positively to an economics-related question,
-and then they received recommendations for psychology and sociology, which they found irrelevant and unsatisfactory.
-While this is one particular example, it demonstrates the greater point that 
-some of the academic interests labels are simply too broad.
-In this case, the `social science' category could be broken 
-Despite all of these courses being classed under the same `social science' category,
+Additionally, participants were asked if they 
 
 \subsection{The Role of Subjectivity in Answering the Quiz}
 
 Despite the question being phrased as: \emph{``I would like to do this activity for a living''},
 one participant approached the quiz differently.
-They were well-aware that the intention of the quiz was to provide college course recommendations.
-This participant also highly valued salary, so they only highly rated questions 
-when the job behind the activity was high-paying.
+The participant was well-aware that the intention of the quiz was to provide college course recommendations,
+and they also highly valued salary in work, so they only highly rated questions 
+when the job behind the activity was high-paying,
+even if they did not find the activity particularly interesting.
 After answering the quiz in this way, 
-the participant received recommendations in high-paying fields which aligned with their original desires,
-resulting in satisfactory performance.
-
-Even without knowing the algorithm behind the RS, most RS's work on the same high-level idea:
-``recommend items according to the user's highly-ranked responses".
-In the case of a film RS like Netflix, if a user positively rates comedy films, 
-they can expect to receive comedy recommendations.
-Arguably, a user without a technical background would understand this simple, high-level idea.
+the participant received recommendations in high-paying fields which aligned with their working values,
+resulting in satisfactory end-user performance.
 
 In section \ref{sec:college-course-justifications},
 we discovered that users have many different values and justifications for choosing their college course.
@@ -536,6 +533,41 @@ meaningful, like social policy or the environment.
 In this manner, regardless of how the question is phrased (\emph{``I would like to do this activity for a living''}),
 users can still answer the quiz in a way that aligns with their values,
 which is different to every individual.
+
+In the author's opinion, there is nothing negative about the prospect of this.
+If anything, this is a promising and positive insight,
+as it implies that users can answer the quiz in a way that reflects their working values.
+It is the user's own college course choice, 
+and the RS should be designed to complement this process.
+
+\subsection{Limitations of Academic Interests Labels}
+
+As seen in table \ref{tab:academic-interest-categories}, `languages' is one of the academic interests.
+Some users in our experiments demonstrated interests in languages,
+and in one case the user was recommended law and French from Trinity College Dublin.
+This user did not know any French, and instead was more interested in a language like Irish or German.
+As a result, the recommendation was irrelevant.
+While this is a specific example, it makes the greater point that the `languages' academic interest poses an 
+interesting edge case, and in the context of college course recommendations,
+the label is too broad on its own.
+If the RS has further knowledge on the language the user likes (e.g. Irish or German),
+it may be able to recommend a more relevant recommendation to the user's interest,
+such as law and German.
+
+Another limitation of the academic interest labels can be given with a few specific examples.
+For instance, economics, psychology and sociology are all classed under `social science'.
+In one case, a participant responded positively to an economics-related question,
+and then they received recommendations for psychology and sociology, which they found irrelevant and unsatisfactory.
+In this case, the `social science' category could be broken into more granular categories
+to improve the relevance of the recommendations.
+Another example is with the `creative arts' academic interest,
+which classes college courses like creative writing, drawing, interior design, theatre and film studies.
+One participant expressed interest in creative writing and film studies,
+however they received recommendations for courses that involved drawing, pottery or interior design,
+as they were also classed under the same `creative arts' category.
+While these are particular examples, it demonstrates the greater point that 
+some of the academic interests labels were simply too broad.
+\textbf{maybe this is better discussed in future work, idk!}
 
 % on the whole, people found the questions easy to understand and answer	
 	% no sense of mental exhaustion or cognitive overload

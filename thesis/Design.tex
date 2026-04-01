@@ -16,7 +16,8 @@ underpinning behind almost every design decision.
 As part of this research, interviews were conducted with two professional Guidance Counsellors (GC's) in Ireland.
 The main purpose of these interviews was to gain a deeper understanding of the GC process.
 In particular, we were curious as to what information a GC asks a student in order to make 
-college course recommendations.
+college course recommendations,
+which would help achieve research objective \ref{res-obj-information}: identify the relevant information an RS should question a user to recommend suitable college courses.
 Naturally, this exploration is relevant as we will be designing an RS that provides personalised college course recommendations.
 This section will feature some insights gleamed from both interviews,
 and they will inspire the final design of this dissertation's RS.
@@ -146,7 +147,7 @@ Our answer involved factoring in a student's:
 
 \begin{itemize}
     \item Academic interests.
-    \item RIASEC Model.
+    \item RIASEC model.
     \item Desire for salary or job prospects after graduation.
     \item Desire for meaningful work.
 \end{itemize}
@@ -156,7 +157,7 @@ works profile off users in order to provide personalised college course recommen
 
 \begin{itemize}
     \item Hobbies.
-    \item School Grades.
+    \item School grades.
     \item Gender.
 \end{itemize}
 
@@ -164,18 +165,18 @@ Clearly,
 we are presented with many different categories of information to profile off a user.
 Now, the task is to identity which categories are relevant to profile off a user in the context of a college course RS.
 In the next subsections we shall justify the inclusion or exclusion of
-different categories to profile off a user.
+different categories to profile off a user, allowing us to answer research objective \ref{res-obj-information}.
 
 \subsection{Academic interests and RIASEC Model}
 
 In sections \ref{sec:research-gap} and \ref{sec:interviews-gc}, 
-we justified profiling a user's RIASEC Model and academic interests
+we justified profiling a user's RIASEC model and academic interests
 in order to provide personalised college course recommendations.
 As a result, in our college course RS, we will profile a user's academic interests and RIASEC model.
 
 \subsection{Hobbies and School Grades}
 
-Given our justifications in subsection \ref{sec:hobbies}, we can disregard Hobbies as information to profile off a user.
+Given our justifications in subsection \ref{sec:hobbies}, we can disregard hobbies as information to profile off a user.
 We may also disregard school grades because a user's LC subjects provides a limited snapshot of their interests and aptitudes,
 and we will also cover this information more broadly as part of academic interests,
 as explained in subsection \ref{sec:academic-interests-gc}.
@@ -185,7 +186,7 @@ as explained in subsection \ref{sec:academic-interests-gc}.
 As described in subsection \ref{sec:job-and-career-satisfaction}, a user's desire for salary or job prospects after graduation would be relevant information in the context of college course recommendations.
 However to the best of our knowledge, data on the mean salary or employment rate of graduates from each college course in Ireland
 is unavailable. As a result, it would be very challenging to effectively integrate this information into our RS.
-We could potentially gather data on the mean salary or employment rates of more general college course categories, 
+We could potentially gather data on the mean salary or employment rates of academic interest categories, 
 for example college courses under healthcare.
 However, this information would be too generalised and lack nuance.
 Continuing our example of healthcare, 
@@ -205,11 +206,13 @@ Firstly, this information is difficult to translate to something computational.
 For example, we could consider creating some sort of `meaning score' for each college course. However, it would be challenging to meaningfully quantify this value for a college course.
 This challenge is compounded further for the second reason:
 the meaning of a college course is largely dependant on what the student does with their degree after graduation.
-To give an example, suppose two students graduate from Pharmaceutical Science, and one works in a large corporation completing work 
+To give an example, suppose two students graduate from pharmaceutical science, and one works in a large corporation completing work 
 they find meaningless, and the other student dedicates their life's work to researching cutting-edge drug discovery.
 Both students graduate from the same college course, and have vastly different senses of meaning in their related jobs after graduation.
-As a result, we can disregard a user's desire for meaning in the context of college course recommendations,
-because the information is difficult to quantify, and largely depends on what the student does with their degree.
+Admittedly, this is a very specific example, although it demonstrates the larger point that 
+a student's sense of meaning is more dependant on what they do with their degree after graduation, 
+as opposed to the degree itself.
+As a result, we can disregard a user's desire for meaning in the context of college course recommendations.
 
 \textbf{todo - maybe say this will get referenced in future work?}
 
@@ -236,12 +239,13 @@ in which they compared the results of biased and unbiased career recommendation 
 According to their findings, 
 the users actually preferred the biased career recommendations over the unbiased recommendations.
 On the surface this may appear surprising, however when we consider our investigations in subsection \ref{sec:external-influences},
-we can recall that these factors are large influences on an individual's college course choice.
+we can recall that these factors are large influences on an individual's college course choice,
+which explains these findings.
 
 In addition to this, to the best of our knowlege, data about race/ethnicity and parent's educational/financial background 
 are not available for each college course in Ireland, posing a challenge for integrating this effectively into a college course RS.
 In spite of Wang et al.'s findings, we would disregard gender, race/ethnicity and parent's educational/financial background
-in the context of college course recommendations, due to it's aforementioned implications and reinforcement of stereotypes.
+in the context of college course recommendations, due to the reinforcement of stereotypes and limitations on accessible data.
 
 \subsection{LC points, NFQ Levels and Colleges}
 \label{sec:lc-points-nfq-levels-and-colleges}
@@ -299,58 +303,70 @@ In the next subsections, we will provide more details as to how these data were 
 \subsection{RIASEC Model Metadata}
 \label{sec:dataset-riasec}
 
-% might need more rigour from 8 CP -> 6 RIASEC
-% -> talk about implications of this
-% -> macro-level decision, not done per course
-% -> could be fine 
-% -> "orphaned" courses, had i not done that then many courses would have been orphaned, justifies the mapping
-%     -> could make up a number
-%  would any courses have been naturalistic 
-% -> expand CP's definitions of naturalistic and linguistic
-% -> do some more examples other than med for riasec augmentation
-% -> talk about **why** i need more riasec
-%     -> make sure it's justified
-
-
 Seeing as we are profiling a user's RIASEC Model,
 we will need the RIASEC model associated with each Irish college course
 in order to make college course recommendations.
-
 The CP dataset already categorises each college course under eight working personality traits,
-as seen in figure \ref{fig:careers-portal-career-interests}.
-The original six traits of the RIASEC Model are provided in figure \ref{fig:holland-riasec-model-design}.
+described in figure \ref{fig:careers-portal-career-interests} below:
 
 \begin{figure}[H]
     \centering
-    \begin{minipage}[c]{0.45\linewidth}
-            \centering
-            \fbox{\includegraphics[scale=0.55]{images/careers-portal-filters-2.png}}
-            \caption{The eight CareerPortal working personality traits.}
-            \label{fig:careers-portal-career-interests}
-        \end{minipage}
-    \begin{minipage}[c]{0.45\linewidth}
-            \centering
-            \includegraphics[scale=0.25]{images/holland-riasec-model.png}
-            \caption{Holland's RIASEC Model.}
-            \label{fig:holland-riasec-model-design}
-        \end{minipage}
+    \fbox{\includegraphics[scale=0.35]{images/cp-8-traits-explained.png}}
+    \caption{CP's 8-trait working personality model.}
+    \label{fig:careers-portal-career-interests}
 \end{figure}
 
-As we can observe, six of the eight CP traits are equivalent\footnote{\emph{Note:} the \emph{Administrative} CP trait is equivalent to the \emph{Conventional} RIASEC trait, and the \emph{Creative} CP trait is equivalent to the \emph{Artistic} RIASEC trait.}
-to the six traits in the RIASEC model,
-with the two leftover CP traits being: `Naturalistic' and `Linguistic'.
-According to CP's definition, Naturalists are interested in working with animals,
-which is very `hands-on' work, similar to the work exhibited by the Realistic RIASEC trait.
-As a result, we can class the `Naturalistic' trait under the Realistic RIASEC trait.
-Moreover, according to CP's definition, Linguists are interested in reading and writing,
-which is very creative work, similar to the work exhibited by the Artistic RIASEC trait.
-As a result, we can class the `Linguistic' trait under the Artistic RIASEC trait.
+Seeing as this dissertation seeks to utilise Holland's 6-trait RIASEC model,
+we wish to translate CP's 8-trait model to Holland's 6-trait RIASEC model.
+We desire to translate these traits in a manner that avoids any information loss and preserves 
+the original categorisation of CP's 8-trait model. Thus, we shall document our methodology clearly below.
+
+As we can observe in figures \ref{fig:careers-portal-career-interests} above,
+four of the eight CP traits are equivalent.
+By also observing the definitions above, the `Administrative' CP trait is equivalent to the `Conventional' RIASEC trait, 
+and the `Creative' CP trait is equivalent to the `Artistic' RIASEC trait - the only difference is the name of the trait.
+However, this leaves us with two leftover CP traits: `Naturalist' and `Linguistic'.
+According to CP's definition of Naturalists above, they enjoy hands-on work and seeing tangible 
+results, much like Realists. As a result, we can map the `Naturalist' trait under the Realistic RIASEC trait.
+Also according to CP's definition above, Linguists are interested in reading and writing,
+which is very creative, unstructured work.
+By following the definitions above, this work is very similar to the work exhibited by those with the Artistic RIASEC trait.
+As a result, we can map the `Linguistic' trait under the Artistic RIASEC trait.
+It is worth mentioning that these mappings were performed on the entire dataset as a whole, and they were not performed on a course-by-course basis,
+allowing for more reproducability.
+Our final mapping is best shown in table \ref{tab:cp-to-riasec} below:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{CareersPortal (CP) trait} & \textbf{RIASEC trait}\\
+\hline
+Realist & \multirow{2}{*}{Realistic}\\
+\cline{1-1}
+Naturalist & \\
+\hline
+Investigative & Investigative\\
+\hline
+Creative & \multirow{2}{*}{Artistic}\\
+\cline{1-1}
+Linguistic & \\
+\hline
+Social & Social\\
+\hline
+Enterprising & Enterprising\\
+\hline
+Administrative & Conventional\\
+\hline
+\end{tabular}
+\caption{Mapping CP's 8-trait model to the 6-trait RIASEC model.}
+\label{tab:cp-to-riasec}
+\end{table}
+
 This allows us to curate a dataset that is more generalisable to Holland's original six-trait RIASEC model,
 as opposed to working with CP's eight-trait model.
 
 \subsubsection{Manual revisions to the CP dataset}
-
-\textbf{todo - get owen to read this and see if he's happy!}
 
 During the design of this dissertation's RS, 
 a significant amount of time was invested into manually revising the RIASEC traits of some college 
@@ -360,28 +376,33 @@ Comparing the revised CP dataset to the original CP dataset,
 
 Some of the college courses were manually revised for a few reasons.
 Firstly, in some cases the RIASEC traits were inconsistent between identical college courses.
-For example according to the original CP dataset, General Nursing in Maynooth University\footnote{\url{https://careersportal.ie/courses/coursedetail.php?course_id=26215}} is classified 
-with the Social and Investigative RIASEC traits, whereas General Nursing in University College Dublin\footnote{\url{https://careersportal.ie/courses/coursedetail.php?course_id=459}}
+For example according to the original CP dataset, general nursing in Maynooth University\footnote{\url{https://careersportal.ie/courses/coursedetail.php?course_id=26215}} is classified 
+with the Social and Investigative RIASEC traits, whereas general nursing in University College Dublin\footnote{\url{https://careersportal.ie/courses/coursedetail.php?course_id=459}}
 is classified with the Social, Investigative and Realistic RIASEC traits.
+Seeing that these are both general nursing courses, it is confusing that they have different classifications of RIASEC traits.
+
 Secondly, many of the RIASEC traits in the CP dataset were poorly representative of the college course.
-For example, the Medicine college courses are only classed with the Investigative RIASEC trait, however 
+For example, the medicine college courses are only classified with the Investigative RIASEC trait\footnote{\url{https://careersportal.ie/courses/coursedetail.php?course_id=1079}}, however 
 this RIASEC classification is ignorant of the Realistic and Social RIASEC traits that the medical profession requires.
+Another example is the chemical science courses which are also only classified with the Investigative RIASEC trait\footnote{\url{https://careersportal.ie/courses/coursedetail.php?course_id=19282}}.
+This RIASEC is ignorant of the Realistic and Conventional RIASEC traits that a chemical profession requires.
 
 In this context, it is worth mentioning O*NET\footnote{\url{https://www.onetonline.org/}}, an online careers database
 that is regularly maintained and 
 sponsored by the U.S. Department of Labour, Employment \& Training.
 The O*NET database classifies different professions by their RIASEC code.
-An example from the O*NET database is Medical Physicians, which would match with the Medicine college course in Ireland, 
-which is classified as the ISR Holland code.
+An example from the O*NET database is medical physicians, which would match with the Medicine college courses in Ireland, 
+which is classified as the ISR Holland code\footnote{\url{https://www.onetonline.org/link/summary/29-1216.00}}.
+As well as this, chemists, which would match the chemical science college courses, 
+are classified as the IRC Holland code\footnote{\url{https://www.onetonline.org/link/summary/19-2031.00}}.
 
 Using O*NET as a reference point, and with the author's domain knowledge, 
 the RIASEC traits of some college courses (16\%) were manually amended.
 Admittedly, this approach has limitations due its lack of total reproducability.
+Due to time constraints, we were unable to conduct a rigorous experiment to evaluate whether or not there was a performance 
+increase from these edits.
 That being said, the effectiveness 
-of this solution, with the curated CP dataset, will be evaluated in chapter \ref{chap:evaluation}.
-
-\textbf{could say that in future work a more rigorous experiment could be done 
-to demonstrate the changes had a statistically significant positive impact}
+of this solution with the curated CP dataset, will be evaluated against a baseline in chapter \ref{chap:evaluation}.
 
 \subsection{Academic interests Metadata}
 
@@ -422,17 +443,18 @@ The CP dataset does not feature any categorisation similar to the academic inter
 As a result, we need to additionally augment data regarding the academic interests associated with each Irish college course in the dataset.
 This task was initially performed by Gemini Model 3\footnote{\url{https://gemini.google.com/}},
 however the model's categorisation underwent manual revisions to correct inaccuracies and inconsistencies.
-For example, initially Medicine college courses were only categorised under the `Healthcare' Academic Interest,
+For example, initially Medicine college courses were only categorised under the `healthcare' academic interest,
 however, seeing as study of Medicine involves the study of life sciences, 
-the courses were re-categorised to include the `Life Science' Academic Interest.
+the courses were re-categorised to include the `life science' academic interest.
 
 Similar to the RIASEC trait modifications in subsection \ref{sec:dataset-riasec}, 
-this approach is admittedly limited by a lack of complete reproducability, 
-given that the task involved the work of a Large Language Model (LLM) and manual human revisions.
-That being said, augmenting this kind of metadata was necessary to this approach
-as the metadata did not exist in the original CP dataset.
+this approach is admittedly limited by a lack of complete reproducability.
+That being said, augmenting academic interest metadata was necessary,
+as this type of metadata did not exist at all in the original CP dataset.
+In other words, to the best of our knowledge there was no other feasible method to augment 
+this academic interest data completely objectively.
 As mentioned previously, the effectiveness of this solution 
-will be evaluated and examined in in chapter \ref{chap:evaluation}.
+will be evaluated in comparison to a baseline in chapter \ref{chap:evaluation}.
 
 \subsection{Final Dataset}
 
@@ -477,12 +499,13 @@ As described in section \ref{sec:common-rs-types}, there are many types of RS's,
 each with their own advantages and disadvantages. 
 In this section, we will describe and justify the design to our RS.
 
-In chapter \ref{chap:initial-prototypes}, we explored a Collaborative Filtering (CF) approach 
+It is worth mentioning that during this dissertation,
+a significant amount of time was dedicated towards exploring a Collaborative Filtering (CF) approach 
 in designing our RS. 
-This was motivated by a desire for more serendipity in our college course recommendations.
-However, as was evident by the conclusions in the chapter,
-the utilised datasets featured many limitations, which resulted in unsatisfactory model performance.
-As a result, a CF approach was ruled out.
+The approach utilised some popular datasets others may use in solving similar problems to this dissertation,
+However, this experiment yielded unsatisfactory results, and as a result we had to explore other RS types outside 
+of the CF approach.
+For the sake of brevity and relevance, the full content of this approach is outlined in chapter \ref{chap:initial-prototypes}.
 This leaves us with the more traditional Content-Based Filtering (CBF) and Knowledge-Based Filtering (KBF).
 In the next two subsections we will describe the integration of these approaches into our RS.
 
