@@ -46,13 +46,109 @@ indicating satisfactory performance of this dissertation's RS in the context of 
 
 \subsection{Contribution to the Literature}
 
-% owen: augment the table i made in literature review and augment my solution!
+To demonstrate our contribution to the literature, 
+we will augment tables \ref{tab:research-gap-1} and \ref{tab:research-gap-2} introduced in section \ref{sec:research-gap}
+to include this dissertation's RS, which will be referenced as
+\emph{Irish College Course Recommender System} (ICCRS).
+
+\begin{table}[H]
+    \centering
+\caption{Comparing features of all examined closely-related work (Part 1)}
+\begin{tabular}{ |p{4cm}|p{3cm}|p{3cm}|p{5cm}|}
+ \hline
+ \textbf{Name} & \textbf{\# Questions} & \textbf{\# Results} & \textbf{Recommendation Type}\\
+ \hline
+\emph{Superprof}    & 10     & 3        & General area of study\\
+\hline
+\emph{Anderson Uni}     & 25     & 50       & College major\\
+\hline
+\emph{Marquette Uni}    & 10     & 30       & College major\\
+\hline
+\emph{\cite{qamhieh2020pcrs}}         & 125 & 7        & Engineering course\\
+\hline
+\emph{\cite{ghuge2023envisioning}}  & 6      & 5        & College major\\
+\hline
+\emph{\cite{lahoud2023comparative}}  & 6  & 5     & Lebanese college course\\
+\hline
+\emph{\cite{su2021personality}}  & 90     & 5  & Taiwanese college course\\
+\hline
+\emph{FMCC}         & $\sim$150 & 200   & Irish college course\\
+\hline
+\textbf{ICCRS}         & \textbf{126} & \textbf{20}   & \textbf{Irish college course}\\
+\hline
+\end{tabular}
+\caption*{\textbf{Explanation of columns:}\\\textbf{\# Questions:} the number of questions asked to the user prior to receiving their college course recommendations.\\\textbf{\# Results:} The number of college course recommendations the user receives.\\\textbf{Recommendation Type:} the type of college course recommendation the user receives.}
+\label{tab:research-gap-1-filled}
+\end{table}
+
+In observing table \ref{tab:research-gap-1-filled} above, ICCRS features a quiz with significant length,
+demonstrating its breadth at 126 questions.
+Additionally, inspired by the findings of \cite{toffler1970future} and \cite{long2025choice} in which smaller recommendation
+sets yield more performant results, 20 college course recommendations are provided to the user.
+To the best of our knowledge when considering the Irish context, providing the user with a more refined set of college course recommendations (20) 
+is a novel contribution to the literature.
+
+\begin{table}[H]
+    \centering
+\caption{Comparing features of all examined Closely-related work (Part 2)}
+\begin{tabular}{ |l|p{4cm}|p{7cm}|}
+ \hline
+ \textbf{Name} & \textbf{Can filter results by college?} & \textbf{Profiled User Information} \\
+ \hline
+\emph{Superprof}    & \ding{55}    & Academic interests\\
+\hline
+\emph{Anderson Uni}     & \ding{55}\tablefootnote{The only college majors recommended are ones offered from Anderson University.}     & Academic interests\\
+\hline
+\emph{Marquette Uni}    & \ding{55}\tablefootnote{The only college majors recommended are ones offered from Marquette University.}     & Academic interests\\
+\hline
+\emph{\cite{qamhieh2020pcrs}}         & \ding{55} & Hobbies, grades, MBTI\tablefootnote{Myer-Briggs Type Indicator (MBTI); a personality test developed in \cite{myers1962myers}.}\\
+\hline
+\emph{\cite{ghuge2023envisioning}}  & \ding{55}      & Hobbies, grades\\
+\hline
+\emph{\cite{lahoud2023comparative}}  & \ding{51}  & Hobbies, gender, academic interests\\
+\hline
+\emph{\cite{su2021personality}} & \ding{55}\tablefootnote{The only college majors recommended are ones offered from Cheng Shiu University, Taiwan.}     & RIASEC personality model\\
+\hline
+\emph{FMCC}         & \ding{55}\tablefootnote{You can filter your colleges by region, for example just the colleges in Dublin, Munster, etc.} & Academic interests\\
+\hline
+\textbf{ICCRS}         & \ding{51} & \textbf{Academic interests, RIASEC personality Model}\\
+\hline
+\end{tabular}
+\caption*{\textbf{Explanation of columns:}\\\textbf{Can filter results by college?} is it possible for the user to specifically receive college course recommendations from colleges of their choice?\\\textbf{Profiled User Information:} What information is the system profiling off the user in order to make personalised college course recommendations?}
+\label{tab:research-gap-2-filled}
+\end{table}
+
+In observing table \ref{tab:research-gap-2-filled} above,
+ICCRS is one of the few works that allows users to filter college courses by particular colleges,
+at least in the Irish context, ICCRS is the only RS capable of this.
+To the best of our knowledge, utilising a user's RIASEC model and academic interests is a completely novel 
+contribution to the literature surrounding college and career RS's.
 
 \subsection{Revisiting the Research Question}
-% revisit rq
+
+\textbf{trust is not mentioned here - should it? should i get rid of it entirely?}
+
+In section \ref{sec:research-question} we introduced this dissertation's research question:
+\emph{``Can a Recommender System assist an Irish student in exploring college courses they would consider studying?"}.
+Recall that we hypothesised that an RS that provides relevant, diverse and serendipitous recommendations would answer this research question.
+
+In chapter \ref{chap:evaluation}, we compared the performance of an actual RS to a baseline. 
+During our evaluation, we observed the actual RS slightly outperforming the baseline in terms of diversity,
+which is satisfactory as the baseline RS is diverse by nature - as is evident by its 3.7/5 diversity score.
+As well as this, we observed very large, statistically significant improvements 
+for the precision and serendipity metrics.
+On average, users responded that they would realistically consider studying 9 out of 20 college course recommendations,
+8 of which are serendipitous recommendations not on the user's original CAO list.
+This is compared to the baseline, where users only considered studying 4 out of 20 college recommendations,
+all 4 of which were serendipitous recommendations.
+
+Following our evaluations from above, we can conclude that we have designed an RS that provides a user with relevant, diverse and serendipitous recommendations,
+successfully answering this dissertation's research question.
 
 \subsection{Revisiting Research Objectives}
 % revisit research objectives
+
+\textbf{do i actually need research objective 4? isn't it basically the research question?}
 
 \section{Future Work}
 \label{sec:future-work}
