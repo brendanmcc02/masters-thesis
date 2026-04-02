@@ -1,6 +1,10 @@
 \chapter{Design}
 \label{chap:design}
 
+\textbf{this entire chapter could do with some edits - the writing isn't as smooth/coherent and is quite clunky.}
+
+\textbf{mostly the second half tbf.}
+
 In this chapter, there will be an explanation into the high-level design of the college course RS,
 including justifications behind different design decisions. 
 Before we dive into the design behind our RS, it would be important to revisit our research question: 
@@ -146,7 +150,7 @@ in which we attempted to answer the question: \emph{What college course should p
 Our answer involved factoring in a student's:
 
 \begin{itemize}
-    \item Academic interests.
+    \item academic interests.
     \item RIASEC model.
     \item Desire for salary or job prospects after graduation.
     \item Desire for meaningful work.
@@ -247,16 +251,16 @@ are not available for each college course in Ireland, posing a challenge for int
 In spite of Wang et al.'s findings, we would disregard gender, race/ethnicity and parent's educational/financial background
 in the context of college course recommendations, due to the reinforcement of stereotypes and limitations on accessible data.
 
-\subsection{LC points, NFQ Levels and Colleges}
+\subsection{LC points, NFQ levels and Colleges}
 \label{sec:lc-points-nfq-levels-and-colleges}
 
 As explained in subsection \ref{sec:lc-points}, a user's Leaving Cert (LC) points is an influential entry requirement 
 to college courses in Ireland.
-In addition to this, Irish students may have preferences for particular types of NFQ Levels in the context of college courses, as described in section \ref{sec:nfq}.
+In addition to this, Irish students may have preferences for particular types of NFQ levels in the context of college courses, as described in section \ref{sec:nfq}.
 We can recall that relevance is an important quality of an effective RS, as described in section \ref{sec:research-question}.
 For instance, it would not be relevant to suggest a course that is 500 LC points to a user that is expected to 
 receive 300 LC points.
-Thus, profiling a user's expected LC points and their NFQ Level preferences would provide more relevant
+Thus, profiling a user's expected LC points and their NFQ level preferences would provide more relevant
 college course recommendations, which better answers our research question, which is to assist the Irish student in exploring their college course choices.
 
 As is evident from our discussion in subsection \ref{sec:college-justifications}, a student has a variety of 
@@ -273,9 +277,9 @@ We justified the profiling of the following information off a user's in the cont
 
 \begin{itemize}
     \item RIASEC model
-    \item Academic interests
-    \item Expected LC points
-    \item NFQ Level preferences
+    \item academic interests
+    \item expected LC points
+    \item NFQ level preferences
     \item College preferences
 \end{itemize}
 
@@ -293,7 +297,7 @@ solely for the sake of research and exploring this dissertation's research quest
 Seeing as CareersPortal (CP) is the leading careers website in Ireland, 
 the public information on the site was web-scraped to form a dataset of all Irish college courses.
 Going forward, this will be known as the CP dataset.
-Each course in the CP dataset contains the course's title, college, NFQ Level, LC points and other metadata, 
+Each course in the CP dataset contains the course's title, college, NFQ level, LC points and other metadata, 
 which are partially sufficient in satisfying our RS requirements as laid out in section \ref{sec:user-information-to-profile}.
 
 However, the CP dataset poses a limitation: it does not have information regarding the RIASEC Model or academic interests of the college courses.
@@ -368,6 +372,7 @@ as opposed to working with CP's eight-trait model.
 
 \subsubsection{Manual revisions to the CP dataset}
 
+
 During the design of this dissertation's RS, 
 a significant amount of time was invested into manually revising the RIASEC traits of some college 
 courses in the CP dataset. 
@@ -412,7 +417,7 @@ and in this subsection they will finally be described.
 FindMyCollegeCourse (FMCC), the only other Irish college course RS, places college courses into 23 categories.
 With the permission of the team behind FMCC, the same 23 categories were used in this dissertation.
 However, these categories underwent some simplifications and renaming, and the final result used in this dissertation
-are the 21 Academic Interest categories below in table \ref{tab:academic-interest-categories}:
+are the 21 academic interest categories below in table \ref{tab:academic-interest-categories}:
 
 \begin{table}[H]
 \centering
@@ -516,8 +521,8 @@ As described in section \ref{sec:common-rs-types}, KBF requires the user to set 
 In subsection \ref{sec:lc-points-nfq-levels-and-colleges}, we justified the profiling of the following information off a user:
 
 \begin{itemize}
-    \item Expected LC Points (e.g. 589)
-    \item NFQ Level preferences (i.e. NFQ Level 6, 7 or 8)
+    \item expected LC points (e.g. 589)
+    \item NFQ level preferences (i.e. NFQ level 6, 7 or 8)
     \item College preferences (e.g. Trinity College Dublin, etc.)
 \end{itemize}
 
@@ -535,7 +540,7 @@ Figures \ref{fig:expected-lc-points-quiz}, \ref{fig:nfq-levels-quiz} and \ref{fi
 \begin{figure}[H]
     \centering
     \fbox{\includegraphics[scale=0.55]{images/nfq-levels-quiz.png}}
-    \caption{The RS user interface asking the user for their NFQ Level preferences.}
+    \caption{The RS user interface asking the user for their NFQ level preferences.}
     \label{fig:nfq-levels-quiz}
 \end{figure}
 
@@ -551,7 +556,7 @@ a user interacts with a KBF RS that utilises their expected LC points, NFQ level
 provide a narrower set of college courses.
 For example, a user that expects to receive 500 LC points, prefers NFQ level 8 college courses,
 and only wants to study at Trinity College Dublin,
-will filter the college course set down to college courses at Trinity College Dublin which are under 500 LC Points and are NFQ Level 8.
+will filter the college course set down to college courses at Trinity College Dublin which are under 500 LC points and are NFQ level 8.
 
 \begin{figure}[H]
     \centering
@@ -568,40 +573,41 @@ This filtered set of college course recommendations will be instrumental in the 
 
 After the user interacts with the KBF RS, the candidates for their college course recommendations are refined through their explicitly set preferences.
 However, we must now provide a more personalised list of college course recommendations to the user.
-We will utilise the the user's RIASEC model, academic interests and expected LC Points to bridge this gap.
+We will utilise the the user's RIASEC model, academic interests and expected LC points to bridge this gap.
 Theoretically, we could utilise a KBF approach to provide more personalised recommendations.
 For instance, the RS could ask the user to explicitly filter college courses by academic interests.
-For example, the user could explicitly filter college course recommendations by Biology and Mathematics.
+For example, the user could explicitly filter college course recommendations by biology and mathematics.
 However, this approach is not significantly different to the more traditional college course search filters,
 such as CareerPortal as described in subsection \ref{sec:simple-filters}.
 
 Thus, for the sake of novelty we desire a more sophisticated type of RS, which leads us to the Content-Based Filtering (CBF)
 approach. 
-CBF directly utilises the information of the user - their RIASEC Model, academic interests and Expected LC Points - to provide personalised college course recommendations.
-For example, a user demonstrating an interest in the `Chemical Science' Academic Interest, the Investigative RIASEC trait
-and expects 550 LC points may be recommended Chemistry in Trinity College Dublin with 542 points\footnote{\url{https://www.tcd.ie/courses/undergraduate/courses/chemistry-chemical-sciences/}}.
+CBF directly utilises the information of the user - their RIASEC Model, academic interests and expected LC points - to provide personalised college course recommendations.
+For example, a user demonstrating an interest in the `chemical science' academic interest, the Investigative RIASEC trait
+and expects 550 LC points may be recommended chemistry in Trinity College Dublin with 542 points\footnote{\url{https://www.tcd.ie/courses/undergraduate/courses/chemistry-chemical-sciences/}}.
+A detailed explanation of the CBF RS's implementation is provided in section \ref{sec:cbf-impl}.
 The complete design of our college course RS best described in figure \ref{fig:complete-rs-design} below:
 
 \begin{figure}[H]
     \centering
     \fbox{\includegraphics[scale=0.45]{images/complete-rs-design.png}}
-    \caption{A diagram of our Hybrid RS with KBF and CBF approaches.}
+    \caption{A diagram of our hybrid RS with KBF and CBF approaches.}
     \label{fig:complete-rs-design}
 \end{figure}
 
 \subsection{Section Summary}
 
 In summary, this section described the high-level design of our RS.
-A KBF RS will filter college course recommendations utilising the user's Expected LC Points, NFQ Level and College preferences,
-and a CBF RS will provide college course recommendations utilising the user's RIASEC Model, academic interests and Expected LC Points.
-In other words, our college course RS is a Hybrid RS with Knowledge-Based Filtering and Content-Based Filtering.
+A KBF RS will filter college course recommendations utilising the user's expected LC points, NFQ level and College preferences,
+and a CBF RS will provide college course recommendations utilising the user's RIASEC Model, academic interests and expected LC points.
+In other words, our college course RS is a hybrid RS with Knowledge-Based Filtering and Content-Based Filtering.
 
 \section{Quiz Design}
 \label{sec:quiz-design}
 
 In order to profile a user's academic interests and RIASEC Model, we must design a quiz to gather their preferences.
 The quiz must have sufficient coverage across all 21 academic interests and the six RIASEC traits.
-We can then design the quiz with six questions being asked per Academic Interest, 
+We can then design the quiz with six questions being asked per academic interest, 
 resulting in a total of 126 questions. 
 The user's response to the question must be quantifiable with a discrete measurement, 
 in order to make their response more easily processed by a computer.
@@ -611,38 +617,38 @@ of 1 to 5, where 1=Strongly Disagree, 2=Disagree, 3=Neutral, 4=Agree and 5=Stron
 \subsection{Question Design}
 
 Six questions are being asked for each of the 21 academic interests, and we must now discuss what questions we ask.
-The questions were designed to reflect the typical work done in each Academic Interest, to give the student a 
-clearer idea of their preferences towards each Academic Interest.
-For example, a student who has never studied Biology may find it difficult to answer a more general question such as: 
-\emph{On a scale of 1 to 5, how interested are you in Biology?},
+The questions were designed to reflect the typical work done in each academic interest, to give the student a 
+clearer idea of their preferences towards each academic interest.
+For example, a student who has never studied biology may find it difficult to answer a more general question such as: 
+\emph{On a scale of 1 to 5, how interested are you in biology?},
 and they would likely find it easier to answer a more specific question such as:
 \emph{On a scale of 1 to 5, how interesting would you find investigating how bacteria react to medicine?}
 This enhanced specificity helps the student explore their college course preferences, which assists us in answering our research question.
 
-Each of the six questions are not only designed to capture typical work performed in each Academic Interest,
+Each of the six questions are not only designed to capture typical work performed in each academic interest,
 but also to profile a student's RIASEC traits.
 For example, the activity: ``Investigate how bacteria react to medicine" is a `Life Science' question,
 but it also targets the Investigative RIASEC trait, as the work requires critical analysis.
 On the other hand, the activity: "Dissect biological specimens in a lab" is also a `Life Science' question,
 but it targets the Realistic RIASEC trait, as it involves working with your hands.
-In this sense, the six Academic Interest questions target different RIASEC traits as well as typical work in that field.
+In this sense, the six academic interest questions target different RIASEC traits as well as typical work in that field.
 
-However, among the six Academic Interest questions, the RIASEC traits are not targeted evenly.
+However, among the six academic interest questions, the RIASEC traits are not targeted evenly.
 For example, among the six `Life Science' questions, four questions target the Investigative RIASEC trait,
 and two questions target the Realistic RIASEC trait.
-This was done because generally, each Academic Interest is clustered around specific RIASEC traits; 
+This was done because generally, each academic interest is clustered around specific RIASEC traits; 
 some traits are more relevant than others depending on the context.
-This idea is also seen in the O*NET database as referenced previously.
-To assist in discovering the relevant RIASEC traits for each Academic Interest, 
-the RIASEC trait distribution for each Academic Interest is plotted in appendix \ref{sec:riasec-trait-dist}.
-These data allows us to appropriately target the relevant RIASEC traits 
+This idea is also seen in the O*NET database as referenced in subsection \ref{sec:dataset-riasec}.
+To assist in discovering the relevant RIASEC traits for each academic interest, 
+the RIASEC trait distribution for each academic interest is plotted in appendix \ref{sec:riasec-trait-dist}.
+These data allow us to appropriately target the relevant RIASEC traits 
 in each of the six academic interests questions.
 
 With this context and knowledge, we can design the 126 questions in our quiz to target different 
 types of typical work and relevant RIASEC traits across the 21 academic interests.
 The 126 questions were initially formed by Gemini Model 3,
 however, the questions underwent significant manual revisions by the author 
-in order to more accurately reflect the Academic Interest and RIASEC trait.
+in order to more accurately reflect the academic interest and RIASEC trait.
 The full list of 126 questions can be found in appendix \ref{sec:all-126-questions}.
 
 \subsection{Question Phrasing}
@@ -659,7 +665,7 @@ However, early user testing exposed a flaw:
 due to the phrasing of the question, users were being recommended college courses in areas they were
 recreationally interested in.
 As a result, they would not realistically consider studying the college course for the sake of job prospects or salary.
-For example, a student may be interested in exploring Philosophy as a hobby, but not for full-time work. 
+For example, a student may be interested in exploring philosophy as a hobby, but not for full-time work. 
 Thus, the question required some re-phrasing to reflect this, and we settled on: \emph{I would like to do this activity \textbf{for a living.}}
 The `for a living' pushes the user to consider the activity in the context of full-time work, 
 as opposed to a hobby.
@@ -704,7 +710,7 @@ Secondly, the phenomenon of overchoice as coined by \cite{toffler1970future},
 which remarks that choosing between a large variety of options can be detrimental to the decision-making process.
 As a result of these two findings, we are motivated to provide a smaller list of college course recommendations to the user.
 
-As described in section \ref{sec:cao}, a student can put up to 20 college courses on their CAO application - 10 NFQ Level 8 courses, and 10 NFQ Level 6/7 courses.
+As described in section \ref{sec:cao}, a student can put up to 20 college courses on their CAO application - 10 NFQ level 8 courses, and 10 NFQ level 6/7 courses.
 Inspired by this, our college course RS will return 20 college course recommendations to the user,
 a relatively small number which is in line with our aforementioned findings.
 
@@ -712,7 +718,7 @@ a relatively small number which is in line with our aforementioned findings.
 \label{sec:enhance-diversity-and-serendipity-recs}
 
 As mentioned in section \ref{sec:research-question}, diversity is a quality of an effective RS.
-Suppose a user demonstrates strong interest in Computers, and as a result 
+Suppose a user demonstrates strong interest in computers, and as a result 
 they are recommended five different computer science (CS) courses in Dublin.
 While these recommendations are relevant to the user's interests, 
 the recommendations are neither diverse or serendipitous.
@@ -730,15 +736,15 @@ then CS in University College Dublin (UCD) will not be recommended to the user,
 and another recommendation will take it's place.
 The implementation for this is given in subsection \ref{sec:identical-college-course-names-impl}.
 
-In addition to this, for the sake of diversity and serendipity we do not want one Academic Interest 
+In addition to this, for the sake of diversity and serendipity we do not want one academic interest 
 to dominate all 20 recommendations.
 Following this reasoning, the RS should strive to recommend college courses across
 many of the user's preferred academic interests.
-From a high level, suppose a user demonstrates interest towards Computers, Life Science and 
-Sport, then across the 20 recommendations, college courses will be recommended 
+From a high level, suppose a user demonstrates interest towards computers, life science and 
+sport, then across the 20 recommendations, college courses will be recommended 
 according to their interests.
-For example, 10 recommendations can go towards Computers, 6 recommendations towards Life Science
-and 4 recommendations towards Sport.
+For example, 10 recommendations can go towards computers, six recommendations towards life science
+and four recommendations towards sport.
 The implementation details for this is given in subsection \ref{sec:multiple-academic-interests-impl}.
 
 \subsection{Final Result}
@@ -760,29 +766,30 @@ In figure \ref{fig:example-recs}, an example of the college course RS output is 
 \label{fig:example-recs}
 \end{figure}
 
-In the above example, the user's strongest interest was in Healthcare, 
+In the above example, the user's strongest interest was in healthcare, 
 which describes their first five recommendations.
 The user also demonstrated interests in the life sciences and social sciences, 
 describing their 10-14th recommendations,
 showcasing the RS's ability to recommend college courses 
-across a user's academic interests, as opposed to focusing on just one Academic Interest,
+across a user's academic interests, as opposed to focusing on just one academic interest,
 for the sake of diversity.
 It can also be observed that no identically-named college courses are recommended,
 enhancing the diversity and potential serendipity of the recommendations.
 
 \section{Chapter Summary}
 
-In this chapter we explored the high-level design of our college course RS.
-On the whole, the design philosophy ultimately guided by providing relevant, diverse
+\textbf{todo - this reads pretty poorly, could do with some refining}
+
+In this chapter we explored the high-level design of our college course RS,
+in which each decision was motivated by providing relevant, diverse
 and serendipitous recommendations to the user.
-This was the strongest motivation behind all design decisions of the college course RS.
 
 We opened up the chapter with the interviews with two GC's, 
 where we focused on the college course decision-making process facilitated by GC's,
 which inspired the final design of the college course RS.
 Moreover, we examined the different pieces of information to profile off a user,
 and justified the profiling of a user's academic interests, RIASEC model, expected LC points,
-NFQ Levels and college preferences in order to provide personalised college course recommendations.
+NFQ levels and college preferences in order to provide personalised college course recommendations.
 As well as this, we discussed the retrieval and augmentation of the dataset,
 and the high-level RS design, which is a hybrid RS with KBF and CBF.
 Lastly, we explored the design of the quiz and the final recommendations to be presented to the user.

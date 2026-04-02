@@ -36,7 +36,7 @@ An example of this CAO list is given in figure \ref{fig:cao-course-list-methodol
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.7]{images/cao-course-list.png}
-    \caption{An example of an NFQ Level 8 CAO college course list.}
+    \caption{An example of an NFQ level 8 CAO college course list.}
     \label{fig:cao-course-list-methodology}
 \end{figure}
 
@@ -46,7 +46,7 @@ and a sample size of $n=31$ was obtained for this experiment.
 \subsection{The Experiment}
 
 After the participant voluntarily accepted to participate in the study, 
-experiments were either conducted in person. or over online video conferencing software.
+experiments were either conducted in-person, or over online video conferencing software.
 The PI was present constantly, and the participant was made aware that they can ask questions at any time.
 From start to finish, the experiments took no longer than 60 minutes.
 
@@ -153,7 +153,7 @@ We evaluated the user's perceived trust in the RS by asking the user the questio
 	\label{fig:trust-question}
 \end{figure}
 
-As a result, the user-perceived trust metric is a integer between 1 and 5, where 1 implies low trust and 5 implies high trust.
+As a result, the user-perceived trust metric is a integer between 1 and 5, where 1 implies low trust and 5 implies high trust in the RS and the recommendations behind it.
 
 \subsection{Precision}
 
@@ -186,9 +186,9 @@ Due to these limitations, we have decided not to include recall as a metric in t
 
 Serendipity is a recommendation that is both useful and unexpected to the user.
 In the Irish context, a user's CAO list is a representation of the user's known, relevant college courses.
-Following this reasoning, a college course that is recommended to the user that is not present in their CAO list 
+Following this reasoning, a college course that is recommended to the user that is not present on their CAO list 
 can be seen as serendipitous.
-To be more specific to the context of this problem, serendipity can be defined as: \emph{``What proportion of the 20 college course recommendations did the user like AND was not in their CAO list?''}.
+To be more specific to the context of this problem, serendipity can be defined as: \emph{``What proportion of the 20 college course recommendations did the user like AND was not on their CAO list?''}.
 Serendipity can also be mathematically expressed as:
 
 \[ 
@@ -293,7 +293,7 @@ we can see that the user-perceived diversity of the actual RS slightly outperfor
 the baseline by a difference of 0.2.
 Intuitively speaking, it makes sense that the baseline RS has high diversity because the algorithm is 
 completely unaware of the type of college course being recommended.
-It simply returns high-point courses, meaning that courses will be recommended across healthcare, law,
+The baseline simply returns high-point courses, meaning that courses will be recommended across healthcare, law,
 engineering, etc., resulting in high diversity.
 Considering that the actual RS still outperforms the baseline is a promising result in regards to the diversity 
 of the actual RS.
@@ -301,10 +301,10 @@ of the actual RS.
 We can also observe the user-perceived trust of the actual RS to strongly outperform the baseline,
 with an improvement of 1.6,
 indicating users have much higher perceived trust in the actual RS's recommendations.
-Seeing as a maximum `5' trust rating indicates very strong trust in the RS and its recommendations,
-an actual RS trust score of 4.2 is promising as it is relatively close this number.
+Seeing as a `4' trust score indicates moderately strong trust in the RS and its recommendations,
+an actual RS trust score of 4.2 is promising.
 On the other hand, the baseline's 2.4 trust score is relatively close a trust score of `2',
-indicating the user's moderate dissatisfaction and distrust in the baseline RS and its recommendations.
+indicating the user's moderate dissatisfaction and distrust in the baseline RS.
 Intuitively speaking, this is sensible as baseline simply returns high-LC point courses with no other algorithmic basis.
 
 \subsubsection{Objective Metrics}
@@ -328,13 +328,13 @@ meaning that on average,
 users will like about 4 out of 20 recommendations given by the baseline RS.
 In comparison, the actual RS achieves a mean precision of 0.47, 
 meaning that users will like about 9 out of 20 recommendations given by the actual RS,
-indicating a significant improvement from the baseline to the actual RS.
+indicating a significant improvement from the actual RS to the baseline.
 
 We can observe a similar performance increase when considering the serendipity metric.
 The baseline achieves a mean serendipity score of 0.2,
 meaning that on average, users will like 4 recommendations out of 20,
 and these 4 recommendations are not on their original CAO list.
-On the other hand, the actual RS provides about 8 serendipitous recommendations,
+On the other hand, the actual RS provides about 8 serendipitous recommendations out of 20,
 indicating performance that is almost twice as effective when comparing the actual and baseline RS's.
 
 We can gather more insights when we compare the precision and serendipity performances of the actual RS directly.
@@ -459,7 +459,7 @@ Using the MPRSC, the effect size for the trust metric is calculated as $r=0.96$.
 This value of $r$ lies well above the 0.5 threshold, indicating a large magnitude of difference 
 between the actual and the baseline ranks for the trust metric.
 
-\subsection{Summary}
+\subsection{Results Summary}
 
 Recall research objective \ref{res-obj-statistically}: ``Create a college course RS with statistically significant improvements compared to a baseline college course RS'',
 and our four evaluation metrics: diversity, trust, precision and serendipity.
@@ -474,11 +474,12 @@ for the diversity metric.
 
 However as mentioned earlier, it is a very difficult task for an actual RS to outperform the baseline in terms of diversity,
 because the baseline RS only recommends courses 
-sorted by LC points, and thus the recommendations will be very diverse by nature.
-Seeing that the actual RS outperformed the baseline in terms of diversity,
+sorted by LC points, and thus the recommendations will be very diverse by nature, as is evident by the mean diversity score of 3.7/5
+for the baseline RS.
+Seeing that the actual RS slightly outperformed the baseline in terms of diversity,
 we would arguably see this as a success.
 While the original research objective was not technically, fully achieved,
-three metrics had significant improvements and our diversity metric was competitive 
+three metrics had statistically significant improvements and our diversity metric was competitive 
 with a baseline that is very diverse by nature.
 Thus, we can consider the actual RS to demonstrate satisfactory performance in the context of research objective \ref{res-obj-statistically}.
 
@@ -566,12 +567,12 @@ and then they received recommendations for psychology and sociology, which they 
 In this case, the `social science' category could be broken into more granular categories
 to improve the relevance of the recommendations.
 Another example is with the `creative arts' academic interest,
-which classes college courses like creative writing, drawing, interior design, theatre and film studies.
+which includes college courses like creative writing, drawing, interior design, theatre and film studies.
 One participant expressed interest in creative writing and film studies,
 however they received recommendations for courses that involved drawing, pottery or interior design,
 as they were also classed under the same `creative arts' category.
 While these are particular examples, it demonstrates the greater point that 
-some of the academic interests labels were simply too broad.
+some of the academic interests labels were simply too broad, and at times resulted in irrelevant recommendations.
 
 \subsection{The Prestige of Leaving Certificate Points}
 
@@ -629,7 +630,7 @@ due to perceived low salaries or job prospects from these college courses.
 These findings demonstrate a weakness in relevance for the college course RS.
 Evidently, rephrasing the question to include `for a living' was unsatisfactory in 
 resolving this problem completely.
-Arguably, this problem could be better addressed by additional rephrasing of the question.
+Arguably, this problem could better be addressed by an additional rephrasing of the question.
 We hypothesise that a more explicit phrasing of the question could resolve the problem, such as:
 \emph{``I would like to do this activity \textbf{as a job:} ..."}, or 
 \emph{``I would like to do this activity \textbf{as part of a college course:} ..."}.
@@ -669,6 +670,27 @@ as shown in figure \ref{fig:multiple-titles-example} below:
 
 \subsection{Experiment Findings Summary}
 
+Recall research objective \ref{res-obj-insights}: ``Analyse the insights and findings gathered from a conducted experiment'',
+which was explored in this section.
+This section featured a stronger focus on qualitative insights that cannot be directly inferred from the raw data
+shown in section \ref{sec:results}.
+A handful of these insights exposed limitations in the RS design, such as the broad academic interest labels,
+which will be addressed in section \ref{sec:future-work}.
+Moreover, some insights were positive, for example 
+the finding that users can tune their recommendations to their unique working values.
+Lastly, some of the insights highlighted the complexity and nuance of human preferences,
+such as the prestige attached to a course's LC points.
+Overall, we can consider research objective \ref{res-obj-insights} achieved
+due to the explorations completed in this section.
+
 \section{Chapter Summary}
 
+This chapter first described the experiment conducted to evaluate this dissertation's RS.
+The results of the actual RS against a baseline were evaluated on four established metrics,
+with significant improvements observed for the trust, precision and serendipity metrics.
+Negligible improvements were observed for the diversity metric, however we argued this result 
+is still considered satisfactory, seeing as the baseline RS is very diverse by nature.
 
+As well as this, we examined the qualitative findings gathered from the conducted experiments,
+providing additional insights beyond the narrative of the raw experiment data.
+With our evaluation complete, we can move toward the final chapter.
