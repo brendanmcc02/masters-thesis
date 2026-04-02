@@ -1,9 +1,58 @@
 \chapter{Conclusions \& Future Work}
 \label{chap:conclusions}
 
-This chapter should summarize the work presented in the dissertation and discuss the conclusions that can be drawn from the work and the results presented in chapter~\ref{chap:evaluation}.
+This chapter will conclude the dissertation, and discuss potential future work of the college course RS in the Irish context.
+
+\section{Conclusions}
+
+Choosing a suitable college course is a difficult, multi-faceted decision,
+with 31\% of recent Irish college graduates reporting they were not likely to study their college course again, according to \cite{hea2018graduate}.
+In the Irish context, GC's are turning their priorities from career counselling towards mental health counselling,
+signalling the applicability of a technology in this domain.
+In this light of this, we proposed an Irish college course RS to assist students in their college course exploration,
+by providing them with diverse, relevant and serendipitous recommendations: all qualities of an effective RS.
+
+Designing an effective college course RS requires a strong grasp on relevant domain knowledge.
+This prompted a broad and comprehensive review of the fundamentals of college course choice,
+in which we provided an answer to the question: \emph{``What college course should people study?''}.
+Additionally, during our examination of closely-related works, we identified a potential research gap by unifying holland's RIASEC model with 
+academic interests, as well as providing users with a smaller, more manageable recommendation set of specific college 
+courses, as opposed to generalised areas of study.
+
+Our review on the fundamentals of college course choice, along with interviews conducted with two professional GC's, 
+were instrumental in our RS design.
+This provided us with more clarity on the role of an RS in Irish guidance counselling,
+desiring an RS that complements the human process of guidance counselling,
+as opposed to replacing it entirely.
+This review also allowed us to identify the relevant information an RS should gather off a 
+user in order to provide personalised college course recommendations.
+This inspired the final design of this
+dissertation's RS: a hybrid RS with Knowledge-based Filtering to filter college courses by NFQ levels, expected LC points 
+and colleges, and a Content-based Filtering RS utilising academic interests and the RIASEC model
+to provide 20 personalised college course recommendations.
+Courses were proportionately recommended across the user's top-5 academic interests,
+and courses with identical titles were not recommended.
+All of which were efforts to enhance the diversity and serendipity of the recommendations.
+
+This dissertation's RS was evaluated by conducting an experiment with $n=31$ participants.
+An objective baseline RS was designed to return courses sorted descending by LC points, 
+satisfying the user's explicit filters.
+Compared to the baseline, the actual RS demonstrated significant improvements across the trust, serendipity and precision metrics,
+with competitive performance on the diversity metric.
+On average, the user liked 9 out of 20 college course recommendations provided by the actual RS,
+where 8 of those recommendations were not on the user's original CAO list, i.e. serendipitous recommendations.
+This is compared to the baseline's 4 out of 20 serendipitous recommendations,
+indicating satisfactory performance of this dissertation's RS in the context of the research question.
+
+\subsection{Contribution to the Literature}
 
 % owen: augment the table i made in literature review and augment my solution!
+
+\subsection{Revisiting the Research Question}
+% revisit rq
+
+\subsection{Revisiting Research Objectives}
+% revisit research objectives
 
 \section{Future Work}
 \label{sec:future-work}
@@ -13,7 +62,6 @@ The section may present a list of items that were beyond the scope of the disser
 \textbf{todo could probably ref some of the limitations/insights from experiments?}
 
 % lots of things covered in lit review that were not in design
-% e.g. race, gender, etc.
 % proclivity towards work/life balance, salary, job prospects, meaning/impact, etc.
 % in other words, a lot of what i write in the lit review that **doesn't** make it's way into design/implementation can be discussed here
 

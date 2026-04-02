@@ -61,8 +61,6 @@ college-course-recommender-system/results-pdf/old-pdfs/*.pdf
 
 testing/testing.md
 
-other-theses/*.pdf
-
 thesis/%OUTDIR%/
 
 thesis/thesis.synctex.gz(busy)
