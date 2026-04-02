@@ -4,6 +4,11 @@
 # finishing touches
 - [ ] make sure all holland RIASEC is consistent with capitalisation or putting quotes around it
 - [ ] make sure all academic interests is consistent with capitalisation or putting quotes around it
+    * social science
+    * life science
+    * computers
+    * healthcare
+    * engineering
 - [ ] its is possessive, it's is contraction!
 - [ ] do a final scan of "todo" across all `*.tex` files!!! make sure nothing gets left in the final draft
 - [ ] check all `\ref{}` are correct!

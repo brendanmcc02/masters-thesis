@@ -1,9 +1,11 @@
 \chapter{Initial Prototypes}
 \label{chap:initial-prototypes}
 
-As part of this research, a significant portion of time was dedicated towards a particular approach in solving this dissertation's research question.
-Arguably, it is worth dedicating time to detailing this failed approach, as it involves the use of popular datasets 
-that others may use in solving similar problems to this dissertation.
+This chapter explores a failed approach to utilise Collaborative Filtering (CF) in attempting to solve this 
+dissertation's research question. 
+As part of the approach, popular datasets (see footnote \ref{op-dataset}) were utilised that others may use in solving similar problems to this dissertation.
+A machine learning model classifier was trained on this dataset, and the results were unsatisfactory due to a lack of coverage by the questions in the dataset.
+
 This chapter will describe the motivations behind the chosen approach, the implementation details, and then evaluate 
 the results and describe why the experiment yielded unsatisfactory results. 
 
@@ -35,7 +37,7 @@ or RIASEC model.
 To the best of our knowledge, this kind of data is not available in the Irish context.
 As a result, we explored similar datasets outside of the Irish context.
 
-A promising dataset in this context was published by OpenPsychometrics\footnote{\url{https://openpsychometrics.org/_rawdata/}} with data on over 140,000 individuals.
+A promising dataset in this context was published by OpenPsychometrics\footnote{\label{op-dataset}\url{https://openpsychometrics.org/_rawdata/}} with data on over 140,000 individuals.
 In this dataset, which will be referred to as the `RIASEC dataset', feature the results of a 48-question quiz which determined the user's RIASEC model.
 This quiz asked the user how much they enjoyed certain activities on a 5-point Likert scale, i.e. 1 implied they dislike the activity, and a 5 implied they would enjoy the activity.
 An example of a question is given in figure \ref{fig:op-quiz}.
@@ -62,7 +64,7 @@ compounding the difficulty of this problem.
 
 As a solution to the problem of specificity provided above, we can create more general categories of related college courses.
 For example, we can 
-group college majors/courses such as Medicine, Nursing and Occupational Therapy under a ``healthcare" category.
+group college majors/courses such as medicine, Nursing and Occupational Therapy under a ``healthcare" category.
 The college majors in the RIASEC dataset can be placed into these categories,
 and the college courses in the Irish college course dataset can also be placed into these categories.
 Admittedly, a disadvantage of this solution is a loss of nuance that would occur in the mapping.
