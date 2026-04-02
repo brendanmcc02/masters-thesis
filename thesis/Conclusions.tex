@@ -126,8 +126,6 @@ contribution to the literature surrounding college and career RS's.
 
 \subsection{Revisiting the Research Question}
 
-\textbf{trust is not mentioned here - should it? should i get rid of it entirely?}
-
 In section \ref{sec:research-question} we introduced this dissertation's research question:
 \emph{``Can a Recommender System assist an Irish student in exploring college courses they would consider studying?"}.
 Recall that we hypothesised that an RS that provides relevant, diverse and serendipitous recommendations would answer this research question.
@@ -140,15 +138,23 @@ for the precision and serendipity metrics.
 On average, users responded that they would realistically consider studying 9 out of 20 college course recommendations,
 8 of which are serendipitous recommendations not on the user's original CAO list.
 This is compared to the baseline, where users only considered studying 4 out of 20 college recommendations,
-all 4 of which were serendipitous recommendations.
+all 4 of which were serendipitous recommendations,
+indicating the actual RS was twice as effective in providing serendipitous recommendations compared to the baseline, which is a satisfactory result.
 
 Following our evaluations from above, we can conclude that we have designed an RS that provides a user with relevant, diverse and serendipitous recommendations,
 successfully answering this dissertation's research question.
 
 \subsection{Revisiting Research Objectives}
-% revisit research objectives
 
-\textbf{do i actually need research objective 4? isn't it basically the research question?}
+In this subsection, we will revisit each research objective and examine whether the objective was achieved or not.
+
+\begin{enumerate}
+    \item \emph{Provide an answer to the question: ``What college course should people study?"}\\An answer to this question was provided in subsection \ref{sec:fundamentals-summary}, which largely inspired the design of this dissertation's RS. As a result, we can consider this research objective achieved.
+    \item \emph{Identify the relevant information an RS should question a user to recommend suitable college courses.}\\The relevant information was identified in subsection \ref{sec:user-information-to-profile-summary}, directly informing the design of this disseration's RS. Thus, we can also consider this research objective achieved.
+    \item \emph{Design an objective, easily reproducable baseline RS appropriate to the Irish college context.}\\A baseline RS that fits this criteria was explicitly described in section \ref{sec:baseline-rs}. We may consider this research objective achieved.
+    \item \emph{In comparison to a baseline college course RS, design an RS with statistically significant improvements for the user-perceived trust metric.}\\As observed in section \ref{sec:statistical-sig}, statistically significant improvements were found for the trust metric, when comparing the actual RS to the baseline. As a result, we can consider this research objective achieved.
+    \item \emph{Analyse the qualitative insights and findings from a conducted experiment.}\\These insights were described in section \ref{sec:experiment-findings}, providing necessary qualitative analysis that goes beyond raw metrics. Therefore, we can consider this research objective achieved.
+\end{enumerate}
 
 \section{Future Work}
 \label{sec:future-work}

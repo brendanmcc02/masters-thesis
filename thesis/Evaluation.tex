@@ -136,14 +136,15 @@ This was evaluated by asking the user the question shown in figure \ref{fig:dive
 	\label{fig:diversity-question}
 \end{figure}
 
-As a result, the user-perceived diversity metric is an integer between 1 and 5, where 1 implies low diversity and 5 implies high diversity.
+The user-perceived diversity metric is an integer between 1 and 5, where 1 implies low diversity and 5 implies high diversity.
 
 \subsection{User-perceived Trust}
 
 In \cite{aggarwal2016recommender}, an additional quality of an effective RS is a user's trust in the recommendations
-and the system behind it.
+and the RS behind it.
+In light of this, recall research objective \ref{res-obj-trust}: ``In comparison to a baseline college course RS, design an RS with statistically significant improvements for the user-perceived trust metric''.
 Naturally, measuring trust objectively is not possible as it is user-dependant.
-As a result, we will measure the user's trust subjectively in a similar manner to user-perceived diversity.
+Following this reasoning, we will measure the user's trust subjectively in a similar manner to user-perceived diversity.
 We evaluated the user's perceived trust in the RS by asking the user the question shown in figure \ref{fig:trust-question} below:
 
 \begin{figure}[H]
@@ -153,7 +154,7 @@ We evaluated the user's perceived trust in the RS by asking the user the questio
 	\label{fig:trust-question}
 \end{figure}
 
-As a result, the user-perceived trust metric is a integer between 1 and 5, where 1 implies low trust and 5 implies high trust in the RS and the recommendations behind it.
+The user-perceived trust metric is a integer between 1 and 5, where 1 implies low trust and 5 implies high trust in the RS and the recommendations behind it.
 
 \subsection{Precision}
 
@@ -350,7 +351,6 @@ this high ratio is a very promising result and arguably implies satisfactory RS 
 \subsection{Statistical Significance of Results}
 \label{sec:statistical-sig}
 
-Recall research objective \ref{res-obj-statistically}: ``Create a college course RS with statistically significant improvements compared to a baseline college course RS''.
 In the previous subsection, we observed the actual RS improving upon the baseline's performance
 across all four evaluation metrics.
 However, we have yet to analyse whether or not these results are statistically significant,
@@ -361,7 +361,7 @@ We will work with a standard 95\% level of statistical confidence in this analys
 
 First, we must determine if our four gathered evaluation metrics come from a normal distribution.
 We can use the Shapiro-Wilk test for normality, with a null hypothesis that the data follow a normal distribution.
-If the $p$ value is $\le 0.05$, we reject the null hypothesis in favour of the alternative 
+If $p\le 0.05$, we reject the null hypothesis in favour of the alternative 
 hypothesis, which claims the data no not follow a normal distribution.
 Seeing as our experiment involves the same user being evaluated by the actual and baseline RS,
 for each metric we will run the Shapiro-Wilk test on the differences between the actual and baseline,
@@ -395,7 +395,7 @@ except for the trust metric.
 If the examined metric follows a normal distribution, we can use a paired t-test (PTT) to 
 determine a statistically significant difference between the sample means.
 Otherwise, we can use a Wilcoxon signed-rank test (WSRT), which evaluates the median differences between the samples.
-With a $p$ value of $\le 0.05$, we have sufficient evidence to reject the null hypothesis, that means/medians of both 
+If $p\le 0.05$, we have sufficient evidence to reject the null hypothesis, that means/medians of both 
 samples are equal, in favour of the alternative hypothesis, that the means/medians of two samples differ significantly.
 The results of this test is shown in table \ref{tab:two-sample-test} below:
 
@@ -420,10 +420,10 @@ The results of this test is shown in table \ref{tab:two-sample-test} below:
 \end{table}
 
 From observing the results of table \ref{tab:two-sample-test} above,
-we have sufficient evidence that the means/medians of precision, serendipity and trust 
-differ significantly from the actual RS compared to the baseline.
+we can conclude that the means/medians of the precision, serendipity and trust metrics
+are statistically significant when comparing the actual RS to the baseline.
 On the other hand, we do not have sufficient evidence to reject the hypothesis that the means 
-of diversity differ significantly from the actual compared to the baseline.
+of the diversity metric differ significantly from the actual RS compared to the baseline.
 
 \subsubsection{Measuring the Magnitude of Difference between Sample Means}
 
@@ -451,44 +451,42 @@ On the other hand when considering diversity, a value of $d=0.1$ indicates a neg
 to the baseline.
 
 Seeing as the trust metric is not normally distributed and we used the WSRT, 
-we can use the Matched-pairs rank biserial correlation (MPRSC) to 
+we can use the matched-pairs rank biserial correlation (MPRSC) to 
 to calculate the effect size $r$.
 According to \cite{cohen2013statistical}, $r\ge0.5$ is considered a `large' difference,
 $r\ge0.3$ is a `medium' difference, and $r\ge0.1$ is a `small' difference.
 Using the MPRSC, the effect size for the trust metric is calculated as $r=0.96$.
 This value of $r$ lies well above the 0.5 threshold, indicating a large magnitude of difference 
-between the actual and the baseline ranks for the trust metric.
+between the actual and the baseline medians for the trust metric.
+Thus, we can consider research objective \ref{res-obj-trust} achieved:
+``In comparison to a baseline college course RS, design an RS with statistically significant improvements for the user-perceived trust metric.''.
 
 \subsection{Results Summary}
 
-Recall research objective \ref{res-obj-statistically}: ``Create a college course RS with statistically significant improvements compared to a baseline college course RS'',
-and our four evaluation metrics: diversity, trust, precision and serendipity.
 This section demonstrated large, statistically significant improvements 
 for the actual RS compared to the baseline for the three metrics:
 trust, precision and serendipity,
 which is a satisfactory result.
 That being said, no statistically significant improvement was found for the diversity metric.
-As a result, we do not technically consider this research objective fully achieved,
-as the actual RS was unable to produce statistically significant improvements 
-for the diversity metric.
-
-However as mentioned earlier, it is a very difficult task for an actual RS to outperform the baseline in terms of diversity,
-because the baseline RS only recommends courses 
-sorted by LC points, and thus the recommendations will be very diverse by nature, as is evident by the mean diversity score of 3.7/5
-for the baseline RS.
+As mentioned earlier, it is a very difficult task for an actual RS to outperform the baseline in terms of diversity,
+as the baseline RS only recommends courses 
+sorted by LC points, and thus the its recommendations will be very diverse by nature, as is evident by its mean diversity score of 3.7/5.
 Seeing that the actual RS slightly outperformed the baseline in terms of diversity,
 we would arguably see this as a success.
-While the original research objective was not technically, fully achieved,
-three metrics had statistically significant improvements and our diversity metric was competitive 
-with a baseline that is very diverse by nature.
-Thus, we can consider the actual RS to demonstrate satisfactory performance in the context of research objective \ref{res-obj-statistically}.
+In addition to this, on average users liked 9 out of 20 college course recommendations provided by the actual RS,
+where 8 of these recommendations were serendipitous and not on the user's original CAO list.
+In comparison, users liked on average 4 out of 20 recommendations provided by the baseline RS,
+4 of which were serendipitous,
+indicating the actual RS was twice as effective as the baseline in providing serendipitous recommendations.
+Considering all the above factors, we arguably find the actual RS to demonstrate satisfactory performance in the context of our research question.
 
 \section{Experiment Findings and Analysis}
+\label{sec:experiment-findings}
 
 From our analysis in the previous section, the aggregated results of our experiment tell quite a straightforward story.
 That being said, there were numerous findings gathered from the the experiments as they were being conducted,
 either from the PI's observations, or participant's verbal feedback.
-Recall that this describes research objective \ref{res-obj-insights}: ``Analyse the insights and findings gathered from a conducted experiment''.
+Recall that this describes research objective \ref{res-obj-insights}: ``Analyse the qualitative insights and findings from a conducted experiment''.
 In some cases, these insights were gathered from just one participant's interactions with the RS.
 Seeing as our sample size is already relatively small at $n=31$, 
 it would be unfair to assume that a subset of this would represent the entire sample.
@@ -670,7 +668,7 @@ as shown in figure \ref{fig:multiple-titles-example} below:
 
 \subsection{Experiment Findings Summary}
 
-Recall research objective \ref{res-obj-insights}: ``Analyse the insights and findings gathered from a conducted experiment'',
+Recall research objective \ref{res-obj-insights}: ``Analyse the qualitative insights and findings from a conducted experiment'',
 which was explored in this section.
 This section featured a stronger focus on qualitative insights that cannot be directly inferred from the raw data
 shown in section \ref{sec:results}.
