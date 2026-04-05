@@ -188,6 +188,7 @@ and we will also cover this information as part of a more broad academic interes
 as explained in subsection \ref{sec:academic-interests-gc}.
 
 \subsection{Salary and Job Prospects}
+\label{sec:salary-design}
 
 As described in subsection \ref{sec:job-and-career-satisfaction}, a user's desire for salary or job prospects after graduation would be relevant information in the context of college course recommendations.
 However to the best of our knowledge, data on the mean salary or employment rate of graduates from each college course in Ireland
@@ -206,11 +207,15 @@ and so we can disregard a user's desire for salary or job prospects in the conte
 \textbf{todo - maybe say this will get referenced in future work?}
 
 \subsection{Meaning}
+\label{sec:meaning-design}
 
 As also described in subsection \ref{sec:job-and-career-satisfaction}, a user's desire for meaningful work would be relevant information to profile off a user in the context of a college course RS.
 However, we believe this is challenging to work with, 
 as this information is difficult to translate to something computational.
-For example, we could consider creating something akin to a `meaning score' for each college course. However, it would be challenging to meaningfully quantify this value for a college course - for instance, 
+For example, we could consider creating something akin to a `meaning score' for each college course: 
+where a value of 1.0 implies a high degree of meaning associated with the college course,
+and a value of 0.0 implies a low degree of meaning.
+However, this approach is limited by a lack of objectivity - - for instance, 
 how does one argue that one college course is more meaningful than another course?
 As a result, we can disregard a user's desire for meaning in the context of college course recommendations.
 

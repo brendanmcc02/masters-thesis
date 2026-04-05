@@ -1,7 +1,7 @@
 \chapter{Conclusions \& Future Work}
 \label{chap:conclusions}
 
-This chapter will conclude the dissertation, and discuss potential future work of the college course RS in the Irish context.
+This chapter will conclude the dissertation, and discuss potential future work of the proposed Irish college course RS.
 
 \section{Conclusions}
 
@@ -23,7 +23,7 @@ Our review on the fundamentals of college course choice, along with interviews c
 were instrumental in our RS design.
 This provided us with more clarity on the role of an RS in Irish guidance counselling,
 desiring an RS that complements the human process of guidance counselling,
-as opposed to replacing it entirely.
+as opposed to replacing this process entirely.
 This review also allowed us to identify the relevant information an RS should gather off a 
 user in order to provide personalised college course recommendations.
 This inspired the final design of this
@@ -150,35 +150,113 @@ In this subsection, we will revisit each research objective and examine whether 
 
 \begin{enumerate}
     \item \emph{Provide an answer to the question: ``What college course should people study?"}\\An answer to this question was provided in subsection \ref{sec:fundamentals-summary}, which largely inspired the design of this dissertation's RS. As a result, we can consider this research objective achieved.
-    \item \emph{Identify the relevant information an RS should question a user to recommend suitable college courses.}\\The relevant information was identified in subsection \ref{sec:user-information-to-profile-summary}, directly informing the design of this disseration's RS. Thus, we can also consider this research objective achieved.
+    \item \emph{Identify the relevant information an RS should question a user to recommend suitable college courses.}\\The relevant information was identified in subsection \ref{sec:user-information-to-profile-summary}, directly informing the design of this dissertation's RS. Thus, we can also consider this research objective achieved.
     \item \emph{Design an objective, easily reproducable baseline RS appropriate to the Irish college context.}\\A baseline RS that fits this criteria was explicitly described in section \ref{sec:baseline-rs}. We may consider this research objective achieved.
     \item \emph{In comparison to a baseline college course RS, design an RS with statistically significant improvements for the user-perceived trust metric.}\\As observed in section \ref{sec:statistical-sig}, statistically significant improvements were found for the trust metric, when comparing the actual RS to the baseline. As a result, we can consider this research objective achieved.
     \item \emph{Analyse the qualitative insights and findings from a conducted experiment.}\\These insights were described in section \ref{sec:experiment-findings}, providing necessary qualitative analysis that goes beyond raw metrics. Therefore, we can consider this research objective achieved.
 \end{enumerate}
 
+With our evaluation of research objectives complete, we can now move on to discussing future works.
+
 \section{Future Work}
 \label{sec:future-work}
 
-The section may present a list of items that were beyond the scope of the dissertation.
+In this section, we will discuss a list of future works in the context of college course RS's.
+Some of these future works will be relevant to the Irish context specifically, and
+others will be relevant outside of the Irish context.
 
-\textbf{todo could probably ref some of the limitations/insights from experiments?}
+\subsection{Collaborative Filtering}
 
-% lots of things covered in lit review that were not in design
-% proclivity towards work/life balance, salary, job prospects, meaning/impact, etc.
-% in other words, a lot of what i write in the lit review that **doesn't** make it's way into design/implementation can be discussed here
+This dissertation's RS utilises Knowledge-based Filtering (KBF) and Content-based Filtering (CBF) in generating its recommendations.
+According to \cite{aggarwal2016recommender}, CBF works by recommending items solely based on the user's provided preferences.
+A disadvantage of this is what is known as a `filter bubble': 
+users are only being recommended items with similar attributes to items they have already interacted with.
+As a result, users find themselves in an `echo chamber', with recommendations lacking diversity and most importantly,
+serendipity.
+Another disadvantage of CBF is that the RS design requires significant metadata and labeling,
+requiring a strong grasp on domain knowledge.
+For instance in this dissertation's RS implementation, we required significant metadata regarding the academic interest
+labels and RIASEC model associated with each college course.
+
+On the other hand, Collaborative Filtering (CF) works by recommending items that other users with similar preferences also liked.
+For example, recommending biology to a user because other users with similar preferences chose to study biology.
+Due to the nature of its implementation, an advantage of CF lies in its ability to capture complex human preferences
+that manually-labeled CBF would be unable to achieve.
+For example, a CF RS may recommend a historical epic film to a user with past interest in sci-fi films,
+as other sci-fi lovers enjoy long films on a grand scale - not only is this recommendation diverse, it may also be incredibly serendipitous.
+This highly-nuanced information is incredibly difficult to encode with a dataset label,
+posing a disadvantage for CBF.
+
+Due to the unsupervised nature of CF, we hypothesise that a CF RS would be more optimal for a college 
+course RS. Naturally, a limitation of the CF approach is the access to data regarding individual's preferences and their subsequent college course choice.
+In chapter \ref{chap:initial-prototypes}, we explored a CF approach with a popular RIASEC dataset,
+although the results were unsatisfactory due to a lack of coverage of quiz questions in the dataset.
+To the best of our knowledge in the Irish context, this kind of data is unavailable,
+posing a limitation to implementing CF in the Irish college course RS context.
+
+\subsection{Additional Information to Profile off a User}
+
+In section \ref{sec:fundamentals-summary}, we provided an answer to the question posed by research objective \ref{res-obj-answer}:
+``\emph{What college course should people study?}".
+The purpose of this was to provide insights into achieving research objective \ref{res-obj-information}:
+``Identify the relevant information an RS should question a user to recommend suitable college courses''.
+As part of our answer to research objective \ref{res-obj-answer},
+we mentioned that the following two pieces of information would be relevant to profile off 
+a user in the context of college course recommendations:
+
+\begin{itemize}
+    \item The user's desire for salary or employment after graduation.
+    \item The user's desire for meaningful or socially impactful work.
+\end{itemize}
+
+In subsection \ref{sec:salary-design}, we discussed the viability of integrating salary or employment information into our college course RS.
+Arguably, it would not be relevant to recommend a course with low mean graduate salaries to a student who 
+highly prioritises employment rate and salary.
+Given the lack of Irish course-specific data regarding salary or employment rates, this approach was not deemed possible.
+That being said, as a piece of future work in the context of college course recommendations, we hypothesise that profiling a user's 
+desire for salary or employment would result in more relevant recommendations.
+In terms of effectively implementing this information, we hypothesise that a CF RS would be optimal for solving this problem,
+due to the CF RS's ability to implicitly capture nuanced human preferences without explicit metadata.
+For instance, if a user highly values salary and employment, with a CF RS they may be recommended college courses 
+that other students who also highly valued salary and employment chose to study, such as medicine or law.
+Due to the lack of Irish course-specific data for salaries and employment rates,
+the CF approach is hypothetically applicable in this case.
+
+Moreover, in subsection \ref{sec:meaning-design}, we discussed the viability of integrating a user's desire for meaning or social impact 
+into our college course RS.
+For instance, if an RS has knowledge that a student highly values social impact, the RS may be able to provide more tailored recommendations in light of this.
+For example, the RS may recommend courses in social policy, nursing, or other fields with conventionally higher means for social impact.
+That being said, this approach was turned down due to the difficulty in numerically translating or encoding this information as something more machine-readable.
+However in terms of possible implementation ideas, we hypothesise that a CF RS may 
+resolve this problem.
+This is due to the CF RS's ability to capture nuanced human interaction that traditional metadata/labeling fail to capture.
+For example, a CF RS may recommend a college course in social policy to a student due to their interest in meaningful work,
+as other students who also valued meaningful work went into similar college courses.
+
+\subsection{The Role of Large Language Models}
 
 % future work - try without riasec? ngl academic interests does heavy lifting, lowkey curse of dimensionality, might not be necessary info/noise
+    % but also talk about higher granularity of academic interest labels - reference the experiment insights here
 
 % future work - allow the rec algo to run first, then ask the user to pick colleges
     % give example of people having a lack of awareness about colleges, especially specialised ones, e.g. marino, bimm, iadt, etc.
     % if they don't select those colleges, they won't get recs for it
-% * the RS could have a feedback loop, where the user is prompted again if they want to change their college
+    % * the RS could have a feedback loop, where the user is prompted again if they want to change their college
 %     * e.g. declan only putting down tcd, ucd when he actually got recommended a lot of arts courses, could have benefitted from BIMM, IADT, etc.
 %         * e.g. me wanting education but not doing dcu/marino/
 %     * there are a looot of colleges and people are frankly unaware of what they do
 %     * maybe the RS should run on all colleges (no filter, despite what the user puts down)- and if there are courses being recommended for those colleges, the system could ask the user: "hey, we got some course suggestions from these colleges because you scored highly in these areas, would you like to include these colleges in your final recommendation list?
 %         * **when running test with doill he talked about this, mention it!!!**
 %     * but it's a trade-off: if you over-engineer the system with feedback you can make the user drop out of the system - owen's advice
+
+% implementation limitations
+    % third language entry requirment for colleges
+    % grade requirements for courses
+    % inaccurate point representation for courses that require portfolios, tests or interviews
+
+
+
+
 
 % \section{Large Language Models}
 
