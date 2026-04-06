@@ -1,7 +1,7 @@
 \chapter{Conclusions \& Future Work}
 \label{chap:conclusions}
 
-This chapter will conclude the dissertation, and discuss potential future work of the proposed Irish college course RS.
+This chapter will conclude the dissertation, and discuss future work in the domain of college course recommendations.
 
 \section{Conclusions}
 
@@ -9,7 +9,7 @@ Choosing a suitable college course is a difficult, multi-faceted decision,
 with 31\% of recent Irish college graduates reporting they were not likely to study their college course again, according to \cite{hea2018graduate}.
 In the Irish context, GC's are turning their priorities from career counselling towards mental health counselling,
 signalling the applicability of a technology in this domain.
-In this light of this, we proposed an Irish college course RS to assist students in their college course exploration,
+In light of this, we proposed an Irish college course RS to assist students in their college course exploration,
 by providing them with diverse, relevant and serendipitous recommendations: all qualities of an effective RS.
 
 Designing an effective college course RS requires a strong grasp on relevant domain knowledge.
@@ -27,8 +27,8 @@ as opposed to replacing this process entirely.
 This review also allowed us to identify the relevant information an RS should gather off a 
 user in order to provide personalised college course recommendations.
 This inspired the final design of this
-dissertation's RS: a hybrid RS with Knowledge-based Filtering to filter college courses by NFQ levels, expected LC points 
-and colleges, and a Content-based Filtering RS utilising academic interests and the RIASEC model
+dissertation's RS: a hybrid RS with knowledge-based filtering to filter college courses by a user's NFQ levels, expected LC points 
+and colleges, and a content-based filtering RS utilising academic interests, RIASEC model and expected LC points
 to provide 20 personalised college course recommendations.
 Courses were proportionately recommended across the user's top-5 academic interests,
 and courses with identical titles were not recommended.
@@ -48,7 +48,7 @@ indicating satisfactory performance of this dissertation's RS in the context of 
 
 To demonstrate our contribution to the literature, 
 we will augment tables \ref{tab:research-gap-1} and \ref{tab:research-gap-2} introduced in section \ref{sec:research-gap}
-to include this dissertation's RS, which will be referenced as
+to include this dissertation's RS, which will be referred to as 
 \emph{Irish College Course Recommender System} (ICCRS).
 
 \begin{table}[H]
@@ -83,7 +83,7 @@ to include this dissertation's RS, which will be referenced as
 
 In observing table \ref{tab:research-gap-1-filled} above, ICCRS features a quiz with significant length,
 demonstrating its breadth at 126 questions.
-Additionally, inspired by the findings of \cite{toffler1970future} and \cite{long2025choice} in which smaller recommendation
+Additionally, inspired by the findings of \cite{toffler1970future} and \cite{long2025choice}, in which smaller recommendation
 sets yield more performant results, 20 college course recommendations are provided to the user.
 To the best of our knowledge when considering the Irish context, providing the user with a more refined set of college course recommendations (20) 
 is a novel contribution to the literature.
@@ -132,14 +132,14 @@ Recall that we hypothesised that an RS that provides relevant, diverse and seren
 
 In chapter \ref{chap:evaluation}, we compared the performance of an actual RS to a baseline. 
 During our evaluation, we observed the actual RS slightly outperforming the baseline in terms of diversity,
-which is satisfactory as the baseline RS is diverse by nature - as is evident by its 3.7/5 diversity score.
+which is satisfactory as the baseline RS is diverse by nature, as is evident by its 3.7/5 user-perceived diversity score.
 As well as this, we observed very large, statistically significant improvements 
 for the precision and serendipity metrics.
 On average, users responded that they would realistically consider studying 9 out of 20 college course recommendations,
 8 of which are serendipitous recommendations not on the user's original CAO list.
-This is compared to the baseline, where users only considered studying 4 out of 20 college recommendations,
+This is compared to the baseline, where users only considered studying 4 out of 20 recommendations,
 all 4 of which were serendipitous recommendations,
-indicating the actual RS was twice as effective in providing serendipitous recommendations compared to the baseline, which is a satisfactory result.
+indicating the actual RS was twice as effective in providing relevant and serendipitous recommendations compared to the baseline, which is a satisfactory result.
 
 Following our evaluations from above, we can conclude that we have designed an RS that provides a user with relevant, diverse and serendipitous recommendations,
 successfully answering this dissertation's research question.
@@ -165,7 +165,7 @@ With our evaluation of research objectives complete, we can now move on to discu
 
 In this section, we will discuss a list of future works in the context of college course RS's.
 Some of these future works will be relevant to the Irish context specifically, and
-others will be relevant outside of the Irish context.
+others will be relevant beyond the Irish context.
 
 \subsection{Collaborative Filtering}
 
@@ -202,6 +202,7 @@ To the best of our knowledge in the Irish context, the CF approach has not been 
 suggesting a piece of future work.
 
 \subsection{Additional Information to Profile off a User}
+\label{sec:add-info-concl}
 
 In section \ref{sec:fundamentals-summary}, we provided an answer to the question posed by research objective \ref{res-obj-answer}:
 ``\emph{What college course should people study?}".
@@ -217,8 +218,6 @@ a user in the context of college course recommendations:
 \end{itemize}
 
 In subsection \ref{sec:salary-design}, we discussed the viability of integrating salary or employment information into our college course RS.
-Arguably, it would not be relevant to recommend a course with low mean graduate salaries to a student who 
-highly prioritises employment rate and salary.
 Given the lack of Irish course-specific data regarding salary or employment rates, this approach was not deemed possible.
 That being said, as a piece of future work in the context of college course recommendations, we hypothesise that profiling a user's 
 desire for salary or employment would result in more relevant recommendations.
@@ -226,8 +225,6 @@ In terms of effectively implementing this information, we hypothesise that a CF 
 due to the CF RS's ability to implicitly capture nuanced human preferences without explicit metadata.
 For instance, if a user highly values salary and employment, with a CF RS they may be recommended college courses 
 that other students who also highly valued salary and employment chose to study, such as medicine or law.
-Due to the lack of Irish course-specific data for salaries and employment rates,
-the CF approach is hypothetically applicable in this case.
 
 Moreover, in subsection \ref{sec:meaning-design}, we discussed the viability of integrating a user's desire for meaning or social impact 
 into our college course RS.
