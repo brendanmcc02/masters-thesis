@@ -1,16 +1,4 @@
-# TODO
-- [ ] abstract
-
 # finishing touches
-- [ ] do a final scan of "todo" across all `*.tex` files!!! make sure nothing gets left in the final draft
-- [ ] make sure all holland RIASEC is consistent with capitalisation or putting quotes around it
-- [ ] make sure all academic interests is consistent with capitalisation or putting quotes around it
-    * social science
-    * life science
-    * computers
-    * healthcare
-    * engineering
-- [ ] its is not possessive, it's is contraction!
 - [ ] check all `\ref{}` are correct!
 - [ ] check all `\footnote{}` are correct!
 - [ ] check all footnotes are formatted correctly and the content, no weird stuff going on
@@ -22,3 +10,4 @@
 - [ ] might have to do some `\newpage`'s
     * ngl don't think i can manage this with page count!
     * or maybe i can! idk
+- [ ] do a final scan of "todo" across all `*.tex` files!!! make sure nothing gets left in the final draft
