@@ -161,6 +161,8 @@ With our evaluation of research objectives complete, we can now move on to discu
 \section{Future Work}
 \label{sec:future-work}
 
+\textbf{todo ask owen - do i have to talk about potential solutions to these problems to 'help' future work? or just identify them?}
+
 In this section, we will discuss a list of future works in the context of college course RS's.
 Some of these future works will be relevant to the Irish context specifically, and
 others will be relevant outside of the Irish context.
@@ -168,8 +170,8 @@ others will be relevant outside of the Irish context.
 \subsection{Collaborative Filtering}
 
 This dissertation's RS utilises Knowledge-based Filtering (KBF) and Content-based Filtering (CBF) in generating its recommendations.
-According to \cite{aggarwal2016recommender}, CBF works by recommending items solely based on the user's provided preferences.
-A disadvantage of this is what is known as a `filter bubble': 
+According to \cite{aggarwal2016recommender}, CBF works by recommending items solely based on the user's profiled preferences.
+A disadvantage of CBF is known as the `filter bubble': 
 users are only being recommended items with similar attributes to items they have already interacted with.
 As a result, users find themselves in an `echo chamber', with recommendations lacking diversity and most importantly,
 serendipity.
@@ -193,6 +195,11 @@ In chapter \ref{chap:initial-prototypes}, we explored a CF approach with a popul
 although the results were unsatisfactory due to a lack of coverage of quiz questions in the dataset.
 To the best of our knowledge in the Irish context, this kind of data is unavailable,
 posing a limitation to implementing CF in the Irish college course RS context.
+
+According to table \ref{tab:rs-lit-comparison}, two pieces of works in the literature have employed 
+CF for college course/career recommendations. 
+To the best of our knowledge in the Irish context, the CF approach has not been explored,
+suggesting a piece of future work.
 
 \subsection{Additional Information to Profile off a User}
 
@@ -229,11 +236,15 @@ For example, the RS may recommend courses in social policy, nursing, or other fi
 That being said, this approach was turned down due to the difficulty in numerically translating or encoding this information as something more machine-readable.
 However in terms of possible implementation ideas, we hypothesise that a CF RS may 
 resolve this problem.
-This is due to the CF RS's ability to capture nuanced human interaction that traditional metadata/labeling fail to capture.
+This is due to the CF RS's ability to implicitly capture nuanced human interaction that traditional metadata/labeling fails to capture.
 For example, a CF RS may recommend a college course in social policy to a student due to their interest in meaningful work,
 as other students who also valued meaningful work went into similar college courses.
 
-\subsection{The Role of Large Language Models}
+To the best of our knowledge in table \ref{tab:research-gap-2}, no pieces of work in the literature have utilised a user's 
+desire for meaning, salary or employment rates for the purposes of college course/career recommendations.
+This suggests an area for future implementation in the context of college course recommendations.
+
+
 
 % future work - try without riasec? ngl academic interests does heavy lifting, lowkey curse of dimensionality, might not be necessary info/noise
     % but also talk about higher granularity of academic interest labels - reference the experiment insights here
@@ -255,42 +266,60 @@ as other students who also valued meaningful work went into similar college cour
     % inaccurate point representation for courses that require portfolios, tests or interviews
 
 
+\subsection{Large Language Models}
+
+The usage of Large Language Model (LLM) chatbots have become ubiquitous in today's society,
+with OpenAI reporting 900 million\footnote{According to \url{https://openai.com/index/scaling-ai-for-everyone/}} 
+weekly active users on their LLM platform \emph{ChatGPT}\footnote{https://chatgpt.com/}.
+According to \cite{yankouskaya2026lets}, over 40\% of adults in the United Kingdom are happy to use ChatGPT as a mental health counsellor,
+indicating a significant amount of trust in LLM's towards important life decisions.
+Given the widespread use and trust in LLMs,
+it is worth discussing the applicability of LLMs, such as ChatGPT, for college course recommendations.
+
+Firstly, we shall discuss the potential concerns of LLMs for college course recommendations.
+As described in \cite{alansari2025large}, LLMs have the capability of hallucinating:
+presenting false or fabricated information as facts.
+This presents the possibility of an LLM providing inaccurate or 
+false information regarding college courses.
+For example, the LLM may suggest a course that does not exist or 
+provide inaccurate entry requirements.
+
+Secondly, as we discovered in section \ref{sec:fundamentals-summary},
+answering the question: \emph{``What college course should I study?''}
+is multi-faceted and nuanced.
+Without sufficient domain knowledge, users may be unaware of what relevant context to provide to the LLM
+for college course recommendations.
+Moreover, LLMs such as ChatGPT are intentionally designed to have simplistic interfaces, 
+where the user selectively provides the context to the LLM.
+The LLM can only provide college course recommendations 
+based off the context the user provided,
+which may be limited and result in ineffective college course recommendations.
+
+% also, they are sycophantic: \cite{cheng2026sycophantic}
+    % which can be concerning as college courses are big decisions
+
+Despite these concerns, LLMs pose many advantages in the context of college course recommendations.
+For instance, a design challenge encountered during this dissertation was translating user preferences - such as academic interests - 
+into something numerical, i.e. a float value between 0.0 and 1.0.
+A consequence of this design decision was that the quiz was constrained by close-ended questions,
+without any option for the user to provide responses in the form of natural language.
+For example, a user may give a `5' rating to a mathematics question for one reason (e.g. interest),
+and a `5' rating to a law question for another reason (e.g. status).
+Reducing the user's responses to a discrete numerical representation causes a loss of nuance,
+resulting in the RS having a simplistic understanding of the user.
+As a result of this, the RS's recommendations may not be as relevant or effective 
+as they could be.
+
+A key feature of LLMs are their ability to comprehend natural language,
+which addresses the previously mentioned concerns.
+Another advantage of this is that users can express their more nuanced values and preferences
+that may not be addressed in a close-ended quiz,
+such as their desire for work/life balance or meaning.
+For these reasons, we believe that LLMs could pose a great benefit for college course recommendations,
+and this suggests a piece of future research in this domain.
+
+% advantages
+    % natural language can comprehend this information, posing a solution to problems posed in the previous subsections: desire for meaning, also other things like work/life balance and others talked about 
+        % in different college course justifications
 
 
-
-% \section{Large Language Models}
-
-% maybe we should re-frame this - rather than taking the defensive angle and justifying the research, acknowledge it as future work.
-% the brutal reality is that if utilised effectively, LLM's would blow my product out of the water, you simply can't compete.
-% let's be honest here and dont be delusional
-
-% owen - it's a black-box
-    % can give you post-hoc 
-    % human-verfiied cao database
-        % llm's can hallucinate this info, e.g. recommend course that doesn't exist 
-
-% The usage of Large Language Models (LLM's) has become ubiquitous in today's society.
-% For instance in February 2026, 
-% OpenAI reported 900 million\footnote{According to \url{https://openai.com/index/scaling-ai-for-everyone/}} 
-% weekly active users on their LLM-powered chatbot \emph{ChatGPT}\footnote{https://chatgpt.com/}.
-% According to \cite{yankouskaya2026lets}, over 40\% of adults in the UK are happy to use ChatGPT as a mental health counsellor,
-% indicating a significant amount of trust in LLM's towards important life decisions.
-% - most notably, choosing a college course is also an important life decision.
-% Given the widespread use and selective, immense trust of LLM chatbots, 
-% this section will answer the question: \emph{``Can a user just use an LLM to get college course recommendations? Is this research really necessary?"}
-
-% As described in \cite{alansari2025large}, LLM's have the capability of hallucinating, or
-% presenting false or fabricated information as facts.
-% In the context of Irish college courses recommendations,
-% this presents the possibility of an LLM providing inaccurate or 
-% false information regarding Irish college courses - for example, the LLM may suggest a course that does not exist, or 
-% provide inaccurate entry requirements.
-% This calls for an RS with accurate, up-to-date information,
-% ensuring that the college course recommendations are grounded in this information,
-% preventing the possibility of hallucination.
-
-% As we discovered in subsection \ref{sec:fundamentals},
-% answering the question: \emph{``What college course should I study?"}
-% is not straightforward at all.
-% Generally, these LLM chatbots are designed to be open-ended with a simplified interface,
-% putting more agency into the user's hands.
