@@ -127,7 +127,7 @@ is a novel contribution to the literature.
 \caption{Comparing features of all examined closely-related work (Part 2)}
 \begin{tabular}{ |l|p{4cm}|p{7cm}|}
  \hline
- \textbf{Name} & \textbf{Can filter results by college?} & \textbf{Profiled User Information} \\
+ \textbf{Name} & \textbf{Can filter results by college?} & \textbf{Gathered User Information} \\
  \hline
 \emph{Superprof}    & \ding{55}    & Academic interests\\
 \hline
@@ -148,7 +148,7 @@ is a novel contribution to the literature.
 \textbf{ICCRS}         & \ding{51} & \textbf{Academic interests, RIASEC personality Model}\\
 \hline
 \end{tabular}
-\caption*{\textbf{Explanation of columns:}\\\textbf{Can filter results by college?} is it possible for the user to specifically receive college course recommendations from colleges of their choice?\\\textbf{Profiled User Information:} What information is the system profiling off the user in order to make personalised college course recommendations?}
+\caption*{\textbf{Explanation of columns:}\\\textbf{Can filter results by college?} is it possible for the user to specifically receive college course recommendations from colleges of their choice?\\\textbf{Gathered User Information:} What information is the system gathering from the user in order to make personalised college course recommendations?}
 \label{tab:research-gap-2-filled}
 \end{table}
 
@@ -168,7 +168,7 @@ others will be relevant beyond the Irish context.
 \subsection{Collaborative Filtering}
 
 This dissertation's RS utilises Knowledge-Based Filtering (KBF) and Content-Based Filtering (CBF) in generating its recommendations.
-According to \cite{aggarwal2016recommender}, CBF works by recommending items solely based on the user's profiled preferences.
+According to \cite{aggarwal2016recommender}, CBF works by recommending items solely based on the user's gathered preferences.
 A disadvantage of CBF is known as the `filter bubble': 
 users are only being recommended items with similar attributes to items they have already interacted with.
 As a result, users find themselves in an `echo chamber', with recommendations lacking diversity and most importantly,
@@ -201,7 +201,7 @@ suggesting a piece of future work.
 
 \textbf{todo - owen, limitation of cf is that choosing a course doesnt imply liking it}
 
-\subsection{Additional Information to Profile off a User}
+\subsection{Additional Information to Gather from a User}
 \label{sec:add-info-concl}
 
 In section \ref{sec:fundamentals-summary}, we provided an answer to the question posed by research objective \ref{res-obj-answer}:
@@ -209,7 +209,7 @@ In section \ref{sec:fundamentals-summary}, we provided an answer to the question
 The purpose of this was to provide insights into achieving research objective \ref{res-obj-information}:
 ``Identify the relevant information an RS should question a user to recommend suitable college courses''.
 As part of our answer to research objective \ref{res-obj-answer},
-we mentioned that the following two pieces of information would be relevant to profile off 
+we mentioned that the following two pieces of information would be relevant to gather from 
 a user in the context of college course recommendations:
 
 \begin{itemize}
@@ -219,7 +219,7 @@ a user in the context of college course recommendations:
 
 In subsection \ref{sec:salary-design}, we discussed the viability of integrating salary or employment information into our college course RS.
 Given the lack of Irish course-specific data regarding salary or employment rates, this approach was not deemed possible.
-That being said, as a piece of future work in the context of college course recommendations, we hypothesise that profiling a user's 
+That being said, as a piece of future work in the context of college course recommendations, we hypothesise that gathering a user's 
 desire for salary or employment would result in more relevant recommendations.
 In terms of effectively implementing this information, we hypothesise that a CF RS would be optimal for solving this problem,
 due to the CF RS's ability to implicitly capture nuanced human preferences without explicit metadata.

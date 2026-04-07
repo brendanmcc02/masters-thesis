@@ -121,11 +121,11 @@ can help answer our research question, which is to assist Irish students in expl
 
 \subsection{GC Interviews Summary}
 
-In summary, there was unanimous agreement in the value of profiling a student's academic interests for the purpose of college course recommendations.
-This is crucial, as our RS will involve profiling a student's academic interests.
+In summary, there was unanimous agreement in the value of gathering a student's academic interests for the purpose of college course recommendations.
+This is crucial, as our RS will involve gathering a student's academic interests.
 The RIASEC model did not receive the same levels of agreement, however, we hypothesise that the inclusion of 
 a RIASEC model could be useful and lead to serendipitous recommendations. 
-Moreover, the GC's both generally profile hobbies off their students for the purpose of college course recommendations,
+Moreover, the GC's both generally gather hobbies off their students for the purpose of college course recommendations,
 however, we argued that a broad and comprehensive academic interests quiz could capture this information instead.
 We then discussed the potential role an RS like this could play in the GC process.
 In particular, an RS should complement the GC process by 
@@ -137,7 +137,7 @@ and our interviews conducted in this section, we have gathered a large body of b
 allow us to address research objective \ref{res-obj-information}: ``Identify the relevant information an RS should question a user to recommend suitable college courses'',
 which will be answered in the next section.
 
-\section{User Information to Profile}
+\section{User Information to Gather}
 \label{sec:user-information-to-profile}
 
 It would not be possible for a GC to provide a student with relevant college course recommendations if the GC knows nothing about the student.
@@ -160,7 +160,7 @@ Our answer involved factoring in a student's:
 \end{itemize}
 
 Moreover, in table \ref{tab:research-gap-2} we examined what other information the closely-related 
-works profile off users in order to provide personalised college course recommendations:
+works gather from users in order to provide personalised college course recommendations:
 
 \begin{itemize}
     \item Hobbies.
@@ -170,23 +170,23 @@ works profile off users in order to provide personalised college course recommen
 \end{itemize}
 
 Clearly, 
-we are presented with many different categories of information to profile off a user.
-Now, the task is to identity which categories are relevant to profile off a user in the context of a college course RS.
+we are presented with many different categories of information to gather from a user.
+Now, the task is to identity which categories are relevant to gather from a user in the context of a college course RS.
 In the next subsections we shall justify the inclusion or exclusion of
-different categories to profile off a user, allowing us to achieve research objective \ref{res-obj-information}:
+different categories to gather from a user, allowing us to achieve research objective \ref{res-obj-information}:
 ``Identify the relevant information an RS should question a user to recommend suitable college courses".
 
 \subsection{Academic interests and RIASEC Model}
 
 In sections \ref{sec:research-gap} and \ref{sec:interviews-gc}, 
-we justified profiling a user's RIASEC model and academic interests
+we justified gathering a user's RIASEC model and academic interests
 in order to provide personalised college course recommendations.
 This was also part of our research gap identified in section \ref{sec:research-gap}.
-As a result, in our college course RS, we will profile a user's academic interests and RIASEC model.
+As a result, in our college course RS, we will gather a user's academic interests and RIASEC model.
 
 \subsection{Hobbies and School Grades}
 
-Given our justifications in subsection \ref{sec:hobbies}, we can disregard hobbies as information to profile off a user.
+Given our justifications in subsection \ref{sec:hobbies}, we can disregard hobbies as information to gather from a user.
 We may also disregard school grades because a user's LC subjects provides a limited snapshot of their interests and aptitudes,
 and we will also cover this information as part of a more broad academic interests quiz,
 as explained in subsection \ref{sec:academic-interests-gc}.
@@ -212,7 +212,7 @@ It is worth mentioning this will be discussed as a piece of future work in subse
 \subsection{Meaning}
 \label{sec:meaning-design}
 
-As also described in subsection \ref{sec:job-and-career-satisfaction}, a user's desire for meaningful work would be relevant information to profile off a user in the context of a college course RS.
+As also described in subsection \ref{sec:job-and-career-satisfaction}, a user's desire for meaningful work would be relevant information to gather from a user in the context of a college course RS.
 However, we believe this is challenging to work with, 
 as this information is difficult to translate to something computational.
 For example, we could consider creating something akin to a `meaning score' for each college course: 
@@ -227,7 +227,7 @@ It is worth mentioning this will be discussed as a piece of future work in subse
 
 As is clearly evident from our investigations in subsection \ref{sec:external-influences},
 an individual's gender, race/ethnicity and parent's educational/financial background are strong influences on an individual's college course choice.
-As a result, it could be reasonable to consider profiling these pieces of information off a user for the purpose of college course recommendations.
+As a result, it could be reasonable to consider gathering these pieces of information off a user for the purpose of college course recommendations.
 
 However, we would argue that these pieces of information should not be considered in the context of a college course RS.
 For example, by factoring in a user's gender, the RS would not only reinforce stereotypes surrounding gender,
@@ -261,7 +261,7 @@ a personality model developed in \cite{myers1962myers},
 to provide personalised college course recommendations.
 Seeing as we are already utilising Holland's RIASEC model,
 which is also a personality model but more specific to the context of work,
-we would consider the MBTI model to be unnecessary information to profile.
+we would consider the MBTI model to be unnecessary information to gather.
 Following this reasoning, in the context of college course recommendations we can disregard 
 the MBTI personality model.
 
@@ -275,21 +275,21 @@ In addition to this, Irish students may have preferences for particular types of
 We can recall that relevance is an important quality of an effective RS, as described in section \ref{sec:research-question}.
 For instance, it would not be relevant to suggest a course that is 500 LC points to a user that is expected to 
 receive 300 LC points.
-Thus, profiling a user's expected LC points and their NFQ level preferences would provide more relevant
+Thus, gathering a user's expected LC points and their NFQ level preferences would provide more relevant
 college course recommendations, which better answers our research question, which is to assist the Irish student in exploring their college course choices.
 
 As is evident from our discussion in subsection \ref{sec:college-justifications}, a student has a variety of 
 justifications for choosing their college, which is a related, but separate decision to choosing their college course.
-In light of this, we should also profile the user's preferences towards colleges,
+In light of this, we should also gather the user's preferences towards colleges,
 in order to provide them with more relevant college course recommendations.
 
 \subsection{Section Summary}
 \label{sec:user-information-to-profile-summary}
 
 In order to provide personalised and relevant college course recommendations to a user,
-we must profile some information off the user.
-In this section, we examined the different information an RS should profile off a user in the context of college course recommendations.
-We justified the profiling of the following information off a user's in the context of a college course RS, and we plan to integrate these into our RS design:
+we must gather some information off the user.
+In this section, we examined the different information an RS should gather from a user in the context of college course recommendations.
+We justified the gathering of the following information off a user's in the context of a college course RS, and we plan to integrate these into our RS design:
 
 \begin{itemize}
     \item RIASEC model
@@ -323,7 +323,7 @@ In the next subsections, we will provide more details as to how these data were 
 \subsection{RIASEC Model Metadata}
 \label{sec:dataset-riasec}
 
-Seeing as we are profiling a user's RIASEC model,
+Seeing as we are gathering a user's RIASEC model,
 we will need the RIASEC model associated with each Irish college course
 in order to make college course recommendations.
 The CP dataset already categorises each college course under eight working personality traits,
@@ -535,7 +535,7 @@ In the next two subsections we will describe the integration of these approaches
 \label{sec:kbf}
 
 As described in section \ref{sec:common-rs-types}, KBF requires the user to set explicit requirements for their recommendations.
-In subsection \ref{sec:lc-points-nfq-levels-and-colleges}, we justified the profiling of the following information off a user:
+In subsection \ref{sec:lc-points-nfq-levels-and-colleges}, we justified the gathering of the following information off a user:
 
 \begin{itemize}
     \item Expected LC points (e.g. 589)
@@ -622,7 +622,7 @@ In other words, our college course RS is a hybrid RS with Knowledge-Based Filter
 \section{Quiz Design}
 \label{sec:quiz-design}
 
-In order to profile a user's academic interests and RIASEC model, we must design a quiz to gather their preferences.
+In order to gather a user's academic interests and RIASEC model, we must design a quiz to gather their preferences.
 The quiz must have sufficient coverage across all 21 academic interests and the six RIASEC traits.
 We can then design the quiz with six questions being asked per academic interest, 
 resulting in a total of 126 questions. 
@@ -643,7 +643,7 @@ and they would likely find it easier to answer a more specific question such as:
 This enhanced specificity helps the student explore their college course preferences, which assists us in answering our research question.
 
 Each of the six questions are not only designed to capture typical work performed in each academic interest,
-but also to profile a student's RIASEC traits.
+but also to gather a student's RIASEC traits.
 For example, the activity: ``Investigate how bacteria react to medicine" is a `life science' question,
 but it also targets the Investigative RIASEC trait, as the work requires critical analysis.
 On the other hand, the activity: ``Dissect biological specimens in a lab" is also a `life science' question,
@@ -698,13 +698,13 @@ Two examples of questions, as shown in the RS user interface, are given below in
 \begin{figure}[H]
     \centering
     \includegraphics[scale=0.5]{images/quiz-question.png}
-    \caption{Two examples of questions being asked to the user in order to profile their academic interests and RIASEC Model.}
+    \caption{Two examples of questions being asked to the user in order to gather their academic interests and RIASEC Model.}
     \label{fig:quiz-question}
 \end{figure}
 
 \section{The Recommendations}
 
-We have described the quiz which profiles information from a user,
+We have described the quiz which gathers information from a user,
 and the design behind our RS.
 The last step is to provide the final college course recommendations to the user,
 which will be described in this section.
@@ -799,7 +799,7 @@ This chapter opened with insights gathered from interviews with two GC's.
 These insights, along with our knowledge in chapter \ref{chap:literature-review},
 allowed us to achieve research objective \ref{res-obj-information}:
 ``Identify the relevant information an RS should question a user to recommend suitable college courses''.
-In particular, we justified the profiling of a user's academic interests, RIASEC model, expected LC points,
+In particular, we justified the gathering of a user's academic interests, RIASEC model, expected LC points,
 NFQ levels and college preferences in order to provide personalised college course recommendations.
 Additionally, the high-level design of our RS was described: a hybrid RS with KBF and CBF,
 along with explanations of the quiz design and different design decisions to enhance the diversity and serendipity 
