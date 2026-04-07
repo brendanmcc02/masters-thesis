@@ -44,9 +44,43 @@ where 8 of those recommendations were not on the user's original CAO list, i.e. 
 This is compared to the baseline's 4 out of 20 serendipitous recommendations,
 indicating satisfactory performance of this dissertation's RS in the context of the research question.
 
-\subsection{Contribution to the Literature}
+\subsection{Revisiting the Research Question}
 
-To demonstrate our contribution to the literature, 
+In section \ref{sec:research-question} we introduced this dissertation's research question:
+\emph{``Can a Recommender System assist an Irish student in exploring college courses they would consider studying?"}.
+Recall that we hypothesised that an RS that provides relevant, diverse and serendipitous recommendations would answer this research question.
+
+In chapter \ref{chap:evaluation}, we compared the performance of an actual RS to a baseline. 
+During our evaluation, we observed the actual RS slightly outperforming the baseline in terms of diversity,
+which is satisfactory as the baseline RS is diverse by nature, as is evident by its 3.7/5 user-perceived diversity score.
+As well as this, we observed very large, statistically significant improvements 
+for the precision and serendipity metrics.
+On average, users responded that they would realistically consider studying 9 out of 20 college course recommendations,
+8 of which are serendipitous recommendations not on the user's original CAO list.
+This is compared to the baseline, where users only considered studying 4 out of 20 recommendations,
+all 4 of which were serendipitous recommendations,
+indicating the actual RS was twice as effective in providing relevant and serendipitous recommendations compared to the baseline, which is a satisfactory result.
+
+Following our evaluations from above, we can conclude that we have designed an RS that provides a user with relevant, diverse and serendipitous recommendations,
+successfully answering this dissertation's research question.
+
+\subsection{Revisiting Research Objectives}
+
+In this subsection, we will revisit each research objective and examine whether the objective was achieved or not.
+
+\begin{enumerate}
+    \item \emph{Provide an answer to the question: ``What college course should people study?"}\\An answer to this question was provided in subsection \ref{sec:fundamentals-summary}, which largely inspired the design of this dissertation's RS. As a result, we can consider this research objective achieved.
+    \item \emph{Identify the relevant information an RS should question a user to recommend suitable college courses.}\\The relevant information was identified in subsection \ref{sec:user-information-to-profile-summary}, directly informing the design of this dissertation's RS. Thus, we can also consider this research objective achieved.
+    \item \emph{Design an objective, easily reproducable baseline RS appropriate to the Irish college course context.}\\A baseline RS that fits this criteria was explicitly described in section \ref{sec:baseline-rs}. We may consider this research objective achieved.
+    \item \emph{In comparison to a baseline college course RS, design an RS with statistically significant improvements for the user-perceived trust metric.}\\As observed in section \ref{sec:statistical-sig}, statistically significant improvements were found for the trust metric, when comparing the actual RS to the baseline. As a result, we can consider this research objective achieved.
+    \item \emph{Analyse the qualitative insights and findings from a conducted experiment.}\\These insights were described in section \ref{sec:experiment-findings}, providing necessary qualitative analysis that goes beyond raw metrics. Therefore, we can consider this research objective achieved.
+\end{enumerate}
+
+With our evaluation of research objectives complete, we can now move on to discussing this dissertation's contribution.
+
+\subsection{Contribution}
+
+To demonstrate our contribution,
 we will augment tables \ref{tab:research-gap-1} and \ref{tab:research-gap-2} introduced in section \ref{sec:research-gap}
 to include this dissertation's RS, which will be referred to as 
 \emph{Irish College Course Recommender System} (ICCRS).
@@ -121,47 +155,11 @@ is a novel contribution to the literature.
 In observing table \ref{tab:research-gap-2-filled} above,
 ICCRS is one of the few works that allows users to filter college courses by particular colleges,
 at least in the Irish context, ICCRS is the only RS capable of this.
-To the best of our knowledge, utilising a user's RIASEC model and academic interests is a completely novel 
-contribution to the literature surrounding college and career RS's.
-
-\subsection{Revisiting the Research Question}
-
-In section \ref{sec:research-question} we introduced this dissertation's research question:
-\emph{``Can a Recommender System assist an Irish student in exploring college courses they would consider studying?"}.
-Recall that we hypothesised that an RS that provides relevant, diverse and serendipitous recommendations would answer this research question.
-
-In chapter \ref{chap:evaluation}, we compared the performance of an actual RS to a baseline. 
-During our evaluation, we observed the actual RS slightly outperforming the baseline in terms of diversity,
-which is satisfactory as the baseline RS is diverse by nature, as is evident by its 3.7/5 user-perceived diversity score.
-As well as this, we observed very large, statistically significant improvements 
-for the precision and serendipity metrics.
-On average, users responded that they would realistically consider studying 9 out of 20 college course recommendations,
-8 of which are serendipitous recommendations not on the user's original CAO list.
-This is compared to the baseline, where users only considered studying 4 out of 20 recommendations,
-all 4 of which were serendipitous recommendations,
-indicating the actual RS was twice as effective in providing relevant and serendipitous recommendations compared to the baseline, which is a satisfactory result.
-
-Following our evaluations from above, we can conclude that we have designed an RS that provides a user with relevant, diverse and serendipitous recommendations,
-successfully answering this dissertation's research question.
-
-\subsection{Revisiting Research Objectives}
-
-In this subsection, we will revisit each research objective and examine whether the objective was achieved or not.
-
-\begin{enumerate}
-    \item \emph{Provide an answer to the question: ``What college course should people study?"}\\An answer to this question was provided in subsection \ref{sec:fundamentals-summary}, which largely inspired the design of this dissertation's RS. As a result, we can consider this research objective achieved.
-    \item \emph{Identify the relevant information an RS should question a user to recommend suitable college courses.}\\The relevant information was identified in subsection \ref{sec:user-information-to-profile-summary}, directly informing the design of this dissertation's RS. Thus, we can also consider this research objective achieved.
-    \item \emph{Design an objective, easily reproducable baseline RS appropriate to the Irish college course context.}\\A baseline RS that fits this criteria was explicitly described in section \ref{sec:baseline-rs}. We may consider this research objective achieved.
-    \item \emph{In comparison to a baseline college course RS, design an RS with statistically significant improvements for the user-perceived trust metric.}\\As observed in section \ref{sec:statistical-sig}, statistically significant improvements were found for the trust metric, when comparing the actual RS to the baseline. As a result, we can consider this research objective achieved.
-    \item \emph{Analyse the qualitative insights and findings from a conducted experiment.}\\These insights were described in section \ref{sec:experiment-findings}, providing necessary qualitative analysis that goes beyond raw metrics. Therefore, we can consider this research objective achieved.
-\end{enumerate}
-
-With our evaluation of research objectives complete, we can now move on to discussing future works.
+To the best of our knowledge, utilising a user's RIASEC model and academic interests is a novel 
+contribution to the domain surrounding college and career RS's.
 
 \section{Future Work}
 \label{sec:future-work}
-
-\textbf{todo ask owen - do i have to talk about potential solutions to these problems to 'help' future work? or just identify them?}
 
 In this section, we will discuss a list of future works in the context of college course RS's.
 Some of these future works will be relevant to the Irish context specifically, and
@@ -200,6 +198,8 @@ According to table \ref{tab:rs-lit-comparison}, two pieces of works in the liter
 CF for college course/career recommendations. 
 To the best of our knowledge in the Irish context, the CF approach has not been explored,
 suggesting a piece of future work.
+
+\textbf{todo - owen, limitation of cf is that choosing a course doesnt imply liking it}
 
 \subsection{Additional Information to Profile off a User}
 \label{sec:add-info-concl}
@@ -241,28 +241,6 @@ To the best of our knowledge in table \ref{tab:research-gap-2}, no pieces of wor
 desire for meaning, salary or employment rates for the purposes of college course/career recommendations.
 This suggests an area for future implementation in the context of college course recommendations.
 
-
-
-% future work - try without riasec? ngl academic interests does heavy lifting, lowkey curse of dimensionality, might not be necessary info/noise
-    % but also talk about higher granularity of academic interest labels - reference the experiment insights here
-
-% future work - allow the rec algo to run first, then ask the user to pick colleges
-    % give example of people having a lack of awareness about colleges, especially specialised ones, e.g. marino, bimm, iadt, etc.
-    % if they don't select those colleges, they won't get recs for it
-    % * the RS could have a feedback loop, where the user is prompted again if they want to change their college
-%     * e.g. declan only putting down tcd, ucd when he actually got recommended a lot of arts courses, could have benefitted from BIMM, IADT, etc.
-%         * e.g. me wanting education but not doing dcu/marino/
-%     * there are a looot of colleges and people are frankly unaware of what they do
-%     * maybe the RS should run on all colleges (no filter, despite what the user puts down)- and if there are courses being recommended for those colleges, the system could ask the user: "hey, we got some course suggestions from these colleges because you scored highly in these areas, would you like to include these colleges in your final recommendation list?
-%         * **when running test with doill he talked about this, mention it!!!**
-%     * but its a trade-off: if you over-engineer the system with feedback you can make the user drop out of the system - owen's advice
-
-% implementation limitations
-    % third language entry requirment for colleges
-    % grade requirements for courses
-    % inaccurate point representation for courses that require portfolios, tests or interviews
-
-
 \subsection{Large Language Models}
 
 The usage of Large Language Model (LLM) chatbots have become ubiquitous in today's society,
@@ -292,9 +270,6 @@ The LLM can only provide college course recommendations
 based off the context the user provided,
 which may be limited and result in ineffective college course recommendations.
 
-% also, they are sycophantic: \cite{cheng2026sycophantic}
-    % which can be concerning as college courses are big decisions
-
 Despite these concerns, LLMs pose many advantages in the context of college course recommendations.
 For instance, a design challenge encountered during this dissertation was translating user preferences - such as academic interests - 
 into something numerical, i.e. a float value between 0.0 and 1.0.
@@ -314,9 +289,3 @@ that may not be addressed in a close-ended quiz,
 such as their desire for work/life balance or meaning.
 For these reasons, we believe that LLMs could pose a great benefit for college course recommendations,
 and this suggests a piece of future research in this domain.
-
-% advantages
-    % natural language can comprehend this information, posing a solution to problems posed in the previous subsections: desire for meaning, also other things like work/life balance and others talked about 
-        % in different college course justifications
-
-

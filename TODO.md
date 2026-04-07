@@ -1,4 +1,5 @@
 # finishing touches
+- [ ] profile - watch terminology, maybe "gather off" or some idea that the user offers it
 - [ ] check all `\ref{}` are correct!
 - [ ] check all `\footnote{}` are correct!
 - [ ] check all footnotes are formatted correctly and the content, no weird stuff going on
