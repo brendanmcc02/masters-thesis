@@ -72,7 +72,7 @@ This will be instrumental in the next stage of our college course RS: the CBF RS
 \section{Content-Based Filtering Implementation}
 \label{sec:cbf-impl}
 
-The CBF RS will provide a more personalised set of college course recommendations from the KBF RS's filtered list,
+The CBF RS will provide a more personalised set of college course recommendations from the KBF RSs filtered list,
 utilising a user's academic interests, RIASEC model and expected LC points, as described visually in figure \ref{fig:complete-rs-design}.
 From a high level, this type of RS will generate similarity scores between a user and all the college courses,
 and the top-ranked results will be returned.
@@ -191,11 +191,11 @@ their numerical interest towards the Realistic RIASEC trait will be:
 \[g(0.5,\:K=0.5) = 0.39\]
 
 This implies a user's moderate interest towards this RIASEC trait.
-Seeing as the user gave ten Realistic questions a 3 rating, and five Realistic questions a 2 rating,
+Seeing as the user gave ten Realistic questions a `3' rating, and five Realistic questions a 2 rating,
 a value of $0.39$ also closely reflect the user's interest in this case too.
 
-This total conversion function, $g(x,\: K)$, is applied to each total score of the user's 21 academic interests and 6 RIAESC traits.
-Each of the 21 academic interests and 6 RIASEC traits now have scores between 0.0 and 1.0,
+This total conversion function, $g(x,\: K)$, is applied to each total score of the user's 21 academic interests and six RIAESC traits.
+Each of the 21 academic interests and six RIASEC traits now have scores between 0.0 and 1.0,
 where 0.0 implies weak interest, and 1.0 implies a strong interest towards that particular academic interest or RIASEC trait.
 
 \subsubsection{Numerically Representing LC points}
@@ -473,7 +473,7 @@ all of which are qualities of an effective RS which assists us in answering our 
 
 During the design and implementation of this dissertation's RS,
 some limitations were exposed.
-We do not believe these limitations are significant,
+We do not believe these limitations are significant;
 however, they are worth addressing in this section.
 
 As mentioned in section \ref{sec:entry-requirements}, some colleges require a third language to be 
@@ -481,7 +481,7 @@ permitted into the college, for example Royal College of Surgeons in Ireland (RC
 Thus, it would not be relevant to recommend an RCSI course to a user who 
 is not studying a third language for their LC.
 As well as this, some college courses have specific grade requirements for subjects.
-For example, CS in TCD requires a H4 in LC mathematics,
+For example, computer science in TCD requires a H4 in LC mathematics,
 so it would be irrelevant to recommend this course to someone who is studying ordinary level mathematics.
 A limitation of our RS is that we do not take a student's subjects or grades into account, 
 and we hypothesise this would result in less relevant recommendations to the user.
@@ -508,7 +508,7 @@ although it could be amended with more accurate LC points metadata.
 \section{Chapter Summary}
 
 In this chapter, we provided the implementation details behind this dissertation's RS.
-In particular, we described the implementations behind the KBF and CBF RS's,
+In particular, we described the implementations behind the KBF and CBF RSs,
 and our efforts in enhancing the relevance, diversity and serendipity of the final 20 recommendations.
 We also described a handful of known limitations regarding our approach.
 With the implementation of our RS designed, we can move on to evaluating its performance in the next chapter.

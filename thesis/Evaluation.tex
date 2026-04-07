@@ -50,7 +50,7 @@ experiments were either conducted in-person, or over online video conferencing s
 The PI was present constantly, and the participant was made aware that they can ask questions at any time.
 From start to finish, the experiments took no longer than 60 minutes.
 
-The first part of the experiment was for the user to interact with the college course RS's user interface,
+The first part of the experiment was for the user to interact with the college course RSs user interface,
 as given in \href{https://docs.google.com/forms/d/e/1FAIpQLSdTPTCry6UxXJyUvBKZ13pgW1ETBkdk_l7sm0K3k2sVo8TAXg/viewform?usp=dialog}{\underline{this}} Google Form.
 This involved the user filling out their expected LC points, NFQ level and college location preferences,
 as shown in subsection \ref{sec:kbf}.
@@ -86,14 +86,14 @@ The recommendation sets are simply denoted as `set 1' and `set 2', as show in fi
 \end{figure}
 
 Participants were given about five minutes to familiarise themselves with the college course recommendations
-across set 1 and 2.
+across set one and two.
 They were then asked if they needed more time to familiarise themselves with the recommendations.
 If they said no, they were asked to fill out a \href{https://docs.google.com/forms/d/e/1FAIpQLSclmDbKT1N4lTgv0f9O6mcqZYT5fAIXhb5qP-gPJktH_h75QQ/viewform?usp=dialog}{\underline{second quiz}} which evaluates the performance 
 of the RS.
 
 This quiz asks the user for their original, NFQ level 8 CAO college course list.
-Afterwards, the quiz asks the user to evaluate each of the college course recommendations across both set 1 
-and set 2.
+Afterwards, the quiz asks the user to evaluate each of the college course recommendations across both set two 
+and set two.
 For each college course recommendation, the user is asked: ``Do you agree or disagree with the following statement: \emph{I would realistically consider studying this college course}",
 as shown below in figure \ref{fig:eval-quiz}
 
@@ -112,7 +112,7 @@ More details of the evaluation questions are given in section \ref{sec:eval-metr
 \label{sec:eval-metrics}
 
 Recall that this dissertation's research question is: \emph{``Can a Recommender System assist an Irish student in exploring college courses they would consider studying?"},
-and we hypothesised that an RS that provides relevant, diverse and serendipitous recommendations would answer this research question.
+and we hypothesised that an RS that provides relevant, diverse, and serendipitous recommendations would answer this research question.
 In order to measure the effectiveness of our answer to this research question,
 we need measurable evaluation metrics, and this section will describe the evaluation metrics for this dissertation.
 It is worth mentioning that evaluation metrics are gathered for both the baseline and actual RS.
@@ -234,7 +234,7 @@ With this knowledge, we can continue with our RS evaluation.
 In isolation, providing this dissertation's RS performance on the established evaluation metrics
 does not provide significant information.
 Generally in RS problems, the performance of the actual RS is compared to a baseline RS.
-Recall research objective \ref{res-obj-baseline}: ``Design an objective, easily reproducable baseline RS appropriate to the Irish college course context".
+Recall research objective \ref{res-obj-baseline}: ``Design an objective, easily reproducible baseline RS appropriate to the Irish college course context".
 This section will describe the implementation of this baseline RS.
 This allows others to easily implement the baseline RS,
 should they approach a similar problem to this dissertation.
@@ -301,7 +301,7 @@ of the actual RS.
 
 We can also observe the user-perceived trust of the actual RS to strongly outperform the baseline,
 with an improvement of 1.6,
-indicating users have much higher perceived trust in the actual RS's recommendations.
+indicating users have much higher perceived trust in the actual RSs recommendations.
 Seeing as a `4' trust score indicates moderately strong trust in the RS and its recommendations,
 an actual RS trust score of 4.2 is promising.
 On the other hand, the baseline's 2.4 trust score is relatively close a trust score of `2',
@@ -336,7 +336,7 @@ The baseline achieves a mean serendipity score of 0.2,
 meaning that on average, users will like 4 recommendations out of 20,
 and these 4 recommendations are not on their original CAO list.
 On the other hand, the actual RS provides about 8 serendipitous recommendations out of 20,
-indicating performance that is almost twice as effective when comparing the actual and baseline RS's.
+indicating performance that is almost twice as effective when comparing the actual and baseline RSs.
 
 We can gather more insights when we compare the precision and serendipity performances of the actual RS directly.
 A precision score of 0.47 means that on average, users like 9 out of 20 recommendations given by the actual RS,
@@ -345,8 +345,8 @@ courses are not on their original CAO list.
 Comparing these metrics directly, this implies that 8 out of 9,
 or $\frac{0.42}{0.49} \approx 89\%$, of college course recommendations liked
 by the user are serendipitous.
-Considering that the gold standard of RS's is serendipity, as established in section \ref{sec:research-question},
-this high ratio is a very promising result and arguably implies satisfactory RS performance.
+Considering that the gold standard of RSs is serendipity, as established in section \ref{sec:research-question},
+this high ratio is a very promising result and implies satisfactory RS performance.
 
 \subsection{Statistical Significance of Results}
 \label{sec:statistical-sig}
@@ -472,13 +472,13 @@ As mentioned earlier, it is a very difficult task for an actual RS to outperform
 as the baseline RS only recommends courses 
 sorted by LC points, and thus the its recommendations will be very diverse by nature, as is evident by its mean diversity score of 3.7/5.
 Seeing that the actual RS slightly outperformed the baseline in terms of diversity,
-we would arguably see this as a success.
+we would see this as a success.
 In addition to this, on average users liked 9 out of 20 college course recommendations provided by the actual RS,
 where 8 of these recommendations were serendipitous and not on the user's original CAO list.
 In comparison, users liked on average 4 out of 20 recommendations provided by the baseline RS,
 4 of which were serendipitous,
 indicating the actual RS was twice as effective as the baseline in providing serendipitous recommendations.
-Considering all the above factors, we arguably find the actual RS to demonstrate satisfactory performance in the context of our research question.
+Considering all the above factors, we find the actual RS to demonstrate satisfactory performance in the context of our research question.
 
 \section{Experiment Findings and Analysis}
 \label{sec:experiment-findings}
@@ -538,7 +538,7 @@ In this manner, regardless of how the question is phrased (\emph{``I would like 
 users can still answer the quiz in a way that aligns with their values,
 which is different to every individual.
 
-In the author's opinion, there is nothing negative about the prospect of this.
+In our opinion, there is nothing negative about the prospect of this.
 If anything, this is a promising and positive insight,
 as it implies that users can answer the quiz in a way that reflects their working values.
 It is the user's own college course choice, 
@@ -593,7 +593,7 @@ that the LC points of a college course can be seen as status symbols, even in ca
 disinterest in the category.
 
 That being said, having a user's preferences change during the interaction with an RS is not unusual.
-In the context of RS's, \cite{chen2013human} describes the concept of \emph{Preference Construction}:
+In the context of RSs, \cite{chen2013human} describes the concept of \emph{Preference Construction}:
 a phenomenon where humans do not have a clear idea of their preferences prior to a decision-making process, 
 and when they are confronted with making a decision, they construct their preferences in that moment.
 Clearly, these preferences are dynamic, and they can change upon learning new information.
@@ -637,11 +637,11 @@ We hypothesise that a more explicit phrasing of the question could resolve the p
 
 As described in subsection \ref{sec:enhance-diversity-and-serendipity-recs},
 college courses with identical titles are not recommended.
-For example, if CS from TCD is recommended,
-then CS at UCD cannot be recommended.
+For example, if computer science from TCD is recommended,
+then computer science at UCD cannot be recommended.
 Admittedly, there is a potential loss in relevance due to this design decision.
 However, it was justified as a trade-off as it could result in more 
-diverse and serendipitous recommendations.
+diverse, and serendipitous recommendations.
 
 This trade-off was experienced firsthand in the experiments.
 In a handful of cases, participants expressed interest in a particular college course,
@@ -686,7 +686,7 @@ due to the explorations completed in this section.
 This chapter first described the experiment conducted to evaluate this dissertation's RS.
 The results of the actual RS against a baseline were evaluated on four established metrics,
 with significant improvements observed for the trust, precision and serendipity metrics.
-Negligible improvements were observed for the diversity metric, however we argued this result 
+Negligible improvements were observed for the diversity metric; however we argued this result 
 is still considered satisfactory, seeing as the baseline RS is very diverse by nature.
 
 As well as this, we examined the qualitative findings gathered from the conducted experiments,

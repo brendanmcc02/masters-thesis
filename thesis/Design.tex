@@ -5,7 +5,7 @@ In this chapter, there will be an explanation into the high-level design of the 
 including justifications behind different design decisions. 
 Before we dive into the design behind our RS, it would be important to revisit our research question: 
 \emph{``Can a Recommender System assist an Irish student in exploring college courses they would consider studying?"}
-Recall that we hypothesised that an RS that provides relevant, diverse and serendipitous recommendations
+Recall that we hypothesised that an RS that provides relevant, diverse, and serendipitous recommendations
 would be best in answering this question.
 This describes the overall design philosophy behind our RS, and it shall be the 
 underpinning behind almost every design decision.
@@ -14,7 +14,7 @@ underpinning behind almost every design decision.
 
 Prior to exploring the design of this dissertation, we shall describe the design methodology, which also describes 
 the overarching structure of the chapter.
-To start, interviews were conducted with two professional Guidance Counsellors (GC's) in Ireland.
+To start, interviews were conducted with two professional Guidance Counsellors (GCs) in Ireland.
 This provided us with a deeper insight into the practice of guidance counselling,
 which will inspire the final design of our RS.
 With this information, we can more appropriately approach research objective \ref{res-obj-information}:
@@ -33,7 +33,7 @@ With our design methodology outlined, we can proceed with the rest of the chapte
 \section{Interviews with Guidance Counsellors}
 \label{sec:interviews-gc}
 
-As part of this research, interviews were conducted with two professional GC's in Ireland.
+As part of this research, interviews were conducted with two professional GCs in Ireland.
 The main purpose of these interviews was to gain a deeper understanding of the GC process.
 In particular, we were curious as to what information a GC asks a student in order to make 
 college course recommendations,
@@ -47,7 +47,7 @@ and they will inspire the final design of this dissertation's RS.
 
 As part of our defined research gap in section \ref{sec:research-gap}, we planned to utilising a user's academic interests
 to provide personalised college course recommendations.
-Both GC's were asked about the relevance of academic interests in making college course recommendations,
+Both GCs were asked about the relevance of academic interests in making college course recommendations,
 and they were in agreement that academic interests are incredibly useful in this context.
 As part of their GC process, they generally ask their students about their favourite and least favourite subjects.
 While this information is evidently useful, we can recall the information about LC subjects in section \ref{sec:lc}:
@@ -69,13 +69,13 @@ a more specific definition of academic interests will be provided in subsection 
 As part of our defined research gap in section \ref{sec:research-gap}, 
 we also planned to utilise a user's RIASEC model to provide personalised college course recommendations.
 In light of the ubiquity and robustness of the RIASEC model as established in section \ref{sec:theories-college},
-we asked both GC's for their opinion on the RIASEC model.
-One of the GC's found the RIASEC model to be a limiting snapshot of a person,
+we asked both GCs for their opinion on the RIASEC model.
+One of the GCs found the RIASEC model to be a limiting snapshot of a person,
 and they place little value on the RIASEC model in their GC process.
 
 In fact, we are also in agreement that the RIASEC model provides a limited snapshot of the user.
 As mentioned in section \ref{sec:theories-college}, the RIASEC traits are nuanced.
-For example, a biologist and philosopher may separately demonstrate Investigative qualities, however they may not be interested 
+For example, a biologist and philosopher may separately demonstrate Investigative qualities; however they may not be interested 
 in each other's field.
 Thus, we can agree that a user's RIASEC model is a limited snapshot of the user when considered in isolation.
 However, we would argue that a user's RIASEC model may be useful in conjunction with academic interests.
@@ -84,9 +84,9 @@ With the additional information of a user's RIASEC model, we can make more infor
 For example, if this user demonstrates a high Realistic trait, they may be suited for more hands-on college courses
  relating to computers,
 such as computer engineering.
-On the other hand, if this user demonstrates a high Enterprising trait, they may be more suited for a college course like CS with business,
+On the other hand, if this user demonstrates a high Enterprising trait, they may be more suited for a college course like computer science with business,
 as the Enterprising trait is common in business studies.
-This additional RIASEC model information may appear redundant, however, we would argue this provides more context to the RS,
+This additional RIASEC model information may appear redundant; however, we would argue this provides more context to the RS,
 allowing the RS to potentially provide more serendipitous recommendations, 
 which assists us in answering our research question.
 
@@ -95,9 +95,9 @@ which assists us in answering our research question.
 
 \emph{Note:} In this context, `hobbies' is being used as an umbrella term for hobbies, extracurriculars and personal interests outside of academics.
 
-Both GC's were asked about the relevance of hobbies in their GC process, and whether they consider the 
+Both GCs were asked about the relevance of hobbies in their GC process, and whether they consider the 
 information as redundant or relevant to the college course decision-making process.
-Both GC's agreed that hobbies can be useful in suggesting potential 
+Both GCs agreed that hobbies can be useful in suggesting potential 
 college courses to their students.
 For example, a student that loves watching history documentaries may be suggested to study history.
 
@@ -112,24 +112,24 @@ information about a user's hobbies may be redundant in the context of college co
 
 \subsection{The Potential Role of an RS in Guidance Counselling}
 
-Both GC's were made aware of the research question of this dissertation, and 
+Both GCs were made aware of the research question of this dissertation, and 
 were asked to provide their honest evaluation of how a technology, such as an RS, 
 could fit into the GC process.
 
-One of the GC's remarked that their process is very instinctive and intuitive, 
+One of the GCs remarked that their process is very instinctive and intuitive, 
 and their meetings often do not follow a rigid structure.
 In most cases, the process begins by asking the student about their LC subjects, and then the discussion continues from there.
 As is evident from our investigations in chapter \ref{chap:literature-review}, 
 the college course decision-making process is incredibly nuanced and personally confronting for students.
 This gives credence to the human dimension to guidance counselling, 
 a profession that requires empathy and understanding on a human level.
-This is incredibly challenging to replace with a technology, 
-and the author and both GC's agreed that a technology, such as an RS, should not be designed 
-to replace the crucial role of a GC, but rather to complement the GC's process,
+This is incredibly challenging to replace with a technology;
+we and both GCs agreed that a technology, such as an RS, should not be designed 
+to replace the crucial role of a GC, but rather to complement the GCs process,
 allowing the GC to shift their priorities towards the more human, nuanced parts of the college course decision-making process.
 
 During one of the interviews, there was a discussion on the value of diversity in recommendations.
-Interestingly, one of the GC's remarked that diversity in recommendations is incredibly valuable, 
+Interestingly, one of the GCs remarked that diversity in recommendations is incredibly valuable, 
 which is something they integrate into their GC process.
 The GC claimed that they like to challenge their students with different recommendations,
 as it helps develop the student's concepts about the college courses they would consider studying.
@@ -140,9 +140,9 @@ can help answer our research question, which is to assist Irish students in expl
 
 In summary, there was unanimous agreement in the value of gathering a student's academic interests for the purpose of college course recommendations.
 This is crucial, as our RS will involve gathering a student's academic interests.
-The RIASEC model did not receive the same levels of agreement, however, we hypothesise that the inclusion of 
+The RIASEC model did not receive the same levels of agreement; however, we hypothesise that the inclusion of 
 a RIASEC model could be useful and lead to serendipitous recommendations. 
-Moreover, the GC's both generally gather hobbies off their students for the purpose of college course recommendations,
+Moreover, the GCs both generally gather hobbies off their students for the purpose of college course recommendations;
 however, we argued that a broad and comprehensive academic interests quiz could capture this information instead.
 We then discussed the potential role an RS like this could play in the GC process.
 In particular, an RS should complement the GC process by 
@@ -262,13 +262,13 @@ In this context, it is worth mentioning the work of \cite{wang2022humans},
 in which they compared the results of biased and unbiased career recommendation algorithms.
 According to their findings, 
 the users actually preferred the biased career recommendations over the unbiased recommendations.
-On the surface this may appear surprising, however when we consider our investigations in subsection \ref{sec:external-influences},
+On the surface this may appear surprising; however when we consider our investigations in subsection \ref{sec:external-influences},
 we can recall that these external factors are large influences on an individual's college course choice,
 which explains these findings.
 
 In addition to this, to the best of our knowledge, data about race/ethnicity and parent's educational/financial background 
 are not available for each college course in Ireland, posing a challenge for integrating this effectively into a college course RS.
-In spite of Wang et al.'s findings, we would arguably disregard gender, race/ethnicity and parent's educational/financial background
+In spite of Wang et al.'s findings, we will disregard gender, race/ethnicity and parent's educational/financial background
 in the context of college course recommendations, due to the reinforcement of stereotypes and limitations on accessible data.
 
 \subsection{Myers-Briggs Type Indicator}
@@ -349,14 +349,14 @@ described in figure \ref{fig:careers-portal-career-interests} below:
 \begin{figure}[H]
     \centering
     \fbox{\includegraphics[scale=0.35]{images/cp-8-traits-explained.png}}
-    \caption{CP's 8-trait working personality model.}
+    \caption{CP's eight-trait working personality model.}
     \label{fig:careers-portal-career-interests}
 \end{figure}
 
-Seeing as this dissertation seeks to utilise Holland's 6-trait RIASEC model,
-we wish to translate CP's 8-trait model to Holland's 6-trait RIASEC model.
+Seeing as this dissertation seeks to utilise Holland's six-trait RIASEC model,
+we wish to translate CP's eight-trait model to Holland's six-trait RIASEC model.
 We desire to translate these traits in a manner that avoids any information loss and preserves 
-the original categorisation of CP's 8-trait model. Thus, we shall document our methodology clearly below.
+the original categorisation of CP's eight-trait model. Thus, we shall document our methodology clearly below.
 
 As we can observe in figures \ref{fig:careers-portal-career-interests} above,
 four of the eight CP traits are equivalent to four of the RIASEC traits: Realist, Investigative, Social and Enterprising.
@@ -370,7 +370,7 @@ which is very creative, unstructured work.
 By following the definitions above, this work is very similar to the work exhibited by those with the Artistic RIASEC trait.
 As a result, we can map the `Linguistic' trait under the Artistic RIASEC trait.
 It is worth mentioning that these mappings were performed on the entire dataset as a whole, and they were not performed on a course-by-course basis,
-allowing for more reproducability.
+allowing for more reproducibility.
 Our final mapping is best shown in table \ref{tab:cp-to-riasec} below:
 
 \begin{table}[H]
@@ -396,7 +396,7 @@ Enterprising & Enterprising\\
 Administrative & Conventional\\
 \hline
 \end{tabular}
-\caption{Mapping CP's 8-trait model to the 6-trait RIASEC model.}
+\caption{Mapping CP's eight-trait model to the six-trait RIASEC model.}
 \label{tab:cp-to-riasec}
 \end{table}
 
@@ -420,7 +420,7 @@ is classified with the Social, Investigative and Realistic RIASEC traits.
 Seeing that these are both general nursing courses, it is confusing that they have different classifications of RIASEC traits.
 
 Secondly, many of the RIASEC traits in the CP dataset were poorly representative of the college course.
-For example, the medicine college courses are only classified with the Investigative RIASEC trait\footnote{\url{https://careersportal.ie/courses/coursedetail.php?course_id=1079}}, however 
+For example, the medicine college courses are only classified with the Investigative RIASEC trait\footnote{\url{https://careersportal.ie/courses/coursedetail.php?course_id=1079}}; however 
 this RIASEC classification is ignorant of the Realistic and Social RIASEC traits that the medical profession requires.
 Another example is the chemical science courses which are also only classified with the Investigative RIASEC trait\footnote{\url{https://careersportal.ie/courses/coursedetail.php?course_id=19282}}.
 This RIASEC is ignorant of the Realistic and Conventional RIASEC traits that a chemical profession requires.
@@ -434,9 +434,9 @@ which is classified as the ISR Holland code\footnote{\url{https://www.onetonline
 As well as this, chemists, which would match the chemical science college courses, 
 are classified as the IRC Holland code\footnote{\url{https://www.onetonline.org/link/summary/19-2031.00}}.
 
-Using O*NET as a reference point, and with the author's domain knowledge, 
+Using O*NET as a reference point, and with our domain knowledge, 
 the RIASEC traits of some college courses (16\%) were manually amended.
-Admittedly, this approach has limitations due its lack of total reproducability.
+Admittedly, this approach has limitations due to its lack of total reproducibility.
 Due to time constraints, we were unable to conduct a rigorous experiment to evaluate whether or not there was a performance 
 increase from these revisions.
 That being said, the effectiveness 
@@ -482,12 +482,12 @@ The CP dataset does not feature any categorisation similar to the academic inter
 As a result, we need to additionally augment data regarding the academic interests associated with each Irish college course in the dataset.
 This task was initially performed by Gemini Model 3\footnote{\url{https://gemini.google.com/}},
 however the model's categorisation underwent manual revisions to correct inaccuracies and inconsistencies.
-For example, initially medicine college courses were only categorised under the `healthcare' academic interest,
+For example, initially medicine college courses were only categorised under the `healthcare' academic interest;
 however, seeing as study of medicine involves the study of life sciences, 
 the courses were re-categorised to include the `life science' academic interest.
 
 Similar to the RIASEC trait modifications in subsection \ref{sec:dataset-riasec}, 
-this approach is admittedly limited by a lack of complete reproducability.
+this approach is admittedly limited by a lack of complete reproducibility.
 That being said, augmenting academic interest metadata was necessary,
 as this type of metadata did not exist at all in the original CP dataset.
 In other words, to the best of our knowledge there was no other feasible method to augment 
@@ -534,7 +534,7 @@ refers to.
 \section{Recommender System Design}
 \label{sec:rs-design}
 
-As described in section \ref{sec:common-rs-types}, there are many types of RS's,
+As described in section \ref{sec:common-rs-types}, there are many types of RSs,
 each with their own advantages and disadvantages. 
 In this section, we will describe and justify the design to our RS.
 
@@ -619,7 +619,7 @@ approach.
 CBF directly utilises the information of the user - their RIASEC model, academic interests and expected LC points - to provide personalised college course recommendations.
 For example, a user demonstrating an interest in the `chemical science' academic interest, the Investigative RIASEC trait
 and expects 550 LC points may be recommended chemistry in TCD with 542 points\footnote{\url{https://www.tcd.ie/courses/undergraduate/courses/chemistry-chemical-sciences/}}.
-A detailed explanation of the CBF RS's implementation is provided in section \ref{sec:cbf-impl}.
+A detailed explanation of the CBF RSs implementation is provided in section \ref{sec:cbf-impl}.
 The complete design of our college course RS best described in figure \ref{fig:complete-rs-design} below:
 
 \begin{figure}[H]
@@ -680,7 +680,7 @@ in each of the six academic interests questions.
 
 With this context and knowledge, we can design the 126 questions in our quiz to target different 
 types of typical work and relevant RIASEC traits across the 21 academic interests.
-The 126 questions were initially formed by Gemini model 3,
+The 126 questions were initially formed by Gemini model 3;
 however, the questions underwent significant manual revisions by the author 
 in order to more accurately reflect the academic interest and RIASEC traits.
 The full list of 126 questions can be found in appendix \ref{sec:all-126-questions}.
@@ -729,7 +729,7 @@ which will be described in this section.
 \subsection{Recommendation Set Size}
 \label{sec:rec-set-size}
 
-Generally speaking, RS's recommend a finite number of recommendations to a user, 
+Generally speaking, RSs recommend a finite number of recommendations to a user, 
 and in this subsection we will justify the number of college course recommendations 
 the college course RS will present to the user.
 
@@ -753,20 +753,20 @@ a relatively small number which is in line with our aforementioned findings.
 
 As mentioned in section \ref{sec:research-question}, diversity is a quality of an effective RS.
 Suppose a user demonstrates strong interest in computers, and as a result 
-they are recommended five different CS courses in Dublin.
+they are recommended five different computer science courses in Dublin.
 While these recommendations are relevant to the user's interests, 
 the recommendations are neither diverse nor serendipitous.
-As a result, many of these CS recommendations are redundant;
-after the first CS recommendation, the other CS recommendations do not provide significantly new information to the user.
+As a result, many of these computer science recommendations are redundant;
+after the first computer science recommendation, the other computer science recommendations do not provide significantly new information to the user.
 Seeing as our research question involves assisting the user in exploring college courses, this is detrimental.
 Instead, a more different, but relevant college course could take its place - such as \emph{Immersive Software Engineering}\footnote{\url{https://software-engineering.ie/}}.
 Not only does this benefit the diversity of the recommendations, but it also 
-gives the RS a better chance to make a serendipitous recommendation - the gold standard of RS's.
+gives the RS a better chance to make a serendipitous recommendation - the gold standard of RSs.
 This design decision will better answer our research question.
 
 Following from this reasoning, only college courses with unique titles are recommended.
-For example, if CS in TCD has been recommended to the user,
-then CS in UCD will not be recommended to the user, 
+For example, if computer science in TCD has been recommended to the user,
+then computer science in UCD will not be recommended to the user, 
 and another recommendation will take its place.
 The implementation for this is given in subsection \ref{sec:identical-college-course-names-impl}.
 
@@ -777,7 +777,7 @@ many of the user's preferred academic interests.
 From a high level, suppose a user demonstrates interest towards computers, life science and 
 sport, then across the 20 recommendations, college courses will be recommended 
 according to their interests.
-For example, 10 recommendations can go towards computers, six recommendations towards life science
+For example, ten recommendations can go towards computers, six recommendations towards life science
 and four recommendations towards sport.
 The implementation details for this is given in subsection \ref{sec:multiple-academic-interests-impl}.
 
@@ -812,7 +812,7 @@ enhancing the diversity and potential serendipity of the recommendations.
 
 \section{Chapter Summary}
 
-This chapter opened with insights gathered from interviews with two GC's.
+This chapter opened with insights gathered from interviews with two GCs.
 These insights, along with our knowledge in chapter \ref{chap:literature-review},
 allowed us to achieve research objective \ref{res-obj-information}:
 ``Identify the relevant information an RS should question a user to recommend suitable college courses''.

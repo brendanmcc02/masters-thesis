@@ -3,7 +3,7 @@
 
 This chapter explores a failed approach to utilise Collaborative Filtering (CF) in attempting to solve this 
 dissertation's research question. 
-As part of the approach, popular datasets (see footnote \ref{op-dataset}) were utilised that others may use in solving similar problems to this dissertation.
+As part of the approach, popular datasets\footnote{\url{https://openpsychometrics.org/_rawdata/}} were utilised that others may use in solving similar problems to this dissertation.
 A machine learning model classifier was trained on this dataset, and the results were unsatisfactory due to a lack of coverage by the questions in the dataset.
 
 This chapter will describe the motivations behind the chosen approach, the implementation details, and then evaluate 
@@ -14,14 +14,14 @@ the results and describe why the experiment yielded unsatisfactory results.
 In this section, we will describe the motivation behind this approach.
 If we recall the research question as outlined in section \ref{sec:research-question},
 we are seeking to design an RS that assists a user's exploration into college courses
-by providing with them relevant, diverse and serendipitous recommendations.
-Among the three types of RS's described in section \ref{sec:common-rs-types},
+by providing with them relevant, diverse, and serendipitous recommendations.
+Among the three types of RSs described in section \ref{sec:common-rs-types},
 Collaborative Filtering (CF) is more likely to provide serendipitous
 recommendations, according to \cite{aggarwal2016recommender}.
 This is because CF does not solely rely on what the user likes, rather it leverages the data of what other similar users also liked, 
 increasing the likelihood of more surprising, but relevant recommendations, i.e. serendipity.
 As also described in section \ref{sec:research-gap}, 
-serendipity is the gold standard of RS's, and it would be incredibly useful in answering our research question by assisting the user in their exploration of college courses.
+serendipity is the gold standard of RSs, and it would be incredibly useful in answering our research question by assisting the user in their exploration of college courses.
 As a result, this chapter will explore a CF approach as it potentially provides more serendipitous recommendations.
 
 It is worth mentioning that for the sake of brevity, 
@@ -37,7 +37,7 @@ or RIASEC model.
 To the best of our knowledge, this kind of data is not available in the Irish context.
 As a result, we explored similar datasets outside of the Irish context.
 
-A promising dataset in this context was published by OpenPsychometrics\footnote{\label{op-dataset}\url{https://openpsychometrics.org/_rawdata/}} with data on over 140,000 individuals.
+A promising dataset in this context was published by OpenPsychometrics\footnote{\url{https://openpsychometrics.org/_rawdata/}} with data on over 140,000 individuals.
 In this dataset, which will be referred to as the `RIASEC dataset', feature the results of a 48-question quiz which determined the user's RIASEC model.
 This quiz asked the user how much they enjoyed certain activities on a 5-point Likert scale, i.e. 1 implied they dislike the activity, and a 5 implied they would enjoy the activity.
 An example of a question is given in figure \ref{fig:op-quiz}.
@@ -57,7 +57,7 @@ as opposed to general areas of study.
 The RIASEC dataset has been answered by users from all over the world, particularly from the USA.
 As a result, there is a challenge in mapping the college majors that users provided in the RIASEC dataset, 
 to specific Irish college courses.
-Moreover, new Irish college courses are being created each year\footnote{See footnote \ref{footnote:new-courses}},
+Moreover, new Irish college courses are being created each year,
 compounding the difficulty of this problem.
 
 \section{Solution to Introduced Problems}
@@ -184,7 +184,7 @@ of this RIASEC quiz, which will be explored in the next section.
 
 From the work in the last section, we now have a dataset with over 70,000 user's RIASEC quiz results, and their college major category.
 This can be reconceptualised in the context of a Machine Learning (ML) problem: 
-we have 48 input features, and 1 output variable.
+we have 48 input features, and one output variable.
 In this case, each input feature is a rating from 1--5, indicating the user's enjoyment towards a particular task,
 and the output is one of 16 college major categories.
 
