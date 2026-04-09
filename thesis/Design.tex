@@ -60,7 +60,6 @@ we may miss out on this information.
 To account for this when designing our RS, 
 we should consider a set of academic interests with broad coverage across all areas of study.
 As a result, our RS can capture this information, even in the event where the student did not study the subject at school.
-
 It is worth mentioning that currently the term `academic interests' is quite vague - 
 a more specific definition of academic interests will be provided in subsection \ref{sec:academic-interests}.
 
@@ -80,7 +79,7 @@ in each other's field.
 Thus, we can agree that a user's RIASEC model is a limited snapshot of the user when considered in isolation.
 However, we would argue that a user's RIASEC model may be useful in conjunction with academic interests.
 For example, suppose a student demonstrates an interest in `computers' as an academic interest.
-With the additional information of a user's RIASEC model, we can make more informed recommendations.
+With the additional information of a user's RIASEC model, we can provide more informed recommendations.
 For example, if this user demonstrates a high Realistic trait, they may be suited for more hands-on college courses
  relating to computers,
 such as computer engineering.
@@ -141,13 +140,13 @@ can help answer our research question, which is to assist Irish students in expl
 In summary, there was unanimous agreement in the value of gathering a student's academic interests for the purpose of college course recommendations.
 This is crucial, as our RS will involve gathering a student's academic interests.
 The RIASEC model did not receive the same levels of agreement; however, we hypothesise that the inclusion of 
-a RIASEC model could be useful and lead to serendipitous recommendations. 
+a RIASEC model could lead to serendipitous recommendations. 
 Moreover, the GCs both generally gather hobbies off their students for the purpose of college course recommendations;
 however, we argued that a broad and comprehensive academic interests quiz could capture this information instead.
 We then discussed the potential role an RS like this could play in the GC process.
 In particular, an RS should complement the GC process by 
 assisting a student with their college course exploration, 
-instead of trying to replace the GC process completely.
+instead of trying to replace the human GC process completely.
 
 After our examinations into the literature in chapter \ref{chap:literature-review},
 and our interviews conducted in this section, we have gathered a large body of background knowledge that will 
@@ -166,7 +165,7 @@ This section will answer this research objective,
 and this will be instrumental in the design of our college course RS.
 
 Let us turn our attention to section \ref{sec:fundamentals-summary}, 
-in which we attempted to answer the question: \emph{What college course should people study?}
+in which we attempted to answer the question: \emph{``What college course should people study?"}
 Our answer involved factoring in a student's:
 
 \begin{itemize}
@@ -214,16 +213,6 @@ as explained in subsection \ref{sec:academic-interests-gc}.
 As described in subsection \ref{sec:job-and-career-satisfaction}, a user's desire for salary or job prospects after graduation would be relevant information in the context of college course recommendations.
 However to the best of our knowledge, data on the mean salary or employment rate of graduates from each college course in Ireland
 are unavailable. As a result, it would be very challenging to effectively integrate this information into our RS.
-
-That being said, we could potentially gather data on the mean salary or employment rates of academic interest categories - 
-for example, college courses under the `healthcare' academic interest.
-However, this information would be too generalised and lack nuance.
-Continuing our example of the `healthcare' academic interest, 
-the mean salaries differ greatly between different healthcare roles upon graduation.
-For instance, the mean annual salary of Irish medicine graduates is over \euro26,000 compared to physiotherapy graduates\footnote{Data from 2023: \url{https://www.cso.ie/en/releasesandpublications/ep/p-heo/highereducationoutcomeshealthgraduates2023/employmentandearnings/}}.
-This is quite a sizable difference, even though the college courses are both grouped under the same `healthcare' category.
-As a result, we do not consider this approach feasible given the lack of nuance and accuracy,
-and so we can disregard a user's desire for salary or job prospects in the context of our college course RS.
 It is worth mentioning this will be discussed as a piece of future work in subsection \ref{sec:add-info-concl}.
 
 \subsection{Meaning}
@@ -235,7 +224,7 @@ as this information is difficult to translate to something computational.
 For example, we could consider creating something akin to a `meaning score' for each college course: 
 where a value of 1.0 implies a high degree of meaning associated with the college course,
 and a value of 0.0 implies a low degree of meaning.
-However, this approach is limited by a lack of objectivity - - for instance, 
+However, this approach is limited by a lack of objectivity - for instance, 
 how does one argue that one college course is more meaningful than another course?
 As a result, we can disregard a user's desire for meaning in the context of college course recommendations.
 It is worth mentioning this will be discussed as a piece of future work in subsection \ref{sec:add-info-concl}.
@@ -278,7 +267,7 @@ a personality model developed in \cite{myers1962myers},
 to provide personalised college course recommendations.
 Seeing as we are already utilising Holland's RIASEC model,
 which is also a personality model but more specific to the context of work,
-we would consider the MBTI model to be unnecessary information to gather.
+we would consider the MBTI model to be unnecessary and redundant information to gather.
 Following this reasoning, in the context of college course recommendations we can disregard 
 the MBTI personality model.
 
@@ -291,7 +280,7 @@ to college courses in Ireland.
 In addition to this, Irish students may have preferences for particular types of NFQ levels in the context of college courses, as described in section \ref{sec:nfq}.
 We can recall that relevance is an important quality of an effective RS, as described in section \ref{sec:research-question}.
 For instance, it would not be relevant to suggest a course that is 500 LC points to a user that is expected to 
-receive 300 LC points.
+receive 300 LC points, or an NFQ level 8 course to a user who is only interested in NFQ level 6 courses.
 Thus, gathering a user's expected LC points and their NFQ level preferences would provide more relevant
 college course recommendations, which better answers our research question, which is to assist the Irish student in exploring their college course choices.
 
@@ -501,6 +490,8 @@ After our additional data augmentations, we now have a dataset that can satisfy 
 set out in section \ref{sec:user-information-to-profile}.
 An example of the data about a college course is given below in JSON format:
 
+\newpage
+
 \begin{lstlisting}[caption={An example of a college course in the CP dataset after additional augmentation.}, label={lst:dataset-before-augmentation}]
 {
     "id": "TR052",
@@ -599,7 +590,7 @@ will filter the college course set down to college courses at TCD which are unde
     \label{fig:kbf-rs-design}
 \end{figure}
 
-After interacting with the RS, the user will be provided with a filtered set of college course recommendations,
+After interacting with the KBF RS, the user will be provided with a filtered set of college course recommendations,
 not a personalised set, simply because the above information is not sufficient to provide personalised college course recommendations to the user.
 This filtered set of college course recommendations will be instrumental in the next stage of our college course RS.
 
@@ -649,13 +640,13 @@ Given the established importance of the college course decision-making process,
 and the requirement for broad coverage across all academic interests,
 we believe a quiz of this length is justified.
 The user's response to the question must be quantifiable with a discrete measurement, 
-in order to make their response more easily processed by a computer.
+in order to make their response more easily represented numerically.
 In light of this, we opted for a 5-point Likert scale, which prompts users to rate each question on a scale 
 of 1 to 5, where 1=Strongly Disagree, 2=Disagree, 3=Neutral, 4=Agree and 5=Strongly Agree.
 
 \subsection{Question Design}
 
-Six questions are being asked for each of the 21 academic interests, and we must now discuss what questions we ask.
+Six questions are being asked for each of the 21 academic interests, and we must now discuss what questions we ask the user.
 The questions were designed to reflect the typical work done in each academic interest, to give the student a 
 clearer idea of their preferences towards each academic interest.
 For example, a student who has never studied biology may find it difficult to answer a more general question such as: 
@@ -749,7 +740,7 @@ Secondly, the phenomenon of overchoice as coined by \cite{toffler1970future},
 which remarks that choosing between a large variety of options can be detrimental to the decision-making process.
 As a result of these two findings, we are motivated to provide a smaller list of college course recommendations to the user.
 
-As described in section \ref{sec:cao}, a student can put up to 20 college courses on their CAO application - 10 NFQ level 8 courses, and 10 NFQ level 6/7 courses.
+As described in section \ref{sec:cao}, a student can put up to 20 college courses on their CAO application - ten NFQ level 8 courses, and ten NFQ level 6/7 courses.
 Inspired by this, our college course RS will return 20 college course recommendations to the user,
 a relatively small number which is in line with our aforementioned findings.
 

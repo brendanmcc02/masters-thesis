@@ -22,10 +22,9 @@ to serve as a prototype for evaluation.
 \section{Knowledge-Based Filtering Implementation}
 \label{sec:kbf-impl}
 
-Recall from figure \ref{fig:kbf-rs-design}, that the purpose of the KBF RS is not to provide personalised college course recommendations,
-rather to provide a filtered list of college course recommendations.
+Recall from figure \ref{fig:kbf-rs-design}, that the purpose of the KBF RS is to provide a filtered list of college course recommendations.
 The KBF RS utilises a user's expected LC points, NFQ levels and college preferences to perform this filtering,
-the code for this is given below in listing \ref{lst:kbf}.
+the code for this is given below in listing \ref{lst:kbf}:
 
 \begin{lstlisting}[caption={Code for the KBF RS}, label={lst:kbf}]
 def kbf_rs(user_college_course_preferences):
@@ -74,7 +73,7 @@ This will be instrumental in the next stage of our college course RS: the CBF RS
 \section{Content-Based Filtering Implementation}
 \label{sec:cbf-impl}
 
-The CBF RS will provide a more personalised set of college course recommendations from the KBF RSs filtered list,
+The CBF RS will provide a more personalised set of college course recommendations from the KBF RS's filtered list,
 utilising a user's academic interests, RIASEC model and expected LC points, as described visually in figure \ref{fig:complete-rs-design}.
 From a high level, this type of RS will generate similarity scores between a user and all the college courses,
 and the top-ranked results will be returned.
@@ -85,7 +84,7 @@ both of which will be described in detail in the coming discussions.
 \label{sec:nump-rep-user}
 
 This subsection will feature an in-depth description of how a user is numerically represented.
-Ultimately, what we wish to achieve is to numerically represent a user's RIASEC model, academic interests and expected LC points as float values between 0.0 and 1.0:
+Ultimately, we wish to numerically represent a user's RIASEC model, academic interests and expected LC points as float values between 0.0 and 1.0:
 six values represent the user's RIASEC model, one value represents the user's expected LC points, and 21 values represent the user's academic interests.
 A value of 1.0 implies strong interest or preference, and a value of 0.0 implies weak interest or preference.
 For example, a Realistic RIASEC trait score of 1.0 implies a user's strong interest towards this trait,
@@ -107,7 +106,7 @@ using the non-linear mapping function, $f_{\text{non-linear}}$, in figure \ref{f
                 0.75 & \text{if}\: x=4, \\
                 0.5 & \text{if}\: x=3, \\
                 0.25 & \text{if}\: x=2,\\
-                0 & \text{if}\: x=1
+                0.0 & \text{if}\: x=1
         \end{cases}
         \]
         \subcaption{Linear mapping function.}
@@ -121,8 +120,8 @@ using the non-linear mapping function, $f_{\text{non-linear}}$, in figure \ref{f
                 1.0 & \text{if}\: x=5,\\
                 0.2 & \text{if}\: x=4, \\
                 0.04 & \text{if}\: x=3, \\
-                0 & \text{if}\: x=2,\\
-                0 & \text{if}\: x=1
+                0.0 & \text{if}\: x=2,\\
+                0.0 & \text{if}\: x=1
         \end{cases}
         \]
         \subcaption{Non-linear mapping function.}
@@ -148,8 +147,8 @@ This function places a strong weighting (1.0) towards a `5' rating,
 and exponentially decreasing weights towards the other ratings.
 Seeing as there are five different ratings, each subsequent rating decreases by 80\%,
 which describes $f_{\text{non-linear}}(4)=0.2$ and $f_{\text{non-linear}}(3)=0.04$.
-Weights of $0$ were assigned to `1' and `2' ratings, as they indicate dislike towards an interest, 
-which describes $f_{\text{non-linear}}(2)=0$ and $f_{\text{non-linear}}(1)=0$.
+Weights of $0.0$ were assigned to `1' and `2' ratings, as they indicate dislike towards an interest, 
+which describes $f_{\text{non-linear}}(2)=0.0$ and $f_{\text{non-linear}}(1)=0.0$.
 From this point onward, $f := f_{\text{non-linear}}$.
 
 Recall in section \ref{sec:quiz-design} that each quiz question targets a specific academic interest and RIASEC trait.
@@ -191,8 +190,8 @@ their numerical interest towards the Realistic RIASEC trait will be:
 \[g(0.4) = 0.33\]
 
 This implies a user's moderate interest towards this RIASEC trait.
-Seeing as the user gave ten Realistic questions a `3' rating, and five Realistic questions a 2 rating,
-a value of $0.33$ also closely reflect the user's interest in this case too.
+Seeing as the user gave ten Realistic questions a `3' rating, and five Realistic questions a `2' rating,
+a value of $0.33$ closely reflect the user's interest in this case too.
 
 This total conversion function, $g(x)$, is applied to each total score of the user's 21 academic interests and six RIAESC traits.
 Each of the 21 academic interests and six RIASEC traits now have scores between 0.0 and 1.0,
@@ -219,7 +218,7 @@ This is best shown in table \ref{tab:user-vector} below:
 \centering
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
-\multicolumn{6}{|c|}{\textbf{RIASEC}} & \multicolumn{1}{c|}{} & \multicolumn{6}{c|}{\textbf{Academic Interests}} \\ \hline
+\multicolumn{6}{|c|}{\textbf{RIASEC traits}} & \multicolumn{1}{c|}{} & \multicolumn{6}{c|}{\textbf{Academic interests}} \\ \hline
 \rotateText{\textbf{Realistic}} & \rotateText{\textbf{Investigative}} & \rotateText{\textbf{Artistic}} & \rotateText{\textbf{Social}} & \rotateText{\textbf{Enterprising}} & \rotateText{\textbf{Conventional}} & \rotateText{\textbf{Expected LC points$\:$}} & \rotateText{\textbf{Agriculture}} & \rotateText{$\cdots$} & \rotateText{\textbf{Life Science}} & \rotateText{$\cdots$} & \rotateText{\textbf{Sport}} & \rotateText{\textbf{Welfare}} \\ \hline
 0.33 & 0.95 & 0.1 & 0.65 & 0.3 & 0.4 & 0.48 & 0.05 & $\cdots$ & 0.99 & $\cdots$ & 0.1 & 0.1\\ \hline
 \end{tabular}
@@ -267,24 +266,24 @@ Take the following college course as an example:
 \end{lstlisting}
 
 Following the above example, the vector dimension associated with the Realistic, Investigative and Social RIASEC traits are set to 1.0,
- because they are associated with this college course,
+ because they are associated with the dental science college course,
 whereas all other RIASEC vector dimensions are set to 0.0.
 Similarly, the vector dimensions associated with the `healthcare' and `life science' academic interests are set to 1.0,
 whereas all other academic interest vector dimensions are set to 0.0.
-This college course's LC points are numerically represented as 1.0, 
+The dental science course's LC points are numerically represented as 1.0, 
 as a result of following the same LC points conversion rules as mentioned in subsection \ref{sec:nump-rep-user}:
 
 \[ \frac{\text{College Course LC points}}{\text{Maximum Achievable LC points}} = \frac{625}{625} = 1.0 \]
 
-Following these rules, this college course is then numerically represented as a 28-dimensional vector as shown below in table \ref{tab:college-course-vector}
+Following these rules, the dental science college course is then numerically represented as a 28-dimensional vector as shown below in table \ref{tab:college-course-vector}
 
 \begin{table}[H]
 \centering
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
-\multicolumn{6}{|c|}{\textbf{RIASEC}} & \multicolumn{1}{c|}{} & \multicolumn{7}{c|}{\textbf{Academic Interests}} \\ \hline
+\multicolumn{6}{|c|}{\textbf{RIASEC traits}} & \multicolumn{1}{c|}{} & \multicolumn{7}{c|}{\textbf{Academic interests}} \\ \hline
 \rotateText{\textbf{Realistic}} & \rotateText{\textbf{Investigative}} & \rotateText{\textbf{Artistic}} & \rotateText{\textbf{Social}} & \rotateText{\textbf{Enterprising}} & \rotateText{\textbf{Conventional }} & \rotateText{\textbf{LC Points}} & \rotateText{\textbf{Agriculture}} & \rotateText{$\cdots$} & \rotateText{\textbf{Healthcare}} & \rotateText{\textbf{Life Science}} & \rotateText{$\cdots$} & \rotateText{\textbf{Sport}} & \rotateText{\textbf{Welfare}} \\ \hline
-\emph{1.0} & \emph{1.0} & 0.0 & \emph{1.0} & 0.0 & 0.0 & \emph{1.0} & 0.0 & $\cdots$ & \emph{1.0} & \emph{1.0} & $\cdots$ & 0.0 & 0.0\\  \hline
+1.0 & 1.0 & 0.0 & 1.0 & 0.0 & 0.0 & 1.0 & 0.0 & $\cdots$ & 1.0 & 1.0 & $\cdots$ & 0.0 & 0.0\\  \hline
 \end{tabular}
 \caption{Example college course vector representation}
 \label{tab:college-course-vector}
@@ -320,7 +319,7 @@ whereas a score of 0.0 means that the vectors are perpendicular to each other.
 Cosine similarity is defined mathematically as:
 
 \[
-\text{cosineSimilarity} (A,\:B)= \frac{A \cdot B}{||A||\: ||B||}
+\frac{A \cdot B}{||A||\: ||B||}
 \]
 
 Suppose a student has a high Investigative RIASEC trait, high `computers' academic interest and 589 expected LC points.
@@ -418,7 +417,7 @@ This will be made clearer through an example: suppose a user's top-5 ranked acad
 \hline
 2 & Engineering & 0.8\\
 \hline
-3 & Life Science & 0.6\\
+3 & Life science & 0.6\\
 \hline
 4 & Welfare & 0.4\\
 \hline
