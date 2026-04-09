@@ -632,17 +632,22 @@ The complete design of our college course RS best described in figure \ref{fig:c
 \subsection{Section Summary}
 
 In summary, this section described the high-level design of our RS.
-A KBF RS will filter college course recommendations utilising the user's expected LC points, NFQ level and College preferences,
+A KBF RS will filter college course recommendations utilising the user's expected LC points, NFQ level and college preferences,
 and a CBF RS will provide college course recommendations utilising the user's RIASEC model, academic interests and expected LC points.
 In other words, our college course RS is a hybrid RS with Knowledge-Based Filtering and Content-Based Filtering.
 
 \section{Quiz Design}
 \label{sec:quiz-design}
 
+This section will describe the quiz behind the RS and the design of the quiz questions.
+
 In order to gather a user's academic interests and RIASEC model, we must design a quiz to gather their preferences.
 The quiz must have sufficient coverage across all 21 academic interests and the six RIASEC traits.
 We can then design the quiz with six questions being asked per academic interest, 
 resulting in a total of 126 questions. 
+Given the established importance of the college course decision-making process,
+and the requirement for broad coverage across all academic interests,
+we believe a quiz of this length is justified.
 The user's response to the question must be quantifiable with a discrete measurement, 
 in order to make their response more easily processed by a computer.
 In light of this, we opted for a 5-point Likert scale, which prompts users to rate each question on a scale 

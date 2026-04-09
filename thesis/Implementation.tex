@@ -16,6 +16,8 @@ The RS is designed in Python, and processes the user's quiz results from this \v
 and then prints the college course recommendations to a Markdown \verb|.pdf| file 
 which is viewable to the user.
 All data is stored and retained on private storage on OneDrive\footnote{\url{http://onedrive.live.com/}}.
+This technology stack was intentionally lightweight because its primary purpose was 
+to serve as a prototype for evaluation.
 
 \section{Knowledge-Based Filtering Implementation}
 \label{sec:kbf-impl}
@@ -117,8 +119,8 @@ using the non-linear mapping function, $f_{\text{non-linear}}$, in figure \ref{f
         \[ 
         f_{\text{non-linear}}(x) = \begin{cases}
                 1.0 & \text{if}\: x=5,\\
-                0.25 & \text{if}\: x=4, \\
-                0.05 & \text{if}\: x=3, \\
+                0.2 & \text{if}\: x=4, \\
+                0.04 & \text{if}\: x=3, \\
                 0 & \text{if}\: x=2,\\
                 0 & \text{if}\: x=1
         \end{cases}
@@ -143,8 +145,12 @@ In the context of this problem, we wish to strongly emphasise `5' ratings, as th
 whereas the other ratings (`4', `3', etc.) do not provide as much information.
 Following this line of reasoning, we decided to use a non-linear mapping function, $f_{\text{non-linear}}$, as shown in figure \ref{fig:non-linear-func}.
 This function places a strong weighting (1.0) towards a `5' rating, 
-whereas much smaller values ($\le 0.25$) are placed towards the other ratings.
-From this point onward, $f=f_{\text{non-linear}}$.
+and exponentially decreasing weights towards the other ratings.
+Seeing as there are five different ratings, each subsequent rating decreases by 80\%,
+which describes $f_{\text{non-linear}}(4)=0.2$ and $f_{\text{non-linear}}(3)=0.04$.
+Weights of $0$ were assigned to `1' and `2' ratings, as they indicate dislike towards an interest, 
+which describes $f_{\text{non-linear}}(2)=0$ and $f_{\text{non-linear}}(1)=0$.
+From this point onward, $f := f_{\text{non-linear}}$.
 
 Recall in section \ref{sec:quiz-design} that each quiz question targets a specific academic interest and RIASEC trait.
 For example: the question \emph{Investigate how bacteria react to medicine} targets the `life science' academic interest and the Investigative RIASEC trait.
@@ -155,12 +161,12 @@ These numerical representations are then added to a total score for each academi
 For example, if a user gives four `life science' questions a `5' rating,
 and two `life science' questions a `4' rating, then the `life science' total will be:
 
-\[4 \cdot f(5) + 2 \cdot f(4) = 4 \cdot 1.0 + 2 \cdot 0.25 = 4.5\]
+\[4 \cdot f(5) + 2 \cdot f(4) = 4 \cdot 1.0 + 2 \cdot 0.2 = 4.4\]
 
 Similarly, if a user gives ten Realistic questions a `3' rating, and five Realistic questions a `2' rating, 
 the total for the Realistic RIASEC trait will be:
 
-\[10 \cdot f(3) + 5 \cdot f(2) = 10 \cdot 0.05 + 5 \cdot 0 = 0.5\]
+\[10 \cdot f(3) + 5 \cdot f(2) = 10 \cdot 0.04 + 5 \cdot 0 = 0.4\]
 
 \subsubsection{Converting total scores}
 
@@ -170,31 +176,25 @@ Inspired by the sigmoid function, $\frac{1}{1+e^{-x}}$, we
 created a function, $g$,
 which maps total scores, $x$, to a float value between 0.0 and 1.0:
 
-\[ g(x,\:K) = 1 - e^{-K \cdot x} \]
+\[ g(x) = 1 - e^{-x} \]
 
-where $K$ is a custom tuning constant. 
-There are many more questions for RIASEC traits compared to academic interests,
-so the function requires different tuning constants $K$:
-when applying $g(x,\:K)$ for academic interests, $K=1$, 
-and for RIASEC traits, $K=0.5$.
-
-Continuing our previous example, suppose a user has a `life science' total score of $4.5$,
+Continuing our previous example, suppose a user has a `life science' total score of $4.4$,
 their numerical interest towards the `life science' academic interest will be:
 
-\[g(4.5,\:K=1.0) = 0.98\]
+\[g(4.4) = 0.99\]
 
 This implies a user's strong interest towards this academic interest. 
 Seeing as the user gave four `life science' questions a `5' rating and two `life science' questions 
-a `4' rating, a value of $0.98$ closely reflects the user's interest in this case.
-On the other hand, suppose the same user has a Realistic total score of $0.5$,
+a `4' rating, a value of $0.99$ closely reflects the user's interest in this case.
+On the other hand, suppose the same user has a Realistic total score of $0.4$,
 their numerical interest towards the Realistic RIASEC trait will be: 
-\[g(0.5,\:K=0.5) = 0.39\]
+\[g(0.4) = 0.33\]
 
 This implies a user's moderate interest towards this RIASEC trait.
 Seeing as the user gave ten Realistic questions a `3' rating, and five Realistic questions a 2 rating,
-a value of $0.39$ also closely reflect the user's interest in this case too.
+a value of $0.33$ also closely reflect the user's interest in this case too.
 
-This total conversion function, $g(x,\: K)$, is applied to each total score of the user's 21 academic interests and six RIAESC traits.
+This total conversion function, $g(x)$, is applied to each total score of the user's 21 academic interests and six RIAESC traits.
 Each of the 21 academic interests and six RIASEC traits now have scores between 0.0 and 1.0,
 where 0.0 implies weak interest, and 1.0 implies a strong interest towards that particular academic interest or RIASEC trait.
 
@@ -221,7 +221,7 @@ This is best shown in table \ref{tab:user-vector} below:
 \hline
 \multicolumn{6}{|c|}{\textbf{RIASEC}} & \multicolumn{1}{c|}{} & \multicolumn{6}{c|}{\textbf{Academic Interests}} \\ \hline
 \rotateText{\textbf{Realistic}} & \rotateText{\textbf{Investigative}} & \rotateText{\textbf{Artistic}} & \rotateText{\textbf{Social}} & \rotateText{\textbf{Enterprising}} & \rotateText{\textbf{Conventional}} & \rotateText{\textbf{Expected LC points$\:$}} & \rotateText{\textbf{Agriculture}} & \rotateText{$\cdots$} & \rotateText{\textbf{Life Science}} & \rotateText{$\cdots$} & \rotateText{\textbf{Sport}} & \rotateText{\textbf{Welfare}} \\ \hline
-0.39 & 0.95 & 0.1 & 0.65 & 0.3 & 0.4 & 0.48 & 0.05 & $\cdots$ & 0.98 & $\cdots$ & 0.1 & 0.1\\ \hline
+0.33 & 0.95 & 0.1 & 0.65 & 0.3 & 0.4 & 0.48 & 0.05 & $\cdots$ & 0.99 & $\cdots$ & 0.1 & 0.1\\ \hline
 \end{tabular}
 \caption{An example of the numerical representation of a user as a vector}
 \label{tab:user-vector}
@@ -234,7 +234,7 @@ Their expected LC points is encoded as 0.48, which is translated to 300 LC point
 Moreover, the user demonstrates almost no interest in the `agriculture' academic interest,
 as they have a score of 0.05,
 whereas the user demonstrates very strong interest in the `life science' academic interest,
-with a score of 0.98.
+with a score of 0.99.
 
 \subsection{Numerical Representation of a College Course}
 \label{sec:num-rep-course}
