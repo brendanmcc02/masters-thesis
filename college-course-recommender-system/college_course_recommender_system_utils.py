@@ -2,18 +2,9 @@ import numpy as np
 import json
 import pandas as pd
 from college_course_title_nlp_utils import *
-# from google import genai
-import os
-from dotenv import load_dotenv
 import re
 
-load_dotenv()
-
 IS_NOT_ACTUAL_EXPERIMENT=True
-
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-if not IS_NOT_ACTUAL_EXPERIMENT:
-    GEMINI_CLIENT = genai.Client(api_key=GEMINI_API_KEY)
 
 CAO_COLLEGE_COURSES_FILE_LOCATION = '../datasets/cao-college-courses.json'
 USER_INTEREST_QUESTIONS_DATASET_FILEPATH = "user_interest_questions.csv"
@@ -379,7 +370,7 @@ def is_course_filtered(course, user_college_course_preferences):
             course["college"] in user_college_course_preferences["colleges"] and 
             (course["points"] <= user_college_course_preferences["expected_points"] or course['isAdditionalPortfolioTestInterviewRequired']))
 
-def get_stringified_markdown_college_course_recommendations(college_course_recommendations, is_gemini_prompt):
+def get_stringified_markdown_college_course_recommendations(college_course_recommendations):
     stringified_college_course_recommendations = ""
 
     for i in range(len(college_course_recommendations)):
@@ -390,10 +381,6 @@ def get_stringified_markdown_college_course_recommendations(college_course_recom
 
         stringified_college_course_recommendations += "    * " + college_course_recommendations[i]["college"] + "\n"
 
-        # if is_gemini_prompt or IS_NOT_ACTUAL_EXPERIMENT:
-        #     stringified_college_course_recommendations += "    * RIASEC Interests: " + get_stringified_interests_or_categories(college_course_recommendations[i]["riasec_interests"]) + "\n"
-        #     stringified_college_course_recommendations += "    * Categories: " + get_stringified_interests_or_categories(college_course_recommendations[i]["categories"]) + "\n"
-
         stringified_college_course_recommendations += "    * **" + str(college_course_recommendations[i]["points"]) + "** points\n"
 
         stringified_college_course_recommendations += "    * **" + str(college_course_recommendations[i]["duration"]) + "**\n"
@@ -402,9 +389,6 @@ def get_stringified_markdown_college_course_recommendations(college_course_recom
 
         # if IS_NOT_ACTUAL_EXPERIMENT:
         #     stringified_college_course_recommendations += "    * Vectorized Representation: " + str(college_course_recommendations[i]['vectorized_representation']) + "\n"
-        
-        if not is_gemini_prompt and len(college_course_recommendations[i]['recommendation_justification']) > 0:
-            stringified_college_course_recommendations += "    * **Why we recommended this:** " + college_course_recommendations[i]['recommendation_justification'] + "\n"
         
         stringified_college_course_recommendations += "\n"
 
@@ -432,49 +416,10 @@ def get_baseline_college_course_recommendations(user_interest_questions_results_
     user_vector = get_user_vector(user_interest_questions_results_vector, user_college_course_preferences)
     cached_user_vector_magnitude = np.linalg.norm(user_vector)
 
-    add_justifications_for_college_course_recommendations(unique_baseline_college_course_recommendations, user_vector)
-
     for course in unique_baseline_college_course_recommendations:
         course["similarity_score"] = get_cosine_similarity(user_vector, cached_user_vector_magnitude, course["vectorized_representation"])
 
     return unique_baseline_college_course_recommendations
-
-def add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector):
-    if IS_NOT_ACTUAL_EXPERIMENT:
-        for i in range(len(college_course_recommendations)):
-            college_course_recommendations[i]["recommendation_justification"] = ""
-        
-        return
-
-    prompt = get_gemini_prompt(college_course_recommendations, user_vector)
-
-    response = GEMINI_CLIENT.models.generate_content(
-        model="gemini-3-flash-preview",
-        contents=prompt
-    )
-
-    parsed_college_course_justifications = get_parsed_college_course_justifications(response.text)
-
-    if len(parsed_college_course_justifications) != len(college_course_recommendations):
-        print("parsing error!")
-        print("len parse" + str(len(parsed_college_course_justifications)))
-        print("len recs" + str(len(college_course_recommendations)))
-
-    for i in range(len(parsed_college_course_justifications)):
-        college_course_recommendations[i]["recommendation_justification"] = parsed_college_course_justifications[i]
-
-def get_gemini_prompt(college_course_recommendations, user_vector):
-    gemini_prompt = "Act as an expert in Guidance Counseling for Irish College Courses. I am creating a Recommender System for Irish College Courses. You will have 2 pieces of information about the user:\n1. Their RIASEC makeup - each value is normalised between 0.0 and 1.0. \n2. Their college course category interest scores - each value is also normalised between 0.0 and 1.0. These scores represent their interests towards different areas of study.\n\nThe user of this Recommender System has the the following information:\n\n"
-
-    gemini_prompt += "User RIASEC Interest Scores:\n\n" + get_stringified_riasec_vector(user_vector[0:len(RIASEC_INTERESTS)])
-
-    gemini_prompt += "User College Course Category Interest Scores:\n\n" + get_stringified_college_course_categories_vector(user_vector[STARTING_COLLEGE_COURSE_CATEGORY_VECTOR_INDEX:])
-
-    gemini_prompt += "And here are the college courses that were recommended to the user:\n\n" + get_stringified_markdown_college_course_recommendations(college_course_recommendations, is_gemini_prompt=True)
-
-    gemini_prompt += "\nI would like you to generate a justification for each recommendation. The justification for each recommendation should be no longer than 30 words. You can assume the user has no prior knowledge of Holland Codes, so avoid making reference to Holland Codes such as \"Enterprising\" as they may not know what this means. Please do not directly cite any raw score values in your written justification, as the user cannot see this. Please use the name of the course in your justification, and use the title of the course instead of saying \"this course\", etc.. I would like your output to strictly follow the format provided below - do not add any additional text, as I will parse your response:\nSample Output:\n```\n1. With a maximum Investigative score, your profile aligns strongly with Mathematics, which demands the high-level logical reasoning, analytical depth, and complex problem-solving skills you naturally possess.\n2. Computer Science suits your Investigative nature and technical interests, offering a perfect outlet for your strong analytical capabilities through software engineering, programming, and developing innovative technological solutions.\n3. Dental Science uniquely balances your highest traits; it requires the intellectual rigor of an investigator, the social empathy for patient care, and the realistic coordination for clinical procedures.\n4. etc.\n```"
-
-    return gemini_prompt
 
 def get_parsed_college_course_justifications(response_text):
     parsed_college_course_justifications = re.split(r'[1-2]?[0-9]{1}\. ', response_text)
