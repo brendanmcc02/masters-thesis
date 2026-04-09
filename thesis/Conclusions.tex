@@ -36,11 +36,11 @@ All of which were efforts to enhance the diversity and serendipity of the recomm
 
 This dissertation's RS was evaluated by conducting an experiment with $n=31$ participants.
 An objective baseline RS was designed to return courses sorted descending by LC points, 
-satisfying the user's explicit filters.
+satisfying the user's explicit filters (expected LC points, NFQ levels and college preferences).
 Compared to the baseline, the actual RS demonstrated significant improvements across the trust, serendipity and precision metrics,
 with competitive performance on the diversity metric.
 On average, the user liked nine out of 20 college course recommendations provided by the actual RS,
-where eight of those recommendations were not on the user's original CAO list, i.e. serendipitous recommendations.
+eight of which were serendipitous recommendations.
 This is compared to the baseline's four out of 20 serendipitous recommendations,
 indicating satisfactory performance of this dissertation's RS in the context of the research question.
 
@@ -91,7 +91,7 @@ to include this dissertation's RS, which will be referred to as
 \caption{Comparing features of all examined closely-related work (Part 1)}
 \begin{tabular}{ |p{4cm}|p{3cm}|p{3cm}|p{5cm}|}
  \hline
- \textbf{Name} & \textbf{\# Questions} & \textbf{\# Results} & \textbf{Recommendation Type}\\
+ \textbf{Name} & \textbf{\# Questions} & \textbf{\# Results} & \textbf{Recommendation type}\\
  \hline
 \emph{Superprof}    & 10     & 3        & General area of study\\
 \hline
@@ -112,7 +112,7 @@ to include this dissertation's RS, which will be referred to as
 \textbf{ICCRS}         & \textbf{126} & \textbf{20}   & \textbf{Irish college course}\\
 \hline
 \end{tabular}
-\caption*{\textbf{Explanation of columns:}\\\textbf{\# Questions:} the number of questions asked to the user prior to receiving their college course recommendations.\\\textbf{\# Results:} The number of college course recommendations the user receives.\\\textbf{Recommendation Type:} the type of college course recommendation the user receives.}
+\caption*{\textbf{Explanation of columns:}\\\textbf{\# Questions:} the number of questions asked to the user prior to receiving their college course recommendations.\\\textbf{\# Results:} The number of college course recommendations the user receives.\\\textbf{Recommendation type:} the type of college course recommendation the user receives.}
 \label{tab:research-gap-1-filled}
 \end{table}
 
@@ -128,7 +128,7 @@ is a novel contribution.
 \caption{Comparing features of all examined closely-related work (Part 2)}
 \begin{tabular}{ |l|p{4cm}|p{7cm}|}
  \hline
- \textbf{Name} & \textbf{Can filter results by college?} & \textbf{Gathered User Information} \\
+ \textbf{Name} & \textbf{Can filter results by college?} & \textbf{Gathered user information} \\
  \hline
 \emph{Superprof}    & \ding{55}    & Academic interests\\
 \hline
@@ -149,7 +149,7 @@ is a novel contribution.
 \textbf{ICCRS}         & \ding{51} & \textbf{Academic interests, RIASEC personality Model}\\
 \hline
 \end{tabular}
-\caption*{\textbf{Explanation of columns:}\\\textbf{Can filter results by college?} is it possible for the user to specifically receive college course recommendations from colleges of their choice?\\\textbf{Gathered User Information:} What information is the system gathering from the user in order to make personalised college course recommendations?}
+\caption*{\textbf{Explanation of columns:}\\\textbf{Can filter results by college?} Is it possible for the user to specifically receive college course recommendations from colleges of their choice?\\\textbf{Gathered user information:} What information is the system gathering from the user in order to make personalised college course recommendations?}
 \label{tab:research-gap-2-filled}
 \end{table}
 
@@ -174,7 +174,7 @@ A disadvantage of CBF is known as the `filter bubble':
 users are only being recommended items with similar attributes to items they have already interacted with.
 As a result, users find themselves in an `echo chamber', with recommendations lacking diversity and most importantly,
 serendipity.
-Another disadvantage of CBF is that the RS design requires significant metadata and labeling,
+Another disadvantage of CBF is that the RS design requires significant metadata and labelling,
 requiring a strong grasp on domain knowledge.
 For instance in this dissertation's RS implementation, we required significant metadata regarding the academic interest
 labels and RIASEC model associated with each college course.
@@ -197,7 +197,7 @@ posing a limitation to implementing CF in the Irish college course RS context.
 
 Another limitation posed to CF data gathering is that college course choice does not imply a successful 
 or correct decision. For example,
-just because a student chooses to study biology, does not imply that they like the biology course.
+just because a student chooses to study biology, does not imply that the student will like the biology course.
 Through the duration of the student's degree, they may grow to dislike the course, 
 or discover years later that the decision was one they regret.
 This limitation should be kept in mind regarding a CF implementation.
@@ -236,10 +236,10 @@ Moreover, in subsection \ref{sec:meaning-design}, we discussed the viability of 
 into our college course RS.
 For instance, if an RS has knowledge that a student highly values social impact, the RS may be able to provide more tailored recommendations in light of this.
 For example, the RS may recommend courses in social policy, nursing, or other fields with conventionally higher means for social impact.
-That being said, this approach was turned down due to the difficulty in numerically translating or encoding this information as something more machine-readable.
-However in terms of possible implementation ideas, we hypothesise that a CF RS may 
+That being said, this approach was turned down due to the difficulty in numerically encoding this information.
+However, in terms of possible implementation ideas, we hypothesise that a CF RS may 
 resolve this problem.
-This is due to the CF RSs ability to implicitly capture nuanced human interaction that traditional metadata/labeling fails to capture.
+This is due to the CF RS's ability to implicitly capture nuanced human interaction that traditional metadata/labelling fails to capture.
 For example, a CF RS may recommend a college course in social policy to a student due to their interest in meaningful work,
 as other students who also valued meaningful work went into similar college courses.
 
@@ -262,7 +262,7 @@ As described in \cite{alansari2025large}, LLMs have the capability of hallucinat
 presenting false or fabricated information as facts.
 This presents the possibility of an LLM providing inaccurate or 
 false information regarding college courses.
-For example, the LLM may suggest a course that does not exist or 
+For example, the LLM may suggest a course that does not exist, or 
 provide inaccurate entry requirements.
 
 Secondly, as we discovered in section \ref{sec:fundamentals-summary},
