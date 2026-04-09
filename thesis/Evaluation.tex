@@ -95,8 +95,7 @@ This quiz asks the user for their original, NFQ level 8 CAO college course list.
 Afterwards, the quiz asks the user to evaluate each of the college course recommendations across both set two 
 and set two.
 For each college course recommendation, the user is asked: ``Do you agree or disagree with the following statement: \emph{I would realistically consider studying this college course}",
-as shown below in figure \ref{fig:eval-quiz}
-
+as shown below in figure \ref{fig:eval-quiz}:
 
 \begin{figure}[H]
 	\centering
@@ -111,7 +110,7 @@ More details of the evaluation questions are given in section \ref{sec:eval-metr
 \section{Evaluation Metrics}
 \label{sec:eval-metrics}
 
-Recall that this dissertation's research question is: \emph{``Can a Recommender System assist an Irish student in exploring college courses they would consider studying?"},
+Recall that this dissertation's research question is: \emph{``To what extent can a Recommender System assist an Irish student in exploring college courses they would consider studying?"},
 and we hypothesised that an RS that provides relevant, diverse, and serendipitous recommendations would answer this research question.
 In order to measure the effectiveness of our answer to this research question,
 we need measurable evaluation metrics, and this section will describe the evaluation metrics for this dissertation.
@@ -451,12 +450,12 @@ On the other hand when considering diversity, a value of $d=0.1$ indicates a neg
 to the baseline.
 
 Seeing as the trust metric is not normally distributed and we used the WSRT, 
-we can use the matched-pairs rank biserial correlation (MPRSC) to 
+we can use the matched-pairs rank biserial correlation (MPRSC) 
 to calculate the effect size $r$.
 According to \cite{cohen2013statistical}, $r\ge0.5$ is considered a `large' difference,
 $r\ge0.3$ is a `medium' difference, and $r\ge0.1$ is a `small' difference.
 Using the MPRSC, the effect size for the trust metric is calculated as $r=0.96$.
-This value of $r$ lies well above the 0.5 threshold, indicating a large magnitude of difference 
+This value of $r$ lies well above the 0.5 threshold, indicating a very large magnitude of difference 
 between the actual and the baseline medians for the trust metric.
 Thus, we can consider research objective \ref{res-obj-trust} achieved:
 ``In comparison to a baseline college course RS, design an RS with statistically significant improvements for the user-perceived trust metric.''.

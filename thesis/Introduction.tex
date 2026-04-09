@@ -28,18 +28,22 @@ adding complexity to a decision that is already challenging.
 
 To assist students in this difficult decision, it is worth introducing the role of 
 a Guidance Counsellor (GC).
-GC's are trained professional in Irish secondary schools, primarily known for assisting students in their career prospects after graduation.
+GCs are trained professional in Irish secondary schools, primarily known for assisting students in their career prospects after graduation.
 It is worth noting that the role of a GC extends well beyond vocational support.
-According to \cite{igc2016core}, GC's are also trained to provide 
+According to \cite{igc2016core}, GCs are also trained to provide 
 educational, personal and social support.
-In this context, it is worth introducing the Institute of Guidance Counsellors (IGC)\footnote{\url{https://igc.ie/}}, the professional body for GC's in Ireland.
-In a report by the \cite{igc2022survey}, mental health issues were more commonly encountered by GC's compared to
-career decision-making issues\footnote{In \cite{igc2024survey}, career decision-making issues did surpass mental health issues as the most commonly encountered issue for GC's; however, both are pressing issues.}, marking the first time that career decision-making issues were not the most commonly encountered issue by GC's since 2019.
+In this context, it is worth introducing the Institute of Guidance Counsellors (IGC)\footnote{\url{https://igc.ie/}}, the professional body for GCs in Ireland.
+In a report by the \cite{igc2022survey}, mental health issues were more commonly encountered by GCs compared to
+career decision-making issues\footnote{In \cite{igc2024survey}, career decision-making issues did surpass mental health issues as the most commonly encountered issue for GCs; however, both are pressing issues.}, marking the first time that career decision-making issues were not the most commonly encountered issue by GCs since 2019.
 In the IGC's 2024-2027 strategic plan outlined in \cite{igc2024plan}, the IGC noted this stronger prevalence of mental health issues compared to career decision-making issues,
-signalling a shift in priorities for GC's across Irish secondary schools: vocational support may not be the most important aspect of a GC's role going forward.
+signalling a shift in priorities for GCs across Irish secondary schools: vocational support may not be the most important aspect of a GCs role going forward.
+
+% todo? gemini suggests talking about existing technologies to solve this problem
+    % ig we'd start with careersportal/qualifax
+    % then FMCC?
 
 As is evident, choosing a college course is a difficult, multi-faceted decision, and the decision is made more challenging 
-by the shifting priorities of Irish GC's.
+by the shifting priorities of Irish GCs.
 This leads us to the motivation behind this research.
 
 \section{Research Motivation}
@@ -58,7 +62,7 @@ in order to increase company revenue.
 As previously explained, an RS recommends items to a user.
 However, we can re-conceptualise an RS in the context of college courses:
 college courses can take the place of items, and a student can take the place of a user.
-Given the established difficulty and influences of an individual's college course choice, the shifting priorities of GC's towards student's mental health as opposed to career-making decisions,
+Given the established difficulty and influences of an individual's college course choice, the shifting priorities of GCs towards student's mental health as opposed to career-making decisions,
 and a technology that could be appropriately applied to this domain,
 an opportunity presents itself: a Recommender System for Irish college courses.
 
@@ -73,7 +77,7 @@ For the 2026/2027 academic year, 52\footnote{See \url{https://careersportal.ie/c
 were introduced in Ireland.
 Moreover, as discussed in section \ref{sec:lc-points}, the requirements for Irish higher education courses 
 change every year as a reflection of demand and changing priorities.
-This introduces administrative strain on GC's, making it difficult to have up-to-date awareness on the newest courses 
+This introduces administrative strain on GCs, making it difficult to have up-to-date awareness on the newest courses 
 and current course entry requirements.
 A technology, such as an RS, can be automated to maintain the latest college course information
 and utilise this information in recommending college courses that a human GC may not even be aware of, 
@@ -87,7 +91,7 @@ With the motivation behind our research described, we can now define our researc
 \label{sec:research-question}
 
 In light of the motivation behind this research, the research question for this dissertation can be formulated:
-\emph{``Can a Recommender System assist an Irish student in exploring college courses they would consider studying?"}
+\emph{``To what extent can a Recommender System assist an Irish student in exploring college courses they would consider studying?"}
 
 In this research question, the meaning of `assist' is intentionally broad, 
 and we can further understand the meaning of `assist' by exploring the three qualities of an effective RS, as outlined in \cite{aggarwal2016recommender}, a prominent and popular textbook on RSs:
@@ -116,9 +120,9 @@ This is would be incredibly effective in assisting the user with their college c
 
 Serendipity is the gold standard for RSs.
 However, it is very challenging to consistently produce serendipitous recommendations,
-because by their nature the recommendations are ``high-risk, high-reward''.
-RSs are often faced with the dilemma between producing ``safe'' recommendations that are likely relevant but uninteresting,
-or more ``adventurous'' recommendations that could be serendipitous or unsatisfactory.
+because by their nature the recommendations are `high-risk, high-reward'.
+RSs are often faced with the dilemma between producing `safe' recommendations that are likely relevant but uninteresting,
+or more `adventurous' recommendations that could be serendipitous or unsatisfactory.
 This is a well-known tradeoff in the field of RSs, and it is the price paid for attempting to achieve the gold standard in RSs: serendipity.
 
 In summary, according to \cite{aggarwal2016recommender}, an effective RS provides recommendations that are:
@@ -130,9 +134,10 @@ In summary, according to \cite{aggarwal2016recommender}, an effective RS provide
 \end{itemize}
 
 It is worth mentioning that the above three qualities will be referenced frequently throughout this dissertation, 
-and so we recommend that the reader grows familiar with these concepts.
-In summary, the research question for this dissertation is: \emph{``Can a Recommender System assist an Irish student in exploring college courses they would consider studying?"},
+and thus we recommend that the reader grows familiar with these concepts.
+In summary, the research question for this dissertation is: \emph{``To what extent can a Recommender System assist an Irish student in exploring college courses they would consider studying?"},
 and we hypothesise that an RS that provides relevant, diverse, and serendipitous recommendations would assist an Irish student in exploring college courses they would consider studying.
+Therefore, this disseration's ability to answer this research question will be measured by its performance on the relevance, diversity and serendipity metrics.
 
 \section{Research Objectives}
 
@@ -154,44 +159,6 @@ In this section, an overview of this dissertation's chapters is provided.
     \item Chapter \ref{chap:literature-review} - Literature Review. This chapter will review the literature surrounding college course choice, and closely-related works.
     \item Chapter \ref{chap:design} - Design. This chapter will describe the high-level design of the college course RS, with a justification of different design decisions.
     \item Chapter \ref{chap:implementation} - Implementation. This chapter will explore the implementation details behind the design ideas exposed in chapter \ref{chap:design}.
-    \item Chapter \ref{chap:evaluation} - Evaluation. This chapter will explain the conducted experiment methodology, and evaluate the RSs performance on various metrics.
+    \item Chapter \ref{chap:evaluation} - Evaluation. This chapter will explain the conducted experiment methodology, and evaluate the RS's performance on various metrics.
     \item Chapter \ref{chap:conclusions} - Conclusions \& Future Work. This chapter will summarise the dissertation, and explore potential areas for future development.
 \end{itemize}
-
-%%%% thesis-template.tex:
-% Introduction to the material covered in the document.
-
-% \section{Style of English}
-% \label{sec:StyleOfEnglish}
-
-% Style of English
-% An impersonal style keeps the technical factors and ideas to the forefront of the discussion and you in the background. Try to be objective and quantitative in your conclusions. For example, it is not enough to say vaguely “because the compiler was unreliable the code produced was not adequate”. It would be much better to say “because the XYZ compiler produced code which ran 2-3 times slower than PQR (see Table x,y), a fast enough scheduler could not be written using this algorithm”. The second version is more likely to make the reader think the writer knows what he/she is talking about, since it is a lot more authoritative. Also, you will not be able to write the second version without a modicum of thought and effort.
-
-% The following points are couple of {\it Do's \& Dont's} that I have noted down as feedback to reports over the years. The focus of this list is to encourage writers to be specific in writing reports - some of this is motivated by Strunk and White's The Elements of Style~(\cite{strunk}). Regarding reports that are submitted as part of a degree, examiners have to read and mark these reports - make it easy for these examiners to give good marks by following a number of simple points:
-
-% \begin{description}
-% 	\item [Acronyms:] Acronyms should be introduced by the words they represent followed by the acronym in capitals enclosed in brackets e.g. ``...TCP (Transmission Control Protocol)..." $\Rightarrow$  ``... Transmission Control Protocol (TCP)..."
-% 	\item [Contractions:] I would generally suggest to avoid contractions such as ``I'd", ``They've", etc in reports. In some cases, they are ambiguous e.g. ``I'd" $\Rightarrow$ ``I would" or ``I had" and can lead to misunderstandings.
-% 	\item [Avoid ``do":] Be specific and use specific verbs to describe actions.
-% 	\item [Adverbs:] Adverbs and adjectives such as ``easily", ``generally", etc should be removed because they are unspecific e.g. the statement ``can be easily implemented" depends very much on the developer. 
-% 	\item [Articles:] ``A" and ``an" are indefinite articles; they should be used if the subject is unknown. ``The" is a definite article; which should be used if a specific subject is referred to. For example, the subject referred to in ``allocated by the coordinator" is not determined at the time of writing and so the sentences should be changed to ``allocated by a coordinator".
-% 	\item [Avoid brackets:] Brackets should not be used to hide sub-sentences, examples or alternatives. The problem with this use of brackets is that it is not specific and keeps the reader guessing the exact meaning that is intended. For example ``... system entities (users, networks and services) through ..." should be replaced by ``... system entities such as users, networks, and services through ...".
-% 	\item [Figures:] Figures and graphs should have sufficient resolution; figures with low resolution appear blurred and require the reader to make assumptions.
-% 	\item  [Captions:] Use captions to describe a figure or table to the reader. The reader should not be forced to search through text to find a description of a figure or table. If you do not provide an interpretation of a figure or table, the reader will make up their own interpretation and given Murphy's law, will arrive at the polar opposite of what was intended by the figure or table.
-% 	\item [Backgrounds:] Backgrounds of figures and snapshots of screens should be light. Developers often use terminals or development environments with dark backgrounds. Snapshots of these terminals or developments are difficult to read when placed into a report. 
-% 	\item [Titles:] Titles of section should never be followed immediately by another title e.g. a title of a chapter should be followed by text describing the content and relevance of the sections of the chapter and could then be followed by the title of the first section of the chapter.
-% 	\item [Punctuation:] A statement is concluded with a period; a question with a question mark.  
-% 	\item [Spellcheckers:] Use a spellchecker!
-% \end{description}
-
-
-% \section{Figures} 
-
-% The arranging of figures in Latex can lead to spending a lot of time on minor issues e.g. positioning a figure in a specific location on a page, fixing minor issues with an exact size of a figure, etc. Figure~\ref{fig:ImageOfAChick} provides a simple example that demonstrates the use of one of two macros for handling figures, called {\it includefigure}; the other macro,  {\it includescalefigure}, is demonstrated in chapter~\ref{chap:Evaluation}. Figures should always be readable without magnification when printed and the resolution of an image should be sufficient to provide a clear picture when printed.
-
-% % \includefigure{fig:ImageOfAChick}{An Image of a chick}{A caption should describe the figure to the reader and explain to the reader the meaning of the figure. A Sub-clause of Murphy's Law: If the interpretation of a figure is left to a reader, the reader will misinterpret the figure, feel insulted or decide to ignore it. Do not leave it up to the reader!}{image.png}
-
-
-% \section{Structure \& Contents}
-
-% At the end of the introduction, a layout of the structure and the contents of the following chapters should be provided for the reader. The overall goal of all descriptions of contents that follows these descriptions is to prepare the reader. The reader should not be surprised by any content that is being presented and should always know how content that is currently being read fits within an overall dissertation.
