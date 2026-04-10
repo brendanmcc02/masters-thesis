@@ -1,3 +1,3 @@
 - [ ] personal motivation?
-- [ ] dad argument
 - [ ] rephrase research question?
+- [ ] dad argument
