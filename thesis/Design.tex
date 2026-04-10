@@ -215,12 +215,12 @@ However to the best of our knowledge, data on the mean salary or employment rate
 are unavailable. As a result, it would be very challenging to effectively integrate this information into our RS.
 It is worth mentioning this will be discussed as a piece of future work in subsection \ref{sec:add-info-concl}.
 
-\subsection{Meaning}
+\subsection{Desire for Meaningful Work}
 \label{sec:meaning-design}
 
 As also described in subsection \ref{sec:job-and-career-satisfaction}, a user's desire for meaningful work would be relevant information to gather from a user in the context of a college course RS.
 However, we believe this is challenging to work with, 
-as this information is difficult to translate to something computational.
+as this information is difficult to quantify numerically.
 For example, we could consider creating something akin to a `meaning score' for each college course: 
 where a value of 1.0 implies a high degree of meaning associated with the college course,
 and a value of 0.0 implies a low degree of meaning.
@@ -231,7 +231,7 @@ It is worth mentioning this will be discussed as a piece of future work in subse
 
 \subsection{Gender, Race/Ethnicity and Parent's Educational Background}
 
-As is clearly evident from our investigations in subsection \ref{sec:external-influences},
+As is clearly evident from our investigations in subsection \ref{sec:socio-demographic-influences},
 an individual's gender, race/ethnicity and parent's educational background are strong influences on an individual's college course choice.
 As a result, it could be reasonable to consider gathering these pieces of information from a user for the purpose of college course recommendations.
 
@@ -242,8 +242,8 @@ To give an example, suppose that a male demonstrates interest in pre-school teac
 which is 97\% female-dominated according to \cite{hea2024graduate}.
 An RS algorithm may deem this course unfit for the user solely on the basis on gender,
 reinforcing the gender norms and stereotypes surrounding this particular course.
-As a result, we would argue that external influences such as gender, race/ethnicity and parent's educational background
-would not be relevant in the context of college course recommendations, due to their implications.
+As a result, we would argue that socio-demographic influences such as gender, race/ethnicity and parent's educational background
+would not be relevant in the context of college course recommendations.
 
 In spite of our above efforts to unbias the RS, it is worth remembering that a human, with all their biases and limitations, will interact with the RS,
 meaning that the element of bias is still unavoidably present in the RS.
@@ -251,8 +251,8 @@ In this context, it is worth mentioning the work of \cite{wang2022humans},
 in which they compared the results of biased and unbiased career recommendation algorithms.
 According to their findings, 
 the users actually preferred the biased career recommendations over the unbiased recommendations.
-On the surface this may appear surprising; however when we consider our investigations in subsection \ref{sec:external-influences},
-we can recall that these external factors are large influences on an individual's college course choice,
+On the surface this may appear surprising; however when we consider our investigations in subsection \ref{sec:socio-demographic-influences},
+we can recall that these socio-demographic factors are large influences on an individual's college course choice,
 which explains these findings.
 
 In addition to this, to the best of our knowledge, data about race/ethnicity and parent's educational background 
