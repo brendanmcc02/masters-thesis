@@ -38,7 +38,6 @@ The main purpose of these interviews was to gain a deeper understanding of the G
 In particular, we were curious as to what information a GC asks a student in order to make 
 college course recommendations,
 which would help achieve research objective \ref{res-obj-information}: ``Identify the relevant information an RS should question a user to recommend suitable college courses".
-Naturally, this exploration is relevant as we will be designing an RS that provides personalised college course recommendations.
 This section will feature some insights gleaned from both interviews,
 and they will inspire the final design of this dissertation's RS.
 
@@ -187,7 +186,7 @@ works gather from users in order to provide personalised college course recommen
 
 Clearly, 
 we are presented with many different categories of information to gather from a user.
-Now, the task is to identity which categories are relevant to gather from a user in the context of a college course RS.
+Now, the task is to identify which categories are relevant to gather from a user in the context of a college course RS.
 In the next subsections we shall justify the inclusion or exclusion of
 different categories to gather from a user, allowing us to achieve research objective \ref{res-obj-information}:
 ``Identify the relevant information an RS should question a user to recommend suitable college courses".
@@ -229,10 +228,10 @@ how does one argue that one college course is more meaningful than another cours
 As a result, we can disregard a user's desire for meaning in the context of college course recommendations.
 It is worth mentioning this will be discussed as a piece of future work in subsection \ref{sec:add-info-concl}.
 
-\subsection{Gender, Race/Ethnicity and Parent's Educational Background}
+\subsection{Socio-demographic Influences}
 
 As is clearly evident from our investigations in subsection \ref{sec:socio-demographic-influences},
-an individual's gender, race/ethnicity and parent's educational background are strong influences on an individual's college course choice.
+an individual's gender, race/ethnicity and parents' educational background are strong socio-demographic influences on an individual's college course choice.
 As a result, it could be reasonable to consider gathering these pieces of information from a user for the purpose of college course recommendations.
 
 However, we would argue that these pieces of information should not be considered in the context of a college course RS.
@@ -242,7 +241,7 @@ To give an example, suppose that a male demonstrates interest in pre-school teac
 which is 97\% female-dominated according to \cite{hea2024graduate}.
 An RS algorithm may deem this course unfit for the user solely on the basis on gender,
 reinforcing the gender norms and stereotypes surrounding this particular course.
-As a result, we would argue that socio-demographic influences such as gender, race/ethnicity and parent's educational background
+As a result, we would argue that socio-demographic influences such as gender, race/ethnicity and parents' educational background
 would not be relevant in the context of college course recommendations.
 
 In spite of our above efforts to unbias the RS, it is worth remembering that a human, with all their biases and limitations, will interact with the RS,
@@ -255,9 +254,9 @@ On the surface this may appear surprising; however when we consider our investig
 we can recall that these socio-demographic factors are large influences on an individual's college course choice,
 which explains these findings.
 
-In addition to this, to the best of our knowledge, data about race/ethnicity and parent's educational background 
+In addition to this, to the best of our knowledge, data about race/ethnicity and parents' educational background 
 are not available for each college course in Ireland, posing a challenge for integrating this effectively into a college course RS.
-In spite of Wang et al.'s findings, we will disregard gender, race/ethnicity and parent's educational background
+In spite of Wang et al.'s findings, we will disregard gender, race/ethnicity and parents' educational background
 in the context of college course recommendations, due to the reinforcement of stereotypes and limitations on accessible data.
 
 \subsection{Myers-Briggs Type Indicator}
@@ -305,7 +304,7 @@ We justified the gathering of the following information from a user in the conte
     \item College preferences
 \end{itemize}
 
-In addition to this, we justified disregarding a user's hobbies, school grades, gender, race/ethnicity, parent's educational background, MBTI model,
+In addition to this, we justified disregarding a user's hobbies, school grades, gender, race/ethnicity, parents' educational background, MBTI model,
 and their desire for salary, job prospects and meaningful work in the context of college course recommendations.
 This completes research objective \ref{res-obj-information}: ``Identify the relevant information an RS should question a user to recommend suitable college courses",
 providing us with a clearer picture of the design behind our college course RS.
@@ -532,9 +531,9 @@ In this section, we will describe and justify the design to our RS.
 It is worth mentioning that during this dissertation,
 a significant amount of time was dedicated towards exploring a Collaborative Filtering (CF) approach 
 in designing our RS. 
-The approach utilised some popular datasets others may use in solving similar problems to this dissertation,
-However, this experiment yielded unsatisfactory results, and as a result we had to explore other RS types outside 
-of the CF approach.
+The approach utilised some popular datasets others may use in solving similar problems to this dissertation.
+However, this experiment yielded unsatisfactory results, and as a result we had to explore other RS types beyond 
+the CF approach.
 For the sake of brevity and relevance, the full content of this approach is outlined in the appendix in chapter \ref{chap:initial-prototypes}.
 This leaves us with the more traditional Content-Based Filtering (CBF) and Knowledge-Based Filtering (KBF).
 In the next two subsections we will describe the integration of these approaches into our RS.
@@ -598,7 +597,7 @@ This filtered set of college course recommendations will be instrumental in the 
 
 After the user interacts with the KBF RS, the candidates for their college course recommendations are refined through their explicitly set preferences.
 However, we must now provide a more personalised list of college course recommendations to the user.
-We will utilise the the user's RIASEC model, academic interests and expected LC points to bridge this gap.
+We will utilise the user's RIASEC model, academic interests and expected LC points to bridge this gap.
 Theoretically, we could utilise a KBF approach to provide more personalised recommendations.
 For instance, the RS could ask the user to explicitly filter college courses by academic interests.
 For example, the user could explicitly filter college course recommendations by biology and mathematics.
