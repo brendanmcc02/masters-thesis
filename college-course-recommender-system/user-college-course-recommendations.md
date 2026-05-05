@@ -1,204 +1,204 @@
 # RECOMMENDATION SET 1
 
-* **0. Dental Science**
+* **0. Education - Primary Teaching**
+    * Dublin City University
+    * **485** points
+    * **4 Years**
+
+* **1. Education - Primary Teaching - Gaeltacht Applicants**
+    * Marino Institute of Education
+    * **440** points
+    * **4 Years**
+
+* **2. Music Education**
     * Trinity College Dublin
-    * **625** points
-    * **5 Years**
+    * **656** points
+    * **4 Years**
 
-* **1. Medicine**
-    * University College Cork
-    * **730** points
-    * **5 Years**
+* **3. Education and Training**
+    * Dublin City University
+    * **346** points
+    * **3 - 4 Years**
 
-* **2. Veterinary Medicine**
+* **4. Education and Art or Design (Second Level Teaching)**
+    * National College of Art and Design
+    * **600** points
+    * **3 - 4 Years**
+
+* **5. Baitsiléir san Oideachas Trí Mheán na Gaeilge (Bunmhúinteoireacht)**
+    * Marino Institute of Education
+    * **502** points
+    * **4 Years**
+
+* **6. Baitsiléir san Oideachas Trí Mheán na Gaeilge (Bunmhúinteoireacht) - Gaeltacht Applicants**
+    * Marino Institute of Education
+    * **496** points
+    * **4 Years**
+
+* **7. Education - Early Childhood Education**
+    * Dublin City University
+    * **420** points
+    * **4 Years**
+
+* **8. Education (Education and Gaeilge)**
     * University College Dublin
-    * **589** points
-    * **5 Years**
-
-* **3. Occupational Therapy**
-    * University College Cork
-    * **566** points
+    * **442** points
     * **4 Years**
 
-* **4. Children's and General Nursing (Integrated)**
-    * University College Cork
-    * **522** points
-    * **4 Years**
-
-* **5. Midwifery**
+* **9. Education (Education and Modern Languages)**
     * University College Dublin
-    * **509** points
+    * **442** points
     * **4 Years**
 
-* **6. Veterinary Nursing**
+* **10. Education (Education, Gaeilge and Modern Languages)**
     * University College Dublin
-    * **487** points
+    * **442** points
     * **4 Years**
 
-* **7. Paramedicine**
-    * University College Cork
-    * **476** points
-    * **4 Years**
-
-* **8. General Nursing**
-    * **Available at:** University College Cork, Maynooth University, University College Dublin
-    * **444-466** points
-    * **4 Years**
-
-* **9. Mental Health Nursing**
-    * University College Cork
-    * **400** points
-    * **4 Years**
-
-* **10. Biomedical, Health and Life Sciences**
+* **11. Modern Languages**
     * University College Dublin
-    * **589** points
+    * **410** points
     * **4 Years**
 
-* **11. Biomedical Science**
-    * University College Cork
-    * **555** points
-    * **4 Years**
-
-* **12. Biological and Biomedical Sciences**
+* **12. Music/Modern Language**
     * Trinity College Dublin
-    * **554** points
+    * **527** points
     * **4 Years**
 
-* **13. Psychology**
+* **13. History/Modern Language**
+    * Trinity College Dublin
+    * **544** points
+    * **4 Years**
+
+* **14. Linguistics/Classical Languages**
+    * Trinity College Dublin
+    * **498** points
+    * **4 Years**
+
+* **15. Psychology**
     * Trinity College Dublin
     * **577** points
     * **4 Years**
 
-* **14. Applied Psychology**
-    * University College Cork
-    * **533** points
-    * **3 Years**
-
-* **15. Social Sciences (Two Subject Combination)**
+* **16. Social Sciences (Two Subject Combination)**
     * University College Dublin
     * **490** points
     * **3 Years**
 
-* **16. Social Studies (Social Work)**
+* **17. Social Studies (Social Work)**
     * Trinity College Dublin
     * **456** points
     * **4 Years**
 
-* **17. Early Years and Childhood Studies**
-    * University College Cork
-    * **368** points
-    * **4 Years**
-
-* **18. Social Science - Youth & Community Work**
-    * University College Cork
-    * **317** points
+* **18. Social Care**
+    * TU Dublin - Grangegorman
+    * **350** points
     * **3 Years**
 
-* **19. Chemistry**
+* **19. Horticulture - Agricultural Science**
     * University College Dublin
-    * **544** points
+    * **431** points
     * **4 Years**
 
 # RECOMMENDATION SET 2
 
-* **0. Dental Science**
-    * Trinity College Dublin
-    * **625** points
-    * **5 Years**
-
-* **1. Economics and Finance**
-    * University College Dublin
-    * **625** points
-    * **3-4 Years**
-
-* **2. Management Science and Information Systems Studies**
-    * Trinity College Dublin
-    * **625** points
+* **0. Actuarial Mathematics**
+    * Dublin City University
+    * **589** points
     * **4 Years**
 
-* **3. Actuarial & Financial Studies**
-    * University College Dublin
-    * **613** points
-    * **4 Years**
-
-* **4. Engineering with Management**
-    * Trinity College Dublin
-    * **613** points
-    * **4 Years**
-
-* **5. Law/Business Studies**
-    * Trinity College Dublin
-    * **613** points
-    * **4 Years**
-
-* **6. Law/History**
-    * Trinity College Dublin
-    * **613** points
-    * **4 Years**
-
-* **7. Mathematics/Modern Language**
-    * Trinity College Dublin
-    * **613** points
-    * **4 Years**
-
-* **8. Mathematics/Music**
-    * Trinity College Dublin
-    * **613** points
-    * **4 Years**
-
-* **9. Mathematics/Philosophy**
-    * Trinity College Dublin
-    * **613** points
-    * **4 Years**
-
-* **10. Global Business**
-    * Trinity College Dublin
-    * **602** points
-    * **4 years**
-
-* **11. Pharmacy**
-    * University College Cork
-    * **602** points
-    * **5 Years**
-
-* **12. Biomedical, Health and Life Sciences**
+* **1. Biomedical, Health and Life Sciences**
     * University College Dublin
     * **589** points
     * **4 Years**
 
-* **13. Law and French**
+* **2. Law and French**
     * Trinity College Dublin
     * **589** points
     * **4 Years**
 
-* **14. Philosophy, Political Science, Economics and Sociology**
+* **3. Philosophy, Political Science, Economics and Sociology**
     * Trinity College Dublin
     * **581** points
     * **4 Years**
 
-* **15. Economics/Geography**
+* **4. Economics/Geography**
     * Trinity College Dublin
     * **578** points
     * **4 Years**
 
-* **16. Economics/History**
+* **5. Economics/History**
     * Trinity College Dublin
     * **578** points
     * **4 Years**
 
-* **17. Economics/Mathematics**
+* **6. Economics/Mathematics**
     * Trinity College Dublin
     * **578** points
     * **4 Years**
 
-* **18. Economics/Modern Language**
+* **7. Economics/Modern Language**
     * Trinity College Dublin
     * **578** points
     * **4 Years**
 
-* **19. Economics/Philosophy**
+* **8. Economics/Philosophy**
     * Trinity College Dublin
     * **578** points
+    * **4 Years**
+
+* **9. Economics/Sociology**
+    * Trinity College Dublin
+    * **578** points
+    * **4 Years**
+
+* **10. Law**
+    * Trinity College Dublin
+    * **578** points
+    * **4 Years**
+
+* **11. Mathematics**
+    * Trinity College Dublin
+    * **578** points
+    * **4 Years**
+
+* **12. Pharmacy**
+    * Royal College of Surgeons in Ireland
+    * **578** points
+    * **5 Years**
+
+* **13. Physiotherapy**
+    * University College Dublin
+    * **578** points
+    * **4 Years**
+
+* **14. Engineering**
+    * Trinity College Dublin
+    * **577** points
+    * **4 Years**
+
+* **15. Psychology**
+    * Trinity College Dublin
+    * **577** points
+    * **4 Years**
+
+* **16. Human Health and Disease**
+    * Trinity College Dublin
+    * **567** points
+    * **4 Years**
+
+* **17. Business and Law**
+    * University College Dublin
+    * **566** points
+    * **4 Years**
+
+* **18. Law (BCL)**
+    * University College Dublin
+    * **566** points
+    * **4 Years**
+
+* **19. Law with Economics**
+    * University College Dublin
+    * **566** points
     * **4 Years**
 

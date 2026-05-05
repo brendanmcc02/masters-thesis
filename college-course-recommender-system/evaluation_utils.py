@@ -105,7 +105,7 @@ def write_user_college_course_recommendations_to_markdown(actual_college_course_
 
     for i in range(len(recommendation_sets)):
         markdown_output += "# RECOMMENDATION SET " + str(i+1) + "\n\n"
-        markdown_output += get_stringified_markdown_college_course_recommendations(recommendation_sets[i], is_gemini_prompt=False)
+        markdown_output += get_stringified_markdown_college_course_recommendations(recommendation_sets[i])
 
     with open("user-college-course-recommendations.md", "w") as file:
         file.write(markdown_output)

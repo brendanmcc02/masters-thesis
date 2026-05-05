@@ -103,15 +103,12 @@ def get_college_course_recommendations(user_interest_questions_results_vector, u
 
     for top_college_course_category_user_vector_index in top_college_course_category_user_vector_indexes:
         if len(college_course_recommendations) == MAX_NUM_OF_COLLEGE_COURSE_RECOMMENDATIONS:
-            add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector)
             return college_course_recommendations
         
         filtered_college_course_category_courses = get_filtered_college_course_category_courses(filtered_college_courses, top_college_course_category_user_vector_index)
         masked_college_course_category_course_recommendations = get_masked_college_course_category_course_recommendations(user_vector, top_college_course_category_user_vector_index, filtered_college_course_category_courses, top_college_course_category_user_vector_indexes)
 
         add_unique_college_course_recommendations(masked_college_course_category_course_recommendations, college_course_recommendations, num_of_max_recommended_courses_per_category[top_college_course_category_user_vector_index])
-
-    add_justifications_for_college_course_recommendations(college_course_recommendations, user_vector)
 
     return college_course_recommendations
 
